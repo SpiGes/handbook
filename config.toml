@@ -1,6 +1,7 @@
 #baseURL = 'https://spiges.github.io/handbook/'
 languageCode = 'de-CH'
 title = 'Handbuch SpiGes'
+theme = "docsy"
 
 # Language settings
 contentDir = "content/"
@@ -56,12 +57,10 @@ weight = 5
   [module.hugoVersion]
     extended = true
     min = "0.73.0"
-  [[module.imports]]
-    path = "github.com/google/docsy"
-    disable = false
-  [[module.imports]]
-    path = "github.com/google/docsy/dependencies"
-    disable = false
+#   [[module.imports]]
+#     path = "github.com/google/docsy"
+#   [[module.imports]]
+#     path = "github.com/google/docsy/dependencies"
 
 [params.ui]
 # Enable to show the side bar menu in its compact state.
