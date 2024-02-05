@@ -19,10 +19,6 @@ jobs:
       with:
         hugo-version: 'latest'
         extended: true
-    - name: Update Hugo Modules
-      run: |
-        hugo mod get -u
-        hugo mod tidy
     - name: List Hugo Modules
       run: hugo mod list
     - name: Build
