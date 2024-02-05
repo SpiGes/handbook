@@ -11,12 +11,20 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        submodules: true # Ajoutez cette ligne pour s'assurer que les sous-modules sont initialisés
+        submodules: true
+    - name: List Submodules
+      run: git submodule status
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
-        extended: true # Assurez-vous d'utiliser la version Extended de Hugo
+        extended: true
+    - name: Update Hugo Modules
+      run: |
+        hugo mod get -u
+        hugo mod tidy
+    - name: List Hugo Modules
+      run: hugo mod list
     - name: Build
       run: hugo --minify
     - name: Deploy
