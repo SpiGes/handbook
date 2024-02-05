@@ -10,10 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: true
+    - name: List Submodules
+      run: git submodule status
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
+        extended: true
+    - name: Update Hugo Modules
+      run: |
+        hugo mod get -u
+        hugo mod tidy
+    - name: List Hugo Modules
+      run: hugo mod list
     - name: Build
       run: hugo --minify
     - name: Deploy
