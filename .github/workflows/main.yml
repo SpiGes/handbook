@@ -10,10 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: true # Ajoutez cette ligne pour s'assurer que les sous-modules sont initialisés
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
+        extended: true # Assurez-vous d'utiliser la version Extended de Hugo
     - name: Build
       run: hugo --minify
     - name: Deploy
