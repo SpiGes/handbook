@@ -60,16 +60,6 @@ jobs:
 
       - name: Clear npm cache
         run: npm cache clean --force
-
-      - name: Install Node.js dependencies with npm install (Workaround)
-        run: |
-          n=0
-          until [ "$n" -ge 5 ]
-          do
-            npm install && break 
-            n=$((n+1))
-            sleep 5
-          done
           
       - name: Install Node.js dependencies with npm ci
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
@@ -89,11 +79,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: package-lock-json
-          path: package-lock.json
 
   # Deployment job
   deploy:
