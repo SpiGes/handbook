@@ -208,15 +208,15 @@ body {
     flex: 1 1 auto;
 
     .td-main {
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 3px;
+      margin-right: 3px;
 
       .content-wrapper {
         max-width: 1440px;
 
         aside,
         main {
-          padding: $ob-spacing-default 0;
+          padding: $ob-spacing-default;
         }
       }
     }
