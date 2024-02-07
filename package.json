@@ -5,7 +5,7 @@
   "repository": "github:spiges/handbook",
   "homepage": "https://spiges.github.io/handbook",
   "author": "SpiGes team",
-  "license": "CC BY NC ND 4.0",
+  "license": "CC BY-NC-ND 4.0",
   "spelling": "cSpell:ignore HTMLTEST precheck postbuild -",
   "scripts": {
     "_build": "npm run _hugo-dev --",
