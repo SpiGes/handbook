@@ -7,26 +7,12 @@
 		{{- if eq $translation.Lang .Lang }}
 		<li>
 			{{ if eq $pageLang .Lang }}
-			<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
+			<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Language.languageCode }}</a>
 			{{ else }}
-			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
+			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Language.languageCode }}</a>
 			{{ end }}
 		</li>
 		{{- end }}
 		{{- end }}
 	{{- end }}
-</ul>
-
-<ul class="navbar">.Site.Params:
-  {{ if .IsTranslated -}}
-    {{ range .Translations }}
-      <li><a href="{{ .Permalink }}" lang="{{ .Site.LanguageCode }}" title="{{ .Site.Language.LanguageName }}">{{ .Site.Language.LanguageName }}</a> </li>
-    {{ end }}
-  {{ else }}
-    {{ range .Site.Languages }}
-      {{ if ne .Lang $.Site.Language.Lang }}
-        <li><a href="{{ .Permalink }}" lang="{{ .Site.LanguageCode }}" title="{{ .Site.Language.LanguageName }}">{{ .Site.Language.LanguageName }}</a> </li>
-      {{ end }}
-    {{ end }}
-  {{ end }}
 </ul>
