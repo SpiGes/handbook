@@ -7,12 +7,18 @@
 		{{- if eq $translation.Lang .Lang }}
 		<li>
 			{{ if eq $pageLang .Lang }}
-			<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Language.languageCode }}</a>
+			<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
 			{{ else }}
-			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Language.languageCode }}</a>
+			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
 			{{ end }}
 		</li>
 		{{- end }}
 		{{- end }}
 	{{- end }}
+</ul>
+
+<ul>
+{{ range $.Site.Home.AllTranslations }}
+<li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+{{ end }}
 </ul>
