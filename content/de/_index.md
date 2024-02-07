@@ -1,7 +1,7 @@
 ---
 title: SpiGes
 slug: introduction
-description: 'SpiGes'
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 keywords: []
 weight: 0
 type: docs
