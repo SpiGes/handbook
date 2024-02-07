@@ -120,15 +120,17 @@ body {
                             text-decoration: none;
                         }
                     }
+
+                    @media (max-width: 767.99px) {
+                        .layout-title {
+                            border-left: 0px;
+                        }
+                    }
                 }
 
                 @media (max-width: 767.99px) {
                     .layout-brand {
                         flex-direction: column;
-                    }
-
-                    .layout-title {
-                        border-left: 0px;
                     }
                 }
 
