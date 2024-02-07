@@ -1,26 +1,21 @@
-<!doctype html>
-<html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.Language.Lang }}" class="no-js">
-  <head>
-  </head>
-  <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
-    <div class="viewport">
-      <header class="layout-header">
-        {{ partial "navbar.html" . }}
-      </header>
-      <div class="layout-wrapper">
-        <div class="td-main">
-          <div class="content-wrapper">
-            <div class="row flex-xl-nowrap">
-              <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none layout-sidebar">
-              </aside>
-              <main class="col-12 col-md-9 col-xl-10 pl-md-5 layout-main" role="main">
-                {{ block "main" . }}{{ end }}
-              </main>
-          </div>
-          </div>
-        </div>
-        {{ partial "footer.html" . }}
-      </div>
-    </div>
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        {{ block "title" . }}
+        <!-- Blocks may include default content. -->
+        {{ .Site.Title }}
+        {{ end }}
+    </title>
+</head>
+<body>
+    <!-- Code that all your templates share, like a header -->
+    {{ block "main" . }}
+    <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+</body>
 </html>
