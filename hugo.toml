@@ -124,10 +124,10 @@ theme = "base"
 
 [module]
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
-  # workspace = "docsy.work"
+  workspace = "docsy.work"
   [module.hugoVersion]
     extended = true
-    min = "0.110.0"
+    min = "0.122.0"
   [[module.imports]]
-    path = "github.com/google/docsy/releases/tag/v0.8.0"
+    path = "github.com/google/docsy"
     disable = false
