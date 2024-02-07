@@ -129,5 +129,5 @@ theme = "base"
     extended = true
     min = "0.110.0"
   [[module.imports]]
-    path = "github.com/google/docsy"
+    path = "github.com/google/docsy/releases/tag/v0.8.0"
     disable = false
