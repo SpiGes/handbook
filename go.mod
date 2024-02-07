@@ -1,5 +1,5 @@
-module github.com/me/my-new-site
+module github.com/spiges/handbook
 
-go 1.18
+go 1.22
 
-require github.com/google/docsy v0.6.0 // indirect
+require github.com/google/docsy v0.8.0 // indirect

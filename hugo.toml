@@ -124,7 +124,7 @@ theme = "base"
 
 [module]
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
-  workspace = "docsy.work"
+  # workspace = "docsy.work"
   [module.hugoVersion]
     extended = true
     min = "0.122.0"
