@@ -90,6 +90,11 @@ jobs:
         with:
           path: ./public
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: package-lock-json
+          path: package-lock.json
+
   # Deployment job
   deploy:
     environment:
