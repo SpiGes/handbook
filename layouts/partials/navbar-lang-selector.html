@@ -1,10 +1,6 @@
 <ul class="language-switcher">
-	{{ $siteLanguages := site.Languages }}
 	{{ $pageLang := .Page.Lang }}
-	{{- range $.Site.Home.AllTranslations }}
-		{{ $translation := . }}
-		{{- range sort $siteLanguages "Weight" "asc" }}
-		{{- if eq $translation.Lang .Lang }}
+	{{ range $.Site.Home.AllTranslations }}
 		<li>
 			{{ if eq $pageLang .Lang }}
 			<a class="active" href="{{ .RelPermalink }}">{{ upper .Language.LanguageCode }}</a>
@@ -12,7 +8,5 @@
 			<a href="{{ .RelPermalink }}">{{ upper .Language.LanguageCode }}</a>
 			{{ end }}
 		</li>
-		{{- end }}
-		{{- end }}
 	{{- end }}
 </ul>
