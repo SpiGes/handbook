@@ -19,6 +19,6 @@
 
 <ul>
 {{ range $.Site.Home.AllTranslations }}
-<li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+<li><a href="{{ .RelPermalink }}">{{ upper .Language.LanguageCode }}</a></li>
 {{ end }}
 </ul>
