@@ -215,6 +215,11 @@ jobs:
           git config --local user.name "${{ vars.TECHNICAL_USER }}"
           git config --local user.email "${{ vars.TECHNICAL_USER_EMAIL }}"
 
+      - name: Pull from repo Git repo
+        if: success()
+        run: |
+          git pull
+
       - name: Add change and commit
         if: success()
         run: |
