@@ -110,7 +110,7 @@ description = "Manual and Information about SpiGes"
 [params]
 # The version number of the docs. It should correspond to the version of SpiGes but could also be decorrelated. MUSTN'T BE EMPTY!
 # and MUST BE INCREASED at each release!
-version = "0.1.0-test1-dev"
+version = "0.1.0-test1"
 
 # Datetime of the build intended to be set by the CI, LEAVE EMPTY HERE!
 buildDatetime = ""
