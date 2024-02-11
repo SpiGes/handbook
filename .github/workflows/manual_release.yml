@@ -170,7 +170,7 @@ jobs:
         if: success()
         id: create_release
         run: |
-          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --notes-file RELEASE_NOTES.md --draft
+          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --notes-file RELEASE_NOTE.md --draft
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
