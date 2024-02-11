@@ -1,15 +1,8 @@
-# Build, Deploy Hugo site to Pages, Update Hugo Config with release version + commit/push, Create, Publish Release, Update Hugo Config with next dev version + commit/push
+# Build, Deploy Hugo site to Pages, Update Hugo Config, Create Release Draft, Publish Release
 name: Release Documentation
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: 'Version for the release using the format <MAJOR>.<MINOR>.<DEBUG>[-<identifier>]'
-        required: true
-      release_name:
-        description: 'Name for the release'
-        required: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -28,9 +21,54 @@ defaults:
     shell: bash
 
 jobs:
+  extract_release_version:
+    runs-on: ubuntu-latest
+    outputs:
+      release_version: ${{ steps.extract.outputs.release_version }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract release version from hugo.toml
+        if: success()
+        id: extract
+        run: |
+          release_version=$(grep 'version = ' hugo.toml | sed 's/version = "\(.*\)"/\1/')
+          echo "Extracted version: $release_version"
+          if [[ -z "$release_version" ]]; then
+            echo "Release version is empty. Stopping the workflow."
+            exit 1
+          else
+            echo "release_version=$release_version" >> $GITHUB_OUTPUT
+          fi
+
+  check_git_tag:
+    needs: [extract_release_version]
+    runs-on: ubuntu-latest
+    if: always() && success()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+          with: 
+            fetch-depth: 0
+      
+      - name: Check if tag exists
+        if: success()
+        env:
+          RELEASE_VERSION: ${{ needs.extract_release_version.outputs.release_version }}
+        run: |
+          if git rev-parse "refs/tags/$RELEASE_VERSION" >/dev/null 2>&1; then
+            echo "Tag $RELEASE_VERSION already exists."
+            exit 1
+          else
+            echo "Tag $RELEASE_VERSION does not exist."
+          fi
+
   # Build job
   build:
+    needs: [check_git_tag]
     runs-on: ubuntu-latest
+    if: always() && success()
     env:
       HUGO_VERSION: 0.122.0
     steps:
@@ -48,7 +86,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-          fetch-depth: 0
 
       - name: Setup Pages
         if: success()
@@ -69,12 +106,9 @@ jobs:
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Update hugo.toml with release version, build datetime and git hash
+      - name: Update hugo.toml with build datetime and git hash
         if: success()
         run: |
-          RELEASE_VERSION=${{ github.event.inputs.version }}
-          sed -i "s/version = \".*\"/version = \"$RELEASE_VERSION\"/" hugo.toml
-
           # Set the build datetime
           buildDatetime=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           sed -i "s/buildDatetime = \".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
@@ -113,51 +147,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  update-release-config:
-    needs: [deploy]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    if: always() && success()
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with: 
-          token: ${{ secrets.ACCESS_TOKEN }}
-      
-      - name: Pull from repo Git repo
-        if: success()
-        run: |
-          git pull
-
-      - name: Update Hugo config with release version
-        if: success()
-        id: updateConfig
-        run: |
-          RELEASE_VERSION="${{ github.event.inputs.version }}"
-          sed -i "s/version = \".*\"/version = \"$RELEASE_VERSION\"/" hugo.toml
-          echo "::set-output name=release_version::$RELEASE_VERSION"
-
-      - name: Config local Git repo
-        if: success()
-        run: |
-          git switch main
-          git config --local user.name "${{ vars.TECHNICAL_USER }}"
-          git config --local user.email "${{ vars.TECHNICAL_USER_EMAIL }}"
-
-      - name: Add change and commit
-        if: success()
-        run: |
-          git add hugo.toml
-          git commit -m "Update Hugo config version to ${{ steps.updateConfig.outputs.release_version }}"
-      
-      - name: Push commit to remote repo (GitHub)
-        if: success()
-        run: |
-          git push
-
   create-release:
-    needs: [update-release-config]
+    needs: [deploy, extract_release_version]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -169,13 +160,16 @@ jobs:
       - name: Create Release
         if: success()
         id: create_release
+        env:
+          RELEASE_VERSION: ${{ needs.extract_release_version.outputs.release_version }}
         run: |
-          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --notes-file RELEASE_NOTE.md --draft
+          echo "release version = $RELEASE_VERSION"
+          gh release create "v$RELEASE_VERSION" --title "Release $RELEASE_VERSION" --notes-file RELEASE_NOTE.md --draft
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
   publish-release:
-    needs: [create-release]
+    needs: [create-release, extract_release_version]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -185,50 +179,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Publish Release
+        env:
+          RELEASE_VERSION: ${{ needs.extract_release_version.outputs.release_version }}
         run: |
-          gh release edit "v${{ github.event.inputs.version }}" --draft=false
+          echo "release version = $RELEASE_VERSION"
+          gh release edit "v$RELEASE_VERSION" --draft=false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  update-dev-config:
-    needs: [publish-release]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    if: always() && success()
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with: 
-          token: ${{ secrets.ACCESS_TOKEN }}
-      
-      - name: Pull from repo Git repo
-        if: success()
-        run: |
-          git pull
-
-      - name: Update Hugo config with next dev version
-        if: success()
-        id: updateConfig
-        run: |
-          NEXT_DEV_VERSION="${{ github.event.inputs.version }}-dev"
-          sed -i "s/version = \".*\"/version = \"$NEXT_DEV_VERSION\"/" hugo.toml
-          echo "::set-output name=next_dev_version::$NEXT_DEV_VERSION"
-
-      - name: Config local Git repo
-        if: success()
-        run: |
-          git switch main
-          git config --local user.name "${{ vars.TECHNICAL_USER }}"
-          git config --local user.email "${{ vars.TECHNICAL_USER_EMAIL }}"
-
-      - name: Add change and commit
-        if: success()
-        run: |
-          git add hugo.toml
-          git commit -m "Update Hugo config version to ${{ steps.updateConfig.outputs.next_dev_version }}"
-      
-      - name: Push commit to remote repo (GitHub)
-        if: success()
-        run: |
-          git push
