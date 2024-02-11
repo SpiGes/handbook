@@ -1,11 +1,14 @@
-name: Build and Deploy Hugo site to Pages
+name: Build, Update Hugo Config, Deploy Hugo site to Pages, Create and Publish Release
 
 on:
-  # Runs on release creation
-  release:
-    # Filter to trigger only for draft releases
-    types: [created]
-    condition: github.event.release.draft == true
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version for the release using the format <MAJOR>.<MINOR>.<DEBUG>[-<identifier>]'
+        required: true
+      release_name:
+        description: 'Name for the release'
+        required: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -130,11 +133,25 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  publish-release:
+  create-release:
     needs: [deploy]
     runs-on: ubuntu-latest
     if: always() && success()
     steps:
-      - name: Publish release
+      - name: Create Release
+        id: create_release
         run: |
-          gh release publish ${{ github.event.release.tag_name }}
+          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --draft
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+  publish-release:
+    needs: [create-release]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish Release
+        if: always() && success()
+        run: |
+          gh release publish "v${{ github.event.inputs.version }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
