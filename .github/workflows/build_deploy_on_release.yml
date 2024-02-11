@@ -34,31 +34,41 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Install Dart Sass Embedded
+        if: success()
         run: sudo snap install dart-sass-embedded
 
       - name: Checkout
+        if: success()
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
       - name: Setup Pages
+        if: success()
         id: pages
         uses: actions/configure-pages@v4
 
       - name: Setup Node.js
+        if: success()
         uses: actions/setup-node@v4
         with:
           node-version: "20.11.0"
 
       - name: Clear npm cache
+        if: success()
         run: npm cache clean --force
 
       - name: Install Node.js dependencies with npm ci
+        if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Update hugo.toml with build datetime and git hash
+      - name: Update hugo.toml with release version, build datetime and git hash
+        if: success()
         run: |
+          RELEASE_VERSION=${GITHUB_REF#refs/tags/}
+          sed -i "s/version = \".*\"/version = \"$RELEASE_VERSION\"/" hugo.toml
+
           # Set the build datetime
           buildDatetime=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           sed -i "s/buildDatetime = \".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
@@ -68,6 +78,7 @@ jobs:
           sed -i "s/gitHash = \".*\"/gitHash = \"$gitHash\"/" hugo.toml
 
       - name: Build with Hugo
+        if: success()
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -79,34 +90,31 @@ jobs:
               --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
+        if: success()
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  tag:
-    needs: build
+  update-config:
+    needs: [build]
     runs-on: ubuntu-latest
     if: always() && success()
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-
-      - name: Extract version from Hugo config
-        id: extract_version
+      
+      - name: Update Hugo config with next dev version
         run: |
-          version=$(grep 'version =' hugo.toml | head -1 | awk -F '"' '{print $2}')
-          echo "::set-output name=version::$version"
-
-      - name: Tag the commit
-        run: |
-          git tag -a v${{ steps.extract_version.outputs.version }} -m "Release v${{ steps.extract_version.outputs.version }}"
-          git push --tags
+          NEXT_DEV_VERSION="${GITHUB_REF#refs/tags/}-dev"
+          sed -i "s/version = \".*\"/version = \"$NEXT_DEV_VERSION\"/" hugo.toml
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add config.toml
+          git commit -m "Update Hugo config version to $NEXT_DEV_VERSION"
+          git push
 
   deploy:
-    needs: [build, tag]
+    needs: [build, update-config]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
