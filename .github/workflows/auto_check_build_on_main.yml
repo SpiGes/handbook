@@ -24,10 +24,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check last commit author
+      - name: Check last committer name
         run: |
-          if [ "$(git log -1 --pretty=format:'%an')" == "${{ vars.TECHNICAL_USER }}" ]; then
-            echo "The last author is '${{ vars.TECHNICAL_USER }}'. The workflow is going to be aborted."
+          committer_name=$(git log -1 --pretty=format:'%cn')
+          if [ "$committer_name" = "${{ vars.TECHNICAL_USER }}" ]; then
+            echo "The last commiter name is '${{ vars.TECHNICAL_USER }}'. The workflow is going to be aborted."
             exit 1
           fi
 
