@@ -29,15 +29,19 @@ jobs:
           committer_name=$(git log -1 --pretty=format:'%cn')
 
           echo "Committer Name: '$committer_name'" 
-
+          
+          SHOULD_CONTINUE="true"
           if [ "$committer_name" = "${{ vars.TECHNICAL_USER }}" ]; then
             echo "The last commiter name is '${{ vars.TECHNICAL_USER }}'. The workflow is going to be aborted."
-            exit 1
+            SHOULD_CONTINUE="false"
           fi
+
+          echo "should_continue=$SHOULD_CONTINUE" >> $GITHUB_OUTPUT
 
   # Build job
   build:
     needs: [check-author]
+    if: ${{ needs.check-author.outputs.should_continue == 'true' }}
     runs-on: ubuntu-latest
     env:
         HUGO_VERSION: 0.122.0
