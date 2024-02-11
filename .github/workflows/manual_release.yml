@@ -3,11 +3,6 @@ name: Release Documentation
 
 on:
   workflow_dispatch:
-    inputs:
-      branch_name:
-        description: 'Branch to run the workflow on'
-        required: true
-        default: 'main'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
