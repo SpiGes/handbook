@@ -162,11 +162,10 @@ jobs:
         id: create_release
         env:
           RELEASE_VERSION: ${{ needs.extract_release_version.outputs.release_version }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "release version = $RELEASE_VERSION"
           gh release create "v$RELEASE_VERSION" --title "Release $RELEASE_VERSION" --notes-file RELEASE_NOTE.md --draft
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
   publish-release:
     needs: [create-release, extract_release_version]
@@ -181,8 +180,7 @@ jobs:
       - name: Publish Release
         env:
           RELEASE_VERSION: ${{ needs.extract_release_version.outputs.release_version }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "release version = $RELEASE_VERSION"
           gh release edit "v$RELEASE_VERSION" --draft=false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
