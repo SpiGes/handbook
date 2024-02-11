@@ -27,6 +27,9 @@ jobs:
       - name: Check last committer name
         run: |
           committer_name=$(git log -1 --pretty=format:'%cn')
+
+          echo "Committer Name: '$committer_name'" 
+
           if [ "$committer_name" = "${{ vars.TECHNICAL_USER }}" ]; then
             echo "The last commiter name is '${{ vars.TECHNICAL_USER }}'. The workflow is going to be aborted."
             exit 1
