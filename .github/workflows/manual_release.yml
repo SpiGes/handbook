@@ -10,9 +10,6 @@ on:
       release_name:
         description: 'Name for the release'
         required: true
-      release_note:
-        description: 'Release note'
-        required: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -173,7 +170,7 @@ jobs:
         if: success()
         id: create_release
         run: |
-          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --notes "${{ github.event.inputs.release_note }}" --draft
+          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --notes-file RELEASE_NOTES.md --draft
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
