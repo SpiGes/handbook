@@ -140,8 +140,8 @@ jobs:
         if: success()
         run: |
           git switch main
-          git config --local user.name "{{ vars.TECHNICAL_USER }}"
-          git config --local user.email "{{ vars.TECHNICAL_USER_EMAIL }}"
+          git config --local user.name "${{ vars.TECHNICAL_USER }}"
+          git config --local user.email "${{ vars.TECHNICAL_USER_EMAIL }}"
 
       - name: Add change and commit
         if: success()
@@ -184,7 +184,7 @@ jobs:
 
       - name: Publish Release
         run: |
-          gh release publish "v${{ github.event.inputs.version }}"
+          gh release edit "v${{ github.event.inputs.version }}" --draft=false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -212,8 +212,8 @@ jobs:
         if: success()
         run: |
           git switch main
-          git config --local user.name "{{ vars.TECHNICAL_USER }}"
-          git config --local user.email "{{ vars.TECHNICAL_USER_EMAIL }}"
+          git config --local user.name "${{ vars.TECHNICAL_USER }}"
+          git config --local user.email "${{ vars.TECHNICAL_USER_EMAIL }}"
 
       - name: Add change and commit
         if: success()
