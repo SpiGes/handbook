@@ -107,6 +107,7 @@ jobs:
         run: |
           NEXT_DEV_VERSION="${GITHUB_REF#refs/tags/}-dev"
           sed -i "s/version = \".*\"/version = \"$NEXT_DEV_VERSION\"/" hugo.toml
+          git switch main
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add hugo.toml
