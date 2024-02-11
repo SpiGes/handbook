@@ -1,4 +1,5 @@
-name: Build Hugo site
+# Check automatically, after pushing on main, the build of Hugo site
+name: Auto Check Build
 
 on:
   # Runs on pushes targeting the main branch

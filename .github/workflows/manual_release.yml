@@ -1,4 +1,5 @@
-name: Build, Update Hugo Config, Deploy Hugo site to Pages, Create and Publish Release
+# Build, Update Hugo Config, Deploy Hugo site to Pages, Create and Publish Release
+name: Release Documentation
 
 on:
   workflow_dispatch:
