@@ -125,3 +125,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  cleanup:
+    needs: [build, update-config, deploy]
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Delete Tag if Failure
+        run: |
+          TAG_NAME=${GITHUB_REF#refs/tags/}
+          git push --delete origin $TAG_NAME
+          echo "Tag $TAG_NAME deleted because the workflow failed."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
