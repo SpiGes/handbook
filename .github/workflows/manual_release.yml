@@ -1,4 +1,4 @@
-# Build, Update Hugo Config, Deploy Hugo site to Pages, Create and Publish Release
+# Build, Deploy Hugo site to Pages, Update Hugo Config with release version + commit/push, Create, Publish Release, Update Hugo Config with next dev version + commit/push
 name: Release Documentation
 
 on:
@@ -101,8 +101,88 @@ jobs:
         with:
           path: ./public
 
-  update-config:
+  deploy:
     needs: [build]
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    if: always() && success()
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  update-release-config:
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    if: always() && success()
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with: 
+          token: ${{ secrets.ACCESS_TOKEN }}
+      
+      - name: Update Hugo config with release version
+        if: success()
+        id: updateConfig
+        run: |
+          RELEASE_VERSION="${{ github.event.inputs.version }}"
+          sed -i "s/version = \".*\"/version = \"$RELEASE_VERSION\"/" hugo.toml
+          echo "::set-output name=release_version::$RELEASE_VERSION"
+
+      - name: Config local Git repo
+        if: success()
+        run: |
+          git switch main
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add change and commit
+        if: success()
+        run: |
+          git add hugo.toml
+          git commit -m "Update Hugo config version to ${{ steps.updateConfig.outputs.release_version }}"
+      
+      - name: Push commit to remote repo (GitHub)
+        if: success()
+        run: |
+          git push
+
+  create-release:
+    needs: [update-release-config]
+    runs-on: ubuntu-latest
+    if: always() && success()
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        if: success()
+        id: create_release
+        run: |
+          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --draft
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+  publish-release:
+    needs: [create-release]
+    runs-on: ubuntu-latest
+    if: always() && success()
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Publish Release
+        run: |
+          gh release publish "v${{ github.event.inputs.version }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  update-dev-config:
+    needs: [publish-release]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -114,6 +194,7 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
       
       - name: Update Hugo config with next dev version
+        if: success()
         id: updateConfig
         run: |
           NEXT_DEV_VERSION="${{ github.event.inputs.version }}-dev"
@@ -121,51 +202,19 @@ jobs:
           echo "::set-output name=next_dev_version::$NEXT_DEV_VERSION"
 
       - name: Config local Git repo
+        if: success()
         run: |
           git switch main
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Add change and commit
+        if: success()
         run: |
           git add hugo.toml
           git commit -m "Update Hugo config version to ${{ steps.updateConfig.outputs.next_dev_version }}"
       
       - name: Push commit to remote repo (GitHub)
+        if: success()
         run: |
           git push
-
-  deploy:
-    needs: [build, update-config]
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    if: always() && success()
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-  create-release:
-    needs: [deploy]
-    runs-on: ubuntu-latest
-    if: always() && success()
-    steps:
-      - name: Create Release
-        id: create_release
-        run: |
-          gh release create "v${{ github.event.inputs.version }}" --title "${{ github.event.inputs.release_name }}" --draft
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-  publish-release:
-    needs: [create-release]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Publish Release
-        if: always() && success()
-        run: |
-          gh release publish "v${{ github.event.inputs.version }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
