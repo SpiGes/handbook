@@ -111,16 +111,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Update Hugo config with next dev version
+      - name: Update Hugo config with next dev version and commit
         run: |
           NEXT_DEV_VERSION="${{ github.event.inputs.version }}-dev"
           sed -i "s/version = \".*\"/version = \"$NEXT_DEV_VERSION\"/" hugo.toml
           git switch main
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add hugo.toml
           git commit -m "Update Hugo config version to $NEXT_DEV_VERSION"
-          git push
+
+      - name: Push changes to GitHub
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          branch: main
 
   deploy:
     needs: [build, update-config]
