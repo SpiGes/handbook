@@ -26,8 +26,8 @@ jobs:
 
       - name: Check last commit author
         run: |
-          if [ "$GITHUB_ACTOR" == "${{ vars.TECHNICAL_USER }}" ]; then
-            echo "The last author is '${{ github.event.head_commit.author.username }}'. The workflow is going to be aborted."
+          if [ "$(git log -1 --pretty=format:'%an')" == "${{ vars.TECHNICAL_USER }}" ]; then
+            echo "The last author is '${{ vars.TECHNICAL_USER }}'. The workflow is going to be aborted."
             exit 1
           fi
 
