@@ -109,7 +109,7 @@ jobs:
           sed -i "s/version = \".*\"/version = \"$NEXT_DEV_VERSION\"/" hugo.toml
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add config.toml
+          git add hugo.toml
           git commit -m "Update Hugo config version to $NEXT_DEV_VERSION"
           git push
 
