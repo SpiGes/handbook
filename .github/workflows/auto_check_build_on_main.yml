@@ -89,11 +89,26 @@ jobs:
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Update BaseURL in hugo.toml
+      - name: Update hugo.toml
         if: success()
         run: |
           baseURL=${{ github.event.inputs.deployedBaseUrl }}
           sed -i "s|baseURL = '.*'|baseURL = '$baseURL'|" hugo.toml
+
+          branch_name=$(echo $GITHUB_REF | sed 's|refs/heads/||')
+          echo "Current branch: $branch_name" 
+
+          gitHash=$(git rev-parse --short HEAD)
+          echo "git hash: $gitHash" 
+          sed -i "s/gitHash = \".*\"/gitHash = \"$gitHash\"/" hugo.toml
+
+          version=$(grep 'version = "' hugo.toml | sed 's/version = "\([^"]*\)"/\1/')
+          echo "Current version: $version"
+
+          new_version="${version}-${branch_name}"
+          echo "New version: $new_version"
+
+          sed -i "s|version = \"${version}\"|version = \"${new_version}\"|" hugo.toml
 
       - name: Build with Hugo
         if: success()
@@ -106,6 +121,13 @@ jobs:
                 --gc \
                 --minify \
                 --baseURL "${{ github.event.inputs.deployedBaseUrl }}"
+
+      - name: Copy README.md and LICENSE.md files in public directory
+        if: success()
+        run: |
+          "This repository contents the built SpiGes-Documentation project website for testing" > README.md
+          cp README.md public/
+          cp LICENSE.md public/
 
       - name: Deploy to the specified environment
         if: success()
