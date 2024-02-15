@@ -1,2 +1,2 @@
 # SpiGes-docs
-Documentation of SpiGes project  
+Documentation of SpiGes project
