@@ -89,14 +89,14 @@ jobs:
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Update hugo.toml
+      - name: Update hugo.toml and scss variables
         if: success()
         run: |
           baseURL=${{ github.event.inputs.deployedBaseUrl }}
           sed -i "s|baseURL = '.*'|baseURL = '$baseURL'|" hugo.toml
 
-          branch_name=$(echo $GITHUB_REF | sed 's|refs/heads/||')
-          echo "Current branch: $branch_name" 
+          buildDatetime=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          sed -i "s/buildDatetime = \".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
 
           gitHash=$(git rev-parse --short HEAD)
           echo "git hash: $gitHash" 
@@ -105,10 +105,13 @@ jobs:
           version=$(grep 'version = "' hugo.toml | sed 's/version = "\([^"]*\)"/\1/')
           echo "Current version: $version"
 
+          branch_name=$(echo $GITHUB_REF | sed 's|refs/heads/||')
+          echo "Current branch: $branch_name" 
           new_version="${version}-${branch_name}"
           echo "New version: $new_version"
-
           sed -i "s|version = \"${version}\"|version = \"${new_version}\"|" hugo.toml
+
+          sed -i "s|$ob-venetian-red: #.*;|$ob-venetian-red: #004ddc;|" assets/scss/_variable_project.scss
 
       - name: Build with Hugo
         if: success()
