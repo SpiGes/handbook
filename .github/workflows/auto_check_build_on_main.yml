@@ -111,7 +111,7 @@ jobs:
           echo "New version: $new_version"
           sed -i "s|version = \"${version}\"|version = \"${new_version}\"|" hugo.toml
 
-          sed -i "s|$ob-venetian-red: #.*;|$ob-venetian-red: #004ddc;|" assets/scss/_variables_project.scss
+          sed -i "s|\$ob-venetian-red: #.*;|\$ob-venetian-red: #004ddc;|" assets/scss/_variables_project.scss
 
       - name: Build with Hugo
         if: success()
