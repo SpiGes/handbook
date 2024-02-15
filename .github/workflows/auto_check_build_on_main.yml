@@ -66,25 +66,37 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb    
 
       - name: Install Dart Sass Embedded
+        if: success()
         run: sudo snap install dart-sass-embedded
 
       - name: Checkout
+        if: success()
         uses: actions/checkout@v4
         with:
           submodules: recursive
 
       - name: Setup Node.js
+        if: success()
         uses: actions/setup-node@v4
         with:
           node-version: '20.11.0'
 
       - name: Clear npm cache
+        if: success()
         run: npm cache clean --force
           
       - name: Install Node.js dependencies with npm ci
+        if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
+      - name: Update BaseURL in hugo.toml
+        if: success()
+        run: |
+          baseURL=${{ github.event.inputs.deployedBaseUrl }}
+          sed -i "s|baseURL = '.*'|baseURL = '$baseURL'|" hugo.toml
+
       - name: Build with Hugo
+        if: success()
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -96,6 +108,7 @@ jobs:
                 --baseURL "${{ github.event.inputs.deployedBaseUrl }}"
 
       - name: Deploy to the specified environment
+        if: success()
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: ${{ github.event.inputs.targetBranch }}
