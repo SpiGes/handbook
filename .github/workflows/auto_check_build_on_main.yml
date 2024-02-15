@@ -58,3 +58,12 @@ jobs:
                 --gc \
                 --minify \
                 --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Deploy to test environment (handbook-test)
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: main
+          build_dir: public
+          token: ${{ secrets.ACCESS_TOKEN }}
+          repo_name: spiges/handbook-test
+          keep_files: false
