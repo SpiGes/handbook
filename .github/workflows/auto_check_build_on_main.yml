@@ -73,4 +73,4 @@ jobs:
           repo: spiges/handbook-test
           keep_history: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TEST_REPO_TOKEN }}
