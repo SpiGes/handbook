@@ -33,7 +33,7 @@ jobs:
         if: success()
         id: extract
         run: |
-          release_version=$(grep 'version = ' hugo.toml | sed 's/version = "\(.*\)"/\1/')
+          release_version=$(grep 'version[[:space:]]*=' hugo.toml | sed 's/version[[:space:]]*=[[:space:]]*"\([^"]*\)"/\1/')
           echo "Extracted version: $release_version"
           if [[ -z "$release_version" ]]; then
             echo "Release version is empty. Stopping the workflow."
@@ -111,11 +111,11 @@ jobs:
         run: |
           # Set the build datetime
           buildDatetime=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          sed -i "s/buildDatetime = \".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
+          sed -i "s/buildDatetime[[:space:]]*=[[:space:]]*\".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
           
           # Set the git hash
           gitHash=$(git rev-parse --short HEAD)
-          sed -i "s/gitHash = \".*\"/gitHash = \"$gitHash\"/" hugo.toml
+          sed -i "s/gitHash[[:space:]]*=[[:space:]]*\".*\"/gitHash = \"$gitHash\"/" hugo.toml
 
       - name: Build with Hugo
         if: success()
