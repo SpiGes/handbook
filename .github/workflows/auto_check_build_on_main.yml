@@ -64,6 +64,5 @@ jobs:
         with:
           target_branch: main
           build_dir: public
-          token: ${{ secrets.ACCESS_TOKEN }}
-          repo_name: spiges/handbook-test
-          keep_files: false
+          repo: spiges/handbook-test
+          keep_history: false
