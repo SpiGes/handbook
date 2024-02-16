@@ -138,7 +138,7 @@ jobs:
         if: success() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || github.event.inputs.deploymentEnabled == 'true')
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: ${{ env.TARGET_REPOSITORY }}
+          target_branch: ${{ env.TARGET_BRANCH }}
           build_dir: public
           repo: ${{ env.TARGET_REPOSITORY }}
           keep_history: ${{ env.KEEP_TARGET_HISTORY }}
