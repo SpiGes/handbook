@@ -12,36 +12,18 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      withDeployment:
+      deploymentEnabled:
         description: 'The built website must be deployed'
         required: false
         default: true
         type: boolean
 
-      targetRepository:
-        description: 'The target repository where the website must be deployed to.'
-        required: false
-        default: 'spiges/handbook-test'
-        type: string
-
-      targetBranch:
-        description: 'The target branch in ''targetRepository'' where the website must be deployed to.'
-        required: false
-        default: 'main'
-        type: string
-
-      withTargetHistoryKept:
-        description: 'Tells the Git history of ''targetBranch@targetRepository'' must be kept'
-        required: false
-        default: false
-        type: boolean
-
-      deployedBaseUrl:
-        description: 'The base-URL from which the deployed website is reachable'
-        required: false
-        default: 'https://spiges.github.io/handbook-test/'
-        type: string
-
+env:
+  TARGET_REPOSITORY: 'spiges/handbook-test'
+  TARGET_BRANCH: 'main'
+  KEEP_TARGET_HISTORY: false
+  DEPLOYED_BASE_URL: 'https://spiges.github.io/handbook-test/'
+        
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
@@ -92,7 +74,7 @@ jobs:
       - name: Update baseURL in hugo.toml
         if: success()
         run: |
-          baseURL=${{ github.event.inputs.deployedBaseUrl }}
+          baseURL=${{ env.DEPLOYED_BASE_URL }}
           echo "baseURL: $baseURL"
           sed -i "s|baseURL[[:space:]]*=[[:space:]]*'.*'|baseURL = '$baseURL'|" hugo.toml
 
@@ -122,7 +104,7 @@ jobs:
           echo "New version: $new_version"
           sed -i "s|version[[:space:]]*=[[:space:]]*\"${version}\"|version = \"${new_version}\"|" hugo.toml
           
-      - name: Update $ob-venetian-red in assets/scss/_variables_project.scss
+      - name: Update '$ob-venetian-red' in 'assets/scss/_variables_project.scss' to display blue
         if: success()
         run: |
           sed -i "s|\$ob-venetian-red:[[:space:]]*#.*;|\$ob-venetian-red: #004ddc;|" assets/scss/_variables_project.scss
@@ -137,7 +119,7 @@ jobs:
             hugo \
                 --gc \
                 --minify \
-                --baseURL "${{ github.event.inputs.deployedBaseUrl }}"
+                --baseURL "${{ env.DEPLOYED_BASE_URL }}"
 
       - name: Copy README.md and LICENSE.md files in public directory
         if: success()
@@ -147,12 +129,18 @@ jobs:
           cp LICENSE.md public/
 
       - name: Deploy to the specified environment
-        if: success() && github.event_name != 'pull_request'
+        # Runs only if:
+        #   previous step successed
+        #   AND the trigger is not a pull-request
+        #   AND 
+        #     the trigger is automatic (push)
+        #     OR the trigger is manual and 'deploymentEnabled' parameter is true
+        if: success() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || github.event.inputs.deploymentEnabled == 'true')
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: ${{ github.event.inputs.targetBranch }}
+          target_branch: ${{ env.TARGET_REPOSITORY }}
           build_dir: public
-          repo: ${{ github.event.inputs.targetRepository }}
-          keep_history: ${{ github.event.inputs.withTargetHistoryKept }}
+          repo: ${{ env.TARGET_REPOSITORY }}
+          keep_history: ${{ env.KEEP_TARGET_HISTORY }}
         env:
           GITHUB_TOKEN: ${{ secrets.TEST_REPO_TOKEN }}
