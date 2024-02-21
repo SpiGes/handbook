@@ -12,3 +12,5 @@ Le CH-LOGIN est une procédure de login mise à disposition par le service eIAM 
 Rendez-vous sur le site [Mon compte eIAM](https://www.myaccount-r.eiam.admin.ch/) puis selectionnez la case **CH-LOGIN & AGOV (eGouvernment)**. 
 
 *inserer photo*.
+
+Ensuite cliquez sur '"créer un compte"'.
