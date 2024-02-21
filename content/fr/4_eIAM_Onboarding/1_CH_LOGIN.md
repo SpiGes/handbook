@@ -13,3 +13,15 @@ Rendez-vous sur le site [Mon compte eIAM](https://www.myaccount-r.eiam.admin.ch/
 ![Choix CH_LOGIN](/handbook/img/ecran_choix_connexion-png)
 
 Ensuite cliquez sur '"créer un compte"'.
+
+Saisissez maintenant vos données personnelles.
+
+Saisissez votre adresse e-mail professionnelle que vous allez utiliser aussi longtemps que vous aurez besoin de vous servir de la plateforme SpiGes. Cette adresse e-mail est transmise par CH-LOGIN, avec votre prénom et votre nom, aux applications que vous utiliserez. Elle est également nécessaire pour la réinitialisation du mot de passe dans le portail libre-service.
+
+Ensuite, acceptez les conditions d'utilisation et appuyez sur Continuer.
+
+Vous allez maintenant recevoir un code de confirmation à l'e-mail indiqué. Saisissez le code de conformation et appuyez sur Continuer.
+
+Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à l'installation du Mobile ID.
+
+[Ajouter les images manquantes/reflechir à quelles images mettre]
