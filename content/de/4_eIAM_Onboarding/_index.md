@@ -7,4 +7,5 @@ weight: 30
 type: docs
 ---
 
-Die Dokumentation befindet sich im Aufbau.
+> Die Dokumentation befindet sich im Aufbau.
+
