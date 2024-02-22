@@ -23,6 +23,8 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 </div>
 
+  
+
 <!-- Deuxième paire de colonnes -->
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -49,7 +51,7 @@ Ensuite cliquez sur '"créer un compte"'.
 
 <p> Saisissez votre adresse e-mail professionnelle que vous allez utiliser aussi longtemps que vous aurez besoin de vous servir de la plateforme SpiGes. Cette adresse e-mail est transmise par CH-LOGIN, avec votre prénom et votre nom, aux applications que vous utiliserez. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
 
-<p> Ensuite, cochez "j'accepte les conditions d'utilisation" et appuyez sur Continuer. </p>
+<p> Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur Continuer. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
