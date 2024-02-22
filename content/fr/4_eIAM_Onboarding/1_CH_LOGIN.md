@@ -23,13 +23,13 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 </div>
 
-<!-- <img src="/handbook-test/img/ecran_choix_connexion.png" width=55%> Rendez-vous sur le site [Mon compte eIAM](https://www.myaccount-r.eiam.admin.ch/) puis selectionnez la case **CH-LOGIN & AGOV (eGouvernment)**. -->
+<!-- Deuxième paire de colonnes -->
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon compte eIAM</a> puis selectionnez la case <strong>CH-LOGIN & AGOV (eGouvernment)</strong> dans les options de connexion.
+Ensuite cliquez sur '"créer un compte"'.
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -39,11 +39,27 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 </div>
 
-Ensuite cliquez sur '"créer un compte"'.
+<!-- 3eme paire de colonnes -->
 
-Saisissez maintenant vos données personnelles.
+<div style="display: flex; justify-content: space-between; align-items: center;">
 
-Saisissez votre adresse e-mail professionnelle que vous allez utiliser aussi longtemps que vous aurez besoin de vous servir de la plateforme SpiGes. Cette adresse e-mail est transmise par CH-LOGIN, avec votre prénom et votre nom, aux applications que vous utiliserez. Elle est également nécessaire pour la réinitialisation du mot de passe dans le portail libre-service.
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Saisissez maintenant vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
+
+<p> Saisissez votre adresse e-mail professionnelle que vous allez utiliser aussi longtemps que vous aurez besoin de vous servir de la plateforme SpiGes. Cette adresse e-mail est transmise par CH-LOGIN, avec votre prénom et votre nom, aux applications que vous utiliserez. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+<img src="/handbook-test/img/saisie_info_fr.png" width=90%>
+</div>
+
+</div>
+
+
+
+
 
 Ensuite, acceptez les conditions d'utilisation et appuyez sur Continuer.
 
