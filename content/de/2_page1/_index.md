@@ -6,19 +6,20 @@ weight: 20
 type: docs
 keywords: []
 ---
+ 
 
 <style>
     .bidon{
-        border-radius: 10px;
-        border-color: red;
+        border: 2px solid  gray;
     }
 
     .toto{
-        min-width: 100px;
+        width: 90%;
     }
 </style>
 
-{{< insertImage "image.png" "Description de l'image" ".bidon .toto" >}}
+
+{{<insertImage image="image.png> description="Description de l image" class=".bidon .toto" }}
 
 A diam maecenas sed enim ut. Nulla facilisi morbi tempus iaculis urna id. Arcu dui vivamus arcu felis bibendum ut tristique. 
 Odio euismod lacinia at quis. Ipsum suspendisse ultrices gravida dictum fusce ut. Tempus egestas sed sed risus pretium quam vulputate. 
