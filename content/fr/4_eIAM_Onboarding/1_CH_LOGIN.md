@@ -18,7 +18,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/ecran_choix_connexion.png" width=90%>
+<img src="/handbook-test/img/ecran_choix_connexion.png" width=90% style="border: 2px solid  gray;">
 </div>
 
 </div>
@@ -34,7 +34,7 @@ Ensuite cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/creer_ch_login_fr.png" width=90%>
+<img src="/handbook-test/img/creer_ch_login_fr.png" width=90% style="border: 2px solid  gray;">
 </div>
 
 </div>
@@ -48,20 +48,16 @@ Ensuite cliquez sur '"créer un compte"'.
 <p> Saisissez maintenant vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
 
 <p> Saisissez votre adresse e-mail professionnelle que vous allez utiliser aussi longtemps que vous aurez besoin de vous servir de la plateforme SpiGes. Cette adresse e-mail est transmise par CH-LOGIN, avec votre prénom et votre nom, aux applications que vous utiliserez. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
+
+<p> Ensuite, cochez "j'accepte les conditions d'utilisation" et appuyez sur Continuer. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/saisie_info_fr.png" width=90%>
+<img src="/handbook-test/img/saisie_info_fr.png" width=70% style="border: 2px solid  gray;">
 </div>
 
 </div>
-
-
-
-
-
-Ensuite, acceptez les conditions d'utilisation et appuyez sur Continuer.
 
 Vous allez maintenant recevoir un code de confirmation à l'e-mail indiqué. Saisissez le code de conformation et appuyez sur Continuer.
 
