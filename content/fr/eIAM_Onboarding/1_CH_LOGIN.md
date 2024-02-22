@@ -18,7 +18,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/ecran_choix_connexion.png" width=90% style="border: 2px solid  gray;">
+<img src="/handbook-test/img/ecran_choix_connexion_FR.png" width=90% style="border: 2px solid  gray;">
 </div>
 
 </div>
@@ -50,7 +50,7 @@ Ensuite cliquez sur '"créer un compte"'.
 <!-- First column content goes here -->
 <p> Saisissez maintenant vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
 
-<p> Saisissez votre adresse e-mail professionnelle que vous allez utiliser aussi longtemps que vous aurez besoin de vous servir de la plateforme SpiGes. Cette adresse e-mail est transmise par CH-LOGIN, avec votre prénom et votre nom, aux applications que vous utiliserez. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
+<p> Saisissez votre adresse e-mail professionnelle, l'adresse dont vous allez vous servir aussi longtemps que vous aurez besoin d'utiliser la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
 
 <p> Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur Continuer. </p>
 </div>
@@ -62,7 +62,26 @@ Ensuite cliquez sur '"créer un compte"'.
 
 </div>
 
-Vous allez maintenant recevoir un code de confirmation à l'e-mail indiqué. Saisissez le code de conformation et appuyez sur Continuer.
+&nbsp; 
+<!-- 4eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Vous allez maintenant recevoir un code de confirmation à l'e-mail indiqué. </p>
+
+<p> Saisissez le code de conformation et appuyez sur Continuer. </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+<img src="/handbook-test/img/code_conf_fr.png" width=90% style="border: 2px solid  gray;">
+</div>
+
+</div>
+
+
 
 Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à l'installation du Mobile ID.
 
