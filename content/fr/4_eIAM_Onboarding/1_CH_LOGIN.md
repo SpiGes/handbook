@@ -24,4 +24,4 @@ Vous allez maintenant recevoir un code de confirmation à l'e-mail indiqué. Sai
 
 Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à l'installation du Mobile ID.
 
-[Ajouter les images manquantes/reflechir à quelles images mettre] :#
+[Ajouter les images manquantes/reflechir à quelles images mettre]: #
