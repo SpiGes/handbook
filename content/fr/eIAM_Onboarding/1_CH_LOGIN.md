@@ -18,7 +18,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/ecran_choix_connexion_FR.png" width=90% style="border: 2px solid  gray;">
+{{<insertImage image="ecran_choix_connexion_FR.png" description="Choix connexion" class="bord">}}
 </div>
 
 </div>

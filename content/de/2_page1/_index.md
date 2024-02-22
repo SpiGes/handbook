@@ -7,19 +7,19 @@ type: docs
 keywords: []
 ---
  
-
+<!-- 
 <style>
-    .bidon{
+    .bord{
         border: 2px solid gray;
     }
 
-    .toto{
+    .taille{
         min-width: 100px;
     }
 </style>
+-->
 
-
-{{<insertImage image="image.png" description="Description de l'image" class="bidon toto">}}
+{{<insertImage image="image.png" description="Description de l'image" class="bord toto">}}
 
 A diam maecenas sed enim ut. Nulla facilisi morbi tempus iaculis urna id. Arcu dui vivamus arcu felis bibendum ut tristique. 
 Odio euismod lacinia at quis. Ipsum suspendisse ultrices gravida dictum fusce ut. Tempus egestas sed sed risus pretium quam vulputate. 

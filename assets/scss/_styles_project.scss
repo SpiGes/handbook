@@ -634,11 +634,15 @@ a {
     max-width: 80%;
 }
 
+.bord{
+    border: 2px solid gray;
+}
+
 @mixin collapsible-button-hover-effect {
     &:hover {
       text-decoration: underline;
     }
-  }
+}
 
 %collapsible-button {
     padding: 5px 10px;
