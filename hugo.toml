@@ -108,6 +108,12 @@ description = "Manual and Information about SpiGes"
 
 # Everything below this are Site Params
 [params]
+# The name corresponds to the name of the site, that is the last element of the baseURL. 
+# depending on the environment of execution (production => handbook, or test => handbook-text)
+# This value is intended to be set by the CI.
+# This default value fits the default value of baseURL.
+baseName = 'handbook'
+
 # The version number of the docs. It should correspond to the version of SpiGes but could also be decorrelated. MUSTN'T BE EMPTY!
 # and MUST BE INCREASED at each release!
 version = "0.1.0-test7"
