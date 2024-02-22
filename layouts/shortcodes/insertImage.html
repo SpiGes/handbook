@@ -1,1 +1,4 @@
-<img class="{{ .Get 'class' | default '' }}" src="/{{ $.Site.Params.baseName }}/img/{{ .Get 'image' }}" alt="{{ .Get description | default 'Image description not available' }}">
+{{ $class := .Get "class" | default ""}}
+{{ $image := .Get "image"}}
+{{ $description := .Get "description" | default "no descripton available"}}
+<img class="{{$class}}" src="/{{ $.SiteParams.baseName}}/img/{{ $image }}" alt="{{ $description}}" >
