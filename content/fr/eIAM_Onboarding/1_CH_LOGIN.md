@@ -31,7 +31,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Ensuite cliquez sur '"créer un compte"'.
+Cliquez sur '"créer un compte"'.
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -71,7 +71,7 @@ Ensuite cliquez sur '"créer un compte"'.
 <!-- First column content goes here -->
 <p> Vous allez maintenant recevoir un code de confirmation à l'e-mail indiqué. </p>
 
-<p> Saisissez le code de conformation et appuyez sur Continuer. </p>
+<p> Saisissez le code de confirmation et appuyez sur Continuer. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -81,8 +81,8 @@ Ensuite cliquez sur '"créer un compte"'.
 
 </div>
 
+&nbsp;
 
 
-Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à l'installation du Mobile ID.
 
-[Ajouter les images manquantes/reflechir à quelles images mettre]: #
+Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à [l'activation du Mobile ID](content\fr\eIAM_Onboarding\2_MobileID.md).
