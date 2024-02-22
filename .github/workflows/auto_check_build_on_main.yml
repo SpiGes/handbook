@@ -23,6 +23,7 @@ env:
   TARGET_BRANCH: 'main'
   KEEP_TARGET_HISTORY: false
   DEPLOYED_BASE_URL: 'https://spiges.github.io/handbook-test/'
+  DEPLOYED_BASE_NAME: 'handbook-text'
         
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -77,6 +78,14 @@ jobs:
           baseURL=${{ env.DEPLOYED_BASE_URL }}
           echo "baseURL: $baseURL"
           sed -i "s|baseURL[[:space:]]*=[[:space:]]*'.*'|baseURL = '$baseURL'|" hugo.toml
+
+      - name: Update baseName in hugo.toml
+        if: success()
+        run: |
+          baseName=${{ env.DEPLOYED_BASE_NAME }}
+          echo "baseName: $baseName"
+          sed -i "s|baseName[[:space:]]*=[[:space:]]*'.*'|baseName = '$baseName'|" hugo.toml
+          
 
       - name: Update buildDatetime in hugo.toml
         if: success()
