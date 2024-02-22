@@ -36,7 +36,7 @@ Ensuite cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/creer_ch_login_fr.png" width=90% style="border: 2px solid  gray;">
+{{<insertImage image="creer_ch_login_fr.png" description="Choix connexion" class="bord">}}
 </div>
 
 </div>
@@ -50,14 +50,14 @@ Ensuite cliquez sur '"créer un compte"'.
 <!-- First column content goes here -->
 <p> Saisissez maintenant vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
 
-<p> Saisissez votre adresse e-mail professionnelle, l'adresse dont vous allez vous servir aussi longtemps que vous aurez besoin d'utiliser la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
+<p> Saisissez votre adresse e-mail professionnelle, celle dont vous allez vous servir pendant toute la durée de votre utilisation de la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
 
 <p> Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur Continuer. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/saisie_info_fr.png" width=90% style="border: 2px solid  gray;">
+{{<insertImage image="saisie_info_fr.png" description="Choix connexion" class="bord">}}
 </div>
 
 </div>
@@ -76,7 +76,7 @@ Ensuite cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/code_conf_fr.png" width=90% style="border: 2px solid  gray;">
+{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord">}}
 </div>
 
 </div>
