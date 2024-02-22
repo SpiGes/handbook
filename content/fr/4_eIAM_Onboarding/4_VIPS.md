@@ -1,7 +1,7 @@
 ---
-title: Activation du Mobile ID
-slug: mobile_id
-description: 'Sur cette page, nous vous expliquons comment activer un Mobile ID. Cela vous permettra de vérifier votre identité lors de la connexion à eIAM.'
+title: Identification vidéo
+slug: vips
+description: 'Sur cette page, nous vous expliquons comment faire vérifier votre identitié à l'aide de l'authentification vidéo.'
 keywords: []
 weight: 40
 type: docs
