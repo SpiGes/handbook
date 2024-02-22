@@ -20,8 +20,8 @@ blockquote {
 }
 </style>
 
-| Column One    | Column Two    |                                                                                                                                                   
-| ---           | ---           |                                                                                                                                                   
+| Column One    | Column Two    |
+| ---           | ---           |
 | data cell one | data cell two | 
 
 Le CH-LOGIN est une procédure de login mise à disposition par le service eIAM de l'administration fédérale. Le compte CH-LOGIN peut être utilisé pour les applications de l'administration fédérale. 
