@@ -23,7 +23,7 @@ env:
   TARGET_BRANCH: 'main'
   KEEP_TARGET_HISTORY: false
   DEPLOYED_BASE_URL: 'https://spiges.github.io/handbook-test/'
-  DEPLOYED_BASE_NAME: 'handbook-text'
+  DEPLOYED_BASE_NAME: 'handbook-test'
         
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
