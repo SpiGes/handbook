@@ -7,6 +7,8 @@ weight: 0
 type: docs
 ---
 
-Bienvenu dans manuel de SpiGes
+Bienvenu dans manuel de SpiGes 
 
-La documentation en cours de construction. 
+{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="info">}}
+La documentation en cours de construction.
+{{</alert>}}
