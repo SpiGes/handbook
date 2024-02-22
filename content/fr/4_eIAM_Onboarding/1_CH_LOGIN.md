@@ -23,7 +23,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 </div>
 
-  
+&nbsp;
 
 <!-- Deuxième paire de colonnes -->
 
@@ -41,6 +41,7 @@ Ensuite cliquez sur '"créer un compte"'.
 
 </div>
 
+&nbsp; 
 <!-- 3eme paire de colonnes -->
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -56,7 +57,7 @@ Ensuite cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<img src="/handbook-test/img/saisie_info_fr.png" width=70% style="border: 2px solid  gray;">
+<img src="/handbook-test/img/saisie_info_fr.png" width=90% style="border: 2px solid  gray;">
 </div>
 
 </div>
