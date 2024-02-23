@@ -22,3 +22,15 @@ Pour créer un CH-login avec un second facteur fort et une identité vérifiée 
 5. Relier (onboarding) le login CH établi avec SpiGes
 
 Ces étapes sont expliquées dans les sections ci-dessous. Si vous disposez déjà d'un CH-Login ou d'un Mobile ID, vous n'avez pas besoin d'en créer un nouveau et vous pouvez passer l'étape correspondante. Vérifiez toutefois que votre CH-Login ou votre Mobile ID fonctionnent.
+
+Nous vous conseillons de commencer par lire ces instructions avant d’essayer de configurer votre nouvel accès sécurisé.
+
+# Fonctionnement d'eIAM
+
+eIAM est un système central d'accès et d'autorisation de l'administration fédérale pour les applications web. Pour simplifier, eIAM est l’infrastructure d’accès centralisée de la Confédération. Son but est d’éviter la mise en place d’une procédure spécifique à chaque application. Cette centralisation permet de réaliser des économies et d’utiliser les mêmes données d’accès pour toutes les applications.    
+Chaque utilisateur qui se connecte à l’application SpiGes est automatiquement redirigé sur le portail eIAM pour la procédure d’authentification.    
+Le système demandera alors à l’utilisateur de valider sa connexion sur son téléphone mobile afin vérifier que c’est effectivement la bonne personne qui essaie de se connecter.  
+
+{{<alert color="warning">}}
+L’identité de l’utilisateur devant être vérifiée, les comptes sur l’application sont personnels. Un même compte ne pourra pas être utilisé par plusieurs personnes.
+{{</alert>}}
