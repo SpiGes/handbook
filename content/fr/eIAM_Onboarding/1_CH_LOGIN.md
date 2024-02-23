@@ -18,7 +18,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ecran_choix_connexion_FR.png" description="Choix connexion" class="bord">}}
+{{<insertImage image="ecran_choix_connexion_FR.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -36,7 +36,7 @@ Cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="creer_ch_login_fr.png" description="Choix connexion" class="bord">}}
+{{<insertImage image="creer_ch_login_fr.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -57,7 +57,7 @@ Cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_info_fr.png" description="Choix connexion" class="bord">}}
+{{<insertImage image="saisie_info_fr.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -76,7 +76,7 @@ Cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord">}}
+{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -85,4 +85,4 @@ Cliquez sur '"créer un compte"'.
 
 
 
-Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à [l'activation du Mobile ID](content\fr\eIAM_Onboarding\2_MobileID.md).
+Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à l'activation du Mobile ID.
