@@ -7,15 +7,67 @@ weight: 20
 type: docs
 ---
 
+<!-- 1ere paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
 Rendez vous sur le site [Mon compte mobileID](https://www.mobileid.ch/fr) puis sélectionnez '"essayer maintenant"'. 
+</div>
 
-Saisissez votre numéro de téléphone. 
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="mobile_id_fr.png" description="MobileID" class="bord taille">}}
+</div>
 
-Entrez le code que vous avez reçu par SMS au numéro indiqué. 
+</div>
 
+&nbsp;
+
+<!-- 2eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Saisissez votre numéro de téléphone. </p>
+
+<p> Vous allez ensuite recevoir un code par SMS au numéro indiqué, saisissez le code reçu. </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="saisie_tel_fr.png" description="Code SMS" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
 Vous êtes maintenant sur votre tableau de bord Mobile ID. 
 
 L'étape suivante sera d'activer le Mobile ID. Pour l'utilisation de la plateforme SpiGes, l'activation doit nécessairement se faire par la carte SIM (L'activation par l'application MobileID ne fonctionnera pas). Pour cela, il vous faudra une carte SIM compatible avec Mobile ID. La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile ID (ajouter captures d'écran). Si votre carte SIM n'est pas compatible, il faudra commander une nouvelle carte SIM auprès de votre opérateur téléphonique.
+&nbsp; 
+
+<!-- 2eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+Si votre carte SIM est incompatible, le message suivant s'affichera sur votre tableau de bord Mobile ID.
+{{<insertImage image="sim_incompatible_fr.png" description="Code SMS" class="bord taille">}}
+
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+Si votre carte SIM est compatible, le message suivant s'affichera sur votre tableau de bord Mobile ID.
+</div>
+
+</div>
+
+&nbsp;
 
 Si votre carte SIM est compatible, voici les étapes à suivre: 
 
