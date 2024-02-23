@@ -44,9 +44,11 @@ Rendez vous sur le site [Mon compte mobileID](https://www.mobileid.ch/fr) puis s
 </div>
 
 &nbsp;
+
 Vous êtes maintenant sur votre tableau de bord Mobile ID. 
 
 L'étape suivante sera d'activer le Mobile ID. Pour l'utilisation de la plateforme SpiGes, l'activation doit nécessairement se faire par la carte SIM (L'activation par l'application MobileID ne fonctionnera pas). Pour cela, il vous faudra une carte SIM compatible avec Mobile ID. La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile ID (ajouter captures d'écran). Si votre carte SIM n'est pas compatible, il faudra commander une nouvelle carte SIM auprès de votre opérateur téléphonique.
+
 &nbsp; 
 
 <!-- 2eme paire de colonnes -->
@@ -63,6 +65,7 @@ Si votre carte SIM est incompatible, le message suivant s'affichera sur votre ta
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
 Si votre carte SIM est compatible, le message suivant s'affichera sur votre tableau de bord Mobile ID.
+{{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="bord taille">}}
 </div>
 
 </div>
