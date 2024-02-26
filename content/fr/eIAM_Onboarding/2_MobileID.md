@@ -7,13 +7,17 @@ weight: 20
 type: docs
 ---
 
+Un Mobile ID est nécessaire comme deuxième facteur de sécurité pour avoir accès à la plateforme SpiGes. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
+
+Suivez les étapes suivantes pour activer le Mobile ID.
+
 <!-- 1ere paire de colonnes -->
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Rendez vous sur le site [Mon compte mobileID](https://www.mobileid.ch/fr) puis sélectionnez '"essayer maintenant"'. 
+Rendez vous sur le site <a href="https://www.mobileid.ch/fr">Mon compte mobileID</a> puis sélectionnez '"essayer maintenant"'. 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -81,8 +85,8 @@ Sélectionnez la case "SIM, puis cliquez sur "suivant".
 
 Acceptez les conditions d'utilisations puis cliquez sur suivant.
 
-Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez déjà un. Si ce n’est pas le cas ou si vous ne connaissez pas votre code de restauration, choisissez l’option «Je voudrais continuer sans l’option de restauration». Cliquez sur «suivant», puis alidez votre choix en cliquant à nouveau sur «suivant».
+Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez déjà un. Si ce n’est pas le cas ou si vous ne connaissez pas votre code de restauration, choisissez l’option «Je voudrais continuer sans l’option de restauration». Cliquez sur «suivant», puis validez votre choix en cliquant à nouveau sur «suivant».
 
 Sur votre téléphone portable, une fenêtre va s’ouvrir vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe. 
 
-Vous avez terminé. Veillez à enregistrer votre code de restauration dans un endroit sûr. Il vous sera indispensable en cas de problème avec votre appareil de connexion. 
+Vous avez terminé. Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
