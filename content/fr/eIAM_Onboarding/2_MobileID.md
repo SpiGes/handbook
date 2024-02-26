@@ -55,7 +55,7 @@ L'étape suivante sera d'activer le Mobile ID. Pour l'utilisation de la platefor
 
 &nbsp; 
 
-<!-- 2eme paire de colonnes -->
+<!-- 3eme paire de colonnes -->
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
@@ -79,13 +79,81 @@ Si votre carte SIM est compatible, le message suivant s'affichera sur votre tabl
 
 Si votre carte SIM est compatible, voici les étapes à suivre: 
 
-Cliquez sur actver dans la case "activer le Mobile ID". 
+&nbsp;
 
-Sélectionnez la case "SIM, puis cliquez sur "suivant". 
+<!-- 4eme paire de colonnes -->
 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+Cliquez sur actver dans la case "activer Mobile ID". 
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="activer_mobile_id.png" description="activer MobileID" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+
+<!-- 5eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+Sélectionnez la case "SIM, puis cliquez sur "suivant".
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="choix_sim.png" description="Choix carte SIM" class="bord taille">}}
+</div>
+
+</div>
+
+ &nbsp;
+
+ <!-- 4eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
 Acceptez les conditions d'utilisations puis cliquez sur suivant.
+</div>
 
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="cond_utilisation_fr.png" description="Conditions d'utilisation" class="bord taille">}}
+</div>
+
+</div>
+
+ &nbsp;
+
+  <!-- 4eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
 Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez déjà un. Si ce n’est pas le cas ou si vous ne connaissez pas votre code de restauration, choisissez l’option «Je voudrais continuer sans l’option de restauration». Cliquez sur «suivant», puis validez votre choix en cliquant à nouveau sur «suivant».
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="choix_recup.png" description="Possibilité récupération" class="bord taille">}}
+</div>
+
+</div>
+
+ &nbsp;
+
+
 
 Sur votre téléphone portable, une fenêtre va s’ouvrir vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe. 
 
