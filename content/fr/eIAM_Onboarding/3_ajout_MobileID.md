@@ -7,9 +7,11 @@ weight: 30
 type: docs
 ---
 
-Cette étape permet d'ajouter le Mobile ID comme deuxième facteur au CH-Login. 
+Cette étape permet d'ajouter le Mobile ID sera ajouté au CH-Login en tant que second facteur fort.
 
-Pour cela, connectez vous à votre [compte eIAM](https://www.myaccount-r.eiam.admin.ch/) avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité".
+Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le supprimer d'abord. Pour ce faire, cliquez sur Supprimer dans l’encadré Numéro mobile (mTAN). Vous pouvez ensuite suivre les instructions mentionnées ci-dessus pour enregistrer l'ID mobile comme second facteur (fort).
+
+Connectez vous à votre [compte eIAM](https://www.myaccount-r.eiam.admin.ch/) avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité".
 
 Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs», cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
 
