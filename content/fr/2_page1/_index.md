@@ -29,7 +29,7 @@ Turpis massa sed elementum tempus egestas sed sed risus. Eu lobortis elementum n
 Euismod lacinia at quis risus sed vulputate odio. Condimentum vitae sapien pellentesque habitant.
 {{</alert>}}
 
-{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="success">}}
+{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="logo">}}
 Turpis massa sed elementum tempus egestas sed sed risus. Eu lobortis elementum nibh tellus molestie nunc non. 
 Euismod lacinia at quis risus sed vulputate odio. Condimentum vitae sapien pellentesque habitant.
 {{</alert>}}
