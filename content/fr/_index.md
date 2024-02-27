@@ -10,5 +10,5 @@ type: docs
 Bienvenue dans le manuel de SpiGes 
 
 {{<alert color="info">}}
-La documentation en cours de construction.
+La documentation est en cours de construction.
 {{</alert>}}

@@ -11,7 +11,47 @@ Cette étape permet d'ajouter le Mobile ID sera ajouté au CH-Login en tant que 
 
 Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le supprimer d'abord. Pour ce faire, cliquez sur Supprimer dans l’encadré Numéro mobile (mTAN). Vous pouvez ensuite suivre les instructions mentionnées ci-dessus pour enregistrer l'ID mobile comme second facteur (fort).
 
-Connectez vous à votre [compte eIAM](https://www.myaccount-r.eiam.admin.ch/) avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité".
+&nbsp;
+
+<!-- 1ere paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Connectez vous à votre [compte eIAM](https://www.myaccount-r.eiam.admin.ch/) avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+
+<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+<!-- 2ere paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+ 
 
 Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs», cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
 
