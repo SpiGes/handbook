@@ -1,5 +1,5 @@
 ---
-title: Manuel d'utilisation de la plateforme de relevé SpiGes
+title: Manuel SpiGes
 slug: introduction
 description: 'SpiGes'
 keywords: []
