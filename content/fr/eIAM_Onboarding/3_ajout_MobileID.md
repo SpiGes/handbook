@@ -19,7 +19,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Connectez vous à votre [compte eIAM](https://www.myaccount-r.eiam.admin.ch/) avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p> Connectez vous à votre <a href="https://www.myaccount-r.eiam.admin.ch/">Mon compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
 <p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
 </div>
@@ -33,7 +33,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 &nbsp; 
 
-<!-- 2ere paire de colonnes -->
+<!-- 2eme paire de colonnes -->
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
@@ -51,21 +51,119 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 &nbsp; 
 
- 
+<!-- 3eme paire de colonnes -->
 
-Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs», cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
+<div style="display: flex; justify-content: space-between; align-items: center;">
 
-Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «enregistrer». 
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus. </p>
 
-Choisissez l'option Mobile ID et cliquez sur "Continuer". 
+<p> Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «enregistrer». </p>
 
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+<!-- 4eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
+
+<p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+<!-- 5eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
 Saisissez le code MIO suivant **A COMPLETER**, puis cliquez sur "enregistrer". 
+</div>
 
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="code_mio.png" description="ajout second facteur" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+<!-- 6eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
 Entrez votre mot de passe, puis cliquez sur "continuer".
+</div>
 
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+<!-- 7eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
 Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "continuer".
+</div>
 
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+
+<!-- 8eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
 Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cliquez sur «enregistrer».
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
 
 Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID. 
 Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
+
