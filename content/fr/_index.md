@@ -14,3 +14,8 @@ La documentation est en cours de construction.
 {{</alert>}}
 
 
+> Essai mise en évidence avec commande Markdown
+
+<blockquote> 
+<p> Essai mise en évidence avec commande HTML </p> 
+</blockquote>
