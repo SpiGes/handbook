@@ -59,7 +59,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 <!-- First column content goes here -->
 <p> De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus. </p>
 
-<p> Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «enregistrer». </p>
+<p> Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer». </p>
 
 </div>
 
@@ -79,8 +79,6 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
 <p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
-
-<p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -98,7 +96,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Saisissez le code MIO suivant **A COMPLETER**, puis cliquez sur "enregistrer". 
+Saisissez le code MIO suivant <B> A COMPLETER </B>, puis cliquez sur "enregistrer". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">

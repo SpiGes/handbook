@@ -7,7 +7,7 @@ weight: 20
 type: docs
 ---
 
-Un Mobile ID est nécessaire comme deuxième facteur de sécurité pour avoir accès à la plateforme SpiGes. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
+Un Mobile ID est nécessaire comme second facteur de sécurité pour avoir accès à la plateforme SpiGes. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
 
 Suivez les étapes suivantes pour activer le Mobile ID.
 
@@ -17,7 +17,7 @@ Suivez les étapes suivantes pour activer le Mobile ID.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Rendez vous sur le site <a href="https://www.mobileid.ch/fr">Mon compte mobileID</a> puis sélectionnez '"essayer maintenant"'. 
+Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">MobileID</a> puis sélectionnez '"essayer maintenant"'. 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -51,7 +51,13 @@ Rendez vous sur le site <a href="https://www.mobileid.ch/fr">Mon compte mobileID
 
 Vous êtes maintenant sur votre tableau de bord Mobile ID. 
 
-L'étape suivante sera d'activer le Mobile ID. Pour l'utilisation de la plateforme SpiGes, l'activation doit nécessairement se faire par la carte SIM (L'activation par l'application MobileID ne fonctionnera pas). Pour cela, il vous faudra une carte SIM compatible avec Mobile ID. La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile ID (ajouter captures d'écran). Si votre carte SIM n'est pas compatible, il faudra commander une nouvelle carte SIM auprès de votre opérateur téléphonique.
+L'étape suivante sera d'activer le Mobile ID. 
+
+{{<alert color="warning">}}
+Pour l'utilisation de la plateforme SpiGes, l'activation doit nécessairement se faire par la carte SIM (l'activation par l'application MobileID ne suffit pas). Pour cela, il vous faudra une carte SIM compatible avec Mobile ID. 
+{{</alert>}}
+
+La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile ID. Si votre carte SIM n'est pas compatible, il faudra commander une nouvelle carte SIM auprès de votre opérateur téléphonique.
 
 &nbsp; 
 
@@ -153,8 +159,10 @@ Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez 
 
  &nbsp;
 
-
-
 Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe. 
 
-Vous avez terminé. Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
+Vous avez terminé. 
+
+{{<alert color="warning">}}
+Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
+{{</alert>}}

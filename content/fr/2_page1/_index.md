@@ -2,7 +2,7 @@
 title: Page 1
 slug: page1
 description: "Id leo in vitae turpis massa sed elementum tempus egestas."
-weight: 20
+weight: 30
 type: docs
 keywords: []
 ---
@@ -15,6 +15,26 @@ Massa vitae tortor condimentum lacinia quis vel. Interdum varius sit amet mattis
 Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
 {{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="success">}}
+Turpis massa sed elementum tempus egestas sed sed risus. Eu lobortis elementum nibh tellus molestie nunc non. 
+Euismod lacinia at quis risus sed vulputate odio. Condimentum vitae sapien pellentesque habitant.
+{{</alert>}}
+
+{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="error">}}
+Turpis massa sed elementum tempus egestas sed sed risus. Eu lobortis elementum nibh tellus molestie nunc non. 
+Euismod lacinia at quis risus sed vulputate odio. Condimentum vitae sapien pellentesque habitant.
+{{</alert>}}
+
+{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="info">}}
+Turpis massa sed elementum tempus egestas sed sed risus. Eu lobortis elementum nibh tellus molestie nunc non. 
+Euismod lacinia at quis risus sed vulputate odio. Condimentum vitae sapien pellentesque habitant.
+{{</alert>}}
+
+{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="success">}}
+Turpis massa sed elementum tempus egestas sed sed risus. Eu lobortis elementum nibh tellus molestie nunc non. 
+Euismod lacinia at quis risus sed vulputate odio. Condimentum vitae sapien pellentesque habitant.
+{{</alert>}}
+
+{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="warning">}}
 Turpis massa sed elementum tempus egestas sed sed risus. Eu lobortis elementum nibh tellus molestie nunc non. 
 Euismod lacinia at quis risus sed vulputate odio. Condimentum vitae sapien pellentesque habitant.
 {{</alert>}}
