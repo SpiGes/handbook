@@ -31,7 +31,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Cliquez sur '"créer un compte"'.
+Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez sur '"créer un compte"'.
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -48,11 +48,11 @@ Cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Saisissez maintenant vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
+<p> Saisissez vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
 
-<p> Saisissez votre adresse e-mail professionnelle, celle dont vous allez vous servir pendant toute la durée de votre utilisation de la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
+<p> Choisissez votre adresse e-mail professionnelle, celle dont vous allez vous servir pendant toute la durée de votre utilisation de la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
 
-<p> Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur Continuer. </p>
+<p> Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur "Continuer". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -69,9 +69,9 @@ Cliquez sur '"créer un compte"'.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Vous allez maintenant recevoir un code de confirmation à l'e-mail indiqué. </p>
+<p> Vous allez maintenant recevoir un code de confirmation à l'adresse e-mail indiquée. </p>
 
-<p> Saisissez le code de confirmation et appuyez sur Continuer. </p>
+<p> Saisissez le code de confirmation et "appuyez sur Continuer". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -84,5 +84,4 @@ Cliquez sur '"créer un compte"'.
 &nbsp;
 
 
-
-Vous avez terminé. Il faudra par la suite enregistrer l’authentification à deux facteurs. Pour cela, passez à l'activation du Mobile ID.
+Vous avez terminé. Il faut maintenant renforcer la sécurité de votre compte avec l’authentification à deux facteurs. Pour cela, passez à l'activation du Mobile ID.
