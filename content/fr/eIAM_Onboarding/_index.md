@@ -8,7 +8,7 @@ type: docs
 ---
 
 {{<alert color="info">}}
-La documentation en cours de construction.
+La documentation est en cours de construction.
 {{</alert>}}
 
 Dans ce chapitre, vous trouverez toutes les marches à suivre afin de vous créer un profil vérifié qui vous permettera de vous connecter à la plateforme SpiGes. 
