@@ -165,8 +165,7 @@ Vous allez avoir une confirmation de réception du paiement, puis vous allez pou
 <!-- First column content goes here -->
 <p> Soit faire l'identification vidéo à l'aide de la webcam de votre ordinateur. </p>
 
-<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="bord taille">}}
-Pour cela, cochez toutes les cases présentes à l'écran puis suivez les instructions. </p>
+<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="bord taille">}}</p>
 
 </div>
 
@@ -174,8 +173,23 @@ Pour cela, cochez toutes les cases présentes à l'écran puis suivez les instru
 <!-- Second column content goes here -->
 <p> Soit faire l'identification à l'aide de votre smartphone ou tablette. </p>
 
-<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="bord taille">}}  
-Pour cela, scannez le code QR présent à l'écran et installez l'application. Une fois dans l'applications saisissez le numéro d'identification, puis suivez les instructions. </p>
+<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="bord taille">}} </p>
+</div>
+
+</div>
+
+<!-- 8ème paire de colonnes bis -->
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Pour cela, cochez toutes les cases présentes à l'écran puis suivez les instructions. </p>
+
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+<p> Pour cela, scannez le code QR présent à l'écran et installez l'application. Une fois dans l'applications saisissez le numéro d'identification, puis suivez les instructions. </p>
 </div>
 
 </div>
