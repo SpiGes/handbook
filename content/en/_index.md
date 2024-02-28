@@ -9,4 +9,6 @@ type: docs
 
 Welcome to the SpiGes manual
 
+{{<alert color="warning">}}
 Documentation under construction.
+{{</alert>}}
