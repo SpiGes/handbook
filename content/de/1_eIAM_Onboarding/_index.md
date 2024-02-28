@@ -7,5 +7,6 @@ weight: 10
 type: docs
 ---
 
-> Die Dokumentation befindet sich im Aufbau.
-
+{{<alert color="warning">}}
+Die Dokumentation befindet sich im Aufbau.
+{{</alert>}}

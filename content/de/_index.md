@@ -9,5 +9,6 @@ type: docs
 
 Willkomen bei SpiGes-Handbuch
 
+{{<alert color="success">}}
 Die Dokumentation befindet sich im Aufbau.
-
+{{</alert>}}

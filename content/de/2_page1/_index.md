@@ -6,18 +6,6 @@ weight: 20
 type: docs
 keywords: []
 ---
- 
-<!-- 
-<style>
-    .bord{
-        border: 2px solid gray;
-    }
-
-    .taille{
-        min-width: 100px;
-    }
-</style>
--->
 
 {{<insertImage image="image.png" description="Description de l'image" class="bord toto">}}
 
