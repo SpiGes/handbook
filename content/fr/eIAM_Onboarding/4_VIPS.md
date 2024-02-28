@@ -200,5 +200,3 @@ Vous allez être mis en contact vidéo avec quelqu'un qui vérifiera votre ident
 </div>
 
 </div>
-
-&nbsp;
