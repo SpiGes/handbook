@@ -164,4 +164,3 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 
 Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID. 
 Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
-

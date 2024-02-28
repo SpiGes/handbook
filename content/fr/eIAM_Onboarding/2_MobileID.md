@@ -78,7 +78,6 @@ Si votre carte SIM est compatible, le message suivant s'affichera sur votre tabl
 {{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="bord taille">}}
 </div>
 
-
 </div>
 
 &nbsp;
