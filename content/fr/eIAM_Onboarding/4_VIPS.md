@@ -14,12 +14,6 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 - Une pièce d'identité officielle avec photo en cours de validité (passeport ou carte d'identité). Selon la nationalité, un passeport est obligatoirement requis.
 - Un moyen de paiement. Soit un bon ("voucher codes") soit un des moyens de payement suivants: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
 
-
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-
-&nbsp;
-
 <!-- 1ere paire de colonnes -->
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
