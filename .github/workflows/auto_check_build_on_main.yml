@@ -77,38 +77,25 @@ jobs:
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Update baseURL in hugo.toml
+      - name: Update Hugo config
         if: success()
         run: |
           baseURL=${{ env.DEPLOYED_BASE_URL }}
           echo "baseURL: $baseURL"
           sed -i "s|baseURL[[:space:]]*=[[:space:]]*'.*'|baseURL = '$baseURL'|" hugo.toml
 
-      - name: Update baseName in hugo.toml
-        if: success()
-        run: |
           baseName=${{ env.DEPLOYED_BASE_NAME }}
           echo "baseName: $baseName"
           sed -i "s|baseName[[:space:]]*=[[:space:]]*'.*'|baseName = '$baseName'|" hugo.toml
-          
 
-      - name: Update buildDatetime in hugo.toml
-        if: success()
-        run: |
           buildDatetime=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           echo "buildDatetime: $buildDatetime"
           sed -i "s/buildDatetime[[:space:]]*=[[:space:]]*\".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
 
-      - name: Update gitHash in hugo.toml
-        if: success()
-        run: |
           gitHash=$(git rev-parse --short HEAD)
           echo "git hash: $gitHash"
           sed -i "s/gitHash[[:space:]]*=[[:space:]]*\".*\"/gitHash = \"$gitHash\"/" hugo.toml
 
-      - name: Update version in hugo.toml
-        if: success()
-        run: |
           version=$(grep 'version[[:space:]]*=' hugo.toml | sed 's/version[[:space:]]*=[[:space:]]*"\([^"]*\)"/\1/')
           echo "Current version: $version"
 
@@ -118,7 +105,7 @@ jobs:
           echo "New version: $new_version"
           sed -i "s|version[[:space:]]*=[[:space:]]*\"${version}\"|version = \"${new_version}\"|" hugo.toml
           
-      - name: Update '$ob-venetian-red' in 'assets/scss/_variables_project.scss' to display blue
+      - name: Set Test style (blue lines)
         if: success()
         run: |
           sed -i "s|\$ob-venetian-red:[[:space:]]*#.*;|\$ob-venetian-red: #004ddc;|" assets/scss/_variables_project.scss
