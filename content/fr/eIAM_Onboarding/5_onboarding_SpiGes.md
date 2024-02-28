@@ -1,9 +1,9 @@
 ---
-title: Onboarding SpiGes
+title: Onboarding avec SpiGes
 slug: onboarding_spiges
-description: 'SpiGes'
+description: 'Onboarding du CH-LOGIN avec SpiGes'
 keywords: []
-weight: 0
+weight: 50
 type: docs
 --- 
 
