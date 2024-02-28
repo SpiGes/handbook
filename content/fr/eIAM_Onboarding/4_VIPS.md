@@ -156,13 +156,14 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 Vous allez avoir une confirmation de réception du paiement, puis vous allez pouvoir commencer l'identification vidéo. Pour cela deux options s'offre à vous, veuillez privilégier l'option avec la meilleure qualité de micro et d'image:
 
-<!-- 8ème paire de colonnes -->
+&nbsp;
 
+<!-- 8ème paire de colonnes -->
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Soit. aire l'identification vidéo à l'aide de la webcam de votre ordinateur. </p>
+<p> Soit faire l'identification vidéo à l'aide de la webcam de votre ordinateur. </p>
 
 <p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="bord taille">}}
 Pour cela, cochez toutes les cases présentes à l'écran puis suivez les instructions. </p>
