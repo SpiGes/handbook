@@ -155,7 +155,7 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="bord taille">}}
 </div>
 
 </div>
@@ -165,3 +165,4 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID. 
 
 Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
+{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}
