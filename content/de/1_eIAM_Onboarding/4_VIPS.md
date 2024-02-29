@@ -20,14 +20,14 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Um die Videoidentifizierung zu starten, loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount-r.eiam.admin.ch/"> eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Anmeldung und Sicherheit". </p>
+<p> Um die Videoidentifizierung zu starten, loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount-r.eiam.admin.ch/"> eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
 
-<p> Gehen Sie nach unten zum Abschnitt "Verwaltung der Zwei-Faktor-Authentifizierung" und klicken Sie im Feld "Zweiten Faktor überprüfen" auf "Zweiten Faktor auswählen". </p>
+<p> Gehen Sie nach unten zum Abschnitt "Zweitfaktor-Verwaltung" und klicken Sie im Feld "Verifizieren Sie einen Zweitfaktor" auf "Zweitfaktor auswählen". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="selection_second_facteur_de.png" description="Choix connexion" class="bord taille">}} 
 </div>
 
 </div>
@@ -42,12 +42,12 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 <!-- First column content goes here -->
 <p> Wählen Sie die Mobile ID und klicken Sie auf "Weiter". </p>
 
-<p> Bestätigen Sie Ihre Wahl, indem Sie auf "Überprüfen" klicken. </p>
+<p> Bestätigen Sie Ihre Wahl, indem Sie auf "Prüfen" klicken. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_mobileid.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="selection_mobileid_de.png" description="Choix connexion" class="bord taille">}} 
 </div>
 
 </div>
@@ -62,12 +62,12 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 <!-- First column content goes here -->
 <p> Geben Sie Ihr Passwort ein und klicken Sie auf "Weiter". </p>
 
-<p> Klicken Sie dann noch einmal auf "Fortfahren", um den Prozess der Videoauthentifizierung zu starten. </p>
+<p> Klicken Sie dann noch einmal auf "Weiter", um den Prozess der Videoauthentifizierung zu starten. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="vips_saisie_mdp_de.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -82,12 +82,12 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 <!-- First column content goes here -->
 <p> Füllen Sie Ihre persönlichen Daten aus. Achten Sie darauf, dass Sie genau die gleichen Angaben machen wie in Ihrem Ausweis. </p>
 
-<p> Markieren Sie das Kästchen "Ich stimme zu, dass meine Daten an ... weitergegeben werden" und klicken Sie auf "Weiter". </p>
+<p> Markieren Sie das Kästchen "Ich bin einverstanden, dass meine Daten... geteilt werden" und klicken Sie auf "Weiter". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="saisie_donnees_perso_de.png" description="Choix connexion" class="bord taille">}} 
 </div>
 
 </div>
@@ -210,7 +210,7 @@ Sie werden per Videokontakt mit jemandem verbunden, der Ihre Identität überpr�
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="bord taille">}}   <!-- Image en français -->
+{{<insertImage image="mobileid_verifie_de.png" description="Choix connexion" class="bord taille">}}  
 </div>
 
 </div>
