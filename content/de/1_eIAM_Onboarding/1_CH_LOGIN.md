@@ -13,12 +13,12 @@ Das CH-LOGIN ist ein durch den Standarddienst eIAM der Bundesverwaltung bereitge
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Gehen Sie auf <a href="https://www.myaccount-r.eiam.admin.ch/">Mein eIAM-Konto</a> und wählen Sie das Feld <strong>CH-LOGIN & AGOV (eGovernment)</strong> in den Anmeldeoptionen.
+Gehen Sie auf <a href="https://www.myaccount-r.eiam.admin.ch/">Mein eIAM-Konto</a> und wählen Sie das Feld <strong>CH-LOGIN & AGOV (eGovernment)</strong> in den Loginoptionen.
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ecran_choix_connexion_FR.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="ch_login_wahlen.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -31,12 +31,12 @@ Gehen Sie auf <a href="https://www.myaccount-r.eiam.admin.ch/">Mein eIAM-Konto</
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls klicken Sie auf "Konto erstellen".
+Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls klicken Sie auf "Account erstellen".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="creer_ch_login_fr.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="konto_erstellen.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -57,7 +57,7 @@ Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_info_fr.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="personlichen_data.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -76,7 +76,7 @@ Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord taille">}}   <!-- Image en français -->
 </div>
 
 </div>
