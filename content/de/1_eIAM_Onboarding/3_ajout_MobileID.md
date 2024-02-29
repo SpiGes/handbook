@@ -19,14 +19,14 @@ Wenn Sie bereits einen (schwachen) Zweitfaktor (mTAN) haben, wird empfohlen dies
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount-r.eiam.admin.ch/">Mein eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Anmeldung und Sicherheit". </p>
+<p> Loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount-r.eiam.admin.ch/">Mein eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
 
-<p> Klicken Sie ganz unten auf der Seite auf "Einstellungen für die Zwei-Faktor-Authentifizierung ändern". </p>
+<p> Klicken Sie ganz unten auf der Seite auf "Zweitfaktor-Einstellungen ändern". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="modif_parametres_de.png" description="modification paramètres" class="bord taille">}} 
 </div>
 
 </div>
@@ -39,12 +39,12 @@ Wenn Sie bereits einen (schwachen) Zweitfaktor (mTAN) haben, wird empfohlen dies
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivieren" und klicken Sie dann auf "Schließen».
+Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivieren" und klicken Sie dann auf "Schliessen».
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="activation_param_de.png" description="Activation paramètres avancés" class="bord taille">}} 
 </div>
 
 </div>
@@ -57,15 +57,15 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Zurück in der Registerkarte "Anmeldung und Sicherheit" haben Sie nun das Kästchen "Zweiten Faktor prüfen" zusätzlich. </p>
+<p> Zurück in der Registerkarte "Anmeldung und Sicherheit" haben Sie nun das Kästchen "Verifizieren Sie einen Zweitfaktor." zusätzlich. </p>
 
-<p> Klicken Sie im Feld "Einen zweiten Faktor registrieren, um sich sicherer anzumelden" auf "Registrieren". </p>
+<p> Klicken Sie im Feld "Registrieren Sie einen Zweitfaktor für ein noch sichereres Anmelden" auf "Registrieren". </p>
 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="ajout_facteur_de.png" description="ajout second facteur" class="bord taille">}} 
 </div>
 
 </div>
@@ -83,7 +83,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="choix_mobileid_de.png" description="ajout second facteur" class="bord taille">}} 
 </div>
 
 </div>
@@ -101,7 +101,7 @@ Geben Sie den folgenden MIO-Code ein <B> Zu ergänzen</B> und klicken Sie auf "S
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="code_mio_de.png" description="ajout second facteur" class="bord taille">}} 
 </div>
 
 </div>
@@ -119,7 +119,7 @@ Geben Sie Ihr Passwort ein und klicken Sie auf "Weiter".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="mot_de_passe_de.png" description="Mot de passe" class="bord taille">}} 
 </div>
 
 </div>
@@ -137,7 +137,7 @@ Wählen Sie 3 Sicherheitsfragen aus, füllen Sie die Antworten aus und klicken S
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="questions_secu_de.png" description="ajout questions sécurité" class="bord taille">}} 
 </div>
 
 </div>
@@ -155,7 +155,7 @@ Geben Sie Ihre Telefonnummer ein (die Nummer, die mit Ihrer Mobile ID verknüpft
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="saisie_tel_all.png" description="ajout second facteur" class="bord taille">}} 
 </div>
 
 </div>
@@ -165,3 +165,4 @@ Geben Sie Ihre Telefonnummer ein (die Nummer, die mit Ihrer Mobile ID verknüpft
 Es wird eine Nachricht angezeigt und Ihr Telefon wird Sie auffordern, die Verbindung durch die Eingabe Ihres Mobile ID-Passworts zu bestätigen. 
 
 Sobald Sie dies getan haben, wird das Feld "Mobile ID" als Mittel zur Zwei-Faktor-Authentifizierung angezeigt.
+{{<insertImage image="mobileid_present_de.png" description="ajout second facteur" class="bord taille">}}

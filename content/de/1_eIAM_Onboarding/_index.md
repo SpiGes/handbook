@@ -25,7 +25,7 @@ Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits übe
 
 Wir empfehlen Ihnen, zunächst diese Anleitungsseiten zu lesen, bevor Sie versuchen, Ihren neuen sicheren Zugang einzurichten.
 
-## Fonctionnement d'eIAM
+## Funktionsweise von eIAM
 eIAM ist ein zentrales Zugangs- und Autorisierungssystem der Bundesverwaltung für Webanwendungen. Vereinfacht gesagt ist eIAM die zentrale Zugangsinfrastruktur des Bundes. Sein Ziel ist es, die Einrichtung eines spezifischen Verfahrens für jede Anwendung zu vermeiden. Diese Zentralisierung ermöglicht Einsparungen und die Verwendung der gleichen Zugangsdaten für alle Anwendungen.
 
 Jeder Benutzer, der sich in die SpiGes-Anwendung einloggt, wird automatisch zum eIAM-Portal für das Authentifizierungsverfahren weitergeleitet. Das System wird den Benutzer dann auffordern, seine Anmeldung auf seinem Mobiltelefon zu bestätigen, um sicherzustellen, dass es sich tatsächlich um die richtige Person handelt, die versucht, sich anzumelden.
