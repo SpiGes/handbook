@@ -1,19 +1,19 @@
 ---
-title: Création du CH-LOGIN
+title: Erstellung des CH-LOGIN
 slug: ch_login
-description: 'Sur cette page, nous vous expliquons comment créer un CH-LOGIN, compte qui vous permettra de vous connecter sur eIAM.'
+description: 'Auf dieser Seite erklären wir Ihnen, wie Sie eine CH-LOGIN einrichten, ein Konto, mit dem Sie sich bei eIAM anmelden können.'
 keywords: []
 weight: 10
 type: docs
 ---
 
-Le CH-LOGIN est une procédure de login mise à disposition par le service eIAM de l'administration fédérale. Le compte CH-LOGIN peut être utilisé pour les applications de l'administration fédérale. 
+Das CH-LOGIN ist ein durch den Standarddienst eIAM der Bundesverwaltung bereitgestelltes Login-Verfahren. Der CH-LOGIN-Account kann für die verschiedensten Anwendungen der Bundesverwaltung genutzt werden.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon compte eIAM</a> puis selectionnez la case <strong>CH-LOGIN & AGOV (eGouvernment)</strong> dans les options de connexion.
+Gehen Sie auf <a href="https://www.myaccount-r.eiam.admin.ch/">Mein eIAM-Konto</a> und wählen Sie das Feld <strong>CH-LOGIN & AGOV (eGovernment)</strong> in den Anmeldeoptionen.
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -31,7 +31,7 @@ Rendez-vous sur le site <a href="https://www.myaccount-r.eiam.admin.ch/">Mon com
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez sur '"créer un compte"'.
+Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls klicken Sie auf "Konto erstellen".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -48,11 +48,11 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Saisissez vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
+<p> Geben Sie Ihre persönlichen Daten ein. Achten Sie darauf, dass Sie die gleichen Informationen wie auf Ihrem Ausweis angeben. </p>
 
-<p> Choisissez votre adresse e-mail professionnelle, celle dont vous allez vous servir pendant toute la durée de votre utilisation de la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
+<p> Wählen Sie Ihre professionelle E-Mail-Adresse, die Sie während der gesamten Dauer Ihrer Nutzung der SpiGes-Plattform verwenden werden. Sie wird auch benötigt, um Ihr Passwort zurückzusetzen, falls dies erforderlich sein sollte. </p>
 
-<p> Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur "Continuer". </p>
+<p> Klicken Sie dann auf "Ich akzeptiere die Nutzungsbedingungen" und klicken Sie auf "Weiter". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -69,9 +69,9 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Vous allez maintenant recevoir un code de confirmation à l'adresse e-mail indiquée. </p>
+<p> Sie erhalten nun einen Bestätigungscode an die angegebene E-Mail-Adresse. </p>
 
-<p> Saisissez le code de confirmation et appuyez sur "Continuer". </p>
+<p> Geben Sie den Bestätigungscode ein und drücken Sie auf "Weiter". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -83,5 +83,4 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 &nbsp;
 
-
-Vous avez terminé. Il faut maintenant renforcer la sécurité de votre compte avec l’authentification à deux facteurs. Pour cela, passez à l'activation du Mobile ID.
+Sie sind jetzt fertig. Jetzt müssen Sie die Sicherheit Ihres Kontos mit der Zwei-Faktor-Authentifizierung erhöhen. Fahren Sie dazu mit der Aktivierung der Mobile ID fort.
