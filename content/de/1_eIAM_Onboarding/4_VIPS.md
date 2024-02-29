@@ -171,8 +171,8 @@ Sie erhalten eine Bestätigung des Zahlungseingangs, dann können Sie mit der Vi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<p> oder Sie führen eine Identifizierung über Ihr Smartphone oder Tablet durch.     
-blabla </p>
+<p> oder Sie führen eine Identifizierung über Ihr Smartphone oder Tablet durch. <br />
+&nbsp; </p>
 
 <p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="bord taille">}} </p>   <!-- Image en français -->
 </div>
