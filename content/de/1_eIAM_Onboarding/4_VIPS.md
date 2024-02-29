@@ -27,7 +27,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -47,7 +47,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_mobileid.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="selection_mobileid.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -67,7 +67,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -87,7 +87,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -107,7 +107,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="controle_infos.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="controle_infos.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -127,7 +127,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="condition_adn.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="condition_adn.png" description="Choix connexion" class="bord taille">}}   <!-- Image en français -->
 </div>
 
 </div>
@@ -147,7 +147,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="paiement_video.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="paiement_video.png" description="Choix connexion" class="bord taille">}}   <!-- Image en français -->
 </div>
 
 </div>
@@ -165,7 +165,7 @@ Sie erhalten eine Bestätigung des Zahlungseingangs, dann können Sie mit der Vi
 <!-- First column content goes here -->
 <p> Entweder führen Sie eine Videoidentifizierung über die Webcam Ihres Computers durch </p>
 
-<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="bord taille">}}</p>
+<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="bord taille">}}</p>   <!-- Image en français -->
 
 </div>
 
@@ -173,7 +173,7 @@ Sie erhalten eine Bestätigung des Zahlungseingangs, dann können Sie mit der Vi
 <!-- Second column content goes here -->
 <p> oder Sie führen eine Identifizierung über Ihr Smartphone oder Tablet durch. </p>
 
-<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="bord taille">}} </p>
+<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="bord taille">}} </p>   <!-- Image en français -->
 </div>
 
 </div>
@@ -210,7 +210,7 @@ Sie werden per Videokontakt mit jemandem verbunden, der Ihre Identität überpr�
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="bord taille">}}   <!-- Image en français -->
 </div>
 
 </div>

@@ -1,7 +1,7 @@
 ---
-title: Ajout du Mobile ID comme deuxième facteur
-slug: ajout_mobile_id
-description: 'Sur cette page, nous vous expliquons comment ajouter le Mobile ID comme deuxième facteur au CH-Login. Cela vous permettra de vérifier votre identité lors de la connexion à eIAM.'
+title: Hinzufügung der Mobile ID als Zweitaktor
+slug: mobile_id_add
+description: 'Auf dieser Seite erklären wir Ihnen, wie Sie die Mobile ID als zweiten Faktor zum CH-Login hinzufügen können. Dies ermöglicht Ihnen, Ihre Identität bei der Verbindung mit eIAM zu überprüfen.'
 keywords: []
 weight: 30
 type: docs
@@ -26,7 +26,7 @@ Wenn Sie bereits einen (schwachen) Zweitfaktor (mTAN) haben, wird empfohlen dies
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="bord taille">}}
+{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -44,7 +44,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="bord taille">}}
+{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -65,7 +65,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -83,7 +83,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -101,7 +101,7 @@ Geben Sie den folgenden MIO-Code ein <B> Zu ergänzen</B> und klicken Sie auf "S
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="code_mio.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -119,7 +119,7 @@ Geben Sie Ihr Passwort ein und klicken Sie auf "Weiter".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="bord taille">}}
+{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -137,7 +137,7 @@ Wählen Sie 3 Sicherheitsfragen aus, füllen Sie die Antworten aus und klicken S
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="bord taille">}}
+{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -155,7 +155,7 @@ Geben Sie Ihre Telefonnummer ein (die Nummer, die mit Ihrer Mobile ID verknüpft
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}  <!-- Image en français -->
 </div>
 
 </div>
