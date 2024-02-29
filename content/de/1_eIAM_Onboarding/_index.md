@@ -7,7 +7,7 @@ weight: 10
 type: docs
 ---
 
-{{<alert color="warning">}}
+{{<alert color="info">}}
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
