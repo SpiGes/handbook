@@ -1,15 +1,11 @@
 ---
 title: Onboarding eIAM
 slug: onboarding
-description: 'Vous trouverez sur cette page toutes les informations dont vous avez besoin pour vous connecter à la plateforme SpiGes.'
+description: 'Vous trouverez dans ce chapitre toutes les informations dont vous avez besoin pour vous connecter à la plateforme SpiGes.'
 keywords: []
 weight: 20
 type: docs
 ---
-
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
 
 Dans ce chapitre, vous trouverez toutes les marches à suivre afin de vous créer un profil vérifié qui vous permettera de vous connecter à la plateforme SpiGes. 
 

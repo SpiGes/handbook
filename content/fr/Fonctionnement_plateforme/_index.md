@@ -20,7 +20,7 @@ La collecte des données débute en janvier de l’année suivant l’année de 
 4. Les cantons libèrent les données. Cette étape est requise tant pour les données LAMal que pour celles collectées au sens de la LSF. 
 5. Traitement des données séparément pour la LAMal et la LSF.
 
-En amont de ce processus de relevé, les hôpitaux contrôlent les données « à la source » dans leur propre système. Ils peuvent au préalable intégrer dans leur système les outils de vérification mis à leur disposition à cet effet. Il est également possible de faire contrôler les données en cours d’année, avant la collecte de données proprement dite, sur la plateforme SpiGes.
+En amont de ce processus de relevé, les hôpitaux contrôlent les données « à la source » dans leur propre système. Ils peuvent au préalable intégrer dans leur système les outils de vérification mis à leur disposition à cet effet. Il est également possible de faire contrôler les données en cours d’année, avant la collecte de données proprement dite, sur la plateforme SpiGes. Plus de détails concernant ce processus sont donnés dans la section "Contrôle des données".
 
 Le graphique suivant donne un aperçu des différentes phases du relevé :
 
