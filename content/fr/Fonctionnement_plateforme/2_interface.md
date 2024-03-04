@@ -16,7 +16,7 @@ La documentation est en cours de construction.
 
 {{<insertImage image="ecran_accueil.png" class="bord img_full">}}
 
- &nbsp;
+&nbsp;
 
 1. La case "Tâches" vous donne un résumé des données et des erreurs qui sont encore à vérifier. 
 
