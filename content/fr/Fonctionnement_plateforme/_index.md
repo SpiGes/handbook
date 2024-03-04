@@ -1,7 +1,7 @@
 ---
-title: Fonctionnement de la plateforme SpiGes
+title: Fonctionnement de la plateforme
 slug: fonction_plateforme
-description: "Id leo in vitae turpis massa sed elementum tempus egestas."
+description: "Ce chapitre vous explique tout ce que vous avez besoin de savoir sur le fonctionnement de la plateforme et sur son utilisation."
 weight: 30
 type: docs
 keywords: []
@@ -25,5 +25,3 @@ En amont de ce processus de relevé, les hôpitaux contrôlent les données « �
 Le graphique suivant donne un aperçu des différentes phases du relevé :
 
 {{<insertImage image="phase_releve.jpg" class="bord img_full centre">}}
-
-Les données ne peuvent être libérées qu’au terme de toutes les vérifications de la phase précédente.
