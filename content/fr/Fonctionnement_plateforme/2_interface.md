@@ -34,6 +34,18 @@ La documentation est en cours de construction.
 
  &nbsp;
 
- 1. Liste des années de relevé. En cliquant sur l'année de votre choix, vous serez dirigé vers les données correspondates.
+ 1. Dans la liste des années de relevé, en cliquant sur l'année de votre choix, vous serez dirigé vers les données correspondantes à l'année voulue.
 
- 2. Le volet latéral vous permets d'avoir une vue d'ensemble des années de relevé sous forme de liste.
+ 2. Le volet latéral vous permet d'avoir une vue d'ensemble des années de relevé sous forme de liste.
+
+ ## Ecran données
+
+ {{<insertImage image="ecran_donnees.png" class="bord img_full">}}
+
+ &nbsp;
+
+ 1. La barre de recherche vous permet de trouver une entreprise ou un site hospoitalier plus rapidement.
+
+ 2. Dans la liste des entreprises hospitalières, en cliquant sur l'entreprise de votre choix, vous serez dirigé vers les données correspondantes à l'entreprise hospoitalière.
+
+ 3. La flèche de droite de chaque entreprise vous permet de dérouler la liste des sites hospitaliers liés à cette entreprise. La première flèche de la liste vous permet de dérouler toutes les entreprises. 
