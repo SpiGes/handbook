@@ -9,10 +9,3 @@ keywords: []
 {{<alert color="info">}}
 La documentation est en cours de construction.
 {{</alert>}}
-
-Test image 
-
-blablabla 
-
-re blablabla
-
