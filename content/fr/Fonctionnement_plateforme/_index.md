@@ -16,4 +16,3 @@ blablabla
 
 re blablabla
 
-{{<insertImage image="ecran_accueil.png" class="bord taille">}}
