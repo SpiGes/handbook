@@ -24,14 +24,10 @@ Si le chapitre correspondant existe déjà, les données importées précédemme
 
 {{<insertImage image="import_donnees.png" class="bord img_full">}}
 
-&nbsp;
-
 Pour importer de nouvelles données, il faut se rendre sur la page du site hospitalier souhaité, puis cliquer sur la case "1. Nouvelles données".
 
 &nbsp;
 
 {{<insertImage image="import_xml.png" class="bord img_full">}}
-
-&nbsp; 
 
 Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichier.
