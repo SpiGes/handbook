@@ -1,5 +1,5 @@
 ---
-title: 4. Libération des données sur la plateforme
+title: 4. Libération des données 
 slug: liberation_donnnees
 description: "Sur cette page, nous vous expliquons comment libérer les données importées par les centres hospitaliers de votre canton sur la plateforme SpiGes."
 keywords: []

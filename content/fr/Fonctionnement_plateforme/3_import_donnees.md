@@ -1,5 +1,5 @@
 ---
-title: 1. Importation des données sur la plateforme
+title: 1. Importation des données
 slug: import_donnnees
 description: "Sur cette page, nous vous expliquons comment importer les données de votre centre hospitalier sur la plateforme SpiGes."
 keywords: []
@@ -30,4 +30,4 @@ Pour importer de nouvelles données, il faut se rendre sur la page du site hospi
 
 {{<insertImage image="import_xml.png" class="bord img_full">}}
 
-Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichier.
+Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichiers.
