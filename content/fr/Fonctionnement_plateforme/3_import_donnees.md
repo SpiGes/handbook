@@ -11,9 +11,6 @@ type: docs
 La documentation est en cours de construction.
 {{</alert>}}
 
-
-Mettre explications avec capture d'écran de comment importer des données sur la plateforme.
-
 {{<alert color="info">}}
 L'import des données peut s’effectuer par étapes, tant chronologiquement que pour le contenu. Toutes les données de l’hôpital doivent être disponibles sur la plateforme au plus tard à fin avril de l'année qui suit celle du relevé. L’importation des données s’effectue par chapitre. 
 {{</alert>}}
