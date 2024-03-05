@@ -12,7 +12,7 @@ La documentation est en cours de construction.
 {{</alert>}}
 
 
-## Ecran d'accueil
+### Ecran d'accueil
 
 {{<insertImage image="ecran_accueil.png" class="bord img_full">}}
 
@@ -28,7 +28,7 @@ La documentation est en cours de construction.
 
 5. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme. 
 
-## Ecran Erhebungsübersicht
+### Ecran Erhebungsübersicht
 
 {{<insertImage image="ecran_erhebungsubersicht.png" class="bord img_full">}}
 
@@ -38,7 +38,7 @@ La documentation est en cours de construction.
 
 2. Le volet latéral vous permet d'avoir une vue d'ensemble des années de relevé sous forme de liste.
 
-## Ecran données global
+### Ecran données global
 
 {{<insertImage image="ecran_donnees.png" class="bord img_full">}}
 
@@ -50,7 +50,7 @@ La documentation est en cours de construction.
 
 3. La flèche à droite de chaque entreprise vous permet de dérouler la liste des sites hospitaliers liés à cette entreprise. La première flèche de la liste vous permet de dérouler toutes les entreprises.
 
-## Ecran données site
+### Ecran données site
 
 {{<insertImage image="donnees_site.png" class="bord img_full">}}
 
