@@ -30,6 +30,25 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 {{<insertImage image="test_format.png" class="bord img_full">}}
 
+&nbsp;
+
+1. Dans cette colonne, vous pouvez voir la date et l'heure du dernier import de données.
+
+2. Dans cette colonne, vous voyez si les données concernées ont passé le test de contrôle du format. Dans le cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger.
+
+3. Vous voyez ici les commantaires qui ont été posté précédement. 
+
+4. Vous pouvez poster des commentaires pour justifier vos erreurs ou pour répondre aux commentaires précédents. 
+
+5. Cette case vous permet d'importer des nouvelles données. ATTENTION: l'import de nouvelles données effaces les données précédemment importées. 
+
+
+## Contrôle des cas individuels
+
+{{<insertImage image="controle.png" class="bord img_full">}}
+
+&nbsp;
+
 1. 
 
 2. 
@@ -38,8 +57,4 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 4. 
 
-
-
-
-## Contrôle des cas individuels
-
+5. 
