@@ -31,3 +31,11 @@ Pour importer de nouvelles données, il faut se rendre sur la page du site hospi
 {{<insertImage image="import_xml.png" class="bord img_full">}}
 
 Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichiers.
+
+&nbsp;
+
+{{<insertImage image="fin_import.png" class="bord img_full">}}
+
+Une fois votre fichier visible, vous pouvez lancer la vérification autonome des données.
+
+Vous pouvez passer à la page d'après qui vous explique comment contrôler les données de votre centre hospitalier. 
