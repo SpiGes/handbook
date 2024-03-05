@@ -1,5 +1,5 @@
 ---
-title: 3. Vérification des données sur la plateforme
+title: 3. Vérification des données
 slug: verification_donnnees
 description: "Sur cette page, nous vous expliquons comment vérifier les données importées par les centres hospitaliers de votre canton sur la plateforme SpiGes."
 keywords: []

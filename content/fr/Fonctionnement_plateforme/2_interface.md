@@ -1,7 +1,7 @@
 ---
 title: Interface de la plateforme
 slug: interface
-description: "a completer. blablabla"
+description: "Sur cette page, nous vous présentons la navigation sur la plateforme de relevé SpiGes."
 keywords: []
 weight: 10
 type: docs
