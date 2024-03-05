@@ -12,7 +12,7 @@ La documentation est en cours de construction.
 {{</alert>}}
 
 
-## Clôture et libération
+### Clôture et libération
 
 À la fin de la plausibilisation, la correction des données doit tout d’abord être confirmée par les responsables de l’hôpital sur la plateforme SpiGes. Le canton peut ensuite procéder à la clôture. Cette étape comprend aussi bien la clôture du relevé statistique selon la LSF que la validation des données en vue de leur utilisation statistique selon la LAMal. 
 
