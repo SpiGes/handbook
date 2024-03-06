@@ -33,13 +33,11 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 1. Dans cette colonne, vous pouvez voir la date et l'heure du dernier import de données.
 
-2. Dans cette colonne, vous voyez si les données concernées ont passé le test de contrôle du format. Dans le cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger.
+2. Dans cette colonne, vous voyez si les données concernées ont passé le test de contrôle du format. En cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger dans le fichier XML et la réimporter. ATTENTION: l'import de nouvelles données effaces les données précédemment importées. 
 
-3. Vous voyez ici les commentaires qui ont été posté précédement. 
+3. Une fois le contrôle du format validé, vous voyez dans cette colonnes les erreurs de cas individuels à traité. Vous pouvez cliquer dans la catégorie souhaitée pour voir les erreurs plus en détails. 
 
-4. Vous pouvez poster des commentaires pour justifier vos erreurs ou pour répondre aux commentaires précédents. 
-
-5. Cette case vous permet d'importer des nouvelles données. ATTENTION: l'import de nouvelles données effaces les données précédemment importées. 
+4. Vous voyez ici les commentaires qui ont été posté précédement. Vous pouvez poster des commentaires pour justifier vos erreurs ou pour répondre aux commentaires précédents. Vous pouvez également créer un nouveau thème de discussion en cliquant sur la bulle de dialogue au milieu en haut.
 
 ## Contrôle des cas individuels
 
