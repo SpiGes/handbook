@@ -33,6 +33,7 @@ Vous pouvez ensuite soit glisser votre document de données au format XML, soit 
 
 {{<insertImage image="fin_import.png" class="bord img_full">}}
 
-Une fois votre fichier visible, vous pouvez lancer la vérification autonome des données.
+Une fois l'importe effectué, vous avez à l'écran un récapitulatif des données importées.
+Vous devez retourner en arrière sur la page du site/de l'entreprise pour voir l'état des données importées et les contrôler.
 
 Vous pouvez passer à la page d'après qui vous explique comment contrôler les données de votre centre hospitalier. 
