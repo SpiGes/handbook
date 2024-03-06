@@ -45,11 +45,18 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 &nbsp;
 
-1. La section filtre vous permet de trier les section afin de trouver plus rapidement ce que vous chercher.
+1. La section filtre vous permet de trier les section afin de trouver plus rapidement ce que vous cherchez.
 
-2. Les icônes vous pemettent de voir en un coup d'oeil s'il y a des choses spécifiques à contrôler dans cette section. 
+2. Dans cette colonne, vous pouvez voir le statut de chaque section. 
 
-3. Dans cette colonne, vous pouvez voir le statut de la section. Vous pouvez cliquer sur le statut pour traiter la section.
+3. Vous pouvez ici télécharger les données.
 
-4. Dans cette colonne, vous voyez le dernier commentaire ou le commentaire épinglé. Vous pouvez cliquer dessus pour accèder à la section commentaire de la section. 
+4. En cliquant sur la flèche, vous déroulez le contenu de la catégorie et vous pouvez voir chaque erreur. 
 
+&nbsp;
+
+{{<insertImage image="controle_detail.png" class="bord img_full">}}
+
+&nbsp;
+
+1. 
