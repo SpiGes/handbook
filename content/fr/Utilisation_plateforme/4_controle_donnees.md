@@ -59,4 +59,12 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 &nbsp;
 
-1. 
+1. Les cases carrées vous permettent de selectionner plusieurs erreurs.
+
+2. Dans cette colonne, vous pouvez voir une description de l'erreur, vous pouvez également avoir plus de détail en cliquant sur l'erreur dans la colonne "Fall-Id". 
+
+3. Dans cette colonne, vous pouvez voir le statut de chaque erreur.
+
+4. Vous pouvez ici commenter. Vous commenterez la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et vous commenterez les erreurs séléctionnées le cas échéant. 
+
+5. Vous pouvez également commenter une seule erreur au niveau de l'erreur concernée.
