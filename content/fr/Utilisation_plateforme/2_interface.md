@@ -58,4 +58,4 @@ La documentation est en cours de construction.
 
 1. Cette case vous permet d'importer des données concernant l'entreprise ou le site hospitalier selectionné. Vous trouverez plus de détail à ce propos sur la page "1. Importation des données sur la plateforme".
 
-2. L'espace commentaire vous permet de communiquer. 
+2. L'espace commentaire vous permet de communiquer. Pour créer un nouveau sujet de conversation, vous devez créer un nouveau thème en cliquant sur la bulle de dialogue en haut au milieu, puis commenter au sein de cette nouvelle catégorie. 
