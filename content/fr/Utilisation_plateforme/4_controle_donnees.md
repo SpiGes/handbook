@@ -35,7 +35,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 2. Dans cette colonne, vous voyez si les données concernées ont passé le test de contrôle du format. Dans le cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger.
 
-3. Vous voyez ici les commantaires qui ont été posté précédement. 
+3. Vous voyez ici les commentaires qui ont été posté précédement. 
 
 4. Vous pouvez poster des commentaires pour justifier vos erreurs ou pour répondre aux commentaires précédents. 
 
