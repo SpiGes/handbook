@@ -65,6 +65,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 3. Dans cette colonne, vous pouvez voir le statut de chaque erreur.
 
-4. Vous pouvez ici commenter. Vous commenterez la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et vous commenterez les erreurs séléctionnées le cas échéant. 
+4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). 
+Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon. 
 
-5. Vous pouvez également commenter une seule erreur au niveau de l'erreur concernée.
+5. Vous pouvez également agir sur une seule erreur au niveau de l'erreur concernée.
