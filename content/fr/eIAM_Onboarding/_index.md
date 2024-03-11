@@ -29,3 +29,31 @@ Chaque utilisateur qui se connecte à l’application SpiGes est automatiquement
 {{<alert color="warning">}}
 L’identité de l’utilisateur devant être vérifiée, les comptes sur l’application sont personnels. Un même compte ne pourra pas être utilisé par plusieurs personnes.
 {{</alert>}}
+
+## Structure des Units eIAM
+Les différents utilisateurs de la plateforme SpiGes sont organisés comme suit: 
+
+- Canton
+    - Entreprises
+        - Site hospitalier
+
+Un canton contient une ou plusieurs entreprises qui elles-même contiennent un ou plusieurs sites hospitaliers. 
+
+Exemple: 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> text </p>
+
+<p> re text </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="Visu_entreprise.png" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
