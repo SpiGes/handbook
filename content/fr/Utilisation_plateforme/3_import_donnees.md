@@ -12,7 +12,7 @@ La documentation est en cours de construction.
 {{</alert>}}
 
 {{<alert color="info">}}
-L'import des données peut s’effectuer par étapes, tant chronologiquement que pour le contenu. Toutes les données de l’hôpital doivent être disponibles sur la plateforme au plus tard à fin avril de l'année qui suit celle du relevé. L’importation des données s’effectue par chapitre. 
+L'import des données peut s’effectuer par étapes, tant chronologiquement que pour le contenu. Toutes les données de l’hôpital doivent être disponibles sur la plateforme <B> au plus tard </B> à fin avril de l'année qui suit celle du relevé. L’importation des données s’effectue par chapitre. 
 {{</alert>}}
 
 {{<alert color="warning">}}
