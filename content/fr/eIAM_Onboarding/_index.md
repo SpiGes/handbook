@@ -39,14 +39,19 @@ Les différents utilisateurs de la plateforme SpiGes sont organisés comme suit:
 
 Un canton contient une ou plusieurs entreprises qui elles-même contiennent un ou plusieurs sites hospitaliers. 
 
-Exemple: 
+Exemple: Dans certains cas, le canton géographique d'un site et celui administratif de l'entreprise ne sont pas les même.
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> text </p>
+<p> <ol>
+  <li> Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers. </li>
+  <li> Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier. </li>
+  <li> Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier. </li>
+</ol> </p>
 
-<p> re text </p>
+<p> Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.  </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
