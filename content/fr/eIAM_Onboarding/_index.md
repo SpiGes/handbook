@@ -35,11 +35,15 @@ Les différents utilisateurs de la plateforme SpiGes sont organisés comme suit:
 
 - Canton
     - Entreprises
-        - Site hospitalier
+        - Sites hospitaliers
 
 Un canton contient une ou plusieurs entreprises qui elles-même contiennent un ou plusieurs sites hospitaliers. 
 
-Exemple: Dans certains cas, le canton géographique d'un site et celui administratif de l'entreprise ne sont pas les même.
+{{<alert color="warning">}}
+Dans certains cas, le canton géographique d'un site et celui administratif de l'entreprise ne sont pas les mêmes.
+{{</alert>}}
+
+Exemple: 
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
