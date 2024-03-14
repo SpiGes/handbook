@@ -1,5 +1,5 @@
 ---
-title: Hinzufügung der Mobile ID als Zweitaktor
+title: Hinzufügung der Mobile ID als Zweitfaktor
 slug: mobile_id_add
 description: 'Auf dieser Seite erklären wir Ihnen, wie Sie die Mobile ID als zweiten Faktor zum CH-Login hinzufügen können. Dies ermöglicht Ihnen, Ihre Identität bei der Verbindung mit eIAM zu überprüfen.'
 keywords: []
@@ -9,7 +9,7 @@ type: docs
 
 In diesem Schritt wird die Mobile ID dem CH-Login als starker Zweitfaktor hinzugefügt.
 
-Wenn Sie bereits einen (schwachen) Zweitfaktor (mTAN) haben, wird empfohlen diesen zuerst zu entfernen. Klicken Sie dazu in der Kachel Mobile-Nummer (mTAN) auf Entfernen. Danach können Sie der oben erwähnten Anleitung folgen um die Mobile ID als (straken) Zweitfaktor zu registrieren.
+Wenn Sie bereits einen (schwachen) Zweitfaktor (mTAN) haben, wird empfohlen diesen zuerst zu entfernen. Klicken Sie dazu in der Kachel Mobile-Nummer (mTAN) auf Entfernen. Danach können Sie der oben erwähnten Anleitung folgen um die Mobile ID als (starken) Zweitfaktor zu registrieren.
 
 &nbsp;
 
