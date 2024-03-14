@@ -24,4 +24,4 @@ Vorgelagert zu diesem Erhebungsprozess werden die Daten auf hauseigenen Systemen
 
 Folgende Abbildung gibt einen Überblick über die Erhebungsphasen:
 
-{{<insertImage image="phase_releve_de.jpg" class="bord img_full centre">}}
+{{<insertImage image="phase_releve_de.png" class="bord img_full centre">}}

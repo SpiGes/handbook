@@ -18,8 +18,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 &nbsp;
 
-1. 
-Das Feld "Aufgaben" gibt Ihnen eine Übersicht über die Daten und Fehler, die noch zu prüfen sind. 
+1. Das Feld "Aufgaben" gibt Ihnen eine Übersicht über die Daten und Fehler, die noch zu prüfen sind. 
 
 2. Das Feld "Quick Links" gibt Ihnen Links mit verschiedenen nützlichen Informationen.
 
