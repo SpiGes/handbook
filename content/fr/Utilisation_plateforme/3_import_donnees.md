@@ -1,7 +1,7 @@
 ---
 title: 1. Importation des données
 slug: import_donnnees
-description: "Sur cette page, nous vous expliquons comment importer les données de votre centre hospitalier sur la plateforme SpiGes."
+description: "Sur cette page, nous vous expliquons comment importer les données de votre site hospitalier sur la plateforme SpiGes."
 keywords: []
 weight: 20
 type: docs
@@ -21,19 +21,23 @@ Si le chapitre correspondant existe déjà, les données importées précédemme
 
 {{<insertImage image="import_donnees.png" class="bord img_full">}}
 
-Pour importer de nouvelles données, il faut se rendre sur la page du site hospitalier souhaité, puis cliquer sur la case "1. Nouvelles données".
+&nbsp;
+
+1. Pour importer de nouvelles données, il faut se rendre sur la page du site hospitalier souhaité, puis cliquer sur la case "+ Nouvelles données".
 
 &nbsp;
 
 {{<insertImage image="import_xml.png" class="bord img_full">}}
 
-Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichiers.
+&nbsp;
+
+1. Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichiers.
 
 &nbsp;
 
 {{<insertImage image="fin_import.png" class="bord img_full">}}
 
+&nbsp;
+
 Une fois l'importation effectuée, vous avez à l'écran un récapitulatif des données importées.
 Vous devez retourner en arrière sur la page du site/de l'entreprise pour voir l'état des données importées et les contrôler.
-
-Vous pouvez passer à la page d'après qui vous explique comment contrôler les données de votre centre hospitalier. 

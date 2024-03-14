@@ -1,7 +1,7 @@
 ---
 title: 2. Contrôle des données
 slug: controle_donnnees
-description: "Sur cette page, nous vous expliquons comment contrôler les données importées par votre centre hospitalier sur la plateforme SpiGes."
+description: "Sur cette page, nous vous expliquons comment contrôler les données importées par votre site hospitalier sur la plateforme SpiGes."
 keywords: []
 weight: 30
 type: docs
@@ -21,7 +21,7 @@ La documentation est en cours de construction.
 
 Lors d’un import, toutes les vérifications sont effectuées automatiquement. Leurs résultats sont enregistrés et présentés. Les compléments sont également apportés automatiquement, de sorte que les données peuvent aussi être contrôlées à ce sujet. 
 
-L’établissement traite les résultats du contrôle de manière autonome et corrige les données si possibles. 
+L’établissement traite les résultats du contrôle de manière autonome et corrige les données si possible. 
 
 Si la correction n’est pas possible ou que le contrôle a détecté une erreur à tort, l’établissement saisit une justification dans la section commentaire prévu à cette effet sur la plateforme. La vérification peut aussi générer un avertissement, qui se veut informatif et n’implique pas forcément une justification ou une correction. La vérification autonome est terminée une fois que toutes les erreurs ont été corrigées ou justifiées, ce qui doit être fait d’ici à la fin avril.
 
@@ -33,11 +33,11 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 1. Dans cette colonne, vous pouvez voir la date et l'heure du dernier import de données.
 
-2. Dans cette colonne, vous voyez si les données concernées ont passé le test de contrôle du format. En cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger dans le fichier XML et la réimporter. **ATTENTION:** l'import de nouvelles données remplace les données précédemment importées. 
+2. Dans cette colonne, vous voyez si les données concernées ont passé les tests de contrôle du format. En cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger dans le fichier XML et la réimporter. **ATTENTION:** l'import de nouvelles données remplace les données précédemment importées. 
 
 3. Une fois le contrôle du format validé, vous voyez dans cette colonnes les erreurs de cas individuels à traiter. Vous pouvez cliquer dans la catégorie souhaitée pour voir les erreurs plus en détails. 
 
-4. Vous voyez ici les commentaires qui ont été posté précédement. Vous pouvez poster des commentaires pour justifier vos erreurs ou pour répondre aux commentaires précédents. Vous pouvez également créer un nouveau thème de discussion en cliquant sur la bulle de dialogue au milieu en haut.
+4. Vous voyez ici les commentaires qui ont été postés précédemment. Vous pouvez poster des commentaires pour justifier vos erreurs ou pour répondre aux commentaires précédents. Vous pouvez également créer un nouveau thème de discussion en cliquant sur la bulle de dialogue au milieu en haut.
 
 ## Contrôle des cas individuels
 
@@ -45,7 +45,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 &nbsp;
 
-1. La section filtre vous permet de trier les section afin de trouver plus rapidement ce que vous cherchez.
+1. La section filtre vous permet de trier les sections afin de trouver plus rapidement ce que vous cherchez.
 
 2. Dans cette colonne, vous pouvez voir le statut de chaque section. 
 
@@ -61,11 +61,10 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 1. Les cases carrées vous permettent de selectionner plusieurs erreurs.
 
-2. Dans cette colonne, vous pouvez voir une description de l'erreur, vous pouvez également avoir plus de détail en cliquant sur l'erreur dans la colonne "Fall-Id". 
+2. Dans cette colonne, vous pouvez voir une description de l'erreur, vous pouvez également avoir plus de détails en cliquant sur l'erreur dans la colonne "Fall-Id". 
 
 3. Dans cette colonne, vous pouvez voir le statut de chaque erreur.
 
-4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). 
-Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon. 
+4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon. 
 
 5. Vous pouvez également agir sur une seule erreur au niveau de l'erreur concernée.
