@@ -2,7 +2,7 @@
 title: Page 2
 slug: page2
 description: "Pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada. Proin nibh nisl condimentum id venenatis a condimentum vitae."
-weight: 30
+weight: 40
 type: docs
 keywords: []
 ---
