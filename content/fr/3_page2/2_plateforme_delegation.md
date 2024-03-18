@@ -12,9 +12,45 @@ La documentation est en cours de construction.
 {{</alert>}}
 
 ## Connexion au portail de délégation
-Mettre ici les instructions de connexion avec lien du site (version prod).
-y ajouter une capture d'écran
-Mettre accès au unité 
+
+<!-- 1ere paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Pour vous connecter au portail de délégation, rendez-vous sur le site <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
+
+<p> Vous devez ensuite accepter les conditions d'utilisation pour pouvoir accéder au portail.  </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="cond_util_fr.png" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+
+<!-- 2eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p> Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs dans l'onglet "Gestion des utilisateurs" cliquez sur "Gestion déléguée".   </p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="gestion_del.png" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+
 
 ## Création d'un nouvel utilisateur 
 Explications création nouveau profil 
