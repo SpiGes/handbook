@@ -172,6 +172,27 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 &nbsp;
 
 
+<!-- 6eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p>
+En cochant la case, cela vous permet de donner le droit à l'utilisateur de déléguer des rôles d'utilisateurs.
+</p>
+
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="don_delegation.png" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+
 
 
 
