@@ -178,5 +178,3 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 explication des différentes options 
 
 
-Explication modification + désactivation profil.
-
