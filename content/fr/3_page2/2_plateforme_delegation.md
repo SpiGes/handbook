@@ -103,7 +103,7 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès au données du 
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> En cliquant cette case, vous pouvez créer un nouvel utilisateur. </li>
+   <li> En cliquant sur cette case, vous pouvez créer un nouvel utilisateur. </li>
    <li> En cliquant sur le crayon, vous pouvez modifier les informations concernant l'utilisateur existant. </li>
    <li> Vous pouvez également modifier les autorisations d'un utilisateur en le séléctionnant puis en ciquant sur "continuer". </li>
 </ol>
@@ -120,9 +120,63 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès au données du 
 
 &nbsp;
 
-Explications création nouveau profil 
+### Création d'un utilisateur
+
+<!-- 5eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p>
+Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur. 
+</p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="creation_utilisateur.png" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+
+### modification des autorisations de l'utilisateurs 
+
+<!-- 6eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p>
+<ol> 
+   <li> En cliquant sur cette case, vous pouvez ajouter un second rôle à l'utilisateur </li>
+   <li> En cliquant sur le crayon, vous pouvez modifier le nom du profil. Vous pouvez également désactiver le profil en cliquant sur la flèche à côté du crayon, puis en cliquant sur "désactiver". </li>
+   <li> Vous pouvez ici séléctioner le rôle que vous souhaitez donner à l'utilisateur. En cliquant, un résumé du rôle s'affichera dans l'encadré à droite. </li>
+   <li> Vous pouvez accorder le rôle séléctioné à l'utilisateur en cliquant sur "accorder". </li>
+   <li> Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. </li>
+</ol>
+</p>
+
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="param_utilisateur.png" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+
+
+
+
+
 explication des différentes options 
 
-## Gestion des autorisations de l'utilisateurs 
+
 Explication modification + désactivation profil.
 
