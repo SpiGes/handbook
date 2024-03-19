@@ -30,21 +30,25 @@ La documentation est en cours de construction.
 | KT_User | Il assiste le KT_Superuser dans ses tâches. | il peut lire, télécharger, commenter toutes les données de ses entreprises et sites hospitaliers | Il assiste le KT_Superuser dans ses tâches. |
 | KT_Read | En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. | Il peut lire toutes les données de toutes les entreprises hospitalières de son canton. | Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme. |
 
+### Rôles Hôpitaux
 
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Nom</th>
+    <th>Tâches </th>
+    <th>Compétences</th>
+    <th> Responsabilités </th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>SP_ErhV_Unternehmen </td>
+    <td> Pendant la phase d'initialisation, il lit les nouveautés concernant le relevé et les met en œuvre si nécessaire. Pendant le relevé, il veille à ce que ses sites hospitaliers respectent les délais de livraison. Il télécharge les données, vérifie la qualité des données à l'aide du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau de l'entreprise hospitalière afin qu'elles puissent être libérée par le canton. </td>
+    <td>Il peut lire, télécharger, commenter, exporter à des fins de plausibilité et clôturer toutes les données de son entreprise hospitalière et de ses sites. </td>
+    <td>Il veille à ce que les données de son entreprise hospitalière soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau de l'entreprise hospitalière. </td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>SP_ErhV_Standort</td>
+    <td>Il télécharge les données de son site hospitalier, vérifie la qualité des données au moyen du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau du site hospitalier afin qu'elles puissent être transmises dans le processus (libération de l'entreprise hospitalière).</td>
+    <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier.</td>
+    <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier.</td>
   </tr>
 </table>
