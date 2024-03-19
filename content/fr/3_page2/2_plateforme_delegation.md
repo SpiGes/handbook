@@ -142,7 +142,7 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 
 &nbsp;
 
-### modification des autorisations de l'utilisateurs 
+### Modification des autorisations de l'utilisateurs 
 
 <!-- 6eme paire de colonnes -->
 
