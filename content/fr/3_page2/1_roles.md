@@ -34,7 +34,7 @@ La documentation est en cours de construction.
 
 <table>
   <tr>
-    <th>Nom</th>
+    <th><div style="width:190px"> Nom </div></th>
     <th>Tâches </th>
     <th>Compétences</th>
     <th> Responsabilités </th>
