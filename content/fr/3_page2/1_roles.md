@@ -29,3 +29,22 @@ La documentation est en cours de construction.
 | KT_Admin_Abschlussuser | En consultant les données de ses sites ou entreprises hospitalières, il libère les données pour une utilisation administrative à la fin de l'enquête. | Il peut lire toutes les données de ses entreprises et sites hospitaliers, les télécharger, les commenter, modifier les statistiques de contrôle, les exporter à des fins de plausibilité, les clôturer. | Pour l'année de relevé concernée, l'office cantonal de la santé publique libère fin juillet les données des entreprises hospitalières situées sur son territoire en vue de leur utilisation selon la LAMal. |
 | KT_User | Il assiste le KT_Superuser dans ses tâches. | il peut lire, télécharger, commenter toutes les données de ses entreprises et sites hospitaliers | Il assiste le KT_Superuser dans ses tâches. |
 | KT_Read | En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. | Il peut lire toutes les données de toutes les entreprises hospitalières de son canton. | Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme. |
+
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
