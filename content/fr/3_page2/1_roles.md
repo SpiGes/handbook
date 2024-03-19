@@ -34,10 +34,10 @@ La documentation est en cours de construction.
 
 <table>
   <tr>
-    <th><div style="width:190px"> Nom </div></th>
+    <th><div style="width:170px"> Nom </div></th>
     <th>Tâches </th>
-    <th>Compétences</th>
-    <th> Responsabilités </th>
+    <th> <div style="width:100px"> Compétences </div> </th>
+    <th> <div style="width:100px"> Responsabilités </div> </th>
   </tr>
   <tr>
     <td>SP_ErhV_Unternehmen </td>
