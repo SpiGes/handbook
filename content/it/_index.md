@@ -9,4 +9,7 @@ type: docs
 
 Benvenuti nel manuale di SpiGes
 
-Documentazione in costruzione.
+
+{{<alert color="info">}}
+La documentazione è attualmente in fase di costruzione.
+{{</alert>}}

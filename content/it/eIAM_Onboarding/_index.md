@@ -7,62 +7,26 @@ weight: 20
 type: docs
 ---
 
-Dans ce chapitre, vous trouverez toutes les marches à suivre afin de vous créer un profil vérifié qui vous permettera de vous connecter à la plateforme SpiGes. 
+In questo capitolo troverete tutti i passaggi da seguire per creare un profilo verificato che vi permetterà di connettervi alla piattaforma SpiGes. 
 
-Pour créer un CH-login avec un second facteur fort et une identité vérifiée pour l'utilisation de la plateforme SpiGes, les étapes suivantes sont nécessaires :
+Per creare un CH-login con un secondo fattore forte e un'identità verificata per l'utilizzo della piattaforma SpiGes, sono necessari i seguenti passaggi:
 
-1. Créer un login CH
-2. Activer le Mobile ID
-3. Ajouter le Mobile ID comme deuxième facteur au CH-Login
-4. Vérifier l'identité sur le second facteur (Mobile ID ou clé FIDO2)
-5. Relier (onboarding) le login CH établi avec SpiGes
+1. Creare un login CH
+2. Attivare il Mobile ID
+3. Aggiungere il Mobile ID come secondo fattore al CH-Login
+4. Verificare l'identità del secondo fattore (Mobile ID o FIDO2 key).
+5. A bordo del login CH stabilito con SpiGes.
 
-Ces étapes sont expliquées dans les pages suivantes. Si vous disposez déjà d'un CH-Login ou d'un Mobile ID, vous n'avez pas besoin d'en créer un nouveau et vous pouvez passer l'étape correspondante. Vérifiez toutefois que votre CH-Login ou votre Mobile ID fonctionnent.
+Questi passaggi sono spiegati nelle pagine seguenti. Se si dispone già di un CH-Login o di un Mobile ID, non è necessario crearne uno nuovo e si può saltare il passaggio corrispondente. Tuttavia, verificate che il vostro CH-Login o Mobile ID sia funzionante.
 
-Nous vous conseillons de commencer par lire ces pages d'instruction avant d’essayer de configurer votre nouvel accès sécurisé.
+Vi consigliamo di leggere queste pagine di istruzioni prima di provare a configurare il vostro nuovo accesso sicuro.
 
-## Fonctionnement d'eIAM
+## Come funziona eIAM
 
-eIAM est un système central d'accès et d'autorisation de l'administration fédérale pour les applications web. Pour simplifier, eIAM est l’infrastructure d’accès centralisée de la Confédération. Son but est d’éviter la mise en place d’une procédure spécifique à chaque application. Cette centralisation permet de réaliser des économies et d’utiliser les mêmes données d’accès pour toutes les applications.    
-Chaque utilisateur qui se connecte à l’application SpiGes est automatiquement redirigé sur le portail eIAM pour la procédure d’authentification. Le système demandera alors à l’utilisateur de valider sa connexion sur son téléphone mobile afin vérifier que c’est effectivement la bonne personne qui essaie de se connecter.  
-
-{{<alert color="warning">}}
-L’identité de l’utilisateur devant être vérifiée, les comptes sur l’application sont personnels. Un même compte ne pourra pas être utilisé par plusieurs personnes.
-{{</alert>}}
-
-## Structure des Units eIAM
-Les différents utilisateurs de la plateforme SpiGes sont organisés comme suit: 
-
-- Canton
-    - Entreprises
-        - Sites hospitaliers
-
-Un canton contient une ou plusieurs entreprises qui elles-même contiennent un ou plusieurs sites hospitaliers. 
+eIAM è il sistema centrale di accesso e autorizzazione alle applicazioni web dell'Amministrazione federale. In parole povere, eIAM è l'infrastruttura di accesso centralizzata della Confederazione. Il suo scopo è quello di evitare la creazione di una procedura specifica per ogni applicazione. Questa centralizzazione consente di risparmiare denaro e di utilizzare gli stessi dati di accesso per tutte le applicazioni.    
+Ogni utente che accede all'applicazione SpiGes viene automaticamente reindirizzato al portale eIAM per la procedura di autenticazione. Il sistema chiederà quindi all'utente di convalidare la connessione sul proprio telefono cellulare per verificare che si tratti effettivamente della persona giusta che sta cercando di connettersi.  
 
 {{<alert color="warning">}}
-Dans certains cas, le canton géographique d'un site et celui administratif de l'entreprise ne sont pas les mêmes.
+Poiché l'identità dell'utente deve essere verificata, gli account dell'applicazione sono personali. Lo stesso account non può essere utilizzato da più persone.
 {{</alert>}}
 
-Exemple: 
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-
-<div style="flex: 1; padding-right: 10px;">
-<!-- First column content goes here -->
-<p> <ol>
-  <li> Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers. </li>
-  <li> Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier. </li>
-  <li> Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier. </li>
-</ol> </p>
-
-<p> Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.  </p>
-</div>
-
-<div style="flex: 1; padding-left: 10px;">
-<!-- Second column content goes here -->
-{{<insertImage image="Visu_entreprise.png" class="bord taille">}}
-</div>
-
-</div>
-
-&nbsp;
