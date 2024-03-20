@@ -1,5 +1,5 @@
 ---
-title: Identification video
+title: Identification vidéo
 slug: vips
 description: "Sur cette page, nous vous expliquons comment faire vérifier votre identitié à l'aide de l'authentification vidéo."
 keywords: []

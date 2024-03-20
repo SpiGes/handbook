@@ -1,5 +1,5 @@
 ---
-title: Activation du Mobile ID
+title: Attivazione del Mobile ID
 slug: mobile_id
 description: "Questa pagina spiega come attivare un Mobile ID. Questo vi permetterà di verificare la vostra identità quando vi connetterete a eIAM."
 keywords: []
