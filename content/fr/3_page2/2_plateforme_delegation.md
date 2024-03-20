@@ -179,7 +179,7 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
 <p>
-En cochant la case, cela vous permet de donner le droit à l'utilisateur de déléguer des rôles d'utilisateurs.
+En cochant la case, cela vous permet de donner le droit à l'utilisateur de créer et gérer des rôles d'utilisateurs, il ne pourra cependant pas donner des autorisations à l'utilisateur. 
 </p>
 
 </div>
@@ -192,10 +192,4 @@ En cochant la case, cela vous permet de donner le droit à l'utilisateur de dél
 </div>
 
 &nbsp;
-
-
-
-
-explication des différentes options 
-
 
