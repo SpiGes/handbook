@@ -1,18 +1,18 @@
 ---
-title: Identification video
+title: Identificazione video
 slug: vips
-description: "Sur cette page, nous vous expliquons comment faire vérifier votre identitié à l'aide de l'authentification vidéo."
+description: "In questa pagina vi spieghiamo come far verificare la vostra identità tramite l'autenticazione video."
 keywords: []
 weight: 40
 type: docs
 ---
 
-Pour pouvoir utiliser la plateforme de relevé SpiGes, vous avez besoin d'une identité vérifiée sur un second facteur fort du CH-Login. L'identité est vérifiée au moyen d'une identification par vidéo (VIPS). 
+Per poter utilizzare la piattaforma di dichiarazione SpiGes, è necessaria un'identità verificata su un secondo fattore forte CH-Login. La verifica dell'identità avviene tramite identificazione video (VIPS). 
 
-Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
-- Un smartphone ou un ordinateur portable avec une caméra et un microphone fonctionnels. Privilégiez un appareil avec une bonne qualité de son et d'image.  
-- Une pièce d'identité officielle avec photo en cours de validité (passeport ou carte d'identité). Selon la [nationalité](https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317), un passeport est obligatoirement requis.
-- Un moyen de paiement. Soit un bon ("voucher codes") soit un des moyens de payement suivants: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
+Per effettuare l'identificazione video, è necessario il seguente equipaggiamento:
+- Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità del suono e delle immagini.  
+- Un documento d'identità ufficiale valido con foto (passaporto o carta d'identità). A seconda della [nazionalità](https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317), il passaporto è obbligatorio.
+- Un mezzo di pagamento. Un codice voucher o uno dei seguenti metodi di pagamento: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
 
 <!-- 1ere paire de colonnes -->
 
@@ -20,9 +20,9 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Pour lancer l'identification vidéo, connectez vous à votre <a href="https://www.myaccount-r.eiam.admin.ch/"> compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p>Per avviare l'identificazione video, accedere al proprio account <a href="https://www.myaccount-r.eiam.admin.ch/">eIAM</a> con CH-LOGIN, quindi accedere alla scheda "Login e sicurezza". </p>
 
-<p> Descendez jusqu'à la partie "Gestion de l'authentification à deux facteurs", puis cliquez sur "Sélectionner un second facteur" dans la case "Vérifier un second facteur".  </p>
+<p>Scorrere fino a "Gestisci l'autenticazione a due fattori", quindi fare clic su "Seleziona un secondo fattore" nella casella "Verifica un secondo fattore".  </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -40,9 +40,9 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Séléctionnez le Mobile ID puis cliquez sur "Continuer". </p>
+<p> Selezionare il Mobile ID e fare clic su "Continua". </p>
 
-<p> Confirmer votre choix en cliquant sur "Vérifier". </p>
+<p> Confermare la scelta facendo clic su "Verifica". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -60,9 +60,9 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Saisissez votre mot de passe puis cliquez sur "Continuer". </p>
+<p> Inserire la password e fare clic su "Continua". </p>
 
-<p> Ensuite cliquez à nouveau sur "Continuer" pour démarrer le processus d'authentification vidéo. </p>
+<p> Fare nuovamente clic su "Continua" per avviare il processo di autenticazione video. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -80,9 +80,9 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Remplissez vos données personnelles. Veillez à mettre exactement les mêmes informations que sur vos papiers d'identité. </p>
+<p> Inserite i vostri dati personali. Assicuratevi di inserire esattamente le stesse informazioni che figurano sui vostri documenti d'identità. </p>
 
-<p> Cochez la case "J'accepte que mes données soient communiquées à ...", puis cliquez sur "Continuer". </p>
+<p> Spuntate la casella "Accetto che i miei dati vengano trasmessi a ...", quindi cliccate su "Continua". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -100,9 +100,9 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Relisez vos données personnelles. Veillez à mettre exactement les mêmes informations que sur vos papiers d'identité. Si besoin, corrigez les informations en revenant en arrière.</p>
+<p> Rileggete i vostri dati personali. Assicuratevi di aver inserito esattamente le stesse informazioni riportate sui vostri documenti d'identità. Se necessario, correggete le informazioni tornando indietro.</p>
 
-<p> Si toutes vos informations sont correctes, cliquez sur "Continuer". </p>
+<p> Se tutte le informazioni sono corrette, fare clic su "Continua". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -120,9 +120,9 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Vous avez été redirigé sur le site de Adnovum pour pouvoir faire l'identification vidéo.</p>
+<p> Siete stati reindirizzati al sito web di Adnovum per poter effettuare l'identificazione video.</p>
 
-<p> Cochez les cases "Je confirme que j'ai lu et compris les conditions d'utilisation et déclare les accepter" et "J'ai lu les règles de protection des données", puis cliquez sur "Démarer l'identification par vidéo". </p>
+<p> Spuntare le caselle "Confermo di aver letto e compreso le condizioni di utilizzo e dichiaro di accettarle" e "Ho letto le norme sulla protezione dei dati", quindi fare clic su "Avvia identificazione video". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -140,9 +140,9 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Deux choix s'offent à vous pour procéder au paiement de l'identification vidéo: Les bons ou un paiement classique. </p>
+<p> Per il pagamento dell'identificazione video avete due possibilità: I voucher o il pagamento tradizionale. </p>
 
-<p> Sélctionnez l'option qui vous correspond puis suivez les instructions à l'écran. </p>
+<p> Selezionate l'opzione che fa per voi e seguite le istruzioni sullo schermo. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -154,7 +154,7 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 &nbsp;
 
-Vous allez avoir une confirmation de réception du paiement, puis vous allez pouvoir commencer l'identification vidéo. Pour cela deux options s'offre à vous, veuillez privilégier l'option avec la meilleure qualité de micro et d'image:
+Riceverete la conferma che il pagamento è stato ricevuto e potrete quindi iniziare l'identificazione video. Sono disponibili due opzioni, scegliete quella con la migliore qualità del microfono e dell'immagine:
 
 &nbsp;
 
@@ -163,7 +163,7 @@ Vous allez avoir une confirmation de réception du paiement, puis vous allez pou
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Soit faire l'identification vidéo à l'aide de la webcam de votre ordinateur. </p>
+<p> È possibile utilizzare la webcam del computer per effettuare l'identificazione video. </p>
 
 <p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="bord taille">}}</p>
 
@@ -171,7 +171,7 @@ Vous allez avoir une confirmation de réception du paiement, puis vous allez pou
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<p> Soit faire l'identification à l'aide de votre smartphone ou tablette. </p>
+<p> Oppure utilizzare lo smartphone o il tablet per effettuare l'identificazione. </p>
 
 <p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="bord taille">}} </p>
 </div>
@@ -183,20 +183,20 @@ Vous allez avoir une confirmation de réception du paiement, puis vous allez pou
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Pour cela, cochez toutes les cases présentes à l'écran puis suivez les instructions. </p>
+<p> Per farlo, spuntare tutte le caselle sullo schermo e seguire le istruzioni. </p>
 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<p> Pour cela, scannez le code QR présent à l'écran et installez l'application. Une fois dans l'applications saisissez le numéro d'identification, puis suivez les instructions. </p>
+<p> A tal fine, scansionare il codice QR sullo schermo e installare l'applicazione. Una volta entrati nell'applicazione, inserire il numero di identificazione e seguire le istruzioni. </p>
 </div>
 
 </div>
 
 &nbsp;
 
-Vous allez être mis en contact vidéo avec quelqu'un qui vérifiera votre identité.
+Sarete messi in contatto video con qualcuno che verificherà la vostra identità.
 
 &nbsp;
 
@@ -206,7 +206,7 @@ Vous allez être mis en contact vidéo avec quelqu'un qui vérifiera votre ident
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Une fois l'identification vidéo terminée, votre Mobile ID apparaîtra avec le niveau de confiance "Vérifié". </p>
+<p> Una volta completata l'identificazione video, il vostro Mobile ID apparirà con il livello di confidenza "Verificato". </p>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
