@@ -1,15 +1,15 @@
 ---
 title: Activation du Mobile ID
 slug: mobile_id
-description: 'Sur cette page, nous vous expliquons comment activer un Mobile ID. Cela vous permettra de vérifier votre identité lors de la connexion à eIAM.'
+description: "Questa pagina spiega come attivare un Mobile ID. Questo vi permetterà di verificare la vostra identità quando vi connetterete a eIAM."
 keywords: []
 weight: 20
 type: docs
 ---
 
-Un Mobile ID est nécessaire comme second facteur de sécurité pour avoir accès à la plateforme SpiGes. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
+Il Mobile ID è richiesto come secondo fattore di sicurezza per l'accesso alla piattaforma SpiGes. Per utilizzare Mobile ID, è necessario disporre di una carta SIM compatibile con Mobile ID. Se la carta SIM non è compatibile con Mobile ID, deve essere sostituita. 
 
-Suivez les étapes suivantes pour activer le Mobile ID.
+Per attivare Mobile ID, procedere come segue.
 
 <!-- 1ere paire de colonnes -->
 
@@ -17,7 +17,7 @@ Suivez les étapes suivantes pour activer le Mobile ID.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">MobileID</a> puis sélectionnez '"essayer maintenant"'. 
+Andate sul sito web <a href="https://www.mobileid.ch/it">MobileID</a> e selezionate "Prova ora". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -35,9 +35,9 @@ Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">MobileID</a> pui
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Saisissez votre numéro de téléphone. </p>
+<p> Inserire il numero di telefono. </p>
 
-<p> Vous allez ensuite recevoir un code par SMS au numéro indiqué, saisissez le code reçu. </p>
+<p> Riceverete quindi un codice via SMS al numero indicato, inserite il codice ricevuto. </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -49,15 +49,15 @@ Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">MobileID</a> pui
 
 &nbsp;
 
-Vous êtes maintenant sur votre tableau de bord Mobile ID. 
+Ora siete sulla vostra dashboard Mobile ID. 
 
-L'étape suivante sera d'activer le Mobile ID. 
+Il passo successivo è l'attivazione di Mobile ID. 
 
 {{<alert color="warning">}}
-Pour l'utilisation de la plateforme SpiGes, l'activation doit nécessairement se faire par la carte SIM (l'activation par l'application MobileID ne suffit pas). Pour cela, il vous faudra une carte SIM compatible avec Mobile ID. 
+Per utilizzare la piattaforma SpiGes, l'attivazione deve avvenire tramite la carta SIM (l'attivazione tramite l'applicazione MobileID non è sufficiente). È necessaria una carta SIM compatibile con Mobile ID. 
 {{</alert>}}
 
-La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile ID. Si votre carte SIM n'est pas compatible, il faudra commander une nouvelle carte SIM auprès de votre opérateur téléphonique.
+La compatibilità della carta SIM è visualizzata sul cruscotto del Mobile ID. Se la vostra carta SIM non è compatibile, dovrete ordinare una nuova carta SIM presso il vostro operatore telefonico.
 
 &nbsp; 
 
@@ -67,14 +67,14 @@ La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Si votre carte SIM est incompatible, le message suivant s'affichera sur votre tableau de bord Mobile ID.
+Se la carta SIM è incompatibile, sulla dashboard di Mobile ID viene visualizzato il seguente messaggio.
 {{<insertImage image="sim_incompatible_fr.png" description="Code SMS" class="bord taille">}}
 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-Si votre carte SIM est compatible, le message suivant s'affichera sur votre tableau de bord Mobile ID.
+Se la carta SIM è compatibile, sulla dashboard di Mobile ID viene visualizzato il seguente messaggio.
 {{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="bord taille">}}
 </div>
 
@@ -82,7 +82,7 @@ Si votre carte SIM est compatible, le message suivant s'affichera sur votre tabl
 
 &nbsp;
 
-Si votre carte SIM est compatible, voici les étapes à suivre: 
+Se la scheda SIM è compatibile, ecco i passaggi da seguire: 
 
 &nbsp;
 
@@ -92,7 +92,7 @@ Si votre carte SIM est compatible, voici les étapes à suivre:
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Cliquez sur "activer" dans la case "activer Mobile ID". 
+Fare clic su "attiva" nel riquadro "attiva ID mobile". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -110,7 +110,7 @@ Cliquez sur "activer" dans la case "activer Mobile ID".
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Sélectionnez la case "SIM, puis cliquez sur "suivant".
+Selezionare la casella "SIM", quindi fare clic su "Avanti".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -128,7 +128,7 @@ Sélectionnez la case "SIM, puis cliquez sur "suivant".
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Acceptez les conditions d'utilisations puis cliquez sur "suivant".
+Accettare i termini e le condizioni, quindi fare clic su "Avanti".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -146,7 +146,7 @@ Acceptez les conditions d'utilisations puis cliquez sur "suivant".
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez déjà un. Si ce n’est pas le cas ou si vous ne connaissez pas votre code de restauration, choisissez l’option «Je voudrais continuer sans l’option de restauration». Cliquez sur «suivant», puis validez votre choix en cliquant à nouveau sur «suivant».
+Ora avete la possibilità di ripristinare un Mobile ID se ne avevate già uno. In caso contrario o se non si conosce il codice di ripristino, scegliere l'opzione "Desidero continuare senza l'opzione di ripristino". Fare clic su "Avanti", quindi confermare la scelta facendo nuovamente clic su "Avanti".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -158,10 +158,10 @@ Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez 
 
  &nbsp;
 
-Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe. 
+Sul cellulare si apre una finestra che chiede di inserire una password di 6 cifre. Si aprirà quindi una nuova finestra che chiederà di confermare la password. 
 
-Vous avez terminé. 
+Il gioco è fatto. 
 
 {{<alert color="warning">}}
-Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
+Assicuratevi di annotare il codice di recupero in un luogo sicuro. Poiché la verifica della vostra identità si baserà sul vostro Mobile ID, è importante che possiate ripristinarlo se necessario. Questo è necessario se si dimentica il codice PIN o se si deve sostituire la carta SIM (ad esempio, se si perde il cellulare). 
 {{</alert>}}

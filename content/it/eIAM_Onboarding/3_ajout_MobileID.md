@@ -1,15 +1,15 @@
 ---
-title: Ajout du Mobile ID comme deuxième facteur
-slug: ajout_mobile_id
-description: 'Sur cette page, nous vous expliquons comment ajouter le Mobile ID comme deuxième facteur au CH-Login. Cela vous permettra de vérifier votre identité lors de la connexion à eIAM.'
+title: Aggiunta del Mobile ID come secondo fattore
+slug: aggiunta_mobile_id
+description: " In questa pagina viene spiegato come aggiungere il Mobile ID come secondo fattore al CH-Login. Questo vi permetterà di verificare la vostra identità quando vi connetterete a eIAM. "
 keywords: []
 weight: 30
 type: docs
 ---
 
-Cette étape permet d'ajouter le Mobile ID au CH-Login en tant que second facteur fort.
+Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
 
-Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le supprimer d'abord. Pour ce faire, cliquez sur Supprimer dans l’encadré Numéro mobile (mTAN). Vous pouvez ensuite suivre les instructions mentionnées ci-dessus pour enregistrer l'ID mobile comme second facteur (fort).
+Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo prima. A tal fine, fate clic su Elimina nella casella Numero di cellulare (mTAN). È quindi possibile seguire le istruzioni di cui sopra per registrare l'ID cellulare come secondo fattore (forte).
 
 &nbsp;
 
@@ -19,9 +19,9 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Connectez vous à votre <a href="https://www.myaccount-r.eiam.admin.ch/">Mon compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p> Accedere al proprio <a href="https://www.myaccount-r.eiam.admin.ch/">account eIAM</a> con il CH-LOGIN, quindi andare alla scheda "Login e sicurezza". </p>
 
-<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
+<p> In fondo alla pagina, cliccate su "Modifica delle impostazioni di autenticazione a due fattori". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -39,7 +39,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
+Spuntare la casella "Abilita impostazioni di sicurezza avanzate" e fare clic su "Chiudi".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -57,9 +57,9 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus. </p>
+<p> Tornando alla scheda "Connessione e sicurezza", ora è presente anche la casella "Controlla un secondo fattore". </p>
 
-<p> Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer». </p>
+<p> Nella casella "Salva un secondo fattore per accedere in modo più sicuro", fare clic su "Salva". </p>
 
 </div>
 
@@ -78,7 +78,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
+<p> Scegliere l'opzione ID cellulare e fare clic su "Continua". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -96,7 +96,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Saisissez le code MIO suivant <B> A COMPLETER </B>, puis cliquez sur "enregistrer". 
+Immettere il seguente codice MIO <B> DA COMPLETARE </B>, quindi fare clic su "Salva". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -114,7 +114,7 @@ Saisissez le code MIO suivant <B> A COMPLETER </B>, puis cliquez sur "enregistre
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Entrez votre mot de passe, puis cliquez sur "continuer".
+Immettere la password, quindi fare clic su "continua".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -132,7 +132,7 @@ Entrez votre mot de passe, puis cliquez sur "continuer".
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "continuer".
+Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -150,7 +150,7 @@ Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cliquez sur «enregistrer».
+Inserite il vostro numero di telefono (quello collegato al vostro Mobile ID), quindi fate clic su "Salva".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -162,7 +162,8 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 
 &nbsp;
 
-Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID. 
+Verrà visualizzato un messaggio e il telefono chiederà di confermare la connessione inserendo la password Mobile ID. 
 
-Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
+Una volta effettuata questa operazione, apparirà la casella "Mobile ID" come metodo di autenticazione a due fattori. 
+
 {{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}
