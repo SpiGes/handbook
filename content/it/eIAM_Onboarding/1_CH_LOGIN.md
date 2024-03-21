@@ -18,7 +18,7 @@ Andate su <a href="https://www.myaccount-r.eiam.admin.ch/">Il mio account eIAM</
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ecran_choix_connexion_FR.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="ecran_choix_connexion_IT.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -31,12 +31,12 @@ Andate su <a href="https://www.myaccount-r.eiam.admin.ch/">Il mio account eIAM</
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti cliccate su "crea un account".
+Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti cliccate su "creare un account".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="creer_ch_login_fr.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -52,12 +52,12 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 <p> Scegliete il vostro indirizzo e-mail professionale, quello che userete per tutto l'utilizzo della piattaforma SpiGes. Sarà necessario anche per reimpostare la password, se necessario. </p>
 
-<p> Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Continua". </p>
+<p> Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Avanti". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_info_fr.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="saisie_info_it.png" description="Choix connexion" class="bord taille">}}
 </div>
 
 </div>
@@ -76,7 +76,7 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord taille">}}  <!-- ATTENTION image en français -->
 </div>
 
 </div>

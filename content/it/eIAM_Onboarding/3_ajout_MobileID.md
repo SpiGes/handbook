@@ -26,7 +26,7 @@ Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo p
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="bord taille">}}
+{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="bord taille">}}     <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -44,7 +44,7 @@ Spuntare la casella "Abilita impostazioni di sicurezza avanzate" e fare clic su 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="bord taille">}}
+{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="bord taille">}}          <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -65,7 +65,7 @@ Spuntare la casella "Abilita impostazioni di sicurezza avanzate" e fare clic su 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="bord taille">}}           <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -83,7 +83,7 @@ Spuntare la casella "Abilita impostazioni di sicurezza avanzate" e fare clic su 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="bord taille">}}         <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -101,7 +101,7 @@ Immettere il seguente codice MIO <B> DA COMPLETARE </B>, quindi fare clic su "Sa
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="code_mio.png" description="ajout second facteur" class="bord taille">}}           <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -119,7 +119,7 @@ Immettere la password, quindi fare clic su "continua".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="bord taille">}}
+{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="bord taille">}}           <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -137,7 +137,7 @@ Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="bord taille">}}
+{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="bord taille">}}         <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -155,7 +155,7 @@ Inserite il vostro numero di telefono (quello collegato al vostro Mobile ID), qu
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="bord taille">}}         <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -166,4 +166,4 @@ Verrà visualizzato un messaggio e il telefono chiederà di confermare la connes
 
 Una volta effettuata questa operazione, apparirà la casella "Mobile ID" come metodo di autenticazione a due fattori. 
 
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="bord taille">}}           <!-- ATTENTION image en français -->
