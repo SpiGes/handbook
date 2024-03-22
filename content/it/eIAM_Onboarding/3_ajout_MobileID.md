@@ -57,15 +57,15 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Tornando alla scheda "Connessione e sicurezza", ora è presente anche la casella "Controlla un secondo fattore". </p>
+<p> Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore". </p>
 
-<p> Nella casella "Salva un secondo fattore per accedere in modo più sicuro", fare clic su "Salva". </p>
+<p> Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra". </p>
 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="bord taille">}}           <!-- ATTENTION image en français -->
+{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="bord taille">}}           
 </div>
 
 </div>
@@ -83,7 +83,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="bord taille">}}         <!-- ATTENTION image en français -->
+{{<insertImage image="choix_mobileid_it.png" description="ajout second facteur" class="bord taille">}}       
 </div>
 
 </div>
@@ -101,7 +101,7 @@ Immettere il seguente codice MIO <B> DA COMPLETARE </B>, quindi fare clic su "Sa
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio.png" description="ajout second facteur" class="bord taille">}}           <!-- ATTENTION image en français -->
+{{<insertImage image="code_mio_it.png" description="ajout second facteur" class="bord taille">}} 
 </div>
 
 </div>
