@@ -17,12 +17,12 @@ Per attivare Mobile ID, procedere come segue.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Andate sul sito web <a href="https://www.mobileid.ch/it">MobileID</a> e selezionate "Prova ora". 
+Andate sul sito web <a href="https://www.mobileid.ch/it">MobileID</a> e selezionate "Prova subito". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobile_id_fr.png" description="MobileID" class="bord taille">}}   <!-- ATTENTION image en français -->
+{{<insertImage image="mobile_id_it.png" description="MobileID" class="bord taille">}}  
 </div>
 
 </div>
@@ -42,7 +42,7 @@ Andate sul sito web <a href="https://www.mobileid.ch/it">MobileID</a> e selezion
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel_fr.png" description="Code SMS" class="bord taille">}}    <!-- ATTENTION image en français -->
+{{<insertImage image="saisie_tel_it.png" description="Code SMS" class="bord taille">}}    
 </div>
 
 </div>
