@@ -11,6 +11,8 @@ keywords: []
 La documentation est en cours de construction.
 {{</alert>}}
 
+
+
 ## Connexion au portail de délégation
 
 <!-- 1ere paire de colonnes -->
@@ -191,5 +193,37 @@ En cochant la case, cela vous permet de donner le droit à l'utilisateur de cré
 
 </div>
 
-&nbsp;
+{{<alert color="warning">}}
+Il est également de votre responsabilité de faire un suivi attentif des utilisateurs qui ont accès à la plateforme SpiGes et de supprimer l'accès aux personnes qui n'ont plus à l'avoir.
+{{</alert>}}
 
+
+### Désactivation d'un utilsateur
+
+<!-- 6eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p>
+<ol> 
+   <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.  </li>
+   <li> CLiquez sur cette case pour désactiver un profil. </li>
+</ol>
+</p>
+
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="desactiv_utilis.png" class="bord taille">}}
+</div>
+
+</div>
+
+&nbsp;
+ 
+{{<alert color="warning">}}
+Prenez bien garde à désactiver le profil qui correspond au rôle à qui vous souhaitez couper l'accès à la plateforme.
+{{</alert>}}
