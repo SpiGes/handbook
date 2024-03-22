@@ -10,7 +10,11 @@ type: docs
 La documentation est en cours de construction.
 {{</alert>}}
 
-Si vous ne pouvez pas ou ne souhaitez pas utiliser le Mobile ID, vous pouvez également utilisé une clé de sécurité FIDO comme second facteur de sécurité fort. 
+Si vous ne pouvez pas ou ne souhaitez pas utiliser le Mobile ID, vous pouvez également utiliser une clé de sécurité FIDO comme second facteur de sécurité fort. 
+
+{{<alert color="warning">}}
+Nous vous demandons si possible d'utiliser le Mobile ID. L'aquisition d'une clé FIDO est à vos frais. 
+{{</alert>}}
 
 Les jetons FIDO sont des supports de données qui peuvent prendre la forme d'une clé USB et qui contiennent du matériel cryptographique.
 

@@ -12,6 +12,10 @@ La documentazione è attualmente in fase di costruzione.
 
 Se non potete o non volete usare Mobile ID, potete anche usare un FIDO token come secondo fattore di sicurezza forte. 
 
+{{<alert color="warning">}}
+Se possibile, vi chiediamo di utilizzare il Mobile ID. L'acquisto di una chiave FIDO è a vostro carico. 
+{{</alert>}}
+
 I token FIDO sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico.
 
 eIAM supporta i seguenti tipi di token FIDO per CH-LOGIN:
