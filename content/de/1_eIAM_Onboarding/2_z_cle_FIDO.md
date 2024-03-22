@@ -12,6 +12,10 @@ Die Dokumentation befindet sich im Aufbau.
 
 Wenn Sie die Mobile ID nicht verwenden können oder wollen, können Sie auch ein FIDO Passkey als zweiten starken Sicherheitsfaktor verwenden. 
 
+{{<alert color="warning">}}
+Wir bitten Sie, wenn möglich, die Mobile ID zu verwenden. Die Anschaffung eines FIDO-Schlüssels geht auf Ihre Kosten. 
+{{</alert>}}
+
 FIDO Passkeys sind Datenträger, z. B. in Form eines USB-Sticks welche kryptografisches Material enthalten.
 
 eIAM unterstützt folgende FIDO Passkeys Typen für das CH-LOGIN.
