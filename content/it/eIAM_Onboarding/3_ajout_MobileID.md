@@ -19,14 +19,14 @@ Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo p
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Accedere al proprio <a href="https://www.myaccount-r.eiam.admin.ch/">account eIAM</a> con il CH-LOGIN, quindi andare alla scheda "Login e sicurezza". </p>
+<p> Accedere al proprio <a href="https://www.myaccount-r.eiam.admin.ch/">account eIAM</a> con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
 
-<p> In fondo alla pagina, cliccate su "Modifica delle impostazioni di autenticazione a due fattori". </p>
+<p> In fondo alla pagina, cliccate su "Modificare le impostazioni del secondo fattore". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="bord taille">}}     <!-- ATTENTION image en français -->
+{{<insertImage image="modif_parametres_it.png" description="modification paramètres" class="bord taille">}}    
 </div>
 
 </div>
@@ -39,12 +39,12 @@ Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo p
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Spuntare la casella "Abilita impostazioni di sicurezza avanzate" e fare clic su "Chiudi".
+Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su "Chiudi".
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="bord taille">}}          <!-- ATTENTION image en français -->
+{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="bord taille">}}     
 </div>
 
 </div>
