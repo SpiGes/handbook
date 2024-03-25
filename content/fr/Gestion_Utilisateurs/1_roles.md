@@ -24,7 +24,7 @@ La documentation est en cours de construction.
 
 <table>
   <tr>
-    <th><div style="width:180px"> Nom </div></th>
+    <th><div style="width:185px"> Nom </div></th>
     <th>Tâches </th>
     <th> <div style="width:110px"> Compétences </div> </th>
     <th> <div style="width:120px"> Responsabilités </div> </th>
