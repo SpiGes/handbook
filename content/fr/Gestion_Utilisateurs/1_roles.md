@@ -82,6 +82,30 @@ La documentation est en cours de construction.
     <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier.</td>
     <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier.</td>
   </tr>
+  <tr>
+    <td> SP_User_Unternehmen </td>
+    <td> Il soutient le SP_ErhV_Unternehmen dans ses tâches. </td>
+    <td> Il peut lire, télécharger, commenter toutes les données de son entreprise hospitalière et de ses sites. </td>
+    <td> Il soutient le SP_ErhV_Unternehmen dans ses tâches. </td>
+  </tr>
+  <tr>
+    <td> SP_User_Standort </td>
+    <td> Il soutient le SP_ErhV_Standort dans ses tâches. </td>
+    <td> Il peut lire, télécharger, commenter toutes les données de son site hospitalier. </td>
+    <td> Il soutient le SP_ErhV_Standort dans ses tâches. </td>
+  </tr>
+  <tr>
+    <td> SP_Read_Unternehmen </td>
+    <td> En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. </td>
+    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
+    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
+  </tr>
+  <tr>
+    <td> SP_Read_Standort </td>
+    <td> En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. </td>
+    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
+    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
+  </tr>
 </table>
 
   <tr>
