@@ -225,5 +225,5 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 &nbsp;
  
 {{<alert color="warning">}}
-Prenez bien garde à désactiver le profil qui correspond au rôle à qui vous souhaitez couper l'accès à la plateforme.
+Prenez bien garde à désactiver le profil qui correspond au rôle auquel vous souhaitez couper l'accès à la plateforme.
 {{</alert>}}
