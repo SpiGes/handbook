@@ -29,5 +29,5 @@ Le spiegazioni su come registrare la chiave FIDO sul proprio CH_LOGIN non sono a
 
 Una volta che la chiave FIDO è stata registrata come secondo fattore forte del CH-LOGIN, è possibile eseguire l'identificazione video della chiave FIDO. 
 
-Le spiegazioni sull'identificazione video della chiave FIDO non sono ancora disponibili. Nel frattempo, è possibile consultare [queste istruzioni] (https://help.eiam.swiss/index.php?c=h!vipspasskey&l=en). 
+Le spiegazioni sull'identificazione video della chiave FIDO non sono ancora disponibili. Nel frattempo, è possibile consultare [queste istruzioni](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=en). 
 
