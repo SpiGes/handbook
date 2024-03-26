@@ -22,12 +22,12 @@ La documentation est en cours de construction.
 
 ### Rôles Cantons
 
-<table>
+<table style="width:100%">
   <tr>
-    <th><div style="width:185px"> Nom </div></th>
+    <th style="width:20%"> Nom </div></th>
     <th>Tâches </th>
-    <th> <div style="width:100px"> Compétences </div> </th>
-    <th> <div style="width:100px"> Responsabilités </div> </th>
+    <th style="width:20%"> Compétences </div> </th>
+    <th style="width:30%"> Responsabilités </div> </th>
   </tr>
   <tr>
     <td> KT_Superuser </td>
