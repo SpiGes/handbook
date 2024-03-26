@@ -1,7 +1,7 @@
 ---
 title: Rôles
 slug: roles
-description: "Id leo in vitae turpis massa sed elementum tempus egestas."
+description: "Sur cette page, nous vous expliquons les différents rôles existants sur la plateforme."
 weight: 10
 type: docs
 keywords: []
