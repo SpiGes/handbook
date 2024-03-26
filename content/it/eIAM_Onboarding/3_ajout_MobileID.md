@@ -9,7 +9,8 @@ type: docs
 
 Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
 
-Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo prima. A tal fine, fate clic su Elimina nella casella Numero di cellulare (mTAN). È quindi possibile seguire le istruzioni di cui sopra per registrare l'ID cellulare come secondo fattore (forte).
+<!-- Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo prima. A tal fine, fate clic su Elimina nella casella Numero di cellulare (mTAN). È quindi possibile seguire le istruzioni di cui sopra per registrare l'ID cellulare come secondo fattore (forte). -->
+
 
 &nbsp;
 
