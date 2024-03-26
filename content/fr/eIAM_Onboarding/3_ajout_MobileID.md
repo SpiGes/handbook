@@ -8,9 +8,9 @@ type: docs
 ---
 
 Cette étape permet d'ajouter le Mobile ID au CH-Login en tant que second facteur fort.
-
+<!-- 
 Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le supprimer d'abord. Pour ce faire, cliquez sur Supprimer dans l’encadré Numéro mobile (mTAN). Vous pouvez ensuite suivre les instructions mentionnées ci-dessus pour enregistrer l'ID mobile comme second facteur (fort).
-
+-->
 &nbsp;
 
 <!-- 1ere paire de colonnes -->
