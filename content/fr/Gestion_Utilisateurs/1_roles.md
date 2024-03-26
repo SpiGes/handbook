@@ -26,8 +26,8 @@ La documentation est en cours de construction.
   <tr>
     <th><div style="width:185px"> Nom </div></th>
     <th>Tâches </th>
-    <th> <div style="width:110px"> Compétences </div> </th>
-    <th> <div style="width:120px"> Responsabilités </div> </th>
+    <th> <div style="width:100px"> Compétences </div> </th>
+    <th> <div style="width:100px"> Responsabilités </div> </th>
   </tr>
   <tr>
     <td> KT_Superuser </td>
