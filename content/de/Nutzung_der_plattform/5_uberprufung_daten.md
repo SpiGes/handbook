@@ -14,9 +14,9 @@ Die Dokumentation befindet sich im Aufbau.
 
 ### Plausibilisierung
 
-Wenn der Datenlieferant sämtliche Fehler korrigiert oder begründet hat, ist es die Aufgabe der Kantone, die Begründungen zu plausibilisieren. Dazu können die Kantone Begründungen akzeptieren (Status «OK») oder in der Chat-Funktion, die bei jeder fehlerhaften Prüfung zu sehen ist, Rückfragen stellen oder eine Neulieferung anfordern. Ist ein Fehler nicht korrigierbar, so kann der Kanton diesen auch akzeptieren (Status «Fehler akzeptiert»).
+Wenn der Datenlieferant sämtliche Fehler korrigiert oder begründet hat, ist es die Aufgabe der Kantone, die Begründungen zu plausibilisieren. Dazu können die Kantone Begründungen akzeptieren (Status «OK») oder in der Chat-Funktion, die bei jeder fehlerhaften Prüfung zu sehen ist, Rückfragen stellen oder eine Neulieferung anfordern. Ist ein Fehler nicht korrigierbar, so kann der Kanton diesen auch definitiv als Fehler kennzeichnen (Status «Fehler»).
 
-Die Datenlieferanten können im Chat antworten oder korrigierte Daten hochladen, wobei der Prozess wiederum bei der autonomen Prüfung beginnt. Dieser iterative Prozess dauert so lange bis keine Fehler mehr offen sind. D.h. die Fehler wurden entweder korrigiert, akzeptiert oder die Begründung des Datenlieferanten wurde angenommen.
+Die Datenlieferanten können im Chat antworten oder korrigierte Daten hochladen, wobei der Prozess wiederum bei der autonomen Prüfung beginnt. Dieser iterative Prozess dauert so lange bis keine Fehler mehr offen sind. D.h. die Fehler wurden entweder korrigiert, als definitiv gekennzeichnet oder die Begründung des Datenlieferanten wurde angenommen.
 
 Das BFS wird in diesen Prozess nur bei Nachfragen involviert. Die Beteiligten in den Kantonen und den Betrieben werden über den Stand der Prüfungen und relevante Aktivitäten auf der Plattform laufend informiert.
 
