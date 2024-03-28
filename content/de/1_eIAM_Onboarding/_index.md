@@ -19,7 +19,7 @@ Um ein CH-Login mit einem starken Zweitfaktor mit verifizierter Identität für 
 2.	Mobile ID aktivieren
 3.	Mobile ID als Zweitfaktor dem CH-Login hinzufügen
 4.	Die Identität auf dem Zweitfaktor (Mobile ID oder FIDO2-Key) verifizieren
-5.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit eSOSTAT
+5.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit SpiGes
 
 Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits über einen CH-Login oder eine Mobile ID verfügen, müssen Sie keinen neuen erstellen und können den entsprechenden Schritt überspringen. Vergewissern Sie sich jedoch, dass Ihr CH-Login oder Ihre Mobile ID funktionieren.
 

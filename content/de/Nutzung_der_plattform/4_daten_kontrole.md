@@ -47,7 +47,7 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 3. Hier können Sie die Daten herunterladen.
 
-4. Wenn du auf den Pfeil klickst, rollst du den Inhalt der Kategorie aus und kannst dir jeden Fehler ansehen. 
+4. Wenn Sie auf den Pfeil klicken, wird der den Inhalt der Kategorie aufgeklappt und Sie können sich jeden Fehler ansehen. 
 
 &nbsp;
 
@@ -61,6 +61,6 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 3. In dieser Rubrik können Sie den Status jedes Fehlers sehen.
 
-4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Sie werden auf die Gesamtheit der Fehler einwirken, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler. 
+4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Kommentare werden auf die Gesamtheit der Fehler angewendet, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler. 
 
 5. Sie können auch auf der Ebene des betreffenden Fehlers auf einen einzelnen Fehler einwirken.
