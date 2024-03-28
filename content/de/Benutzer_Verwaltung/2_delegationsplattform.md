@@ -1,7 +1,7 @@
 ---
-title: Utilisation du portail de délégations
-slug: plateforme_delegation
-description: "Sur cette page, nous vous expliquons comment vous connecter au portail de délégation eIAM et comment gérer les utilisateurs depuis cette page. Cette tâche ne concerne que les responsables des cantons."
+title: Nutzung des Delegationsportals
+slug: delegationsplattform
+description: "Auf dieser Seite erklären wir Ihnen, wie Sie sich beim eIAM-Delegationsportal anmelden und wie Sie von dort aus die Benutzer verwalten können. Diese Aufgabe betrifft nur die Kantonsverantwortlichen."
 weight: 20
 type: docs
 keywords: []
