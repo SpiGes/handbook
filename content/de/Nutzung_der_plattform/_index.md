@@ -12,7 +12,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 ## Erhebungsprozess
 
-Die Erhebung der Daten startet im Januar des Jahres, das auf das Bezugsjahr folgt, und wird mit den folgenden Schritten durchgeführt:
+Die Erhebung der Daten startet im Januar nach dem Datenjahr und wird mit den folgenden Schritten durchgeführt:
 
 1. Das Spital beginnt mit der Übertragung der Daten auf die Plattform. Diese werden auf ihre Form und ihren Inhalt getestet. Die Resultate der Tests werden auf der Plattform angegeben. 
 2. Das Spital überprüft die Daten im Rahmen einer autonomen Prüfung auf der SpiGes-Plattform und begründet die Prüfungen, bei denen Fehler festgestellt wurden, mithilfe des Kommentarbereichs. 

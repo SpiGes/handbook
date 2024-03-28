@@ -50,7 +50,7 @@ Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls 
 <!-- First column content goes here -->
 <p> Geben Sie Ihre persönlichen Daten ein. Achten Sie darauf, dass Sie die gleichen Informationen wie auf Ihrem Ausweis angeben. </p>
 
-<p> Wählen Sie Ihre professionelle E-Mail-Adresse, die Sie während der gesamten Dauer Ihrer Nutzung der SpiGes-Plattform verwenden werden. Sie wird auch benötigt, um Ihr Passwort zurückzusetzen, falls dies erforderlich sein sollte. </p>
+<p> Wählen Sie Ihre berufliche E-Mail-Adresse, die Sie während der gesamten Dauer Ihrer Nutzung der SpiGes-Plattform verwenden werden. Sie wird auch benötigt, um Ihr Passwort zurückzusetzen, falls dies erforderlich sein sollte. </p>
 
 <p> Klicken Sie dann auf "Ich akzeptiere die Nutzungsbedingungen" und klicken Sie auf "Weiter". </p>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: 3. Überprüfung der Daten
 slug: uberprufung_daten
-description: "Sur cette page, nous vous expliquons comment vérifier les données importées par les sites hospitaliers de votre canton sur la plateforme SpiGes."
+description: "Auf dieser Seite erklären wir, wie Sie die importierten der Spitalstandorte Ihres Kantons auf der SpiGes plattform überprüfen können."
 keywords: []
 weight: 40
 type: docs
@@ -38,4 +38,4 @@ Sobald keine offenen Fehler mehr bestehen, kann die Plausibilisierung der Daten 
 
 4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Sie werden auf die Gesamtheit der Fehler einwirken, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler. 
 
-5. Sie können auch auf der Ebene des betreffenden Fehlers auf einen einzelnen Fehler einwirken. Sie können auch Begründungen akzeptieren, indem Sie auf das vu klicken.
+5. Sie können auch auf der Ebene des betreffenden Fehlers Bearbeitungen vornehmen, z.B. Begründungen akzeptieren, indem Sie auf das Häkchen klicken.
