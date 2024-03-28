@@ -23,12 +23,12 @@ Die Dokumentation befindet sich im Aufbau.
 <!-- First column content goes here -->
 <p> Um sich in das Delegationsportal einzuloggen, gehen Sie auf die Website <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> und loggen Sie sich dann mit Ihrem CH-LOGIN ein.  </p>
 
-<p>Anschliessend müssen Sie die Nutzungsbedingungen akzeptieren, um auf das Portal zugreifen zu können.  </p>
+<p> Anschliessend müssen Sie die Nutzungsbedingungen akzeptieren, um auf das Portal zugreifen zu können.  </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="cond_util_fr.png" class="bord taille">}}
+{{<insertImage image="cond_util_de.png" class="bord taille">}}
 </div>
 
 </div>
@@ -46,7 +46,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="gestion_del.png" class="bord taille">}}
+{{<insertImage image="gestion_del_de.png" class="bord taille">}}
 </div>
 
 </div>
