@@ -1,7 +1,7 @@
 ---
 title: Onboarding avec SpiGes
 slug: onboarding_SpiGes
-description: "Sur cette page, nous vous expliquons comment relier votre login CH avec SpiGes."
+description: "Sur cette page, nous vous expliquons comment relier votre CH-LOGIN avec SpiGes."
 keywords: []
 weight: 50
 type: docs
@@ -19,7 +19,7 @@ Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Copiez votre code d'onboarding, puis cliquez sur le lien de cloture d'onboarding. </p>
+<p> Sélectionnez votre code d'onboarding et copiez le à l'aide du clic droit, puis cliquez sur le lien de cloture d'onboarding. </p>
 
 <p> Connectez vous à l'aide de votre CH-LOGIN. </p>
 </div>
