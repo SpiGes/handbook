@@ -8,12 +8,12 @@ keywords: []
 ---
 
 {{<alert color="info">}}
-La documentation est en cours de construction.
+Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
 
 
-## Connexion au portail de délégation
+## Anmeldung beim Delegationsportal
 
 <!-- 1ere paire de colonnes -->
 
@@ -21,9 +21,9 @@ La documentation est en cours de construction.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Pour vous connecter au portail de délégation, rendez-vous sur le site <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
+<p> Um sich in das Delegationsportal einzuloggen, gehen Sie auf die Website <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> und loggen Sie sich dann mit Ihrem CH-LOGIN ein.  </p>
 
-<p> Vous devez ensuite accepter les conditions d'utilisation pour pouvoir accéder au portail.  </p>
+<p>Anschliessend müssen Sie die Nutzungsbedingungen akzeptieren, um auf das Portal zugreifen zu können.  </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -41,7 +41,7 @@ La documentation est en cours de construction.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".   </p>
+<p> Sie sind nun im eIAM-Portal angemeldet. Um zur Benutzerverwaltung zu gelangen, klicken Sie zuerst auf den Reiter "Benutzerverwaltung" und dann auf "Delegierte Verwaltung". </p>
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -60,9 +60,9 @@ La documentation est en cours de construction.
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
 <ol> 
-    <li> En cliquant sur la flèche, vous ouvrez la liste des sites hospitalier de votre canton. </li>
-    <li> Vous pouvez également ajouter des utilsateurs du canton en cliquant sur le canton (il doit être surligné en bleu) puis en cliquant sur continuer. </li>
-</ol>
+    <li> Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton. </li>.
+    <li> Sie können auch Nutzer aus dem Kanton hinzufügen, indem Sie auf den Kanton klicken (er muss blau markiert sein) und dann auf weiter klicken. </li>.
+</ol>.
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -80,7 +80,7 @@ La documentation est en cours de construction.
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Vous pouvez selectionner le site hospitalier de votre choix, et cliquer sur continuer tout en bas de la page. 
+Sie können die Krankenhausseite Ihrer Wahl auswählen und unten auf der Seite auf Weiter klicken. 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
@@ -93,9 +93,9 @@ Vous pouvez selectionner le site hospitalier de votre choix, et cliquer sur cont
 &nbsp;
 
 
-## Gestion des utilisateurs 
+## Verwaltung der Benutzer 
 
-Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du site séléctioné.  
+Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewählten Website haben.  
 
 <!-- 4eme paire de colonnes -->
 
@@ -105,9 +105,9 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> En cliquant sur cette case, vous pouvez créer un nouvel utilisateur. </li>
-   <li> En cliquant sur le crayon, vous pouvez modifier les informations concernant l'utilisateur existant. </li>
-   <li> Vous pouvez également modifier les autorisations d'un utilisateur en le séléctionnant puis en ciquant sur "continuer". </li>
+   <li> Durch Klicken auf dieses Feld können Sie einen neuen Benutzer erstellen. </li>.
+   <li> Wenn Sie auf den Bleistift klicken, können Sie die Informationen über den bestehenden Benutzer ändern. </li>
+   <li> Sie können auch die Berechtigungen eines Benutzers ändern, indem Sie ihn auswählen und dann auf "Weiter" klicken. </li>
 </ol>
 
 </p>
@@ -122,7 +122,7 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 
 &nbsp;
 
-### Création d'un utilisateur
+### Erstellen eines Benutzers
 
 <!-- 5eme paire de colonnes -->
 
@@ -131,7 +131,7 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
 <p>
-Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur. 
+Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Personalausweis des Benutzers zu finden sind. 
 </p>
 </div>
 
@@ -144,7 +144,7 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 
 &nbsp;
 
-### Modification des autorisations de l'utilisateurs 
+### Ändern von Benutzerberechtigungen 
 
 <!-- 6eme paire de colonnes -->
 
@@ -154,11 +154,11 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> En cliquant sur cette case, vous pouvez ajouter un second rôle à l'utilisateur </li>
-   <li> En cliquant sur le crayon, vous pouvez modifier le nom du profil. Vous pouvez également désactiver le profil en cliquant sur la flèche à côté du crayon, puis en cliquant sur "désactiver". </li>
-   <li> Vous pouvez ici séléctioner le rôle que vous souhaitez donner à l'utilisateur. En cliquant, un résumé du rôle s'affichera dans l'encadré à droite. </li>
-   <li> Vous pouvez accorder le rôle séléctioné à l'utilisateur en cliquant sur "accorder". </li>
-   <li> Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. </li>
+   <li> Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Rolle hinzufügen </li>.
+   <li> Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken. </li>.
+   <li> Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt. </li>
+   <li> Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Gewähren" klicken. </li>
+   <li> Wenn Sie dem Benutzer erlauben möchten, Rollen zu delegieren, gehen Sie auf die Registerkarte "Berechtigungen für delegierte Verwaltung gewähren. </li>.
 </ol>
 </p>
 
@@ -181,7 +181,7 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
 <p>
-En cochant la case, cela vous permet de donner le droit à l'utilisateur de créer et gérer des rôles d'utilisateurs, il ne pourra cependant pas donner des autorisations à l'utilisateur. 
+Wenn Sie das Kästchen ankreuzen, ermöglicht Ihnen dies, dem Benutzer das Recht zu geben, Benutzerrollen zu erstellen und zu verwalten, er kann dem Benutzer jedoch keine Berechtigungen erteilen. 
 </p>
 
 </div>
@@ -194,11 +194,11 @@ En cochant la case, cela vous permet de donner le droit à l'utilisateur de cré
 </div>
 
 {{<alert color="warning">}}
-Il est également de votre responsabilité de faire un suivi attentif des utilisateurs qui ont accès à la plateforme SpiGes et de supprimer l'accès aux personnes qui n'ont plus à l'avoir.
+Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattform haben, sorgfältig zu überwachen und den Zugang für Personen, die ihn nicht mehr benötigen, zu sperren.
 {{</alert>}}
 
 
-### Désactivation d'un utilsateur
+### Deaktivierung eines Benutzers
 
 <!-- 6eme paire de colonnes -->
 
@@ -208,8 +208,8 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.  </li>
-   <li> CLiquez sur cette case pour désactiver un profil. </li>
+   <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen Sie die Optionen zum Deaktivieren und Archivieren des ausgewählten Profils.  </li>
+   <li> Klicken Sie auf dieses Kästchen, um ein Profil zu deaktivieren. </li>.
 </ol>
 </p>
 
@@ -225,5 +225,5 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 &nbsp;
  
 {{<alert color="warning">}}
-Prenez bien garde à désactiver le profil qui correspond au rôle auquel vous souhaitez couper l'accès à la plateforme.
+Achten Sie darauf, dass Sie das Profil deaktivieren, das der Rolle entspricht, der Sie den Zugriff auf die Plattform verwehren wollen.
 {{</alert>}}
