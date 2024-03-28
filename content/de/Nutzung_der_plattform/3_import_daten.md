@@ -23,7 +23,7 @@ Falls das entsprechende Kapitel bereits besteht, werden die früher importierten
 
 &nbsp;
 
-1. Um neue Daten zu importieren, müssen Sie auf die Seite der gewünschten Krankenhausseite gehen und dort auf das Feld "+ Neue Datenlieferung" klicken.
+Um neue Daten zu importieren, müssen Sie auf die Seite der gewünschten Krankenhausseite gehen und dort auf das Feld "+ Neue Datenlieferung" klicken.
 
 &nbsp;
 
@@ -31,7 +31,7 @@ Falls das entsprechende Kapitel bereits besteht, werden die früher importierten
 
 &nbsp;
 
-1. Sie können dann entweder Ihr Datendokument in das XML-Format ziehen oder auf den Bereich klicken, um das Dokument über den File Explorer auszuwählen.
+Sie können dann entweder Ihr Datendokument in das XML-Format ziehen oder auf den Bereich klicken, um das Dokument über den File Explorer auszuwählen.
 
 &nbsp;
 

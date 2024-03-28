@@ -14,15 +14,14 @@ La documentation est en cours de construction.
 {{<alert title="Vérification à la source" color="info">}}
 <p> Idéalement, les données sont contrôlées directement dans le système de saisie de l’hôpital, en amont du processus de relevé. </p>
 
-<p> Les hôpitaux contrôlent les données « à la source » dans leur propre système et peuvent au préalable intégrer dans leur système les outils de vérification mis à leur disposition par l’OFS à cet effet. Il est également possible de faire contrôler les données en cours d’année, avant la collecte de données proprement dite, sur la plateforme SpiGes. Étant donné que ce contrôle a lieu avant le début ordinaire du relevé (janvier de l'année suivante), on utilise à cet effet un relevé test. </p>
+<p> Les hôpitaux contrôlent les données « à la source » dans leur propre système et peuvent au préalable intégrer dans leur système les outils de vérification mis à leur disposition par l’OFS à cet effet. Il est également possible de faire contrôler les données en cours d’année, avant la collecte de données proprement dite, sur la plateforme SpiGes. Étant donné que ce contrôle a lieu avant le début ordinaire du relevé (janvier de l'année suivante), le statut du relevé est à l'état de "préparation". </p>
 {{</alert>}}
 
 # Vérification autonome
 
 Lors d’un import, toutes les vérifications sont effectuées automatiquement. Leurs résultats sont enregistrés et présentés. Les compléments sont également apportés automatiquement, de sorte que les données peuvent aussi être contrôlées à ce sujet. 
 
-L’établissement traite les résultats du contrôle de manière autonome et corrige les données si possible. 
-
+L’établissement traite les résultats du contrôle de manière autonome et corrige les données lorsque cela est possible en téléchargeant les données corrigées. 
 Si la correction n’est pas possible ou que le contrôle a détecté une erreur à tort, l’établissement saisit une justification dans la section commentaire prévu à cette effet sur la plateforme. La vérification peut aussi générer un avertissement, qui se veut informatif et n’implique pas forcément une justification ou une correction. La vérification autonome est terminée une fois que toutes les erreurs ont été corrigées ou justifiées, ce qui doit être fait d’ici à la fin avril.
 
 ## Contrôle du format
@@ -51,7 +50,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 3. Vous pouvez ici télécharger les données.
 
-4. En cliquant sur la flèche, vous déroulez le contenu de la catégorie et vous pouvez voir chaque erreur. 
+4. Cette flèche permet de développer la règle et d'afficher tous les cas individuels pour lesquels la règle a échoué.
 
 &nbsp;
 
@@ -63,8 +62,8 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 2. Dans cette colonne, vous pouvez voir une description de l'erreur, vous pouvez également avoir plus de détails en cliquant sur l'erreur dans la colonne "Fall-Id". 
 
-3. Dans cette colonne, vous pouvez voir le statut de chaque erreur.
+3. Dans cette colonne, vous pouvez voir si l'erreur est encore "ouverte", si elle est déjà résolue ("OK") ou si elle a été définitivement jugée comme "erreur". 
 
 4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon. 
 
-5. Vous pouvez également agir sur une seule erreur au niveau de l'erreur concernée.
+5. Vous pouvez également saisir un commentaire au niveau de l'erreur concernée.

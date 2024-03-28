@@ -18,7 +18,7 @@ La documentation est en cours de construction.
 
 &nbsp;
 
-1. La case "Tâches" vous donne un résumé des données et des erreurs qui sont encore à vérifier. 
+1. La case "Erhebungen" vous permet d'accéder directement à l'un des relevés les plus récents.  
 
 2. La case "Quick Links" vous donne des liens contenant diverses informations utiles.
 
@@ -38,7 +38,7 @@ La documentation est en cours de construction.
 
 2. Le volet latéral vous permet d'avoir une vue d'ensemble des années de relevé sous forme de liste.
 
-### Ecran données global
+### Aperçu des entreprises hospitalières
 
 {{<insertImage image="ecran_donnees.png" class="bord img_full">}}
 
@@ -50,7 +50,7 @@ La documentation est en cours de construction.
 
 3. La flèche à droite de chaque entreprise vous permet de dérouler la liste des sites hospitaliers liés à cette entreprise. La première flèche de la liste vous permet de dérouler toutes les entreprises.
 
-### Ecran données site
+### Aperçu des éléments de l'enquête
 
 {{<insertImage image="donnees_site.png" class="bord img_full">}}
 

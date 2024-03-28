@@ -12,14 +12,14 @@ Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
 {{<alert title="Prüfung an der Quelle" color="info">}}
-Idealerweise werden die Daten direkt im Eingabesystem des Spitals geprüft. Dazu stellt das BFS eine automatisierte Lösung für die Integration in die spitaleigene Informatikumgebung bereit. Die Spitalunternehmen haben zudem die Möglichkeit, ihre Daten mit der SpiGes-Plattform während dem Datenjahr zu überprüfen. Da diese Prüfung vor dem regulären Start der Erhebung erfolgt, wird dazu eine Test-Erhebung verwendet.
+Idealerweise werden die Daten direkt im Eingabesystem des Spitals geprüft. Dazu stellt das BFS eine automatisierte Lösung für die Integration in die spitaleigene Informatikumgebung bereit. Die Spitalunternehmen haben zudem die Möglichkeit, ihre Daten mit der SpiGes-Plattform während dem Datenjahr zu überprüfen. Da diese Prüfung vor dem ordentlichen Beginn der Erhebung (Januar des Folgejahres) stattfindet, befindet sich der Status der Erhebung im Zustand "Vorbereitung".
 {{</alert>}}
 
 # Autonome Prüfung
 
 Bei einem Upload werden sämtliche Prüfungen automatisch durchgeführt, deren Ergebnisse gespeichert und dargestellt. Ebenfalls automatisch werden Anreicherungen vorgenommen, um die Daten auch diesbezüglich prüfen zu können.
 
-Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten wo möglich. Ist keine Korrektur möglich oder hat die Prüfung zu Unrecht angeschlagen, verfasst der Betrieb auf der Plattform eine Begründung. Weiter kann eine Prüfung auch eine Warnung generieren, die aber nur als Hinweis dient und nicht zwingend begründet oder korrigiert werden muss. Sind alle Fehler korrigiert oder begründet, ist die autonome Prüfung abgeschlossen. Dies muss bis Ende April erfolgen.
+Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten wo möglich, indem er korrigierte Daten hochlädt. Ist keine Korrektur möglich oder hat die Prüfung zu Unrecht angeschlagen, verfasst der Betrieb auf der Plattform eine Begründung. Weiter kann eine Prüfung auch eine Warnung generieren, die aber nur als Hinweis dient und nicht zwingend begründet oder korrigiert werden muss. Sind alle Fehler korrigiert oder begründet, ist die autonome Prüfung abgeschlossen. Dies muss bis Ende April erfolgen.
 
 ## Format Prüfung
 
@@ -47,7 +47,7 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 3. Hier können Sie die Daten herunterladen.
 
-4. Wenn Sie auf den Pfeil klicken, wird der den Inhalt der Kategorie aufgeklappt und Sie können sich jeden Fehler ansehen. 
+4. Mit diesem Pfeil kann die Regel aufgeklappt werden, so dass alle einzelnen Fälle angezeigt für welche die Regel fehlgeschlagen ist.
 
 &nbsp;
 
@@ -59,8 +59,8 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 2. In dieser Rubrik sehen Sie eine Beschreibung des Fehlers. Sie können auch mehr Details sehen, indem Sie auf den Fehler in der Rubrik "Fall-Id" klicken. 
 
-3. In dieser Rubrik können Sie den Status jedes Fehlers sehen.
+3. In dieser Rubrik sehen sie, ob der Fehler noch «offen» ist, bereits gelöst ist («OK») oder definitiv als «Fehler» beurteilt wurde. 
 
 4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Kommentare werden auf die Gesamtheit der Fehler angewendet, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler. 
 
-5. Sie können auch auf der Ebene des betreffenden Fehlers auf einen einzelnen Fehler einwirken.
+5. Sie können auch auf der Ebene des betreffenden Fehlers einen Kommentar erfassen.

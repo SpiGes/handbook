@@ -23,7 +23,7 @@ Si le chapitre correspondant existe déjà, les données importées précédemme
 
 &nbsp;
 
-1. Pour importer de nouvelles données, il faut se rendre sur la page du site hospitalier souhaité, puis cliquer sur la case "+ Nouvelles données".
+Pour importer de nouvelles données, il faut se rendre sur la page du site hospitalier souhaité, puis cliquer sur la case "+ Nouvelles données".
 
 &nbsp;
 
@@ -31,7 +31,7 @@ Si le chapitre correspondant existe déjà, les données importées précédemme
 
 &nbsp;
 
-1. Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichiers.
+Vous pouvez ensuite soit glisser votre document de données au format XML, soit cliquer sur la zone pour choisir le document à travers l'explorateur de fichiers.
 
 &nbsp;
 

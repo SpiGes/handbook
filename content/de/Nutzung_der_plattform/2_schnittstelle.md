@@ -18,7 +18,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 &nbsp;
 
-1. Das Feld "Aufgaben" gibt Ihnen eine Übersicht über die Daten und Fehler, die noch zu prüfen sind. 
+1. -	Das Feld “ Aufgaben Erhebungen” erlaubt es Ihnen, direkt zu einer der aktuellsten Erhebungen zu springen.  
 
 2. Das Feld "Quick Links" gibt Ihnen Links mit verschiedenen nützlichen Informationen.
 
@@ -38,7 +38,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 2. In der Seitenleiste können Sie sich einen Überblick über die Erhebungsjahre in Listenform verschaffen.
 
-### Globaler Datenbildschirm
+### Übersicht Spitalunternehmen
 
 {{<insertImage image="ecran_donnees.png" class="bord img_full">}}
 
@@ -50,7 +50,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 3. Mit dem Pfeil rechts neben jedem Unternehmen können Sie die Liste der mit diesem Unternehmen verbundenen Hospizbetriebe aufklappen. Mit dem ersten Pfeil in der Liste können Sie alle Unternehmen aufklappen.
 
-### Bildschirm Standortdaten
+### Übersicht Erhebungsteile
 
 {{<insertImage image="donnees_site.png" class="bord img_full">}}
 
