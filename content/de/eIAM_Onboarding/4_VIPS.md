@@ -20,7 +20,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Um die Videoidentifizierung zu starten, loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount-r.eiam.admin.ch/"> eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
+<p> Um die Videoidentifizierung zu starten, loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount.eiam.admin.ch/"> eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
 
 <p> Gehen Sie nach unten zum Abschnitt "Zweitfaktor-Verwaltung" und klicken Sie im Feld "Verifizieren Sie einen Zweitfaktor" auf "Zweitfaktor auswählen". </p>
 </div>

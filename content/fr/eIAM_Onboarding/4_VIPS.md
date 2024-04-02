@@ -20,7 +20,7 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> Pour lancer l'identification vidéo, connectez vous à votre <a href="https://www.myaccount-r.eiam.admin.ch/"> compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p> Pour lancer l'identification vidéo, connectez vous à votre <a href="https://www.myaccount.eiam.admin.ch/"> compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
 <p> Descendez jusqu'à la partie "Gestion de l'authentification à deux facteurs", puis cliquez sur "Sélectionner un second facteur" dans la case "Vérifier un second facteur".  </p>
 </div>

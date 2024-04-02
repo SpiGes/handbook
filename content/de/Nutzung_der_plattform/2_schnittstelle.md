@@ -18,7 +18,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 &nbsp;
 
-1. -	Das Feld “ Aufgaben Erhebungen” erlaubt es Ihnen, direkt zu einer der aktuellsten Erhebungen zu springen.  
+1. Das Feld “ Aufgaben Erhebungen” erlaubt es Ihnen, direkt zu einer der aktuellsten Erhebungen zu springen.  
 
 2. Das Feld "Quick Links" gibt Ihnen Links mit verschiedenen nützlichen Informationen.
 

@@ -24,7 +24,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 <table style="width:100%">
   <tr>
-    <th style="width:23%"> Name </div></th>
+    <th style="width:22%"> Name </div></th>
     <th> Aufgaben </th>
     <th style="width:20%"> Kompetenzen </div> </th>
     <th style="width:32%"> Verantwortung </div> </th>
