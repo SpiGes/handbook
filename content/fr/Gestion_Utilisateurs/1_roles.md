@@ -16,9 +16,9 @@ La documentation est en cours de construction.
 | <div style="width:200px"> Nom </div> | Tâches | <div style="width:120px"> Compétences </div> | <div style="width:140px"> Responsabilités </div> |
 |---|---|---|---|
 | BFS_Superuser | Il assume tous les rôles d'approbation à tous les niveaux pendant le relevé, met à jour le contenu et la technique de la plateforme, organise et surveille l'enrichissement avant le début du relevé. | Il peut lire, télécharger, commenter, modifier les statistiques de contrôle, clôturer, exporter toutes les données et gérer tous les utilisateurs. | S'assurer du bon fonctionnement de la plateforme avant, pendant et après l'enquête et intervenir à tous les niveaux si nécessaire. |
-| BFS_Erhebungsverantwortliche | Il assume tous les rôles d'application à tous les niveaux, à l'exception de l'exportation des données LAMal et du traitement des données cantonales. En collaboration avec le BFS_Superuser, il met à jour le contenu et la technique de la plateforme, organise et surveille l'enrichissement avant le début de l'enquête. | Il représente le superutilisateur et garantit, en collaboration avec le BFS_superuser, le bon déroulement de la collecte des données. | Il représente le superutilisateur et garantit, en collaboration avec le BFS_superuser, le bon déroulement de la collecte des données. |
-| BFS_User | Pendant l'enquête, il surveille régulièrement le respect des délais, la qualité des données et informe au besoin le responsable de l'enquête de l'OFS. | il peut lire, télécharger, commenter, modifier les statistiques de contrôle, clôturer, exporter toutes les données | Il assiste le responsable de l'enquête de l'OFS dans la surveillance du bon déroulement de l'enquête. |
-| BFS_Read | En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. | il peut lire toutes les données de toutes les entreprises et de tous les sites hospitaliers | Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plate-forme. |
+| BFS_Erhebungsverantwortliche | Il assume tous les rôles d'application à tous les niveaux, à l'exception de l'exportation des données LAMal et du traitement des données cantonales. En collaboration avec le BFS_Superuser, il met à jour le contenu et la technique de la plateforme, organise et surveille l'enrichissement avant le début de l'enquête. | Il peut lire, télécharger, commenter, modifier les statistiques de contrôle, clôturer, exporter et gérer tous les utilisateurs, sauf les données LAMal et les données cantonales. | Il représente le superutilisateur et garantit, en collaboration avec le BFS_superuser, le bon déroulement de la collecte des données. |
+| BFS_User | Pendant l'enquête, il surveille régulièrement le respect des délais, la qualité des données et informe au besoin le responsable de l'enquête de l'OFS. | Il peut lire, télécharger, commenter, modifier les statistiques de contrôle, clôturer, exporter toutes les données. | Il assiste le responsable de l'enquête de l'OFS dans la surveillance du bon déroulement de l'enquête. |
+| BFS_Read | En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. | Il peut lire toutes les données de toutes les entreprises et de tous les sites hospitaliers. | Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plate-forme. |
 
 ### Rôles Cantons
 
@@ -33,7 +33,7 @@ La documentation est en cours de construction.
     <td> KT_Superuser </td>
     <td> Il informe ses entreprises/sites hospitaliers des nouveautés et contrôle la population de base avant l'enquête. Pendant le relevé, il veille à ce que ses sites hospitaliers respectent les délais de livraison. Il vérifie la qualité des données à l'aide de la règle de contrôle automatique et des commentaires complémentaires des sites hospitaliers et les valide. En cas de difficultés de la part des hôpitaux, il fournit le premier support. Il gère tous les utilisateurs de ses sites et entreprises hospitalières. </td>
     <td>Il peut lire, télécharger, commenter, modifier les statistiques de contrôle, exporter à des fins de plausibilité, clôturer toutes les données de ses entreprises et sites hospitaliers et gérer les utilisateurs de tous les rôles hospitaliers de ses sites et entreprises hospitaliers. </td>
-    <td>Il veille à ce que l'enquête soit réalisée dans les entreprises hospitalières situées sur sa juridiction et les informe des nouveautés à venir. En cas de questions, les cantons sont les premiers interlocuteurs. Ils effectuent des contrôles d'entrée ainsi que des demandes de précisions et se chargent des rappels. Jusqu'à la fin juin de l'année du relevé, le canton veille à ce que les informations demandées soient correctes et complètes. Le canton vérifie la plausibilité des justifications fournies par l'entreprise hospitalière en cas d'annonce d'erreur sur le protocole de contrôle et les accepte. </td>
+    <td> Il veille à ce que l'enquête soit réalisée dans les entreprises hospitalières situées sur sa juridiction et les informe des nouveautés à venir. En cas de questions, les cantons sont les premiers interlocuteurs. Ils effectuent des contrôles d'entrée ainsi que des demandes de précisions et se chargent des rappels. Jusqu'à la fin juin de l'année du relevé, le canton veille à ce que les informations demandées soient correctes et complètes. Le canton vérifie la plausibilité des justifications fournies par l'entreprise hospitalière en cas d'annonce d'erreur sur le protocole de contrôle et les accepte. </td>
   </tr>
   <tr>
     <td> KT_ErhV(stat_Abschlussuser) </td>
@@ -50,7 +50,7 @@ La documentation est en cours de construction.
   <tr>
     <td> KT_User </td>
     <td> Il assiste le KT_Superuser dans ses tâches. </td>
-    <td> Il peut lire, télécharger, commenter toutes les données de ses entreprises et sites hospitaliers </td>
+    <td> Il peut lire, télécharger, commenter toutes les données de ses entreprises et sites hospitaliers. </td>
     <td> Il assiste le KT_Superuser dans ses tâches. </td>
   </tr>
   <tr>

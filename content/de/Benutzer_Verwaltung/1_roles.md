@@ -11,103 +11,104 @@ keywords: []
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
-<!-- 
-### Rôles OFS
+### Rollen BFS
 
-| <div style="width:200px"> Nom </div> | Tâches | <div style="width:120px"> Compétences </div> | <div style="width:140px"> Responsabilités </div> |
+| <div style="width:200px"> Name </div> | Aufgaben | <div style="width:120px"> Kompetenzen </div> | <div style="width:140px"> Verantwortung </div> |
 |---|---|---|---|
-| BFS_Superuser | Il assume tous les rôles d'approbation à tous les niveaux pendant le relevé, met à jour le contenu et la technique de la plateforme, organise et surveille l'enrichissement avant le début du relevé. | Il peut lire, télécharger, commenter, modifier les statistiques de contrôle, clôturer, exporter toutes les données et gérer tous les utilisateurs. | S'assurer du bon fonctionnement de la plateforme avant, pendant et après l'enquête et intervenir à tous les niveaux si nécessaire. |
-| BFS_Erhebungsverantwortliche | Il assume tous les rôles d'application à tous les niveaux, à l'exception de l'exportation des données LAMal et du traitement des données cantonales. En collaboration avec le BFS_Superuser, il met à jour le contenu et la technique de la plateforme, organise et surveille l'enrichissement avant le début de l'enquête. | Il représente le superutilisateur et garantit, en collaboration avec le BFS_superuser, le bon déroulement de la collecte des données. | Il représente le superutilisateur et garantit, en collaboration avec le BFS_superuser, le bon déroulement de la collecte des données. |
-| BFS_User | Pendant l'enquête, il surveille régulièrement le respect des délais, la qualité des données et informe au besoin le responsable de l'enquête de l'OFS. | il peut lire, télécharger, commenter, modifier les statistiques de contrôle, clôturer, exporter toutes les données | Il assiste le responsable de l'enquête de l'OFS dans la surveillance du bon déroulement de l'enquête. |
-| BFS_Read | En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. | il peut lire toutes les données de toutes les entreprises et de tous les sites hospitaliers | Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plate-forme. |
+| BFS_Superuser | er hat alle Apllikationsrollen auf allen Ebenen während der Erhebung inne, bringt die Plattform inhaltlich und technisch auf den neusten Stand , organisiert und überwacht die Anreicherung vor Erhebungsstart. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren und alle user verwalten. | Sicherstellen der korrekten Funktionsfähigkeit der Plattform vor, während und nach der Erhebung und nötigenfalls Eingriff auf allen Ebenen. |
+| BFS_Erhebungsverantwortliche | Er hat alle Apllikationsrollen auf allen Ebenen inne, ausser Datenexport KVG und Bearbeitung der kantonalen Daten. Er bringt in Zusammenarbeit mit dem BFS_Superuser die Plattform inhaltlich und technisch auf den neusten Stand, organisiert und überwacht die Anreicherung vor Erhebungsstart. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren und alle user verwalten, ausser die KVG Daten und die kantonalen Daten. | Er vertritt den Superuser und garantiert in Zusammenarbeit mit dem BFS_superuser einen reibungslosen Ablauf der Datenerhebung. |
+| BFS_User | Er überwacht während der Erhebung regelmässig die Einhaltung der Fristen, die Qualität der Angaben und informiert bei Bedarf den BFS_Erhebungsverantwortlichen. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren. | Er unterstützt den BFS_Erhebungsverantwortlichen bei der Überwachung eines reibungslosen Ablaufs der Erhebung. |
+| BFS_Read | Er kann bei Bedarf auf der Plattform den Stand der Erhebung einsehen. | Er kann alle Daten aller Spitalunternehmen und -standorte lesen. | Er unterliegt der Schweigepflicht und darf keine Information über gelesene Informationen auf der Plattform Unbefugten mitteilen |
 
-### Rôles Cantons
+### Rollen Kantone
 
 <table style="width:100%">
   <tr>
-    <th style="width:20%"> Nom </div></th>
-    <th>Tâches </th>
-    <th style="width:20%"> Compétences </div> </th>
-    <th style="width:30%"> Responsabilités </div> </th>
+    <th style="width:20%"> Name </div></th>
+    <th> Aufgaben </th>
+    <th style="width:20%"> Kompetenzen </div> </th>
+    <th style="width:30%"> Verantwortung </div> </th>
   </tr>
   <tr>
     <td> KT_Superuser </td>
-    <td> Il informe ses entreprises/sites hospitaliers des nouveautés et contrôle la population de base avant l'enquête. Pendant le relevé, il veille à ce que ses sites hospitaliers respectent les délais de livraison. Il vérifie la qualité des données à l'aide de la règle de contrôle automatique et des commentaires complémentaires des sites hospitaliers et les valide. En cas de difficultés de la part des hôpitaux, il fournit le premier support. Il gère tous les utilisateurs de ses sites et entreprises hospitalières. </td>
-    <td>Il peut lire, télécharger, commenter, modifier les statistiques de contrôle, exporter à des fins de plausibilité, clôturer toutes les données de ses entreprises et sites hospitaliers et gérer les utilisateurs de tous les rôles hospitaliers de ses sites et entreprises hospitaliers. </td>
-    <td>Il veille à ce que l'enquête soit réalisée dans les entreprises hospitalières situées sur sa juridiction et les informe des nouveautés à venir. En cas de questions, les cantons sont les premiers interlocuteurs. Ils effectuent des contrôles d'entrée ainsi que des demandes de précisions et se chargent des rappels. Jusqu'à la fin juin de l'année du relevé, le canton veille à ce que les informations demandées soient correctes et complètes. Le canton vérifie la plausibilité des justifications fournies par l'entreprise hospitalière en cas d'annonce d'erreur sur le protocole de contrôle et les accepte. </td>
+    <td> In der Initialisierungsphase informiert er seine Spitalunternehmen oder -standorte über Neuerungen und kontrolliert die Grundgesamtheit vor der Erhebung. Während der Erhebung sorgt er dafür, dass seine Spitalstandorte die Lieferfristen einhalten. Säumige Betriebe werden daran erinnert. Er überprüft die Qualität der Daten mittels des automatischen Prüfregelwerks und den ergänzenden Kommentaren der Spitalstandorte und gibt diese frei. Bei Schwierigkeiten seitens der Spitäler liefert er den ersten support. Er verwaltet alle user seiner Spitalstandorte und -unternehmen. </td>
+    <td> Er kann alle Daten seiner Spitalunternehmen und- standorte lesen, hochladen, kommentieren, Prüfstati ändern, zu Plausibiliserungszwecken exportieren, abschliessen und die user aller Spitalrollen seiner Spitalstandorte und -unternehmen verwalten. </td>
+    <td> Er sorgt dafür, dass die Erhebung in den Spitalunternehmen innerhalb seines Zuständigkeitsgebiets durchgeführt wird und informiert diese über anstehende Neuerungen. Bei konzeptuellen, technischen oder inhaltlichen Fragen sind die Kantone erste Anlaufstelle. Sie führen Eingangskontrollen sowie Rückfragen durch und besorgen das Mahnwesen. Bis Ende Juni des Erhebungsjahres sorgt der Kanton dafür, dass die verlangten Informationen aller im Kanton ansässigen Spitalunternehmen und -standorten mit gesundheitspolizeilicher Betriebsbewilligung korrekt und vollständig vorliegen. Die vom Spitalunternehmen angegebenen Begründungen bei Fehlermeldungen auf dem Prüfprotokoll werden vom Kanton auf ihre Plausibilität hin überprüft und akzeptiert. </td>
   </tr>
   <tr>
     <td> KT_ErhV(stat_Abschlussuser) </td>
-    <td> Il assiste le KT_Superuser dans ses tâches. </td>
-    <td> il peut lire toutes les données de ses entreprises et sites hospitaliers, les télécharger, les commenter, modifier les statistiques de contrôle, les exporter à des fins de plausibilité, les clôturer. </td>
-    <td> Pour l'année de relevé concernée, l'office cantonal de recensement libère fin juillet les données des entreprises hospitalières situées sur son territoire en vue de leur utilisation selon la LSF. </td>
+    <td> Er unterstützt den KT_Superuser in seinen Aufgaben. </td>
+    <td> Er kann alle Daten seiner Spitalunternehmen und- standorte lesen, hochladen, kommentieren, Prüfstati ändern, zu Plausibiliserungszwecken exportieren, abschliessen. </td>
+    <td> Die kantonale Erhebungsstelle gibt für das betroffene Erhebungsjahr Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach BStatG frei. </td>
   </tr>
   <tr>
     <td> KT_Admin_Abschlussuser </td>
-    <td> En consultant les données de ses sites ou entreprises hospitalières, il libère les données pour une utilisation administrative à la fin de l'enquête. </td>
-    <td> Il peut lire toutes les données de ses entreprises et sites hospitaliers, les télécharger, les commenter, modifier les statistiques de contrôle, les exporter à des fins de plausibilité, les clôturer. </td>
-    <td> Pour l'année de relevé concernée, l'office cantonal de la santé publique libère fin juillet les données des entreprises hospitalières situées sur son territoire en vue de leur utilisation selon la LAMal. </td>   
+    <td> Mittels Einsicht in die Daten seiner Spitalstandorte oder -unternehmen gibt er die Daten am Ende der Erhebung für die administrative Nutzung frei. </td>
+    <td> Er kann alle Daten seiner Spitalunternehmen und- standorte lesen, hochladen, kommentieren, Prüfstati ändern, zu Plausibiliserungszwecken exportieren, abschliessen. </td>
+    <td> Das kantonale Gesundheitsamt gibt für das betroffene Erhebungsjahr Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG frei. </td>   
   </tr>
   <tr>
     <td> KT_User </td>
-    <td> Il assiste le KT_Superuser dans ses tâches. </td>
-    <td> Il peut lire, télécharger, commenter toutes les données de ses entreprises et sites hospitaliers </td>
-    <td> Il assiste le KT_Superuser dans ses tâches. </td>
+    <td> Er unterstützt den KT_Superuser in seinen Aufgaben. </td>
+    <td> Er kann alle Daten seiner Spitalunternehmen und- standorte lesen, hochladen, kommentieren. </td>
+    <td> Er unterstützt den KT_Superuser in seinen Aufgaben. </td>
   </tr>
   <tr>
     <td> KT_Read </td>
-    <td> En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. </td>
-    <td> Il peut lire toutes les données de toutes les entreprises hospitalières de son canton. </td>
-    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme. </td>
+    <td> Er kann bei Bedarf auf der Plattform den Stand der Erhebung einsehen. </td>
+    <td> Er kann alle Daten aller Spitalunternehmen seines Kantons lesen. </td>
+    <td> Er unterliegt der Schweigepflicht und darf keine Information über gelesene Informationen auf der Plattform Unbefugten mitteilen. </td>
   </tr>
 </table>
 
 ### Rôles Hôpitaux
-
+ 
 <table>
   <tr>
-    <th><div style="width:160px"> Nom </div></th>
-    <th>Tâches </th>
-    <th> <div style="width:110px"> Compétences </div> </th>
-    <th> <div style="width:120px"> Responsabilités </div> </th>
+    <th><div style="width:160px"> Name </div></th>
+    <th> Aufgaben </th>
+    <th> <div style="width:110px"> Kompetenzen </div> </th>
+    <th> <div style="width:120px"> Verantwortung </div> </th>
   </tr>
   <tr>
     <td>SP_ErhV_Unternehmen </td>
-    <td> Pendant la phase d'initialisation, il lit les nouveautés concernant le relevé et les met en œuvre si nécessaire. Pendant le relevé, il veille à ce que ses sites hospitaliers respectent les délais de livraison. Il télécharge les données, vérifie la qualité des données à l'aide du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau de l'entreprise hospitalière afin qu'elles puissent être libérée par le canton. </td>
-    <td>Il peut lire, télécharger, commenter, exporter à des fins de plausibilité et clôturer toutes les données de son entreprise hospitalière et de ses sites. </td>
-    <td>Il veille à ce que les données de son entreprise hospitalière soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau de l'entreprise hospitalière. </td>
+    <td> In der Initialisierungsphase liest er die Neuerungen bezüglich der Erhebung und setzt diese bei Bedarf um. Während der Erhebung sorgt er dafür, dass seine Spitalstandorte die Lieferfristen einhalten. Er ladet die Daten hoch, überprüft die Qualität der Daten mittels des automatischen Prüfregelwerks und kommentiert diese bei Bedarf. Am Ende des Erhebungsprozesses gibt er die Daten auf Spitalunternehmensebene frei (abschliessen), damit diese im Prozess weitergereicht werden können (Freigabe des Kantons). </td>
+    <td> Er kann alle Daten seines Spitalunternehmen und dessen Standorte lesen, hochladen, kommentieren, zu Plausibiliserungszwecken exportieren und abschliessen. </td>
+    <td> Er sorgt dafür, dass die Daten seines Spitalunternehmens innerhalb der vorgegebenen Frist und in guter Qualität vorliegen und gibt diese auf Ebene Spitalunternehmen frei. </td>
   </tr>
   <tr>
     <td>SP_ErhV_Standort</td>
-    <td>Il télécharge les données de son site hospitalier, vérifie la qualité des données au moyen du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau du site hospitalier afin qu'elles puissent être transmises dans le processus (libération de l'entreprise hospitalière).</td>
-    <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier.</td>
-    <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier.</td>
+    <td> Er ladet die Daten seines Spitalstandortes hoch, überprüft die Qualität der Daten mittels des automatischen Prüfregelwerks und kommentiert diese bei Bedarf. Am Ende des Erhebungsprozesses gibt er die Daten auf Spitalstandortebene frei (abschliessen), damit diese im Prozess weitergereicht werden können (Freigabe des Spitalunternehmens). </td>
+    <td> Er kann alle Daten seines Spitalstandorts lesen, hochladen, kommentieren, zu Plausibiliserungszwecken exportieren und abschliessen. </td>
+    <td> Er sorgt dafür, dass die Daten seines Spitalstandorts innerhalb der vorgegebenen Frist und in guter Qualität vorliegen und gibt diese auf Ebene Spitalstandort frei. </td>
   </tr>
   <tr>
     <td> SP_User_Unternehmen </td>
-    <td> Il soutient le SP_ErhV_Unternehmen dans ses tâches. </td>
-    <td> Il peut lire, télécharger, commenter toutes les données de son entreprise hospitalière et de ses sites. </td>
-    <td> Il soutient le SP_ErhV_Unternehmen dans ses tâches. </td>
+    <td> Er unterstützt den SP_ErhV_Unternehmen in seinen Aufgaben. </td>
+    <td> Er kann alle Daten seines Spitalunternehms und dessen Standorte lesen, hochladen, kommentieren. </td>
+    <td> Er unterstützt den SP_ErhV_Unternehmen in seinen Aufgaben. </td>
   </tr>
   <tr>
     <td> SP_User_Standort </td>
-    <td> Il soutient le SP_ErhV_Standort dans ses tâches. </td>
-    <td> Il peut lire, télécharger, commenter toutes les données de son site hospitalier. </td>
-    <td> Il soutient le SP_ErhV_Standort dans ses tâches. </td>
+    <td> Er unterstützt den SP_ErhV_Standort in seinen Aufgaben. </td>
+    <td> Er kann alle Daten seines Spitalstandorts lesen, hochladen, kommentieren. </td>
+    <td> Er unterstützt den SP_ErhV_Standort in seinen Aufgaben. </td>
   </tr>
   <tr>
     <td> SP_Read_Unternehmen </td>
-    <td> En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. </td>
-    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
-    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
+    <td> Er kann bei Bedarf auf der Plattform den Stand der Erhebung einsehen. </td>
+    <td> Er kann die Daten seines Spitalunternehmens lesen. </td>
+    <td> Er unterliegt der Schweigepflicht und darf keine Information über gelesene Informationen auf der Plattform Unbefugten mitteilen. </td>
   </tr>
   <tr>
     <td> SP_Read_Standort </td>
-    <td> En cas de besoin, il peut consulter l'état de l'enquête sur la plateforme. </td>
-    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
-    <td> Il est tenu au secret professionnel et ne doit pas divulguer à des personnes non autorisées les informations qu'il a lues sur la plateforme </td>
+    <td> Er kann bei Bedarf auf der Plattform den Stand der Erhebung einsehen. </td>
+    <td> Er kann die Daten seines Spitalstandorts lesen. </td>
+    <td> Er unterliegt der Schweigepflicht und darf keine Information über gelesene Informationen auf der Plattform Unbefugten mitteilen. </td>
   </tr>
 </table>
+
+<!-- 
 
   <tr>
     <td> </td>
