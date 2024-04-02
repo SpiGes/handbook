@@ -67,7 +67,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_niveau_fr.png" class="bord taille">}}
+{{<insertImage image="selection_niveau_de.png" class="bord taille">}}
 </div>
 
 </div>
@@ -85,7 +85,7 @@ Sie können die Krankenhausseite Ihrer Wahl auswählen und unten auf der Seite a
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_site.png" class="bord taille">}}
+{{<insertImage image="selection_site_de.png" class="bord taille">}}
 </div>
 
 </div>
@@ -115,7 +115,7 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_utilisateur.png" class="bord taille">}}
+{{<insertImage image="selection_utilisateur_de.png" class="bord taille">}}
 </div>
 
 </div>
@@ -137,7 +137,7 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="creation_utilisateur.png" class="bord taille">}}
+{{<insertImage image="creation_utilisateur_de.png" class="bord taille">}}
 </div>
 
 </div>
@@ -166,7 +166,7 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="param_utilisateur.png" class="bord taille">}}
+{{<insertImage image="param_utilisateur_de.png" class="bord taille">}}
 </div>
 
 </div>
@@ -188,7 +188,7 @@ Wenn Sie das Kästchen ankreuzen, ermöglicht Ihnen dies, dem Benutzer das Recht
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="don_delegation.png" class="bord taille">}}
+{{<insertImage image="don_delegation_de.png" class="bord taille">}}
 </div>
 
 </div>
@@ -217,7 +217,7 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="desactiv_utilis.png" class="bord taille">}}
+{{<insertImage image="desactiv_utilis_de.png" class="bord taille">}}
 </div>
 
 </div>
