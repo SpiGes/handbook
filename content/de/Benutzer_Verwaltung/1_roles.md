@@ -13,7 +13,7 @@ Die Dokumentation befindet sich im Aufbau.
 
 ### Rollen BFS
 
-| <div style="width:200px"> Name </div> | Aufgaben | <div style="width:120px"> Kompetenzen </div> | <div style="width:140px"> Verantwortung </div> |
+| <div style="width:200px"> Name </div> | Aufgaben | <div style="width:120px"> Kompetenzen </div> | <div style="width:120px"> Verantwortung </div> |
 |---|---|---|---|
 | BFS_Superuser | er hat alle Apllikationsrollen auf allen Ebenen während der Erhebung inne, bringt die Plattform inhaltlich und technisch auf den neusten Stand , organisiert und überwacht die Anreicherung vor Erhebungsstart. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren und alle user verwalten. | Sicherstellen der korrekten Funktionsfähigkeit der Plattform vor, während und nach der Erhebung und nötigenfalls Eingriff auf allen Ebenen. |
 | BFS_Erhebungsverantwortliche | Er hat alle Apllikationsrollen auf allen Ebenen inne, ausser Datenexport KVG und Bearbeitung der kantonalen Daten. Er bringt in Zusammenarbeit mit dem BFS_Superuser die Plattform inhaltlich und technisch auf den neusten Stand, organisiert und überwacht die Anreicherung vor Erhebungsstart. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren und alle user verwalten, ausser die KVG Daten und die kantonalen Daten. | Er vertritt den Superuser und garantiert in Zusammenarbeit mit dem BFS_superuser einen reibungslosen Ablauf der Datenerhebung. |
@@ -24,10 +24,10 @@ Die Dokumentation befindet sich im Aufbau.
 
 <table style="width:100%">
   <tr>
-    <th style="width:20%"> Name </div></th>
+    <th style="width:23%"> Name </div></th>
     <th> Aufgaben </th>
     <th style="width:20%"> Kompetenzen </div> </th>
-    <th style="width:30%"> Verantwortung </div> </th>
+    <th style="width:32%"> Verantwortung </div> </th>
   </tr>
   <tr>
     <td> KT_Superuser </td>
@@ -65,10 +65,10 @@ Die Dokumentation befindet sich im Aufbau.
  
 <table>
   <tr>
-    <th><div style="width:160px"> Name </div></th>
+    <th><div style="width:155px"> Name </div></th>
     <th> Aufgaben </th>
     <th> <div style="width:110px"> Kompetenzen </div> </th>
-    <th> <div style="width:120px"> Verantwortung </div> </th>
+    <th> <div style="width:110px"> Verantwortung </div> </th>
   </tr>
   <tr>
     <td>SP_ErhV_Unternehmen </td>
