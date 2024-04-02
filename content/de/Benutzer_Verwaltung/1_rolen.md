@@ -61,14 +61,14 @@ Die Dokumentation befindet sich im Aufbau.
   </tr>
 </table>
 
-### Rôles Hôpitaux
+### Rollen Spitäler
  
 <table>
   <tr>
     <th><div style="width:155px"> Name </div></th>
     <th> Aufgaben </th>
     <th> <div style="width:110px"> Kompetenzen </div> </th>
-    <th> <div style="width:110px"> Verantwortung </div> </th>
+    <th> <div style="width:120px"> Verantwortung </div> </th>
   </tr>
   <tr>
     <td>SP_ErhV_Unternehmen </td>
