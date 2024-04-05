@@ -11,6 +11,8 @@ keywords: []
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
+## Administratives
+
 {{<collapsible title="question">}}
 Réponse
 {{</collapsible>}}
