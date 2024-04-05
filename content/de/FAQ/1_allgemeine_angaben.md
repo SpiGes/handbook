@@ -115,8 +115,8 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
     <th> Begriffe synonym </th>
   </tr>
   <tr>
-    <td> <p> <b> Spitalunternehmen </b> </p>
-	<p> Juristische Einheit </p>
+    <td> <b> Spitalunternehmen </b> <br /> 
+	Juristische Einheit 
  </td>
     <td> (Spital-)Unternehmen </td>
   </tr>
@@ -132,8 +132,11 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
 </table>
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Wie wird festgestellt, zu welchem Spital (burnr_gesv) ein Standort (burnr) gehört?">}}
+<ul>
+<li>	Die Zuordnung der Standorte (BUR-Nummern) zu den Spitälern (BUR-GESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben. </li>
+<li>	Die burnr_gesv wird auf Wunsch unserer Partner auch erhoben. </li>
+</ul>
 {{</collapsible>}}
 
 {{<collapsible title="question">}}
