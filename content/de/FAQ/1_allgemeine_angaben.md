@@ -18,10 +18,10 @@ Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär
 {{</collapsible>}}
 
 {{<collapsible title="Wie sieht die Rolle der Kantone, insbesondere der kantonalen Erhebungspartner, zukünftig aus?">}}
-<ol>
-	<ul> Die kantonalen Erhebungsstellen wirken bei der BFS Erhebung mit wie bisher (Grundgesamtheit, Koordination und Kommunikation Spital, Mahnwesen usw.). </ul>
-	<ul> Das zuständige kantonale Gesundheitsamt gibt neu Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG auf der SpiGes Plattform frei. </ul>
-</ol>
+<ul>
+	<li> Die kantonalen Erhebungsstellen wirken bei der BFS Erhebung mit wie bisher (Grundgesamtheit, Koordination und Kommunikation Spital, Mahnwesen usw.). </li>
+	<li> Das zuständige kantonale Gesundheitsamt gibt neu Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG auf der SpiGes Plattform frei. </li>
+</ul>
 {{</collapsible>}}
 
 {{<collapsible title="Es gibt in SpiGes freiwillige Variablen, welche gemäss Vorgabe des Kantons ausgefüllt werden können. Bis wann muss der Kanton den Betrieben bzw. dem BFS mitteilen, welche Variablen ausgefüllt werden sollen. Ist der Kanton hier frei in der Entscheidung, welche freiwilligen Elemente ausgefüllt werden müssen?">}}
@@ -43,25 +43,25 @@ Gemäss Art. 23 des Bundesgesetzes vom 18. März 1994 über die Krankenversicher
 ## Inhaltliche Anpassungen
 
 {{<collapsible title="Welche Variablen ändern sich mit SpiGes?">}}
-<ol>
-<ul> SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
-<ol>
-<ul>	Die Hauptbehandlung wird abgeschafft. </ul>
-<ul>	Der Zusatz zur Hauptdiagnose wird abgeschafft. </ul>
-<ul>	Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. </ul>
-<ul>	Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. </ul>
-<ul>	Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  </ul>
-<ul>	Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. </ul>
-</ol>
+<ul>
+<li> SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
+<ul>
+<li>	Die Hauptbehandlung wird abgeschafft. </li>
+<li>	Der Zusatz zur Hauptdiagnose wird abgeschafft. </li>
+<li>	Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. </li>
+<li>	Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. </li>
+<li>	Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  </li>
+<li>	Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. </li>
 </ul>
+</li>
 
-<ul> Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. </ul>
+<li> Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. </li>
 
-<ul> Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. </ul>
+<li> Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. </li>
 
-<ul> Hier finden Sie den kompletten Datensatz: https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html </ul>
+<li> Hier finden Sie den kompletten Datensatz: https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html </li>
 
-</ol>
+</ul>
 {{</collapsible>}}
 
 {{<collapsible title="question">}}

@@ -154,11 +154,11 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Rolle hinzufügen </li>.
-   <li> Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken. </li>.
+   <li> Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Rolle hinzufügen </li>
+   <li> Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken. </li>
    <li> Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt. </li>
    <li> Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Gewähren" klicken. </li>
-   <li> Wenn Sie dem Benutzer erlauben möchten, Rollen zu delegieren, gehen Sie auf die Registerkarte "Berechtigungen für delegierte Verwaltung gewähren. </li>.
+   <li> Wenn Sie dem Benutzer erlauben möchten, Rollen zu delegieren, gehen Sie auf die Registerkarte "Berechtigungen für delegierte Verwaltung gewähren. </li>
 </ol>
 </p>
 
@@ -209,7 +209,7 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 <p>
 <ol> 
    <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen Sie die Optionen zum Deaktivieren und Archivieren des ausgewählten Profils.  </li>
-   <li> Klicken Sie auf dieses Kästchen, um ein Profil zu deaktivieren. </li>.
+   <li> Klicken Sie auf dieses Kästchen, um ein Profil zu deaktivieren. </li>
 </ol>
 </p>
 
