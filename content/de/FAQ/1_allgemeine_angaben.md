@@ -117,7 +117,7 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
   <tr>
     <td> <b> Spitalunternehmen </b> <br /> 
 	Juristische Einheit 
- </td>
+ 	</td>
     <td> (Spital-)Unternehmen </td>
   </tr>
   <tr>
@@ -125,8 +125,9 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
     <td> Spital, Klinik, (Spital-)Betrieb </td>
   </tr>
   <tr>
-    <td> <p> <b> Spitalstandort </b> </p>
-	<p> lokale Einheit </p> </td>
+    <td> <b> Spitalstandort </b> <br /> 
+	lokale Einheit 
+	</td>
     <td> (Spital-)Standort </td>
   </tr>
 </table>
@@ -139,24 +140,27 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
 </ul>
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Was versteht man unter einer Hauptleistungsstelle (z.B. M000, M050)?">}}
+Eine Leistungsstelle ist eine organisatorische Einheit im Spital, in der u.a. medizinische, medizinisch-technische oder medizinisch-therapeutische Leistungen erbracht werden. In der SpiGes Erhebung wird angegeben, in welcher medizinischen Hauptleistungsstelle der Patient behandelt wird. 
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="SpiGes erhebt nur Informationen zu den stationären Fällen. Wie kann der ambulante Teil des ITAR_K ausgefüllt werden?">}}
+Das ITAR_K kann mit den SpiGes Daten erstellt werden. Die ambulanten Angaben werden in den dafür vorgesehenen KTR Typen erhoben (z.B. Tarif Labor).
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Wie wird das ITAR_K von Kliniken erstellt, welche nur Teil eines Spitalunternehmens sind? (z.B. Klinik St. Anne von Fribourg ist Teil der Swiss Medical Network AG)">}}
+Die Klinik St. Anne von Fribourg wird die Finanzbuchhaltung (und alle anderen Angaben) in der Krankenhausstatistik pro Klinik (Ebene BURGESV) ausfüllen. Die Kosten aus SpiGes lassen sich nach BURGESV aggregieren.
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Die Kostendaten muss man bis zum 31.3 erfassen. Müssen diese Daten revidiert sein? Aktuell könnten wir das nicht umsetzen da der Jahresabschluss erst Ende März revidiert wird.">}}
+Bei dieser Frist müssen die Kostendaten erstmals automatisch auf der SpiGes Plattform geprüft sein. Die Revision kann später erfolgen.
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Wir finden keine SpiGes-Variable, die es ermöglichen würde, die direkt mit einem Fall verbundenen GWL-Einnahmen/Kosten in die dafür vorgesehene GWL Spalte im ITAR_K zu überführen. Wie wird die GWL-Spalte von ITAR_K mit den SpiGes Daten berechnet?">}}
+<ul>
+<li>	Bei der Abbildung der gemeinwirtschaftlichen Leistungen hält sich SpiGes grundsätzlich an die Rechtsprechung und die Empfehlungen des Spitalverbandes H+. REKOLE® sieht vor, dass die Kosten der fallbezogenen gemeinwirtschaftlichen Leistungen auf dem Fall, die Erlöse jedoch auf einem separaten GWL-Kostenträger abgebildet werden. Kosten und Erlöse von fallunabhängigen GWL werden ebenfalls auf einem separaten GWL-Kostenträger abgebildet. </li>
+<li>	Aus technischer Sicht ist es möglich, von den Vorgaben von REKOLE® abzuweichen. Die Kosten und Erlöse der fallbezogenen GWL könnten auch auf einem eigenen Kostenträger (Typ KTR 700-799) erfasst werden. Dies liegt im Ermessen des Kantons. Wichtig ist in diesem Fall, dass die Kosten und Erlöse für die OKP-Leistungen trotzdem auf dem Fall erfasst werden (Typ KTR = 1). </li>
+</ul>
 {{</collapsible>}}
 
 {{<collapsible title="question">}}
