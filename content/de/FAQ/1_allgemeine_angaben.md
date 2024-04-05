@@ -10,3 +10,7 @@ keywords: []
 {{<alert color="info">}}
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
+
+{{<collapsible title="test">}}
+Contenu
+{{</collapsible>}}
