@@ -163,30 +163,13 @@ Bei dieser Frist müssen die Kostendaten erstmals automatisch auf der SpiGes Pla
 </ul>
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="ITAR_K kann sowohl auf Unternehmens als auch auf Standort-Ebene ausgefüllt werden. Was wird in SpiGes verlangt? Liegt die Entscheidung dazu bei den Kantonen?">}}
+<ul>
+<li>	ITAR_K wird immer auf der Ebene BUR-GESV ausgefüllt, diese Ebene muss mit der Erhebung der KS übereinstimmen. Die Informationen dazu liefert der Kanton in der Erhebung der Grundgesamtheit an das BFS. Insofern hat der Kanton einen Einfluss. Er muss sich aber mit dem Spital absprechen. </li>
+<li>	Das ITAR_K stellt das Grundinstrument für die Verhandlungen der Spitäler mit den Versicherern dar. Ob dabei der Kanton bezüglich Granularität mitbestimmt, ist abhängig davon ob es sich um ein Listenspital, ein Vertragsspital oder ein Ausstandspital handelt. </li>
+</ul>
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
-{{</collapsible>}}
-
-{{<collapsible title="question">}}
-Réponse
-{{</collapsible>}}
-
-{{<collapsible title="question">}}
-Réponse
-{{</collapsible>}}
-
-{{<collapsible title="question">}}
-Réponse
-{{</collapsible>}}
-
-{{<collapsible title="question">}}
-Réponse
-{{</collapsible>}}
-
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Ab wann wird das ITAR_K® ab der SpiGes Plattform generiert werden?">}}
+Das zentrale Instrument für Tarifierung und Wirtschaftlichkeitsprüfung soll in Zukunft durch SpiGes erstellt werden. Um einen sicheren Übergang sowie die Korrektheit zu gewährleisten, ist ein Parallelbetrieb der alten und neuen Plattform (H+ resp. SpiGes) zur Erstellung von ITAR_K® vorgesehen. Im Jahr 2025 (Daten 2024) werden die offiziellen ITAR_K® noch wie bisher von der H+-Plattform erstellt. Ab September 2025 erhalten alle Spitäler zudem die Möglichkeit, die ITAR_K® 2025 (Daten 2024) über SpiGes zu erstellen und die beiden Resultate zu vergleichen. So können allfällige Unklarheiten noch vor der produktiven Einführung der ITAR_K® -Erstellung über SpiGes im Jahr 2026 (Daten 2025) ausgeräumt werden.
 {{</collapsible>}}
