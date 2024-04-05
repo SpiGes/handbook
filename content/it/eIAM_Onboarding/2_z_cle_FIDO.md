@@ -6,9 +6,6 @@ keywords: []
 weight: 25
 type: docs
 ---
-{{<alert color="info">}}
-La documentazione è attualmente in fase di costruzione.
-{{</alert>}}
 
 Se non potete o non volete usare Mobile ID, potete anche usare un FIDO token come secondo fattore di sicurezza forte. 
 

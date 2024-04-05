@@ -7,10 +7,6 @@ weight: 50
 type: docs
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 Sie werden eine E-Mail erhalten, in der Sie aufgefordert werden, Ihr Onboarding mit Ihrem Zugang zur SpiGes-Erhebungsplattform abzuschließen. 
 
 <!-- 1ere paire de colonnes -->

@@ -7,10 +7,6 @@ weight: 50
 type: docs
 ---
 
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
-
 Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre accès à la plateforme de relevé SpiGes. 
 
 <!-- 1ere paire de colonnes -->

@@ -6,9 +6,6 @@ keywords: []
 weight: 25
 type: docs
 ---
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
 
 Si vous ne pouvez pas ou ne souhaitez pas utiliser le Mobile ID, vous pouvez également utiliser une clé de sécurité FIDO comme second facteur de sécurité fort. 
 

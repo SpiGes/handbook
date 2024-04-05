@@ -7,10 +7,6 @@ weight: 50
 type: docs
 ---
 
-{{<alert color="info">}}
-La documentazione è attualmente in fase di costruzione.
-{{</alert>}}
-
 Riceverete un'e-mail che vi inviterà a completare l'onboarding accedendo alla piattaforma di sondaggi SpiGes. 
 
 <!-- 1ere paire de colonnes -->

@@ -7,10 +7,6 @@ weight: 10
 type: docs
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 In diesem Kapitel finden Sie alle Schritte, die Sie unternehmen müssen, um ein verifiziertes Profil zu erstellen, mit dem Sie sich auf der SpiGes-Plattform einloggen können.
 
 Um ein CH-Login mit einem starken Zweitfaktor mit verifizierter Identität für SpiGes zu erstellen, sind folgende Schritte nötig:
