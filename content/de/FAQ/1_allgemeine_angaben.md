@@ -11,7 +11,7 @@ keywords: []
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
-## Allgemeine Angaben
+## Rollen und Stakeholder
 
 {{<collapsible title="Wen kontaktiert das Spital, wenn es inhaltliche Fragen betreffend der SpiGes Erhebung hat?">}}
 Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär an seine zuständige kantonale Erhebungsstelle.
@@ -19,8 +19,8 @@ Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär
 
 {{<collapsible title="Wie sieht die Rolle der Kantone, insbesondere der kantonalen Erhebungspartner, zukünftig aus?">}}
 <ol>
-	<li> Die kantonalen Erhebungsstellen wirken bei der BFS Erhebung mit wie bisher (Grundgesamtheit, Koordination und Kommunikation Spital, Mahnwesen usw.). </li>
-	<li> Das zuständige kantonale Gesundheitsamt gibt neu Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG auf der SpiGes Plattform frei. </li>
+	<ul> Die kantonalen Erhebungsstellen wirken bei der BFS Erhebung mit wie bisher (Grundgesamtheit, Koordination und Kommunikation Spital, Mahnwesen usw.). </ul>
+	<ul> Das zuständige kantonale Gesundheitsamt gibt neu Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG auf der SpiGes Plattform frei. </ul>
 </ol>
 {{</collapsible>}}
 
@@ -28,20 +28,40 @@ Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär
 Die Kantone teilen ihren Spitälern die Bereitstellung der freiwilligen Variablen (z. B. op_gln) früh genug mit, damit diese ab den Daten 2024 im Spitalsystem erfasst werden. Der Kanton beschliesst gemäss seinen Vorgaben im Gesundheitsbereich, welche bei diesen Variablen spezifischer als die nationalen Vorgaben sein können.
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Die Spitäler wünschen sich eine Informationsveranstaltung, damit sie einen besseren Überblick über die bevorstehenden Anforderungen erhalten. Ist eine solche vom BFS geplant?">}}
+Das BFS hat bereits 4 Infoveranstaltungen für ein breites Publikum durchgeführt, hier haben auch einige Spitäler teilgenommen. H+ hat seine Spitäler jeweils darüber informiert. Da zum jetzigen Zeitpunkt nicht mehr konzeptuelle Fragen, sondern sehr spezifische Themen auftauchen, sieht das BFS einen solchen Grossanlass nicht als das geeignete Instrument an. Das BFS sammelt die eingegangenen Fragen und wird die FAQ auf der SpiGes Webseite hochschalten.
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Können künftig auch die Anforderungen des ANQ mit dem XML-File erfüllt werden?">}}
+Das BFS ist mit dem ANQ in Kontakt, um die SpiGes Variablen und Formate abzugleichen.
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+{{<collapsible title="Können Sie mir die gesetzliche Grundlage nennen, die die Krankenhäuser verpflichtet, die Statistik zu übermitteln">}}
+Gemäss Art. 23 des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG; SR 832.10), Art. 6 Abs. 4 des Bundesstatistikgesetzes vom 9. Oktober 1992 (BStatG; SR 431.01), Art. 6 Abs. 1 der Verordnung vom 30. Juni 1993 über die Durchführung von statistischen Erhebungen des Bundes (SR 431. 012.1) und den Bestimmungen über die Krankenhausstatistik und der Medizinischen Statistik im Anhang der genannten Verordnung sind alle Krankenhäuser verpflichtet, dem Bundesamt für Statistik die erforderlichen Daten in der vorgeschriebenen Form und innerhalb der festgesetzten Frist zu liefern.
 {{</collapsible>}}
 
-{{<collapsible title="question">}}
-Réponse
+## Inhaltliche Anpassungen
+
+{{<collapsible title="Welche Variablen ändern sich mit SpiGes?">}}
+<ol>
+<ul> SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
+<ol>
+<ul>	Die Hauptbehandlung wird abgeschafft. </ul>
+<ul>	Der Zusatz zur Hauptdiagnose wird abgeschafft. </ul>
+<ul>	Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. </ul>
+<ul>	Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. </ul>
+<ul>	Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  </ul>
+<ul>	Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. </ul>
+</ol>
+</ul>
+
+<ul> Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. </ul>
+
+<ul> Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. </ul>
+
+<ul> Hier finden Sie den kompletten Datensatz: https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html </ul>
+
+</ol>
 {{</collapsible>}}
 
 {{<collapsible title="question">}}
