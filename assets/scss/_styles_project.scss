@@ -617,3 +617,23 @@ body {
         column-count: 3;
         max-width: 80%;
     }
+
+.collapsible-content {
+    display: none;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.collapsible-toggle {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+

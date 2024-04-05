@@ -2,6 +2,7 @@
 <html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ partial "head.html" . }}
+    <script src="/{{ $.Site.Params.baseName}}/js/collapsible.js"></script>
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
     <div class="viewport">
