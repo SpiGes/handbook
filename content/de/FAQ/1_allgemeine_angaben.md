@@ -45,6 +45,48 @@ Question
 : Answer
 
 
-
 Option 2: 
 
+<style>
+/* Cache le contenu initialement */
+.content {
+    display: none;
+    padding: 10px;
+    margin-top: 5px;
+    width: 50%;
+}
+
+/* Lorsque le checkbox est coché, on affiche le contenu */
+#toggle:checked + .content {
+    display: block;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+</style>
+
+<label for="toggle">Toggle Content</label>
+<input type="checkbox" id="toggle" hidden>
+<div class="content">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
+</div>
+
+
+Option 3: 
+
+# Fragen 
+- [Question 1](#question-1)
+- [Question 2](#question-2)
+
+## Question 1
+Réponse 1
+
+## Question 2
+Réponse 2
