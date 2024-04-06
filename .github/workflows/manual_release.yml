@@ -80,6 +80,7 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v5
         with:
+          cache: false # to avoid Warning "Restore cache failed: Dependencies file is not found in /home/runner/work/handbook/handbook. Supported file pattern: go.sum"
           go-version: ${{ env.GO_VERSION }}
 
       - name: Install Hugo CLI
