@@ -96,7 +96,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Geben Sie den folgenden MIO-Code ein <B> Zu ergänzen</B> und klicken Sie auf "Speichern". 
+Geben Sie den folgenden MIO-Code ein 16783 und klicken Sie auf "Speichern". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">

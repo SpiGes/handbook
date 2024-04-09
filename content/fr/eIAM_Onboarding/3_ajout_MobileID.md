@@ -96,7 +96,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Saisissez le code MIO suivant <B> A COMPLETER </B>, puis cliquez sur "enregistrer". 
+Saisissez le code MIO suivant: 16783, puis cliquez sur "enregistrer". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">

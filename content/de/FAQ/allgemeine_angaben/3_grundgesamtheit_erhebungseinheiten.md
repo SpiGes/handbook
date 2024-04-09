@@ -11,8 +11,6 @@ keywords: []
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
-## Grundgesamtheit und Erhebungseinheiten
-
 {{<collapsible title="Wird bei der Einführung von SpiGes bzw. zum Zeitpunkt der Definition der Grundgesamtheit für die erste SpiGes-Erhebung noch mit den herkömmlichen «Spitallisten» oder bereits mit SpiReg gearbeitet?">}}
 <ul>
 <li>	Bei der ersten SpiGes Erhebung (Daten 2024) im Jahre 2025 wird noch manuell die Grundgesamtheit KS in Form von Excellisten importiert. </li>

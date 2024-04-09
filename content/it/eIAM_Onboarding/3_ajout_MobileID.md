@@ -97,7 +97,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-Immettere il seguente codice MIO <B> DA COMPLETARE </B>, quindi fare clic su "Salva". 
+Immettere il seguente codice MIO: 16783, quindi fare clic su "Salva". 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">

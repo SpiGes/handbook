@@ -1,17 +1,11 @@
 ---
-title: Falldaten 
-slug: falldaten
+title: Admninistratives 
+slug: admninistratives
 description: " "
-weight: 30
+weight: 10
 type: docs
 keywords: []
 ---
-
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
-## Administratives
 
 {{<collapsible title="question">}}
 Réponse
