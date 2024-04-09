@@ -46,7 +46,7 @@ austritt_aufenthalt: 2 = Krankenheim, Pflegeheim <br />
 eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb  
 {{</collapsible>}}
 
-## Variable "Wohnland"
+### Variable "Wohnland"
 
 {{<collapsible title="In der Variablenbeschreibung ist eine separate Einteilung der aussereuropäischen Länder in Regionen erwähnt. Existiert diese Liste bereits oder wird sie noch veröffentlicht?">}}
 <ul>
