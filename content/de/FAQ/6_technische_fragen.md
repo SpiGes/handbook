@@ -20,6 +20,7 @@ Im Januar 2023 haben wir ein Informationsveranstaltung Richtung KIS Hersteller (
 {{</collapsible>}}
 
 Gemäss Variablenliste 1.3 gibt es folgende Tabellen:
+<table>
   <tr>
     <td> 1 </td>
     <td> Administratives </td>
@@ -68,6 +69,7 @@ Gemäss Variablenliste 1.3 gibt es folgende Tabellen:
     <td> 12 </td>
     <td> Personenidentifikator </td>
   </tr>
+</table>
 
 {{<collapsible title="Kann man unter SpiGes diese Tabellen alle als einzelnes xml-File abgeben?">}}
 Die Tabelle 12 Personenidentifikatoren muss in einem separaten File geliefert werden (aus Datenschutzgründen). Für die restlichen Tabellen ist ein anderes File definiert, welches aber Teillieferungen unterstützt. Theoretisch ist es also möglich, alle Tabellen in einem einzelnen XML-File als Teillieferungen zu liefern. Wir empfehlen dies jedoch nicht, da dies eine aufwändige Abstimmung der verschiedenen Tabellen erfordert (Sicherstellen, dass die Informationen zu allen Fällen in allen Files vorhanden sind).  Genauere Informationen zu diesem Thema finden Sie in der Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform auf unserer Webseite <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html </a>
