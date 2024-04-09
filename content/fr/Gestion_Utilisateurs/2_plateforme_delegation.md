@@ -144,7 +144,7 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 
 &nbsp;
 
-### Modification des autorisations de l'utilisateurs 
+### Modification des autorisations de l'utilisateur 
 
 <!-- 6eme paire de colonnes -->
 
