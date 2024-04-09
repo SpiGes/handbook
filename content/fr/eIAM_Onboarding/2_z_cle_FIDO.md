@@ -1,6 +1,6 @@
 ---
 title: Clé FIDO
-slug: cle_FIDO
+slug: FIDO_key
 description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation de clé FIDO comme second facteur de sécurité."
 keywords: []
 weight: 25

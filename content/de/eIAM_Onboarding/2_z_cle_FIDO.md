@@ -1,6 +1,6 @@
 ---
 title: FIDO Passkey
-slug: FIDO_Passkey
+slug: FIDO_key
 description: "Auf dieser Seite geben wir Ihnen alle Informationen über die Verwendung von FIDO Passkeys als zweiten Sicherheitsfaktor."
 keywords: []
 weight: 25

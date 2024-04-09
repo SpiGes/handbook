@@ -1,6 +1,6 @@
 ---
 title: Ajout du Mobile ID comme deuxième facteur
-slug: ajout_mobile_id
+slug: mobile_id_add
 description: 'Sur cette page, nous vous expliquons comment ajouter le Mobile ID comme deuxième facteur au CH-Login. Cela vous permettra de vérifier votre identité lors de la connexion à eIAM.'
 keywords: []
 weight: 30
