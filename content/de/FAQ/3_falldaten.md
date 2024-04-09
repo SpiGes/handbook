@@ -38,7 +38,7 @@ Réponse
 {{</collapsible>}}
 
 {{<collapsible title="question">}}
-Réponse
+Réponse  
 {{</collapsible>}}
 
 {{<collapsible title="question">}}
