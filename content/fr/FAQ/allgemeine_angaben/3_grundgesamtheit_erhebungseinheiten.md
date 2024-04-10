@@ -7,61 +7,57 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
-{{<collapsible title="Wird bei der Einführung von SpiGes bzw. zum Zeitpunkt der Definition der Grundgesamtheit für die erste SpiGes-Erhebung noch mit den herkömmlichen «Spitallisten» oder bereits mit SpiReg gearbeitet?">}}
+{{<collapsible title="Lors de l'introduction de SpiGes ou au moment de la définition de la population de base pour la première enquête SpiGes, travaille-t-on encore avec les «listes d'hôpitaux» traditionnelles ou déjà avec SpiReg ?">}}
 <ul>
-<li>	Bei der ersten SpiGes Erhebung (Daten 2024) im Jahre 2025 wird noch manuell die Grundgesamtheit KS in Form von Excellisten importiert. </li>
-<li>	Die bisherige BUR wird BURGESV heissen und der Identifikator des Spitals bleiben. Die Standort-BUR heisst ab den Daten 2024 (Erhebung 2025) BUR. </li>
+<li> Lors de la première enquête SpiGes (données 2024) en 2025, la population KS est encore importée manuellement sous forme de listes Excel. </li>
+<li> L'actuel «REE» s'appellera «REEGESV» et restera l'identifiant de l'hôpital. Le «REE de site» s'appellera «REE» à partir des données 2024 (relevé 2025). </li>
 </ul>
 {{</collapsible>}}
 
 
-{{<collapsible title="Was ist der Unterschied zwischen einem Spitalunternehmen, einem Spital und einem Spitalstandort?">}}
+{{<collapsible title="Quelle est la différence entre une entreprise hospitalière, un hôpital et un site hospitalier ?">}}
 <ul>
-<li>	Ein Spitalunternehmen, ist ein Unternehmen mit dem NOGA-Code 861001 (Allgemeine Krankenhäuser), 861002 (Spezialkliniken) oder 869004 (Geburtshäuser). Es ist mit der Identifikationsnummer ENTID eindeutig bezeichnet. </li>
-<li>	Das Spital ist in der SpiGes Erhebung eine Einheit, welche ein ITAR-K ausfüllt und nach der sich die Falldefinition der SwissDRG AG richtet. Ein Spital ist mit der BUR-Nr. GESV gekennzeichnet, welche nur auf der Datenbank von GESV geführt wird. </li>
-<li>	Ein Spitalstandort ist mit der BUR-Nr. eindeutig gekennzeichnet und gehört immer zu genau einem Spitalunternehmen. </li>
+<li> Une entreprise hospitalière est une entreprise dont le code NOGA est 861001 (hôpitaux généraux), 861002 (cliniques spécialisées) ou 869004 (maisons de naissance). Elle est désignée de manière univoque par le numéro d'identification IDENT. </li>
+<li> Dans le relevé SpiGes, l'hôpital est une unité qui remplit un ITAR_K et sur lequel se base la définition de cas de SwissDRG SA. Un hôpital est identifié par le n° REE GESV qui n'est géré que sur la base de données de GESV. </li>
+<li> Un site hospitalier est clairement identifié par le numéro REE et appartient toujours à une seule entreprise hospitalière. </li>
 </ul>
-Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitälern (BURGESV) und 14 Standorten (BUR) :
-{{<insertImage image="tableauFAQ1.png"  class="taille">}}
+Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/IDENT) avec 12 hôpitaux (REEGESV) et 14 sites (REE) :
+{{<insertImage image="tableauFAQ1_fr.png"  class="taille">}}
 {{</collapsible>}}
 
-{{<collapsible title="Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Spital und Spitalstandort verwendet?">}}
+{{<collapsible title="Quels sont les termes synonymes d'entreprise hospitalière, d'hôpital et de site hospitalier utilisés dans l'enquête SpiGes ?">}}
 <table style="width:100%">
   <tr>
-    <th style="width:50%"> Ebene </div></th>
-    <th> Begriffe synonym </th>
+    <th style="width:50%"> Niveau </div></th>
+    <th> Termes synonymes </th>
   </tr>
   <tr>
-    <td> <b> Spitalunternehmen </b> <br /> 
-	Juristische Einheit 
+    <td> <b> Entreprise hospitalière </b> <br /> 
+    Unité juridique
  	</td>
-    <td> (Spital-)Unternehmen </td>
+    <td> Entreprise (hospitalière) </td>
   </tr>
   <tr>
-    <td> <b> Spital </b> (gemäss Angabe Kanton, Erhebung MS/KS, Falldefinition) </td>
-    <td> Spital, Klinik, (Spital-)Betrieb </td>
+    <td> <b> Hôpital </b> (selon indication du canton, enquête MS/KS, définition de cas) </td>
+    <td> Hôpital, institution, clinique, établissement (hospitalier) </td>
   </tr>
   <tr>
-    <td> <b> Spitalstandort </b> <br /> 
-	lokale Einheit 
+    <td> <b> Site de l'hôpital </b> <br /> 
+    Unité locale
 	</td>
-    <td> (Spital-)Standort </td>
+    <td> Site (hospitalier) </td>
   </tr>
 </table>
 {{</collapsible>}}
 
-{{<collapsible title="Wie wird festgestellt, zu welchem Spital (burnr_gesv) ein Standort (burnr) gehört?">}}
+{{<collapsible title="Comment déterminer à quel hôpital (REEGESV) appartient un site (REE) ?">}}
 <ul>
-<li>	Die Zuordnung der Standorte (BUR-Nummern) zu den Spitälern (BUR-GESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben. </li>
-<li>	Die burnr_gesv wird auf Wunsch unserer Partner auch erhoben. </li>
+<li> Nous demandons l'attribution des sites (REE) aux hôpitaux (REEGESV) lors de la collecte de la population de base. Dans ce processus, ce sont les cantons, en collaboration avec les hôpitaux, qui nous donnent l’information. </li>
+<li> Le burnr_gesv est également relevé à la demande de nos partenaires. </li>
 </ul>
 {{</collapsible>}}
 
-{{<collapsible title="Was versteht man unter einer Hauptleistungsstelle (z.B. M000, M050)?">}}
-Eine Leistungsstelle ist eine organisatorische Einheit im Spital, in der u.a. medizinische, medizinisch-technische oder medizinisch-therapeutische Leistungen erbracht werden. In der SpiGes Erhebung wird angegeben, in welcher medizinischen Hauptleistungsstelle der Patient behandelt wird. 
+{{<collapsible title="Qu'est-ce qu'un centre de prestations principal (p. ex. M000, M050) ?">}}
+Un centre de prestations est une unité organisationnelle de l'hôpital dans laquelle sont fournies, entre autres, des prestations médicales, médico-techniques ou médico-thérapeutiques. L'enquête SpiGes indique dans quel centre de prestations médicales principal le patient est traité. 
 {{</collapsible>}}
 

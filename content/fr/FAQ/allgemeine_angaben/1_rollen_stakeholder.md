@@ -7,10 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 {{<collapsible title="Qui l'hôpital contacte-t-il s'il a des questions concernant le contenu de l'enquête SpiGes ?">}}
 En cas de questions professionnelles ou techniques concernant SpiGes, l'hôpital s'adresse en premier lieu à son instance cantonale en charge du relevé.
 {{</collapsible>}}

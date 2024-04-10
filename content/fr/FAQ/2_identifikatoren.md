@@ -7,18 +7,14 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
-{{<collapsible title="Die AHVN ist ein Pflichtfeld. Trotzdem wird es Fälle ohne AHV-Nr. geben. Wo ist beschrieben was in diesem Fall in die Variable kommt?">}}
-Genau diese Frage ist noch offen. Im Datensatz steht: «Anmerkung: Bezüglich der Personen, die keine AHV-Nummer haben können, sind noch Abklärungen im Gange (vgl. auch Spalte "Anzugeben für").» Kurzfristig ist angedacht, die Variable in diesem Falle leer zu lassen resp. eine Dummy-Nummer anzugeben. Es gab nun aber starken Widerstand dagegen aus einigen Grenzkantonen, weshalb diese Frage langfristig noch genauer abgeklärt wird.
+{{<collapsible title="Le numéro AVS est un champ obligatoire. Malgré tout, il y aura des cas sans numéro AVS. Où est décrit ce qui doit être mis dans la variable dans ce cas ?">}}
+Précisément cette question est encore ouverte. Dans la description des variables, on peut lire : «Remarque : en ce qui concerne les personnes qui ne peuvent pas avoir de numéro AVS, des clarifications sont encore en cours (voir aussi la colonne "A indiquer pour")». A court terme, il est envisagé de laisser la variable vide dans ce cas ou d'indiquer un numéro fictif. Mais certains cantons frontaliers se sont fortement opposés à cette idée, raison pour laquelle cette question sera encore clarifiée plus en détail à long terme.
 {{</collapsible>}}
 
-{{<collapsible title="Bei der Datenerhebung soll ja die AHVN genutzt werden. Wird die AHVN über die Tarifpartner auch an die Krankenkassen ersichtlich sein werden?">}}
-Bei der Datenübermittlung werden Identifikatoren und Daten separat verschickt. Der Datenkanal ist verschlüsselt. Zur Überprüfung der AHVN wird der «BFS AHVN Validator» eingesetzt. Nachdem die AHVN verschlüsselt worden ist, wird diese auf der gesicherten Identifikatoren Datenbank gespeichert. Während der Bearbeitung der Daten auf der Plattform ist die AHVN somit pseudonymisiert und nicht zusammen mit dem Leistungsdatensatz abgelegt. Die AHVN kann nur verschlüsselt an die Datennut-zer weitergegeben werden. Da diese Datennutzer den Schlüssel nicht kennen, ist für diese die AHVN anonymisiert. Ein Rückschluss auf den Originalwert ist nicht möglich.
+{{<collapsible title="Le numéro AVS doit être utilisé pour la collecte des données. Le numéro AVS sera-t-il également visible pour les caisses maladie via les partenaires tarifaires ?">}}
+Lors de la transmission des données, les identifiants et les données sont envoyés séparément. Le canal de données est crypté. L'OFS utilise un validateur pour vérifier le numéro AVS. Une fois que le numéro AVS a été crypté, il est enregistré dans la base de données sécurisée des identifiants. Pendant le traitement des données sur la plateforme, le numéro AVS est ainsi pseudonymisé et n'est pas stocké avec l'ensemble des données de prestations. Le numéro AVS ne peut être transmis aux utilisateurs de données que sous forme cryptée. Comme ces utilisateurs de données ne connaissent pas la clé, le numéro AVS est anonymisé pour eux. Il n'est pas possible d'en déduire la valeur originale.
 {{</collapsible>}}
 
-{{<collapsible title="Hat der Kanton Zugang zum ID-File der Lieferungen?">}}
-Der Kanton kann während der Erhebung zu Plausibilisierungszwecken Daten exportieren, dabei wird die AHVN pseudonymisiert werden.
+{{<collapsible title="Le canton a-t-il accès au fichier ID des livraisons ?">}}
+Le canton peut exporter des données pendant l'enquête à des fins de plausibilisation, le NAVS sera alors pseudonymisé.
 {{</collapsible>}}

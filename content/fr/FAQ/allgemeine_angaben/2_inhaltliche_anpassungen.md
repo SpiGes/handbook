@@ -49,11 +49,11 @@ Le contenu exact du rapport national de vérification dépend des contrôles qui
 </ul>
 {{</collapsible>}}
 
-{{<collapsible title="11.	Valeurs inversées : Nous avons remarqué que les valeurs de certaines variables sont différentes de celles des statistiques MS. Par exemple, il y a la valeur des signes vitaux. Statistiques sur la MS : 0 = mort-né et 1 = né vivant. Spiges (exactement l'inverse) : 0 = naissance vivante et 1 = mort-né. D'autres exemples seraient la formation scolaire ou l'État civil. De notre point de vue, ce n'est pas optimal et nous aimerions savoir si c'est l'intention et, si oui, pourquoi ? ">}}
+{{<collapsible title="Valeurs inversées : Nous avons remarqué que les valeurs de certaines variables sont différentes de celles des statistiques MS. Par exemple, il y a la valeur des signes vitaux. Statistiques sur la MS : 0 = mort-né et 1 = né vivant. Spiges (exactement l'inverse) : 0 = naissance vivante et 1 = mort-né. D'autres exemples seraient la formation scolaire ou l'État civil. De notre point de vue, ce n'est pas optimal et nous aimerions savoir si c'est l'intention et, si oui, pourquoi ? ">}}
 Dans l'esprit du "once only", nous avons intégré les listes de codes et les métadonnées dans un système OFS, qui sera ensuite publié. Les nouvelles listes de codes correspondent désormais au standard suisse de la plateforme d'interopérabilité i14y.admin.ch, alors qu'auparavant il s'agissait d'une solution spéciale MS.
 {{</collapsible>}}
 
-{{<collapsible title="12.	Valeurs calculées : Dans la liste des variables, il y a quelques lignes qui sont grisées avec la remarque calculées (exemple uid). Cela signifie-t-il que nous les livrons vides dans le XML et que l'OFS les calculera et les inscrira ? Ou est-ce que nous ne fournissons pas ces valeurs et les ignorons ? ">}}
+{{<collapsible title="Valeurs calculées : Dans la liste des variables, il y a quelques lignes qui sont grisées avec la remarque calculées (exemple uid). Cela signifie-t-il que nous les livrons vides dans le XML et que l'OFS les calculera et les inscrira ? Ou est-ce que nous ne fournissons pas ces valeurs et les ignorons ? ">}}
 Comme vous pouvez le constater dans le schéma XML, ces variables calculées ne sont pas incluses. Vous pouvez les ignorer.
 {{</collapsible>}}
 
