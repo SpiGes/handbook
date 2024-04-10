@@ -11,30 +11,30 @@ keywords: []
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
-{{<collapsible title="Wen kontaktiert das Spital, wenn es inhaltliche Fragen betreffend der SpiGes Erhebung hat?">}}
-Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär an seine zuständige kantonale Erhebungsstelle.
+{{<collapsible title="Qui l'hôpital contacte-t-il s'il a des questions concernant le contenu de l'enquête SpiGes ?">}}
+En cas de questions professionnelles ou techniques concernant SpiGes, l'hôpital s'adresse en premier lieu à son instance cantonale en charge du relevé.
 {{</collapsible>}}
 
-{{<collapsible title="Wie sieht die Rolle der Kantone, insbesondere der kantonalen Erhebungspartner, zukünftig aus?">}}
+{{<collapsible title="Quel sera à l'avenir le rôle des cantons, en particulier des partenaires cantonaux de l'enquête ?">}}
 <ul>
-	<li> Die kantonalen Erhebungsstellen wirken bei der BFS Erhebung mit wie bisher (Grundgesamtheit, Koordination und Kommunikation Spital, Mahnwesen usw.). </li>
-	<li> Das zuständige kantonale Gesundheitsamt gibt neu Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG auf der SpiGes Plattform frei. </li>
+	<li> Les services cantonaux chargés de l'enquête collaborent au relevé de l'OFS comme jusqu'à présent (population de base, coordination et communication avec les hôpitaux, rappels, etc.). </li>
+	<li> L'office cantonal de la santé compétent libère désormais fin juillet les données des entreprises hospitalières situées sur son territoire pour une utilisation selon la LAMal sur la plateforme SpiGes. </li>
 </ul>
 {{</collapsible>}}
 
-{{<collapsible title="Es gibt in SpiGes freiwillige Variablen, welche gemäss Vorgabe des Kantons ausgefüllt werden können. Bis wann muss der Kanton den Betrieben bzw. dem BFS mitteilen, welche Variablen ausgefüllt werden sollen. Ist der Kanton hier frei in der Entscheidung, welche freiwilligen Elemente ausgefüllt werden müssen?">}}
-Die Kantone teilen ihren Spitälern die Bereitstellung der freiwilligen Variablen (z. B. op_gln) früh genug mit, damit diese ab den Daten 2024 im Spitalsystem erfasst werden. Der Kanton beschliesst gemäss seinen Vorgaben im Gesundheitsbereich, welche bei diesen Variablen spezifischer als die nationalen Vorgaben sein können.
+{{<collapsible title="Il existe dans SpiGes des variables facultatives qui peuvent être remplies selon les directives du canton. Jusqu'à quand le canton doit-il communiquer aux établissements ou à l'OFS quelles variables doivent être remplies ? Le canton est-il libre de décider quels éléments facultatifs doivent être remplis ?">}}
+Les cantons communiquent à leurs hôpitaux la mise à disposition des variables facultatives (p. ex. op_gln) suffisamment tôt pour que celles-ci soient saisies dans le système d’information de l’hôpital à partir des données 2024. Le canton décide, conformément à ses directives dans le domaine de la santé, lesquelles peuvent être plus spécifiques que les directives nationales pour ces variables.
 {{</collapsible>}}
 
-{{<collapsible title="Die Spitäler wünschen sich eine Informationsveranstaltung, damit sie einen besseren Überblick über die bevorstehenden Anforderungen erhalten. Ist eine solche vom BFS geplant?">}}
-Das BFS hat bereits 4 Infoveranstaltungen für ein breites Publikum durchgeführt, hier haben auch einige Spitäler teilgenommen. H+ hat seine Spitäler jeweils darüber informiert. Da zum jetzigen Zeitpunkt nicht mehr konzeptuelle Fragen, sondern sehr spezifische Themen auftauchen, sieht das BFS einen solchen Grossanlass nicht als das geeignete Instrument an. Das BFS sammelt die eingegangenen Fragen und wird die FAQ auf der SpiGes Webseite hochschalten.
+{{<collapsible title="Les hôpitaux souhaitent qu'une séance d'information soit organisée afin de leur donner une meilleure vue d'ensemble des exigences à venir. Une telle réunion est-elle prévue par l’OFS ?">}}
+L'OFS a déjà organisé 4 séances d'information pour un large public, auxquelles quelques hôpitaux ont également participé. H+ a informé ses hôpitaux à chaque fois. Etant donné qu'à l'heure actuelle, ce ne sont plus des questions conceptuelles qui se posent mais des thèmes très spécifiques, l'OFS ne considère pas qu'une telle manifestation soit l'instrument approprié. L'OFS rassemble les questions reçues et mettra en ligne la FAQ sur le site web de SpiGes.
 {{</collapsible>}}
 
-{{<collapsible title="Können künftig auch die Anforderungen des ANQ mit dem XML-File erfüllt werden?">}}
-Das BFS ist mit dem ANQ in Kontakt, um die SpiGes Variablen und Formate abzugleichen.
+{{<collapsible title="Est-ce que les exigences de l'ANQ pourront également être satisfaites à l'avenir avec le fichier XML ?">}}
+L'OFS est en contact avec l'ANQ afin d'harmoniser les variables et les formats SpiGes.
 {{</collapsible>}}
 
-{{<collapsible title="Können Sie mir die gesetzliche Grundlage nennen, die die Krankenhäuser verpflichtet, die Statistik zu übermitteln?">}}
-Gemäss Art. 23 des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG; SR 832.10), Art. 6 Abs. 4 des Bundesstatistikgesetzes vom 9. Oktober 1992 (BStatG; SR 431.01), Art. 6 Abs. 1 der Verordnung vom 30. Juni 1993 über die Durchführung von statistischen Erhebungen des Bundes (SR 431. 012.1) und den Bestimmungen über die Krankenhausstatistik und der Medizinischen Statistik im Anhang der genannten Verordnung sind alle Krankenhäuser verpflichtet, dem Bundesamt für Statistik die erforderlichen Daten in der vorgeschriebenen Form und innerhalb der festgesetzten Frist zu liefern.
+{{<collapsible title="Est-ce que vous pourriez m’indiquer la base légale qui oblige les hôpitaux à transmettre la statistique ?">}}
+Conformément à l'art. 23 de la loi fédérale du 18 mars 1994 sur l'assurance-maladie (LAMal ; RS 832.10), à l'art. 6 al. 4 de la loi du 9 octobre 1992 sur la statistique fédérale (LSF ; RS 431.01), à l'art. 6 al. 1 de l'ordonnance du 30 juin 1993 concernant l'exécution des relevés statistiques fédéraux (RS 431. 012.1) et aux dispositions relatives à la statistique des hôpitaux et à la statistique médicale annexées à ladite ordonnance, tous les hôpitaux sont tenus de fournir à l'Office fédéral de la statistique les données requises sous la forme prescrite et dans le délai fixé.
 {{</collapsible>}}
 

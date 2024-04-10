@@ -11,49 +11,49 @@ keywords: []
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
 
-{{<collapsible title="Welche Variablen ändern sich mit SpiGes?">}}
+{{<collapsible title="Quelles sont les variables qui changent avec SpiGes ?">}}
 <ul>
-<li> SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
+<li> SpiGes a surtout des répercussions importantes sur le processus de contrôle des données et le format des données de la livraison. En ce qui concerne les données médicales (MS actuel), seuls quelques points changent. Les plus importants pour vous devraient être les suivants :
 <ul>
-<li>	Die Hauptbehandlung wird abgeschafft. </li>
-<li>	Der Zusatz zur Hauptdiagnose wird abgeschafft. </li>
-<li>	Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. </li>
-<li>	Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. </li>
-<li>	Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  </li>
-<li>	Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. </li>
+<li> Le traitement principal est supprimé. </li>
+<li>	Le complément au diagnostic principal est supprimé. </li>
+<li>	Les diagnostics et les traitements peuvent désormais être saisis en nombre illimité. </li>
+<li>	Le temps de prestation chirurgicale est saisi pour les procédures chirurgicales.</li>
+<li>	Le début du traitement doit être saisi avec l'heure (de l'opération dans son ensemble) pour les procédures chirurgicales.   </li>
+<li>	La référence entre plusieurs diagnostics (dague/étoile, point d'exclamation) est désormais saisie avec une variable de référence (diagnose_zusatz) saisi à la place du caractère spécial. </li>
 </ul>
 </li>
 
-<li> Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. </li>
+<li>	La meilleure façon de suivre toutes les modifications apportées à l'ensemble de données ainsi que les détails exacts est de prendre la liste des variables et de filtrer la colonne "Nouveau/Variable MS" pour distinguer les nouvelles variables et les variables adaptées. </li>
 
-<li> Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. </li>
+<li> Les données de facturation et les coûts, respectivement les recettes, sont désormais collectées. </li>
 
-<li> Hier finden Sie den kompletten Datensatz:  <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html </a>
+<li> Vous trouverez ici le jeu de données complet :   <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html </a>
 </li>
 </ul>
 {{</collapsible>}}
 
-{{<collapsible title="Welche Auswirkungen hat SpiGes auf die Kodierrichtlinien?">}}
-Diese Informationen finden Sie im Kodierungshandbuch. Dieses ist unter dem folgenden Link herunterladbar: <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html </a>
+{{<collapsible title="Quel est l'impact de SpiGes sur les directives de codage ?">}}
+Vous trouverez ces informations dans le manuel de codage. Celui-ci peut être téléchargé sous le lien suivant : <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html </a>
 {{</collapsible>}}
 
-{{<collapsible title="Was ist der Inhalt des nationalen Prüfprotokolls?">}}
-Der genaue Inhalt des Prüfprotokolls hängt von den Prüfungen ab, welche aktuell mit einer Arbeitsgruppe mit allen Stakeholdern erarbeitet werden. Im Wesentlichen umfasst das Prüfprotokoll die Prüfungen, welche angeschlagen haben sowie die offiziellen Begründungen zu diesen Prüfungen (ein Auszug aus dem Chat zur Prüfung).
+{{<collapsible title="Quel est le contenu du rapport national de vérification ?">}}
+Le contenu exact du rapport national de vérification dépend des contrôles qui sont actuellement élaborés avec un groupe de travail comprenant toutes les parties prenantes. Pour l'essentiel, le rapport national de vérification comprend les contrôles positifs ainsi que les justifications officielles de ces contrôles (un extrait du chat relatif au contrôle).
 {{</collapsible>}}
 
-{{<collapsible title="Die Pilotspitäler werden bereits im Frühjahr 2024 einen ersten «Datensatz» erstellen können. Andere Kantone stellen die Anforderung, bis September ein erstes XML-Datenfile abzugeben. Werden bei diesen Abgaben Echtdaten aus einem Produktivsystem erwartet, oder reichen Testdaten aus einem Testsystem aus? Anders gefragt: Beginnt die «richtige» Auswertung erst mit dem Jahre 2025, oder will das BFS auch schon Echtdaten aus 2024 auswerten?">}}
+{{<collapsible title="Les hôpitaux pilotes seront en mesure de créer un premier jeu de données dès le printemps 2024. D'autres cantons exigent la remise d'un premier fichier de données XML d'ici septembre. Pour ces remises, attend-on des données réelles d'un système productif ou des données de test d'un système de test suffisent-elles ? En d'autres termes, la vraie analyse ne commencera-t-elle qu'en 2025 ou l'OFS veut-il déjà analyser les données réelles de 2024 ?">}}
 <ul>
-<li>	Für den Pilot im Frühjahr 2024 werden von den Pilotspitälern Echtdaten aus einem Produktivsystem erwartet. Diese werden nur analysiert, um Erkenntnisse über den Pilot zu gewinnen. </li>
-<li>	Per August 2024 müssen alle Spitäler (in allen Kantonen) einen Schnittstellentest durchführen, um zu zeigen, dass die technische Umsetzung der Schnittstelle funktioniert. Dafür genügen Teillieferungen auch aus Testsystemen. </li>
-<li>	Ab dem 1.1. 2025 müssen alle Spitäler Echtdaten des Jahres 2024 aus den Produktivsystemen liefern und diese bis Ende April vollständig prüfen und ggf. begründen. </li>
+<li> Pour le pilote au printemps 2024, on attend des hôpitaux pilotes qu'ils fournissent des données réelles issues d'un système productif. Celles-ci ne seront analysées que dans le but d'acquérir des connaissances sur le pilote.  </li>
+<li> En août 2024, tous les hôpitaux (dans tous les cantons) devront effectuer un test d'interface afin de montrer que la mise en œuvre technique de l'interface fonctionne. Pour cela, des livraisons partielles, même à partir de systèmes de test, suffisent. </li>
+<li> A partir du 1er janvier 2025, tous les hôpitaux devront fournir des données réelles de l'année 2024 issues des systèmes productifs et les vérifier intégralement avant fin avril et les justifier le cas échéant. </li>
 </ul>
 {{</collapsible>}}
 
-{{<collapsible title="Vertauschte Werte: Uns ist aufgefallen, dass bei ein paar Variablen die Werte anders gegenüber der MS-Statistik sind. Als Beispiel gibt es hier den Vitalwert. MS-Statistik: 0 = totgeboren und 1 = lebendgeboren. Spiges (genau andersrum): 0 = Lebendgeburt und 1 = Totgeburt. Andere Beispiele wären hier die Schulbildung oder der Zivilstand. Das ist aus unserer Sicht nicht optimal und wir würden gerne wissen, ob dies beabsichtigt ist, und wenn ja, warum?">}}
-Das ist beabsichtigt. Im Sinne des once only haben wir die Codelisten und Metadaten in ein BFS System integriert, welches dann auch veröffentlicht wird. Die neuen Codelisten entsprechen jetzt dem schweizweiten Standard der Interoperabilitätsplattform i14y.admin.ch, vorher war es eine MS Sonderlösung.
+{{<collapsible title="11.	Valeurs inversées : Nous avons remarqué que les valeurs de certaines variables sont différentes de celles des statistiques MS. Par exemple, il y a la valeur des signes vitaux. Statistiques sur la MS : 0 = mort-né et 1 = né vivant. Spiges (exactement l'inverse) : 0 = naissance vivante et 1 = mort-né. D'autres exemples seraient la formation scolaire ou l'État civil. De notre point de vue, ce n'est pas optimal et nous aimerions savoir si c'est l'intention et, si oui, pourquoi ? ">}}
+Dans l'esprit du "once only", nous avons intégré les listes de codes et les métadonnées dans un système OFS, qui sera ensuite publié. Les nouvelles listes de codes correspondent désormais au standard suisse de la plateforme d'interopérabilité i14y.admin.ch, alors qu'auparavant il s'agissait d'une solution spéciale MS.
 {{</collapsible>}}
 
-{{<collapsible title="Berechnete Werte: In der Variablenliste gibt es einige Zeilen die «ausgegraut» sind mit der Bemerkung «berechnet» (Beispiel uid). Heisst das, wir liefern sie im XML leer mit und das BFS wird diese berechnen und eintragen? Oder liefern wir diese Werte gar nicht mit und ignorieren sie? ">}}
-Wie Sie dem XML Schema entnehmen können, sind diese berechneten Variablen nicht enthalten. Sie können diese ignorieren.
+{{<collapsible title="12.	Valeurs calculées : Dans la liste des variables, il y a quelques lignes qui sont grisées avec la remarque calculées (exemple uid). Cela signifie-t-il que nous les livrons vides dans le XML et que l'OFS les calculera et les inscrira ? Ou est-ce que nous ne fournissons pas ces valeurs et les ignorons ? ">}}
+Comme vous pouvez le constater dans le schéma XML, ces variables calculées ne sont pas incluses. Vous pouvez les ignorer.
 {{</collapsible>}}
 
