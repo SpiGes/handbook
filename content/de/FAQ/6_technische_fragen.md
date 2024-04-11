@@ -7,10 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="technische_fragen">}}
 
 1. Gibt es für den Datenimport in die SpiGes Applikation eine Formatvorlage?

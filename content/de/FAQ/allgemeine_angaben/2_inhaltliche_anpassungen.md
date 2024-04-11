@@ -7,10 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="anpassungen">}}
 
 1. Welche Variablen ändern sich mit SpiGes?

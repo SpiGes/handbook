@@ -7,10 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Rollen">}}
 
 1. Wen kontaktiert das Spital, wenn es inhaltliche Fragen betreffend der SpiGes Erhebung hat? {{<collapsibleBlock groupId="Rollen">}}

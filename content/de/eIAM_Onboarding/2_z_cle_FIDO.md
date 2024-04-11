@@ -6,9 +6,6 @@ keywords: []
 weight: 25
 type: docs
 ---
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
 
 Wenn Sie die Mobile ID nicht verwenden können oder wollen, können Sie auch ein FIDO Passkey als zweiten starken Sicherheitsfaktor verwenden. 
 
