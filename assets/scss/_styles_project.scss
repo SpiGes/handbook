@@ -646,28 +646,6 @@ img.img_full{
     max-width: 950px;
 }
 
-img.centre{
-    text-align: center
-}
-
-.collapsible-content {
-    display: none;
-    padding: 10px;
-    margin-top: 5px;
-    width: 80%;
-}
-
-.collapsible-toggle {
-    background-color: #f0f0f0;
-    padding: 5px 10px;
-    cursor: pointer;
-    border: none;
-    margin-top: 5px;
-    width: 80%;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid #ccc;
-}
 
 @mixin collapsible-button-hover-effect {
     &:hover {
