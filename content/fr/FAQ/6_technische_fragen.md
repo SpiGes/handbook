@@ -1,5 +1,5 @@
 ---
-title: Technische Fragen 
+title: Questions techniques 
 slug: technische_fragen
 description: " "
 weight: 60
@@ -7,31 +7,27 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="technische_fragen">}}
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="technische_fragen">}}
-
-1. Gibt es für den Datenimport in die SpiGes Applikation eine Formatvorlage?
+1. Existe-t-il un modèle de format pour l'importation de données dans l'application SpiGes ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Ja, die Formate im Schnittstellenkonzept sind zu übernehmen.
+Oui, les formats du concept d'interface doivent être repris. 
 {{</collapsibleBlock>}}
 
-2. Wurden die grossen Anbieter von Pat.-Admin-Software (SAP) ebenfalls vom BFS informiert und entwickeln sie bereits Software-Lösungen? Vermutlich sollte das XML-File künftig in der Pat.-Admin-Software erstellt werden.
+2. Les grands fournisseurs de logiciels d’administration des patients (par exemple SAP) ont-ils également été informés par l'OFS et développent-ils déjà des solutions logicielles ? Il est probable que le fichier XML devrait à l'avenir être créé dans le logiciel d’administration des patients.
 {{<collapsibleBlock groupId="technische_fragen">}}
-Im Januar 2023 haben wir ein Informationsveranstaltung Richtung KIS Hersteller (Pat.-Admin-Software) gemacht. SAP war auch repräsentiert. Das BFS informiert diese Gruppe laufend über den Stand von SpiGes.
+En janvier 2023, nous avons organisé une réunion d'information à l’intention des fabricants de systèmes d’information clinique (logiciels d'administration des patients). SAP y était également représenté. L'OFS informe régulièrement ce groupe de l'état d'avancement de SpiGes.
 {{</collapsibleBlock>}}
 
-3. Gemäss Variablenliste 1.3 gibt es folgende Tabellen:
+3.	Selon la liste de variables 1.3, il existe les tableaux suivants 
 <table>
   <tr>
     <td> 1 </td>
-    <td> Administratives </td>
+    <td> Administratif </td>
   </tr>
   <tr>
     <td> 2 </td>
-    <td> Neugeborene </td>
+    <td> Nouveau-nés </td>
   </tr>
   <tr>
     <td> 3 </td>
@@ -39,116 +35,115 @@ Im Januar 2023 haben wir ein Informationsveranstaltung Richtung KIS Hersteller (
   </tr>
   <tr>
     <td> 4 </td>
-    <td> KTR </td>
+    <td> CUFI </td>
   </tr>
   <tr>
     <td> 5 </td>
-    <td> Diagnosen </td>
+    <td> Diagnostics </td>
   </tr>
   <tr>
     <td> 6 </td>
-    <td> Behandlungen </td>
+    <td> Traitements </td>
   </tr>
   <tr>
     <td> 7 </td>
-    <td> Operierende </td>
+    <td> Médecins pratiquant les opérations </td>
   </tr>
   <tr>
     <td> 8 </td>
-    <td> Medikamente </td>
+    <td> Médicaments </td>
   </tr>
   <tr>
     <td> 9 </td>
-    <td> Rechnungen </td>
+    <td> Factures </td>
   </tr>
   <tr>
     <td> 10 </td>
-    <td> Patientenbewegung </td>
+    <td> Mouvement des patients </td>
   </tr>
   <tr>
     <td> 11 </td>
-    <td> Kantonsdaten </td>
+    <td> Données cantonales </td>
   </tr>
   <tr>
     <td> 12 </td>
-    <td> Personenidentifikator </td>
+    <td> Identificateurs des personnes </td>
   </tr>
 </table>
-Kann man unter SpiGes diese Tabellen alle als einzelnes xml-File abgeben?
+Est-il possible de livrer ces tableaux sous forme de fichiers xml individuels à la plateforme SpiGes ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Die Tabelle 12 Personenidentifikatoren muss in einem separaten File geliefert werden (aus Datenschutzgründen). Für die restlichen Tabellen ist ein anderes File definiert, welches aber Teillieferungen unterstützt. Theoretisch ist es also möglich, alle Tabellen in einem einzelnen XML-File als Teillieferungen zu liefern. Wir empfehlen dies jedoch nicht, da dies eine aufwändige Abstimmung der verschiedenen Tabellen erfordert (Sicherstellen, dass die Informationen zu allen Fällen in allen Files vorhanden sind).  Genauere Informationen zu diesem Thema finden Sie in der Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform auf unserer Webseite <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html </a>
+Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre site web.  <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a>
 {{</collapsibleBlock>}}
 
-4. Gibt es eine Möglichkeit für kleine Betriebe aus einem Excel (in der die KTR eingetragen ist) ein XML-File herzustellen. Gibt es ein Anbieter, der dies plant umzusetzen?
+4. Existe-t-il une possibilité pour les petits établissements de créer un fichier XML à partir d'un fichier Excel (dans lequel la CUFI est saisie). Existe-t-il un fournisseur qui prévoit de le faire ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Diese Möglichkeit wird zurzeit vom BFS geprüft.
+Cette possibilité est actuellement examinée par l'OFS.
 {{</collapsibleBlock>}}
 
-5. Ist geplant eine Excel für die fallunabhängigen Kosten zur Verfügung zu stellen, in welchem der Betrieb die fallunabhängigen Kosten im Excel-Format ausfüllen kann und dann als XML-Format exportieren kann? 
+5. Est-il prévu de mettre à disposition un Excel pour les coûts non reliés à un cas, dans lequel établissement peut remplir les coûts non reliés à un cas en format Excel et les exporter ensuite en format XML ? 
 {{<collapsibleBlock groupId="technische_fragen">}}
-Die separate Lieferung von verschiedenen Arten von XML-Elementen ist möglich. D.h. die fallunabhängigen Kostenträger können grundsätzlich in einem anderen File als die fallabhängigen Kostenträger geliefert werden. Ob wir ein Tool für die Transformation der Daten aus einem Excel-File bereitstellen können, müssen wir noch abklären.
+La livraison séparée de différents types d'éléments XML est possible. C'est-à-dire que les unités finales d’imputation non reliées à un cas peuvent en principe être livrées dans un autre fichier que les unités finales d’imputation reliées à un cas. Nous devons encore déterminer si nous pouvons mettre à disposition un outil pour la transformation des données à partir d'un fichier Excel. 
 {{</collapsibleBlock>}}
 
-6. Hat das SpiGes Exportfile die gleiche Struktur wie das File, welches die Spitäler in SpiGes importieren?
+6. Le fichier d'exportation SpiGes a-t-il la même structure que le fichier que les hôpitaux importent dans SpiGes ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Es wird mehrere Exportfiles geben. Einerseits wird man das XML-File, was die Spitäler importieren, auch exportieren können und andererseits wird ein Export in einem flachen Format (mehrere CSV-Dateien) möglich sein.
+Il y aura plusieurs fichiers d'exportation. D'une part, il sera possible d'exporter le fichier XML que les hôpitaux importent, et d'autre part, il sera possible d'exporter dans un format plat (plusieurs fichiers CSV).
 {{</collapsibleBlock>}}
 
-7. Spielt im XML-Format die Reihenfolge der Variablen innerhalb einer Zeile eine Rolle?
+7. Dans le format XML, l'ordre des variables au sein d'une ligne joue-t-il un rôle ?
 {{<collapsibleBlock groupId="technische_fragen">}}
 <ul>
-<li> Die Reihenfolge der Elemente ist vorgegeben und nicht veränderbar. Elemente können höchstens weggelassen werden. Also für das Fall-Element sind die Unterelemente immer in der Reihenfolge «Administratives», «Neugeborene», «Psychiatrie», «KostenträgerFall», «Diagnose», «Behandlung», «Medikament», «Rechnung», «Patientenbewegung» und «Kantonsdaten» anzugeben. </li>
-<li> Die Reihenfolge der Attribute ist hingegen frei wählbar. So kann z.B. im Element «Administratives» sowohl «…geschlecht="2" alter="37"…» als auch «…alter="37" geschlecht="2"…» angegeben werden. </li>
+<li> L'ordre des éléments est prédéfini et ne peut pas être modifié. Les éléments peuvent tout au plus être omis. Ainsi, pour l'élément «cas», les sous-éléments doivent toujours être indiqués dans l'ordre suivant : «administratif», «nouveau-nés», «psychiatrie», «CUFI cas», «diagnostics», «traitements», «médicaments», «facture», «mouvement des patients» et «données cantonales».  </li>
+<li> L'ordre des attributs peut en revanche être choisi librement. Ainsi, par exemple, dans l'élément «administratif», il est possible d'indiquer aussi bien «...sexe="2" âge="37"...» que «...âge="37" sexe="2"...». </li>
 </ul>
 {{</collapsibleBlock>}}
 
-8. Können auch Variablen innerhalb einer Zeile fehlen, falls die Klinik in dieser Zeile nichts zu der entsprechenden Variable auszufüllen hat? Oder müssen immer alle Variablen der Schnittstelle in jeder Zeile stehen?
+8. Des variables peuvent-elles également manquer sur une ligne si la clinique n'a rien à remplir sur cette ligne pour la variable correspondante ? Ou toutes les variables de l'interface doivent-elles toujours figurer sur chaque ligne ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Ja, Variablen können fehlen. Gewisse Variablen müssen aber zwingend angegeben werden. Diese sind im XSD-Definitionsfile als «required» gekennzeichnet («xs:attribute name="fall_id" use="required"»). In der Variablenliste werden wir diese Information auch noch ergänzen.
+Oui, les variables peuvent être manquantes. Certaines variables doivent cependant être obligatoirement indiquées. Elles sont marquées comme «required» dans le fichier de définition XSD («xs:attribute name="fall_id" use="required"»). Nous ajouterons également cette information dans la liste des variables.
 {{</collapsibleBlock>}}
 
-9. Können die Variablen, welche keinen Inhalt haben, auch mit einem NULLWERT geliefert werden (zum Beispiel vollständige KTR-Zeilen mit NULLEN in den Variablen wo nichts vorhanden ist)? 
+9. Les variables qui n'ont pas de contenu peuvent-elles être fournies avec une valeur NULL (p. ex. des lignes KTR complètes avec des NULL dans les variables où il n'y a rien) ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Das kommt auf die Variablen an. Bei den KTR-Variablen ist es möglich, alle Variablen mit dem Wert «0» zu erfassen. Leere Variablen («») oder Nullwerte («NULL») sind jedoch nicht zulässig. Falls Sie das konkret überprüfen möchten, können Sie ihr XML-File gegen die XSD-Definition validieren. Dazu gibt es online gratis Tools. Bitte beachten Sie dabei, dass keine echten Daten auf solche Plattformen hochgeladen werden dürfen. Fiktive Beispiel-Files können sie aber so überprüfen. Auch die SpiGes Plattform wird eine solche Validierung bereitstellen. 
+Cela dépend des variables. Pour les variables KTR, il est possible de saisir toutes les variables avec la valeur "0". Les variables vides ("") ou les valeurs nulles ("NULL") ne sont toutefois pas autorisées. Si vous souhaitez le vérifier concrètement, vous pouvez valider votre fichier XML par rapport à la définition XSD. Il existe pour cela des outils gratuits en ligne. Veuillez noter qu'aucune donnée réelle ne peut être téléchargée sur de telles plateformes. Vous pouvez toutefois vérifier des exemples de fichiers fictifs. La plateforme SpiGes proposera également une telle validation. 
 {{</collapsibleBlock>}}
 
-10. Wird es eine Plausibilisierungssoftware analog Medplaus geben, die vor dem Upload lokal innerhalb der Spitäler eingesetzt werden kann?
+10. Un logiciel de plausibilité analogue à Medplaus sera-t-il disponible, qui pourra être utilisé localement au sein des hôpitaux avant le téléchargement ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Es wird ein Prüftool via API (Application Programming Interfaces) zur Verfügung gestellt werden. Dies wird jedoch erst im Laufe des kommenden Jahres bereitstehen. Bis dahin empfehlen wir MedPlaus weiter zu verwenden. Davon wird es auch eine Version für das Jahr 2024 geben.
+Un outil de contrôle sera mis à disposition via API (Application Programming Interfaces). Il ne sera toutefois disponible que dans le courant de l'année prochaine. D'ici là, nous recommandons de continuer à utiliser MedPlaus. Il y aura également une version pour l'année 2024.
 {{</collapsibleBlock>}}
 
-11. Ist schon bekannt, wie das Vorgehen in Bezug auf die kantonalen Zusatzdaten sein wird? Verschiedene Kantone (z.B. LU, GR, VS und VD) haben ja bereits heute eine MK-Zeile. Zudem erheben die Kantone ZH und BE im Rahmen von SDEP ebenfalls zusätzliche Daten. Wissen Sie bereits, ob diese Daten in den Export SpiGes integriert werden oder ob diese separat exportiert werden müssen?
+11. Sait-on déjà quelle sera la procédure concernant les données supplémentaires cantonales ? Plusieurs cantons (par ex. LU, GR, VS et VD) disposent déjà d'une ligne MK. En outre, les cantons de ZH et BE collectent également des données supplémentaires dans le cadre du SDEP. Savez-vous déjà si ces données seront intégrées dans l'exportation SpiGes ou si elles devront être exportées séparément ?
 {{<collapsibleBlock groupId="technische_fragen">}}
 <ul>
-<li> Die kantonalen Zusatzdaten wurden in der Schnittstelle berücksichtigt; siehe Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform 1.3:
-Stationäre Spitalaufenthalte: <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html"> Mehrfachnutzung der Daten (Projekt SpiGes) </a> </li>
-<li> Die kantonalen Zusatzdaten können zwar im XML angegeben werden, werden beim Import auf die SpiGes Plattform jedoch nicht weiterverarbeitet. Sie werden von den Kantonen separat plausibilisiert und bearbeitet. </li>
-<li> Exportierbar sind die Kantonsdaten nur durch das Spital selbst und durch den Kanton. Voraussichtlich sind die Kantonsdaten für diese User im selben XML-File enthalten, wie die restlichen Daten. </li>
+<li> Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3: <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a> </li>
+<li> Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons. </li>
+<li> Les données cantonales ne peuvent être exportées que par l'hôpital lui-même et par le canton. Il est probable que les données cantonales pour ces utilisateurs soient contenues dans le même fichier XML que les autres données.</li>
 </ul> 
 {{</collapsibleBlock>}}
 
-12. Wird es möglich sein, Korrekturen direkt auf der Plattform vorzunehmen?
+12. Est-ce qu’il sera possible d’effectuer des corrections directement sur la plateforme ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Nein, die Plattform bietet keine Möglichkeit, Daten einzugeben oder zu korrigieren. Ziel ist es, die Fehler an der Quelle, d.h. in den Systemen der Krankenhäuser, zu korrigieren, damit die späteren Exporte konsistent sind und die Fehler in den nächsten Erhebungen nicht mehr auftauchen.
+Non, la plateforme n'offre pas la possibilité de saisir ou de corriger des données. L'objectif est de corriger les erreurs à la source, c'est-à-dire dans les systèmes des hôpitaux, afin que les exportations ultérieures soient cohérentes et que les erreurs n'apparaissent plus dans les prochains relevés.
 {{</collapsibleBlock>}}
 
-13. Neue Formate: Es gibt neue Formate. Beispielweise bei rech_betrag. Das Format lautet N10.2 Wir vermuten, es handelt sich hierbei um die Angabe von Dezimalstellen. In diesem Fall 2 Dezimalstellen und eine Gesamtlänge von 12. Ist dies korrekt?
+13. De nouveaux formats sont disponibles : Il existe de nouveaux formats. Par exemple, pour rech_betrag. Le format est N10.2 Nous supposons qu'il s'agit de l'indication des décimales. Dans ce cas, 2 décimales et une longueur totale de 12. Est-ce correct ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Nicht ganz. N10.2 bezeichnet eine Zahl mit insgesamt 10 Stellen, davon 2 Nachkommastellen (und ergo max. 8 Vorkommastellen).
+N10.2 désigne un nombre de 10 chiffres au total, dont 2 chiffres après la virgule (et donc 8 chiffres avant la virgule au maximum).
 {{</collapsibleBlock>}}
 
-14. Neue Variablen medi_id und rech_id: Aus der Beschreibung sind wir uns nicht sicher, ob hier laufende Nummern oder tatsächliche ID aus dem System gemeint sind. Wenn ja, welche? Bei der medi_id dachten wir sofort an den ATC_Code, jedoch gibt es hierfür eine extra Variable.
+14. Nouvelles variables medi_id et rech_id : d'après la description, nous ne savons pas s'il s'agit de numéros d'ordre ou d'ID réels du système. Si oui, lesquelles ? En ce qui concerne medi_id, nous avons tout de suite pensé au code ATC_, mais il existe une variable supplémentaire pour cela. 
 {{<collapsibleBlock groupId="technische_fragen">}}
 <ul>
-<li> Es handelt sich bei de beiden neuen Variablen «medi_id» und «rech_id» um Identifikatoren, die zur eindeutigen Zuordnung aus technischen Gründen nötig. Diese müssen nicht zwingend mit 1 beginnen, sie müssen aber für jeden Fall eindeutig sein. </li>
-<li> In der XML-Musterdatei 1.3, welche Sie auf unserer Homepage vorfinden, ist auch ein Beispiel enthalten. medi_id="1" enthält die Information, dass es sich um das erste hochteure Medikament gemäss den Vorgaben der SwissDRG AG für diesen spezifischen Fall handelt. 
+<li> Il s'agit, pour les deux nouvelles variables "medi_id" et "rech_id", d'identifiants qui sont nécessaires pour des raisons techniques afin d'assurer une attribution claire. Ceux-ci ne doivent pas obligatoirement commencer par 1, mais ils doivent être uniques pour chaque cas. </li>
+<li> Le fichier modèle XML 1.3, que vous trouverez sur notre site , contient également un exemple. medi_id ="1" contient l'information selon laquelle il s'agit du premier médicament hautement coûteux selon les directives de SwissDRG SA pour ce cas spécifique. 
 {{<insertImage image="Image5.png" class="bord taille">}}
 </li>
 </ul>
 {{</collapsibleBlock>}}
 
-15. In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es zwei Felder für die Version. Diese Versionen stimmen aber nicht überein. So wird im Header die Version 1.0 angegeben und beim Tag Unternehmen die Version 1.3. Warum sind die Versionsnummern unterschiedlich? Woher wissen wir wann welche Versionsnummer anzugeben ist?
+15.	Dans les fichiers d'exemple pour le fichier des identificateurs et le fichier des données, il y a deux champs pour la version. Or, ces versions ne correspondent pas. Ainsi, la version 1.0 est indiquée dans l'en-tête et la version 1.3 dans le tag Entreprise. Pourquoi les numéros de version sont-ils différents ? Comment savoir quand indiquer quel numéro de version ?
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<insertImage image="Image6.jpg" class="bord taille">}}
-«?xml version=“1.0″» steht immer so. Die oberste Version bezieht sich also auf das «XML» selbst, und die untere auf das spezifische SpiGes XML.
+"?xml version="1.0″" se trouve toujours ainsi . La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
 {{</collapsibleBlock>}}

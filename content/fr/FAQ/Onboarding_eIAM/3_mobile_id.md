@@ -7,24 +7,24 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="mobile_id">}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="mobile_id">}}
 
-1. Ich habe keine SIM-Karte, die neu genug ist, um die Mobile ID zu nutzen, was kann ich tun?
+1. Je n'ai pas de carte SIM suffisamment récente pour utiliser le Mobile ID, que puis-je faire ?
 {{<collapsibleBlock groupId="mobile_id">}}
-Sie können bei Ihrem Telefonanbieter eine SIM-Karte der neuesten Generation bestellen. Sie können auch einen FIDO-Schlüssel als zweiten Sicherheitsfaktor verwenden. 
+Vous pouvez commander une carte SIM de dernière génération auprès de votre opérateur téléphonique. Vous pouvez également utiliser une clé FIDO comme deuxième facteur de sécurité. 
 {{</collapsibleBlock>}}
 
-2. Was tun Sie, wenn das mit der Mobile ID verbundene Mobiltelefon gestohlen wird/verloren geht?
+2. Que faire en cas de vol/perte du téléphone portable associé à la Mobile ID ?
 {{<collapsibleBlock groupId="mobile_id">}}
-Lassen Sie Ihre SIM-Karte von Ihrem Mobilfunkanbieter sperren. Dadurch wird Ihre Mobile ID automatisch gesperrt. Sobald Sie eine neue SIM-Karte haben, können Sie Ihre Mobile ID bei Ihrem Netzbetreiber mithilfe des Reaktivierungscodes, den Sie bei der Aktivierung Ihrer Mobile ID erhalten haben, erneut aktivieren. 
+Faites bloquer votre carte SIM par votre opérateur de téléphonie mobile. Cela bloquera automatiquement votre Mobile ID. Dès que vous avez une nouvelle carte SIM, vous pouvez réactiver votre Mobile ID auprès de votre opérateur à l'aide du code de réactivation que vous avez reçu lors de l'activation de votre Mobile ID. 
 {{</collapsibleBlock>}}
 
-3. Kann ich die Mobile ID-Anwendung anstelle der Aktivierung mit der SIM-Karte verwenden?
+3. Puis-je utiliser l'application Mobile ID au lieu de l'activer avec la carte SIM ?
 {{<collapsibleBlock groupId="mobile_id">}}
-Nein. Die Mobile ID-Anwendung wird nicht als zweiter starker Sicherheitsfaktor für Ihr CH-LOGIN akzeptiert. 
+Non. L'application Mobile ID n'est pas acceptée comme deuxième facteur de sécurité fort pour votre CH-LOGIN. 
 {{</collapsibleBlock>}}
 
-4. Ich habe bereits eine aktive Mobile ID, was muss ich tun?
+4. J'ai déjà un Mobile ID actif, que dois-je faire ?
 {{<collapsibleBlock groupId="mobile_id">}}
-Sie können einfach überprüfen, ob Ihre Mobile ID aktiv ist, indem Sie sie auf der Mobile ID-Website testen. Danach können Sie die Schritte befolgen, um sie als zweiten starken Sicherheitsfaktor zu Ihrem CH-LOGIN hinzuzufügen.
+Vous pouvez facilement vérifier si votre Mobile ID est actif en le testant sur le site Web Mobile ID. Ensuite, vous pouvez suivre les étapes pour l'ajouter à votre CH-LOGIN comme deuxième facteur de sécurité fort.
 {{</collapsibleBlock>}}

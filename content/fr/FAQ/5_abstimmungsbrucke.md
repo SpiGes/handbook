@@ -1,5 +1,5 @@
 ---
-title: Abstimmungsbrücke 
+title: Passerelle d’ajustement  
 slug: abstimmungsbrucke
 description: " "
 weight: 50
@@ -7,68 +7,68 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
-
-1. Aus SDEP ist mir die Abgrenzungsrechnung bekannt. Wird es diese in SpiGes auch geben oder nur gemäss ITAR_K?
+1. Je connais la comptabilité des ajustements dans SDEP. Est-ce qu'elle existera aussi dans SpiGes ou seulement selon ITAR_K® ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-SpiGes nutzt die Abstimmbrücke der GDK / von REKOLE.
+SpiGes utilise la passerelle d’ajustement de la CDS / de REKOLE®.
 {{</collapsibleBlock>}}
 
-2. Wo im BFS werden die Begründungen zu den Abgrenzungen integriert? Bzw wie muss ich mir das vorstellen?
+2. Où les justifications des délimitations sont-elles intégrées dans l'OFS ? Ou comment dois-je comprendre cela ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-Die Begründungen werden als Prüfungen in SpiGes erfasst. D.h. wenn ein Betrag von FiBu und BeBu nicht übereinstimmt, muss die Differenz begründet werden. Diese Begründungen werden dann auch weiterverwendet, z.B. für das Prüfprotokoll und für ITAR_K oder auch für die GDK Abstimmbrücke.
+Les justifications sont saisies en tant que contrôles dans SpiGes. Cela signifie que si un montant de la comptabilité financière et de la comptabilité analytique ne concorde pas, la différence doit être justifiée. Ces justifications sont ensuite utilisées, par exemple pour le rapport national de vérification et pour ITAR_K®, ou encore pour la passerelle d’ajustement de la CDS.
 {{</collapsibleBlock>}}
 
-3. Wo werden die Kosten der Überlieger in der Abstimmungsbrücke berücksichtigt? 
+3. Où sont pris en compte les coûts des séjours à cheval dans la passerelle d’ajustement ?  
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-In der Kostenträgerrechnung von SpiGes lassen sich die Kosten der übers Jahr ausgetretenen Patienten (A Fälle) berechnen. Diese können bereits im Vorjahr ins Spital eingetreten sein und Kosten verursacht haben. In der Finanzbuchhaltung wird der Aufwand pro Jahr (Zeitrechnung) eingegeben. Die daraus entstehende Differenz wird in der Abstimmungsbrücke von SpiGes korrigiert.
+Dans la comptabilité par unité finale d'imputation de SpiGes, il est possible de calculer les coûts des patients sortis au cours de l'année (cas A). Ces coûts seront donc calculés par l’OFS. Ceux-ci peuvent déjà être entrés à l'hôpital l'année précédente et avoir généré des coûts. Dans la comptabilité financière, les charges sont saisies par année (calcul périodique). La différence qui en résulte est corrigée dans la passerelle d’ajustement de SpiGes.
 {{</collapsibleBlock>}}
 
-4. Für 2024 (Daten 2023) hat die SwissDRG AG die Details der Anlagenutzungskosten der Fälle nach VKL angefordert. In SpiGes ermöglichen es die Variablen "_ank", die Details der Anlagenutzungskosten der Fälle nach REKOLE zu senden. Da dieses Detail nun für SwissDRG AG benötigt wird, sollte man in SpiGes die "_ank"-Variablen nicht auch für die VKL-Ergebnisse vorsehen? 
+4. Pour 2024 (données 2023), SwissDRG a demandé le détail des coûts d’utilisation des immobilisations des cas selon OCP. Dans SpiGes, les variables "_ank" permettent d’envoyer le détail des coûts d’utilisation des immobilisations des cas selon REKOLE®.
+Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoir dans SpiGes les variables "_ank" pour les résultats OCP également ? 
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 <ul>
-<li>	Es handelt sich hierbei lediglich um eine Testerhebung der SwissDRG AG. Sollte der definitive Wechsel zu VKL erfolgen, würden die Anlagenutzungskosten pro Kostenstelle in SpiGes nach VKL statt nach REKOLE erhoben werden und die REKOLE-Anlagenutzungskosten als Summe. </li>
+<li> Il ne s'agit que d'un relevé test de SwissDRG SA. Si le passage définitif à OCP devait avoir lieu, les coûts d'utilisation des immobilisations par centre de charges dans SpiGes seraient livrés selon OCP au lieu de REKOLE® et les coûts d'utilisation des immobilisations REKOLE® seraient relevés sous forme de somme. </li>
 
-<li>	Zusammengefasst sind die Anlagenutzungskosten nach folgenden Methoden abzubilden:
+<li> En résumé, les coûts d’utilisation des immobilisations doivent être représentés selon les méthodes suivantes :
 <table style="width:100%">
   <tr>
-    <th style="width:65%"> Variablen </div></th>
-    <th> ANK-Methodik </th>
+    <th style="width:65%"> Variables </div></th>
+    <th> Méthodologie CUI </th>
   </tr>
   <tr>
-    <td> KTR-Variablen «ktr_10_ank» bis «ktr_77_ank» </td>
-    <td> REKOLE </td>
+    <td> Variables «ktr_10_ank» jusqu’à «ktr_77_ank» </td>
+    <td> REKOLE® </td>
   </tr>
   <tr>
-    <td> KTR-Variable «ktr_44_vkl» </td>
-    <td> VKL </td>
+    <td> Variable «ktr_44_vkl» </td>
+    <td> OCP </td>
   </tr>
   <tr>
-    <td> KS FiBu: SA6, insbesondere Var. A.15.06 bis A.15.06.05 </td>
-    <td> VKL </td>
+    <td> KS FiBu: SA6, en particulier Var. A.15.06 jusqu’à A.15.06.05
+ </td>
+    <td> OCP </td>
   </tr>
   <tr>
-    <td> KS Abstimmbrücke: SA81-84 </td>
-    <td> VKL </td>
+    <td> KS Passerelle d’ajustement : SA81-84
+ </td>
+    <td> OCP </td>
   </tr>
   <tr>
-    <td> KS Abstimmbrücke: SA85, Var. A.17.22.25 bis A.17.24.28 </td>
-    <td> REKOLE </td>
+    <td> KS Passerelle d’ajustement : SA85, Var. A.17.22.25 jusqu’à A.17.24.28
+ </td>
+    <td> REKOLE® </td>
   </tr>
 </table>
 </li>
 </ul>
 {{</collapsibleBlock>}}
 
-5. Das Konto 441 wird weder von VKL noch von REKOLE in die Berechnung der Anlagenutzungskosten einbezogen. Können Sie das bestätigen?
+5. Le compte 441 ne rentre dans aucun calcul des coûts d’utilisation des immobilisations, ni selon OCP, ni selon REKOLE®. Pouvez-vous confirmer cela ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-Die Anlagenutzungskosten (nach REKOLE® und OCP) entsprechen folgenden Kostenarten: <br />
-- 442 Abschreibungen <br />
-- 444 Übrige Mietzinse (inkl. operatives Leasing) <br />
-- 448 Kalkulatorische Verzinsung des Anlagevermögens <br />
-Weitere Informationen sind im REKOLE®-Handbuch (Kapitel 6.5.3) zu finden.
+Les coûts d’utilisation des immobilisations (selon REKOLE® et OCP) correspondent aux charges par nature suivante : <br />
+- 442 Amortissements <br />
+- 444 Autres loyers (y compris leasing opérationnel) <br />
+- 448 Charges des intérêts calculés sur les actifs immobilisés <br />
+De plus amples informations sont disponibles dans le manuel REKOLE® (chapitre 6.5.3).
 {{</collapsibleBlock>}}

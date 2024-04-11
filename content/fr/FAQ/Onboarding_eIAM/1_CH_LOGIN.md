@@ -7,29 +7,29 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="CH_LOGIN">}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="CH_LOGIN">}}
 
-1. Was ist ein zweiter Identifikationsfaktor?
+1. Qu'est-ce qu'un deuxième facteur d'identification ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Der Begriff zweiter Identifikationsfaktor bezieht sich auf das Sicherheitsmerkmal, das Sie zusätzlich zum ersten Identifikationsfaktor, der Ihr CH-LOGIN-Passwort ist, eingeben müssen.
+Le terme deuxième facteur d'identification fait référence à la caractéristique de sécurité que vous devez saisir en plus du premier facteur d'identification, qui est votre mot de passe CH-LOGIN.
 {{</collapsibleBlock>}}
 
-2. Ist es möglich, nur ein CH-LOGIN für das Unternehmen/den Standort zu haben?
+2. Est-il possible d'avoir un seul CH-LOGIN pour l'entreprise/le site ? 
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Nein, die CH-LOGIN ist persönlich. Da Ihre Identität verifiziert werden muss, um auf die SpiGes-Plattform zugreifen zu können, ist es daher unerlässlich, dass Ihr Konto persönlich ist. 
+Non, le CH-LOGIN est personnel. Comme votre identité doit être vérifiée pour pouvoir accéder à la plateforme SpiGes, il est donc indispensable que votre compte soit personnel.
 {{</collapsibleBlock>}}
 
-3. Es gibt einen Wechsel des Mitarbeiters/der Mitarbeiterin im Unternehmen/am Standort, ist es möglich, das CH-LOGIN auf den neuen Mitarbeiter/die neue Mitarbeiterin zu übertragen?
+3. Il y a un changement de collaborateur/collaboratrice dans l'entreprise/le site, est-il possible de transférer le CH-LOGIN au nouveau collaborateur/à la nouvelle collaboratrice ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Nein, das CH-LOGIN ist persönlich. Da Ihre Identität verifiziert werden muss, um auf die SpiGes-Plattform zugreifen zu können, ist es daher unerlässlich, dass Ihr Konto persönlich ist. 
+Non, le CH-LOGIN est personnel. Comme votre identité doit être vérifiée pour pouvoir accéder à la plateforme SpiGes, il est donc indispensable que votre compte soit personnel. 
 {{</collapsibleBlock>}}
 
-4. Ich habe bereits ein CH-LOGIN, muss ich ein neues erstellen?
+4. J'ai déjà un CH-LOGIN, dois-je en créer un nouveau ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Nein, Sie können Ihr CH-LOGIN verwenden. Sie müssen allerdings einen zweiten starken Faktor einrichten und dort die Videoidentifikation durchführen, falls dies auf Ihrem CH-LOGIN noch nicht geschehen ist. 
+Non, vous pouvez utiliser votre CH-LOGIN. Vous devez toutefois mettre en place un deuxième facteur fort et y effectuer l'identification vidéo si cela n'a pas encore été fait sur votre CH-LOGIN.
 {{</collapsibleBlock>}}
 
-5. Ist die Verbindung mit AGOV für die SpiGes-Anwendung möglich?
+5. Est-il possible de se connecter à AGOV pour l'application SpiGes ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Nein, im Moment nicht.
+Non, pas pour le moment.
 {{</collapsibleBlock>}}

@@ -1,5 +1,5 @@
 ---
-title: Zugang zur SpiGes-Plattform 
+title: Accès à la plateforme SpiGes
 slug: zugang 
 description: " "
 weight: 40
@@ -7,24 +7,24 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="zugang">}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="zugang">}}
 
-1. Läuft der Onboarding-Code nach einer bestimmten Zeit ab? Wenn ja, was soll ich tun, wenn ich mich nicht rechtzeitig anmelden konnte? 
+1. Le code d'embarquement expire-t-il après un certain temps ? Si oui, que dois-je faire si je n'ai pas pu m'inscrire à temps ? 
 {{<collapsibleBlock groupId="zugang">}}
-Der Onboarding-Code läuft nach einem Monat ab. Wenn Sie nach dieser Frist noch keine Zeit für das Onboarding hatten, wenden Sie sich bitte an Ihren KT_SuperUser, damit er Ihnen einen Code zurückschickt. 
+Demandez à la personne compétente de votre canton afin qu'elle puisse vous renvoyer un e-mail d’onboarding.
 {{</collapsibleBlock>}}
 
-2. Was muss ich tun, wenn ich nicht mehr im Krankenhaus arbeite? Kann ich mein Profil löschen?
+2. Que dois-je faire si je ne travaille plus à l'hôpital ? Puis-je supprimer mon profil ?
 {{<collapsibleBlock groupId="zugang">}}
-Wenn Sie aufgrund eines Mitarbeiterwechsels keinen Zugang zur SpiGes-Plattform mehr benötigen oder eine Änderung der Rolle/des Zugangs notwendig ist, müssen Sie sich zwingend bei der zuständigen Person in Ihrem Kanton melden, damit diese Ihnen die Zugänge zur SpiGes-Plattform entziehen kann. Ihr CH-LOGIN-Konto und der zweite verifizierte starke Faktor sind persönlich, können für andere Anwendungen der Bundesverwaltung verwendet werden und müssen nicht gelöscht werden.
+Si, suite à un changement de collaborateur, vous n'avez plus besoin d'accéder à la plateforme SpiGes ou si un changement de rôle/d'accès est nécessaire, vous devez impérativement vous annoncer à la personne compétente de votre canton afin qu'elle puisse vous retirer vos accès à la plateforme SpiGes. Votre compte CH-LOGIN et le deuxième facteur fort vérifié sont personnels, peuvent être utilisés pour d'autres applications de l'administration fédérale et ne sont pas supprimés.
 {{</collapsibleBlock>}}
 
-3. An wen kann ich mich wenden, wenn mein Login nicht funktioniert?
+3. À qui puis-je m'adresser si mon login ne fonctionne pas ?
 {{<collapsibleBlock groupId="zugang">}}
-Ihr erster Ansprechpartner ist immer der Verantwortliche Ihres Kantons. Wenn Sie gemeinsam keine Lösung für Ihr Problem finden, können Sie sich anschliessend an das BFS wenden.
+Votre premier interlocuteur est toujours le responsable de votre canton. Si vous ne trouvez pas ensemble de solution à votre problème, vous pouvez ensuite vous adresser à l'OFS.
 {{</collapsibleBlock>}}
 
-4. Ich habe einen anderen Kontotyp der Bundesverwaltung, kann dieser verwendet werden? 
+4. J'ai un autre type de compte de l'administration fédérale, peut-il être utilisé ?  
 {{<collapsibleBlock groupId="zugang">}}
-Nein, es wird leider nicht möglich sein, andere elektronische Identitäten als die dargestellte zu verwenden. Dies liegt daran, dass andere elektronische Identitäten keine ausreichende Authentifizierungsqualität für die Nutzung von SpiGes aufweisen.
+Non, il ne sera malheureusement pas possible d'utiliser d'autres identités électroniques que celle présentée. En effet, les autres identités électroniques ne présentent pas une qualité d'authentification suffisante pour l'utilisation de SpiGes.
 {{</collapsibleBlock>}}

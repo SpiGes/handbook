@@ -1,5 +1,5 @@
 ---
-title: Zweiter Sicherheitsfaktor 
+title: Deuxième facteur de sécurité 
 slug: Zweiter_sicherheitsfaktor 
 description: " "
 weight: 20
@@ -7,19 +7,19 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
 
-1. Welche zweiten Sicherheitsfaktoren kann ich verwenden?
+1. Quels sont les deuxièmes facteurs de sécurité que je peux utiliser ?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Für den Zugriff auf die SpiGes-Plattform ist ein starker zweiter Faktor erforderlich. Als stark gelten die folgenden zweiten Faktoren: Mobile ID und FIDO-Schlüssel.
+Un deuxième facteur fort est nécessaire pour accéder à la plateforme SpiGes. Les deuxièmes facteurs suivants sont considérés comme forts : le Mobile ID et la clé FIDO. 
 {{</collapsibleBlock>}}
 
-2. Ist die Videoidentifikation für die Nutzung der SpiGes-Erhebungsplattform obligatorisch?
+2. L'identification vidéo est-elle obligatoire pour l'utilisation de la plateforme de collecte de données SpiGes ?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Ja. Ohne die Videoidentifikation erreichen Sie nicht die QoA 50 (Quality of Authentication), die für den Zugang zur SpiGes-Erhebungsplattform erforderlich ist. Um diese Qualitätsstufe der Authentifizierung zu erreichen, muss der Nutzer über eine verifizierte elektronische Identität verfügen und nicht nur über eine selbstregistrierte.
+Oui. Sans l'identification vidéo, vous n'atteignez pas le niveau QoA 50 (Quality of Authentication) requis pour accéder à la plateforme d'enquête SpiGes. Pour atteindre ce niveau de qualité d'authentification, l'utilisateur doit disposer d'une identité électronique vérifiée et pas seulement d'une identité auto-enregistrée.
 {{</collapsibleBlock>}}
 
-3. Was ist eine verifizierte Identität, und was muss man tun, um eine solche zu erhalten?
+3. Qu'est-ce qu'une identité vérifiée et que faut-il faire pour l'obtenir ?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Damit eine elektronische Identität als verifiziert gelten kann, muss ein amtlicher, mit einem Foto versehener Ausweis des Inhabers der elektronischen Identität geprüft, registriert und der Inhaber der elektronischen Identität korrekt identifiziert worden sein. Dazu müssen Sie diese kostenpflichtige (CHF 45.00) Videoidentifikation (VIPS) durchlaufen, bei der Ihre Identität von einer zertifizierten Person überprüft wird.
+Pour qu'une identité électronique puisse être considérée comme vérifiée, il faut qu'une pièce d'identité officielle du titulaire de l'identité électronique, munie d'une photo, ait été vérifiée, enregistrée et que le titulaire de l'identité électronique ait été correctement identifié. Pour ce faire, vous devez passer par cette procédure d'identification vidéo (VIPS) payante (CHF 45.00, par l'utilisateur final), au cours de laquelle votre identité est vérifiée par une personne certifiée.
 {{</collapsibleBlock>}}
