@@ -1,5 +1,5 @@
 ---
-title: Falldaten 
+title: Données de cas 
 slug: falldaten
 description: " "
 weight: 30
@@ -8,6 +8,6 @@ keywords: []
 ---
 
 {{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
+La documentation est en cours de construction.
 {{</alert>}}
 
