@@ -1,0 +1,12 @@
+<!-- collapsibleGroupCommand.html -->
+{{ $groupId := .Get "groupId" | default ""}}
+{{ $class := .Get "class" | default ""}}
+<span class="collapsible-group-command {{$class}}"
+     collapsed-text="{{ T "expand_all" }}"
+     expanded-text="{{ T "collapse_all" }}"
+     group-id="{{$groupId}}"
+>
+    <i class="collapsible-group-command__icon fas"></i>
+    <button type="button" class="collapsible-group-command__button"></button>
+</span>
+    

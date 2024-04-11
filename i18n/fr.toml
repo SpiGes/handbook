@@ -10,3 +10,11 @@ other = "Home"
 other = "SpiGes"
 [project_link]
 other = "https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"
+[click_to_expand]
+other = "Cliquez ici pour développer..."
+[click_to_collapse]
+other = "Cliquez ici pour réduire..."
+[expand_all]
+other = "Développer tout"
+[collapse_all]
+other = "Réduire tout"
