@@ -10,7 +10,7 @@ keywords: []
 {{<alert color="info">}}
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
-
+ 
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="ITARK">}}
 
 1. SpiGes erhebt nur Informationen zu den stationären Fällen. Wie kann der ambulante Teil des ITAR_K ausgefüllt werden?
