@@ -41,7 +41,8 @@ Welche Auswirkungen hat SpiGes auf die Kodierrichtlinien?
 Diese Informationen finden Sie im Kodierungshandbuch. Dieses ist unter dem folgenden Link herunterladbar: <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html </a>
 {{</collapsibleBlock>}}
 
-{{<collapsible title="Was ist der Inhalt des nationalen Prüfprotokolls?">}}
+Was ist der Inhalt des nationalen Prüfprotokolls?
+{{<collapsibleBlock groupId="anpassungen">}}
 Der genaue Inhalt des Prüfprotokolls hängt von den Prüfungen ab, welche aktuell mit einer Arbeitsgruppe mit allen Stakeholdern erarbeitet werden. Im Wesentlichen umfasst das Prüfprotokoll die Prüfungen, welche angeschlagen haben sowie die offiziellen Begründungen zu diesen Prüfungen (ein Auszug aus dem Chat zur Prüfung).
 {{</collapsibleBlock>}}
 
