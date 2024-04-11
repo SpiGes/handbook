@@ -6,6 +6,7 @@ weight: 30
 type: docs
 keywords: []
 ---
+<!--
 
 {{<alert color="info">}}
 Die Dokumentation befindet sich im Aufbau.
@@ -65,3 +66,4 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
 Eine Leistungsstelle ist eine organisatorische Einheit im Spital, in der u.a. medizinische, medizinisch-technische oder medizinisch-therapeutische Leistungen erbracht werden. In der SpiGes Erhebung wird angegeben, in welcher medizinischen Hauptleistungsstelle der Patient behandelt wird. 
 {{</collapsible>}}
 
+ -->
