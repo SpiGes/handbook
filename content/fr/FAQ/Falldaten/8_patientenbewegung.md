@@ -1,5 +1,5 @@
 ---
-title: Patientenbewegung 
+title: Mouvement des patients 
 slug: patientenbewegung
 description: " "
 weight: 80
@@ -7,46 +7,46 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
 
-1. Gelten der Eintritt und Austritt auch als Episode?
+1. L'entrée et la sortie sont-elles également considérées comme des épisodes ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Eintritt und Austritt werden wie bisher unter Eintrittsdatum und Austrittsdatum angegeben. Falls der Fall nicht transferiert wurde, werden keine Episoden erfasst. Sobald es aber zu einem Transfer kommt (z.B. ein Zwischenaustritt) wird Episode 1 vom Eintrittsdatum bis zum Zwischenaustritt erfasst. Episode 2 beginnt beim Zwischenausstritt und endet mit dem Wiedereintritt. Episode 3 beginnt mit dem Wiedereintritt und endet mit dem nächsten Transfer (z.B. Urlaub). Dies kann für den gleichen Fall in mehrere Episoden enden (siehe Abbildung). Die letzte Episode (9) endet mit dem Austrittsdatum. Episoden sind die Abschnitte vor und nach einem Standortwechsel eines Falls, Zwischenaustritte / Wiedereintritte, externe ambulante Behandlungen, Urlaube und Belastungserprobungen.
+L'entrée et la sortie sont indiquées comme auparavant sous Date d’admission et Date de sortie. S’il n’y a pas d’autres mouvements, aucun épisode n'est saisi. Mais dès qu'il y a un mouvement devant être renseigné (par ex. une sortie intermédiaire), l'épisode 1 est saisi de la date d’admission à la sortie intermédiaire. L'épisode 2 commence à la sortie intermédiaire et se termine à la réadmission. L'épisode 3 commence à la réadmission et se termine au mouvement suivant (p. ex. vacances). Cela peut s’aboutir à plusieurs épisodes pour le même cas (voir illustration). Le dernier épisode (9) se termine à la date de sortie. Les épisodes sont les périodes précédant et suivant le changement de site d'un cas, les sorties / réadmissions intermédiaires, les traitements ambulatoires externes, les congés et les sorties d’essai.
 {{<insertImage image="Image3.jpg" class="bord taille">}}
 {{</collapsibleBlock>}}
 
-2. Wird ein Fall, der den Standort wechselt, in beiden Standorten geführt?
+2. Un cas qui change de site est-il comptabilisé dans les deux sites ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Nein, jeder Fall wird nur am Hauptstandort geführt, auch wenn er innerhalb eines Spitals (BURGESV) von einem Standort zum anderen verlegt wird. Wechselt ein Patient in ein anderes Spital (BURGESV), ist ein neuer Fall zu eröffnen. 
+Un cas est saisi une seule fois sous le site principal lorsqu'il est transféré d'un site à l'autre au sein d'un même hôpital (REE GESV).
 {{</collapsibleBlock>}}
 
-3. Variablen "wiedereintritt_aufenthalt" und "grund_wiedereintritt": Wieso können diese Angaben nur für A Fälle gemacht werden, wenn sämtliche Episodenangaben für ABC Fälle gedacht sind?
+3. Variables "wiedereintritt_aufenthalt" et "grund_wiedereintritt" : pourquoi ces indications ne peuvent-elles être fournies que pour A cas, alors que toutes les indications d'épisodes sont destinées aux cas ABC ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Abklärungen mit der SwissDRG AG haben ergeben, dass die beiden Variablen "wiedereintritt_aufenthalt" und "grund_wiedereintritt" für Statistikfälle ABC angegeben werden können. Wir werden dies im Variablenbeschrieb 1.4 anpassen.
+Des clarifications avec SwissDRG SA ont montré que les deux variables "wiedereintritt_aufenthalt" et "grund_wiedereintritt" peuvent être indiquées pour les cas statistiques ABC. Nous allons adapter cela dans la description des variables 1.4.
 {{</collapsibleBlock>}}
 
-4. episode_id: Wir sind der Meinung, dass für unsere Klinik bei den stationären Fällen keine Episoden unterschieden werden müssen, da wir keine Standortwechsel innerhalb des Spitals verzeichnen. Ist das unsererseits richtig verstanden?
+4. episode_id : Nous sommes d'avis que pour notre clinique, il n'est pas nécessaire de distinguer des épisodes pour les cas hospitaliers, car nous n'enregistrons aucun changement de site au sein de l'hôpital. Est-ce bien compris de notre part ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Die Vermutung trifft zu, was Episoden aufgrund von Standortwechseln betrifft. Episoden aufgrund von Zwischenaustritten/Wiedereintritten, Urlaub, Belastungserprobung oder ambulanten Behandlungen auswärts sind jedoch zu erfassen.
+La supposition est vraie en ce qui concerne les épisodes dus à des changements de lieu. Les épisodes dus à des sorties/réadmissions intermédiaires, à des congés, à des tests d'effort ou à des traitements ambulatoires extra-muros doivent toutefois être enregistrés.
 {{</collapsibleBlock>}}
 
-5. Verstehen wir dies richtig, dass z.B. der Eintritt bis zur ambulanten Behandlung auswärts (siehe Abbildung unten) bereits eine Episode ist? Wir haben also zwischen Urlauben, Belastungserprobungen und auswärtigen Behandlungen immer eine episode_art="1"?
+5. Comprenons-nous bien que, par exemple, l'admission jusqu'au Traitements ambulatoires extra-muros est déjà un épisode ? Nous avons donc toujours un episode_art="1" entre les congés, les tests d'effort et les traitements à l'extérieur ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Richtig
+Correct
 {{</collapsibleBlock>}}
 
-6. Wir haben im Beispiel (siehe Abbildung unten) keine Standortwechsel innerhalb desselben Spitals. Verstehen wir es richtig, dass bei der episode_art="1" immer die BUR Nummer Standort des Spitals anzugeben ist?
+6. Dans l'exemple (voir illustration ci-dessous), nous n'avons pas de changement de site au sein du même hôpital. Comprenons-nous bien que pour l'episode_art="1", il faut toujours indiquer le numéro REE site de l'hôpital ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Richtig
+Correct
 {{</collapsibleBlock>}}
 
-7. Die Zeitangabe für die Rückkehr von der ambulanten Behandlung auswärts wird unseres Wissens nach nicht dokumentiert. Eventuell wird dies aber in den Krankenhausinformationssystemen der Spitäler erfasst. Ist diese Angabe zwingend?
+7. A notre connaissance, l'heure de retour d'un Traitements ambulatoires extra-muros n'est pas documentée. Il est toutefois possible que cela soit enregistré dans les systèmes d'information hospitaliers des hôpitaux. Cette indication est-elle obligatoire ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Ja, Datum und Stundenangabe müssen für alle Episoden sowohl für den Beginn als auch für das Ende geliefert werden. Falls das Ende einer ambulanten auswärtigen Behandlung nicht erfasst wird, empfehlen wir diese Erfassung zu ergänzen. Sollte dies nicht (so rasch) möglich sein, empfehlen wir für ambulante auswärtige Behandlungen einen Standarddauer zu verwenden.
+Oui, la date et l'heure doivent être fournies pour tous les épisodes, tant pour le début que pour la fin. Si la fin d'un traitement ambulatoire extra-muros n'est pas saisie, nous recommandons de compléter cette saisie. Si cela n'est pas possible (aussi rapidement), nous recommandons d'utiliser une durée standard pour les tTraitements ambulatoires extra-muros.
 {{</collapsibleBlock>}}
 
-8. Die Angabe der BURNR des auswärts behandelnden Spitals ist fakultativ, richtig? 
+8. L'indication du BURNR de l'hôpital traitant à l'extérieur est facultative, n'est-ce pas ? 
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Ja, bei externen ambulanten Behandlungen kann die BUR-Nummer des behandelnden  Standorts angegeben werden, falls diese bekannt ist.
+Oui, pour les traitements ambulatoires externes, le numéro REE du site de traitement peut être indiqué s'il est connu.
 {{<insertImage image="Image4.jpg" class="bord taille">}}
 {{</collapsibleBlock>}}

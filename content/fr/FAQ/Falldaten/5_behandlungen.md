@@ -1,5 +1,5 @@
 ---
-title: Behandlungen 
+title: Traitements 
 slug: behandlungen
 description: " "
 weight: 50
@@ -7,40 +7,40 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="behandlungen">}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
-1. Variable «behandlung_id»: Gibt es hier Empfehlungen für die umzusetzende Reihenfolge in der Psychiatrie? Gerade die HoNOS-Items, die als CHOPs geliefert werden, sind ja diagnose- bzw. behandlungsunspezifisch.
+1. Variable «behandlung_id» (traitement_id) : existe-t-il ici des recommandations pour l'ordre à mettre en œuvre en psychiatrie ? Les items HoNOS livrés sous forme de CHOP sont justement non spécifiques au diagnostic ou au traitement.
 {{<collapsibleBlock groupId="behandlungen">}}
 <ul>
-<li> Gemäss Variablenbeschreibung gilt: <br />
-Eindeutige, fortlaufende Nummer der Behandlung. <br />
-1 = Behandlung 1 <br />
-2 = Behandlung 2 <br />
-3 = Behandlung 3 <br />
-(…) etc. -> Unbegrenzt <br />
-Für die Reihenfolge der Behandlungen sind die folgenden Kriterien empfohlen:
+<li> Selon la description de la variable <br />
+Numéro unique attribué au traitement, dans l'ordre. <br />
+1 = traitement 1 <br />
+2 = traitement 2 <br />
+3 = traitement 3 <br />
+(…) etc. -> illimité <br />
+Les critères suivants sont recommandés pour l'ordre des traitements :
 <ol>
-<li> Prozeduren zur Behandlung der Hauptdiagnose </li>
-<li> Prozeduren zur Behandlung der Nebendiagnosen </li>
-<li> Prozeduren zur Bestimmung der Hauptdiagnose </li>
-<li> Prozeduren zur Bestimmung der Nebendiagnosen </li>
-<li> Weitere Prozeduren </li>
+<li> Procédures de traitement du diagnostic principal </li>
+<li> Procédures de traitement des diagnostics supplémentaires </li>
+<li> Procédures de définition du diagnostic principal </li>
+<li> Procédures de définition des diagnostics supplémentaires </li>
+<li> Autres procédures </li>
 </ol>
 </li>
 <li>
-Für die HoNOS-Items würden wir eine chronologische Nummerierung empfehlen (frühere HoNOS-Messungen = tiefere IDs, spätere HoNOS-Messungen = höhere IDs).
+Pour les items HoNOS, nous recommandons une numérotation chronologique (mesures HoNOS antérieures = ID inférieures, mesures HoNOS ultérieures = ID supérieures).
 </li>
 </ul>
 {{</collapsibleBlock>}}
 
-2. Wir sorgen uns etwas, dass insbesondere in der Anfangszeit diese Daten nicht vollständig erfasst werden und es zu vielen Nacharbeiten kommen könnte. Daher würden wir gern bei den betroffenen CHOP-Codes das Feld als Muss-Feld definieren. Gibt es für den CHOP-Katalog eine Zuordnung, welche Codes als Operativ bzw. interventionell gelten?
+2. Nous craignons un peu que, surtout dans les premiers temps, ces données ne soient pas entièrement saisies et qu'il y ait beaucoup de retouches. C'est pourquoi nous aimerions définir le champ comme obligatoire pour les codes CHOP concernés. Existe-t-il pour le catalogue CHOP une attribution des codes considérés comme opérationnels ou interventionnels ?
 {{<collapsibleBlock groupId="behandlungen">}}
-Das BFS ist sich bewusst, dass bei Einführung dieser neuen Angabe die Daten unvollständig sein werden. Nach der üblichen Konsolidierungsphase wird sich zeigen, welche Präzisierungen nötig sind. Es ist gar nicht möglich, für jeden CHOP-Kode eindeutig zu bestimmen, ob er eine Angabe der Zeit erfordert oder nicht. Es sind andere Merkmale, die hier massgeblich sind: ob die Behandlung in einem Zusammenhang mit der Benützung eines Operationssaals oder eines Herzkatheterlabors steht.
+L'OFS est conscient que les données seront incomplètes lors de l'introduction de cette nouvelle donnée. Après la phase de consolidation habituelle, on verra quelles précisions sont nécessaires. Il n'est pas du tout possible de déterminer clairement pour chaque code CHOP s'il nécessite ou non une indication de temps. Ce sont d'autres caractéristiques qui sont ici déterminantes : si le traitement est en rapport avec l'utilisation d'une salle d'opération ou d'un laboratoire de cathétérisme cardiaque
 {{</collapsibleBlock>}}
 
-3. Operierende: Hier haben wir ein Verständnisproblem bei der Interpretation der Vorgaben des XML-Files. In der Variablenbeschreibung steht, dass pro Operation maximal zwei Operierende angerechnet werden können. In der Übersicht ist beim Attribut aber nicht zu erkennen, ob dies mehrfach exportiert werden kann.
-{{<collapsibleBlock groupId="behandlungen">}}
+3. Médecins pratiquant les opérations : Nous avons ici un problème de compréhension dans l'interprétation des données du fichier XML. La description de la variable indique que deux médecins pratiquant les opérations au maximum peuvent être comptabilisés par opération. Dans l'aperçu, l'attribut ne permet pas de savoir s'il peut être exporté plusieurs fois.
 {{<insertImage image="Image1.jpg" class="bord taille">}}
-Wie viele Operateure einer Operation angerechnet werden können, ist eine konzeptuelle Frage und kann von Kanton zu Kanton unterschiedlich sein (in der Regel 2 ist ein Richtwert!). Technisch lassen sich mehrere Operierende erfassen.
+{{<collapsibleBlock groupId="behandlungen">}}
+Le nombre d'opérateurs pouvant être comptabilisé pour une opération est une question conceptuelle et peut varier d'un canton à l'autre (en règle générale, 2 est une valeur indicative). Techniquement, il est possible de saisir plusieurs médecins pratiquant les opérations.
 {{<insertImage image="Image2.png" class="bord taille">}}
 {{</collapsibleBlock>}}

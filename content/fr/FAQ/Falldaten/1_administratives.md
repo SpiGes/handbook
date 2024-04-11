@@ -1,5 +1,5 @@
 ---
-title: Admninistratives 
+title: Admninistratif
 slug: admninistratives
 description: " "
 weight: 10
@@ -7,75 +7,75 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="admninistratives">}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="admninistratives">}}
 
-1. Werden im SpiGes-Datensatz die Fallklammer-Fälle (=zusammengeführter Fall) erwartet? ANQ erwartet im Bereich der Psychiatrie einen Datensatz mit den Einzelfällen, also nicht zusammengeführte Fälle. Gibt es bereits einen Austausch zwischen Ihnen und ANQ, bzgl. Nutzung des SpiGes-Datensatzes?
+1. Le jeu de données SpiGes attend-il les cas de parenthèses de cas (= cas regroupés) ? Dans le domaine de la psychiatrie, l'ANQ attend un jeu de données avec les cas individuels, donc des cas non regroupés. Existe-t-il déjà un échange entre vous et l'ANQ concernant l'utilisation du jeu de données SpiGes ?
 {{<collapsibleBlock groupId="admninistratives">}}
-Die Fallzusammenführung wird in SpiGes gemäss den Richtlinien der SwissDRG AG gehandhabt. Wir sind mit dem ANQ im Austausch bezüglich der Handhabung der nicht zusammengeführten Fälle.
+Le regroupement des cas est géré à SpiGes conformément aux directives de SwissDRG SA. Nous sommes en discussion avec l'ANQ concernant la gestion des cas non regroupés.
 {{</collapsibleBlock>}}
 
-2. fall_id_ch: Wer generiert diese Fallnummer und wird diese automatisch in Opale (IRP-System) hinterlegt? Bisher konnten wir die Fallidentifikation in beiden Dateien (BFS-Daten und Fallkostendatei) automatisch in Opale generieren.
+2. fall_id_ch : Qui génère ce numéro de cas et celui-ci est-il automatiquement déposé dans Opale (système IRP) ? Jusqu'à présent, nous pouvions générer automatiquement l'identifiant de cas dans les deux fichiers (données OFS et fichier des coûts par cas) dans Opale.
 {{<collapsibleBlock groupId="admninistratives">}}
 <ul>
-<li> Die schweizweit eindeutige Fallnummer wird durch die SpiGes-Plattform generiert. Bei einem Datenexport aus der Plattform steht diese fall_id_ch den Datennutzern zur Verfügung. </li>
-<li> Der Identifikator des Falls, die Variable fall_id wird durch die Spitäler generiert. Die Spitalsoftware (wie z.B. Opale) sollte weiterhin über diese Funktion verfügen. </li>
+<li> Le numéro de cas clair pour toute la Suisse est généré par la plateforme SpiGes. Lors d'une exportation de données à partir de la plateforme, ce fall_id_ch est à la disposition des utilisateurs de données. </li>
+<li> L'identifiant du cas, la variable fall_id, est généré par les hôpitaux. Les logiciels hospitaliers (comme Opale par exemple) devraient continuer à disposer de cette fonction. </li>
 </ul>
 {{</collapsibleBlock>}}
 
-3. Es gibt Variablen (z.B. beatmung), wo im Zeitbezug «ganzer Fall» oder «Erhebungsjahr» steht. In den meisten Spitälern wird diese Position aber nicht auf der Zeitachse geführt, sondern einmalig auf dem Fall. Auch im bisherigen MS-Datensatz wurden solche Positionen immer nur für A-Fälle geliefert. Wie stellen Sie sich eine Lieferung von B/C-Fällen für diese Variablen vor?
+3. Il existe des variables (p. ex. beatmung) pour lesquelles la référence temporelle est "cas complet" ou "année de relevé". Dans la plupart des hôpitaux, cette position n'est toutefois pas gérée sur l'axe temporel, mais une seule fois sur le cas. De même, dans l'ancien jeu de données MS, de telles positions n'étaient toujours livrées que pour les cas A. Comment envisagez-vous une livraison des cas B/C pour ces variables ?
 {{<collapsibleBlock groupId="admninistratives">}}
-Tatsächlich sind die Definitionen in diesem Aspekt vielleicht noch nicht für alle Variablen ganz detailscharf. Bis heute war es nicht festgelegt, ob diese Variablen für die B und C Fälle geliefert werden müssen. Grundsätzlich sollte es möglich sein, die Angaben zu liefern, nur so ist es mit den Daten möglich, Auslastungen zu berechnen. Allerdings dürfte es vielen Spitälern wie Ihnen gehen, dass Sie die Angaben für B und C-Fälle nicht haben. In diesem Fall können die Variablen für die B und C-Fälle leer gelassen werden.
+Jusqu'à présent, il n'a pas été défini si ces variables doivent être fournies pour les cas B et C. En principe, il devrait être possible de fournir ces informations, c'est la seule façon de calculer les taux d'occupation à partir des données. Toutefois, il est probable que de nombreux hôpitaux soient comme vous et ne disposent pas des données pour les cas B et C. Dans ce cas, les variables pour les cas B et C peuvent être laissées vides.
 {{</collapsibleBlock>}}
 
-4. Wie ist der «interne Übertritt» definiert?
+4. Comment est définie le «Transfert interne» ?
 {{<collapsibleBlock groupId="admninistratives">}}
 <ul>
-<li>	Übertritt von einem Bereich (Akut, Psychiatrie, Rehabilitation) in einen anderen Bereich desselben Spitals (burnr_gesv) </li>
-<li>	oder für die sogenannten Wartepatienten/-patientinnen </li>
+<li> Le transfert interne d’un domaine de prestations (soins aigus, psychiatrie, réadaptation) vers un autre domaine de prestations au sein du même hôpital (ree_gesv) </li>
+<li> ou pour les cas considérés comme étant en attente de placement. </li>
 </ul>
 {{</collapsibleBlock>}}
 
-5. Ist es möglich, eine Definition für den Wert «7 = Repatriierung» zu erhalten?
+5.	Est-il possible d’avoir une définition pour la valeur « 7 = rapatriement » ?
 {{<collapsibleBlock groupId="admninistratives">}}
-Rückführung eines Patienten oder einer Patientin mit Schweizer Pass aus dem Ausland in die Schweiz, ohne spezielle Anforderungen an Transportmittel oder Begleitung.
+Rapatriement d'un patient ou d'une patiente avec un passeport suisse de l'étranger vers la Suisse, sans exigences particulières quant au moyen de transport ou à l'accompagnement.
 {{</collapsibleBlock>}}
 
-6. Wie ist eine «Verlegung» definiert? (z.B. die Codes «5 = Verlegung innerhalb 24 Std.» und «6 = Rückverlegung» der Variable Eintrittsart)
+6. Comment est défini un « transfert » ? (p. ex. les codes «5 = transfert dans les 24 heures» et «6 = retransfert» de la variable type d'admission).
 {{<collapsibleBlock groupId="admninistratives">}}
 <ul>
-<li>	Die Variable Eintrittsart existiert bereits in der MS und hat sich mit SpiGes auch nicht verändert. Eine Verlegung grenzt sich vom internen Übertritt dadurch ab, dass diese nicht im gleichen Spital (BURGESV) geschieht, sondern spitalübergreifend (zwei unterschiedliche BURGESV). Die Definition richtet sich nach den Grundsätzen der SwissDRG AG, welche Sie hier finden: <a href="https://www.swissdrg.org/application/files/7416/7051/1936/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7.pdf"> https://www.swissdrg.org/application/files/7416/7051/1936/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7.pdf </a> </li>
+<li> La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (REEGESV), mais dans un autre hôpital (deux REEGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici:  <a href="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions"> https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions </a> </li>
 <li>	Bei der Eintrittsart «6=Rückverlegung» wurde von der SwissDRG AG folgende Spezifizierung kommuniziert: Bei ununterbrochenem Spitalaufenthalt in einem anderen Spital von mehr als 18 Tagen und Rückkehr in das ursprüngliche Spital </li>
 </ul>
 {{</collapsibleBlock>}}
 
-7. Wie werden Fälle, die von der Rehabilitation (Tarif ST-REHA) in die Langzeitpflege (Tarif «Pflegetaxe») des gleichen Betriebs übergehen codiert? Die Variablen 1.2.V02 und 1.5.V03 erlauben uns nicht, «Langzeitpflege, gleicher Betrieb» anzugeben.
+7. Comment coder les cas qui passent de la réadaptation (tarif ST-REHA) aux soins de longue durée (tarif "taxe de soins") du même établissement ? Les variables 1.2.V02 et 1.5.V03 ne nous permettent pas d'indiquer "soins de longue durée, même établissement".
 {{<collapsibleBlock groupId="admninistratives">}}
-Dies war bereits bei der MS so; der Fall wechselt von Rehabilitation zu SOMED (gleicher Betrieb); bei Code 2 sind beide Möglichkeiten enthalten (gleicher Betrieb oder anderer Betrieb). Der Fall muss wie folgt kodiert werden: <br />
-austritt_aufenthalt: 2 = Krankenheim, Pflegeheim <br />
-eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb  
+C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit : <br />
+sortie_séjour : 2 = établ. de santé non hospit. médicalisé  <br />
+entrée_séjour : 84 = division/clinique de réadaptation, même établissement  
 {{</collapsibleBlock>}}
 
-### Variable "Wohnland"
+### Variable "(Pays de résidence)"
 
-8. In der Variablenbeschreibung ist eine separate Einteilung der aussereuropäischen Länder in Regionen erwähnt. Existiert diese Liste bereits oder wird sie noch veröffentlicht?
+8. La description de la variable mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
 {{<collapsibleBlock groupId="admninistratives">}}
 <ul>
-<li> Das Vorgehen und die Liste ist gleich geblieben wie bei der MS. Anbei der Link zur Liste: <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html </a> </li>
-<li>	Für die aussereuropäischen Länder können Regionen erfasst werden, es können aber auch die Ländercodes angegeben werden. Dies ist bereits in der MS so und hat sich nicht geändert. Das Format ist alphanumerisch und kann somit sowohl Zahlen wie Buchstaben enthalten. </li>
+<li> La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :  <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html </a> </li>
+<li> Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres. </li>
 </ul>
 {{</collapsibleBlock>}}
 
-### Variable "versicherungsklasse"
+###	Variable "Classe d'assurance" 
 
-9. Im Variablenbeschrieb steht, dass man es für alle angeben muss, ausser Selbstzahler. Im xsd. Ist das Feld jedoch «required». Was sollen wir dann bei Selbstzahlern liefern?
+9. Dans la description de la variable, il est indiqué qu'il faut l'indiquer pour tous, sauf pour les personnes payant elles-mêmes. Mais dans le xsd, le champ est "required". Que faut-il alors fournir pour les personnes payant elles-mêmes ?
 {{<collapsibleBlock groupId="admninistratives">}}
-Das ist tatsächlich etwas widersprüchlich formuliert. Damit hier keine Missings vorhanden sind, wurde required vorausgesetzt. Dann betrifft es natürlich auch die Selbstzahler, welche mit 9=unbekannt codiert werden.
+La formulation peut en effet porter à confusion. Pour qu'il n'y ait pas de missings ici, required a été présupposé. Cela concerne aussi les self-payeurs, qui sont codés avec 9=inconnu.
 {{</collapsibleBlock>}}
 
-10. Gemäss unserer Patientenadministration wird es schwierig für die Fälle mit einer «Flex-Versicherung», die Information zu gewinnen und mit «8 = andere» zu hinterlegen. Gibt es bei den Auswertungen später ein Problem bzw. welche Auswirkungen ergeben sich auf die Statistik, wenn wir «8=andere» nicht angeben (können)?
+10.	Variable "Classe d'assurance" : selon notre administration des patients, il est difficile d'obtenir l'information pour les cas avec une "assurance Flex" et de la consigner avec "8 = autre".  Y a-t-il un problème lors des analyses ultérieures ou quelles sont les conséquences sur les statistiques si nous n'indiquons pas (ou ne pouvons pas indiquer) "8=autres" ?
 {{<collapsibleBlock groupId="admninistratives">}}
 <ul>
-<li>	Die Flex-Fälle und alle anderen Versicherungsmodelle, die immer populärer werden, sind wirklich nicht ganz einfach abzubilden. Bei der Versicherungsklasse ist das eine Herausforderung aber nicht weiter dramatisch für die Statistik. Im Zweifelsfall sollten diese Fälle als Halbprivat abgebildet werden. </li>
-<li>	Die Variable «liegeklasse» ist hingegen zentral für die Abbildung des ITAR_K. Da gibt es auch keine Kategorie «andere» und Fälle mit «unbekannt» werden wir genau prüfen. Je nach Ausprägung dieser Variable, werden die Fälle in ITAR_K einer anderen Spalte zugeordnet.  </li>
+<li> Les cas Flex et tous les autres modèles d'assurance qui deviennent de plus en plus populaires ne sont pas faciles à représenter. Malgré ces difficultés, d’un point de vue statistique, cela n’est pas dramatique pour la variable Classe d'assurance si l’information n’est pas sure. En cas de doute, ces cas devraient être représentés en tant que semi-privés.</li>
+<li> La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l’ITAR_K®.  </li>
 </ul>
 {{</collapsibleBlock>}}

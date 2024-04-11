@@ -7,116 +7,111 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
+Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
-
-1. Wie lassen sich die Kosten und Erlöse der gemeinwirtschaftlichen Leistungen in SpiGes erfassen?
+1. Comment saisir les coûts et les revenus des prestations d'intérêt général dans SpiGes ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Dazu wählen Sie unter ktr_typ den passenden Code der entsprechenden GWL Leistung aus und tragen die entsprechenden Kosten und Erlöse anhand den in REKOLE® definierten Kostenarten-, bzw. Kostenstellennummern und Erlöskonten ein. Anbei die Liste der unterschiedlichen GWL Typen und dem entsprechenden ktr_typ Code:
+Pour ce faire, il suffit de sélectionner sous ktr_typ le code de la prestation PIG correspondante et de saisir les coûts et les revenus correspondants à l'aide des numéros de charge par nature ou de centre de charges et des comptes de revenus définis dans REKOLE®®. Ci-dessous vous trouvez la liste des différents types de PIG et le code ktr_typ correspondant :
 <table style="width:100%">
   <tr>
     <th style="width:20%"> Code </div></th>
     <th> GWL </th>
-    <th style="width:60%"> Bezeichnung </th>
+    <th style="width:60%"> Désignation </th>
   </tr>
   <tr>
     <td> 501 </td>
     <td> Typ a) </td>
-    <td> Vorhalteleistungen (exkl. Vorhalteleistungen für den Notfall) </td>
+    <td> Prestations en attente (exclus prestations en attente pour l’urgence) </td>
   </tr>
   <tr>
     <td> 502 </td>
     <td> Typ a) </td>
-    <td> Rettungswesen/Notruf 144 </td>
+    <td> Service de sauvetage et d’ambulance / Appel d’urgence 144 </td>
   </tr>
   <tr>
     <td> 503 </td>
     <td> Typ a) </td>
-    <td> Geschützte Spitalbereiche </td>
+    <td> Unités d’hôpital protégées </td>
   </tr>
   <tr>
     <td> 504 </td>
     <td> Typ a) </td>
-    <td> Kindergarten und Schule für Patientinnen und Patienten </td>
+    <td> Jardins d’enfants et écoles pour les patients </td>
   </tr>
   <tr>
     <td> 505 </td>
     <td> Typ a) </td>
-    <td> Sozialdienstliche Leistungen für Patienten </td>
+    <td> Services sociaux pour patients </td>
   </tr>
   <tr>
     <td> 506 </td>
     <td> Typ a) </td>
-    <td> Prävention/Gesundheitsförderung </td>
+    <td> Prévention / promotion de la santé </td>
   </tr>
   <tr>
     <td> 507 </td>
     <td> Typ a) </td>
-    <td> Bevölkerungsschutz </td>
+    <td> Protection de la population </td>
   </tr>
   <tr>
     <td> 508 </td>
     <td> Typ a) </td>
-    <td> Spitalseelsorge / Andachtsraum </td>
+    <td> Aumônerie hospitalière / lieu de recueillement </td>
   </tr>
   <tr>
     <td> 599 </td>
     <td> Typ a) </td>
-    <td> Weitere Spezialaufgaben </td>
+    <td> Autres missions de l’hôpital </td>
   </tr>
   <tr>
     <td> 601 </td>
     <td> Typ b) </td>
-    <td> Forschung, inkl. Doktorat (MD und PhD) </td>
+    <td> Recherche, y compris le doctorat (MD et PhD) </td>
   </tr>
   <tr>
     <td> 602 </td>
     <td> Typ b) </td>
-    <td> Erteilte und erhaltene universitäre Ausbildung </td>
+    <td> Formation universitaire de base (enseignement dispensé et formation reçue) </td>
   </tr>
   <tr>
     <td> 603 </td>
     <td> Typ b) </td>
-    <td> Erteilte berufliche Weiterbildung </td>
+    <td> Enseignement dispensé en formation postgraduée </td>
   </tr>
   <tr>
     <td> 701 </td>
     <td> Typ c) </td>
-    <td> Aufrechterhaltung von Überkapazitäten aus regionalpolitischen Gründen </td>
+    <td> Maintien de surcapacités hospitalières pour des raisons de politiques régionales </td>
   </tr>
   <tr>
     <td> 702 </td>
     <td> Typ c) </td>
-    <td> Geburtshilfe </td>
+    <td> Maternité </td>
   </tr>
   <tr>
     <td> 703 </td>
     <td> Typ c) </td>
-    <td> Nicht kostendeckende Tarife (z. B.TARMED.) </td>
+    <td> Tarifs ne couvrant pas les coûts (par ex. TARMED.) </td>
   </tr>
   <tr>
     <td> 799 </td>
     <td> Typ c) </td>
-    <td> Weitere spitalbezogene gemeinwirtschaftliche Leistungen </td>
+    <td> Autres prestations d'intérêt général liées à l'hôpital </td>
   </tr>
 </table>
 {{</collapsibleBlock>}}
 
-2. Können fallunabhängige Kostenträger einem Spital (burnr_gesv) angehängt werden anstelle eines Standortes? 
+2. Les objets de coûts non reliés à un cas peuvent-ils être rattachés à un hôpital (burnr_gesv) au lieu d'un site ? 
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Nein, das ist nicht möglich.
+Non, ce n'est pas possible. 
 {{</collapsibleBlock>}}
 
-3. Kann man KTR-Typen auch mehrfach verwenden? Zum Beispiel bei 599 mehrfache Zeilen abliefern mit unterschiedlichem Freitext in der Variable "ktr_beschr" ?
+3. Peut-on utiliser les types KTR plusieurs fois ? Par exemple, pour 599, livrer plusieurs lignes avec un texte libre différent dans la variable «ktr_beschr» ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Ja, das ist möglich. <br />
-Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeordnet. Somit muss in der Variable «ktr_typ» einer der vordefinierten Werte verwendet werden. Es ist jedoch möglich mehrere Kostenträger mit demselben KTR-Typ anzugeben, z.B. für den ktr_typ 205 einmal mit dem Freitext «KVG» und einmal mit dem Freitext «MTK» in der Variable «ktr_beschr». Diese beiden Kostenträger werden dann summiert und in der ITAR_K-Spalte «Tagesklinik Kind- & Jugendpsychiatrie» abgebildet. Theoretisch sind auch weitere Aufteilungen technisch möglich, bis auf den ambulanten Fall. Solange alle denselben KTR-Typ aufweisen, werden sie wie beschrieben summiert und abgebildet. 
+Oui, c'est possible. Une unité finale d’imputation est attribuée à une colonne ITAR_K® sur la base de l'indication «ktr_typ». Ainsi, une des valeurs prédéfinies doit être utilisée dans la variable «ktr_typ». Il est toutefois possible d'indiquer plusieurs unités finales d’imputation avec le même type de KTR, par exemple pour le ktr_typ 205, une fois avec le texte libre «LAMal» et une fois avec le texte libre «CTM» dans la variable «ktr_beschr». Ces deux objets de coûts sont ensuite additionnés et représentés dans la colonne ITAR_K® «Psy. Hôpital de jour enfants, adolescents». En théorie, d'autres déclinaisons sont techniquement possibles, jusqu’au cas ambulatoire. Tant qu'ils présentent tous le même type KTR, ils sont additionnés et représentés comme décrit.
 {{</collapsibleBlock>}}
 
-4. Wird der KTR-Teil auch bei ambulanten Fällen erwartet, oder bezieht sich dieser ebenfalls ausschliesslich auf stationäre Fälle?
+4. La partie CUFI est-elle également attendue pour les cas ambulatoires ou se rapporte-t-elle également exclusivement aux cas hospitaliers ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Um ein ITAR_K ausfüllen zu können, werden die Kosten der ambulanten Fälle summarisch pro KTR Typ (z.B. Tarif Dialyse) abgefüllt.
+Pour pouvoir remplir ITAR_K®, les coûts des cas ambulatoires sont remplis sommairement par type de CUFI (p. ex. Tarif Dialyse).
 {{</collapsibleBlock>}}
