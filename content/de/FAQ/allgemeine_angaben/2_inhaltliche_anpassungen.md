@@ -55,13 +55,11 @@ Der genaue Inhalt des Prüfprotokolls hängt von den Prüfungen ab, welche aktue
 </ul>
 {{</collapsibleBlock>}}
 
-5. Vertauschte Werte: Uns ist aufgefallen, dass bei ein paar Variablen die Werte anders gegenüber der MS-Statistik sind. Als Beispiel gibt es hier den Vitalwert. 
-
+5. Vertauschte Werte: Uns ist aufgefallen, dass bei ein paar Variablen die Werte anders gegenüber der MS-Statistik sind. Als Beispiel gibt es hier den Vitalwert.       
 MS-Statistik:       
 0 = totgeboren      
 1 = lebendgeboren
-
-Spiges (genau andersrum):       
+Spiges (genau andersrum):              
 0 = Lebendgeburt        
 1 = Totgeburt 
 
