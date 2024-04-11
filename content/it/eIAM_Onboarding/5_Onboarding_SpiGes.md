@@ -22,7 +22,7 @@ Riceverete un'e-mail che vi inviterà a completare l'onboarding accedendo alla p
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding.png" class="bord taille">}}            <!-- ATTENTION image en français -->
+{{<insertImage image="mail_onboarding.png" class="edge size">}}            <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -40,7 +40,7 @@ A questo punto incollate il vostro codice di onboarding, quindi cliccate su "inv
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="enregistrement.png" class="bord taille">}}                 <!-- ATTENTION image en français -->
+{{<insertImage image="enregistrement.png" class="edge size">}}                 <!-- ATTENTION image en français -->
 </div>
 
 </div>

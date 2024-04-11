@@ -12,7 +12,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="patientenbewegu
 1. L'entrée et la sortie sont-elles également considérées comme des épisodes ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 L'entrée et la sortie sont indiquées comme auparavant sous Date d’admission et Date de sortie. S’il n’y a pas d’autres mouvements, aucun épisode n'est saisi. Mais dès qu'il y a un mouvement devant être renseigné (par ex. une sortie intermédiaire), l'épisode 1 est saisi de la date d’admission à la sortie intermédiaire. L'épisode 2 commence à la sortie intermédiaire et se termine à la réadmission. L'épisode 3 commence à la réadmission et se termine au mouvement suivant (p. ex. vacances). Cela peut s’aboutir à plusieurs épisodes pour le même cas (voir illustration). Le dernier épisode (9) se termine à la date de sortie. Les épisodes sont les périodes précédant et suivant le changement de site d'un cas, les sorties / réadmissions intermédiaires, les traitements ambulatoires externes, les congés et les sorties d’essai.
-{{<insertImage image="Image3.jpg" class="bord taille">}}
+{{<insertImage image="Image3.jpg" class="edge size">}}
 {{</collapsibleBlock>}}
 
 2. Un cas qui change de site est-il comptabilisé dans les deux sites ?
@@ -48,5 +48,5 @@ Oui, la date et l'heure doivent être fournies pour tous les épisodes, tant pou
 8. L'indication du BURNR de l'hôpital traitant à l'extérieur est facultative, n'est-ce pas ? 
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Oui, pour les traitements ambulatoires externes, le numéro REE du site de traitement peut être indiqué s'il est connu.
-{{<insertImage image="Image4.jpg" class="bord taille">}}
+{{<insertImage image="Image4.jpg" class="edge size">}}
 {{</collapsibleBlock>}}

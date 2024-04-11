@@ -22,7 +22,7 @@ Sie werden eine E-Mail erhalten, in der Sie aufgefordert werden, Ihr Onboarding 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding_de.png" class="bord taille">}} 
+{{<insertImage image="mail_onboarding_de.png" class="edge size">}} 
 </div>
 
 </div>
@@ -40,7 +40,7 @@ Fügen Sie nun Ihren Onboarding-Code ein und klicken Sie auf "Registrierungscode
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="enregistrement.png" class="bord taille">}}
+{{<insertImage image="enregistrement.png" class="edge size">}}
 </div>
 
 </div>

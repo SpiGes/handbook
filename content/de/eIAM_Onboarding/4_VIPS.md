@@ -27,7 +27,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_second_facteur_de.png" description="Choix connexion" class="bord taille">}} 
+{{<insertImage image="selection_second_facteur_de.png" description="Choix connexion" class="edge size">}} 
 </div>
 
 </div>
@@ -47,7 +47,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_mobileid_de.png" description="Choix connexion" class="bord taille">}} 
+{{<insertImage image="selection_mobileid_de.png" description="Choix connexion" class="edge size">}} 
 </div>
 
 </div>
@@ -67,7 +67,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="vips_saisie_mdp_de.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="vips_saisie_mdp_de.png" description="Choix connexion" class="edge size">}}
 </div>
 
 </div>
@@ -87,7 +87,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_donnees_perso_de.png" description="Choix connexion" class="bord taille">}} 
+{{<insertImage image="saisie_donnees_perso_de.png" description="Choix connexion" class="edge size">}} 
 </div>
 
 </div>
@@ -107,7 +107,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="controle_infos.png" description="Choix connexion" class="bord taille">}}  <!-- Image en français -->
+{{<insertImage image="controle_infos.png" description="Choix connexion" class="edge size">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -127,7 +127,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="condition_adn.png" description="Choix connexion" class="bord taille">}}   <!-- Image en français -->
+{{<insertImage image="condition_adn.png" description="Choix connexion" class="edge size">}}   <!-- Image en français -->
 </div>
 
 </div>
@@ -147,7 +147,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="paiement_video.png" description="Choix connexion" class="bord taille">}}   <!-- Image en français -->
+{{<insertImage image="paiement_video.png" description="Choix connexion" class="edge size">}}   <!-- Image en français -->
 </div>
 
 </div>
@@ -178,13 +178,13 @@ Sie erhalten eine Bestätigung des Zahlungseingangs, dann können Sie mit der Vi
 
 <div style="flex: 1; padding-right: 10px;">
 <!-- First column content goes here -->
-<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="bord taille">}}</p>   <!-- Image en français -->
+<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="edge size">}}</p>   <!-- Image en français -->
 
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="bord taille">}} </p>   <!-- Image en français -->
+<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="edge size">}} </p>   <!-- Image en français -->
 </div>
 
 </div>
@@ -221,7 +221,7 @@ Sie werden per Videokontakt mit jemandem verbunden, der Ihre Identität überpr�
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_verifie_de.png" description="Choix connexion" class="bord taille">}}  
+{{<insertImage image="mobileid_verifie_de.png" description="Choix connexion" class="edge size">}}  
 </div>
 
 </div>

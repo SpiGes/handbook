@@ -18,7 +18,7 @@ Andate su <a href="https://www.myaccount-r.eiam.admin.ch/">Il mio account eIAM</
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ecran_choix_connexion_IT.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="ecran_choix_connexion_IT.png" description="Choix connexion" class="edge size">}}
 </div>
 
 </div>
@@ -36,7 +36,7 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="edge size">}}
 </div>
 
 </div>
@@ -57,7 +57,7 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_info_it.png" description="Choix connexion" class="bord taille">}}
+{{<insertImage image="saisie_info_it.png" description="Choix connexion" class="edge size">}}
 </div>
 
 </div>
@@ -76,7 +76,7 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="bord taille">}}  <!-- ATTENTION image en français -->
+{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="edge size">}}  <!-- ATTENTION image en français -->
 </div>
 
 </div>

@@ -137,13 +137,13 @@ N10.2 désigne un nombre de 10 chiffres au total, dont 2 chiffres après la virg
 <ul>
 <li> Il s'agit, pour les deux nouvelles variables "medi_id" et "rech_id", d'identifiants qui sont nécessaires pour des raisons techniques afin d'assurer une attribution claire. Ceux-ci ne doivent pas obligatoirement commencer par 1, mais ils doivent être uniques pour chaque cas. </li>
 <li> Le fichier modèle XML 1.3, que vous trouverez sur notre site , contient également un exemple. medi_id ="1" contient l'information selon laquelle il s'agit du premier médicament hautement coûteux selon les directives de SwissDRG SA pour ce cas spécifique. 
-{{<insertImage image="Image5.png" class="bord taille">}}
+{{<insertImage image="Image5.png" class="edge size">}}
 </li>
 </ul>
 {{</collapsibleBlock>}}
 
 15.	Dans les fichiers d'exemple pour le fichier des identificateurs et le fichier des données, il y a deux champs pour la version. Or, ces versions ne correspondent pas. Ainsi, la version 1.0 est indiquée dans l'en-tête et la version 1.3 dans le tag Entreprise. Pourquoi les numéros de version sont-ils différents ? Comment savoir quand indiquer quel numéro de version ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-{{<insertImage image="Image6.jpg" class="bord taille">}}
+{{<insertImage image="Image6.jpg" class="edge size">}}
 "?xml version="1.0″" se trouve toujours ainsi . La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
 {{</collapsibleBlock>}}

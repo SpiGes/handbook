@@ -26,7 +26,7 @@ In diesem Schritt wird die Mobile ID dem CH-Login als starker Zweitfaktor hinzug
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_de.png" description="modification paramètres" class="bord taille">}} 
+{{<insertImage image="modif_parametres_de.png" description="modification paramètres" class="edge size">}} 
 </div>
 
 </div>
@@ -44,7 +44,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param_de.png" description="Activation paramètres avancés" class="bord taille">}} 
+{{<insertImage image="activation_param_de.png" description="Activation paramètres avancés" class="edge size">}} 
 </div>
 
 </div>
@@ -65,7 +65,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_de.png" description="ajout second facteur" class="bord taille">}} 
+{{<insertImage image="ajout_facteur_de.png" description="ajout second facteur" class="edge size">}} 
 </div>
 
 </div>
@@ -83,7 +83,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid_de.png" description="ajout second facteur" class="bord taille">}} 
+{{<insertImage image="choix_mobileid_de.png" description="ajout second facteur" class="edge size">}} 
 </div>
 
 </div>
@@ -101,7 +101,7 @@ Geben Sie den folgenden MIO-Code ein 16783 und klicken Sie auf "Speichern".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio_de.png" description="ajout second facteur" class="bord taille">}} 
+{{<insertImage image="code_mio_de.png" description="ajout second facteur" class="edge size">}} 
 </div>
 
 </div>
@@ -119,7 +119,7 @@ Geben Sie Ihr Passwort ein und klicken Sie auf "Weiter".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe_de.png" description="Mot de passe" class="bord taille">}} 
+{{<insertImage image="mot_de_passe_de.png" description="Mot de passe" class="edge size">}} 
 </div>
 
 </div>
@@ -137,7 +137,7 @@ Wählen Sie 3 Sicherheitsfragen aus, füllen Sie die Antworten aus und klicken S
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu_de.png" description="ajout questions sécurité" class="bord taille">}} 
+{{<insertImage image="questions_secu_de.png" description="ajout questions sécurité" class="edge size">}} 
 </div>
 
 </div>
@@ -155,7 +155,7 @@ Geben Sie Ihre Telefonnummer ein (die Nummer, die mit Ihrer Mobile ID verknüpft
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel_all.png" description="ajout second facteur" class="bord taille">}} 
+{{<insertImage image="saisie_tel_all.png" description="ajout second facteur" class="edge size">}} 
 </div>
 
 </div>
@@ -165,4 +165,4 @@ Geben Sie Ihre Telefonnummer ein (die Nummer, die mit Ihrer Mobile ID verknüpft
 Es wird eine Nachricht angezeigt und Ihr Telefon wird Sie auffordern, die Verbindung durch die Eingabe Ihres Mobile ID-Passworts zu bestätigen. 
 
 Sobald Sie dies getan haben, wird das Feld "Mobile ID" als Mittel zur Zwei-Faktor-Authentifizierung angezeigt.
-{{<insertImage image="mobileid_present_de.png" description="ajout second facteur" class="bord taille">}}
+{{<insertImage image="mobileid_present_de.png" description="ajout second facteur" class="edge size">}}

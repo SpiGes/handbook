@@ -22,7 +22,7 @@ Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding.png" class="bord taille">}} 
+{{<insertImage image="mail_onboarding.png" class="edge size">}} 
 </div>
 
 </div>
@@ -40,7 +40,7 @@ Collez maintenant votre code d'onboarding, puis cliquez sur "envoyer le code d'e
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="enregistrement.png" class="bord taille">}}
+{{<insertImage image="enregistrement.png" class="edge size">}}
 </div>
 
 </div>

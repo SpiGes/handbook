@@ -39,8 +39,8 @@ L'OFS est conscient que les données seront incomplètes lors de l'introduction 
 {{</collapsibleBlock>}}
 
 3. Médecins pratiquant les opérations : Nous avons ici un problème de compréhension dans l'interprétation des données du fichier XML. La description de la variable indique que deux médecins pratiquant les opérations au maximum peuvent être comptabilisés par opération. Dans l'aperçu, l'attribut ne permet pas de savoir s'il peut être exporté plusieurs fois.
-{{<insertImage image="Image1.jpg" class="bord taille">}}
+{{<insertImage image="Image1.jpg" class="edge size">}}
 {{<collapsibleBlock groupId="behandlungen">}}
 Le nombre d'opérateurs pouvant être comptabilisé pour une opération est une question conceptuelle et peut varier d'un canton à l'autre (en règle générale, 2 est une valeur indicative). Techniquement, il est possible de saisir plusieurs médecins pratiquant les opérations.
-{{<insertImage image="Image2.png" class="bord taille">}}
+{{<insertImage image="Image2.png" class="edge size">}}
 {{</collapsibleBlock>}}

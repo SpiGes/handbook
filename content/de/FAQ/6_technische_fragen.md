@@ -138,13 +138,13 @@ Nicht ganz. N10.2 bezeichnet eine Zahl mit insgesamt 10 Stellen, davon 2 Nachkom
 <ul>
 <li> Es handelt sich bei de beiden neuen Variablen «medi_id» und «rech_id» um Identifikatoren, die zur eindeutigen Zuordnung aus technischen Gründen nötig. Diese müssen nicht zwingend mit 1 beginnen, sie müssen aber für jeden Fall eindeutig sein. </li>
 <li> In der XML-Musterdatei 1.3, welche Sie auf unserer Homepage vorfinden, ist auch ein Beispiel enthalten. medi_id="1" enthält die Information, dass es sich um das erste hochteure Medikament gemäss den Vorgaben der SwissDRG AG für diesen spezifischen Fall handelt. 
-{{<insertImage image="Image5.png" class="bord taille">}}
+{{<insertImage image="Image5.png" class="edge size">}}
 </li>
 </ul>
 {{</collapsibleBlock>}}
 
 15. In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es zwei Felder für die Version. Diese Versionen stimmen aber nicht überein. So wird im Header die Version 1.0 angegeben und beim Tag Unternehmen die Version 1.3. Warum sind die Versionsnummern unterschiedlich? Woher wissen wir wann welche Versionsnummer anzugeben ist?
 {{<collapsibleBlock groupId="technische_fragen">}}
-{{<insertImage image="Image6.jpg" class="bord taille">}}
+{{<insertImage image="Image6.jpg" class="edge size">}}
 «?xml version=“1.0″» steht immer so. Die oberste Version bezieht sich also auf das «XML» selbst, und die untere auf das spezifische SpiGes XML.
 {{</collapsibleBlock>}}
