@@ -27,7 +27,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="edge size">}}              <!-- ATTENTION image en français -->
+{{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="edge max-w-90">}}              <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -47,7 +47,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_mobileid.png" description="Choix connexion" class="edge size">}}                <!-- ATTENTION image en français -->
+{{<insertImage image="selection_mobileid.png" description="Choix connexion" class="edge max-w-90">}}                <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -67,7 +67,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="edge size">}}               <!-- ATTENTION image en français -->
+{{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="edge max-w-90">}}               <!-- ATTENTION image en français -->
 </div>  
 
 </div>
@@ -87,7 +87,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="edge size">}}                  <!-- ATTENTION image en français -->
+{{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="edge max-w-90">}}                  <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -107,7 +107,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="controle_infos.png" description="Choix connexion" class="edge size">}}                <!-- ATTENTION image en français -->
+{{<insertImage image="controle_infos.png" description="Choix connexion" class="edge max-w-90">}}                <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -127,7 +127,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="condition_adn.png" description="Choix connexion" class="edge size">}}             <!-- ATTENTION image en français -->
+{{<insertImage image="condition_adn.png" description="Choix connexion" class="edge max-w-90">}}             <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -147,7 +147,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="paiement_video.png" description="Choix connexion" class="edge size">}}                <!-- ATTENTION image en français -->
+{{<insertImage image="paiement_video.png" description="Choix connexion" class="edge max-w-90">}}                <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -165,7 +165,7 @@ Riceverete la conferma che il pagamento è stato ricevuto e potrete quindi inizi
 <!-- First column content goes here -->
 <p> È possibile utilizzare la webcam del computer per effettuare l'identificazione video. </p>
 
-<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="edge size">}}</p>            <!-- ATTENTION image en français -->
+<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="edge max-w-90">}}</p>            <!-- ATTENTION image en français -->
 
 </div>
 
@@ -173,7 +173,7 @@ Riceverete la conferma che il pagamento è stato ricevuto e potrete quindi inizi
 <!-- Second column content goes here -->
 <p> Oppure utilizzare lo smartphone o il tablet per effettuare l'identificazione. </p>
 
-<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="edge size">}} </p>                <!-- ATTENTION image en français -->
+<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="edge max-w-90">}} </p>                <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -210,7 +210,7 @@ Sarete messi in contatto video con qualcuno che verificherà la vostra identità
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="edge size">}}              <!-- ATTENTION image en français -->
+{{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="edge max-w-90">}}              <!-- ATTENTION image en français -->
 </div>
 
 </div>

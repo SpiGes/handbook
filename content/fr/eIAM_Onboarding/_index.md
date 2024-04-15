@@ -60,7 +60,7 @@ Exemple:
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="Visu_entreprise.png" class="edge size">}}
+{{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
 </div>
 
 </div>

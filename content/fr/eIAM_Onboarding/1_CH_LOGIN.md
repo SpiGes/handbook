@@ -18,7 +18,7 @@ Rendez-vous sur le site <a href="https://www.myaccount.eiam.admin.ch/">Mon compt
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ecran_choix_connexion_FR.png" description="Choix connexion" class="edge size">}}
+{{<insertImage image="ecran_choix_connexion_FR.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -36,7 +36,7 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="creer_ch_login_fr.png" description="Choix connexion" class="edge size">}}
+{{<insertImage image="creer_ch_login_fr.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -57,7 +57,7 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_info_fr.png" description="Choix connexion" class="edge size">}}
+{{<insertImage image="saisie_info_fr.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -76,7 +76,7 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="edge size">}}
+{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>

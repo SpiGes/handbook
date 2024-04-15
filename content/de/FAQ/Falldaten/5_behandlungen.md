@@ -39,8 +39,8 @@ Das BFS ist sich bewusst, dass bei Einführung dieser neuen Angabe die Daten unv
 {{</collapsibleBlock>}}
 
 3. Operierende: Hier haben wir ein Verständnisproblem bei der Interpretation der Vorgaben des XML-Files. In der Variablenbeschreibung steht, dass pro Operation maximal zwei Operierende angerechnet werden können. In der Übersicht ist beim Attribut aber nicht zu erkennen, ob dies mehrfach exportiert werden kann.
-{{<insertImage image="Image1.jpg" class="edge size">}}
+{{<insertImage image="Image1.jpg" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="behandlungen">}}
 Wie viele Operateure einer Operation angerechnet werden können, ist eine konzeptuelle Frage und kann von Kanton zu Kanton unterschiedlich sein (in der Regel 2 ist ein Richtwert!). Technisch lassen sich mehrere Operierende erfassen.
-{{<insertImage image="Image2.png" class="edge size">}}
+{{<insertImage image="Image2.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}

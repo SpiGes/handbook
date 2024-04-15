@@ -27,7 +27,7 @@ Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_it.png" description="modification paramètres" class="edge size">}}    
+{{<insertImage image="modif_parametres_it.png" description="modification paramètres" class="edge max-w-90">}}    
 </div>
 
 </div>
@@ -45,7 +45,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge size">}}     
+{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}}     
 </div>
 
 </div>
@@ -66,7 +66,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge size">}}           
+{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}}           
 </div>
 
 </div>
@@ -84,7 +84,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid_it.png" description="ajout second facteur" class="edge size">}}       
+{{<insertImage image="choix_mobileid_it.png" description="ajout second facteur" class="edge max-w-90">}}       
 </div>
 
 </div>
@@ -102,7 +102,7 @@ Immettere il seguente codice MIO: 16783, quindi fare clic su "Salva".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio_it.png" description="ajout second facteur" class="edge size">}} 
+{{<insertImage image="code_mio_it.png" description="ajout second facteur" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -120,7 +120,7 @@ Immettere la password, quindi fare clic su "continua".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge size">}}           <!-- ATTENTION image en français -->
+{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge max-w-90">}}           <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -138,7 +138,7 @@ Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge size">}}         <!-- ATTENTION image en français -->
+{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge max-w-90">}}         <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -156,7 +156,7 @@ Inserite il vostro numero di telefono (quello collegato al vostro Mobile ID), qu
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge size">}}         <!-- ATTENTION image en français -->
+{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}}         <!-- ATTENTION image en français -->
 </div>
 
 </div>
@@ -167,4 +167,4 @@ Verrà visualizzato un messaggio e il telefono chiederà di confermare la connes
 
 Una volta effettuata questa operazione, apparirà la casella "Mobile ID" come metodo di autenticazione a due fattori. 
 
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge size">}}           <!-- ATTENTION image en français -->
+{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}           <!-- ATTENTION image en français -->

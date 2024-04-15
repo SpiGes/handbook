@@ -26,7 +26,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="edge size">}}
+{{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -44,7 +44,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="edge size">}}
+{{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -65,7 +65,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="edge size">}}
+{{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -83,7 +83,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="edge size">}}
+{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -101,7 +101,7 @@ Saisissez le code MIO suivant: 16783, puis cliquez sur "enregistrer".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio.png" description="ajout second facteur" class="edge size">}}
+{{<insertImage image="code_mio.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -119,7 +119,7 @@ Entrez votre mot de passe, puis cliquez sur "continuer".
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge size">}}
+{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -137,7 +137,7 @@ Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge size">}}
+{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -155,7 +155,7 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge size">}}
+{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -165,4 +165,4 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID. 
 
 Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge size">}}
+{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}
