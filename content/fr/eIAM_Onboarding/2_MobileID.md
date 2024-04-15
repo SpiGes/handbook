@@ -13,14 +13,14 @@ Suivez les étapes suivantes pour activer le Mobile ID.
 
 <!-- 1ere paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">MobileID</a> puis sélectionnez '"essayer maintenant"'. 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="mobile_id_fr.png" description="MobileID" class="edge max-w-90">}}
 </div>
@@ -31,16 +31,16 @@ Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">MobileID</a> pui
 
 <!-- 2eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Saisissez votre numéro de téléphone. </p>
 
 <p> Vous allez ensuite recevoir un code par SMS au numéro indiqué, saisissez le code reçu. </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="saisie_tel_fr.png" description="Code SMS" class="edge max-w-90">}}
 </div>
@@ -63,16 +63,16 @@ La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile 
 
 <!-- 3eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Si votre carte SIM est incompatible, le message suivant s'affichera sur votre tableau de bord Mobile ID.
 {{<insertImage image="sim_incompatible_fr.png" description="Code SMS" class="edge max-w-90">}}
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 Si votre carte SIM est compatible, le message suivant s'affichera sur votre tableau de bord Mobile ID.
 {{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="edge max-w-90">}}
@@ -88,14 +88,14 @@ Si votre carte SIM est compatible, voici les étapes à suivre:
 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Cliquez sur "activer" dans la case "activer Mobile ID". 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="activer_mobile_id.png" description="activer MobileID" class="edge max-w-90">}}
 </div>
@@ -106,14 +106,14 @@ Cliquez sur "activer" dans la case "activer Mobile ID".
 
 <!-- 5eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Sélectionnez la case "SIM, puis cliquez sur "suivant".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="choix_sim.png" description="Choix carte SIM" class="edge max-w-90">}}
 </div>
@@ -124,14 +124,14 @@ Sélectionnez la case "SIM, puis cliquez sur "suivant".
 
  <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Acceptez les conditions d'utilisations puis cliquez sur "suivant".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="cond_utilisation_fr.png" description="Conditions d'utilisation" class="edge max-w-90">}}
 </div>
@@ -142,14 +142,14 @@ Acceptez les conditions d'utilisations puis cliquez sur "suivant".
 
   <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez déjà un. Si ce n’est pas le cas ou si vous ne connaissez pas votre code de restauration, choisissez l’option «Je voudrais continuer sans l’option de restauration». Cliquez sur «suivant», puis validez votre choix en cliquant à nouveau sur «suivant».
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="choix_recup.png" description="Possibilité récupération" class="edge max-w-90">}}
 </div>

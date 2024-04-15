@@ -16,16 +16,16 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <!-- 1ere paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>Per avviare l'identificazione video, accedere al proprio account <a href="https://www.myaccount-r.eiam.admin.ch/">eIAM</a> con CH-LOGIN, quindi accedere alla scheda "Login e sicurezza". </p>
 
 <p>Scorrere fino a "Gestisci l'autenticazione a due fattori", quindi fare clic su "Seleziona un secondo fattore" nella casella "Verifica un secondo fattore".  </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="edge max-w-90">}}              <!-- ATTENTION image en français -->
 </div>
@@ -36,16 +36,16 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <!-- 2ème paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Selezionare il Mobile ID e fare clic su "Continua". </p>
 
 <p> Confermare la scelta facendo clic su "Verifica". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="selection_mobileid.png" description="Choix connexion" class="edge max-w-90">}}                <!-- ATTENTION image en français -->
 </div>
@@ -56,16 +56,16 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <!-- 3ème paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Inserire la password e fare clic su "Continua". </p>
 
 <p> Fare nuovamente clic su "Continua" per avviare il processo di autenticazione video. </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="edge max-w-90">}}               <!-- ATTENTION image en français -->
 </div>  
@@ -76,16 +76,16 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <!-- 4ème paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Inserite i vostri dati personali. Assicuratevi di inserire esattamente le stesse informazioni che figurano sui vostri documenti d'identità. </p>
 
 <p> Spuntate la casella "Accetto che i miei dati vengano trasmessi a ...", quindi cliccate su "Continua". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="edge max-w-90">}}                  <!-- ATTENTION image en français -->
 </div>
@@ -96,16 +96,16 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <!-- 5ème paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Rileggete i vostri dati personali. Assicuratevi di aver inserito esattamente le stesse informazioni riportate sui vostri documenti d'identità. Se necessario, correggete le informazioni tornando indietro.</p>
 
 <p> Se tutte le informazioni sono corrette, fare clic su "Continua". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="controle_infos.png" description="Choix connexion" class="edge max-w-90">}}                <!-- ATTENTION image en français -->
 </div>
@@ -116,16 +116,16 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <!-- 6ème paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Siete stati reindirizzati al sito web di Adnovum per poter effettuare l'identificazione video.</p>
 
 <p> Spuntare le caselle "Confermo di aver letto e compreso le condizioni di utilizzo e dichiaro di accettarle" e "Ho letto le norme sulla protezione dei dati", quindi fare clic su "Avvia identificazione video". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="condition_adn.png" description="Choix connexion" class="edge max-w-90">}}             <!-- ATTENTION image en français -->
 </div>
@@ -136,16 +136,16 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <!-- 7ème paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Per il pagamento dell'identificazione video avete due possibilità: I voucher o il pagamento tradizionale. </p>
 
 <p> Selezionate l'opzione che fa per voi e seguite le istruzioni sullo schermo. </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="paiement_video.png" description="Choix connexion" class="edge max-w-90">}}                <!-- ATTENTION image en français -->
 </div>
@@ -159,9 +159,9 @@ Riceverete la conferma che il pagamento è stato ricevuto e potrete quindi inizi
 &nbsp;
 
 <!-- 8ème paire de colonnes -->
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> È possibile utilizzare la webcam del computer per effettuare l'identificazione video. </p>
 
@@ -169,7 +169,7 @@ Riceverete la conferma che il pagamento è stato ricevuto e potrete quindi inizi
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 <p> Oppure utilizzare lo smartphone o il tablet per effettuare l'identificazione. </p>
 
@@ -179,15 +179,15 @@ Riceverete la conferma che il pagamento è stato ricevuto e potrete quindi inizi
 </div>
 
 <!-- 8ème paire de colonnes bis -->
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Per farlo, spuntare tutte le caselle sullo schermo e seguire le istruzioni. </p>
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 <p> A tal fine, scansionare il codice QR sullo schermo e installare l'applicazione. Una volta entrati nell'applicazione, inserire il numero di identificazione e seguire le istruzioni. </p>
 </div>
@@ -202,13 +202,13 @@ Sarete messi in contatto video con qualcuno che verificherà la vostra identità
 
 <!-- 9ème paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Una volta completata l'identificazione video, il vostro Mobile ID apparirà con il livello di confidenza "Verificato". </p>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="edge max-w-90">}}              <!-- ATTENTION image en français -->
 </div>

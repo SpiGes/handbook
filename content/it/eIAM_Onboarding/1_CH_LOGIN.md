@@ -9,14 +9,14 @@ type: docs
 
 Il CH-LOGIN è una procedura di login fornita dal servizio standard eIAM dell'Amministrazione federale. Il conteggio del CH-LOGIN può essere utilizzato per diverse applicazioni dell'Amministrazione federale.
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Andate su <a href="https://www.myaccount-r.eiam.admin.ch/">Il mio account eIAM</a> e selezionate la casella <strong>CH-LOGIN & AGOV (eGovernment)</strong> nelle opzioni di accesso.
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="ecran_choix_connexion_IT.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
@@ -27,14 +27,14 @@ Andate su <a href="https://www.myaccount-r.eiam.admin.ch/">Il mio account eIAM</
 
 <!-- Deuxième paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti cliccate su "creare un account".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
@@ -44,9 +44,9 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 &nbsp; 
 <!-- 3eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Inserite i vostri dati personali. Assicuratevi di inserire le stesse informazioni riportate sui vostri documenti d'identità. </p>
 
@@ -55,7 +55,7 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 <p> Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Avanti". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="saisie_info_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
@@ -65,16 +65,16 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 &nbsp; 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Ora riceverete un codice di conferma all'indirizzo e-mail inserito. </p>
 
 <p> Inserire il codice di conferma e premere "Continua". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="code_conf_fr.png" description="Choix connexion" class="edge max-w-90">}}  <!-- ATTENTION image en français -->
 </div>

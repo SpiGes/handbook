@@ -45,9 +45,9 @@ Dans certains cas, le canton géographique d'un site et celui administratif de l
 
 Exemple: 
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> <ol>
   <li> Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers. </li>
@@ -58,7 +58,7 @@ Exemple:
 <p> Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.  </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
 </div>

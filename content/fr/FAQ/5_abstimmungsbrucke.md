@@ -31,7 +31,7 @@ Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoi
 <li> Il ne s'agit que d'un relevé test de SwissDRG SA. Si le passage définitif à OCP devait avoir lieu, les coûts d'utilisation des immobilisations par centre de charges dans SpiGes seraient livrés selon OCP au lieu de REKOLE® et les coûts d'utilisation des immobilisations REKOLE® seraient relevés sous forme de somme. </li>
 
 <li> En résumé, les coûts d’utilisation des immobilisations doivent être représentés selon les méthodes suivantes :
-<table style="width:100%">
+<table class="w-100"">
   <tr>
     <th style="width:65%"> Variables </div></th>
     <th> Méthodologie CUI </th>

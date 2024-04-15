@@ -13,14 +13,14 @@ Folgen Sie den nachstehenden Schritten, um die Mobile ID zu aktivieren.
 
 <!-- 1ere paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Gehen Sie auf die Website von <a href="https://www.mobileid.ch/fr">MobileID</a> und wählen Sie "jetzt probieren". 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="mobile_id_de.png" description="MobileID" class="edge max-w-90">}} 
 </div>
@@ -31,16 +31,16 @@ Gehen Sie auf die Website von <a href="https://www.mobileid.ch/fr">MobileID</a> 
 
 <!-- 2eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Geben Sie Ihre Telefonnummer ein. </p>
 
 <p> Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erhaltenen Code ein. </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="saisie_tel_de.png" description="Code SMS" class="edge max-w-90">}} 
 </div>
@@ -63,16 +63,16 @@ Die Kompatibilität Ihrer SIM-Karte wird auf Ihrem Mobile ID Dashboard angezeigt
 
 <!-- 3eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Wenn Ihre SIM-Karte nicht kompatibel ist, wird die folgende Nachricht auf Ihrem Mobile ID Dashboard angezeigt.
 {{<insertImage image="sim_incompatible_fr.png" description="Code SMS" class="edge max-w-90">}}  <!-- Image en français -->
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 Wenn Ihre SIM-Karte kompatibel ist, wird die folgende Nachricht auf Ihrem Mobile ID Dashboard angezeigt.
 {{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="edge max-w-90">}}  <!-- Image en français -->
@@ -88,14 +88,14 @@ Wenn Ihre SIM-Karte kompatibel ist, gehen Sie wie folgt vor:
 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Klicken Sie auf "Aktivieren" im Feld "Mobile ID aktivieren".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="activer_mobile_id.png" description="activer MobileID" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
@@ -106,14 +106,14 @@ Klicken Sie auf "Aktivieren" im Feld "Mobile ID aktivieren".
 
 <!-- 5eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Wählen Sie das Feld "SIM" und klicken Sie dann auf "Weiter".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="choix_sim.png" description="Choix carte SIM" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
@@ -124,14 +124,14 @@ Wählen Sie das Feld "SIM" und klicken Sie dann auf "Weiter".
 
  <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Akzeptieren Sie die Nutzungsbedingungen und klicken Sie auf "Weiter".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="cond_utilisation_fr.png" description="Conditions d'utilisation" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
@@ -142,14 +142,14 @@ Akzeptieren Sie die Nutzungsbedingungen und klicken Sie auf "Weiter".
 
   <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Sie haben jetzt die Möglichkeit, eine Mobile ID wiederherzustellen, wenn Sie bereits eine hatten. Wenn dies nicht der Fall ist oder Sie Ihren Wiederherstellungscode nicht kennen, wählen Sie die Option "Ich möchte ohne die Wiederherstellungsoption fortfahren". Klicken Sie auf "Weiter" und bestätigen Sie Ihre Wahl durch erneutes Klicken auf "Weiter".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="choix_recup.png" description="Possibilité récupération" class="edge max-w-90">}}  <!-- Image en français -->
 </div>

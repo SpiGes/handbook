@@ -681,3 +681,19 @@ img.img_full{
         @extend %collapsible-button;
     }
 }
+
+.two_column{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center
+}
+
+.left_col{
+    flex: 1; 
+    padding-right: 10px;
+}
+
+.right_col{
+    flex: 1; 
+    padding-left: 10px;
+}

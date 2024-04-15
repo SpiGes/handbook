@@ -12,7 +12,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="falldunabhangig
 1. Comment saisir les coûts et les revenus des prestations d'intérêt général dans SpiGes ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Pour ce faire, il suffit de sélectionner sous ktr_typ le code de la prestation PIG correspondante et de saisir les coûts et les revenus correspondants à l'aide des numéros de charge par nature ou de centre de charges et des comptes de revenus définis dans REKOLE®®. Ci-dessous vous trouvez la liste des différents types de PIG et le code ktr_typ correspondant :
-<table style="width:100%">
+<table class="w-100"">
   <tr>
     <th style="width:20%"> Code </div></th>
     <th> GWL </th>

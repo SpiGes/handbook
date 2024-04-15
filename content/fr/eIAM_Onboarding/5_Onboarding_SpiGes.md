@@ -11,16 +11,16 @@ Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre
 
 <!-- 1ere paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Sélectionnez votre code d'onboarding et copiez le à l'aide du clic droit, puis cliquez sur le lien de cloture d'onboarding. </p>
 
 <p> Connectez vous à l'aide de votre CH-LOGIN. </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="mail_onboarding.png" class="edge max-w-90">}} 
 </div>
@@ -31,14 +31,14 @@ Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre
 
 <!-- Deuxième paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Collez maintenant votre code d'onboarding, puis cliquez sur "envoyer le code d'enregistrement". 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="enregistrement.png" class="edge max-w-90">}}
 </div>

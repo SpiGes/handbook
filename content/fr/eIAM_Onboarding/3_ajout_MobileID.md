@@ -15,16 +15,16 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <!-- 1ere paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Connectez vous à votre <a href="https://www.myaccount.eiam.admin.ch/">Mon compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
 <p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="modif_parametres_fr.png" description="modification paramètres" class="edge max-w-90">}}
 </div>
@@ -35,14 +35,14 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <!-- 2eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="activation_param.png" description="Activation paramètres avancés" class="edge max-w-90">}}
 </div>
@@ -53,9 +53,9 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <!-- 3eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus. </p>
 
@@ -63,7 +63,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="ajout_facteur_fr.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
@@ -74,14 +74,14 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
@@ -92,14 +92,14 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <!-- 5eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Saisissez le code MIO suivant: 16783, puis cliquez sur "enregistrer". 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="code_mio.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
@@ -110,14 +110,14 @@ Saisissez le code MIO suivant: 16783, puis cliquez sur "enregistrer".
 
 <!-- 6eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Entrez votre mot de passe, puis cliquez sur "continuer".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge max-w-90">}}
 </div>
@@ -128,14 +128,14 @@ Entrez votre mot de passe, puis cliquez sur "continuer".
 
 <!-- 7eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "continuer".
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge max-w-90">}}
 </div>
@@ -146,14 +146,14 @@ Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "
 
 <!-- 8eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cliquez sur «enregistrer».
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>

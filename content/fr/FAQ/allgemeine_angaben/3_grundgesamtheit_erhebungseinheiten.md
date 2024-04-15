@@ -30,7 +30,7 @@ Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/IDENT) avec 1
 
 3. Quels sont les termes synonymes d'entreprise hospitalière, d'hôpital et de site hospitalier utilisés dans l'enquête SpiGes ?
 {{<collapsibleBlock groupId="GGH">}}
-<table style="width:100%">
+<table class="w-100"">
   <tr>
     <th style="width:50%"> Niveau </div></th>
     <th> Termes synonymes </th>
