@@ -30,7 +30,7 @@ In der Kostenträgerrechnung von SpiGes lassen sich die Kosten der übers Jahr a
 <li>	Es handelt sich hierbei lediglich um eine Testerhebung der SwissDRG AG. Sollte der definitive Wechsel zu VKL erfolgen, würden die Anlagenutzungskosten pro Kostenstelle in SpiGes nach VKL statt nach REKOLE erhoben werden und die REKOLE-Anlagenutzungskosten als Summe. </li>
 
 <li>	Zusammengefasst sind die Anlagenutzungskosten nach folgenden Methoden abzubilden:
-<table class="w-100"">
+<table class="w-100">
   <tr>
     <th style="width:65%"> Variablen </div></th>
     <th> ANK-Methodik </th>

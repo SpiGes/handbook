@@ -27,7 +27,7 @@ ND I79.2* Periphere Angiopathie bei anderenorts klassifizierten Krankheiten <br 
 ND H36.0* Retinopathia diabetica <br />
 ND N08.3* Glomeruläre Krankheiten bei Diabetes mellitus <br />
 …wird wie folgt in <b>SpiGes</b> erfasst: <br />
-<table class="w-100"">
+<table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
     <th> diagnose_id </th>
@@ -65,7 +65,7 @@ ND S36.03 Rissverletzung der Milz mit Beteiligung des Parenchyms <br />
 ND S36.49 Verletzung sonstiger und mehrerer Teile des Dünndarmes <br />
 ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des Beckens) mit Verbindung zu einer intraabdominalen Verletzung <br />
 …wird wie folgt in SpiGes erfasst: <br />
-<table class="w-100"">
+<table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
     <th> diagnose_id </th>

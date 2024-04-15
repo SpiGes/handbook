@@ -12,7 +12,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="falldunabhangige"
 1. Wie lassen sich die Kosten und Erlöse der gemeinwirtschaftlichen Leistungen in SpiGes erfassen?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Dazu wählen Sie unter ktr_typ den passenden Code der entsprechenden GWL Leistung aus und tragen die entsprechenden Kosten und Erlöse anhand den in REKOLE® definierten Kostenarten-, bzw. Kostenstellennummern und Erlöskonten ein. Anbei die Liste der unterschiedlichen GWL Typen und dem entsprechenden ktr_typ Code:
-<table class="w-100"">
+<table class="w-100">
   <tr>
     <th style="width:20%"> Code </div></th>
     <th> GWL </th>

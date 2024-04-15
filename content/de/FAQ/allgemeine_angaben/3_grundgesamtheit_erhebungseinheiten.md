@@ -30,7 +30,7 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
 
 3. Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Spital und Spitalstandort verwendet?
 {{<collapsibleBlock groupId="GGH">}}
-<table class="w-100"">
+<table class="w-100">
   <tr>
     <th style="width:50%"> Ebene </div></th>
     <th> Begriffe synonym </th>
