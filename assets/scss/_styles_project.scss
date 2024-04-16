@@ -634,11 +634,24 @@ a {
     max-width: 80%;
 }
 
+img.edge{
+    border: 2px solid gray;
+}
+
+.max-w-90{
+    max-width: 90%;
+}
+
+img.img_full{
+    max-width: 950px;
+}
+
+
 @mixin collapsible-button-hover-effect {
     &:hover {
       text-decoration: underline;
     }
-  }
+}
 
 %collapsible-button {
     padding: 5px 10px;
@@ -667,4 +680,20 @@ a {
     .collapsible-block__button {
         @extend %collapsible-button;
     }
+}
+
+.two_column{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center
+}
+
+.left_col{
+    flex: 1; 
+    padding-right: 10px;
+}
+
+.right_col{
+    flex: 1; 
+    padding-left: 10px;
 }

@@ -1,5 +1,5 @@
 ---
-title: SpiGes
+title: Manuel SpiGes
 slug: introduction
 description: 'SpiGes'
 keywords: []
@@ -7,6 +7,8 @@ weight: 0
 type: docs
 ---
 
-Bienvenu dans manuel de SpiGes
+Bienvenue dans le manuel de la plateforme de relevé SpiGes 
 
-La documentation en cours de construction. Bonjour
+{{<alert color="info">}}
+La documentation est en cours de construction.
+{{</alert>}}
