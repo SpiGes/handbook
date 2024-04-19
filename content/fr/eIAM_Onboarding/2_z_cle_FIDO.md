@@ -79,9 +79,91 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 </div>
 
+&nbsp; 
+
+<!-- 4eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+Choisissez l'option "Passkey (FIDO)" et cliquez sur "Continuer".
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="choix_fido_fr.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+<!-- 6eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+Entrez votre mot de passe, puis cliquez sur "continuer".
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="fido_mdp_fr.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp; 
+
+<!-- 7eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "continuer".
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;
+
+<!-- 8eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+Nommez votre passkey (FIDO), puis cliquez sur "continuer".
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="nom_fido_fr.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;
+
+Insérez votre clé FIDO dans votre ordinateur, puis choisissez "clé de sécurité" dans les options proposées. 
+
+Si cela est la première fois que vous utilisez votre passkey FIDO, il faudra la configurer. Pour cela, veuillez cliquer sur "ok" puis définir un code PIN pour votre passkey FIDO. 
+
+Pour finir appuyez sur le bouton sur votre passkey FIDO (selon les modèles de clé, il se peut que l'action à effectuer soit simplement toucher la clé). 
+
+<!-- 
 Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 
 
-Une fois votre clé FIDO enregistrée comme second facteur fort de votre CH-LOGIN, vous pouvez ensuite effectuer l'identification vidéo pour votre clé FIDO. 
-
 Les explications concernant l'identification vidéo pour la clé FIDO ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=fr). 
+-->
+
+Une fois votre clé FIDO enregistrée comme second facteur fort de votre CH-LOGIN, vous pouvez ensuite effectuer l'identification vidéo pour votre clé FIDO. Pour cela, passez à l'étape de l'identification vidéo.
 
