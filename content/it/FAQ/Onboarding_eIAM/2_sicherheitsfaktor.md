@@ -17,6 +17,7 @@ Per accedere alla piattaforma SpiGes è necessario un secondo fattore forte. Son
 2. L'identificazione video è obbligatoria per l'utilizzo della piattaforma di indagine SpiGes?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 Sì, senza identificazione video non si raggiunge la QoA 50 (Qualità dell'autenticazione), necessaria per accedere alla piattaforma della rilevazione SpiGes. Per raggiungere questo livello di qualità dell'autenticazione, l'utente deve avere un'identità elettronica verificata e non solo autoregistrata.
+{{</collapsibleBlock>}}
 
 3. Che cos'è un'identità verificata e cosa bisogna fare per ottenerla?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
