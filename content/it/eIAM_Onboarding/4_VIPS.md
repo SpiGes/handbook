@@ -40,7 +40,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Selezionare il Mobile ID e fare clic su "Continua". </p>
+<p> Selezionare il secondo fattore da controllare (Mobile ID o una passkey FIDO) e fare clic su "Continua". </p>
 
 <p> Confermare la scelta facendo clic su "Verifica". </p>
 </div>
@@ -206,7 +206,7 @@ Sarete messi in contatto video con qualcuno che verificherà la vostra identità
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Una volta completata l'identificazione video, il vostro Mobile ID apparirà con il livello di confidenza "Verificato". </p>
+<p> Una volta completata l'identificazione video, il vostro secondo fattore apparirà con il livello di confidenza "Verificato". </p>
 
 <div class="right_col">
 <!-- Second column content goes here -->
