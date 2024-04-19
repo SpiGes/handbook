@@ -1,5 +1,5 @@
 ---
-title: Données générales 
+title: Indicazioni generali  
 slug: allgemeine_angaben
 description: " "
 weight: 10
@@ -8,5 +8,5 @@ keywords: []
 ---
 
 {{<alert color="info">}}
-La documentation est en cours de construction.
+La documentazione è attualmente in fase di costruzione.
 {{</alert>}}

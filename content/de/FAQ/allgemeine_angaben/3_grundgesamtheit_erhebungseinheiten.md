@@ -25,7 +25,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="GGH">}}
 <li>	Ein Spitalstandort ist mit der BUR-Nr. eindeutig gekennzeichnet und gehört immer zu genau einem Spitalunternehmen. </li>
 </ul>
 Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitälern (BURGESV) und 14 Standorten (BUR) :
-{{<insertImage image="tableauFAQ1.png"  class="taille">}}
+{{<insertImage image="tableauFAQ1.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}
 
 3. Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Spital und Spitalstandort verwendet?

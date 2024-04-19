@@ -1,5 +1,5 @@
 ---
-title: Coûts et produits non reliées à un cas 
+title:	Costi e ricavi non legati ai casi 
 slug: falldunabhangige
 description: " "
 weight: 40
@@ -7,111 +7,112 @@ type: docs
 keywords: []
 ---
 
-Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
+Aprire tutte le domande: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
-1. Comment saisir les coûts et les revenus des prestations d'intérêt général dans SpiGes ?
+1. Come possono essere registrati i costi e i ricavi delle prestazioni economicamente d’interesse generale (PEIG) in SpiGes?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Pour ce faire, il suffit de sélectionner sous ktr_typ le code de la prestation PIG correspondante et de saisir les coûts et les revenus correspondants à l'aide des numéros de charge par nature ou de centre de charges et des comptes de revenus définis dans REKOLE®®. Ci-dessous vous trouvez la liste des différents types de PIG et le code ktr_typ correspondant :
+Per la registrazione, selezionare il codice appropriato per le relative prestazioni PEIG sotto ktr_typ e inserire i relativi costi e ricavi utilizzando i numeri dei tipi di costo o dei centri di costo e i conti dei ricavi definiti in REKOLE®. In allegato l’elenco dei diversi tipi di PEG e il relativo codice ktr_typ:
 <table class="w-100">
   <tr>
-    <th style="width:20%"> Code </div></th>
-    <th> GWL </th>
+    <th style="width:20%"> Codice </div></th>
+    <th> PEIG </th>
     <th style="width:60%"> Désignation </th>
   </tr>
   <tr>
     <td> 501 </td>
-    <td> Typ a) </td>
-    <td> Prestations en attente (exclus prestations en attente pour l’urgence) </td>
+    <td> Tipo a) </td>
+    <td> Prestazioni a disposizione (escluse prestazioni a disposizione per urgenze) </td>
   </tr>
   <tr>
     <td> 502 </td>
-    <td> Typ a) </td>
-    <td> Service de sauvetage et d’ambulance / Appel d’urgence 144 </td>
+    <td> Tipo a) </td>
+    <td> Servizio di salvataggio e di ambulanza / centrale di allarme 144 </td>
   </tr>
   <tr>
     <td> 503 </td>
-    <td> Typ a) </td>
-    <td> Unités d’hôpital protégées </td>
+    <td> Tipo a) </td>
+    <td> Reparti ospedalieri protetti </td>
   </tr>
   <tr>
     <td> 504 </td>
-    <td> Typ a) </td>
-    <td> Jardins d’enfants et écoles pour les patients </td>
+    <td> Tipo a) </td>
+    <td> Scuole dell’infanzia e scuole per pazienti </td>
   </tr>
   <tr>
     <td> 505 </td>
-    <td> Typ a) </td>
-    <td> Services sociaux pour patients </td>
+    <td> Tipo a) </td>
+    <td> Prestazioni dei servizi sociali per pazienti </td>
   </tr>
   <tr>
     <td> 506 </td>
-    <td> Typ a) </td>
-    <td> Prévention / promotion de la santé </td>
+    <td> Tipo a) </td>
+    <td> Prevenzione / promozione della salute </td>
   </tr>
   <tr>
     <td> 507 </td>
-    <td> Typ a) </td>
-    <td> Protection de la population </td>
+    <td> Tipo a) </td>
+    <td> Protezione della popolazione </td>
   </tr>
   <tr>
     <td> 508 </td>
-    <td> Typ a) </td>
-    <td> Aumônerie hospitalière / lieu de recueillement </td>
+    <td> Tipo a) </td>
+    <td> Assistenza spirituale / cappella ecumenica </td>
   </tr>
   <tr>
     <td> 599 </td>
-    <td> Typ a) </td>
-    <td> Autres missions de l’hôpital </td>
+    <td> Tipo a) </td>
+    <td> Ulteriori compiti speciali </td>
   </tr>
   <tr>
     <td> 601 </td>
-    <td> Typ b) </td>
-    <td> Recherche, y compris le doctorat (MD et PhD) </td>
+    <td> Tipo b) </td>
+    <td> Ricerca, compreso il dottorato (MD e PhD) </td>
   </tr>
   <tr>
     <td> 602 </td>
-    <td> Typ b) </td>
-    <td> Formation universitaire de base (enseignement dispensé et formation reçue) </td>
+    <td> Tipo b) </td>
+    <td> Formazione universitaria di base (insegnamento impartito e formazione ricevuta) </td>
   </tr>
   <tr>
     <td> 603 </td>
-    <td> Typ b) </td>
-    <td> Enseignement dispensé en formation postgraduée </td>
+    <td> Tipo b) </td>
+    <td> Insegnamento impartito nel perfezionamento professionale </td>
   </tr>
   <tr>
     <td> 701 </td>
     <td> Typ c) </td>
-    <td> Maintien de surcapacités hospitalières pour des raisons de politiques régionales </td>
+    <td> Mantenimento di sovracapacità ospedaliere per motivi di politica regionale </td>
   </tr>
   <tr>
     <td> 702 </td>
     <td> Typ c) </td>
-    <td> Maternité </td>
+    <td> Maternità </td>
   </tr>
   <tr>
     <td> 703 </td>
     <td> Typ c) </td>
-    <td> Tarifs ne couvrant pas les coûts (par ex. TARMED.) </td>
+    <td> Tariffe che non coprono i costi (ad es. TARMED) </td>
   </tr>
   <tr>
     <td> 799 </td>
     <td> Typ c) </td>
-    <td> Autres prestations d'intérêt général liées à l'hôpital </td>
+    <td> Ulteriori prestazioni economicamente d'interesse generale legate agli ospedali </td>
   </tr>
 </table>
 {{</collapsibleBlock>}}
 
-2. Les objets de coûts non reliés à un cas peuvent-ils être rattachés à un hôpital (burnr_gesv) au lieu d'un site ? 
+2. Le unità di imputazione indipendenti dal caso possono essere collegate a un ospedale (burnr_gesv) invece che a una sede? 
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Non, ce n'est pas possible. 
+No, non è possibile. 
 {{</collapsibleBlock>}}
 
-3. Peut-on utiliser les types KTR plusieurs fois ? Par exemple, pour 599, livrer plusieurs lignes avec un texte libre différent dans la variable «ktr_beschr» ?
+3. I tipi UFI possono essere utilizzati più di una volta? Ad esempio, per 599 consegnare più righe con testo libero diverso nella variabile «ktr_beschr»?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Oui, c'est possible. Une unité finale d’imputation est attribuée à une colonne ITAR_K® sur la base de l'indication «ktr_typ». Ainsi, une des valeurs prédéfinies doit être utilisée dans la variable «ktr_typ». Il est toutefois possible d'indiquer plusieurs unités finales d’imputation avec le même type de KTR, par exemple pour le ktr_typ 205, une fois avec le texte libre «LAMal» et une fois avec le texte libre «CTM» dans la variable «ktr_beschr». Ces deux objets de coûts sont ensuite additionnés et représentés dans la colonne ITAR_K® «Psy. Hôpital de jour enfants, adolescents». En théorie, d'autres déclinaisons sont techniquement possibles, jusqu’au cas ambulatoire. Tant qu'ils présentent tous le même type KTR, ils sont additionnés et représentés comme décrit.
+Sì, è possibile. Sulla base dell’indicazione «ktr_typ» viene assegnate un’unità di imputazione di una colonna ITAR_K®. Ciò significa che nella variabile «ktr_typ» deve essere utilizzato uno dei valori predefiniti. Tuttavia, è possibile indicare più unità di imputazione con lo stesso tipo di UFI, ad esempio per ktr_typ 205 una volta con il testo libero «LAMal» e una volta con il testo libero «CTM» nella variabile «ktr_beschr». Queste due unità di imputazione vengono poi sommate e riportate nella colonna ITAR_K® «Ospedali di giorno psichiatria infantile e adolescenziale». In teoria, sono tecnicamente possibili anche altre suddivisioni, ad eccezione del caso ambulatoriale. Se hanno tutti lo stesso tipo UFI, vengono sommati e raffigurati come descritto. 
+
 {{</collapsibleBlock>}}
 
-4. La partie CUFI est-elle également attendue pour les cas ambulatoires ou se rapporte-t-elle également exclusivement aux cas hospitaliers ?
+4. La parte KTR è prevista anche per i casi ambulatoriali o si riferisce esclusivamente ai casi di ricovero?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Pour pouvoir remplir ITAR_K®, les coûts des cas ambulatoires sont remplis sommairement par type de CUFI (p. ex. Tarif Dialyse).
+Per poter completare un ITAR_K, i costi dei casi ambulatoriali sono riassunti per tipo di KTR (ad esempio, tariffa per la dialisi).
 {{</collapsibleBlock>}}
