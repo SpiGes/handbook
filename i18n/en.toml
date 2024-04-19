@@ -9,7 +9,7 @@ other = "Home"
 [project_text]
 other = "SpiGes"
 [project_link]
-other = "https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html"
+other = "https://www.spiges.admin.ch"
 [click_to_expand]
 other = "Click here to expand..."
 [click_to_collapse]
