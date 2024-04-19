@@ -23,7 +23,7 @@ eIAM supporta i seguenti tipi di token FIDO per CH-LOGIN:
 - Autenticatore Feitian BioPass FIDO2
 
 
-## Enregistrement d'une clé FIDO sur votre CH_LOGIN
+## Registrazione di una key FIDO sul proprio CH_LOGIN
 
 &nbsp;
 
@@ -92,7 +92,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div class="left_col">
 <!-- First column content goes here -->
-Scegliere l'opzione "Passkey (FIDO)" e fare clic su "Continua".
+Scegliere l'opzione "Passkey (FIDO)" e fare clic su "Avanti".
 </div>
 
 <div class="right_col">
@@ -110,7 +110,7 @@ Scegliere l'opzione "Passkey (FIDO)" e fare clic su "Continua".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Immettere la password, quindi fare clic su "continua".
+Immettere la password, quindi fare clic su "Avanti".
 </div>
 
 <div class="right_col">
@@ -128,7 +128,7 @@ Immettere la password, quindi fare clic su "continua".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua".
+Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "Avanti".
 </div>
 
 <div class="right_col">
@@ -147,7 +147,7 @@ Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua
 
 <div class="left_col">
 <!-- First column content goes here -->
-Assegnare un nome alla chiave di accesso (FIDO), quindi fare clic su "continua".
+Assegnare un nome alla chiave di accesso (FIDO), quindi fare clic su "Avanti".
 </div>
 
 <div class="right_col">
