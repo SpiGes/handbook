@@ -1,19 +1,28 @@
 ---
-title: Ajout du Mobile ID comme deuxième facteur
-slug: mobile_id_add
-description: 'Sur cette page, nous vous expliquons comment ajouter le Mobile ID comme deuxième facteur au CH-Login. Cela vous permettra de vérifier votre identité lors de la connexion à eIAM.'
+title: Clé FIDO
+slug: FIDO_key
+description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation de clé de sécurité physique FIDO comme second facteur de sécurité."
 keywords: []
 weight: 30
 type: docs
 ---
 
-Cette étape permet d'ajouter le Mobile ID au CH-Login en tant que second facteur fort.
-<!-- 
-Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le supprimer d'abord. Pour ce faire, cliquez sur Supprimer dans l’encadré Numéro mobile (mTAN). Vous pouvez ensuite suivre les instructions mentionnées ci-dessus pour enregistrer l'ID mobile comme second facteur (fort).
--->
-&nbsp;
+Si vous ne pouvez pas ou ne souhaitez pas utiliser le Mobile ID, vous pouvez également utiliser une clé de sécurité FIDO comme second facteur de sécurité fort. 
 
-<!-- 1ere paire de colonnes -->
+{{<alert color="warning">}}
+Nous vous demandons si possible d'utiliser le Mobile ID. L'aquisition d'une clé FIDO est à vos frais. 
+{{</alert>}}
+
+Les jetons FIDO sont des supports de données qui peuvent prendre la forme d'une clé USB et qui contiennent du matériel cryptographique.
+
+eIAM supporte les types de clé FIDO suivants pour le CH-LOGIN:
+- YubiKey 5 FIPS Series with NFC
+- YubiKey 5 Series
+- YubiKey 5 Series with NFC
+- Security Key par Yubico avec NFC
+- Feitian BioPass FIDO2 Authenticator
+
+## Enregistrement d'une clé FIDO sur votre CH_LOGIN
 
 <div class="two_column">
 
@@ -78,30 +87,12 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
+Choisissez l'option "Passkey (FIDO)" et cliquez sur "Continuer".
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid.png" description="ajout second facteur" class="edge max-w-90">}}
-</div>
-
-</div>
-
-&nbsp; 
-
-<!-- 5eme paire de colonnes -->
-
-<div class="two_column">
-
-<div class="left_col">
-<!-- First column content goes here -->
-Saisissez le code MIO suivant: 16783, puis cliquez sur "enregistrer". 
-</div>
-
-<div class="right_col">
-<!-- Second column content goes here -->
-{{<insertImage image="code_mio.png" description="ajout second facteur" class="edge max-w-90">}}
+{{<insertImage image="choix_fido_fr.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -119,7 +110,7 @@ Entrez votre mot de passe, puis cliquez sur "continuer".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge max-w-90">}}
+{{<insertImage image="fido_mdp_fr.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -150,19 +141,29 @@ Choisissez 3 quesions de sécurité, remplissez leur réponse puis cliquez sur "
 
 <div class="left_col">
 <!-- First column content goes here -->
-Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cliquez sur «enregistrer».
+Nommez votre passkey (FIDO), puis cliquez sur "continuer".
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}}
+{{<insertImage image="nom_fido_fr.png" class="edge max-w-90">}}
 </div>
 
 </div>
 
 &nbsp;
 
-Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID. 
+Insérez votre clé FIDO dans votre ordinateur, puis choisissez "clé de sécurité" dans les options proposées. 
 
-Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}
+Si cela est la première fois que vous utilisez votre passkey FIDO, il faudra la configurer. Pour cela, veuillez cliquer sur "ok" puis définir un code PIN pour votre passkey FIDO. 
+
+Pour finir appuyez sur le bouton sur votre passkey FIDO (selon les modèles de clé, il se peut que l'action à effectuer soit simplement toucher la clé). 
+
+<!-- 
+Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 
+
+Les explications concernant l'identification vidéo pour la clé FIDO ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=fr). 
+-->
+
+Une fois votre clé FIDO enregistrée comme second facteur fort de votre CH-LOGIN, vous pouvez ensuite effectuer l'identification vidéo pour votre clé FIDO. Pour cela, passez à l'étape de l'identification vidéo.
+
