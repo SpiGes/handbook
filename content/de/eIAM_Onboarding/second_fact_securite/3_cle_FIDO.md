@@ -1,5 +1,5 @@
 ---
-title: Clé FIDO
+title: FIDO Token
 slug: FIDO_token
 description: "Auf dieser Seite geben wir Ihnen alle Informationen über die Verwendung von FIDO Passkeys als zweiten Sicherheitsfaktor."
 keywords: []

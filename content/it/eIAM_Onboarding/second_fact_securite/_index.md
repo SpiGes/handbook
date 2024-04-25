@@ -1,19 +1,19 @@
 ---
-title: Second facteur de sécurité
+title: Secondo fattore di sicurezza
 slug: second_fact_secu
-description: "Vous trouverez dans ce chapitre toutes les possibilités que vous avez comme second facteur de sécurité."
+description: "In questo capitolo troverete tutte le possibilità che avete come secondo fattore di sicurezza."
 keywords: []
 weight: 20
 type: docs
 ---
 
-eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d’entre eux sont considérés comme fort (condition nécessaire pour l’utilisation de SpiGes):  
-1. Le Passkey FIDO
+eIAM offre diversi fattori di sicurezza secondari, ma solo due di essi sono considerati forti (condizione necessaria per l'uso di SpiGes):  
+1. La chiave d'accesso FIDO
     - Windows Hello
-    - Clé de sécurité physique (FIDO Token)
-2. Le MobileID
+    - Chiave di sicurezza fisica (FIDO Token)
+2. MobileID
 
-Idéalement, privilégiez l’utilisation de Windows Hello sur l’ordinateur professionnel.          
-Si cela est impossible, utilisez soit le MobileID, soit une clé de sécurité physique. 
+L'ideale sarebbe utilizzare Windows Hello sul computer di lavoro.          
+Se ciò non è possibile, utilizzare MobileID o una chiave di sicurezza fisica. 
 
-**Tout accès à la plateforme SpiGes doit se faire depuis un ordinateur professionnel**
+**Tutti gli accessi alla piattaforma SpiGes devono avvenire da un computer professionale.**
