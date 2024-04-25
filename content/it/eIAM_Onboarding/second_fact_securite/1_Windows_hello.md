@@ -1,18 +1,11 @@
 ---
-title: Aggiunta del Mobile ID come secondo fattore
-slug: mobile_id_add
-description: " In questa pagina viene spiegato come aggiungere il Mobile ID come secondo fattore al CH-Login. Questo vi permetterà di verificare la vostra identità quando vi connetterete a eIAM. "
+title: Utilisation de Windows Hello
+slug: windows_hello
+description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation du Windows Hello comme second facteur de sécurité."
 keywords: []
-weight: 30
+weight: 10
 type: docs
 ---
-
-Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
-
-<!-- Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo prima. A tal fine, fate clic su Elimina nella casella Numero di cellulare (mTAN). È quindi possibile seguire le istruzioni di cui sopra per registrare l'ID cellulare come secondo fattore (forte). -->
-
-
-&nbsp;
 
 <!-- 1ere paire de colonnes -->
 
@@ -79,30 +72,12 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Scegliere l'opzione ID cellulare e fare clic su "Continua". </p>
+Scegliere l'opzione "Passkey (FIDO)" e fare clic su "Avanti".
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid_it.png" description="ajout second facteur" class="edge max-w-90">}}       
-</div>
-
-</div>
-
-&nbsp; 
-
-<!-- 5eme paire de colonnes -->
-
-<div class="two_column">
-
-<div class="left_col">
-<!-- First column content goes here -->
-Immettere il seguente codice MIO: 16783, quindi fare clic su "Salva". 
-</div>
-
-<div class="right_col">
-<!-- Second column content goes here -->
-{{<insertImage image="code_mio_it.png" description="ajout second facteur" class="edge max-w-90">}} 
+{{<insertImage image="choix_fido_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -115,12 +90,12 @@ Immettere il seguente codice MIO: 16783, quindi fare clic su "Salva".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Immettere la password, quindi fare clic su "continua".
+Immettere la password, quindi fare clic su "Avanti".
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge max-w-90">}}           <!-- ATTENTION image en français -->
+{{<insertImage image="fido_mdp_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -133,7 +108,7 @@ Immettere la password, quindi fare clic su "continua".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua".
+Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "Avanti".
 </div>
 
 <div class="right_col">
@@ -143,6 +118,7 @@ Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua
 
 </div>
 
+
 &nbsp;
 
 <!-- 8eme paire de colonnes -->
@@ -151,20 +127,42 @@ Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua
 
 <div class="left_col">
 <!-- First column content goes here -->
-Inserite il vostro numero di telefono (quello collegato al vostro Mobile ID), quindi fate clic su "Salva".
+Assegnare un nome alla chiave di accesso (FIDO), quindi fare clic su "Avanti".
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}}         <!-- ATTENTION image en français -->
+{{<insertImage image="nom_fido_it.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+<!-- 9eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+Quindi fare clic su "Avvia".
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="config_fido.png" class="edge max-w-90">}}
 </div>
 
 </div>
 
 &nbsp;
 
-Verrà visualizzato un messaggio e il telefono chiederà di confermare la connessione inserendo la password Mobile ID. 
+Si aprirà una finestra sul computer, selezionate l'opzione "Windows Hello" e scegliete uno dei mezzi di identificazione (impronta digitale, riconoscimento facciale o codice PIN). Seguire i passaggi richiesti dal computer.
 
-Una volta effettuata questa operazione, apparirà la casella "Mobile ID" come metodo di autenticazione a due fattori. 
 
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}           <!-- ATTENTION image en français -->
+<!-- 
+Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 
+
+Les explications concernant l'identification vidéo pour la clé FIDO ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=fr). 
+-->
+
+Una volta completati questi passaggi, la chiave FIDO apparirà come secondo fattore di sicurezza. È quindi possibile eseguire l'identificazione video della chiave FIDO. A tal fine, passare alla fase di identificazione video.
+
