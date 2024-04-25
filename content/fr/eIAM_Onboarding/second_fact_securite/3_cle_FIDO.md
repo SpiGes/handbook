@@ -7,7 +7,7 @@ weight: 30
 type: docs
 ---
 
-Si vous ne pouvez pas utiliser le WIndows Hello ou le Mobile ID, vous pouvez également utiliser une clé de sécurité physique FIDO comme second facteur de sécurité fort. 
+Si vous ne pouvez pas utiliser le Windows Hello ou le Mobile ID, vous pouvez également utiliser une clé de sécurité physique FIDO comme second facteur de sécurité fort. 
 
 {{<alert color="warning">}}
 Nous vous demandons si possible d'utiliser en priorité le Windows Hello et en deuxième lieu le Mobile ID. L'aquisition d'une clé FIDO est à vos frais. 

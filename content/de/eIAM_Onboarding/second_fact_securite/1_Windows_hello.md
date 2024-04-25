@@ -1,30 +1,11 @@
 ---
-title: FIDO Passkey
-slug: FIDO_key
-description: "Auf dieser Seite geben wir Ihnen alle Informationen über die Verwendung von FIDO Passkeys als zweiten Sicherheitsfaktor."
+title: Utilisation de Windows Hello
+slug: windows_hello
+description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation du Windows Hello comme second facteur de sécurité."
 keywords: []
-weight: 25
+weight: 10
 type: docs
 ---
-
-Wenn Sie die Mobile ID nicht verwenden können oder wollen, können Sie auch ein FIDO Passkey als zweiten starken Sicherheitsfaktor verwenden. 
-
-{{<alert color="warning">}}
-Wir bitten Sie, wenn möglich, die Mobile ID zu verwenden. Die Anschaffung eines FIDO-Schlüssels geht auf Ihre Kosten. 
-{{</alert>}}
-
-FIDO Passkeys sind Datenträger, z. B. in Form eines USB-Sticks welche kryptografisches Material enthalten.
-
-eIAM unterstützt folgende FIDO Passkeys Typen für das CH-LOGIN.
-- YubiKey 5 FIPS Series with NFC
-- YubiKey 5 Series
-- YubiKey 5 Series with NFC
-- Security Key by Yubico with NFC
-- Feitian BioPass FIDO2 Authenticator
-
-##  Speichern eines KEY FIDO auf Ihrem CH_LOGIN
-
-&nbsp;
 
 <!-- 1ere paire de colonnes -->
 
@@ -157,18 +138,33 @@ Geben Sie Ihrem Passkey (FIDO) einen Namen und klicken Sie dann auf "Weiter".
 </div>
 
 &nbsp;
- 
-Stecken Sie Ihren FIDO-Passkey in Ihren Computer und wählen Sie unter den angebotenen Optionen "Sicherheitsschlüssel". 
 
-Wenn dies das erste Mal ist, dass Sie Ihren FIDO Passkey verwenden, müssen Sie ihn einrichten. Klicken Sie dazu auf "ok" und legen Sie dann einen PIN-Code für Ihren FIDO Passkey fest. 
 
-Drücken Sie schließlich auf die Taste auf Ihrem FIDO-Passkey (je nach Schlüsselmodell kann es sein, dass Sie den Schlüssel nur berühren müssen). 
+<!-- 9eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+Klicken Sie dann auf "Starten".
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="config_fido.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;
+
+Auf Ihrem Computer wird sich ein Fenster öffnen. Wählen Sie die Option "Windows Hello" und wählen Sie eine der Identifikationsmöglichkeiten (Fingerabdruck, Gesichtserkennung oder PIN-Code). Befolgen Sie die von Ihrem Computer angeforderten Schritte.
+
+Sobald diese Schritte abgeschlossen sind, wird Ihr FIDO-Schlüssel als zweiter Sicherheitsfaktor angezeigt und Sie können die Video-Identifizierung für Ihren FIDO-Schlüssel durchführen. Gehen Sie dazu zum Schritt Videoidentifikation.
+
 <!-- 
-Die Erläuterungen zum Speichern des FIDO Passkeys in Ihrer CH_LOGIN sind noch nicht verfügbar. In der Zwischenzeit können Sie sich auf [diese Anleitung](https://help.eiam.swiss/?c=passkeys&l=de) beziehen.
- 
+Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 
 
-Die Erläuterungen zur Videoidentifikation für den FIDO Passkeys sind noch nicht verfügbar. In der Zwischenzeit können Sie sich auf [diese Anleitung](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=de) beziehen.
+Les explications concernant l'identification vidéo pour la clé FIDO ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=fr). 
 -->
-
-Nachdem Sie Ihren FIDO-Schlüssel als zweiten starken Faktor Ihrer CH-LOGIN registriert haben, können Sie als Nächstes die Videoidentifikation für Ihren FIDO-Schlüssel durchführen. Fahren Sie dazu mit dem Schritt Videoidentifikation fort.
 
