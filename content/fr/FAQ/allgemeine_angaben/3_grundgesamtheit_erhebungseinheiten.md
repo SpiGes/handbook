@@ -25,7 +25,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="GGH">}}
 <li> Un site hospitalier est clairement identifié par le numéro REE et appartient toujours à une seule entreprise hospitalière. </li>
 </ul>
 Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/IDENT) avec 12 hôpitaux (REEGESV) et 14 sites (REE) :
-{{<insertImage image="tableauFAQ1_fr.png"  class="taille">}}
+{{<insertImage image="tableauFAQ1_fr.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}
 
 3. Quels sont les termes synonymes d'entreprise hospitalière, d'hôpital et de site hospitalier utilisés dans l'enquête SpiGes ?
@@ -67,3 +67,7 @@ Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/IDENT) avec 1
 Un centre de prestations est une unité organisationnelle de l'hôpital dans laquelle sont fournies, entre autres, des prestations médicales, médico-techniques ou médico-thérapeutiques. L'enquête SpiGes indique dans quel centre de prestations médicales principal le patient est traité. 
 {{</collapsibleBlock>}}
 
+6. Si un hôpital a plusieurs sites, un cas est-il toujours enregistré sur un seul site, même s'il a été transféré d'un site vers un autre site du même hôpital ?
+{{<collapsibleBlock groupId="GGH">}}
+Oui, un cas est toujours enregistré sur un seul site, et ce sur le site principal (cf. variable burnr).
+{{</collapsibleBlock>}}

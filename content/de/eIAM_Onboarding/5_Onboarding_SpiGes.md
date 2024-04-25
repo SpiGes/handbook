@@ -1,7 +1,7 @@
 ---
-title: Onboarding avec SpiGes
+title: Onboarding mit SpiGes
 slug: onboarding_SpiGes
-description: "Sur cette page, nous vous expliquons comment relier votre CH-LOGIN avec SpiGes."
+description: "Auf dieser Seite erklären wir Ihnen, wie Sie Ihr CH-LOGIN mit SpiGes verbinden können."
 keywords: []
 weight: 50
 type: docs

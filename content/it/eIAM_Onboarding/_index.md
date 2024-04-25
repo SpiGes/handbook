@@ -11,11 +11,10 @@ In questo capitolo troverete tutti i passaggi da seguire per creare un profilo v
 
 Per creare un CH-login con un secondo fattore forte e un'identità verificata per l'utilizzo della piattaforma SpiGes, sono necessari i seguenti passaggi:
 
-1. Creare un login CH
-2. Attivare il Mobile ID
-3. Aggiungere il Mobile ID come secondo fattore al CH-Login
-4. Verificare l'identità del secondo fattore (Mobile ID o FIDO2 key).
-5. A bordo del login CH stabilito con SpiGes.
+1. Creare un login CH.
+2. Aggiunta di un secondo fattore di sicurezza a CH-Login.
+3. Verificare l'identità del secondo fattore.
+4. A bordo del login CH stabilito con SpiGes.
 
 Questi passaggi sono spiegati nelle pagine seguenti. Se si dispone già di un CH-Login o di un Mobile ID, non è necessario crearne uno nuovo e si può saltare il passaggio corrispondente. Tuttavia, verificate che il vostro CH-Login o Mobile ID sia funzionante.
 

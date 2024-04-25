@@ -84,4 +84,4 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 &nbsp;
 
 
-Vous avez terminé. Il faut maintenant renforcer la sécurité de votre compte avec l’authentification à deux facteurs. Pour cela, passez à l'activation du Mobile ID.
+Vous avez terminé. Il faut maintenant renforcer la sécurité de votre compte avec l’authentification à deux facteurs. 

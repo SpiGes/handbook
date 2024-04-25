@@ -12,12 +12,11 @@ In diesem Kapitel finden Sie alle Schritte, die Sie unternehmen müssen, um ein 
 Um ein CH-Login mit einem starken Zweitfaktor mit verifizierter Identität für SpiGes zu erstellen, sind folgende Schritte nötig:
 
 1.	CH-Login erstellen
-2.	Mobile ID aktivieren
-3.	Mobile ID als Zweitfaktor dem CH-Login hinzufügen
-4.	Die Identität auf dem Zweitfaktor (Mobile ID oder FIDO2-Key) verifizieren
-5.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit SpiGes
+2.	Hinzufügen eines Zweitfaktors zum CH-Login
+3.	Die Identität auf dem Zweitfaktor verifizieren
+4.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit SpiGes
 
-Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits über einen CH-Login oder eine Mobile ID verfügen, müssen Sie keinen neuen erstellen und können den entsprechenden Schritt überspringen. Vergewissern Sie sich jedoch, dass Ihr CH-Login oder Ihre Mobile ID funktionieren.
+Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits über einen CH-Login verfügen, müssen Sie keinen neuen erstellen und können den entsprechenden Schritt überspringen. Vergewissern Sie sich jedoch, dass Ihr CH-Login funktioniert.
 
 Wir empfehlen Ihnen, zunächst diese Anleitung zu lesen, bevor Sie versuchen, Ihren neuen sicheren Zugang einzurichten.
 
