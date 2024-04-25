@@ -1,13 +1,17 @@
 ---
 title: Mobile ID
 slug: mobile_id
-description: "Sur cette page, nous vous expliquons comment utiliser un Mobile ID comme second facteur de sécurité."
+description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation du Mobile ID comme second facteur de sécurité."
 keywords: []
 weight: 20
 type: docs
 ---
 
-Un Mobile ID est nécessaire comme second facteur de sécurité pour avoir accès à la plateforme SpiGes. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
+{{<alert color="warning">}}
+Nous vous demandons si possible d'utiliser le Windows Hello. 
+{{</alert>}}
+
+Si vous ne pouvez pas utiliser le Windows Hello comme second facteur de sécurité, vous pouvez utiliser le Mobile ID. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
 
 ## Activation du Mobile ID
 
@@ -19,7 +23,7 @@ Suivez les étapes suivantes pour activer le Mobile ID.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">MobileID</a> puis sélectionnez '"essayer maintenant"'. 
+Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">Mobile ID</a> puis sélectionnez '"essayer maintenant"'. 
 </div>
 
 <div class="right_col">

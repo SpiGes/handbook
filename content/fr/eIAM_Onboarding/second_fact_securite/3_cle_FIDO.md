@@ -1,16 +1,16 @@
 ---
 title: Clé FIDO
-slug: FIDO_key
+slug: FIDO_token
 description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation de clé de sécurité physique FIDO comme second facteur de sécurité."
 keywords: []
 weight: 30
 type: docs
 ---
 
-Si vous ne pouvez pas ou ne souhaitez pas utiliser le Mobile ID, vous pouvez également utiliser une clé de sécurité FIDO comme second facteur de sécurité fort. 
+Si vous ne pouvez pas utiliser le WIndows Hello ou le Mobile ID, vous pouvez également utiliser une clé de sécurité physique FIDO comme second facteur de sécurité fort. 
 
 {{<alert color="warning">}}
-Nous vous demandons si possible d'utiliser le Mobile ID. L'aquisition d'une clé FIDO est à vos frais. 
+Nous vous demandons si possible d'utiliser en priorité le Windows Hello et en deuxième lieu le Mobile ID. L'aquisition d'une clé FIDO est à vos frais. 
 {{</alert>}}
 
 Les jetons FIDO sont des supports de données qui peuvent prendre la forme d'une clé USB et qui contiennent du matériel cryptographique.
@@ -153,7 +153,25 @@ Nommez votre passkey (FIDO), puis cliquez sur "continuer".
 
 &nbsp;
 
-Insérez votre clé FIDO dans votre ordinateur, puis choisissez "clé de sécurité" dans les options proposées. 
+<!-- 9eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+Insérez votre clé FIDO dans votre ordinateur, puis cliquez ensuite sur "Démarer". 
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="config_fido.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;
+
+Une fenêtre va s'ouvrir sur votre ordinateur, choisissez "clé de sécurité" dans les options proposées. 
 
 Si cela est la première fois que vous utilisez votre passkey FIDO, il faudra la configurer. Pour cela, veuillez cliquer sur "ok" puis définir un code PIN pour votre passkey FIDO. 
 
