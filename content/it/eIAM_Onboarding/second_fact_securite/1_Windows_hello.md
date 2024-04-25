@@ -1,7 +1,7 @@
 ---
-title: Utilisation de Windows Hello
+title: Utilizzo di Windows Hello
 slug: windows_hello
-description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation du Windows Hello comme second facteur de sécurité."
+description: "In questa pagina vi forniamo tutte le informazioni necessarie per utilizzare Windows Hello come secondo fattore di sicurezza."
 keywords: []
 weight: 10
 type: docs

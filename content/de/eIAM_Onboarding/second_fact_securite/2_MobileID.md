@@ -1,7 +1,7 @@
 ---
 title: Mobile ID
 slug: mobile_id
-description: "Sur cette page, nous vous donnons toutes les informations relatives à l'utilisation du Mobile ID comme second facteur de sécurité."
+description: "Auf dieser Seite finden Sie alle Informationen über die Verwendung der Mobile ID als Zweitsicherheitfaktor."
 keywords: []
 weight: 20
 type: docs
