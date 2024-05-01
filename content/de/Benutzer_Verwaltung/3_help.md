@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-## Renvoi du code d'onboarding
+## Rücksendung des Onboarding-Codes
 
 Es kann sein, dass der Onboarding-Code an den Nutzer zurückgeschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen: 
 
