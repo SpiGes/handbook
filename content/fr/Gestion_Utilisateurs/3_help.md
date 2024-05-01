@@ -17,7 +17,7 @@ La documentation est en cours de construction.
 
 Il se peut qu'il faille renvoyer le code d'onboarding à l'utilisateur. Par exemple en cas d'erreur dans l'entrée de l'adresse e-mail ou si cela fait plus d'un mois que le code a été envoyé. Dans ce cas voici ce qu'il faut faire: 
 
-Connecter au portail de délégation, <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, puis rendez vous sur le profil de l'utilisateur. 
+Connecter au portail de délégation <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, puis rendez vous sur le profil de l'utilisateur. 
 
 <!-- 1eme paire de colonnes -->
 
@@ -32,16 +32,50 @@ Vous pouvez modifier les autorisations de l'utilisateur si nécessaire.
 <p>
 Cliquez sur continuer.
 </p>
-
-
 </div>
 
 <div style="flex: 1; padding-left: 10px;">
 <!-- Second column content goes here -->
 {{<insertImage image="continuer_fr.png" class="bord taille">}}
 </div>
-
 </div>
 
 &nbsp;
- 
+
+<!-- 2eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p>
+Mettez un message de traçabilité, puis cliquez sur "Commencer manuellement l'enregistrement". 
+</p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="enreg_manu_fr.png" class="bord taille">}}
+</div>
+</div>
+
+&nbsp;
+
+<!-- 3eme paire de colonnes -->
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<div style="flex: 1; padding-right: 10px;">
+<!-- First column content goes here -->
+<p>
+Vous pouvez transmettre les informations directement à l'utilisateur, ou lui renvoyer un e-mail d'onboarding en cliquant sur "Envoyer le code d'onboarding par courriel"
+</p>
+</div>
+
+<div style="flex: 1; padding-left: 10px;">
+<!-- Second column content goes here -->
+{{<insertImage image="onboarding_fr.png" class="bord taille">}}
+</div>
+</div>
+
+&nbsp;
