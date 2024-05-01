@@ -1,8 +1,8 @@
 ---
 title: Support aux utilisateurs
-slug: plateforme_delegation
+slug: support
 description: "Sur cette page, nous vous expliquons comment vous connecter au portail de délégation eIAM et comment gérer les utilisateurs depuis cette page. Cette tâche ne concerne que les responsables des cantons (KT_Superuser)."
-weight: 20
+weight: 30
 type: docs
 keywords: []
 ---
