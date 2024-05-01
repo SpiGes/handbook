@@ -1,23 +1,18 @@
 ---
 title: Support aux utilisateurs
 slug: support
-description: "Sur cette page, nous vous expliquons comment vous connecter au portail de délégation eIAM et comment gérer les utilisateurs depuis cette page. Cette tâche ne concerne que les responsables des cantons (KT_Superuser)."
+description: "Sur cette page, nous vous expliquons comment aider les utilisateurs en cas de besoin. Cette tâche ne concerne que les responsables des cantons (KT_Superuser)."
 weight: 30
 type: docs
 keywords: []
 ---
-
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
-
 
 
 ## Renvoi du code d'onboarding
 
 Il se peut qu'il faille renvoyer le code d'onboarding à l'utilisateur. Par exemple en cas d'erreur dans l'entrée de l'adresse e-mail ou si cela fait plus d'un mois que le code a été envoyé. Dans ce cas voici ce qu'il faut faire: 
 
-Connecter au portail de délégation <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, puis rendez vous sur le profil de l'utilisateur. 
+Connectez vous au portail de délégation <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, puis rendez vous sur le profil de l'utilisateur. 
 
 <!-- 1eme paire de colonnes -->
 
