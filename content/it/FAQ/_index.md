@@ -6,7 +6,3 @@ weight: 440
 type: docs
 keywords: []
 ---
-
-{{<alert color="info">}}
-La documentazione è attualmente in fase di costruzione.
-{{</alert>}}
