@@ -29,3 +29,41 @@ Ogni utente che accede all'applicazione SpiGes viene automaticamente reindirizza
 Poiché l'identità dell'utente deve essere verificata, gli account dell'applicazione sono personali. Lo stesso account non può essere utilizzato da più persone.
 {{</alert>}}
 
+## Struttura delle unità eIAM
+I diversi utenti della piattaforma SpiGes sono organizzati come segue: 
+
+- Cantone
+    - Aziende
+        - Siti ospedalieri
+
+Un cantone contiene una o più aziende, che a loro volta contengono uno o più siti ospedalieri.  
+
+{{<alert color="warning">}}
+In alcuni casi, il cantone geografico di un sito e il cantone amministrativo dell'azienda non coincidono.
+{{</alert>}}
+
+Per esempio:
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+<p> 
+<ol>
+  <li> In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero. </li>
+  <li> In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero. </li>
+  <li> In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero. </li>
+</ol> 
+</p>
+
+<p> Si può notare che il cantone amministrativo e il cantone geografico del sito 1 non sono gli stessi.  </p>
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;

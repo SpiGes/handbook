@@ -31,7 +31,7 @@ Da die Identität des Nutzers überprüft werden muss, sind die Konten in der An
 ## Struktur der eIAM Units
 Die verschiedenen Benutzer der SpiGes-Plattform sind wie folgt organisiert: 
 
-- Kantone
+- Kanton
     - Unternehmen
         - Standorte
 
@@ -41,7 +41,7 @@ Ein Kanton enthält ein oder mehrere Unternehmen, die ihrerseits einen oder mehr
 In einigen Fällen sind der geografische Kanton eines Standorts und der administrative Kanton des Unternehmens nicht identisch.
 {{</alert>}}
 
-Exemple: 
+Beispiel: 
 
 <div class="two_column">
 
