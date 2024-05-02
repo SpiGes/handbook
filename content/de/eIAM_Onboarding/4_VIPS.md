@@ -9,6 +9,8 @@ type: docs
 
 Damit Sie die SpiGes-Erhebungsplattform verwenden können, benötigen Sie eine verifizierte Identität auf einem starken Zweitfaktor des CH-Login. Die Identität wird mittels einer Videoidentifikation (VIPS) verifiziert.
 
+Die Videoidentifikation kann montags bis samstags von 8:00 bis 17:00 Uhr durchgeführt werden.
+
 Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material: 
 - Ein Smartphone oder einen Laptop mit einer funktionierenden Kamera und einem Mikrofon. Wählen Sie ein Gerät mit guter Bild- und Tonqualität.  
 - Einen gültigen amtlichen Lichtbildausweis (Pass oder Identitätskarte). Je nach [Staatsangehörigkeit](https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317) ist ein Reisepass erforderlich.
