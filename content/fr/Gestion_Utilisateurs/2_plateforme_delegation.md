@@ -7,12 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
-
-
-
 ## Connexion au portail de délégation
 
 <!-- 1ere paire de colonnes -->

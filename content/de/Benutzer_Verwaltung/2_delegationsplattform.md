@@ -7,12 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
-
-
 ## Anmeldung beim Delegationsportal
 
 <!-- 1ere paire de colonnes -->

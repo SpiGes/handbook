@@ -7,20 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
-<!--
-### Rollen BFS
-
-| <div style="width:200px"> Name </div> | Aufgaben | <div style="width:120px"> Kompetenzen </div> | <div style="width:120px"> Verantwortung </div> |
-|---|---|---|---|
-| BFS_Superuser | er hat alle Apllikationsrollen auf allen Ebenen während der Erhebung inne, bringt die Plattform inhaltlich und technisch auf den neusten Stand , organisiert und überwacht die Anreicherung vor Erhebungsstart. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren und alle user verwalten. | Sicherstellen der korrekten Funktionsfähigkeit der Plattform vor, während und nach der Erhebung und nötigenfalls Eingriff auf allen Ebenen. |
-| BFS_Erhebungsverantwortliche | Er hat alle Apllikationsrollen auf allen Ebenen inne, ausser Datenexport KVG und Bearbeitung der kantonalen Daten. Er bringt in Zusammenarbeit mit dem BFS_Superuser die Plattform inhaltlich und technisch auf den neusten Stand, organisiert und überwacht die Anreicherung vor Erhebungsstart. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren und alle user verwalten, ausser die KVG Daten und die kantonalen Daten. | Er vertritt den Superuser und garantiert in Zusammenarbeit mit dem BFS_superuser einen reibungslosen Ablauf der Datenerhebung. |
-| BFS_User | Er überwacht während der Erhebung regelmässig die Einhaltung der Fristen, die Qualität der Angaben und informiert bei Bedarf den BFS_Erhebungsverantwortlichen. | Er kann alle Daten lesen, hochladen, kommentieren, Prüfstati ändern, abschliessen, exportieren. | Er unterstützt den BFS_Erhebungsverantwortlichen bei der Überwachung eines reibungslosen Ablaufs der Erhebung. |
-| BFS_Read | Er kann bei Bedarf auf der Plattform den Stand der Erhebung einsehen. | Er kann alle Daten aller Spitalunternehmen und -standorte lesen. | Er unterliegt der Schweigepflicht und darf keine Information über gelesene Informationen auf der Plattform Unbefugten mitteilen |
- -->
 ### Rollen Kantone
 
 <table style="width:100%">
