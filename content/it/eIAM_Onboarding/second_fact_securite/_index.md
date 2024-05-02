@@ -1,6 +1,6 @@
 ---
 title: Secondo fattore di sicurezza
-slug: second_fact_secu
+slug: second_fact
 description: "In questo capitolo troverete tutte le possibilità che avete come secondo fattore di sicurezza."
 keywords: []
 weight: 20

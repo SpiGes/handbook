@@ -1,6 +1,6 @@
 ---
 title: Zweitfaktoren
-slug: second_fact_secu
+slug: second_fact
 description: "In diesem Kapitel finden Sie alle Möglichkeiten, die Sie als Zweitfaktor haben."
 keywords: []
 weight: 20
