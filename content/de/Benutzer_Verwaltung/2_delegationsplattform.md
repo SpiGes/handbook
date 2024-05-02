@@ -17,18 +17,18 @@ Die Dokumentation befindet sich im Aufbau.
 
 <!-- 1ere paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Um sich in das Delegationsportal einzuloggen, gehen Sie auf die Website <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> und loggen Sie sich dann mit Ihrem CH-LOGIN ein.  </p>
 
 <p> Anschliessend müssen Sie die Nutzungsbedingungen akzeptieren, um auf das Portal zugreifen zu können.  </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="cond_util_de.png" class="bord taille">}}
+{{<insertImage image="cond_util_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -37,16 +37,16 @@ Die Dokumentation befindet sich im Aufbau.
 
 <!-- 2eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Sie sind nun im eIAM-Portal angemeldet. Um zur Benutzerverwaltung zu gelangen, klicken Sie zuerst auf den Reiter "Benutzerverwaltung" und dann auf "Delegierte Verwaltung". </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="gestion_del_de.png" class="bord taille">}}
+{{<insertImage image="gestion_del_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -55,9 +55,9 @@ Die Dokumentation befindet sich im Aufbau.
 
 <!-- 3eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <ol> 
     <li> Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton. </li>.
@@ -65,9 +65,9 @@ Die Dokumentation befindet sich im Aufbau.
 </ol>.
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_niveau_de.png" class="bord taille">}}
+{{<insertImage image="selection_niveau_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -76,16 +76,16 @@ Die Dokumentation befindet sich im Aufbau.
 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Sie können die Krankenhausseite Ihrer Wahl auswählen und unten auf der Seite auf Weiter klicken. 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_site_de.png" class="bord taille">}}
+{{<insertImage image="selection_site_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -99,9 +99,9 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 <ol> 
@@ -113,9 +113,9 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_utilisateur_de.png" class="bord taille">}}
+{{<insertImage image="selection_utilisateur_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -126,18 +126,18 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 
 <!-- 5eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Personalausweis des Benutzers zu finden sind. 
 </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="creation_utilisateur_de.png" class="bord taille">}}
+{{<insertImage image="creation_utilisateur_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -148,9 +148,9 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 
 <!-- 6eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 <ol> 
@@ -164,9 +164,9 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="param_utilisateur_de.png" class="bord taille">}}
+{{<insertImage image="param_utilisateur_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -176,9 +176,9 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 
 <!-- 6eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 Wenn Sie das Kästchen ankreuzen, ermöglicht Ihnen dies, dem Benutzer das Recht zu geben, Benutzerrollen zu erstellen und zu verwalten, er kann dem Benutzer jedoch keine Berechtigungen erteilen. 
@@ -186,9 +186,9 @@ Wenn Sie das Kästchen ankreuzen, ermöglicht Ihnen dies, dem Benutzer das Recht
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="don_delegation_de.png" class="bord taille">}}
+{{<insertImage image="don_delegation_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -202,9 +202,9 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 
 <!-- 6eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 <ol> 
@@ -215,9 +215,9 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="desactiv_utilis_de.png" class="bord taille">}}
+{{<insertImage image="desactiv_utilis_de.png" class="edge max-w-90">}}
 </div>
 
 </div>

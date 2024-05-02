@@ -17,18 +17,18 @@ La documentation est en cours de construction.
 
 <!-- 1ere paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Pour vous connecter au portail de délégation, rendez-vous sur le site <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
 
 <p> Vous devez ensuite accepter les conditions d'utilisation pour pouvoir accéder au portail.  </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="cond_util_fr.png" class="bord taille">}}
+{{<insertImage image="cond_util_fr.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -37,16 +37,16 @@ La documentation est en cours de construction.
 
 <!-- 2eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p> Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".   </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="gestion_del.png" class="bord taille">}}
+{{<insertImage image="gestion_del.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -55,9 +55,9 @@ La documentation est en cours de construction.
 
 <!-- 3eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <ol> 
     <li> En cliquant sur la flèche, vous ouvrez la liste des sites hospitalier de votre canton. </li>
@@ -65,9 +65,9 @@ La documentation est en cours de construction.
 </ol>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_niveau_fr.png" class="bord taille">}}
+{{<insertImage image="selection_niveau_fr.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -76,16 +76,16 @@ La documentation est en cours de construction.
 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 Vous pouvez selectionner le site hospitalier de votre choix, et cliquer sur continuer tout en bas de la page. 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_site.png" class="bord taille">}}
+{{<insertImage image="selection_site.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -99,9 +99,9 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 
 <!-- 4eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 <ol> 
@@ -113,9 +113,9 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_utilisateur.png" class="bord taille">}}
+{{<insertImage image="selection_utilisateur.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -126,18 +126,18 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 
 <!-- 5eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur. 
 </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="creation_utilisateur.png" class="bord taille">}}
+{{<insertImage image="creation_utilisateur.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -148,9 +148,9 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 
 <!-- 6eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 <ol> 
@@ -164,9 +164,9 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="param_utilisateur.png" class="bord taille">}}
+{{<insertImage image="param_utilisateur.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -176,9 +176,9 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 
 <!-- 6eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 En cochant la case, cela vous permet de donner le droit à l'utilisateur de créer et gérer des rôles d'utilisateurs, il ne pourra cependant pas donner des autorisations à l'utilisateur. 
@@ -186,9 +186,9 @@ En cochant la case, cela vous permet de donner le droit à l'utilisateur de cré
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="don_delegation.png" class="bord taille">}}
+{{<insertImage image="don_delegation.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -202,9 +202,9 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 
 <!-- 6eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 <ol> 
@@ -215,9 +215,9 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="desactiv_utilis.png" class="bord taille">}}
+{{<insertImage image="desactiv_utilis.png" class="edge max-w-90">}}
 </div>
 
 </div>

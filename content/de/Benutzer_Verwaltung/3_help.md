@@ -15,9 +15,9 @@ Loggen Sie sich in das Delegationsportal ein <a href="https://www.portal.eiam.ad
 
 <!-- 1eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 Sie können die Berechtigungen des Benutzers bei Bedarf ändern. 
@@ -28,9 +28,9 @@ Klicken Sie auf Weiter.
 </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="continuer_de.png" class="bord taille">}}
+{{<insertImage image="continuer_de.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -38,18 +38,18 @@ Klicken Sie auf Weiter.
 
 <!-- 2eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "Aufnahme manuell starten". 
 </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="enreg_manu_de.png" class="bord taille">}}
+{{<insertImage image="enreg_manu_de.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -57,18 +57,18 @@ Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "A
 
 <!-- 3eme paire de colonnes -->
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div class="two_column">
 
-<div style="flex: 1; padding-right: 10px;">
+<div class="left_col">
 <!-- First column content goes here -->
 <p>
 Sie können die Informationen direkt an den Nutzer weiterleiten oder ihm eine Onboarding-E-Mail senden, indem Sie auf "Onboarding-Code per E-Mail senden" klicken.
 </p>
 </div>
 
-<div style="flex: 1; padding-left: 10px;">
+<div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="onboarding_de.png" class="bord taille">}}
+{{<insertImage image="onboarding_de.png" class="edge max-w-90">}}
 </div>
 </div>
 
