@@ -56,9 +56,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with: 
+        with:
           fetch-depth: 0
-      
+
       - name: Check if tag exists
         if: success()
         env:
@@ -123,7 +123,7 @@ jobs:
           # Set the build datetime
           buildDatetime=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           sed -i "s/buildDatetime[[:space:]]*=[[:space:]]*\".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
-          
+
           # Set the git hash
           gitHash=$(git rev-parse --short HEAD)
           sed -i "s/gitHash[[:space:]]*=[[:space:]]*\".*\"/gitHash = \"$gitHash\"/" hugo.toml
@@ -176,8 +176,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "release version = $RELEASE_VERSION"
-          gh release create "v$RELEASE_VERSION" --title "Release $RELEASE_VERSION" --notes-file RELEASE_NOTE.md --draft
-          
+          gh release create "v$RELEASE_VERSION" --title "Release $RELEASE_VERSION" --notes-file RELEASE_NOTES.md --draft
+
   publish-release:
     needs: [create-release, extract_release_version]
     runs-on: ubuntu-latest
