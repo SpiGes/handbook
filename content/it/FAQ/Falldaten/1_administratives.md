@@ -38,7 +38,7 @@ In linea di principio, dovrebbe essere possibile fornire le informazioni, solo a
 
 5. È possibile ottenere una definizione per il valore «7 = Rimpatrio»?
 {{<collapsibleBlock groupId="admninistratives">}}
-Si riferisce al rimpatrio di un paziente dall'estero in Svizzera 
+Rimpatrio di un paziente con residenza principale svizzera dall'estero alla Svizzera, senza particolari requisiti per i mezzi di trasporto o la scorta 
 {{</collapsibleBlock>}}
 
 6. Qual è la definizione per «trasferimento»? (ad es. i codici «5 = Trasferimento entro 24 ore» e «6 = Paziente ritrasferito» della variabile Modalità di ammissione)

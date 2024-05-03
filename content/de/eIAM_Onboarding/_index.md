@@ -11,7 +11,7 @@ In diesem Kapitel finden Sie alle Schritte, die Sie unternehmen müssen, um ein 
 
 Um ein CH-Login mit einem starken Zweitfaktor mit verifizierter Identität für SpiGes zu erstellen, sind folgende Schritte nötig:
 
-1.	CH-Login erstellen
+1.	CH-Login erstellen (mit berufliche Email Adresse)
 2.	Hinzufügen eines Zweitfaktors zum CH-Login
 3.	Die Identität auf dem Zweitfaktor verifizieren
 4.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit SpiGes
@@ -27,3 +27,40 @@ Jeder Benutzer, der sich in die SpiGes-Anwendung einloggt, wird automatisch zum 
 {{<alert color="warning">}}
 Da die Identität des Nutzers überprüft werden muss, sind die Konten in der Anwendung personalisiert. Ein Konto kann nicht von mehreren Personen genutzt werden.
 {{</alert>}}
+
+## Struktur der eIAM Units
+Die verschiedenen Benutzer der SpiGes-Plattform sind wie folgt organisiert: 
+
+- Kanton
+    - Unternehmen
+        - Standorte
+
+Ein Kanton enthält ein oder mehrere Unternehmen, die ihrerseits einen oder mehrere Krankenhausstandorte enthalten. 
+
+{{<alert color="warning">}}
+In einigen Fällen sind der geografische Kanton eines Standorts und der administrative Kanton des Unternehmens nicht identisch.
+{{</alert>}}
+
+Beispiel: 
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+<p> <ol>
+  <li> In dieser Spalte sehen Sie die EntID auf Unternehmensebene und Sie sehen die Bur-Nummer auf Ebene der Krankenhausstandorte. </li>
+  <li> In dieser Spalte sehen Sie den "administrativen" Kanton des Unternehmens / des Krankenhausstandorts. </li>
+  <li> In dieser Spalte sehen Sie den geografischen Kanton des Unternehmens / des Krankenhausstandorts. </li>
+</ol> </p>
+
+<p> Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind.  </p>
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;

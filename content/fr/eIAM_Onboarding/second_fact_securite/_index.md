@@ -1,6 +1,6 @@
 ---
 title: Second facteur de sécurité
-slug: second_fact_secu
+slug: second_fact
 description: "Vous trouverez dans ce chapitre toutes les possibilités que vous avez comme second facteur de sécurité."
 keywords: []
 weight: 20
@@ -17,3 +17,7 @@ Idéalement, privilégiez l’utilisation de Windows Hello sur l’ordinateur pr
 Si cela est impossible, utilisez soit le MobileID, soit une clé de sécurité physique. 
 
 **Tout accès à la plateforme SpiGes doit se faire depuis un ordinateur professionnel**
+
+Les utilisateurs des cantons **ayant déjà un Vasco Digipass vérifié** (pour SOMED/Spitex) doivent pour l’instant l’utiliser comme second facteur pour SpiGes. 
+
+Les personnes qui **n’ont pas de Vasco Digipass** doivent utiliser les moyens que nous présentons (Passkey FIDO ou Mobile ID).

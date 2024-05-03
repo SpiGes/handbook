@@ -1,6 +1,6 @@
 ---
 title: Zweitfaktoren
-slug: second_fact_secu
+slug: second_fact
 description: "In diesem Kapitel finden Sie alle Möglichkeiten, die Sie als Zweitfaktor haben."
 keywords: []
 weight: 20
@@ -17,3 +17,7 @@ Idealerweise bevorzugen Sie die Verwendung von Windows Hello auf dem Arbeitscomp
 Wenn dies nicht möglich ist, verwenden Sie entweder die MobileID oder einen physischen Sicherheitsschlüssel. 
 
 **Jeder Zugriff auf die SpiGes-Plattform muss von einem Arbeitscomputer aus erfolgen**.
+
+Benutzer der Kantone, die **bereits einen verifizierten Vasco Digipass** (für SOMED/Spitex) haben, müssen diesen derzeit als Zweitfaktor für SpiGes verwenden. 
+
+Personen, **die keinen Vasco Digipass** haben, müssen die Möglichkeiten nutzen, die wir hier vorstellen (FIDO Passkey oder Mobile ID).

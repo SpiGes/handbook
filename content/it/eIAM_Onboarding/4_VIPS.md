@@ -9,6 +9,8 @@ type: docs
 
 Per poter utilizzare la piattaforma di dichiarazione SpiGes, è necessaria un'identità verificata su un secondo fattore forte CH-Login. La verifica dell'identità avviene tramite identificazione video (VIPS). 
 
+La video identificazione è disponibile dal lunedì al sabato, dalle 8.00 alle 17.00.
+
 Per effettuare l'identificazione video, è necessario il seguente equipaggiamento:
 - Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità del suono e delle immagini.  
 - Un documento d'identità ufficiale valido con foto (passaporto o carta d'identità). A seconda della [nazionalità](https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317), il passaporto è obbligatorio.

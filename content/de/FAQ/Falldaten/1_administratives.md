@@ -37,7 +37,7 @@ Tatsächlich sind die Definitionen in diesem Aspekt vielleicht noch nicht für a
 
 5. Ist es möglich, eine Definition für den Wert «7 = Repatriierung» zu erhalten?
 {{<collapsibleBlock groupId="admninistratives">}}
-Rückführung eines Patienten oder einer Patientin mit Schweizer Pass aus dem Ausland in die Schweiz, ohne spezielle Anforderungen an Transportmittel oder Begleitung.
+Rückführung eines Patienten oder einer Patientin mit Schweizer Hauptwohnsitz aus dem Ausland in die Schweiz, ohne spezielle Anforderungen an Transportmittel oder Begleitung.
 {{</collapsibleBlock>}}
 
 6. Wie ist eine «Verlegung» definiert? (z.B. die Codes «5 = Verlegung innerhalb 24 Std.» und «6 = Rückverlegung» der Variable Eintrittsart)

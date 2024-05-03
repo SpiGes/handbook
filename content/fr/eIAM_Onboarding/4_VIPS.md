@@ -9,6 +9,8 @@ type: docs
 
 Pour pouvoir utiliser la plateforme de relevé SpiGes, vous avez besoin d'une identité vérifiée sur un second facteur fort du CH-Login. L'identité est vérifiée au moyen d'une identification par vidéo (VIPS). 
 
+L'identification vidéo peut se faire du lundi au samedi de 8h à 17h.
+
 Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 - Un smartphone ou un ordinateur portable avec une caméra et un microphone fonctionnels. Privilégiez un appareil avec une bonne qualité de son et d'image.  
 - Une pièce d'identité officielle avec photo en cours de validité (passeport ou carte d'identité). Selon la [nationalité](https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317), un passeport est obligatoirement requis.

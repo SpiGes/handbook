@@ -37,7 +37,7 @@ Jusqu'à présent, il n'a pas été défini si ces variables doivent être fourn
 
 5.	Est-il possible d’avoir une définition pour la valeur « 7 = rapatriement » ?
 {{<collapsibleBlock groupId="admninistratives">}}
-Rapatriement d'un patient ou d'une patiente avec un passeport suisse de l'étranger vers la Suisse, sans exigences particulières quant au moyen de transport ou à l'accompagnement.
+Rapatriement d'un patient ou d'une patiente avec une résidence principale suisse de l'étranger vers la Suisse, sans exigences particulières quant au moyen de transport ou à l'accompagnement.
 {{</collapsibleBlock>}}
 
 6. Comment est défini un « transfert » ? (p. ex. les codes «5 = transfert dans les 24 heures» et «6 = retransfert» de la variable type d'admission).
