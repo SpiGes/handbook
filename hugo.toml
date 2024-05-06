@@ -85,14 +85,14 @@ description = "Guida e informazioni su SpiGes"
 # contentDir = "content/rm"
 # weight = 4
 
-[languages.en]
-languageName = "English"
-languageCode = "en"
-contentDir = "content/en"
-weight = 5
-[languages.en.params]
-title = "Manual SpiGes"
-description = "Manual and Information about SpiGes"
+# [languages.en]
+# languageName = "English"
+# languageCode = "en"
+# contentDir = "content/en"
+# weight = 5
+# [languages.en.params]
+# title = "Manual SpiGes"
+# description = "Manual and Information about SpiGes"
 
 [markup]
   [markup.goldmark]

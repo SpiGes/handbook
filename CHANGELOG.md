@@ -6,6 +6,34 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 ### Added
 
+#### Documentation
+
+#### Others
+
+### Updated
+
+#### Documentation
+
+#### Others
+
+- [#53](https://github.com/SpiGes/handbook/issues/53) - As for SpiGes application, only three languages must be available
+
+### Removed
+
+#### Documentation
+
+#### Others
+
+### Fixed
+
+#### Documentation
+
+#### Others
+
+## [0.1.0-pre-pilot-3] - 2024.05.06
+
+### Added
+
 #### Others
 
 - [#42](https://github.com/SpiGes/handbook/issues/42): Template for release notes and changelog added, both files filled
@@ -43,14 +71,14 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 - [#28](https://github.com/SpiGes/handbook/issues/28): Collapsible block as shortcode added
 - Dev tools updated:
-  - Node.js to v20.12.1
-  - Go from to v1.22.2
-  - Hugo-extended to v0.124.1
-  - dart-sass to latest/stable
-  - docsy to v0.9.1
-  - fontawesome to v6.5.2
-  - bootstrap to v5.3.3
-  - autoprefixer to v^10.4.19
+    - Node.js to v20.12.1
+    - Go from to v1.22.2
+    - Hugo-extended to v0.124.1
+    - dart-sass to latest/stable
+    - docsy to v0.9.1
+    - fontawesome to v6.5.2
+    - bootstrap to v5.3.3
+    - autoprefixer to v^10.4.19
 
 ### Updated
 
