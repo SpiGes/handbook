@@ -1,12 +1,24 @@
 <ul class="language-switcher">
-	{{ $pageLang := .Page.Lang }}
-	{{ range $.Site.Home.AllTranslations }}
-		<li>
-			{{ if eq $pageLang .Lang }}
-			<a class="active" href="{{ .RelPermalink }}">{{ upper .Language.LanguageCode }}</a>
-			{{ else }}
-			<a href="{{ .RelPermalink }}">{{ upper .Language.LanguageCode }}</a>
-			{{ end }}
-		</li>
-	{{- end }}
+    {{ $currentPage := .Page }}
+    {{ range $.Site.Languages }}
+        <li>
+            {{ $langCode := .Lang }}
+            {{ $translatedPage := $currentPage }}
+            <!-- Loop through the available translations of the current page to find the one corresponding to the current language in the loop -->
+            {{ range $currentPage.AllTranslations }}
+                {{ if eq .Lang $langCode }}
+                    {{ $translatedPage = . }}
+                    <!-- Output as soon as a matching translation is found -->
+                    {{ break }}
+                {{ end }}
+            {{ end }}
+            <!-- Activation of the link if the language of the current page is the same as that of the link -->
+            {{ if eq $currentPage.Lang $langCode }}
+                <a class="active" href="{{ $translatedPage.RelPermalink }}">{{ upper $langCode }}</a>
+            {{ else }}
+                <a href="{{ $translatedPage.RelPermalink }}">{{ upper $langCode }}</a>
+            {{ end }}
+        </li>
+    {{- end }}
 </ul>
+
