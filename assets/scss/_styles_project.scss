@@ -1,3 +1,11 @@
+// Importing utility classes
+@import "utilities/paddings";
+// Abstracts (variables, mixins)
+@import "abstracts/mixins";
+// Shortcodes
+@import "shortcodes/collapsible-block.scss";
+@import "shortcodes/collapsible-group-command.scss";
+
 html {
     line-height: 1.5;
 }
@@ -644,42 +652,6 @@ img.edge{
 
 img.img_full{
     max-width: 950px;
-}
-
-
-@mixin collapsible-button-hover-effect {
-    &:hover {
-      text-decoration: underline;
-    }
-}
-
-%collapsible-button {
-    padding: 5px 10px;
-    border: none;
-    background-color: unset;
-    text-align: left;
-    color: blue;
-    
-    @include collapsible-button-hover-effect;
-}
-
-.collapsible-group-command {
-    .collapsible-group-command__button {
-        @extend %collapsible-button;
-    }
-}
-
-.collapsible-block {
-    .collapsible-block__content {
-        display: none;
-        padding: 10px;
-        margin-top: 5px;
-        width: 100%;
-    }
-    
-    .collapsible-block__button {
-        @extend %collapsible-button;
-    }
 }
 
 .two_column{

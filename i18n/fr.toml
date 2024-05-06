@@ -18,3 +18,7 @@ other = "Cliquez ici pour réduire..."
 other = "Développer tout"
 [collapse_all]
 other = "Réduire tout"
+[click_to_expand_collapse]
+other = "Cliquez ici pour développer/réduire"
+[click_to_expand_collapse_all]
+other = "Cliquez ici pour tout développer/réduire"
