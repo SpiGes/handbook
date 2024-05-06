@@ -6,8 +6,6 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 ### Added
 
-#### Documentation
-
 #### Others
 
 - [#42](https://github.com/SpiGes/handbook/issues/42): Template for release notes and changelog added, both files filled
@@ -18,19 +16,11 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 #### Documentation
 
-#### Others
-
-### Removed
-
-#### Documentation
+- [#51](https://github.com/SpiGes/handbook/issues/51) - Update about Vasco Token
 
 #### Others
 
-### Fixed
-
-#### Documentation
-
-#### Others
+- [#41](https://github.com/SpiGes/handbook/issues/41) - Improve the collapsible block by allowing a custom title and by adding a tooltip
 
 ## [0.1.0-pre-pilot-2] - 2024-04-25
 
