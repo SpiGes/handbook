@@ -10,15 +10,19 @@ other = "Home"
 other = "SpiGes"
 [project_link]
 other = "https://www.spiges.admin.ch"
-[click_to_expand]
+
+# collapsible block shortcode
+[collapsible_block_click_to_expand_click_text]
 other = "Click here to expand..."
-[click_to_collapse]
+[collapsible_block_click_to_collapse_click_text]
 other = "Click here to collapse..."
-[expand_all]
-other = "Expand all"
-[collapse_all]
-other = "Collapse all"
-[click_to_expand_collapse]
+[collapsible_block_click_to_expand_collapse_tooltip_text]
 other = "Click here to expand/collapse"
-[click_to_expand_collapse_all]
+
+# collapsible group command shortcode
+[collapsible_group_command_expand_all_click_text]
+other = "Expand all"
+[collapsible_group_command_collapse_all_click_text]
+other = "Collapse all"
+[collapsible_group_command_click_to_expand_collapse_all_tooltip_text]
 other = "Click here to expand/collapse all"

@@ -7,12 +7,14 @@ type: docs
 keywords: []
 ---
 
-Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Rollen" tooltipEnabled="true">}}
+Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Rollen">}}
 
-1. Wen kontaktiert das Spital, wenn es inhaltliche Fragen betreffend der SpiGes Erhebung hat? {{<collapsibleBlock customCollapsedText="Antwort..." customExpandedText="Antwort..." groupId="Rollen" tooltipEnabled="true" tooltipText="Erweitern/reduzieren Sie">}}
+1. Wen kontaktiert das Spital, wenn es inhaltliche Fragen betreffend der SpiGes Erhebung hat?
+{{<collapsibleBlock groupId="Rollen">}}
 Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär an seine zuständige kantonale Erhebungsstelle.
 {{</collapsibleBlock>}}
-
+<!-- markdownlint doesn't see that 1 et 2 are already used above -->
+<!-- markdownlint-disable MD029 -->
 2. Wie sieht die Rolle der Kantone, insbesondere der kantonalen Erhebungspartner, zukünftig aus? {{<collapsibleBlock groupId="Rollen">}}
 
 - Die kantonalen Erhebungsstellen wirken bei der BFS Erhebung mit wie bisher (Grundgesamtheit, Koordination und Kommunikation Spital, Mahnwesen usw.).
@@ -20,8 +22,7 @@ Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär
 - Das zuständige kantonale Gesundheitsamt gibt neu Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG auf der SpiGes Plattform frei.
 
 {{</collapsibleBlock>}}
-<!-- markdownlint doesn't see that 1 et 2 are already used above -->
-<!-- markdownlint-disable MD029 -->
+
 3. Es gibt in SpiGes freiwillige Variablen, welche gemäss Vorgabe des Kantons ausgefüllt werden können. Bis wann muss der Kanton den Betrieben bzw. dem BFS mitteilen, welche Variablen ausgefüllt werden sollen. Ist der Kanton hier frei in der Entscheidung, welche freiwilligen Elemente ausgefüllt werden müssen?{{<collapsibleBlock groupId="Rollen">}}
 Die Kantone teilen ihren Spitälern die Bereitstellung der freiwilligen Variablen (z. B. op_gln) früh genug mit, damit diese ab den Daten 2024 im Spitalsystem erfasst werden. Der Kanton beschliesst gemäss seinen Vorgaben im Gesundheitsbereich, welche bei diesen Variablen spezifischer als die nationalen Vorgaben sein können.
 {{</collapsibleBlock>}}
