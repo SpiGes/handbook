@@ -2,7 +2,6 @@
 <html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ partial "head.html" . }}
-    <script src="/{{ $.Site.Params.baseName}}/js/collapsible.js"></script>
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
     <div class="viewport">
@@ -28,5 +27,19 @@
       </div>
     </div>
     {{ partial "scripts.html" . }}
+    {{ with resources.Get "js/index.js" -}}
+      {{ if hugo.IsProduction }}
+        {{ $opts := dict "minify" true }}
+        {{ with $js := . | js.Build $opts | fingerprint "sha384" }}
+          <script type="module" src="{{ $js.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+        {{ end }}
+      {{ else }}
+        {{ with $js := . | js.Build }}
+          <script type="module" src="{{ $js.RelPermalink }}"></script>
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      <p>caca</p>
+    {{ end }}
   </body>
 </html>

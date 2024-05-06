@@ -2,21 +2,27 @@
     {{ $currentPage := .Page }}
     {{ range $.Site.Languages }}
         <li>
-            {{ $langCode := .Lang }}
+			{{ $langCode := .Lang }}
             {{ $translatedPage := $currentPage }}
-            <!-- Loop through the available translations of the current page to find the one corresponding to the current language in the loop -->
+            {{ $translationExists := false }}
+            <!-- Loop through available translations to find the corresponding one -->
             {{ range $currentPage.AllTranslations }}
                 {{ if eq .Lang $langCode }}
                     {{ $translatedPage = . }}
-                    <!-- Output as soon as a matching translation is found -->
+                    {{ $translationExists = true }}
+                    <!-- Break once a matching translation is found -->
                     {{ break }}
                 {{ end }}
             {{ end }}
-            <!-- Activation of the link if the language of the current page is the same as that of the link -->
-            {{ if eq $currentPage.Lang $langCode }}
-                <a class="active" href="{{ $translatedPage.RelPermalink }}">{{ upper $langCode }}</a>
+            <!-- Generate the link based on translation availability -->
+            {{ if $translationExists }}
+                {{ if eq $currentPage.Lang $langCode }}
+                    <a class="active" href="{{ $translatedPage.RelPermalink }}">{{ upper $langCode }}</a>
+                {{ else }}
+                    <a href="{{ $translatedPage.RelPermalink }}">{{ upper $langCode }}</a>
+                {{ end }}
             {{ else }}
-                <a href="{{ $translatedPage.RelPermalink }}">{{ upper $langCode }}</a>
+                <a class="disabled" href="javascript:void(0);">{{ upper $langCode }}</a>
             {{ end }}
         </li>
     {{- end }}
