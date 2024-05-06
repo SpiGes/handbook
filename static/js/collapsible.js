@@ -85,6 +85,11 @@ class CollapsibleConstants {
      * Typically, this represents a rightward pointing chevron or arrow.
      */
     static collapseIconClass = "fa-chevron-right";
+
+    /**
+     * The CSS class name allowing to apply a `padding-bottom` of 20px
+     */
+    static paddingBottomClass = "padding-bottom-20";
 }
 
 /**
@@ -171,6 +176,7 @@ class CollapsibleBlock {
      */
     #initialize() {
         this.#buttonElement.addEventListener("click", () => this.toggle());
+        this.#iconElement.addEventListener("click", () => this.toggle());
         this.collapse();
     }
 
@@ -202,6 +208,7 @@ class CollapsibleBlock {
         this.#contentElement.style.display = CollapsibleBlock.#expandedDisplayClass;
         this.#iconElement.classList.remove(CollapsibleConstants.collapseIconClass);
         this.#iconElement.classList.add(CollapsibleConstants.expandIconClass);
+        this.#buttonElement.classList.remove(CollapsibleConstants.paddingBottomClass);
     }
 
     /**
@@ -213,6 +220,7 @@ class CollapsibleBlock {
         this.#contentElement.style.display = CollapsibleBlock.#collapsedDisplayClass;
         this.#iconElement.classList.remove(CollapsibleConstants.expandIconClass);
         this.#iconElement.classList.add(CollapsibleConstants.collapseIconClass);
+        this.#buttonElement.classList.add(CollapsibleConstants.paddingBottomClass);
     }
 }
 
@@ -288,6 +296,7 @@ class CollapsibleGroupCommand {
      */
     #initialize() {
         this.#buttonElement.addEventListener("click", () => this.toggleAll());
+        this.#iconElement.addEventListener("click", () => this.toggleAll());
         this.collapseAll();
     }
 

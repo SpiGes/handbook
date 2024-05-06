@@ -4,6 +4,19 @@
         "source.fixAll.markdownlint": "always"
     },
     "markdownlint.config": {
+        "MD007": {
+            "indent": 4  // Number of spaces for indenting unordered lists
+        },
+        "MD010": false,  // Allow the use of tabs
         "MD024": { "siblings_only": true},
-    }
+        "MD033": {
+            "allowed_elements": ["collapsibleGroupCommand", "collapsibleBlock", "insertImage", "alert"]
+        },
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+      }
 }
