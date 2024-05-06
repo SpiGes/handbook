@@ -1,10 +1,6 @@
-// Importing utility classes
-@import "utilities/paddings";
-// Abstracts (variables, mixins)
-@import "abstracts/mixins";
-// Shortcodes
-@import "shortcodes/collapsible-block.scss";
-@import "shortcodes/collapsible-group-command.scss";
+@import "utilities/index";
+@import "abstracts/index";
+@import "shortcodes/index";
 
 html {
   line-height: 1.5;
