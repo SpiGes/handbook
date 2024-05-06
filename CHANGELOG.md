@@ -30,6 +30,8 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 #### Others
 
+- [#40](https://github.com/SpiGes/handbook/issues/40) - A language change doesn't redirect to the same page
+
 ## [0.1.0-pre-pilot-3] - 2024.05.06
 
 ### Added
