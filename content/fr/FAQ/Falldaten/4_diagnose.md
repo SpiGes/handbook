@@ -16,10 +16,10 @@ L'indication «POA» peut être utilisée, entre autres, pour améliorer la qual
 
 2. Variable «diagnose_zusatz» : quelles indications doivent être données ici pour les codes avec étoile et les codes avec point d'exclamation ?
 {{<collapsibleBlock groupId="diagnose">}}
-<ul>
-<li>	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser. </li>
-<li>		Les codes étoile ne sont pas marqués comme tels, l’association se fait suivant CIM-10-GM. </li>
-</ul>
+
+-	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser. 
+-	Les codes étoile ne sont pas marqués comme tels, l’association se fait suivant CIM-10-GM. 
+
 <p>
 <b>Exemple 4</b> dans le manuel du codage (page 38) : <br />
 DP E10.73† Diabète sucré, type 1, avec complications multiples, désigné comme décompensé <br />

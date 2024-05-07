@@ -16,10 +16,8 @@ Il consolidamento dei casi viene gestito in SpiGes secondo le linee guida di Swi
 
 2. case_id_ch: Chi genera questo numero di caso e viene memorizzato automaticamente in Opale (sistema IRP)? Finora siamo riusciti a generare automaticamente in Opale l'identificazione del caso in entrambi i file (dati UST e file dei costi dei casi).
 {{<collapsibleBlock groupId="admninistratives">}}
-<ul>
-<li> Il numero di casi unici a livello svizzero è generato dalla piattaforma SpiGes. Quando i dati vengono esportati dalla piattaforma, questo case_id_ch è disponibile per gli utenti dei dati. </li>
-<li> L'identificatore del caso, la variabile fall_id, è generato dagli ospedali. Il software ospedaliero (ad es. Opale) dovrebbe continuare ad avere questa funzione. </li>
-</ul>
+- Il numero di casi unici a livello svizzero è generato dalla piattaforma SpiGes. Quando i dati vengono esportati dalla piattaforma, questo case_id_ch è disponibile per gli utenti dei dati.
+- L'identificatore del caso, la variabile fall_id, è generato dagli ospedali. Il software ospedaliero (ad es. Opale) dovrebbe continuare ad avere questa funzione.
 {{</collapsibleBlock>}}
 
 3. Ci sono variabili (ad esempio la ventilazione) in cui il riferimento temporale è "intero caso" o "anno di indagine". Nella maggior parte degli ospedali, tuttavia, questa voce non viene registrata sull'asse temporale, ma solo una volta sul caso. Anche nel precedente dataset MS, tali voci erano sempre fornite solo per i casi A. Come pensate di fornire i casi B/C per queste variabili?
@@ -30,10 +28,8 @@ In linea di principio, dovrebbe essere possibile fornire le informazioni, solo a
 
 4. Qual è la definizione di «trasferimento interno»?
 {{<collapsibleBlock groupId="admninistratives">}}
-<ul>
-<li> È il passaggio da un reparto (acuto, psichiatria, riabilitazione) a un altro dello stesso ospedale (burnr_gesv) </li>
-<li> Oppure si riferisce ai cosiddetti «pazienti in attesa» </li>
-</ul>
+- È il passaggio da un reparto (acuto, psichiatria, riabilitazione) a un altro dello stesso ospedale (burnr_gesv)
+- Oppure si riferisce ai cosiddetti «pazienti in attesa»
 {{</collapsibleBlock>}}
 
 5. È possibile ottenere una definizione per il valore «7 = Rimpatrio»?
@@ -43,10 +39,8 @@ Rimpatrio di un paziente con residenza principale svizzera dall'estero alla Sviz
 
 6. Qual è la definizione per «trasferimento»? (ad es. i codici «5 = Trasferimento entro 24 ore» e «6 = Paziente ritrasferito» della variabile Modalità di ammissione)
 {{<collapsibleBlock groupId="admninistratives">}}
-<ul>
-<li> 	La variabile Modalità di ammissione esisteva già nella MS e non ha subito modifiche nella piattaforma SpiGes. La differenza tra un trasferimento e un trasferimento interno, è che il primo non avviene all’interno dello stesso ospedale (BURGESV), ma tra ospedali diversi (due BURGESV diversi). La definizione si basa sui principi di SwissDRG AG, che potete trovare qui:  <a href="https://www.swissdrg.org/application/files/8616/7051/1879/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7_i.pdf"> https://www.swissdrg.org/application/files/8616/7051/1879/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7_i.pdf </a> </li>
-<li> La seguente specifica è stata comunicata da SwissDRG AG per il tipo di ricovero "6=Retransfer": Per un ricovero ininterrotto in un altro ospedale per più di 18 giorni e ritorno all'ospedale di origine.  </li>
-</ul>
+- La variabile Modalità di ammissione esisteva già nella MS e non ha subito modifiche nella piattaforma SpiGes. La differenza tra un trasferimento e un trasferimento interno, è che il primo non avviene all’interno dello stesso ospedale (BURGESV), ma tra ospedali diversi (due BURGESV diversi). La definizione si basa sui principi di SwissDRG AG, che potete trovare qui:  <a href="https://www.swissdrg.org/application/files/8616/7051/1879/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7_i.pdf"> https://www.swissdrg.org/application/files/8616/7051/1879/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7_i.pdf </a>
+- La seguente specifica è stata comunicata da SwissDRG AG per il tipo di ricovero "6=Retransfer": Per un ricovero ininterrotto in un altro ospedale per più di 18 giorni e ritorno all'ospedale di origine. 
 {{</collapsibleBlock>}}
 
 7. Come vengono codificati i casi trasferiti dalla riabilitazione (tariffa ST-REHA) alla lungodegenza (tariffa «tasse per le cure») nella stessa struttura? Le variabili 1.2.V02 e 1.5.V03 non consentono di specificare «Lungodegenza, stesso stabilimento».
@@ -60,10 +54,8 @@ eintritt_aufenthalt: 84 = Reparto/Clinica di riabilitazione, stesso stabilimento
 
 8. Nella descrizione delle variabili è menzionata una distinta ripartizione dei Paesi extraeuropei in regioni. Questo elenco esiste già o sarà pubblicato in futuro?
 {{<collapsibleBlock groupId="admninistratives">}}
-<ul>
-<li> La procedura e l'elenco sono gli stessi della statistica MS. Ecco il link per consultare l’elenco:  <a href="https://www.bfs.admin.ch/bfs/it/home/statistiche/cataloghi-banche-dati.assetdetail.10687501.html"> https://www.bfs.admin.ch/bfs/it/home/statistiche/cataloghi-banche-dati.assetdetail.10687501.html </a> </li>
-<li> È possibile inserire le regioni per i Paesi non europei, ma è anche possibile specificare i codici dei Paesi. Questo è già il caso per la statistica MS e non è cambiato. Il formato è alfanumerico e può quindi contenere sia numeri che lettere. </li>
-</ul>
+- La procedura e l'elenco sono gli stessi della statistica MS. Ecco il link per consultare l’elenco:  <a href="https://www.bfs.admin.ch/bfs/it/home/statistiche/cataloghi-banche-dati.assetdetail.10687501.html"> https://www.bfs.admin.ch/bfs/it/home/statistiche/cataloghi-banche-dati.assetdetail.10687501.html </a>
+- È possibile inserire le regioni per i Paesi non europei, ma è anche possibile specificare i codici dei Paesi. Questo è già il caso per la statistica MS e non è cambiato. Il formato è alfanumerico e può quindi contenere sia numeri che lettere.
 {{</collapsibleBlock>}}
 
 ###	35.	Variabile "classe assicurativa": 
@@ -75,8 +67,6 @@ La formulazione è in realtà un po' contraddittoria. Si è ipotizzato che non c
 
 10.	Secondo la nostra amministrazione dei pazienti, è difficile ottenere le informazioni per i casi con "assicurazione Flex" e inserire "8 = altro".  Ci saranno problemi in seguito nelle analisi o quali effetti ci saranno sulle statistiche se non (o non possiamo) inserire "8=altro"?
 {{<collapsibleBlock groupId="admninistratives">}}
-<ul>
-<li> I casi flex e tutti gli altri modelli assicurativi che stanno diventando sempre più popolari non sono davvero facili da mappare. Si tratta di una sfida per la classe assicurativa, ma non drammatica per le statistiche. In caso di dubbio, questi casi dovrebbero essere indicati come semi-privati. </li>
-<li> La variabile "liegeklasse", invece, è centrale per la mappatura dell'ITAR_K. Inoltre, non esiste la categoria "altro" e i casi con "sconosciuto" saranno esaminati. A seconda del valore di questa variabile, i casi in ITAR_K sono assegnati a una diversa colonna. </li>
-</ul>
+- I casi flex e tutti gli altri modelli assicurativi che stanno diventando sempre più popolari non sono davvero facili da mappare. Si tratta di una sfida per la classe assicurativa, ma non drammatica per le statistiche. In caso di dubbio, questi casi dovrebbero essere indicati come semi-privati.
+- La variabile "liegeklasse", invece, è centrale per la mappatura dell'ITAR_K. Inoltre, non esiste la categoria "altro" e i casi con "sconosciuto" saranno esaminati. A seconda del valore di questa variabile, i casi in ITAR_K sono assegnati a una diversa colonna.
 {{</collapsibleBlock>}}

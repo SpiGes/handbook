@@ -27,10 +27,10 @@ Dans la comptabilité par unité finale d'imputation de SpiGes, il est possible 
 4. Pour 2024 (données 2023), SwissDRG a demandé le détail des coûts d’utilisation des immobilisations des cas selon OCP. Dans SpiGes, les variables "_ank" permettent d’envoyer le détail des coûts d’utilisation des immobilisations des cas selon REKOLE®.
 Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoir dans SpiGes les variables "_ank" pour les résultats OCP également ? 
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-<ul>
-<li> Il ne s'agit que d'un relevé test de SwissDRG SA. Si le passage définitif à OCP devait avoir lieu, les coûts d'utilisation des immobilisations par centre de charges dans SpiGes seraient livrés selon OCP au lieu de REKOLE® et les coûts d'utilisation des immobilisations REKOLE® seraient relevés sous forme de somme. </li>
 
-<li> En résumé, les coûts d’utilisation des immobilisations doivent être représentés selon les méthodes suivantes :
+- Il ne s'agit que d'un relevé test de SwissDRG SA. Si le passage définitif à OCP devait avoir lieu, les coûts d'utilisation des immobilisations par centre de charges dans SpiGes seraient livrés selon OCP au lieu de REKOLE® et les coûts d'utilisation des immobilisations REKOLE® seraient relevés sous forme de somme. 
+
+- En résumé, les coûts d’utilisation des immobilisations doivent être représentés selon les méthodes suivantes :
 <table class="w-100">
   <tr>
     <th style="width:65%"> Variables </div></th>
@@ -60,8 +60,8 @@ Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoi
     <td> REKOLE® </td>
   </tr>
 </table>
-</li>
-</ul>
+
+
 {{</collapsibleBlock>}}
 
 5. Le compte 441 ne rentre dans aucun calcul des coûts d’utilisation des immobilisations, ni selon OCP, ni selon REKOLE®. Pouvez-vous confirmer cela ?

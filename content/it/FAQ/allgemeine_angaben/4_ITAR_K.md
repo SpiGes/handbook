@@ -26,18 +26,14 @@ Entro questa scadenza, i dati sui costi dovranno essere stati controllati automa
 
 4. Non riusciamo a trovare una variabile SpiGes che permetta di trasferire i ricavi/costi della PEIG direttamente associati a un caso nella colonna PEIG prevista a questo scopo in ITAR_K®. Come viene calcolata la colonna PEIG di ITAR_K® con i dati SpiGes?
 {{<collapsibleBlock groupId="ITARK">}}
-<ul>
-<li> Nella raffigurazione delle prestazioni d’interesse generale, fondamentalmente lo SpiGes si attiene alla giurisprudenza e alle raccomandazioni dell’associazione degli ospedali H+. REKOLE®® prevede la raffigurazione dei costi delle prestazioni d’interesse generale vincolate al caso e di quelle indipendenti dal caso. </li>
-<li> Da un punto di vista tecnico, è possibile discostarsi dai requisiti previsti da REKOLE®®. I costi e i ricavi della PEIG legata a un caso possono essere rilevati anche in un’unità di imputazione separata (tipo UFI 700-799). Anche questo è a discrezione del Cantone. In questo caso, è importante che i costi e i ricavi delle prestazioni AOMS siano registrati ugualmente con riferimento al caso (tipo UFI = 1). </li>
-</ul>
+- Nella raffigurazione delle prestazioni d’interesse generale, fondamentalmente lo SpiGes si attiene alla giurisprudenza e alle raccomandazioni dell’associazione degli ospedali H+. REKOLE®® prevede la raffigurazione dei costi delle prestazioni d’interesse generale vincolate al caso e di quelle indipendenti dal caso.
+- Da un punto di vista tecnico, è possibile discostarsi dai requisiti previsti da REKOLE®®. I costi e i ricavi della PEIG legata a un caso possono essere rilevati anche in un’unità di imputazione separata (tipo UFI 700-799). Anche questo è a discrezione del Cantone. In questo caso, è importante che i costi e i ricavi delle prestazioni AOMS siano registrati ugualmente con riferimento al caso (tipo UFI = 1).
 {{</collapsibleBlock>}}
 
 5. L'ITAR_K può essere completato sia a livello di azienda che di sito. Cosa è necessario fare in SpiGes? La decisione spetta ai Cantoni?
 {{<collapsibleBlock groupId="ITARK">}}
-<ul>
-<li> ITAR_K viene sempre compilato a livello di BUR-GESV; questo livello deve corrispondere all'indagine KS. Il Cantone fornisce all'UST le informazioni rilevanti per l'indagine sulla popolazione. In questo senso, il Cantone ha un'influenza. Tuttavia, deve collaborare con l'ospedale.  </li>
-<li> L'ITAR_K è lo strumento di base per le negoziazioni tra ospedali e assicurazioni. Il fatto che il Cantone abbia voce in capitolo sulla granularità dipende dal fatto che si tratti di un ospedale a lista, di un ospedale a contratto o di un ospedale in deroga. </li>
-</ul>
+- ITAR_K viene sempre compilato a livello di BUR-GESV; questo livello deve corrispondere all'indagine KS. Il Cantone fornisce all'UST le informazioni rilevanti per l'indagine sulla popolazione. In questo senso, il Cantone ha un'influenza. Tuttavia, deve collaborare con l'ospedale. 
+- L'ITAR_K è lo strumento di base per le negoziazioni tra ospedali e assicurazioni. Il fatto che il Cantone abbia voce in capitolo sulla granularità dipende dal fatto che si tratti di un ospedale a lista, di un ospedale a contratto o di un ospedale in deroga.
 {{</collapsibleBlock>}}
 
 6. Quando verrà generato l'ITAR_K® dalla piattaforma SpiGes?

@@ -26,18 +26,14 @@ A cette date, les données de coûts doivent avoir été vérifiées automatique
 
 4. Nous ne trouvons pas la variable SpiGes qui permettrait de diriger les recettes/coûts PIG directement liés à un cas vers la colonne « PIG » de ITAR_K®. Comment sera-t-il possible de reconstituer la colonne PIG de ITAR_K® à travers SpiGes?
 {{<collapsibleBlock groupId="ITARK">}}
-<ul>
-<li> En ce qui concerne la représentation des prestations d'intérêt général, SpiGes s'en tient en principe à la jurisprudence et aux recommandations de l'association des hôpitaux H+. REKOLE® prévoit que les coûts des prestations d'intérêt général liées à un cas soient représentés sur le cas, mais que les produits soient représentés sur une unité finale d’imputation PIG séparé. Les coûts et les produits des PIG indépendants des cas sont également représentés sur une unité finale d’imputation PIG séparé. </li>
-<li> D'un point de vue technique, il est toutefois possible de s'écarter des prescriptions de REKOLE®. Les coûts et les recettes des PIG liés aux cas peuvent également être saisis sur une unité finale d’imputation propre (type KTR 700-799). Cela est également laissé à l'appréciation du canton. Dans ce cas, il est important que les coûts et les produits pour les prestations AOS soient tout de même saisis sur le cas (type KTR = 1). </li>
-</ul>
+- En ce qui concerne la représentation des prestations d'intérêt général, SpiGes s'en tient en principe à la jurisprudence et aux recommandations de l'association des hôpitaux H+. REKOLE® prévoit que les coûts des prestations d'intérêt général liées à un cas soient représentés sur le cas, mais que les produits soient représentés sur une unité finale d’imputation PIG séparé. Les coûts et les produits des PIG indépendants des cas sont également représentés sur une unité finale d’imputation PIG séparé.
+- D'un point de vue technique, il est toutefois possible de s'écarter des prescriptions de REKOLE®. Les coûts et les recettes des PIG liés aux cas peuvent également être saisis sur une unité finale d’imputation propre (type KTR 700-799). Cela est également laissé à l'appréciation du canton. Dans ce cas, il est important que les coûts et les produits pour les prestations AOS soient tout de même saisis sur le cas (type KTR = 1).
 {{</collapsibleBlock>}}
 
 5. ITAR_K peut être rempli au niveau de l'entreprise ou du site. Qu'est-ce qui est demandé dans SpiGes ? La décision en la matière revient-elle aux cantons ?
 {{<collapsibleBlock groupId="ITARK">}}
-<ul>
-<li> ITAR_K est toujours rempli au niveau REE-GESV (BUR GESV), ce niveau doit correspondre au relevé de la KS. Le canton fournit les informations à ce sujet à l'OFS lors de la phase d’initialisation du relevé KS. Dans cette mesure, le canton a une influence. Il doit toutefois se concerter avec l'hôpital.  </li>
-<li> L'ITAR_K est l'instrument de base pour les négociations tarifaires entre les hôpitaux et les Assureurs. La question de savoir si le canton participe à la détermination de la granularité dépend du fait qu'il s'agisse d'un hôpital répertorié, d'un hôpital conventionné ou d'un hôpital hors liste. </li>
-</ul>
+- ITAR_K est toujours rempli au niveau REE-GESV (BUR GESV), ce niveau doit correspondre au relevé de la KS. Le canton fournit les informations à ce sujet à l'OFS lors de la phase d’initialisation du relevé KS. Dans cette mesure, le canton a une influence. Il doit toutefois se concerter avec l'hôpital. 
+- L'ITAR_K est l'instrument de base pour les négociations tarifaires entre les hôpitaux et les Assureurs. La question de savoir si le canton participe à la détermination de la granularité dépend du fait qu'il s'agisse d'un hôpital répertorié, d'un hôpital conventionné ou d'un hôpital hors liste.
 {{</collapsibleBlock>}}
 
 6. A partir de quand l'ITAR_K® sera-t-il généré à partir de la plateforme SpiGes ?

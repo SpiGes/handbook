@@ -50,9 +50,9 @@ Per esempio:
 <!-- First column content goes here -->
 <p> 
 <ol>
-  <li> In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero. </li>
-  <li> In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero. </li>
-  <li> In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero. </li>
+  - In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero. 
+  - In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero. 
+  - In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero. 
 </ol> 
 </p>
 

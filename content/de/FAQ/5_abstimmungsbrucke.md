@@ -26,10 +26,10 @@ In der Kostenträgerrechnung von SpiGes lassen sich die Kosten der übers Jahr a
 
 4. Für 2024 (Daten 2023) hat die SwissDRG AG die Details der Anlagenutzungskosten der Fälle nach VKL angefordert. In SpiGes ermöglichen es die Variablen "_ank", die Details der Anlagenutzungskosten der Fälle nach REKOLE zu senden. Da dieses Detail nun für SwissDRG AG benötigt wird, sollte man in SpiGes die "_ank"-Variablen nicht auch für die VKL-Ergebnisse vorsehen? 
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-<ul>
-<li>	Es handelt sich hierbei lediglich um eine Testerhebung der SwissDRG AG. Sollte der definitive Wechsel zu VKL erfolgen, würden die Anlagenutzungskosten pro Kostenstelle in SpiGes nach VKL statt nach REKOLE erhoben werden und die REKOLE-Anlagenutzungskosten als Summe. </li>
 
-<li>	Zusammengefasst sind die Anlagenutzungskosten nach folgenden Methoden abzubilden:
+-	Es handelt sich hierbei lediglich um eine Testerhebung der SwissDRG AG. Sollte der definitive Wechsel zu VKL erfolgen, würden die Anlagenutzungskosten pro Kostenstelle in SpiGes nach VKL statt nach REKOLE erhoben werden und die REKOLE-Anlagenutzungskosten als Summe. 
+
+-	Zusammengefasst sind die Anlagenutzungskosten nach folgenden Methoden abzubilden:
 <table class="w-100">
   <tr>
     <th style="width:65%"> Variablen </div></th>
@@ -56,8 +56,8 @@ In der Kostenträgerrechnung von SpiGes lassen sich die Kosten der übers Jahr a
     <td> REKOLE </td>
   </tr>
 </table>
-</li>
-</ul>
+
+
 {{</collapsibleBlock>}}
 
 5. Das Konto 441 wird weder von VKL noch von REKOLE in die Berechnung der Anlagenutzungskosten einbezogen. Können Sie das bestätigen?

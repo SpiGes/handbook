@@ -16,10 +16,10 @@ Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Pat
 
 2. Variable «diagnose_zusatz»: Welche Angaben müssen hier bei Stern-Kodes und Kodes mit Ausrufezeichen gemacht werden?
 {{<collapsibleBlock groupId="diagnose">}}
-<ul>
-<li>	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. </li>
-<li>	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM. </li>
-</ul>
+
+-	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. 
+-	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM. 
+
 <p>
 <b>Beispiel 4</b> im Kodierhandbuch (Seite 38) <br />
 HD E10.73† Diabetes mellitus, Typ 1, mit multiplen Komplikationen, als entgleist bezeichnet <br />

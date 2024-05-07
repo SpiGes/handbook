@@ -92,10 +92,10 @@ Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare i
 
 7. Nel formato XML la sequenza delle variabili all’interno di una riga è determinante?
 {{<collapsibleBlock groupId="technische_fragen">}}
-<ul>
-<li> La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l’elemento caso, i sottoelementi devono sempre essere inseriti nell’ordine «Amministrativo», «Neonati», «Psichiatria», «CUFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali». </li>
-<li> La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell’elemento «Amministrativo» si possono inserire attributi sia nella sequenza «...sesso=«2» età=«37»..» sia «...età=«37» sesso=«2»...». </li>
-</ul>
+
+- La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l’elemento caso, i sottoelementi devono sempre essere inseriti nell’ordine «Amministrativo», «Neonati», «Psichiatria», «CUFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali». 
+- La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell’elemento «Amministrativo» si possono inserire attributi sia nella sequenza «...sesso=«2» età=«37»..» sia «...età=«37» sesso=«2»...». 
+
 {{</collapsibleBlock>}}
 
 8. È anche possibile che il campo relativo a una variabile all’interno di una riga sia vuoto laddove la clinica non abbia nulla da inserire in quella riga per quella determinata variabile? Oppure in ogni riga devono sempre esse compilate tutte le variabili dell’interfaccia?
@@ -115,11 +115,11 @@ Un simile tool di test sarà messo a disposizione tramite API (Application Progr
 
 11. Si sa già quale sarà la procedura per quanto riguarda i dati cantonali aggiuntivi? Diversi Cantoni (ad es. LU, GR, VS e VD) dispongono già di una riga MK. Inoltre, anche i Cantoni di ZH e BE raccolgono dati aggiuntivi all’interno della piattaforma SDEP (Spitaldatenerhebungsplattform). Sapete già se questi dati saranno integrati nell’esportazione SpiGes o se dovranno essere esportati separatamente?
 {{<collapsibleBlock groupId="technische_fragen">}}
-<ul>
-<li> I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia; vedi la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes 1.3: <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a> </li>
-<li> Sebbene i dati cantonali aggiuntivi possano essere indicati in XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente. </li>
-<li> 	La parte SpiGes dei dati SDEP sarà integrata nell’esportazione SpiGes e resa disponibile agli utenti dei dati secondo la LAMal dalla piattaforma SpiGes. </li>
-</ul> 
+
+- I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia; vedi la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes 1.3: <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a> 
+- Sebbene i dati cantonali aggiuntivi possano essere indicati in XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente. 
+- 	La parte SpiGes dei dati SDEP sarà integrata nell’esportazione SpiGes e resa disponibile agli utenti dei dati secondo la LAMal dalla piattaforma SpiGes. 
+ 
 {{</collapsibleBlock>}}
 
 12. Sarà possibile effettuare correzioni direttamente sulla piattaforma?
@@ -134,12 +134,12 @@ Non proprio. N10.2 indica un numero con un totale di 10 cifre, di cui 2 dopo la 
 
 14. Nuove variabili medi_id e rech_id: dalla descrizione non si capisce se si tratta di numeri sequenziali o di ID effettivi del sistema. Se sì, quale? Con medi_id abbiamo subito pensato all'ATC_Code, ma c'è una variabile in più per questo.  
 {{<collapsibleBlock groupId="technische_fragen">}}
-<ul>
-<li> Le due nuove variabili "medi_id" e "rech_id" sono 0  identificatori necessari per ragioni tecniche per una chiara assegnazione . Non devono necessariamente iniziare con 1, ma devono essere uniche per ogni caso. </li>
-<li> Il file XML di esempio 1.3, disponibile sulla nostra homepage all'indirizzo , contieneriporta anche un esempio. medi_id ="1" contiene l'informazione che si tratta del primo farmaco ad alto costo secondo le specifiche di SwissDRG AG per questo caso specifico. 
+
+- Le due nuove variabili "medi_id" e "rech_id" sono 0  identificatori necessari per ragioni tecniche per una chiara assegnazione . Non devono necessariamente iniziare con 1, ma devono essere uniche per ogni caso. 
+- Il file XML di esempio 1.3, disponibile sulla nostra homepage all'indirizzo , contieneriporta anche un esempio. medi_id ="1" contiene l'informazione che si tratta del primo farmaco ad alto costo secondo le specifiche di SwissDRG AG per questo caso specifico. 
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
-</li>
-</ul>
+
+
 {{</collapsibleBlock>}}
 
 15. Nei file di esempio per il file di identificazione e il file di dati, ci sono due campi per la versione. Tuttavia, queste versioni non corrispondono. La versione 1.0 è specificata nell'intestazione e la versione 1.3 nel tag aziendale. Perché i numeri di versione sono diversi? Come si fa a sapere quando specificare quale numero di versione?

@@ -11,25 +11,16 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="anpassungen">}}
 
 1. Welche Variablen ändern sich mit SpiGes?
 {{<collapsibleBlock groupId="anpassungen">}}
-<ul>
-<li> SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
-<ul>
-<li>	Die Hauptbehandlung wird abgeschafft. </li>
-<li>	Der Zusatz zur Hauptdiagnose wird abgeschafft. </li>
-<li>	Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. </li>
-<li>	Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. </li>
-<li>	Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  </li>
-<li>	Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. </li>
-</ul>
-</li>
-
-<li> Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. </li>
-
-<li> Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. </li>
-
-<li> Hier finden Sie den kompletten Datensatz:  <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html </a>
-</li>
-</ul>
+- SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
+	- Die Hauptbehandlung wird abgeschafft. 
+	- Der Zusatz zur Hauptdiagnose wird abgeschafft. 
+	- Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. 
+	- Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. 
+	- Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  
+	- Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. 
+- Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. 
+- Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. 
+- Hier finden Sie den kompletten Datensatz:  <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html"> https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html </a>
 {{</collapsibleBlock>}}
 
 2. Welche Auswirkungen hat SpiGes auf die Kodierrichtlinien?
@@ -44,11 +35,10 @@ Der genaue Inhalt des Prüfprotokolls hängt von den Prüfungen ab, welche aktue
 
 4. Die Pilotspitäler werden bereits im Frühjahr 2024 einen ersten «Datensatz» erstellen können. Andere Kantone stellen die Anforderung, bis September ein erstes XML-Datenfile abzugeben. Werden bei diesen Abgaben Echtdaten aus einem Produktivsystem erwartet, oder reichen Testdaten aus einem Testsystem aus? Anders gefragt: Beginnt die «richtige» Auswertung erst mit dem Jahre 2025, oder will das BFS auch schon Echtdaten aus 2024 auswerten?
 {{<collapsibleBlock groupId="anpassungen">}}
-<ul>
-<li>	Für den Pilot im Frühjahr 2024 werden von den Pilotspitälern Echtdaten aus einem Produktivsystem erwartet. Diese werden nur analysiert, um Erkenntnisse über den Pilot zu gewinnen. </li>
-<li>	Per August 2024 müssen alle Spitäler (in allen Kantonen) einen Schnittstellentest durchführen, um zu zeigen, dass die technische Umsetzung der Schnittstelle funktioniert. Dafür genügen Teillieferungen auch aus Testsystemen. </li>
-<li>	Ab dem 1.1. 2025 müssen alle Spitäler Echtdaten des Jahres 2024 aus den Produktivsystemen liefern und diese bis Ende April vollständig prüfen und ggf. begründen. </li>
-</ul>
+- Für den Pilot im Frühjahr 2024 werden von den Pilotspitälern Echtdaten aus einem Produktivsystem erwartet. Diese werden nur analysiert, um Erkenntnisse über den Pilot zu gewinnen. 
+- Per August 2024 müssen alle Spitäler (in allen Kantonen) einen Schnittstellentest durchführen, um zu zeigen, dass die technische Umsetzung der Schnittstelle funktioniert. Dafür genügen Teillieferungen auch aus Testsystemen. 
+- Ab dem 1.1. 2025 müssen alle Spitäler Echtdaten des Jahres 2024 aus den Produktivsystemen liefern und diese bis Ende April vollständig prüfen und ggf. begründen. 
+
 {{</collapsibleBlock>}}
 
 5. Vertauschte Werte: Uns ist aufgefallen, dass bei ein paar Variablen die Werte anders gegenüber der MS-Statistik sind. Als Beispiel gibt es hier den Vitalwert.       

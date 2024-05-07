@@ -16,10 +16,10 @@ L’indicazione «POA» (present on admission) può essere utilizzata, tra l’a
 
 2. Variabile «diagnose_zusatz»: quali informazioni devono essere inserite qui per i codici con asterisco e i codici con punto esclamativo?
 {{<collapsibleBlock groupId="diagnose">}}
-<ul>
-<li>	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare. </li>
-<li>	I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l’ICD-10-GM. </li>
-</ul>
+
+-	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare. 
+-	I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l’ICD-10-GM. 
+
 <p>
 <b> Esempio 4 </b> nel Manuale di codifica (pag. 38) <br />
 DP E10.73† Diabete mellito, tipo 1, con complicanze multipl, definito come scompensato <br />

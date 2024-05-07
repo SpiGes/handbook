@@ -49,9 +49,9 @@ Exemple:
 <div class="left_col">
 <!-- First column content goes here -->
 <p> <ol>
-  <li> Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers. </li>
-  <li> Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier. </li>
-  <li> Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier. </li>
+  - Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers. 
+  - Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier. 
+  - Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier. 
 </ol> </p>
 
 <p> Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.  </p>

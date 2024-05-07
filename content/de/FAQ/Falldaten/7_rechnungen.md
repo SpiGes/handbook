@@ -16,9 +16,9 @@ Es ist dieselbe Granularität, wie die Zeilen auf den verschickten Rechnungen an
 
 2. Wie werden die entsprechenden Felder ausgefüllt für Rechnungen, die nicht über SwissDRG, TARPSY oder ST Reha abgerechnet werden?
 {{<collapsibleBlock groupId="rechnungen">}}
-<ul>
-<li>	Grundsätzlich analog Forum Datenaustausch, einfach nur für die stationären Behandlungen. </li>
-<li>	Tariftyp, Betrag und Menge sollten klar sein. </li>
-<li>	Felder, die bei anderen Tarifen keinen Sinn machen, können leer gelassen werden. </li>
-</ul>
+
+-	Grundsätzlich analog Forum Datenaustausch, einfach nur für die stationären Behandlungen. 
+-	Tariftyp, Betrag und Menge sollten klar sein. 
+-	Felder, die bei anderen Tarifen keinen Sinn machen, können leer gelassen werden. 
+
 {{</collapsibleBlock>}}
