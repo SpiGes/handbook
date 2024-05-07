@@ -16,10 +16,8 @@ Per domande di carattere specialistico o tecnico riguardanti SpiGes, l’ospedal
 
 2.	Quale sarà in futuro il ruolo dei Cantoni, in particolare dei partner cantonali di rilevazione?
 {{<collapsibleBlock groupId="roles">}}
-<ul>
-	<li> I servizi cantonali di rilevazione sono coinvolti nell’indagine UST come in precedenza (universo statistico, coordinamento e comunicazione con gli ospedali, solleciti ecc.).  </li>
-	<li> D’ora in poi il competente ufficio cantonale di sanità rilascerà a fine luglio i dati delle imprese ospedaliere presenti sul proprio territorio per l’utilizzo sulla piattaforma SpiGes, ai sensi della LAMal. </li>
-</ul>
+- I servizi cantonali di rilevazione sono coinvolti nell’indagine UST come in precedenza (universo statistico, coordinamento e comunicazione con gli ospedali, solleciti ecc.).
+- D’ora in poi il competente ufficio cantonale di sanità rilascerà a fine luglio i dati delle imprese ospedaliere presenti sul proprio territorio per l’utilizzo sulla piattaforma SpiGes, ai sensi della LAMal.
 {{</collapsibleBlock>}}
 
 3.	Sulla piattaforma SpiGes sono presenti variabili facoltative, che possono essere compilate secondo le indicazioni del Cantone. Entro quando il Cantone deve informare le imprese o l’UST in merito alle variabili che devono essere compilate? Il Cantone è libero di decidere quali tra gli elementi facoltativi debbano essere completati?

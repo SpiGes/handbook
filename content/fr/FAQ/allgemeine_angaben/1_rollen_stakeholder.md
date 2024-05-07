@@ -16,10 +16,8 @@ En cas de questions professionnelles ou techniques concernant SpiGes, l'hôpital
 
 2. Quel sera à l'avenir le rôle des cantons, en particulier des partenaires cantonaux de l'enquête ?
 {{<collapsibleBlock groupId="roles">}}
-<ul>
-	<li> Les services cantonaux chargés de l'enquête collaborent au relevé de l'OFS comme jusqu'à présent (population de base, coordination et communication avec les hôpitaux, rappels, etc.). </li>
-	<li> L'office cantonal de la santé compétent libère désormais fin juillet les données des entreprises hospitalières situées sur son territoire pour une utilisation selon la LAMal sur la plateforme SpiGes. </li>
-</ul>
+- Les services cantonaux chargés de l'enquête collaborent au relevé de l'OFS comme jusqu'à présent (population de base, coordination et communication avec les hôpitaux, rappels, etc.).
+- L'office cantonal de la santé compétent libère désormais fin juillet les données des entreprises hospitalières situées sur son territoire pour une utilisation selon la LAMal sur la plateforme SpiGes.
 {{</collapsibleBlock>}}
 
 3. Il existe dans SpiGes des variables facultatives qui peuvent être remplies selon les directives du canton. Jusqu'à quand le canton doit-il communiquer aux établissements ou à l'OFS quelles variables doivent être remplies ? Le canton est-il libre de décider quels éléments facultatifs doivent être remplis ?
