@@ -16,7 +16,6 @@ L’indicazione «POA» (present on admission) può essere utilizzata, tra l’a
 
 2. Variabile «diagnose_zusatz»: quali informazioni devono essere inserite qui per i codici con asterisco e i codici con punto esclamativo?
 {{<collapsibleBlock groupId="diagnose">}}
-
 -	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare. 
 -	I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l’ICD-10-GM. 
 
@@ -53,7 +52,6 @@ DS N08.3* Disturbi glomerulari in diabete mellito
     <td> E10.73 </td>
   </tr>
 </table>
-
 
 **Esempio** nel Manuale di codifica (pag. 40)      
 DP S37.03 Rottura completa del parenchima renale      

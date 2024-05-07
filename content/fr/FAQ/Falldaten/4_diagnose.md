@@ -16,7 +16,6 @@ L'indication «POA» peut être utilisée, entre autres, pour améliorer la qual
 
 2. Variable «diagnose_zusatz» : quelles indications doivent être données ici pour les codes avec étoile et les codes avec point d'exclamation ?
 {{<collapsibleBlock groupId="diagnose">}}
-
 -	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser. 
 -	Les codes étoile ne sont pas marqués comme tels, l’association se fait suivant CIM-10-GM. 
 

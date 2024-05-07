@@ -16,7 +16,6 @@ Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Pat
 
 2. Variable «diagnose_zusatz»: Welche Angaben müssen hier bei Stern-Kodes und Kodes mit Ausrufezeichen gemacht werden?
 {{<collapsibleBlock groupId="diagnose">}}
-
 -	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. 
 -	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM. 
 

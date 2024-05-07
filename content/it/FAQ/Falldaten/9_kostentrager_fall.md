@@ -22,8 +22,6 @@ Se l'organizzazione compila il SOMED, questi costi devono essere registrati in S
 3. Supplementi per i costi di utilizzo degli impianti (ANK) per i costi diretti: secondo REKOLE® , i supplementi ANK possono essere registrati 
 per i costi diretti (requisiti medici 400 e 401). Per queste variabili KTR, tuttavia, non esistono variabili ANK separate in SpiGes e nei dataset dei costi SwissDRG, a differenza delle spese generali, sulle quali è possibile registrare i costi di utilizzo degli impianti secondo REKOLE. In ITAR_K, i conti 400 e 401 devono essere specificati senza supplementi ANK. Cosa si deve fare con questi supplementi ANK sui conti 400 e 401?
 {{<collapsibleBlock groupId="kostentraeger">}}
-
 - Le maggiorazioni dell'ANK non devono essere registrate nei conti 400 e 401. Tuttavia, devono essere inclusi nelle variabili totali dell'ANK (ktr_44_vkl / ktr_44_rekole). 
 - Con la versione 1.4 dell'interfaccia, la variabile ktr_44_rekole viene convertita da variabile calcolata a variabile raccolta (e aggiunta all'XML), in modo da poter raccogliere un totale ANK REKOLE diverso dalla somma delle singole variabili KTR. 
-
 {{</collapsibleBlock>}}

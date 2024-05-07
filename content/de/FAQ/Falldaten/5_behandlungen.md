@@ -11,7 +11,6 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
 1. Variable «behandlung_id»: Gibt es hier Empfehlungen für die umzusetzende Reihenfolge in der Psychiatrie? Gerade die HoNOS-Items, die als CHOPs geliefert werden, sind ja diagnose- bzw. behandlungsunspezifisch.
 {{<collapsibleBlock groupId="behandlungen">}}
-
 - Gemäss Variablenbeschreibung gilt:        
 Eindeutige, fortlaufende Nummer der Behandlung.         
 1 = Behandlung 1        

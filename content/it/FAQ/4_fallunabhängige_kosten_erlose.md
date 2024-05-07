@@ -109,7 +109,6 @@ No, non è possibile.
 3. I tipi UFI possono essere utilizzati più di una volta? Ad esempio, per 599 consegnare più righe con testo libero diverso nella variabile «ktr_beschr»?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Sì, è possibile. Sulla base dell’indicazione «ktr_typ» viene assegnate un’unità di imputazione di una colonna ITAR_K®. Ciò significa che nella variabile «ktr_typ» deve essere utilizzato uno dei valori predefiniti. Tuttavia, è possibile indicare più unità di imputazione con lo stesso tipo di UFI, ad esempio per ktr_typ 205 una volta con il testo libero «LAMal» e una volta con il testo libero «CTM» nella variabile «ktr_beschr». Queste due unità di imputazione vengono poi sommate e riportate nella colonna ITAR_K® «Ospedali di giorno psichiatria infantile e adolescenziale». In teoria, sono tecnicamente possibili anche altre suddivisioni, ad eccezione del caso ambulatoriale. Se hanno tutti lo stesso tipo UFI, vengono sommati e raffigurati come descritto. 
-
 {{</collapsibleBlock>}}
 
 4. La parte KTR è prevista anche per i casi ambulatoriali o si riferisce esclusivamente ai casi di ricovero?

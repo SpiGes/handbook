@@ -38,7 +38,6 @@ Der genaue Inhalt des Prüfprotokolls hängt von den Prüfungen ab, welche aktue
 - Für den Pilot im Frühjahr 2024 werden von den Pilotspitälern Echtdaten aus einem Produktivsystem erwartet. Diese werden nur analysiert, um Erkenntnisse über den Pilot zu gewinnen. 
 - Per August 2024 müssen alle Spitäler (in allen Kantonen) einen Schnittstellentest durchführen, um zu zeigen, dass die technische Umsetzung der Schnittstelle funktioniert. Dafür genügen Teillieferungen auch aus Testsystemen. 
 - Ab dem 1.1. 2025 müssen alle Spitäler Echtdaten des Jahres 2024 aus den Produktivsystemen liefern und diese bis Ende April vollständig prüfen und ggf. begründen. 
-
 {{</collapsibleBlock>}}
 
 5. Vertauschte Werte: Uns ist aufgefallen, dass bei ein paar Variablen die Werte anders gegenüber der MS-Statistik sind. Als Beispiel gibt es hier den Vitalwert.       
@@ -47,8 +46,7 @@ MS-Statistik:
 1 = lebendgeboren       
 Spiges (genau andersrum):              
 0 = Lebendgeburt        
-1 = Totgeburt 
-
+1 = Totgeburt 		
 Andere Beispiele wären hier die Schulbildung oder der Zivilstand. Das ist aus unserer Sicht nicht optimal und wir würden gerne wissen, ob dies beabsichtigt ist, und wenn ja, warum? 
 {{<collapsibleBlock groupId="anpassungen">}}
 Das ist beabsichtigt. Im Sinne des once only haben wir die Codelisten und Metadaten in ein BFS System integriert, welches dann auch veröffentlicht wird. Die neuen Codelisten entsprechen jetzt dem schweizweiten Standard der Interoperabilitätsplattform i14y.admin.ch, vorher war es eine MS Sonderlösung.

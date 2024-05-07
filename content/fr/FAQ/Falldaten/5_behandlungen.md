@@ -11,7 +11,6 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="behandlungen">}
 
 1. Variable «behandlung_id» (traitement_id) : existe-t-il ici des recommandations pour l'ordre à mettre en œuvre en psychiatrie ? Les items HoNOS livrés sous forme de CHOP sont justement non spécifiques au diagnostic ou au traitement.
 {{<collapsibleBlock groupId="behandlungen">}}
-
 - Selon la description de la variable           
 Numéro unique attribué au traitement, dans l'ordre.             
 1 = traitement 1            

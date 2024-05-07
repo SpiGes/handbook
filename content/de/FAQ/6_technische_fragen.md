@@ -92,10 +92,8 @@ Es wird mehrere Exportfiles geben. Einerseits wird man das XML-File, was die Spi
 
 7. Spielt im XML-Format die Reihenfolge der Variablen innerhalb einer Zeile eine Rolle?
 {{<collapsibleBlock groupId="technische_fragen">}}
-
 - Die Reihenfolge der Elemente ist vorgegeben und nicht veränderbar. Elemente können höchstens weggelassen werden. Also für das Fall-Element sind die Unterelemente immer in der Reihenfolge «Administratives», «Neugeborene», «Psychiatrie», «KostenträgerFall», «Diagnose», «Behandlung», «Medikament», «Rechnung», «Patientenbewegung» und «Kantonsdaten» anzugeben. 
 - Die Reihenfolge der Attribute ist hingegen frei wählbar. So kann z.B. im Element «Administratives» sowohl «…geschlecht="2" alter="37"…» als auch «…alter="37" geschlecht="2"…» angegeben werden. 
-
 {{</collapsibleBlock>}}
 
 8. Können auch Variablen innerhalb einer Zeile fehlen, falls die Klinik in dieser Zeile nichts zu der entsprechenden Variable auszufüllen hat? Oder müssen immer alle Variablen der Schnittstelle in jeder Zeile stehen?
@@ -115,12 +113,10 @@ Es wird ein Prüftool via API (Application Programming Interfaces) zur Verfügun
 
 11. Ist schon bekannt, wie das Vorgehen in Bezug auf die kantonalen Zusatzdaten sein wird? Verschiedene Kantone (z.B. LU, GR, VS und VD) haben ja bereits heute eine MK-Zeile. Zudem erheben die Kantone ZH und BE im Rahmen von SDEP ebenfalls zusätzliche Daten. Wissen Sie bereits, ob diese Daten in den Export SpiGes integriert werden oder ob diese separat exportiert werden müssen?
 {{<collapsibleBlock groupId="technische_fragen">}}
-
 - Die kantonalen Zusatzdaten wurden in der Schnittstelle berücksichtigt; siehe Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform 1.3:
 Stationäre Spitalaufenthalte: <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html"> Mehrfachnutzung der Daten (Projekt SpiGes) </a> 
 - Die kantonalen Zusatzdaten können zwar im XML angegeben werden, werden beim Import auf die SpiGes Plattform jedoch nicht weiterverarbeitet. Sie werden von den Kantonen separat plausibilisiert und bearbeitet. 
 - Exportierbar sind die Kantonsdaten nur durch das Spital selbst und durch den Kanton. Voraussichtlich sind die Kantonsdaten für diese User im selben XML-File enthalten, wie die restlichen Daten. 
- 
 {{</collapsibleBlock>}}
 
 12. Wird es möglich sein, Korrekturen direkt auf der Plattform vorzunehmen?
@@ -135,12 +131,9 @@ Nicht ganz. N10.2 bezeichnet eine Zahl mit insgesamt 10 Stellen, davon 2 Nachkom
 
 14. Neue Variablen medi_id und rech_id: Aus der Beschreibung sind wir uns nicht sicher, ob hier laufende Nummern oder tatsächliche ID aus dem System gemeint sind. Wenn ja, welche? Bei der medi_id dachten wir sofort an den ATC_Code, jedoch gibt es hierfür eine extra Variable.
 {{<collapsibleBlock groupId="technische_fragen">}}
-
 - Es handelt sich bei de beiden neuen Variablen «medi_id» und «rech_id» um Identifikatoren, die zur eindeutigen Zuordnung aus technischen Gründen nötig. Diese müssen nicht zwingend mit 1 beginnen, sie müssen aber für jeden Fall eindeutig sein. 
 - In der XML-Musterdatei 1.3, welche Sie auf unserer Homepage vorfinden, ist auch ein Beispiel enthalten. medi_id="1" enthält die Information, dass es sich um das erste hochteure Medikament gemäss den Vorgaben der SwissDRG AG für diesen spezifischen Fall handelt. 
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
-
-
 {{</collapsibleBlock>}}
 
 15. In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es zwei Felder für die Version. Diese Versionen stimmen aber nicht überein. So wird im Header die Version 1.0 angegeben und beim Tag Unternehmen die Version 1.3. Warum sind die Versionsnummern unterschiedlich? Woher wissen wir wann welche Versionsnummer anzugeben ist?
