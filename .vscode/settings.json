@@ -10,7 +10,7 @@
         "MD010": false,  // Allow the use of tabs
         "MD024": { "siblings_only": true},
         "MD033": {
-            "allowed_elements": ["collapsibleGroupCommand", "collapsibleBlock", "insertImage", "alert"]
+            "allowed_elements": ["collapsibleGroupCommand", "collapsibleBlock", "insertImage", "alert", "numberedList", "listItem"]
         },
     },
     "[scss]": {
