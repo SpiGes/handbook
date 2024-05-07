@@ -30,7 +30,18 @@ defaults:
     shell: bash
 
 jobs:
+  verify_branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify branch is 'main'
+        run: |
+          if [[ "${{ github.ref }}" != "refs/heads/main" ]]; then
+            echo "Error: Workflow must be run on the 'main' branch."
+            exit 1
+          fi
+
   extract_release_version:
+    needs: [verify_branch]
     runs-on: ubuntu-latest
     outputs:
       release_version: ${{ steps.extract.outputs.release_version }}
