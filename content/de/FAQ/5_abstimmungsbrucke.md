@@ -6,7 +6,7 @@ weight: 50
 type: docs
 keywords: []
 ---
-
+ 
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
 1. Aus SDEP ist mir die Abgrenzungsrechnung bekannt. Wird es diese in SpiGes auch geben oder nur gemäss ITAR_K?
