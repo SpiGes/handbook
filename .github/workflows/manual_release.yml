@@ -3,6 +3,8 @@ name: Release Documentation
 
 on:
   workflow_dispatch:
+    branches:
+      - main
 
 env:
   # Versions
