@@ -654,10 +654,3 @@ img.img_full {
   flex: 1;
   padding-left: 10px;
 }
-
-// This selector allows removing bottom margin on all the `p` elements inside `li` elements.
-// This selector is used for the paragraphs of the FAQ.
-// TODO: this selector is too general and must be improved by adding another selector specifically related to the FAQ.
-li > p {
-  margin-bottom: 0px;
-}
