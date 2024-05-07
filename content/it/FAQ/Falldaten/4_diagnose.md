@@ -20,13 +20,12 @@ L’indicazione «POA» (present on admission) può essere utilizzata, tra l’a
 -	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare. 
 -	I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l’ICD-10-GM. 
 
-<p>
-<b> Esempio 4 </b> nel Manuale di codifica (pag. 38) <br />
-DP E10.73† Diabete mellito, tipo 1, con complicanze multipl, definito come scompensato <br />
-DS I79.2* Angiopatia periferica in malattie classificate altrove <br />
-DS H36.0* Retinopatia diabetica <br />
-DS N08.3* Disturbi glomerulari in diabete mellito <br />
-…va indicato in <b>SpiGes</b> come segue : <br />
+**Esempio 4** nel Manuale di codifica (pag. 38)       
+DP E10.73† Diabete mellito, tipo 1, con complicanze multipl, definito come scompensato      
+DS I79.2* Angiopatia periferica in malattie classificate altrove      
+DS H36.0* Retinopatia diabetica       
+DS N08.3* Disturbi glomerulari in diabete mellito       
+…va indicato in **SpiGe** come segue :      
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
@@ -54,17 +53,16 @@ DS N08.3* Disturbi glomerulari in diabete mellito <br />
     <td> E10.73 </td>
   </tr>
 </table>
-</p>
 
-<p>
-<b>Esempio 4</b> nel Manuale di codifica (pag. 40) <br />
-DP S37.03 Rottura completa del parenchima renale <br />
-L 2  <br />
-DS V99! Incidente da trasporto non specificato <br />
-DS S36.03 Lacerazione della milza con interessamento del parenchima <br />
-DS S36.49 Traumatismo di altre e multiple parti dell’intestino tenue <br />
-DS S31.83! Ferita aperta (qualsiasi parte dell’addome, dei lombi e della pelvi) in collegamento con traumatismo intraaddominale <br />
-…va indicato in <b> SpiGes</b> come segue: <br />
+
+**Esempio** nel Manuale di codifica (pag. 40)      
+DP S37.03 Rottura completa del parenchima renale      
+L 2       
+DS V99! Incidente da trasporto non specificato      
+DS S36.03 Lacerazione della milza con interessamento del parenchima       
+DS S36.49 Traumatismo di altre e multiple parti dell’intestino tenue      
+DS S31.83! Ferita aperta (qualsiasi parte dell’addome, dei lombi e della pelvi) in collegamento con traumatismo intraaddominale       
+…va indicato in **SpiGe** come segue:      
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
@@ -107,5 +105,4 @@ DS S31.83! Ferita aperta (qualsiasi parte dell’addome, dei lombi e della pelvi
     <td> S37.03 </td>
   </tr>
 </table>
-</p>
 {{</collapsibleBlock>}}

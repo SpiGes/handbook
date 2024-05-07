@@ -44,8 +44,8 @@ Rückführung eines Patienten oder einer Patientin mit Schweizer Hauptwohnsitz a
 
 7. Wie werden Fälle, die von der Rehabilitation (Tarif ST-REHA) in die Langzeitpflege (Tarif «Pflegetaxe») des gleichen Betriebs übergehen codiert? Die Variablen 1.2.V02 und 1.5.V03 erlauben uns nicht, «Langzeitpflege, gleicher Betrieb» anzugeben.
 {{<collapsibleBlock groupId="admninistratives">}}
-Dies war bereits bei der MS so; der Fall wechselt von Rehabilitation zu SOMED (gleicher Betrieb); bei Code 2 sind beide Möglichkeiten enthalten (gleicher Betrieb oder anderer Betrieb). Der Fall muss wie folgt kodiert werden: <br />
-austritt_aufenthalt: 2 = Krankenheim, Pflegeheim <br />
+Dies war bereits bei der MS so; der Fall wechselt von Rehabilitation zu SOMED (gleicher Betrieb); bei Code 2 sind beide Möglichkeiten enthalten (gleicher Betrieb oder anderer Betrieb). Der Fall muss wie folgt kodiert werden:        
+austritt_aufenthalt: 2 = Krankenheim, Pflegeheim        
 eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb  
 {{</collapsibleBlock>}}
 

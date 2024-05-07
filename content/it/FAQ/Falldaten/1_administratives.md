@@ -45,8 +45,8 @@ Rimpatrio di un paziente con residenza principale svizzera dall'estero alla Sviz
 
 7. Come vengono codificati i casi trasferiti dalla riabilitazione (tariffa ST-REHA) alla lungodegenza (tariffa «tasse per le cure») nella stessa struttura? Le variabili 1.2.V02 e 1.5.V03 non consentono di specificare «Lungodegenza, stesso stabilimento».
 {{<collapsibleBlock groupId="admninistratives">}}
-Questo era già così per la MS; il caso passa dalla riabilitazione alla SOMED (stesso stabilimento); il codice 2 contiene entrambe le opzioni (stesso stabilimento o altro stabilimento). Il caso deve essere codificato come segue: <br />
-austritt_aufenthalt: 2 = casa di cura <br />
+Questo era già così per la MS; il caso passa dalla riabilitazione alla SOMED (stesso stabilimento); il codice 2 contiene entrambe le opzioni (stesso stabilimento o altro stabilimento). Il caso deve essere codificato come segue:             
+austritt_aufenthalt: 2 = casa di cura           
 eintritt_aufenthalt: 84 = Reparto/Clinica di riabilitazione, stesso stabilimento
 {{</collapsibleBlock>}}
 

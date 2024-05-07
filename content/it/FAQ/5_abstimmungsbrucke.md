@@ -65,9 +65,9 @@ Nella contabilità per unità finali d’imputazione di SpiGes è possibile calc
 
 5. Il conto 441 non è incluso nel calcolo dei costi di utilizzo delle immobilizzazioni né dall’OCPre né da REKOLE®. Siete in grado di confermarlo?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-I costi di utilizzo delle immobilizzazioni (secondo REKOLE® e OCPre) corrispondono ai seguenti tipi di costi: <br />
-- 442 Ammortamenti <br />
-- 444 Altri canoni di locazione (compreso il leasing operativo) <br />
-- 448 Interessi calcolatori sull’attivo fisso <br />
+I costi di utilizzo delle immobilizzazioni (secondo REKOLE® e OCPre) corrispondono ai seguenti tipi di costi:       
+- 442 Ammortamenti      
+- 444 Altri canoni di locazione (compreso il leasing operativo)       
+- 448 Interessi calcolatori sull’attivo fisso       
 Per ulteriori informazioni, consultare il manuale REKOLE® (capitolo 6.5.3).
 {{</collapsibleBlock>}}

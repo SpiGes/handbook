@@ -20,13 +20,12 @@ L'indication «POA» peut être utilisée, entre autres, pour améliorer la qual
 -	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser. 
 -	Les codes étoile ne sont pas marqués comme tels, l’association se fait suivant CIM-10-GM. 
 
-<p>
-<b>Exemple 4</b> dans le manuel du codage (page 38) : <br />
-DP E10.73† Diabète sucré, type 1, avec complications multiples, désigné comme décompensé <br />
-DS I79.2* Angiopathie périphérique au cours de maladies classées ailleurs <br />
-DS H36.0* Rétinopathie diabétique <br />
-DS N08.3* Glomérulopathie au cours du diabète sucré  <br />
-…est saisi dans <b>SpiGes</b> comme suit : <br />
+**Exemple 4** dans le manuel du codage (page 38) :       
+DP E10.73† Diabète sucré, type 1, avec complications multiples, désigné comme décompensé      
+DS I79.2* Angiopathie périphérique au cours de maladies classées ailleurs       
+DS H36.0* Rétinopathie diabétique       
+DS N08.3* Glomérulopathie au cours du diabète sucré       
+…est saisi dans <b>SpiGes</b> comme suit :      
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
@@ -54,17 +53,15 @@ DS N08.3* Glomérulopathie au cours du diabète sucré  <br />
     <td> E10.73 </td>
   </tr>
 </table>
-</p>
 
-<p>
-<b>Exemple 4</b> dans le manuel du codage (page 40) :  <br />
-DP S37.03 Rupture totale du parenchyme rénal <br />
-L 2  <br />
-DS V99! Accident de transport <br />
-DS S36.03 Déchirure de la rate, avec atteinte du parenchyme <br />
-DS S36.49 Autres parties et parties multiples de l’intestin grêle <br />
-DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacrée et du bassin) associée à une lésion intraabdominale <br />
-…est saisi dans SpiGes comme suit : <br />
+**Exemple 4** dans le manuel du codage (page 40) :       
+DP S37.03 Rupture totale du parenchyme rénal      
+L 2       
+DS V99! Accident de transport       
+DS S36.03 Déchirure de la rate, avec atteinte du parenchyme       
+DS S36.49 Autres parties et parties multiples de l’intestin grêle       
+DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacrée et du bassin) associée à une lésion intraabdominale       
+…est saisi dans SpiGes comme suit :       
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
@@ -107,5 +104,4 @@ DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacré
     <td> S37.03 </td>
   </tr>
 </table>
-</p>
 {{</collapsibleBlock>}}

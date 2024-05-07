@@ -16,9 +16,7 @@ Il faut indiquer la même granularité que les lignes sur les factures envoyées
 
 2. Comment remplir les champs correspondants pour les factures qui ne sont pas facturées via SwissDRG, TARPSY ou ST Reha ?
 {{<collapsibleBlock groupId="rechnungen">}}
-
 -	En principe, selon la norme du Forum Datenaustausch, mais seulement pour les traitements hospitaliers. 
 -	Le type de tarif, le montant et la quantité devraient être clairs. 
 -	Les champs qui n'ont pas de sens pour d'autres tarifs peuvent être laissés vides. 
-
 {{</collapsibleBlock>}}

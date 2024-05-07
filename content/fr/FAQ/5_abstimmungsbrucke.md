@@ -66,9 +66,9 @@ Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoi
 
 5. Le compte 441 ne rentre dans aucun calcul des coûts d’utilisation des immobilisations, ni selon OCP, ni selon REKOLE®. Pouvez-vous confirmer cela ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-Les coûts d’utilisation des immobilisations (selon REKOLE® et OCP) correspondent aux charges par nature suivante : <br />
-- 442 Amortissements <br />
-- 444 Autres loyers (y compris leasing opérationnel) <br />
-- 448 Charges des intérêts calculés sur les actifs immobilisés <br />
+Les coûts d’utilisation des immobilisations (selon REKOLE® et OCP) correspondent aux charges par nature suivante : 
+- 442 Amortissements 
+- 444 Autres loyers (y compris leasing opérationnel) 
+- 448 Charges des intérêts calculés sur les actifs immobilisés 
 De plus amples informations sont disponibles dans le manuel REKOLE® (chapitre 6.5.3).
 {{</collapsibleBlock>}}

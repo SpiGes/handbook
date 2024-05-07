@@ -44,8 +44,8 @@ Rapatriement d'un patient ou d'une patiente avec une résidence principale suiss
 
 7. Comment coder les cas qui passent de la réadaptation (tarif ST-REHA) aux soins de longue durée (tarif "taxe de soins") du même établissement ? Les variables 1.2.V02 et 1.5.V03 ne nous permettent pas d'indiquer "soins de longue durée, même établissement".
 {{<collapsibleBlock groupId="admninistratives">}}
-C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit : <br />
-sortie_séjour : 2 = établ. de santé non hospit. médicalisé  <br />
+C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit :           
+sortie_séjour : 2 = établ. de santé non hospit. médicalisé             
 entrée_séjour : 84 = division/clinique de réadaptation, même établissement  
 {{</collapsibleBlock>}}
 
