@@ -56,6 +56,12 @@ jobs:
         id: lint
         continue-on-error: true
 
+      - name: Upload markdownlint result as an artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdownlint-results
+          path: markdownlintresult
+
       - name: Generate Annotations
         run: |
           while IFS= read -r line; do
