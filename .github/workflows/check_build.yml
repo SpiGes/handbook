@@ -75,7 +75,7 @@ jobs:
               line_number=${BASH_REMATCH[2]}
               message=${BASH_REMATCH[4]}
               # Display as a warning
-              echo "::warning ($filename@$line_number): $message"
+              echo "::warning file=$filename,line=$line_number::$message"
               # Increment the warning counter
               ((warning_count++))
             fi
