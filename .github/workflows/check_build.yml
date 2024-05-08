@@ -64,8 +64,9 @@ jobs:
           regex='^([^:]+):([0-9]+):([0-9]+:)?\s+(.+)$'
 
           while IFS= read -r line; do
-            if [[ $line =~ $regex ]]; then
-              echo $line
+            echo "$line"
+            if [[ "$line" =~ $regex ]]; then
+
               filename=${BASH_REMATCH[1]}
               line_number=${BASH_REMATCH[2]}
               message=${BASH_REMATCH[4]}
