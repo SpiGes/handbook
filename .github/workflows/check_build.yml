@@ -66,21 +66,19 @@ jobs:
       - name: Generate Annotations and Check Warning Threshold
         run: |
           warning_count=0
-          threshold=10  # Set the warning threshold here
+          threshold=5  # Set the warning threshold here
+          regex='^([^:]+):([0-9]+):([0-9]+:)?\s+(.+)$'
 
           while IFS= read -r line; do
-            # Extract the file path and line number
-            file=$(echo "$line" | awk -F ':' '{print $1}')
-            line_number=$(echo "$line" | awk -F ':' '{print $2}' | awk '{print $1}')
-
-            # Extract the full lint message
-            message=$(echo "$line" | awk -F ']' '{print $2}' | sed -e 's/^[ \t]*//' -e 's/[ \t]*$//')
-
-            # Create the warning annotation
-            echo "::warning file=$file,line=$line_number::${message}"
-
-            # Increment the warning counter
-            ((warning_count++))
+            if [[ $line =~ $regex ]]; then
+              filename=${BASH_REMATCH[1]}
+              line_number=${BASH_REMATCH[2]}
+              message=${BASH_REMATCH[4]}
+              # Display as a warning
+              echo "::warning ($filename@$line_number): $message"
+              # Increment the warning counter
+              ((warning_count++))
+            fi
           done < .markdownlintresult
 
           # Check if the warning threshold is exceeded
