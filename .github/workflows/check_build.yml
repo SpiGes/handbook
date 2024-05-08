@@ -68,10 +68,15 @@ jobs:
               filename=${BASH_REMATCH[1]}
               line_number=${BASH_REMATCH[2]}
               message=${BASH_REMATCH[4]}
+              echo "filename=$filename"
+              echo "line_number=$line_number"
+              echo "message=$message"
               # Display as a warning
               echo "::warning file=$filename,line=$line_number::$message"
               # Increment the warning counter
               ((warning_count++))
+            else
+              echo "No match found"
             fi
           done < .markdownlintresult
 
