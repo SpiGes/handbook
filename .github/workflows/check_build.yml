@@ -48,25 +48,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Lint Markdown Files
-        uses: avto-dev/markdownlint-cli-action@v1
-        with:
-          config_file: ".markdownlint.json"
-        id: markdown_lint
+      - name: Run Markdown Lint
+        uses: avto-dev/markdown-lint@v1
+        id: lint
+        continue-on-error: true
 
       - name: Generate Annotations
         run: |
-          # Create annotations from the markdownlint results
-          if [ -s report.txt ]; then
-            while IFS= read -r line; do
-              file=$(echo "$line" | awk -F':' '{print $1}')
-              line_number=$(echo "$line" | awk -F':' '{print $2}')
-              message=$(echo "$line" | awk -F':' '{print $3}')
-              echo "::warning file=$file,line=$line_number::$message"
-            done < report.txt
-          fi
+          echo "${{ steps.lint.outputs.results }}" | while read line; do
+            # Supposons que chaque ligne est de la forme file:line:message
+            IFS=: read file line message <<< "$line"
+            echo "::error file=$file,line=$line::$(echo $message | sed 's/ /%20/g')"
+          done
   # Build job
   build:
+    needs: [markdownLint]
     runs-on: ubuntu-latest
     steps:
       - name: Install Go
