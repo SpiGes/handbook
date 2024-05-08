@@ -71,6 +71,7 @@ jobs:
 
           while IFS= read -r line; do
             if [[ $line =~ $regex ]]; then
+              echo $line
               filename=${BASH_REMATCH[1]}
               line_number=${BASH_REMATCH[2]}
               message=${BASH_REMATCH[4]}
