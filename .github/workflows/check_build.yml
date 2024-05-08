@@ -91,7 +91,7 @@ jobs:
   # Build job
   build:
     name: Build
-    needs: [markdownLint]
+    needs: [markdownLintCheck]
     runs-on: ubuntu-latest
     steps:
       - name: Install Go
