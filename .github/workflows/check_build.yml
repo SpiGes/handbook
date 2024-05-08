@@ -63,7 +63,7 @@ jobs:
           threshold=5  # Set the warning threshold here
           regex='^([^:]+):([0-9]+)(:[0-9]+)?\s+(.+)$'
 
-          while IFS= read -r line; do
+          while IFS=$'\n' read -r line; do
             if [[ "$line" =~ $regex ]]; then
               filename=${BASH_REMATCH[1]}
               line_number=${BASH_REMATCH[2]}
@@ -80,11 +80,14 @@ jobs:
             fi
           done < .markdownlintresult
 
+          echo "Total warnings: $warning_count"
+
           # Check if the warning threshold is exceeded
           if [[ $warning_count -gt $threshold ]]; then
             echo "Warning threshold exceeded. Stopping workflow."
             exit 1
           fi
+          echo "Workflow completed without exceeding the threshold."
   # Build job
   build:
     name: Build
