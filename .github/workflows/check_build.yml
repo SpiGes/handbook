@@ -69,16 +69,15 @@ jobs:
           threshold=10  # Set the warning threshold here
 
           while IFS= read -r line; do
-            # Extract base information
-            file=$(echo "$line" | cut -d':' -f1)
-            line_number=$(echo "$line" | cut -d':' -f2 | cut -d' ' -f1) # Line number before the space
+            # Extract the file path and line number
+            file=$(echo "$line" | awk -F ':' '{print $1}')
+            line_number=$(echo "$line" | awk -F ':' '{print $2}' | awk '{print $1}')
 
-            # Extract the complete message, including details
-            message=$(echo "$line" | cut -d']' -f2-) # Take everything after the first closing bracket to include all details
+            # Extract the full lint message
+            message=$(echo "$line" | awk -F ']' '{print $2}' | sed -e 's/^[ \t]*//' -e 's/[ \t]*$//')
 
             # Create the warning annotation
-            clean_message=$(echo "$message" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')  # Remove superfluous spaces
-            echo "::warning file=$file,line=$line_number::$(echo $clean_message)"
+            echo "::warning file=$file,line=$line_number::${message}"
 
             # Increment the warning counter
             ((warning_count++))
@@ -87,7 +86,7 @@ jobs:
           # Check if the warning threshold is exceeded
           if [[ $warning_count -gt $threshold ]]; then
             echo "Warning threshold exceeded. Stopping workflow."
-            exit 1  # Stop the workflow with an error
+            exit 1
   # Build job
   build:
     name: Build
