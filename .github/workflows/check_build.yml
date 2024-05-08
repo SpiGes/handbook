@@ -57,12 +57,6 @@ jobs:
         id: lint
         continue-on-error: true
 
-      - name: Upload markdownlint result as an artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: markdownlint-results
-          path: .markdownlintresult
-
       - name: Generate Annotations and Check Warning Threshold
         run: |
           warning_count=0
