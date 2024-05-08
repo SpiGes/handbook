@@ -85,6 +85,7 @@ jobs:
           if [[ $warning_count -gt $threshold ]]; then
             echo "Warning threshold exceeded. Stopping workflow."
             exit 1
+          fi
   # Build job
   build:
     name: Build
