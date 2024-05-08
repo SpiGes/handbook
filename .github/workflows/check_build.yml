@@ -82,7 +82,7 @@ jobs:
 
             # Increment the warning counter
             ((warning_count++))
-          done < markdownlintresult
+          done < .markdownlintresult
 
           # Check if the warning threshold is exceeded
           if [[ $warning_count -gt $threshold ]]; then
