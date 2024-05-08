@@ -42,7 +42,8 @@ defaults:
     shell: bash
 
 jobs:
-  markdownLint:
+  markdownLintCheck:
+    name: Markdown Lint Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -62,16 +63,34 @@ jobs:
           name: markdownlint-results
           path: .markdownlintresult
 
-      - name: Generate Annotations
+      - name: Generate Annotations and Check Warning Threshold
         run: |
+          warning_count=0
+          threshold=10  # Set the warning threshold here
+
           while IFS= read -r line; do
+            # Extract base information
             file=$(echo "$line" | cut -d':' -f1)
-            line_number=$(echo "$line" | cut -d':' -f2)
-            message=$(echo "$line" | cut -d':' -f4-)
-            echo "::error file=$file,line=$line_number,col=1::$(echo $message)"
-          done < .markdownlintresult
+            line_number=$(echo "$line" | cut -d':' -f2 | cut -d' ' -f1) # Line number before the space
+
+            # Extract the complete message, including details
+            message=$(echo "$line" | cut -d']' -f2-) # Take everything after the first closing bracket to include all details
+
+            # Create the warning annotation
+            clean_message=$(echo "$message" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')  # Remove superfluous spaces
+            echo "::warning file=$file,line=$line_number::$(echo $clean_message)"
+
+            # Increment the warning counter
+            ((warning_count++))
+          done < markdownlintresult
+
+          # Check if the warning threshold is exceeded
+          if [[ $warning_count -gt $threshold ]]; then
+            echo "Warning threshold exceeded. Stopping workflow."
+            exit 1  # Stop the workflow with an error
   # Build job
   build:
+    name: Build
     needs: [markdownLint]
     runs-on: ubuntu-latest
     steps:
