@@ -1,5 +1,5 @@
-# Check automatically, after pushing on main, the build of Hugo site
-name: Auto Check Build
+# Check build after pushing on main, during Pull-Request, or manually with any branch, with optional deployment on test environment
+name: Check Build
 
 on:
   # Runs on pushes targeting the main branch
@@ -13,17 +13,17 @@ on:
   workflow_dispatch:
     inputs:
       deploymentEnabled:
-        description: 'The built website must be deployed'
+        description: "The built website must be deployed"
         required: false
         default: true
         type: boolean
 
 env:
-  TARGET_REPOSITORY: 'spiges/handbook-test'
-  TARGET_BRANCH: 'main'
+  TARGET_REPOSITORY: "spiges/handbook-test"
+  TARGET_BRANCH: "main"
   KEEP_TARGET_HISTORY: false
-  DEPLOYED_BASE_URL: 'https://spiges.github.io/handbook-test/'
-  DEPLOYED_BASE_NAME: 'handbook-test'
+  DEPLOYED_BASE_URL: "https://spiges.github.io/handbook-test/"
+  DEPLOYED_BASE_NAME: "handbook-test"
   # Versions
   HUGO_VERSION: "0.124.1"
   GO_VERSION: "1.22.2"
@@ -42,6 +42,29 @@ defaults:
     shell: bash
 
 jobs:
+  markdownLint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown Files
+        uses: avto-dev/markdownlint-cli-action@v1
+        with:
+          config_file: ".markdownlint.json"
+        id: markdown_lint
+
+      - name: Generate Annotations
+        run: |
+          # Create annotations from the markdownlint results
+          if [ -s report.txt ]; then
+            while IFS= read -r line; do
+              file=$(echo "$line" | awk -F':' '{print $1}')
+              line_number=$(echo "$line" | awk -F':' '{print $2}')
+              message=$(echo "$line" | awk -F':' '{print $3}')
+              echo "::warning file=$file,line=$line_number::$message"
+            done < report.txt
+          fi
   # Build job
   build:
     runs-on: ubuntu-latest
@@ -55,7 +78,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb    
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Install Dart Sass
         if: success()
@@ -76,7 +99,7 @@ jobs:
       - name: Clear npm cache
         if: success()
         run: npm cache clean --force
-          
+
       - name: Install Node.js dependencies with npm ci
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
@@ -105,10 +128,10 @@ jobs:
 
           branch_name=$(echo $GITHUB_REF | sed 's|refs/heads/||')
           echo "Current branch: $branch_name" 
-          new_version="${version}-${branch_name}"
+          new_version="${version}+${branch_name}"
           echo "New version: $new_version"
           sed -i "s|version[[:space:]]*=[[:space:]]*\"${version}\"|version = \"${new_version}\"|" hugo.toml
-          
+
       - name: Set Test style (blue lines)
         if: success()
         run: |
@@ -121,10 +144,10 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-            hugo \
-                --gc \
-                --minify \
-                --baseURL "${{ env.DEPLOYED_BASE_URL }}"
+          hugo \
+              --gc \
+              --minify \
+              --baseURL "${{ env.DEPLOYED_BASE_URL }}"
 
       - name: Copy README.md and LICENSE.md files in public directory
         if: success()
@@ -137,7 +160,7 @@ jobs:
         # Runs only if:
         #   previous step successed
         #   AND the trigger is not a pull-request
-        #   AND 
+        #   AND
         #     the trigger is automatic (push)
         #     OR the trigger is manual and 'deploymentEnabled' parameter is true
         if: success() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || github.event.inputs.deploymentEnabled == 'true')
