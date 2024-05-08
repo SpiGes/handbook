@@ -52,16 +52,18 @@ jobs:
         uses: avto-dev/markdown-lint@v1
         with:
           args: "**/*.md"
+          output: ".markdownlintresult"
         id: lint
         continue-on-error: true
 
       - name: Generate Annotations
         run: |
-          echo "${{ steps.lint.outputs.results }}" | while read line; do
-            # Supposons que chaque ligne est de la forme file:line:message
-            IFS=: read file line message <<< "$line"
-            echo "::error file=$file,line=$line::$(echo $message | sed 's/ /%20/g')"
-          done
+          while IFS= read -r line; do
+            file=$(echo "$line" | cut -d':' -f1)
+            line_number=$(echo "$line" | cut -d':' -f2)
+            message=$(echo "$line" | cut -d':' -f4-)
+            echo "::error file=$file,line=$line_number,col=1::$(echo $message)"
+          done < .markdownlintresult
   # Build job
   build:
     needs: [markdownLint]
