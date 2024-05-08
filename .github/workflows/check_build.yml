@@ -50,6 +50,8 @@ jobs:
 
       - name: Run Markdown Lint
         uses: avto-dev/markdown-lint@v1
+        with:
+          args: "**/*.md"
         id: lint
         continue-on-error: true
 
