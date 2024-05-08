@@ -63,10 +63,9 @@ jobs:
           threshold=5  # Set the warning threshold here
           regex='^([^:]+):([0-9]+):([0-9]+:)?\s+(.+)$'
 
-          while IFS= read -r line; do
+          while IFS=$'\n' read -r line; do
             echo "$line"
             if [[ "$line" =~ $regex ]]; then
-
               filename=${BASH_REMATCH[1]}
               line_number=${BASH_REMATCH[2]}
               message=${BASH_REMATCH[4]}
@@ -74,6 +73,8 @@ jobs:
               echo "::warning file=$filename,line=$line_number::$message"
               # Increment the warning counter
               ((warning_count++))
+            else
+              echo "No match for line: $line"
             fi
           done < .markdownlintresult
 
