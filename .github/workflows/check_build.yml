@@ -57,6 +57,13 @@ jobs:
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
 
+      - name: Run reviewdog with markdownlint
+        uses: reviewdog/action-markdownlint@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          level: warning
+
       - name: Run markdownlint-cli
         run: markdownlint --config .markdownlint.json --ignore node_modules --output ./lint-results.txt '**/*.md' || true
 
@@ -68,12 +75,6 @@ jobs:
             echo "lint-results.txt file does not exist." >&2
             exit 1
           fi
-
-      - name: Run reviewdog with markdownlint
-        uses: reviewdog/action-markdownlint@v0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-review
 
       - name: Print working directory and list files
         run: |
