@@ -58,14 +58,14 @@ jobs:
         run: npm install -g markdownlint-cli
 
       - name: Run markdownlint-cli
-        run: markdownlint '**/*.md' --config .markdownlint.json --ignore node_modules --output lint-results.txt || true
+        run: markdownlint --config .markdownlint.json --ignore node_modules --output lint-results.txt '**/*.md' || true
 
       - name: Run reviewdog with markdownlint
         uses: reviewdog/action-markdownlint@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          markdownlint_flags: "'**/*.md' --config .markdownlint.json --ignore node_modules --output lint-results.txt"
+          markdownlint_flags: "--config .markdownlint.json --ignore node_modules '**/*.md'"
 
       - name: Check Threshold
         run: |
