@@ -63,7 +63,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-annotations
           level: warning
-          filter_mode: nofilter
+          filter_mode: added
 
       - name: Run reviewdog + markdownlint with check
         uses: reviewdog/action-markdownlint@v0
@@ -71,7 +71,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-check
           level: warning
-          filter_mode: nofilter
+          filter_mode: added
 
       - name: Run markdownlint-cli
         run: markdownlint --config .markdownlint.json --ignore node_modules --output ./lint-results.txt '**/*.md' || true
@@ -99,11 +99,19 @@ jobs:
             warning_count=$(grep -c '^[^ ]' ./lint-results.txt)
             echo "Total warnings: $warning_count"
             if [[ "$warning_count" -gt "$max_warnings" ]]; then
-              echo "Warning threshold exceeded."
+              echo "::error file=./lint-results.txt,line=1,col=1::Warning threshold exceeded. Total warnings: $warning_count"
+              echo "Displaying all warnings from lint-results.txt:"
+              cat ./lint-results.txt
               exit 1
+            elif [[ "$warning_count" -eq 0 ]]; then
+              echo "::notice file=./lint-results.txt,line=1,col=1::No warnings found. Good job!"
+            else
+              echo "::warning file=./lint-results.txt,line=1,col=1::Warning count is within acceptable limits. Total warnings: $warning_count"
+              echo "Displaying all warnings from lint-results.txt:"
+              cat ./lint-results.txt
             fi
           else
-            echo "File not found for reading warnings count."
+            echo "::error file=./lint-results.txt,line=1,col=1::File not found for reading warnings count."
             exit 1
           fi
   # Build job
