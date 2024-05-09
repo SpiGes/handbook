@@ -1,12 +1,18 @@
 {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.markdownlint": "always"
+        "source.fixAll.markdownlint": "always",
+        "source.fixAll.eslint": "always"
     },
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.tabSize": 2,
         "editor.detectIndentation": false
-      }
+    },
+    "eslint.debug": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.run": "onSave",
+    "eslint.useESLintClass": true,
 }
