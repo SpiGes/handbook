@@ -49,45 +49,37 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run Markdown Lint
-        uses: avto-dev/markdown-lint@v1
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          args: "**/*.md"
-          output: ".markdownlintresult"
-        id: lint
-        continue-on-error: true
+          node-version: ${{ env.NODE_VERSION }}
 
-      - name: Generate Annotations and Check Warning Threshold
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Run markdownlint-cli
+        run: markdownlint "**/*.md" > lint-results.txt
+
+      - name: Run Reviewdog
+        uses: reviewdog/reviewdog@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tool_name: markdownlint
+          reporter: github-pr-review
+          filter_mode: nofilter
+          fail_on_error: true
+          level: warning
+          report_file: "lint-results.txt"
+
+      - name: Check Threshold
         run: |
-          warning_count=0
-          threshold=5  # Set the warning threshold here
-          regex='^([^:]+):([0-9]+)(:[0-9]+)?\s+(.+)$'
-
-          while IFS=$'\n' read -r line; do
-            if [[ "$line" =~ $regex ]]; then
-              filename=${BASH_REMATCH[1]}
-              line_number=${BASH_REMATCH[2]}
-              message=${BASH_REMATCH[4]}
-              echo "filename=$filename"
-              echo "line_number=$line_number"
-              echo "message=$message"
-              # Display as a warning
-              echo "::warning file=$filename,line=$line_number::$message"
-              # Increment the warning counter
-              ((warning_count++))
-            else
-              echo "No match found"
-            fi
-          done < .markdownlintresult
-
+          max_warnings=5
+          warning_count=$(grep -c '^[^ ]' lint-results.txt)
           echo "Total warnings: $warning_count"
-
-          # Check if the warning threshold is exceeded
-          if [[ $warning_count -gt $threshold ]]; then
-            echo "Warning threshold exceeded. Stopping workflow."
+          if [[ "$warning_count" -gt "$max_warnings" ]]; then
+            echo "Warning threshold exceeded."
             exit 1
           fi
-          echo "Workflow completed without exceeding the threshold."
   # Build job
   build:
     name: Build
