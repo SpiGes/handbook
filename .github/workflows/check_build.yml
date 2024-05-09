@@ -65,7 +65,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          markdownlint_flags: '**/*.md' --config .markdownlint.json --ignore node_modules --output lint-results.txt
+          markdownlint_flags: "'**/*.md' --config .markdownlint.json --ignore node_modules --output lint-results.txt"
 
       - name: Check Threshold
         run: |
