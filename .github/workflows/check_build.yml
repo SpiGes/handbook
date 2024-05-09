@@ -58,16 +58,21 @@ jobs:
         run: npm install -g markdownlint-cli
 
       - name: Run markdownlint-cli
-        run: markdownlint "**/*.md" > lint-results.txt
+        run: markdownlint '**/*.md' --ignore node_modules --output lint-results.txt
 
-      - uses: reviewdog/action-setup@v1
+      - name: markdownlint-github-check
+        uses: ./
         with:
-          reviewdog_version: latest # Optional. [latest,nightly,v.X.Y.Z]
-      - name: Run reviewdog
-        env:
-          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          reviewdog -reporter=github-pr-review -runners=golint,govet
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-check
+          level: warning
+          filter_mode: nofilter
+
+      - name: markdownlint-github-pr-review
+        uses: ./
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
 
       - name: Check Threshold
         run: |
