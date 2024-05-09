@@ -57,11 +57,18 @@ jobs:
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
 
-      - name: Run reviewdog with markdownlint
+      - name: Run reviewdog + markdownlint with annotations
         uses: reviewdog/action-markdownlint@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-review
+          reporter: github-pr-annotations
+          level: warning
+
+      - name: Run reviewdog + markdownlint with check
+        uses: reviewdog/action-markdownlint@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-check
           level: warning
 
       - name: Run markdownlint-cli
