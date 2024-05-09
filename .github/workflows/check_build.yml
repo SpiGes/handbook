@@ -74,15 +74,26 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          markdownlint_flags: "--config .markdownlint.json --ignore node_modules"
+
+      - name: Print working directory and list files
+        run: |
+          echo "Current Working Directory:"
+          pwd
+          echo "Listing files:"
+          ls -la
 
       - name: Check Threshold
         run: |
           max_warnings=5
-          warning_count=$(grep -c '^[^ ]' ./lint-results.txt)
-          echo "Total warnings: $warning_count"
-          if [[ "$warning_count" -gt "$max_warnings" ]]; then
-            echo "Warning threshold exceeded."
+          if [[ -f "./lint-results.txt" ]]; then
+            warning_count=$(grep -c '^[^ ]' ./lint-results.txt)
+            echo "Total warnings: $warning_count"
+            if [[ "$warning_count" -gt "$max_warnings" ]]; then
+              echo "Warning threshold exceeded."
+              exit 1
+            fi
+          else
+            echo "File not found for reading warnings count."
             exit 1
           fi
   # Build job
