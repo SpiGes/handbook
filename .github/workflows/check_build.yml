@@ -58,19 +58,28 @@ jobs:
         run: npm install -g markdownlint-cli
 
       - name: Run markdownlint-cli
-        run: markdownlint --config .markdownlint.json --ignore node_modules --output lint-results.txt '**/*.md' || true
+        run: markdownlint --config .markdownlint.json --ignore node_modules --output ./lint-results.txt '**/*.md' || true
+
+      - name: Check if lint results file was created
+        run: |
+          if [[ -f "./lint-results.txt" ]]; then
+            echo "lint-results.txt file was created successfully."
+          else
+            echo "lint-results.txt file does not exist." >&2
+            exit 1
+          fi
 
       - name: Run reviewdog with markdownlint
         uses: reviewdog/action-markdownlint@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          markdownlint_flags: "--config .markdownlint.json --ignore node_modules '**/*.md'"
+          markdownlint_flags: "--config .markdownlint.json --ignore node_modules"
 
       - name: Check Threshold
         run: |
           max_warnings=5
-          warning_count=$(grep -c '^[^ ]' lint-results.txt)
+          warning_count=$(grep -c '^[^ ]' ./lint-results.txt)
           echo "Total warnings: $warning_count"
           if [[ "$warning_count" -gt "$max_warnings" ]]; then
             echo "Warning threshold exceeded."
