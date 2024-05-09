@@ -63,6 +63,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-annotations
           level: warning
+          filter_mode: nofilter
 
       - name: Run reviewdog + markdownlint with check
         uses: reviewdog/action-markdownlint@v0
@@ -70,6 +71,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-check
           level: warning
+          filter_mode: nofilter
 
       - name: Run markdownlint-cli
         run: markdownlint --config .markdownlint.json --ignore node_modules --output ./lint-results.txt '**/*.md' || true
