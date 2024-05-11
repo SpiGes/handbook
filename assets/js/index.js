@@ -1,2 +1,2 @@
-import "./ClickDisabler.js";
-import "./Collapsible.js";
+import './ClickDisabler.js';
+import './Collapsible.js';
