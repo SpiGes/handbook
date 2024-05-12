@@ -50,18 +50,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Clear npm cache
-        if: success()
-        run: npm cache clean --force
       - name: Install Node.js dependencies with npm ci
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - uses: reviewdog/action-eslint@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-check
           filter_mode: added
-          eslint_flags: "assets/js"
+          eslint_flags: "assets/js/"
   markdownLintCheck:
     name: Markdown Lint Check
     runs-on: ubuntu-latest
