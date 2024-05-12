@@ -57,7 +57,7 @@ jobs:
         with:
           reporter: github-pr-check
           filter_mode: added
-          eslint_flags: "assets/js/"
+          eslint_flags: "--debug --stats assets/js/"
   markdownLintCheck:
     name: Markdown Lint Check
     runs-on: ubuntu-latest
