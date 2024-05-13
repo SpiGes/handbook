@@ -19,7 +19,7 @@ export default [
     },
     rules: {
       'indent': ['error', 2],
-      'linebreak-style': ['error','windows'],
+      'linebreak-style': 'off', // doesn't work well on GitHub
       'quotes': ['error','single'],
       'semi': ['error','always'],
       'no-unused-vars': ['warn', { 'args': 'after-used','ignoreRestSiblings': true }],
