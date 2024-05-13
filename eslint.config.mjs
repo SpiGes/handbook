@@ -1,10 +1,22 @@
 import globals from 'globals';
-import pluginJs from '@eslint/js';
+import eslint  from '@eslint/js';7;
+import jsdocPlugin from 'eslint-plugin-jsdoc';
 
 export default [
   { languageOptions: { globals: globals.browser } },
-  pluginJs.configs.recommended,
+
+  // extends ...
+  eslint .configs.recommended,
   {
+    languageOptions: {
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module'
+      },
+    },
+    plugins: {
+      ['jsdoc']: jsdocPlugin,
+    },
     rules: {
       'indent': ['error', 2],
       'linebreak-style': ['error','windows'],
@@ -30,7 +42,13 @@ export default [
       'arrow-spacing': ['error', { 'before': true, 'after': true }],
       'space-infix-ops': 'error',
       'jsdoc/check-alignment': 'error',
-      'jsdoc/check-indentation': 'error'
+      'jsdoc/check-indentation': 'error',
+      'jsdoc/check-tag-names': ['error', {
+        definedTags: ['title', 'fileOverview', 'creationDate', 'lastUpdated', 'notes']
+      }],
+      'jsdoc/require-jsdoc': 'error',
+      'jsdoc/require-param': 'error',
+      'jsdoc/require-returns': 'error',
     }
   }
 ];
