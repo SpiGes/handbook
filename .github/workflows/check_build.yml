@@ -1,5 +1,5 @@
-# Check automatically, after pushing on main, the build of Hugo site
-name: Auto Check Build
+# Check build after pushing on main, during Pull-Request, or manually with any branch, with optional deployment on test environment
+name: Check Build
 
 on:
   # Runs on pushes targeting the main branch
@@ -13,17 +13,17 @@ on:
   workflow_dispatch:
     inputs:
       deploymentEnabled:
-        description: 'The built website must be deployed'
+        description: "The built website must be deployed"
         required: false
         default: true
         type: boolean
 
 env:
-  TARGET_REPOSITORY: 'spiges/handbook-test'
-  TARGET_BRANCH: 'main'
+  TARGET_REPOSITORY: "spiges/handbook-test"
+  TARGET_BRANCH: "main"
   KEEP_TARGET_HISTORY: false
-  DEPLOYED_BASE_URL: 'https://spiges.github.io/handbook-test/'
-  DEPLOYED_BASE_NAME: 'handbook-test'
+  DEPLOYED_BASE_URL: "https://spiges.github.io/handbook-test/"
+  DEPLOYED_BASE_NAME: "handbook-test"
   # Versions
   HUGO_VERSION: "0.124.1"
   GO_VERSION: "1.22.2"
@@ -42,8 +42,73 @@ defaults:
     shell: bash
 
 jobs:
+  stylelintCheck:
+    name: SCSS Lint Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - run: "npm ci"
+      - uses: reviewdog/action-stylelint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: nofilter
+          fail_on_error: true
+          stylelint_config: ".stylelintrc.json"
+          stylelint_input: "**/assets/scss/*.scss"
+
+  eslintCheck:
+    name: Javascript Lint Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - run: "npm ci"
+      - uses: reviewdog/action-eslint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: nofilter
+          fail_on_error: true
+          eslint_flags: "--debug --stats --ignore-pattern '{public/,node_modules/}' assets/js/"
+
+  markdownlintCheck:
+    name: Markdown Lint Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - run: "npm ci"
+      - uses: reviewdog/action-markdownlint@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: nofilter
+          fail_on_error: true
+          markdownlint_flags: "**/content/**/*.md --ignore node_modules --ignore public --config .markdownlint.json"
+
   # Build job
   build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Install Go
@@ -55,7 +120,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb    
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Install Dart Sass
         if: success()
@@ -76,7 +141,7 @@ jobs:
       - name: Clear npm cache
         if: success()
         run: npm cache clean --force
-          
+
       - name: Install Node.js dependencies with npm ci
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
@@ -105,10 +170,10 @@ jobs:
 
           branch_name=$(echo $GITHUB_REF | sed 's|refs/heads/||')
           echo "Current branch: $branch_name" 
-          new_version="${version}-${branch_name}"
+          new_version="${version}+${branch_name}"
           echo "New version: $new_version"
           sed -i "s|version[[:space:]]*=[[:space:]]*\"${version}\"|version = \"${new_version}\"|" hugo.toml
-          
+
       - name: Set Test style (blue lines)
         if: success()
         run: |
@@ -121,10 +186,10 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-            hugo \
-                --gc \
-                --minify \
-                --baseURL "${{ env.DEPLOYED_BASE_URL }}"
+          hugo \
+              --gc \
+              --minify \
+              --baseURL "${{ env.DEPLOYED_BASE_URL }}"
 
       - name: Copy README.md and LICENSE.md files in public directory
         if: success()
@@ -137,7 +202,7 @@ jobs:
         # Runs only if:
         #   previous step successed
         #   AND the trigger is not a pull-request
-        #   AND 
+        #   AND
         #     the trigger is automatic (push)
         #     OR the trigger is manual and 'deploymentEnabled' parameter is true
         if: success() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || github.event.inputs.deploymentEnabled == 'true')

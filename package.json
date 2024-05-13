@@ -32,9 +32,17 @@
     "update:pkg:hugo": "npm install --save-dev --save-exact hugo-extended@latest"
   },
   "devDependencies": {
+    "@eslint/js": "^9.2.0",
     "autoprefixer": "^10.4.19",
     "cross-env": "^7.0.3",
+    "eslint": "^9.2.0",
+    "globals": "^15.2.0",
     "hugo-extended": "0.124.1",
-    "postcss-cli": "^11.0.0"
+    "markdownlint": "^0.34.0",
+    "markdownlint-cli": "^0.40.0",
+    "postcss-cli": "^11.0.0",
+    "stylelint": "^16.5.0",
+    "stylelint-scss": "^6.3.0",
+    "stylelint-config-standard-scss": "^13.1.0"
   }
 }
