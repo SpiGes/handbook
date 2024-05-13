@@ -53,7 +53,6 @@ class ClickDisabler {
     this.#disabledElement.addEventListener('click', event => {
       event.preventDefault();
       event.stopPropagation();
-      console.log('test');
     });
   }
 }

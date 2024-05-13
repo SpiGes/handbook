@@ -85,7 +85,7 @@ jobs:
           fail_on_error: true
           eslint_flags: "--debug --stats --ignore-pattern '{public/,node_modules/}' assets/js/"
 
-  markdownLintCheck:
+  markdownlintCheck:
     name: Markdown Lint Check
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
@@ -109,7 +109,6 @@ jobs:
   # Build job
   build:
     name: Build
-    needs: [markdownLintCheck]
     runs-on: ubuntu-latest
     steps:
       - name: Install Go

@@ -52,6 +52,14 @@
         ],
         "scss/selector-no-redundant-nesting-selector": true,
         "scss/at-import-no-partial-leading-underscore": true,
-        "scss/operator-no-unspaced": true
+        "scss/operator-no-unspaced": true,
+        "color-hex-length": "long",
+        "number-max-precision": [
+            3,
+            {
+                "severity": "warning"
+            }
+        ],
+        "media-feature-range-notation": "context"
     }
 }
