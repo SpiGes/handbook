@@ -54,14 +54,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Install Node.js dependencies with npm ci
-        if: success()
-        run: "npm install"
-      - name: Run reviewdog + action-stylelint with pr-review
-        uses: reviewdog/action-stylelint@v1
+      - run: "npm ci"
+      - uses: reviewdog/action-stylelint@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
+          filter_mode: nofilter
           fail_on_error: true
           stylelint_config: ".stylelintrc.json"
           stylelint_input: "**/assets/scss/*.scss"
@@ -78,11 +76,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Install Node.js dependencies with npm ci
-        if: success()
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Run reviewdog + action-eslint with pr-review
-        uses: reviewdog/action-eslint@v1
+      - run: "npm ci"
+      - uses: reviewdog/action-eslint@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
@@ -98,60 +93,19 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install markdownlint-cli
-        run: npm install -g markdownlint-cli
-
-      - name: Run reviewdog + action-markdownlint with pr-review
-        uses: reviewdog/action-markdownlint@v0
+      - run: "npm ci"
+      - uses: reviewdog/action-markdownlint@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          level: warning
-          filter_mode: added
+          filter_mode: nofilter
+          fail_on_error: true
           markdownlint_flags: "**/content/**/*.md --ignore node_modules --ignore public"
 
-      - name: Run markdownlint-cli with output to result file
-        run: markdownlint --config .markdownlint.json --ignore node_modules --ignore public --output ./lint-results.txt '**/content/**/*.md' || true
-
-      - name: Check if markdownlint result file was created
-        run: |
-          if [[ -f "./lint-results.txt" ]]; then
-            echo "lint-results.txt file was created successfully."
-          else
-            echo "lint-results.txt file does not exist." >&2
-            exit 1
-          fi
-
-      - name: Check warning threshold using result file
-        run: |
-          max_warnings=5
-          if [[ -f "./lint-results.txt" ]]; then
-            warning_count=$(grep -c '^[^ ]' ./lint-results.txt)
-            echo "Total warnings: $warning_count"
-            if [[ "$warning_count" -gt "$max_warnings" ]]; then
-              echo "::error file=./lint-results.txt,line=1,col=1::Warning threshold exceeded. Total warnings: $warning_count"
-              echo "Displaying all warnings from lint-results.txt:"
-              cat ./lint-results.txt
-              exit 1
-            elif [[ "$warning_count" -eq 0 ]]; then
-              echo "::notice file=./lint-results.txt,line=1,col=1::No warnings found. Good job!"
-            else
-              echo "::warning file=./lint-results.txt,line=1,col=1::Warning count is within acceptable limits. Total warnings: $warning_count"
-              echo "Displaying all warnings from lint-results.txt:"
-              cat ./lint-results.txt
-            fi
-          else
-            echo "::error file=./lint-results.txt,line=1,col=1::File not found for reading warnings count."
-            exit 1
-          fi
   # Build job
   build:
     name: Build
