@@ -66,8 +66,9 @@ jobs:
 
   eslintCheck:
     name: Javascript Lint Check
+    needs: [stylelintCheck]
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
+    if: always() && github.event_name == 'pull_request'
     permissions:
       contents: read
       pull-requests: write
@@ -87,8 +88,9 @@ jobs:
 
   markdownlintCheck:
     name: Markdown Lint Check
+    needs: [eslintCheck]
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
+    if: always() && github.event_name == 'pull_request'
     permissions:
       contents: read
       pull-requests: write
