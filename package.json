@@ -36,6 +36,7 @@
     "autoprefixer": "^10.4.19",
     "cross-env": "^7.0.3",
     "eslint": "^9.2.0",
+    "eslint-plugin-jsdoc": "^48.2.4",
     "globals": "^15.2.0",
     "hugo-extended": "0.124.1",
     "markdownlint": "^0.34.0",
