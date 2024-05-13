@@ -57,11 +57,6 @@ jobs:
       - name: Install Node.js dependencies with npm ci
         if: success()
         run: "npm install"
-      - name: Test upload package-lock.json
-        uses: actions/upload-artifact@v4
-        with:
-          name: package-lock.json
-          path: package-lock.json
       - name: Run reviewdog + action-stylelint with pr-review
         uses: reviewdog/action-stylelint@v1
         with:
