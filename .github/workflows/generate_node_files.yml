@@ -1,6 +1,9 @@
 name: Generate node files (node_modules and package-lock.json) for a Windows environment
 
 on:
+  push:
+    branches:
+      - "**/*"
   workflow_dispatch:
 
 env:
