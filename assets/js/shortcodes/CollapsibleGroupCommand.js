@@ -55,11 +55,11 @@ export class CollapsibleGroupCommand {
   #expandedText = null;
 
   /**
-     * Initializes a new instance of the CollapsibleGroupCommand class.
-     * @param {Element} element The DOM element that acts as the root of the collapsible group command.
-     * @param {Array<CollapsibleBlock>} groupObjects An array of CollapsibleBlock instances to be controlled.
-     * @throws {Error} If the element is invalid, missing, or if essential attributes are missing.
-     */
+   * Initializes a new instance of the CollapsibleGroupCommand class.
+   * @param {Element} element The DOM element that acts as the root of the collapsible group command.
+   * @param {Array<CollapsibleBlock>} groupObjects An array of CollapsibleBlock instances to be controlled.
+   * @throws {Error} If the element is invalid, missing, or if essential attributes are missing.
+   */
   constructor(element, groupObjects) {
     if (!element) {
       throw new Error('Invalid or missing DOM element');
@@ -95,9 +95,9 @@ export class CollapsibleGroupCommand {
   }
 
   /**
-     * Sets up the initial state of the collapsible group command and registers event listeners.
-     * By default, the group is initialized in a collapsed state.
-     */
+   * Sets up the initial state of the collapsible group command and registers event listeners.
+   * By default, the group is initialized in a collapsed state.
+   */
   #initialize() {
     this.#buttonElement.addEventListener('click', () => this.toggleAll());
     this.#iconElement.addEventListener('click', () => this.toggleAll());
@@ -105,8 +105,8 @@ export class CollapsibleGroupCommand {
   }
 
   /**
-     * Toggles the state of all collapsible blocks in the group between expanded and collapsed.
-     */
+   * Toggles the state of all collapsible blocks in the group between expanded and collapsed.
+   */
   toggleAll() {
     if(this.#isExpanded) {
       this.collapseAll();
@@ -116,8 +116,8 @@ export class CollapsibleGroupCommand {
   }
 
   /**
-     * Collapses all collapsible blocks in the group, updates the toggle button and icon to represent the collapsed state.
-     */
+   * Collapses all collapsible blocks in the group, updates the toggle button and icon to represent the collapsed state.
+   */
   collapseAll() {
     this.#isExpanded = false;
     this.#buttonElement.textContent  = this.#collapsedText;
@@ -127,8 +127,8 @@ export class CollapsibleGroupCommand {
   }
 
   /**
-     * Expands all collapsible blocks in the group, updates the toggle button and icon to represent the expanded state.
-     */
+   * Expands all collapsible blocks in the group, updates the toggle button and icon to represent the expanded state.
+   */
   expandAll() {
     this.#isExpanded = true;
     this.#buttonElement.textContent  = this.#expandedText;

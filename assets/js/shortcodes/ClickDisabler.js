@@ -22,11 +22,11 @@ export class ClickDisabler {
   #disabledElement = null;
 
   /**
-     * Creates an instance of ClickDisabler for the specified `element`.
-     * Throws an error if the `element` is null or undefined.
-     * @param {HTMLElement} element - The DOM element to disable clicks on.
-     * @throws {Error} If the specified `element` is invalid or missing.
-     */
+   * Creates an instance of ClickDisabler for the specified `element`.
+   * Throws an error if the `element` is null or undefined.
+   * @param {HTMLElement} element - The DOM element to disable clicks on.
+   * @throws {Error} If the specified `element` is invalid or missing.
+   */
   constructor(element) {
     if (!element) {
       throw new Error('Invalid or missing DOM element');
@@ -36,9 +36,9 @@ export class ClickDisabler {
   }
 
   /**
-     * Initializes the click event handlers to prevent click actions on the `#disabledElement`.
-     * @private
-     */
+   * Initializes the click event handlers to prevent click actions on the `#disabledElement`.
+   * @private
+   */
   #initialise() {
     this.#disabledElement.addEventListener('click', event => {
       event.preventDefault();

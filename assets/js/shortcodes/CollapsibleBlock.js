@@ -65,10 +65,10 @@ export class CollapsibleBlock {
   #expandedText = null;
 
   /**
-     * Initializes a new instance of the CollapsibleBlock class.
-     * @param {Element} element The DOM element that acts as the root of the collapsible block.
-     * @throws {Error} If the element is invalid or essential attributes are missing.
-     */
+   * Initializes a new instance of the CollapsibleBlock class.
+   * @param {Element} element The DOM element that acts as the root of the collapsible block.
+   * @throws {Error} If the element is invalid or essential attributes are missing.
+   */
   constructor(element) {
     if (!element || !(element instanceof Element)) {
       throw new Error('Invalid or missing DOM element');
@@ -109,9 +109,9 @@ export class CollapsibleBlock {
   }
 
   /**
-     * Sets up the initial state of the collapsible block and registers event listeners.
-     * By default, the block is initialized in a collapsed state.
-     */
+   * Sets up the initial state of the collapsible block and registers event listeners.
+   * By default, the block is initialized in a collapsed state.
+   */
   #initialize() {
     this.#buttonElement.addEventListener('click', () => this.toggle());
     this.#iconElement.addEventListener('click', () => this.toggle());
@@ -119,16 +119,16 @@ export class CollapsibleBlock {
   }
 
   /**
-     * Gets the group ID of the collapsible block, if it is part of a group.
-     * @return {string|null} The group ID, or null if not part of a group.
-     */
+   * Gets the group ID of the collapsible block, if it is part of a group.
+   * @returns {string|null} The group ID, or null if not part of a group.
+   */
   get groupId() {
     return this.#groupId;
   }
 
   /**
-     * Toggles the collapsible block between its expanded and collapsed states.
-     */
+   * Toggles the collapsible block between its expanded and collapsed states.
+   */
   toggle() {
     if(this.#isExpanded){
       this.collapse();
@@ -138,8 +138,8 @@ export class CollapsibleBlock {
   }
 
   /**
-     * Expands the collapsible block, showing its content and updating the toggle button and icon.
-     */
+   * Expands the collapsible block, showing its content and updating the toggle button and icon.
+   */
   expand(){
     this.#isExpanded = true;
     this.#buttonElement.textContent  = this.#expandedText;
@@ -150,8 +150,8 @@ export class CollapsibleBlock {
   }
 
   /**
-     * Collapses the collapsible block, hiding its content and updating the toggle button and icon.
-     */
+   * Collapses the collapsible block, hiding its content and updating the toggle button and icon.
+   */
   collapse(){
     this.#isExpanded = false;
     this.#buttonElement.textContent  = this.#collapsedText;
