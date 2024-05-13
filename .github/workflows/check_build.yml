@@ -45,6 +45,9 @@ jobs:
   eslintCheck:
     name: Javascript Lint Check
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -62,6 +65,9 @@ jobs:
   markdownLintCheck:
     name: Markdown Lint Check
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
