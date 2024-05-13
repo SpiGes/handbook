@@ -1,5 +1,5 @@
 {
-    "extends": "stylelint-config-standard",
+    "extends": "stylelint-config-standard-scss",
     "plugins": [
         "stylelint-scss"
     ],
@@ -10,10 +10,12 @@
         "color-no-invalid-hex": true,
         "comment-no-empty": true,
         "declaration-block-no-duplicate-properties": [
-        true,
-        {
-            "ignore": ["consecutive-duplicates-with-different-values"]
-        }
+            true,
+            {
+                "ignore": [
+                    "consecutive-duplicates-with-different-values"
+                ]
+            }
         ],
         "declaration-block-no-shorthand-property-overrides": true,
         "font-family-no-duplicate-names": true,
@@ -35,7 +37,7 @@
         "scss/percent-placeholder-pattern": "^%[a-z]+([a-z0-9-]+)?$",
         "scss/selector-no-redundant-nesting-selector": true,
         "scss/at-import-no-partial-leading-underscore": true,
-        "scss/operator-no-unspaced": true
+        "scss/operator-no-unspaced": true,
+        "indentation": 2
     }
 }
-  

@@ -3,13 +3,23 @@
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.markdownlint": "always",
-        "source.fixAll.eslint": "always"
+        "source.fixAll.eslint": "always",
+        "source.fixAll.stylelint": "always"
     },
     "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "stylelint.configFile": ".stylelintrc.json",
+    "stylelint.validate": [
+        "css",
+        "scss"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "eslint.debug": true,
     "eslint.format.enable": true,

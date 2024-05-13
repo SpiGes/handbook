@@ -42,9 +42,39 @@ defaults:
     shell: bash
 
 jobs:
+  stylelintCheck:
+    name: SCSS Lint Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Install Node.js dependencies with npm ci
+        if: success()
+        run: "npm install"
+      - name: Test upload package-lock.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-lock.json
+          path: package-lock.json
+      - name: Run reviewdog + action-stylelint with pr-review
+        uses: reviewdog/action-stylelint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          fail_on_error: true
+          stylelint_config: ".stylelintrc.json"
+          stylelint_input: "**/assets/scss/*.scss"
+
   eslintCheck:
     name: Javascript Lint Check
     runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
     permissions:
       contents: read
       pull-requests: write
@@ -56,15 +86,19 @@ jobs:
       - name: Install Node.js dependencies with npm ci
         if: success()
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Run reviewdog + action-eslint with check
+      - name: Run reviewdog + action-eslint with pr-review
         uses: reviewdog/action-eslint@v1
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           filter_mode: nofilter
+          fail_on_error: true
           eslint_flags: "--debug --stats --ignore-pattern '{public/,node_modules/}' assets/js/"
+
   markdownLintCheck:
     name: Markdown Lint Check
     runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
     permissions:
       contents: read
       pull-requests: write
@@ -80,11 +114,11 @@ jobs:
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
 
-      - name: Run reviewdog + action-markdownlint with check
+      - name: Run reviewdog + action-markdownlint with pr-review
         uses: reviewdog/action-markdownlint@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-check
+          reporter: github-pr-review
           level: warning
           filter_mode: added
           markdownlint_flags: "**/content/**/*.md --ignore node_modules --ignore public"
