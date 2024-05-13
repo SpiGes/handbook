@@ -1,23 +1,28 @@
-# Release Notes - SpiGes Documentation Version [0.1.0-pre-pilot-3]
+# Release Notes - SpiGes Documentation Version [@version]
 
-**Release Date:** 2024.05.06
+**Release Date:** @date
 
 ## What's New
 
 ### Others
 
-- [#42](https://github.com/SpiGes/handbook/issues/42) - Add a release notes and changelog template and fill both files
-- [#43](https://github.com/SpiGes/handbook/issues/43) - Add a settings file allowing to automatically apply markdownlint rules on file save
-
 ## Improvements
 
 ### Documentation
 
-- [#51](https://github.com/SpiGes/handbook/issues/51) - Update about Vasco Token
+### Others
+
+- [#46](https://github.com/SpiGes/handbook/issues/46) - Inform about warnings/errors from linters (markdownlint, eslint, stylelint) on GitHug
+- [#48](https://github.com/SpiGes/handbook/issues/48) - Improve the CSS selector allowing to remove the margin-bottom of the paragraphs in the FAQ
+- [#53](https://github.com/SpiGes/handbook/issues/53) - As for SpiGes application, only three languages must be available
+- [#57](https://github.com/SpiGes/handbook/issues/57) - Update release pipeline to only be executable with main branch
+- [#61](https://github.com/SpiGes/handbook/issues/61) - Reorganize the javascript files + add new eslint rules
+
+## Fixes
 
 ### Others
 
-- [#41](https://github.com/SpiGes/handbook/issues/41) - Improve the collapsible block by allowing a custom title and by adding a tooltip
+- [#40](https://github.com/SpiGes/handbook/issues/40) - A language change doesn't redirect to the same page
 
 ## Contributors
 
