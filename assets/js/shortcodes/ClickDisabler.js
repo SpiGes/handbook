@@ -8,27 +8,17 @@
  *
  * @author Raphaël Capocasale
  * @creationDate 2024-05-06
- * @lastUpdated 2024-05-06
+ * @lastUpdated 2024-05-13
  */
-
-/**
- * Constants used for ClickDisabler
- */
-class ClickDisablerConstants {
-  /**
-     * Selector for disabled elements in the DOM.
-     */
-  static disabledElementSelector = '.disabled';
-}
 
 /**
  * Manages the disabling of click events on a specified DOM element.
  */
-class ClickDisabler {
+export class ClickDisabler {
   /**
-     * The DOM element to which the click disable functionality is applied.
-     * @private
-     */
+   * The DOM element to which the click disable functionality is applied.
+   * @private
+   */
   #disabledElement = null;
 
   /**
@@ -56,11 +46,3 @@ class ClickDisabler {
     });
   }
 }
-
-// Listen for the DOMContentLoaded event to ensure the DOM is fully loaded before executing the script.
-document.addEventListener('DOMContentLoaded', function () {
-  const disabledElements = [];
-  document.querySelectorAll(ClickDisablerConstants.disabledElementSelector).forEach(disabledElement => {
-    disabledElements.push(new ClickDisabler(disabledElement));
-  });
-});

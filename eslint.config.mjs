@@ -29,6 +29,8 @@ export default [
       'object-curly-spacing': ['error', 'always'],
       'arrow-spacing': ['error', { 'before': true, 'after': true }],
       'space-infix-ops': 'error',
+      'jsdoc/check-alignment': 'error',
+      'jsdoc/check-indentation': 'error'
     }
   }
 ];
