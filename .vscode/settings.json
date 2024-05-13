@@ -6,6 +6,10 @@
         "source.fixAll.eslint": "always",
         "source.fixAll.stylelint": "always"
     },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "markdownlint.run": "onSave",
     "[scss]": {
         "editor.defaultFormatter": "stylelint.vscode-stylelint",
         "editor.detectIndentation": true

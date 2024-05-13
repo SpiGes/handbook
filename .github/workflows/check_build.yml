@@ -104,7 +104,7 @@ jobs:
           reporter: github-pr-review
           filter_mode: nofilter
           fail_on_error: true
-          markdownlint_flags: "**/content/**/*.md --ignore node_modules --ignore public"
+          markdownlint_flags: "**/content/**/*.md --ignore node_modules --ignore public --config .markdownlint.json"
 
   # Build job
   build:
