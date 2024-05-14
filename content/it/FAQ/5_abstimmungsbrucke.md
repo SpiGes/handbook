@@ -27,8 +27,10 @@ Nella contabilità per unità finali d’imputazione di SpiGes è possibile calc
 
 4. Per il 2024 (dati 2023), SwissDRG AG ha richiesto i dettagli dei costi di utilizzo delle immobilizzazioni dei casi secondo la OCPrere. In SpiGes, le variabili «_ank» consentono di inviare a REKOLE® i dettagli dei costi di utilizzo delle immobilizzazioni dei casi. Dal momento che SwissDRG AG ora necessita di questo dettaglio, non sarebbe opportuno in SpiGes prevedere la fornitura delle variabili «_ank» anche per i risultati OCPrere? 
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
+{{<markdown>}}
 - Si tratta solo di una rilevazione di prova da parte di SwissDRG AG. In caso di passaggio definitivo alla OCPrere, i costi di utilizzo delle immobilizzazioni per centro di costo in SpiGes verrebbero addebitati in base alla OCPrere anziché a REKOLE® e i costi di utilizzo delle immobilizzazioni di REKOLE® come totale. 
 - In sintesi, i costi di utilizzo delle immobilizzazioni devono essere rilevati secondo i seguenti metodi:
+{{</markdown>}}
 <table class="w-100">
   <tr>
     <th style="width:65%"> Variabili </div></th>
@@ -62,11 +64,13 @@ Nella contabilità per unità finali d’imputazione di SpiGes è possibile calc
 
 5. Il conto 441 non è incluso nel calcolo dei costi di utilizzo delle immobilizzazioni né dall’OCPre né da REKOLE®. Siete in grado di confermarlo?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
+{{<markdown>}}
 I costi di utilizzo delle immobilizzazioni (secondo REKOLE® e OCPre) corrispondono ai seguenti tipi di costi:       
 - 442 Ammortamenti      
 - 444 Altri canoni di locazione (compreso il leasing operativo)       
 - 448 Interessi calcolatori sull’attivo fisso       
 Per ulteriori informazioni, consultare il manuale REKOLE® (capitolo 6.5.3).
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 {{</faqBlock>}}

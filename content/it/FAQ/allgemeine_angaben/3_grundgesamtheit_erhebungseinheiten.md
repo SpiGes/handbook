@@ -12,16 +12,20 @@ Aprire tutte le domande: {{<collapsibleGroupCommand groupId="GGH">}}
 
 1.	In merito all’introduzione di SpiGes o al momento di definire l’universo statistico per la prima rilevazione SpiGes, si utilizzeranno ancora i vecchi «elenchi ospedalieri» o si lavorerà già con SpiReg?
 {{<collapsibleBlock groupId="GGH">}}
+{{<markdown>}}
 - In occasione della prima rilevazione SpiGes (dati 2024), nel 2025, verrà ancora fatta un’importazione manuale dell’universo statistico KS  sotto forma di elenchi Excel.
 - Il precedente BUR  si chiamerà BURGESV  e rimarrà l’identificatore dell’ospedale. A partire dai dati 2024 (per la rilevazione 2025) il BUR-sede del trattamento sarà chiamato BUR. 
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 2. Che differenza c’è tra un’impresa ospedaliera, un ospedale e una sede ospedaliera?
 {{<collapsibleBlock groupId="GGH">}}
+{{<markdown>}}
 - Un’impresa ospedaliera è un’impresa con il codice NOGA 861001 (ospedali generali), 861002 (cliniche specializzate) o 869004 (case di maternità). È designato in modo univoco attraverso il numero di identificazione ENTID. 
 - Nell’indagine SpiGes, l’ospedale è un’unità che compila un ITAR_K® e su cui si basa la definizione dei casi di secondo SwissDRG AG. Un ospedale è contrassegnato con il numero RIS GESV, che è presente solo nella banca dati di GESV.
 - Una sede di ospedale è contrassegnata in modo univoco con il numero RIS e fa sempre capo a un’impresa ospedaliera ben precisa. 
 La tabella seguente mostra un esempio di impresa (UID/ENTID)  con 12 ospedali (BURGESV)  e 14 sedi (RIS) :
+{{</markdown>}}
 {{<insertImage image="tableauFAQ1_it.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}
 
@@ -53,8 +57,10 @@ La tabella seguente mostra un esempio di impresa (UID/ENTID)  con 12 ospedali (B
 
 4. Come si determina a quale ospedale (burnr_gesv) appartiene una sede (burnr)? 
 {{<collapsibleBlock groupId="GGH">}}
+{{<markdown>}}
 - L’attribuzione delle sedi (numeri BUR) agli ospedali (BUR-GESV) viene rilevata nel quadro della rilevazione dell’universo statistico. In questo processo, sono i Cantoni a fornirci le informazioni in collaborazione con gli ospedali.
 - Il burnr_gesv viene rilevato anche su richiesta dei nostri partner.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 5. Cosa si intende per Centro di prestazione medica principale (ad es. M000, M050)?

@@ -12,6 +12,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 
 1. Quali variabili cambiano con SpiGes?
 {{<collapsibleBlock groupId="contenu">}}
+{{<markdown>}}
 - SpiGes ha un impatto importante sul processo di verifica e sul formato dei dati contenuti nella fornitura. Per quanto riguarda i dati medici (attuale MS ), cambiano solo pochi punti. I più importanti sono probabilmente i seguenti:
     - il trattamento principale è abolito; 
 	- il complemento alla diagnosi principale è abolito; 
@@ -21,12 +22,15 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 	- la relazione tra più diagnosi (croce/asterisco, punto esclamativo) viene ora registrata con una variabile di riferimento (diagnose_zusatz) anziché con il carattere speciale. 
 - Il modo migliore per tenere traccia di tutte le modifiche apportate al set di dati e dei dettagli esatti è quello di esaminare l’elenco delle variabili e filtrare la colonna «Nuova / Variabile MS» secondo le variabili nuove e quelle adattate. 
 - Da ora i dati delle fatture e i costi o i ricavi vengono raccolti per ogni caso. 
-- Il set di dati completo è disponibile qui: <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html </a>
+- Il set di dati completo è disponibile qui: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html)
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 2. Che ripercussioni ha SpiGes sulle direttive di codifica?
 {{<collapsibleBlock groupId="contenu">}}
-Queste informazioni sono riportate nel Manuale di codifica, scaricabile al link seguente:  <a href="https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html"> https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html </a>
+{{<markdown>}}
+Queste informazioni sono riportate nel Manuale di codifica, scaricabile al link seguente: [https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html](https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html).
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 3. Qual è il contenuto del rapporto di verifica?
@@ -36,12 +40,15 @@ Il contenuto esatto del rapporto di verifica dipende dalle verifiche, che sono a
 
 4. Gli ospedali che fanno parte della fase pilota del progetto potranno creare un "set di dati" iniziale già nella primavera del 2024. Altri cantoni richiedono l'invio di un file di dati XML iniziale entro settembre. Per questi invii sono attesi i dati reali di un sistema produttivo o sono sufficienti i dati di un sistema di prova? In altre parole: la valutazione "reale" inizierà solo nel 2025 o l'UST vuole valutare anche i dati reali del 2024?
 {{<collapsibleBlock groupId="contenu">}}
+{{<markdown>}}
 - I dati reali di un sistema produttivo sono attesi dagli ospedali che fanno parte della fase pilota del progetto nella primavera del 2024. Questi dati saranno analizzati solo per ottenere informazioni sul progetto pilota.   
 - Entro agosto 2024, tutti gli ospedali (in tutti i cantoni) devono effettuare un test dell'interfaccia per dimostrare che l'implementazione tecnica dell'interfaccia funziona. A tal fine sono sufficienti anche le consegne parziali dei sistemi di prova. 
 - A partire dal 1° gennaio 2025, tutti gli ospedali devono fornire i dati reali per il 2024 dai sistemi di produzione e verificarli completamente e, se necessario, giustificarli entro la fine di aprile. 
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
-5. Valori scambiati: Abbiamo notato che i valori di alcune variabili sono diversi dalle statistiche MS. Un esempio è il valore del segno vitale. 		
+5. Valori scambiati: Abbiamo notato che i valori di alcune variabili sono diversi dalle statistiche MS. Un esempio è il valore del segno vitale. 
+{{<markdown>}}		
 Statistiche MS:         
 0 = nato morto          
 1 = nato vivo           	
@@ -49,6 +56,7 @@ SpiGes (al contrario):
 0 = nato vivo               
 1 = nato morto          
 Altri esempi potrebbero essere l'istruzione scolastica o lo stato civile. A nostro avviso, questo non è l'ideale e vorremmo sapere se questa è l'intenzione e, in caso affermativo, perché? 
+{{</markdown>}}
 {{<collapsibleBlock groupId="contenu">}}
 Questa è l'intenzione. Nello spirito di once only, abbiamo integrato gli elenchi di codici e i metadati in un sistema UST, che sarà poi pubblicato. I nuovi elenchi di codici corrispondono ora allo standard svizzero della piattaforma di interoperabilità i14y.admin.ch; in precedenza si trattava di una soluzione speciale di MS.
 {{</collapsibleBlock>}}

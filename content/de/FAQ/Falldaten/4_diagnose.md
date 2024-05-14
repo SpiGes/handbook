@@ -12,11 +12,14 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="diagnose">}}
 
 1. POA-Variable: Könnten Sie uns bitte sagen, zu welchem Zweck die Variable diagnose_poa verwendet wird? 
 {{<collapsibleBlock groupId="diagnose">}}
-Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Patientensicherheit verwendet werden. Siehe z. B. die Mitteilung des Kantons Zürich zu diesem Thema. <a href="https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/gesundheit/gesundheitsversorgung/spitaeler_kliniken/daten_und_statistik_der_listenspitaeler/datenerhebung/poa_informationen.pdf"> Present on admission - Informationen zur Erfassung (zh.ch)</a>
+{{<markdown>}}
+Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Patientensicherheit verwendet werden. Siehe z. B. die Mitteilung des Kantons Zürich zu diesem Thema. [Present on admission - Informationen zur Erfassung (zh.ch)](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/gesundheit/gesundheitsversorgung/spitaeler_kliniken/daten_und_statistik_der_listenspitaeler/datenerhebung/poa_informationen.pdf)
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 2. Variable «diagnose_zusatz»: Welche Angaben müssen hier bei Stern-Kodes und Kodes mit Ausrufezeichen gemacht werden?
 {{<collapsibleBlock groupId="diagnose">}}
+{{<markdown>}}
 -	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. 
 -	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM. 
 
@@ -25,7 +28,8 @@ HD E10.73† Diabetes mellitus, Typ 1, mit multiplen Komplikationen, als entglei
 ND I79.2* Periphere Angiopathie bei anderenorts klassifizierten Krankheiten       
 ND H36.0* Retinopathia diabetica      
 ND N08.3* Glomeruläre Krankheiten bei Diabetes mellitus       
-…wird wie folgt in **SpiGes** erfasst:       
+…wird wie folgt in **SpiGes** erfasst:  
+{{</markdown>}}     
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
@@ -53,7 +57,7 @@ ND N08.3* Glomeruläre Krankheiten bei Diabetes mellitus
     <td> E10.73 </td>
   </tr>
 </table>
-
+{{<markdown>}}
 **Beispiel 4** im Koderhandbuch (Seite 40)       
 HD S37.03 Komplette Ruptur des Nierenparenchyms       
 L 2       
@@ -62,6 +66,7 @@ ND S36.03 Rissverletzung der Milz mit Beteiligung des Parenchyms
 ND S36.49 Verletzung sonstiger und mehrerer Teile des Dünndarmes      
 ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des Beckens) mit Verbindung zu einer intraabdominalen Verletzung      
 …wird wie folgt in SpiGes erfasst:      
+{{</markdown>}}
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>

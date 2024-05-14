@@ -73,7 +73,9 @@ Nel gennaio 2023 abbiamo organizzato un evento informativo per il produttore KIS
 </table>
 È possibile presentare tutte queste tabelle come un unico file xml in SpiGes?
 {{<collapsibleBlock groupId="technische_fragen">}}
-La tabella 12 Identificatori personali deve essere fornita in un file separato (per motivi di protezione dei dati). Per le tabelle rimanenti viene definito un file diverso, che però supporta le forniture parziali. In teoria, è quindi possibile consegnare tutte le tabelle in un unico file XML come consegne parziali. Tuttavia, si sconsiglia questa soluzione, in quanto richiede una laboriosa armonizzazione delle varie tabelle (per garantire che le informazioni su tutti i casi siano disponibili in tutti i file). Informazioni più dettagliate su questo argomento sono disponibili nella descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes sul nostro sito web.  <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a>
+{{<markdown>}}
+La tabella 12 Identificatori personali deve essere fornita in un file separato (per motivi di protezione dei dati). Per le tabelle rimanenti viene definito un file diverso, che però supporta le forniture parziali. In teoria, è quindi possibile consegnare tutte le tabelle in un unico file XML come consegne parziali. Tuttavia, si sconsiglia questa soluzione, in quanto richiede una laboriosa armonizzazione delle varie tabelle (per garantire che le informazioni su tutti i casi siano disponibili in tutti i file). Informazioni più dettagliate su questo argomento sono disponibili nella descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes sul nostro sito web. [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 4. Esiste la possibilità per le piccole imprese di creare un file XML a partire da un file Excel (in cui viene inserita la CUFI)? C’è un fornitore che ha in programma di attuare questa soluzione?
@@ -93,8 +95,10 @@ Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare i
 
 7. Nel formato XML la sequenza delle variabili all’interno di una riga è determinante?
 {{<collapsibleBlock groupId="technische_fragen">}}
+{{<markdown>}}
 - La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l’elemento caso, i sottoelementi devono sempre essere inseriti nell’ordine «Amministrativo», «Neonati», «Psichiatria», «CUFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali». 
 - La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell’elemento «Amministrativo» si possono inserire attributi sia nella sequenza «...sesso=«2» età=«37»..» sia «...età=«37» sesso=«2»...». 
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 8. È anche possibile che il campo relativo a una variabile all’interno di una riga sia vuoto laddove la clinica non abbia nulla da inserire in quella riga per quella determinata variabile? Oppure in ogni riga devono sempre esse compilate tutte le variabili dell’interfaccia?
@@ -114,9 +118,11 @@ Un simile tool di test sarà messo a disposizione tramite API (Application Progr
 
 11. Si sa già quale sarà la procedura per quanto riguarda i dati cantonali aggiuntivi? Diversi Cantoni (ad es. LU, GR, VS e VD) dispongono già di una riga MK. Inoltre, anche i Cantoni di ZH e BE raccolgono dati aggiuntivi all’interno della piattaforma SDEP (Spitaldatenerhebungsplattform). Sapete già se questi dati saranno integrati nell’esportazione SpiGes o se dovranno essere esportati separatamente?
 {{<collapsibleBlock groupId="technische_fragen">}}
-- I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia; vedi la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes 1.3: <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a> 
+{{<markdown>}}
+- I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia; vedi la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
 - Sebbene i dati cantonali aggiuntivi possano essere indicati in XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente. 
 - La parte SpiGes dei dati SDEP sarà integrata nell’esportazione SpiGes e resa disponibile agli utenti dei dati secondo la LAMal dalla piattaforma SpiGes. 
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 12. Sarà possibile effettuare correzioni direttamente sulla piattaforma?
@@ -131,9 +137,10 @@ Non proprio. N10.2 indica un numero con un totale di 10 cifre, di cui 2 dopo la 
 
 14. Nuove variabili medi_id e rech_id: dalla descrizione non si capisce se si tratta di numeri sequenziali o di ID effettivi del sistema. Se sì, quale? Con medi_id abbiamo subito pensato all'ATC_Code, ma c'è una variabile in più per questo.  
 {{<collapsibleBlock groupId="technische_fragen">}}
-
+{{<markdown>}}
 - Le due nuove variabili "medi_id" e "rech_id" sono 0  identificatori necessari per ragioni tecniche per una chiara assegnazione . Non devono necessariamente iniziare con 1, ma devono essere uniche per ogni caso. 
 - Il file XML di esempio 1.3, disponibile sulla nostra homepage all'indirizzo , contieneriporta anche un esempio. medi_id ="1" contiene l'informazione che si tratta del primo farmaco ad alto costo secondo le specifiche di SwissDRG AG per questo caso specifico. 
+{{</markdown>}}
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 

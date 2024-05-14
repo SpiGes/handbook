@@ -73,7 +73,9 @@ En janvier 2023, nous avons organisé une réunion d'information à l’intentio
 </table>
 Est-il possible de livrer ces tableaux sous forme de fichiers xml individuels à la plateforme SpiGes ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre site web.  <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a>
+{{<markdown>}}
+Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre site web [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html).
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 4. Existe-t-il une possibilité pour les petits établissements de créer un fichier XML à partir d'un fichier Excel (dans lequel la CUFI est saisie). Existe-t-il un fournisseur qui prévoit de le faire ?
@@ -93,8 +95,10 @@ Il y aura plusieurs fichiers d'exportation. D'une part, il sera possible d'expor
 
 7. Dans le format XML, l'ordre des variables au sein d'une ligne joue-t-il un rôle ?
 {{<collapsibleBlock groupId="technische_fragen">}}
+{{<markdown>}}
 - L'ordre des éléments est prédéfini et ne peut pas être modifié. Les éléments peuvent tout au plus être omis. Ainsi, pour l'élément «cas», les sous-éléments doivent toujours être indiqués dans l'ordre suivant : «administratif», «nouveau-nés», «psychiatrie», «CUFI cas», «diagnostics», «traitements», «médicaments», «facture», «mouvement des patients» et «données cantonales».  
 - L'ordre des attributs peut en revanche être choisi librement. Ainsi, par exemple, dans l'élément «administratif», il est possible d'indiquer aussi bien «...sexe="2" âge="37"...» que «...âge="37" sexe="2"...». 
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 8. Des variables peuvent-elles également manquer sur une ligne si la clinique n'a rien à remplir sur cette ligne pour la variable correspondante ? Ou toutes les variables de l'interface doivent-elles toujours figurer sur chaque ligne ?
@@ -114,10 +118,11 @@ Un outil de contrôle sera mis à disposition via API (Application Programming I
 
 11. Sait-on déjà quelle sera la procédure concernant les données supplémentaires cantonales ? Plusieurs cantons (par ex. LU, GR, VS et VD) disposent déjà d'une ligne MK. En outre, les cantons de ZH et BE collectent également des données supplémentaires dans le cadre du SDEP. Savez-vous déjà si ces données seront intégrées dans l'exportation SpiGes ou si elles devront être exportées séparément ?
 {{<collapsibleBlock groupId="technische_fragen">}}
-
-- Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3: <a href="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html"> https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html </a> 
+{{<markdown>}}
+- Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html) 
 - Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons. 
 - Les données cantonales ne peuvent être exportées que par l'hôpital lui-même et par le canton. Il est probable que les données cantonales pour ces utilisateurs soient contenues dans le même fichier XML que les autres données.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 12. Est-ce qu’il sera possible d’effectuer des corrections directement sur la plateforme ?
@@ -132,8 +137,10 @@ N10.2 désigne un nombre de 10 chiffres au total, dont 2 chiffres après la virg
 
 14. Nouvelles variables medi_id et rech_id : d'après la description, nous ne savons pas s'il s'agit de numéros d'ordre ou d'ID réels du système. Si oui, lesquelles ? En ce qui concerne medi_id, nous avons tout de suite pensé au code ATC_, mais il existe une variable supplémentaire pour cela. 
 {{<collapsibleBlock groupId="technische_fragen">}}
+{{<markdown>}}
 - Il s'agit, pour les deux nouvelles variables "medi_id" et "rech_id", d'identifiants qui sont nécessaires pour des raisons techniques afin d'assurer une attribution claire. Ceux-ci ne doivent pas obligatoirement commencer par 1, mais ils doivent être uniques pour chaque cas. 
 - Le fichier modèle XML 1.3, que vous trouverez sur notre site , contient également un exemple. medi_id ="1" contient l'information selon laquelle il s'agit du premier médicament hautement coûteux selon les directives de SwissDRG SA pour ce cas spécifique. 
+{{</markdown>}}
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 

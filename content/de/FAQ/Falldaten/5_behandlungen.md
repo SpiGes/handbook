@@ -12,6 +12,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
 1. Variable «behandlung_id»: Gibt es hier Empfehlungen für die umzusetzende Reihenfolge in der Psychiatrie? Gerade die HoNOS-Items, die als CHOPs geliefert werden, sind ja diagnose- bzw. behandlungsunspezifisch.
 {{<collapsibleBlock groupId="behandlungen">}}
+{{<markdown>}}
 - Gemäss Variablenbeschreibung gilt:        
 Eindeutige, fortlaufende Nummer der Behandlung.         
 1 = Behandlung 1        
@@ -26,6 +27,7 @@ Für die Reihenfolge der Behandlungen sind die folgenden Kriterien empfohlen:
 5. Weitere Prozeduren 
 
 - Für die HoNOS-Items würden wir eine chronologische Nummerierung empfehlen (frühere HoNOS-Messungen = tiefere IDs, spätere HoNOS-Messungen = höhere IDs).
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 2. Wir sorgen uns etwas, dass insbesondere in der Anfangszeit diese Daten nicht vollständig erfasst werden und es zu vielen Nacharbeiten kommen könnte. Daher würden wir gern bei den betroffenen CHOP-Codes das Feld als Muss-Feld definieren. Gibt es für den CHOP-Katalog eine Zuordnung, welche Codes als Operativ bzw. interventionell gelten?

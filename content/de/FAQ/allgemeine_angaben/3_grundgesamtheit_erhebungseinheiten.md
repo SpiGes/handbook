@@ -12,16 +12,20 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="GGH">}}
 
 1. Wird bei der Einführung von SpiGes bzw. zum Zeitpunkt der Definition der Grundgesamtheit für die erste SpiGes-Erhebung noch mit den herkömmlichen «Spitallisten» oder bereits mit SpiReg gearbeitet?
 {{<collapsibleBlock groupId="GGH">}}
+{{<markdown>}}
 - Bei der ersten SpiGes Erhebung (Daten 2024) im Jahre 2025 wird noch manuell die Grundgesamtheit KS in Form von Excellisten importiert.
 - Die bisherige BUR wird BURGESV heissen und der Identifikator des Spitals bleiben. Die Standort-BUR heisst ab den Daten 2024 (Erhebung 2025) BUR.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 2. Was ist der Unterschied zwischen einem Spitalunternehmen, einem Spital und einem Spitalstandort?
 {{<collapsibleBlock groupId="GGH">}}
+{{<markdown>}}
 - Ein Spitalunternehmen, ist ein Unternehmen mit dem NOGA-Code 861001 (Allgemeine Krankenhäuser), 861002 (Spezialkliniken) oder 869004 (Geburtshäuser). Es ist mit der Identifikationsnummer ENTID eindeutig bezeichnet.
 - Das Spital ist in der SpiGes Erhebung eine Einheit, welche ein ITAR-K ausfüllt und nach der sich die Falldefinition der SwissDRG AG richtet. Ein Spital ist mit der BUR-Nr. GESV gekennzeichnet, welche nur auf der Datenbank von GESV geführt wird.
 - Ein Spitalstandort ist mit der BUR-Nr. eindeutig gekennzeichnet und gehört immer zu genau einem Spitalunternehmen.
 Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitälern (BURGESV) und 14 Standorten (BUR) :
+{{</markdown>}}
 {{<insertImage image="tableauFAQ1.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}
 
@@ -53,8 +57,10 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
 
 4. Wie wird festgestellt, zu welchem Spital (burnr_gesv) ein Standort (burnr) gehört?
 {{<collapsibleBlock groupId="GGH">}}
+{{<markdown>}}
 - Die Zuordnung der Standorte (BUR-Nummern) zu den Spitälern (BUR-GESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben.
 - Die burnr_gesv wird auf Wunsch unserer Partner auch erhoben.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 
 5. Was versteht man unter einer Hauptleistungsstelle (z.B. M000, M050)?
