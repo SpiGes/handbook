@@ -11,12 +11,15 @@ keywords: []
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="rechnungen">}}
 {{<numberedList>}}
 
-1. Une ligne est-elle exportée pour chaque facture émise - et chaque rémunération supplémentaire ?
+{{<listItem>}}
+Une ligne est-elle exportée pour chaque facture émise - et chaque rémunération supplémentaire ?
 {{<collapsibleBlock groupId="rechnungen">}}
 Il faut indiquer la même granularité que les lignes sur les factures envoyées. Si, par exemple, un forfait par cas ainsi qu'une rémunération supplémentaire ont été facturés pour un cas couvert par l'assurance de base et facturés à l'assurance de base et au canton, quatre lignes doivent être fournies (1.forfait au canton, 2.rémunération supplémentaire au canton, 3.forfait à l'assureur, 4.rémunération supplémentaire à l'assureur).
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Comment remplir les champs correspondants pour les factures qui ne sont pas facturées via SwissDRG, TARPSY ou ST Reha ?
+{{<listItem>}}
+Comment remplir les champs correspondants pour les factures qui ne sont pas facturées via SwissDRG, TARPSY ou ST Reha ?
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
 -	En principe, selon la norme du Forum Datenaustausch, mais seulement pour les traitements hospitaliers. 
@@ -24,5 +27,7 @@ Il faut indiquer la même granularité que les lignes sur les factures envoyées
 -	Les champs qui n'ont pas de sens pour d'autres tarifs peuvent être laissés vides. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

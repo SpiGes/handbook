@@ -11,7 +11,8 @@ keywords: []
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 
 {{<numberedList>}}
-1. Quali variabili cambiano con SpiGes?
+{{<listItem>}}
+Quali variabili cambiano con SpiGes?
 {{<collapsibleBlock groupId="contenu">}}
 {{<markdown>}}
 - SpiGes ha un impatto importante sul processo di verifica e sul formato dei dati contenuti nella fornitura. Per quanto riguarda i dati medici (attuale MS ), cambiano solo pochi punti. I più importanti sono probabilmente i seguenti:
@@ -26,20 +27,26 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 - Il set di dati completo è disponibile qui: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html)
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Che ripercussioni ha SpiGes sulle direttive di codifica?
+{{<listItem>}}
+Che ripercussioni ha SpiGes sulle direttive di codifica?
 {{<collapsibleBlock groupId="contenu">}}
 {{<markdown>}}
 Queste informazioni sono riportate nel Manuale di codifica, scaricabile al link seguente: [https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html](https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html).
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-3. Qual è il contenuto del rapporto di verifica?
+{{<listItem>}}
+Qual è il contenuto del rapporto di verifica?
 {{<collapsibleBlock groupId="contenu">}}
 Il contenuto esatto del rapporto di verifica dipende dalle verifiche, che sono attualmente in fase di elaborazione all’interno di un gruppo di lavoro in cui sono rappresentati tutti gli stakeholder. In sostanza, il rapporto di verifica contiene tutte le verifiche che sono state avviate e le motivazioni ufficiali relative a tali verifiche (un estratto della chat relativa alla verifica).
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-4. Gli ospedali che fanno parte della fase pilota del progetto potranno creare un "set di dati" iniziale già nella primavera del 2024. Altri cantoni richiedono l'invio di un file di dati XML iniziale entro settembre. Per questi invii sono attesi i dati reali di un sistema produttivo o sono sufficienti i dati di un sistema di prova? In altre parole: la valutazione "reale" inizierà solo nel 2025 o l'UST vuole valutare anche i dati reali del 2024?
+{{<listItem>}}
+Gli ospedali che fanno parte della fase pilota del progetto potranno creare un "set di dati" iniziale già nella primavera del 2024. Altri cantoni richiedono l'invio di un file di dati XML iniziale entro settembre. Per questi invii sono attesi i dati reali di un sistema produttivo o sono sufficienti i dati di un sistema di prova? In altre parole: la valutazione "reale" inizierà solo nel 2025 o l'UST vuole valutare anche i dati reali del 2024?
 {{<collapsibleBlock groupId="contenu">}}
 {{<markdown>}}
 - I dati reali di un sistema produttivo sono attesi dagli ospedali che fanno parte della fase pilota del progetto nella primavera del 2024. Questi dati saranno analizzati solo per ottenere informazioni sul progetto pilota.   
@@ -47,8 +54,10 @@ Il contenuto esatto del rapporto di verifica dipende dalle verifiche, che sono a
 - A partire dal 1° gennaio 2025, tutti gli ospedali devono fornire i dati reali per il 2024 dai sistemi di produzione e verificarli completamente e, se necessario, giustificarli entro la fine di aprile. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-5. Valori scambiati: Abbiamo notato che i valori di alcune variabili sono diversi dalle statistiche MS. Un esempio è il valore del segno vitale. 
+{{<listItem>}}
+Valori scambiati: Abbiamo notato che i valori di alcune variabili sono diversi dalle statistiche MS. Un esempio è il valore del segno vitale. 
 {{<markdown>}}		
 Statistiche MS:         
 0 = nato morto          
@@ -61,10 +70,14 @@ Altri esempi potrebbero essere l'istruzione scolastica o lo stato civile. A nost
 {{<collapsibleBlock groupId="contenu">}}
 Questa è l'intenzione. Nello spirito di once only, abbiamo integrato gli elenchi di codici e i metadati in un sistema UST, che sarà poi pubblicato. I nuovi elenchi di codici corrispondono ora allo standard svizzero della piattaforma di interoperabilità i14y.admin.ch; in precedenza si trattava di una soluzione speciale di MS.
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-6. Valori calcolati: Nell'elenco delle variabili ci sono alcune righe che sono "oscurate" con il commento "calcolato" (ad esempio uid). Significa che dobbiamo fornirle vuote nell'XML e che l'UST le calcolerà e le inserirà? Oppure non dobbiamo fornire affatto questi valori e ignorarli? 
+{{<listItem>}}
+Valori calcolati: Nell'elenco delle variabili ci sono alcune righe che sono "oscurate" con il commento "calcolato" (ad esempio uid). Significa che dobbiamo fornirle vuote nell'XML e che l'UST le calcolerà e le inserirà? Oppure non dobbiamo fornire affatto questi valori e ignorarli? 
 {{<collapsibleBlock groupId="contenu">}}
 Come si può vedere dallo schema XML, queste variabili calcolate non sono incluse. È possibile ignorarle.
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

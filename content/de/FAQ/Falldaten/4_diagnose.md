@@ -11,14 +11,17 @@ keywords: []
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="diagnose">}}
 
 {{<numberedList>}}
-1. POA-Variable: Könnten Sie uns bitte sagen, zu welchem Zweck die Variable diagnose_poa verwendet wird? 
+{{<listItem>}}
+POA-Variable: Könnten Sie uns bitte sagen, zu welchem Zweck die Variable diagnose_poa verwendet wird? 
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Patientensicherheit verwendet werden. Siehe z. B. die Mitteilung des Kantons Zürich zu diesem Thema. [Present on admission - Informationen zur Erfassung (zh.ch)](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/gesundheit/gesundheitsversorgung/spitaeler_kliniken/daten_und_statistik_der_listenspitaeler/datenerhebung/poa_informationen.pdf)
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Variable «diagnose_zusatz»: Welche Angaben müssen hier bei Stern-Kodes und Kodes mit Ausrufezeichen gemacht werden?
+{{<listItem>}}
+ Variable «diagnose_zusatz»: Welche Angaben müssen hier bei Stern-Kodes und Kodes mit Ausrufezeichen gemacht werden?
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 -	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. 
@@ -111,5 +114,7 @@ ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des 
   </tr>
 </table>
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

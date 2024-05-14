@@ -11,16 +11,18 @@ keywords: []
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="GGH">}}
 
 {{<numberedList>}}
-
-1. Wird bei der Einführung von SpiGes bzw. zum Zeitpunkt der Definition der Grundgesamtheit für die erste SpiGes-Erhebung noch mit den herkömmlichen «Spitallisten» oder bereits mit SpiReg gearbeitet?
+{{<listItem>}}
+Wird bei der Einführung von SpiGes bzw. zum Zeitpunkt der Definition der Grundgesamtheit für die erste SpiGes-Erhebung noch mit den herkömmlichen «Spitallisten» oder bereits mit SpiReg gearbeitet?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 - Bei der ersten SpiGes Erhebung (Daten 2024) im Jahre 2025 wird noch manuell die Grundgesamtheit KS in Form von Excellisten importiert.
 - Die bisherige BUR wird BURGESV heissen und der Identifikator des Spitals bleiben. Die Standort-BUR heisst ab den Daten 2024 (Erhebung 2025) BUR.
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Was ist der Unterschied zwischen einem Spitalunternehmen, einem Spital und einem Spitalstandort?
+{{</listItem>}}
+Was ist der Unterschied zwischen einem Spitalunternehmen, einem Spital und einem Spitalstandort?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 - Ein Spitalunternehmen, ist ein Unternehmen mit dem NOGA-Code 861001 (Allgemeine Krankenhäuser), 861002 (Spezialkliniken) oder 869004 (Geburtshäuser). Es ist mit der Identifikationsnummer ENTID eindeutig bezeichnet.
@@ -30,8 +32,10 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
 {{</markdown>}}
 {{<insertImage image="tableauFAQ1.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-3. Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Spital und Spitalstandort verwendet?
+{{<listItem>}}
+Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Spital und Spitalstandort verwendet?
 {{<collapsibleBlock groupId="GGH">}}
 <table class="w-100">
   <tr>
@@ -56,24 +60,31 @@ Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitäler
   </tr>
 </table>
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-4. Wie wird festgestellt, zu welchem Spital (burnr_gesv) ein Standort (burnr) gehört?
+{{<listItem>}}
+Wie wird festgestellt, zu welchem Spital (burnr_gesv) ein Standort (burnr) gehört?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 - Die Zuordnung der Standorte (BUR-Nummern) zu den Spitälern (BUR-GESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben.
 - Die burnr_gesv wird auf Wunsch unserer Partner auch erhoben.
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-5. Was versteht man unter einer Hauptleistungsstelle (z.B. M000, M050)?
+{{<listItem>}}
+Was versteht man unter einer Hauptleistungsstelle (z.B. M000, M050)?
 {{<collapsibleBlock groupId="GGH">}}
 Eine Leistungsstelle ist eine organisatorische Einheit im Spital, in der u.a. medizinische, medizinisch-technische oder medizinisch-therapeutische Leistungen erbracht werden. In der SpiGes Erhebung wird angegeben, in welcher medizinischen Hauptleistungsstelle der Patient behandelt wird. 
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-6.	Wenn ein Spital mehrere Standorte hat, wird ein Fall immer nur an einem Standort erfasst, auch wenn er von einem Standort zu einem anderen Standort desselben Spitals verlegt wurde?
+{{<listItem>}}
+Wenn ein Spital mehrere Standorte hat, wird ein Fall immer nur an einem Standort erfasst, auch wenn er von einem Standort zu einem anderen Standort desselben Spitals verlegt wurde?
 {{<collapsibleBlock groupID="GGH">}}
 Ja, ein Fall wird immer nur an einem Standort erfasst und zwar am Hauptstandort (vgl. variable burnr). 
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
 {{</numberedList>}}
 {{</faqBlock>}}

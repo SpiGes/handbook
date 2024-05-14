@@ -11,14 +11,17 @@ keywords: []
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="diagnose">}}
 
 {{<numberedList>}}
-1. Variabile POA: potrebbe dirci a quale scopo viene utilizzata la variabile diagnose_poa?  
+{{<listItem>}}
+Variabile POA: potrebbe dirci a quale scopo viene utilizzata la variabile diagnose_poa?  
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 L’indicazione «POA» (present on admission) può essere utilizzata, tra l’altro, per migliorare la qualità e per la sicurezza dei pazienti. Si veda, ad esempio, la comunicazione del Cantone di Zurigo in merito (in tedesco). [Present on admission – Informationen zur Erfassung (zh.ch)](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/gesundheit/gesundheitsversorgung/spitaeler_kliniken/daten_und_statistik_der_listenspitaeler/datenerhebung/poa_informationen.pdf).
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Variabile «diagnose_zusatz»: quali informazioni devono essere inserite qui per i codici con asterisco e i codici con punto esclamativo?
+{{<listItem>}}
+Variabile «diagnose_zusatz»: quali informazioni devono essere inserite qui per i codici con asterisco e i codici con punto esclamativo?
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 -	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare. 
@@ -112,5 +115,7 @@ DS S31.83! Ferita aperta (qualsiasi parte dell’addome, dei lombi e della pelvi
   </tr>
 </table>
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

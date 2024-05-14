@@ -11,7 +11,8 @@ keywords: []
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
 {{<numberedList>}}
-1. Come possono essere registrati i costi e i ricavi delle prestazioni economicamente d’interesse generale (PEIG) in SpiGes?
+{{<listItem>}}
+Come possono essere registrati i costi e i ricavi delle prestazioni economicamente d’interesse generale (PEIG) in SpiGes?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Per la registrazione, selezionare il codice appropriato per le relative prestazioni PEIG sotto ktr_typ e inserire i relativi costi e ricavi utilizzando i numeri dei tipi di costo o dei centri di costo e i conti dei ricavi definiti in REKOLE®. In allegato l’elenco dei diversi tipi di PEG e il relativo codice ktr_typ:
 <table class="w-100">
@@ -102,20 +103,28 @@ Per la registrazione, selezionare il codice appropriato per le relative prestazi
   </tr>
 </table>
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Le unità di imputazione indipendenti dal caso possono essere collegate a un ospedale (burnr_gesv) invece che a una sede? 
+{{<listItem>}}
+Le unità di imputazione indipendenti dal caso possono essere collegate a un ospedale (burnr_gesv) invece che a una sede? 
 {{<collapsibleBlock groupId="falldunabhangige">}}
 No, non è possibile. 
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-3. I tipi UFI possono essere utilizzati più di una volta? Ad esempio, per 599 consegnare più righe con testo libero diverso nella variabile «ktr_beschr»?
+{{<listItem>}}
+I tipi UFI possono essere utilizzati più di una volta? Ad esempio, per 599 consegnare più righe con testo libero diverso nella variabile «ktr_beschr»?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Sì, è possibile. Sulla base dell’indicazione «ktr_typ» viene assegnate un’unità di imputazione di una colonna ITAR_K®. Ciò significa che nella variabile «ktr_typ» deve essere utilizzato uno dei valori predefiniti. Tuttavia, è possibile indicare più unità di imputazione con lo stesso tipo di UFI, ad esempio per ktr_typ 205 una volta con il testo libero «LAMal» e una volta con il testo libero «CTM» nella variabile «ktr_beschr». Queste due unità di imputazione vengono poi sommate e riportate nella colonna ITAR_K® «Ospedali di giorno psichiatria infantile e adolescenziale». In teoria, sono tecnicamente possibili anche altre suddivisioni, ad eccezione del caso ambulatoriale. Se hanno tutti lo stesso tipo UFI, vengono sommati e raffigurati come descritto. 
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-4. La parte KTR è prevista anche per i casi ambulatoriali o si riferisce esclusivamente ai casi di ricovero?
+{{<listItem>}}
+La parte KTR è prevista anche per i casi ambulatoriali o si riferisce esclusivamente ai casi di ricovero?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Per poter completare un ITAR_K, i costi dei casi ambulatoriali sono riassunti per tipo di KTR (ad esempio, tariffa per la dialisi).
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

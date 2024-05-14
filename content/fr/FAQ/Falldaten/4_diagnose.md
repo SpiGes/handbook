@@ -11,14 +11,17 @@ keywords: []
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="diagnose">}}
 
 {{<numberedList>}}
-1.	Variable POA : Pourriez-vous nous indiquer à quelle fin est utilisée la variable «diagnose_poa» ?  
+{{<listItem>}}
+Variable POA : Pourriez-vous nous indiquer à quelle fin est utilisée la variable «diagnose_poa» ?  
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 L'indication «POA» peut être utilisée, entre autres, pour améliorer la qualité et la sécurité des patients. Voir par exemple la communication du canton de Zurich à ce sujet. [Present on admission - Informationen zur Erfassung (zh.ch)](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/gesundheit/gesundheitsversorgung/spitaeler_kliniken/daten_und_statistik_der_listenspitaeler/datenerhebung/poa_informationen.pdf).
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Variable «diagnose_zusatz» : quelles indications doivent être données ici pour les codes avec étoile et les codes avec point d'exclamation ?
+{{<listItem>}}
+Variable «diagnose_zusatz» : quelles indications doivent être données ici pour les codes avec étoile et les codes avec point d'exclamation ?
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 -	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser. 
@@ -111,5 +114,7 @@ DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacré
   </tr>
 </table>
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

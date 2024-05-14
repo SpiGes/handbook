@@ -11,22 +11,29 @@ keywords: []
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
 {{<numberedList>}}
-1. Je connais la comptabilité des ajustements dans SDEP. Est-ce qu'elle existera aussi dans SpiGes ou seulement selon ITAR_K® ?
+{{<listItem>}}
+Je connais la comptabilité des ajustements dans SDEP. Est-ce qu'elle existera aussi dans SpiGes ou seulement selon ITAR_K® ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 SpiGes utilise la passerelle d’ajustement de la CDS / de REKOLE®.
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Où les justifications des délimitations sont-elles intégrées dans l'OFS ? Ou comment dois-je comprendre cela ?
+{{<listItem>}}
+Où les justifications des délimitations sont-elles intégrées dans l'OFS ? Ou comment dois-je comprendre cela ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 Les justifications sont saisies en tant que contrôles dans SpiGes. Cela signifie que si un montant de la comptabilité financière et de la comptabilité analytique ne concorde pas, la différence doit être justifiée. Ces justifications sont ensuite utilisées, par exemple pour le rapport national de vérification et pour ITAR_K®, ou encore pour la passerelle d’ajustement de la CDS.
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-3. Où sont pris en compte les coûts des séjours à cheval dans la passerelle d’ajustement ?  
+{{<listItem>}}
+Où sont pris en compte les coûts des séjours à cheval dans la passerelle d’ajustement ?  
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 Dans la comptabilité par unité finale d'imputation de SpiGes, il est possible de calculer les coûts des patients sortis au cours de l'année (cas A). Ces coûts seront donc calculés par l’OFS. Ceux-ci peuvent déjà être entrés à l'hôpital l'année précédente et avoir généré des coûts. Dans la comptabilité financière, les charges sont saisies par année (calcul périodique). La différence qui en résulte est corrigée dans la passerelle d’ajustement de SpiGes.
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-4. Pour 2024 (données 2023), SwissDRG a demandé le détail des coûts d’utilisation des immobilisations des cas selon OCP. Dans SpiGes, les variables "_ank" permettent d’envoyer le détail des coûts d’utilisation des immobilisations des cas selon REKOLE®.
+{{<listItem>}}
+Pour 2024 (données 2023), SwissDRG a demandé le détail des coûts d’utilisation des immobilisations des cas selon OCP. Dans SpiGes, les variables "_ank" permettent d’envoyer le détail des coûts d’utilisation des immobilisations des cas selon REKOLE®.
 Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoir dans SpiGes les variables "_ank" pour les résultats OCP également ? 
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 {{<markdown>}}
@@ -63,7 +70,10 @@ Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoi
   </tr>
 </table>
 {{</collapsibleBlock>}}
-5. Le compte 441 ne rentre dans aucun calcul des coûts d’utilisation des immobilisations, ni selon OCP, ni selon REKOLE®. Pouvez-vous confirmer cela ?
+{{</listItem>}}
+
+{{<listItem>}}
+Le compte 441 ne rentre dans aucun calcul des coûts d’utilisation des immobilisations, ni selon OCP, ni selon REKOLE®. Pouvez-vous confirmer cela ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 {{<markdown>}}
 Les coûts d’utilisation des immobilisations (selon REKOLE® et OCP) correspondent aux charges par nature suivante : 
@@ -73,5 +83,7 @@ Les coûts d’utilisation des immobilisations (selon REKOLE® et OCP) correspon
 De plus amples informations sont disponibles dans le manuel REKOLE® (chapitre 6.5.3).
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
