@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="ITARK">}}
 
 1. SpiGes ne collecte des informations que sur les cas stationnaires. Comment la partie ambulatoire d'ITAR_K® peut-elle être remplie ?
@@ -40,3 +41,5 @@ A cette date, les données de coûts doivent avoir été vérifiées automatique
 {{<collapsibleBlock groupId="ITARK">}}
 L'instrument ITAR_K® pour la tarification et l'examen de l'économicité devra être créé à l'avenir par SpiGes. Afin de garantir une transition sûre, ainsi que l'exactitude, il est prévu d'exploiter en parallèle l'ancienne et la nouvelle plateforme (H+ et SpiGes). En 2025 (données 2024), les ITAR_K® officiels seront encore établis par la plateforme H+ comme auparavant. A partir de septembre 2025, tous les hôpitaux auront en outre la possibilité d'établir les ITAR_K® 2025 (données 2024) via SpiGes et de comparer les deux résultats. Les éventuelles ambiguïtés pourront ainsi être levées avant l'introduction productive de l'établissement des ITAR_K® via SpiGes en 2026 (données 2025).
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

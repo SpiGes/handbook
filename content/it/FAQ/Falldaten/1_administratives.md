@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="admninistratives">}}
 
 1. Nel dataset SpiGes sono previsti casi a parentesi (= casi accorpati)? Nel campo della psichiatria, l'ANQ si aspetta un dataset con casi singoli, cioè non casi accorpati. Un dialogoo tra voi e l'ANQ in merito all'utilizzo del dataset SpiGes è in corso?
@@ -70,3 +71,5 @@ La formulazione è in realtà un po' contraddittoria. Si è ipotizzato che non c
 - I casi flex e tutti gli altri modelli assicurativi che stanno diventando sempre più popolari non sono davvero facili da mappare. Si tratta di una sfida per la classe assicurativa, ma non drammatica per le statistiche. In caso di dubbio, questi casi dovrebbero essere indicati come semi-privati.
 - La variabile "liegeklasse", invece, è centrale per la mappatura dell'ITAR_K. Inoltre, non esiste la categoria "altro" e i casi con "sconosciuto" saranno esaminati. A seconda del valore di questa variabile, i casi in ITAR_K sono assegnati a una diversa colonna.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

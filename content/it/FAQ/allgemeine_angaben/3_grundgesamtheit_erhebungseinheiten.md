@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="GGH">}}
 
 1.	In merito all’introduzione di SpiGes o al momento di definire l’universo statistico per la prima rilevazione SpiGes, si utilizzeranno ancora i vecchi «elenchi ospedalieri» o si lavorerà già con SpiReg?
@@ -65,3 +66,5 @@ Un centro di prestazione è un’unità organizzativa di un ospedale nella quale
 {{<collapsibleBlock groupId="GGH">}}
 Sì, un caso viene sempre registrato in una sola sede, ossia la sede principale (vedere la variabile burnr).
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="CH_LOGIN">}}
 
 1. Qu'est-ce qu'un deuxième facteur d'identification ?
@@ -33,3 +34,4 @@ Non, vous pouvez utiliser votre CH-LOGIN. Vous devez toutefois mettre en place u
 {{<collapsibleBlock groupId="CH_LOGIN">}}
 Non, pas pour le moment.
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

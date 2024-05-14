@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="admninistratives">}}
 
 1. Le jeu de données SpiGes attend-il les cas de parenthèses de cas (= cas regroupés) ? Dans le domaine de la psychiatrie, l'ANQ attend un jeu de données avec les cas individuels, donc des cas non regroupés. Existe-t-il déjà un échange entre vous et l'ANQ concernant l'utilisation du jeu de données SpiGes ?
@@ -69,3 +70,5 @@ La formulation peut en effet porter à confusion. Pour qu'il n'y ait pas de miss
 - Les cas Flex et tous les autres modèles d'assurance qui deviennent de plus en plus populaires ne sont pas faciles à représenter. Malgré ces difficultés, d’un point de vue statistique, cela n’est pas dramatique pour la variable Classe d'assurance si l’information n’est pas sure. En cas de doute, ces cas devraient être représentés en tant que semi-privés.
 - La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l’ITAR_K®.  
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

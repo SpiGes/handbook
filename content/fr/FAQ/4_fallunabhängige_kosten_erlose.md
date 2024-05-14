@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
 1. Comment saisir les coûts et les revenus des prestations d'intérêt général dans SpiGes ?
@@ -115,3 +116,5 @@ Oui, c'est possible. Une unité finale d’imputation est attribuée à une colo
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Pour pouvoir remplir ITAR_K®, les coûts des cas ambulatoires sont remplis sommairement par type de CUFI (p. ex. Tarif Dialyse).
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

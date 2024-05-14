@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="rechnungen">}}
 
 1. Une ligne est-elle exportée pour chaque facture émise - et chaque rémunération supplémentaire ?
@@ -20,3 +21,5 @@ Il faut indiquer la même granularité que les lignes sur les factures envoyées
 -	Le type de tarif, le montant et la quantité devraient être clairs. 
 -	Les champs qui n'ont pas de sens pour d'autres tarifs peuvent être laissés vides. 
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

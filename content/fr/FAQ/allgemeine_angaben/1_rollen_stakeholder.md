@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="roles">}}
 
 1. Qui l'hôpital contacte-t-il s'il a des questions concernant le contenu de l'enquête SpiGes ?
@@ -40,3 +41,4 @@ L'OFS est en contact avec l'ANQ afin d'harmoniser les variables et les formats S
 Conformément à l'art. 23 de la loi fédérale du 18 mars 1994 sur l'assurance-maladie (LAMal ; RS 832.10), à l'art. 6 al. 4 de la loi du 9 octobre 1992 sur la statistique fédérale (LSF ; RS 431.01), à l'art. 6 al. 1 de l'ordonnance du 30 juin 1993 concernant l'exécution des relevés statistiques fédéraux (RS 431. 012.1) et aux dispositions relatives à la statistique des hôpitaux et à la statistique médicale annexées à ladite ordonnance, tous les hôpitaux sont tenus de fournir à l'Office fédéral de la statistique les données requises sous la forme prescrite et dans le délai fixé.
 {{</collapsibleBlock>}}
 
+{{</faqBlock>}}

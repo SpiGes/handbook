@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 
 1. Quelles sont les variables qui changent avec SpiGes ?
@@ -58,3 +59,4 @@ Dans l'esprit du "once only", nous avons intégré les listes de codes et les m�
 Comme vous pouvez le constater dans le schéma XML, ces variables calculées ne sont pas incluses. Vous pouvez les ignorer.
 {{</collapsibleBlock>}}
 
+{{</faqBlock>}}

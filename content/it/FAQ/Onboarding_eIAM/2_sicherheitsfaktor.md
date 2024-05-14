@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
 
 1. Quali fattori di sicurezza secondari posso utilizzare?
@@ -23,3 +24,5 @@ Sì, senza identificazione video non si raggiunge la QoA 50 (Qualità dell'auten
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 Affinché un'identità elettronica sia considerata verificata, è necessario che un documento d'identità ufficiale con foto del titolare dell'identità elettronica sia stato controllato, registrato e che il titolare dell'identità elettronica sia stato correttamente identificato. A tal fine, è necessario sottoporsi al processo di identificazione video (VIPS) a pagamento (CHF 45.00), durante il quale l'identità viene verificata da una persona certificata.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

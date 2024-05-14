@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="mobile_id">}}
 
 1. Non ho una carta SIM abbastanza recente da poter utilizzare Mobile ID, cosa posso fare?
@@ -28,3 +29,5 @@ L'applicazione Mobile ID non è accettata come secondo fattore di sicurezza fort
 {{<collapsibleBlock groupId="mobile_id">}}
 Potete facilmente verificare se il vostro Mobile ID è attivo testandolo sul sito Mobile ID. Potete quindi seguire i passaggi per aggiungerlo come secondo fattore di sicurezza forte al vostro CH-LOGIN.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

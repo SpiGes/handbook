@@ -6,7 +6,8 @@ weight: 50
 type: docs
 keywords: []
 ---
- 
+
+{{<faqBlock>}} 
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
 1. Aus SDEP ist mir die Abgrenzungsrechnung bekannt. Wird es diese in SpiGes auch geben oder nur gemäss ITAR_K?
@@ -64,3 +65,5 @@ Die Anlagenutzungskosten (nach REKOLE® und OCP) entsprechen folgenden Kostenart
 - 448 Kalkulatorische Verzinsung des Anlagevermögens <br />
 Weitere Informationen sind im REKOLE®-Handbuch (Kapitel 6.5.3) zu finden.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

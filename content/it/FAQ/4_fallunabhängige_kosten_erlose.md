@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
 1. Come possono essere registrati i costi e i ricavi delle prestazioni economicamente d’interesse generale (PEIG) in SpiGes?
@@ -117,3 +118,4 @@ Per poter completare un ITAR_K, i costi dei casi ambulatoriali sono riassunti pe
 {{</collapsibleBlock>}}
 
 
+{{</faqBlock>}}

@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="mobile_id">}}
 
 1. Ich habe keine SIM-Karte, die neu genug ist, um die Mobile ID zu nutzen, was kann ich tun?
@@ -28,3 +29,5 @@ Nein. Die Mobile ID-Anwendung wird nicht als zweiter starker Sicherheitsfaktor f
 {{<collapsibleBlock groupId="mobile_id">}}
 Sie können einfach überprüfen, ob Ihre Mobile ID aktiv ist, indem Sie sie auf der Mobile ID-Website testen. Danach können Sie die Schritte befolgen, um sie als zweiten starken Sicherheitsfaktor zu Ihrem CH-LOGIN hinzuzufügen.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

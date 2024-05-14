@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
 
 1. Welche zweiten Sicherheitsfaktoren kann ich verwenden?
@@ -23,3 +24,5 @@ Ja. Ohne die Videoidentifikation erreichen Sie nicht die QoA 50 (Quality of Auth
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 Damit eine elektronische Identität als verifiziert gelten kann, muss ein amtlicher, mit einem Foto versehener Ausweis des Inhabers der elektronischen Identität geprüft, registriert und der Inhaber der elektronischen Identität korrekt identifiziert worden sein. Dazu müssen Sie diese kostenpflichtige (CHF 45.00) Videoidentifikation (VIPS) durchlaufen, bei der Ihre Identität von einer zertifizierten Person überprüft wird.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

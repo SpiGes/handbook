@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="admninistratives">}}
 
 1. Werden im SpiGes-Datensatz die Fallklammer-Fälle (=zusammengeführter Fall) erwartet? ANQ erwartet im Bereich der Psychiatrie einen Datensatz mit den Einzelfällen, also nicht zusammengeführte Fälle. Gibt es bereits einen Austausch zwischen Ihnen und ANQ, bzgl. Nutzung des SpiGes-Datensatzes?
@@ -69,3 +70,4 @@ Das ist tatsächlich etwas widersprüchlich formuliert. Damit hier keine Missing
 -	Die Flex-Fälle und alle anderen Versicherungsmodelle, die immer populärer werden, sind wirklich nicht ganz einfach abzubilden. Bei der Versicherungsklasse ist das eine Herausforderung aber nicht weiter dramatisch für die Statistik. Im Zweifelsfall sollten diese Fälle als Halbprivat abgebildet werden.
 -	Die Variable «liegeklasse» ist hingegen zentral für die Abbildung des ITAR_K. Da gibt es auch keine Kategorie «andere» und Fälle mit «unbekannt» werden wir genau prüfen. Je nach Ausprägung dieser Variable, werden die Fälle in ITAR_K einer anderen Spalte zugeordnet. 
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

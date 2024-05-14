@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="kostentraeger">}}
 
 1. Wie sollen die Kosten für forensische C-Fälle (mehrere Jahre Liegedauer) eingereicht werden? Für den ganzen Fall (ganze Liegedauer) oder nur die Kosten für das jeweilige Kalenderjahr und der Rest über Abgrenzungen?
@@ -19,3 +20,4 @@ Für B- und C-Fälle sind die Kosten im Kalenderjahr anzugeben, für A-Fälle di
 -	Die ANK-Zuschläge sind auf den Konten 400 und 401 nicht zu erfassen. Sie sind jedoch in den Total-Variablen der ANK einzuschliessen (ktr_44_vkl / ktr_44_rekole). 
 -	Die Variable ktr_44_rekole wird mit der Version 1.4 der Schnittstelle von einer berechneten in eine erhobene Variable umgewandelt (und im XML hinzugefügt), so dass damit ein Total ANK REKOLE erhoben werden kann, das von der Summe der einzelnen KTR-Variablen abweicht. 
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

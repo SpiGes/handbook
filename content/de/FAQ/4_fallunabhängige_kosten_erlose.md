@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
 1. Wie lassen sich die Kosten und Erlöse der gemeinwirtschaftlichen Leistungen in SpiGes erfassen?
@@ -116,3 +117,5 @@ Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeord
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Um ein ITAR_K ausfüllen zu können, werden die Kosten der ambulanten Fälle summarisch pro KTR Typ (z.B. Tarif Dialyse) abgefüllt.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

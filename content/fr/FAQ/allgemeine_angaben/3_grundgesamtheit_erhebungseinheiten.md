@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="GGH">}}
 
 1. Lors de l'introduction de SpiGes ou au moment de la définition de la population de base pour la première enquête SpiGes, travaille-t-on encore avec les «listes d'hôpitaux» traditionnelles ou déjà avec SpiReg ?
@@ -65,3 +66,5 @@ Un centre de prestations est une unité organisationnelle de l'hôpital dans laq
 {{<collapsibleBlock groupId="GGH">}}
 Oui, un cas est toujours enregistré sur un seul site, et ce sur le site principal (cf. variable burnr).
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

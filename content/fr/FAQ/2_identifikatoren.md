@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="identifikatoren">}}
 
 1. Le numéro AVS est un champ obligatoire. Malgré tout, il y aura des cas sans numéro AVS. Où est décrit ce qui doit être mis dans la variable dans ce cas ?
@@ -23,3 +24,4 @@ Lors de la transmission des données, les identifiants et les données sont envo
 {{<collapsibleBlock groupId="identifikatoren">}}
 Le canton peut exporter des données pendant l'enquête à des fins de plausibilisation, le NAVS sera alors pseudonymisé.
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

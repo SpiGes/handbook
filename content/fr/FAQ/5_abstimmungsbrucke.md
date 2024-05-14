@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
 1. Je connais la comptabilité des ajustements dans SDEP. Est-ce qu'elle existera aussi dans SpiGes ou seulement selon ITAR_K® ?
@@ -67,3 +68,5 @@ Les coûts d’utilisation des immobilisations (selon REKOLE® et OCP) correspon
 - 448 Charges des intérêts calculés sur les actifs immobilisés 
 De plus amples informations sont disponibles dans le manuel REKOLE® (chapitre 6.5.3).
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="zugang">}}
 
 1. Le code d'embarquement expire-t-il après un certain temps ? Si oui, que dois-je faire si je n'ai pas pu m'inscrire à temps ? 
@@ -28,3 +29,4 @@ Votre premier interlocuteur est toujours le responsable de votre canton. Si vous
 {{<collapsibleBlock groupId="zugang">}}
 Non, il ne sera malheureusement pas possible d'utiliser d'autres identités électroniques que celle présentée. En effet, les autres identités électroniques ne présentent pas une qualité d'authentification suffisante pour l'utilisation de SpiGes.
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

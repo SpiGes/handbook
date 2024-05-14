@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="GGH">}}
 
 1. Wird bei der Einführung von SpiGes bzw. zum Zeitpunkt der Definition der Grundgesamtheit für die erste SpiGes-Erhebung noch mit den herkömmlichen «Spitallisten» oder bereits mit SpiReg gearbeitet?
@@ -65,3 +66,5 @@ Eine Leistungsstelle ist eine organisatorische Einheit im Spital, in der u.a. me
 {{<collapsibleBlock groupID="GGH">}}
 Ja, ein Fall wird immer nur an einem Standort erfasst und zwar am Hauptstandort (vgl. variable burnr). 
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

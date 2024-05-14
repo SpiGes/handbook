@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
 1. Conosco il concetto di contabilità delle delimitazioni dalla piattaforma per la rilevazione dei dati ospedalieri (Spitaldatenerhebungsplattform, SDEP). Tale contabilità ci sarà anche in SpiGes o solo conformemente a ITAR_K®?
@@ -67,3 +68,5 @@ I costi di utilizzo delle immobilizzazioni (secondo REKOLE® e OCPre) corrispond
 - 448 Interessi calcolatori sull’attivo fisso       
 Per ulteriori informazioni, consultare il manuale REKOLE® (capitolo 6.5.3).
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

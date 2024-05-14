@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="rechnungen">}}
 
 1. Viene esportata una riga per ogni fattura emessa e ogni remunerazione supplementare?
@@ -20,3 +21,4 @@ La rilevazione deve essere effettuata con la stessa granularità delle righe del
 -	Occorre chiarezza per quanto riguarda la tariffa, l’importo e la quantità. 
 -	I campi che non hanno senso per altre tariffe possono essere lasciati vuoti. 
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

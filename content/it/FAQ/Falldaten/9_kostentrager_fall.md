@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="kostentraeger">}}
 
 1. Come devono essere presentati i costi dei casi C medico-legali (vari anni di degenza)? Per il caso intero (intera durata di degenza) o solo per i costi del rispettivo anno solare e il resto tramite delimitazioni?
@@ -25,3 +26,4 @@ per i costi diretti (requisiti medici 400 e 401). Per queste variabili KTR, tutt
 - Le maggiorazioni dell'ANK non devono essere registrate nei conti 400 e 401. Tuttavia, devono essere inclusi nelle variabili totali dell'ANK (ktr_44_vkl / ktr_44_rekole). 
 - Con la versione 1.4 dell'interfaccia, la variabile ktr_44_rekole viene convertita da variabile calcolata a variabile raccolta (e aggiunta all'XML), in modo da poter raccogliere un totale ANK REKOLE diverso dalla somma delle singole variabili KTR. 
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

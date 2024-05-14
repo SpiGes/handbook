@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
 
 1. Anche l’ammissione e la dimissione contano come un episodio?
@@ -50,3 +51,5 @@ Sì, la data e le ore devono essere fornite per tutti gli episodi, sia all'inizi
 Sì, b n caso di trattamento ambulatoriale esterno, è possibile indicare il numero di BUR della sede di cura, se noto.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

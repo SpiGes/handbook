@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="rechnungen">}}
 
 1. Wird für jede gestellte Rechnung - und jedes Zusatzentgelt - eine Zeile exportiert?
@@ -20,3 +21,5 @@ Es ist dieselbe Granularität, wie die Zeilen auf den verschickten Rechnungen an
 -	Tariftyp, Betrag und Menge sollten klar sein. 
 -	Felder, die bei anderen Tarifen keinen Sinn machen, können leer gelassen werden. 
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="identifikatoren">}}
 
 1. Il NAVS è un campo obbligatorio. Tuttavia, ci saranno casi senza numero AVS. Dove è descritto cosa occorre indicare nella variabile in questo caso?
@@ -23,3 +24,5 @@ Al momento della trasmissione dei dati, gli identificatori e i dati vengono invi
 {{<collapsibleBlock groupId="identifikatoren">}}
 Durante la rilevazione il Cantone può esportare dati a scopi di plausibilizzazione; in questa fase il NAVS sarà pseudonimizzato.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

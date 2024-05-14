@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="kostentraeger">}}
 
 1. Comment faut-il présenter les coûts pour les cas forensiques C (durée de séjour de plusieurs années) ? Pour l'ensemble du cas (durée de séjour complète) ou seulement les coûts pour l'année civile concernée et le reste par le biais d’ajustements ?
@@ -25,3 +26,4 @@ sur les coûts unitaires (besoins médicaux 400 et 401). Mais pour ces variables
 - Les suppléments de la CAN ne doivent pas être saisis dans les comptes 400 et 401. Ils doivent cependant être inclus dans les variables totales de la CAN (ktr_44_vkl / ktr_44_rekole). 
 - Avec la version 1.4 de l'interface, la variable ktr_44_rekole est transformée de variable calculée en variable relevée (et ajoutée dans le XML), ce qui permet de relever un total ANK REKOLE® qui diffère de la somme des variables individuelles de la CUFI. 
 {{</collapsibleBlock>}}
+{{</faqBlock>}}

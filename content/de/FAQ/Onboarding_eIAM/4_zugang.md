@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="zugang">}}
 
 1. Läuft der Onboarding-Code nach einer bestimmten Zeit ab? Wenn ja, was soll ich tun, wenn ich mich nicht rechtzeitig anmelden konnte? 
@@ -28,3 +29,5 @@ Ihr erster Ansprechpartner ist immer der Verantwortliche Ihres Kantons. Wenn Sie
 {{<collapsibleBlock groupId="zugang">}}
 Nein, es wird leider nicht möglich sein, andere elektronische Identitäten als die dargestellte zu verwenden. Dies liegt daran, dass andere elektronische Identitäten keine ausreichende Authentifizierungsqualität für die Nutzung von SpiGes aufweisen.
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

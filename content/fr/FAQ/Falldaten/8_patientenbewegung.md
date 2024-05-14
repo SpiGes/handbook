@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
 
 1. L'entrée et la sortie sont-elles également considérées comme des épisodes ?
@@ -50,3 +51,5 @@ Oui, la date et l'heure doivent être fournies pour tous les épisodes, tant pou
 Oui, pour les traitements ambulatoires externes, le numéro REE du site de traitement peut être indiqué s'il est connu.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}

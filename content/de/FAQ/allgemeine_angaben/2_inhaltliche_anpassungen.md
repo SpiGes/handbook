@@ -58,6 +58,7 @@ Die Pilotspitäler werden bereits im Frühjahr 2024 einen ersten «Datensatz» e
 {{</listItem>}}
 
 {{<listItem>}}
+{{<markdown>}}
 Vertauschte Werte: Uns ist aufgefallen, dass bei ein paar Variablen die Werte anders gegenüber der MS-Statistik sind. Als Beispiel gibt es hier den Vitalwert.       
 MS-Statistik:       
 0 = totgeboren      
@@ -66,6 +67,7 @@ Spiges (genau andersrum):
 0 = Lebendgeburt        
 1 = Totgeburt 		
 Andere Beispiele wären hier die Schulbildung oder der Zivilstand. Das ist aus unserer Sicht nicht optimal und wir würden gerne wissen, ob dies beabsichtigt ist, und wenn ja, warum? 
+{{</markdown>}}
 {{<collapsibleBlock groupId="anpassungen">}}
 Das ist beabsichtigt. Im Sinne des once only haben wir die Codelisten und Metadaten in ein BFS System integriert, welches dann auch veröffentlicht wird. Die neuen Codelisten entsprechen jetzt dem schweizweiten Standard der Interoperabilitätsplattform i14y.admin.ch, vorher war es eine MS Sonderlösung.
 {{</collapsibleBlock>}}

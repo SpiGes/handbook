@@ -7,6 +7,7 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
 
 1. Gelten der Eintritt und Austritt auch als Episode?
@@ -50,3 +51,5 @@ Ja, Datum und Stundenangabe müssen für alle Episoden sowohl für den Beginn al
 Ja, bei externen ambulanten Behandlungen kann die BUR-Nummer des behandelnden  Standorts angegeben werden, falls diese bekannt ist.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
+
+{{</faqBlock>}}
