@@ -71,14 +71,14 @@ D'autres exemples seraient la formation scolaire ou l'État civil. De notre poin
 {{<collapsibleBlock groupId="contenu">}}
 Dans l'esprit du "once only", nous avons intégré les listes de codes et les métadonnées dans un système OFS, qui sera ensuite publié. Les nouvelles listes de codes correspondent désormais au standard suisse de la plateforme d'interopérabilité i14y.admin.ch, alors qu'auparavant il s'agissait d'une solution spéciale MS.
 {{</collapsibleBlock>}}
-{{<listItem>}}
+{{</listItem>}}
 
 {{<listItem>}}
 Valeurs calculées : Dans la liste des variables, il y a quelques lignes qui sont grisées avec la remarque calculées (exemple uid). Cela signifie-t-il que nous les livrons vides dans le XML et que l'OFS les calculera et les inscrira ? Ou est-ce que nous ne fournissons pas ces valeurs et les ignorons ? 
 {{<collapsibleBlock groupId="contenu">}}
 Comme vous pouvez le constater dans le schéma XML, ces variables calculées ne sont pas incluses. Vous pouvez les ignorer.
 {{</collapsibleBlock>}}
-{{<listItem>}}
+{{</listItem>}}
 
 {{</numberedList>}}
 {{</faqBlock>}}
