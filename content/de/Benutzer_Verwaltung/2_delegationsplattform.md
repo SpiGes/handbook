@@ -226,6 +226,31 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 </div>
 
 &nbsp;
+
+<!-- 6eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+<p>
+<ol> 
+   <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen zum Löschen/Archivieren und Deaktivieren des gewählten Profils. </li>
+   <li> Klicken Sie auf dieses Feld, um das Profil zu löschen / zu archivieren. </li>
+   <li> Klicken Sie auf dieses Feld, um das Profil zu deaktivieren. </li>
+</ol>
+</p>
+
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="desactSupp_de.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;
  
 {{<alert color="warning">}}
 Achten Sie darauf, dass Sie das Profil deaktivieren, das der Rolle entspricht, der Sie den Zugriff auf die Plattform verwehren wollen.

@@ -224,6 +224,31 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 </div>
 
 &nbsp;
+
+<!-- 6eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+<p>
+<ol> 
+   <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options de supprimer/d'archiver et de désactiver le profil séléctionné.  </li>
+   <li> Cliquez sur cette case pour supprimer / archiver le profil. </li>
+   <li> Cliquez sur cette case pour désactiver le profil. </li>
+</ol>
+</p>
+
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="desactSupp_fr.png" class="edge max-w-90">}}
+</div>
+
+</div>
+
+&nbsp;
  
 {{<alert color="warning">}}
 Prenez bien garde à désactiver le profil qui correspond au rôle auquel vous souhaitez couper l'accès à la plateforme.
