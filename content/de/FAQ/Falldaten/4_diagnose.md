@@ -33,7 +33,7 @@ ND I79.2* Periphere Angiopathie bei anderenorts klassifizierten Krankheiten
 ND H36.0* Retinopathia diabetica      
 ND N08.3* Glomeruläre Krankheiten bei Diabetes mellitus       
 …wird wie folgt in **SpiGes** erfasst:  
-{{</markdown>}}     
+{{</markdown>}}
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
