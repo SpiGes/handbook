@@ -74,3 +74,30 @@ Vous pouvez transmettre les informations directement à l'utilisateur, ou lui re
 </div>
 
 &nbsp;
+
+<!-- 4eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+<p>
+Vous pouvez également désactiver un utilisateur à partir du menu de sélection des utilisateurs.
+</p>
+
+<p>
+<ol>
+    <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options associées au profil séléctionné. </li>
+    <li> Vous pouvez envoyer un rappel d'enregistrement à l'utilisateur. </li>
+    <li> Vous pouvez également envoyer un nouveau code d'enregistrement à l'utilisateur. </li>
+</ol>
+</p>
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="global_onboarding_fr.png" class="edge max-w-90">}}
+</div>
+</div>
+
+&nbsp;

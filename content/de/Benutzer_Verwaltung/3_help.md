@@ -73,3 +73,30 @@ Sie können die Informationen direkt an den Nutzer weiterleiten oder ihm eine On
 </div>
 
 &nbsp;
+
+<!-- 4eme paire de colonnes -->
+
+<div class="two_column">
+
+<div class="left_col">
+<!-- First column content goes here -->
+<p>
+Sie können einen Benutzer auch über das Menü zur Benutzerauswahl deaktivieren.
+</p>
+
+<p>
+<ol>
+    <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen, die mit dem ausgewählten Profil verbunden sind. </li>
+    <li> Sie können dem Nutzer eine Erinnerung an die Aufnahme senden. </li>
+    <li> Sie können dem Nutzer auch einen neuen Registrierungscode senden. </li>
+</ol>
+</p>
+</div>
+
+<div class="right_col">
+<!-- Second column content goes here -->
+{{<insertImage image="global_onboarding_fr.png" class="edge max-w-90">}}
+</div>
+</div>
+
+&nbsp;

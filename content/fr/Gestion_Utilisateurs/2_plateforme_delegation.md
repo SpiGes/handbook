@@ -233,7 +233,7 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options de supprimer/d'archiver et de désactiver le profil séléctionné.  </li>
+   <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options de supprimer/d'archiver et de désactiver le profil séléctionné. </li>
    <li> Cliquez sur cette case pour supprimer / archiver le profil. </li>
    <li> Cliquez sur cette case pour désactiver le profil. </li>
 </ol>
