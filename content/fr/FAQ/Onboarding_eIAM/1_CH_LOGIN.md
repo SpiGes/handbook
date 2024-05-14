@@ -37,7 +37,7 @@ J'ai déjà un CH-LOGIN, dois-je en créer un nouveau ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
 Non, vous pouvez utiliser votre CH-LOGIN. Vous devez toutefois mettre en place un deuxième facteur fort et y effectuer l'identification vidéo si cela n'a pas encore été fait sur votre CH-LOGIN.
 {{</collapsibleBlock>}}
-{{<listItem>}}
+{{</listItem>}}
 
 {{<listItem>}}
 Est-il possible de se connecter à AGOV pour l'application SpiGes ?
