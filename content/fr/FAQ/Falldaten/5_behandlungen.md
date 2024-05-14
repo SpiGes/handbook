@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
+{{<numberedList>}}
 1. Variable «behandlung_id» (traitement_id) : existe-t-il ici des recommandations pour l'ordre à mettre en œuvre en psychiatrie ? Les items HoNOS livrés sous forme de CHOP sont justement non spécifiques au diagnostic ou au traitement.
 {{<collapsibleBlock groupId="behandlungen">}}
 {{<markdown>}}
@@ -40,5 +41,5 @@ L'OFS est conscient que les données seront incomplètes lors de l'introduction 
 Le nombre d'opérateurs pouvant être comptabilisé pour une opération est une question conceptuelle et peut varier d'un canton à l'autre (en règle générale, 2 est une valeur indicative). Techniquement, il est possible de saisir plusieurs médecins pratiquant les opérations.
 {{<insertImage image="Image2.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

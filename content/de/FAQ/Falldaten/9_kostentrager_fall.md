@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="kostentraeger">}}
 
+{{<numberedList>}}
 1. Wie sollen die Kosten für forensische C-Fälle (mehrere Jahre Liegedauer) eingereicht werden? Für den ganzen Fall (ganze Liegedauer) oder nur die Kosten für das jeweilige Kalenderjahr und der Rest über Abgrenzungen?
 {{<collapsibleBlock groupId="kostentraeger">}}
 Für B- und C-Fälle sind die Kosten im Kalenderjahr anzugeben, für A-Fälle die Kosten über die ganze Falldauer. Für ambulante und nicht-fallbezogene Kostenträger auch die Kosten im Kalenderjahr. Siehe auch Spalte «Zeitbezug» der Variablenliste. 
@@ -22,4 +23,5 @@ Für B- und C-Fälle sind die Kosten im Kalenderjahr anzugeben, für A-Fälle di
 -	Die Variable ktr_44_rekole wird mit der Version 1.4 der Schnittstelle von einer berechneten in eine erhobene Variable umgewandelt (und im XML hinzugefügt), so dass damit ein Total ANK REKOLE erhoben werden kann, das von der Summe der einzelnen KTR-Variablen abweicht. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

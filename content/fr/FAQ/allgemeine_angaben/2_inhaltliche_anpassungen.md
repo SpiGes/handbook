@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 
+{{<numberedList>}}
 1. Quelles sont les variables qui changent avec SpiGes ?
 {{<collapsibleBlock groupId="contenu">}}
 {{<markdown>}}
@@ -66,5 +67,5 @@ Dans l'esprit du "once only", nous avons intégré les listes de codes et les m�
 {{<collapsibleBlock groupId="contenu">}}
 Comme vous pouvez le constater dans le schéma XML, ces variables calculées ne sont pas incluses. Vous pouvez les ignorer.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

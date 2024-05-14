@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="admninistratives">}}
 
+{{<numberedList>}}
 1. Le jeu de données SpiGes attend-il les cas de parenthèses de cas (= cas regroupés) ? Dans le domaine de la psychiatrie, l'ANQ attend un jeu de données avec les cas individuels, donc des cas non regroupés. Existe-t-il déjà un échange entre vous et l'ANQ concernant l'utilisation du jeu de données SpiGes ?
 {{<collapsibleBlock groupId="admninistratives">}}
 Le regroupement des cas est géré à SpiGes conformément aux directives de SwissDRG SA. Nous sommes en discussion avec l'ANQ concernant la gestion des cas non regroupés.
@@ -82,5 +83,5 @@ La formulation peut en effet porter à confusion. Pour qu'il n'y ait pas de miss
 - La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l’ITAR_K®.
 {{</markdown>}}  
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

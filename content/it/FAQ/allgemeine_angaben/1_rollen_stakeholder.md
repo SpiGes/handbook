@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="roles">}}
 
+{{<numberedList>}}
 1.	A chi si rivolge l’ospedale in caso di domande sul contenuto della rilevazione SpiGes?
 {{<collapsibleBlock groupId="roles">}}
 Per domande di carattere specialistico o tecnico riguardanti SpiGes, l’ospedale deve rivolgersi in primo luogo al servizio di rilevazione cantonale competente.
@@ -42,5 +43,5 @@ L’UST è in contatto con l’ANQ per armonizzare le variabili e i formati SpiG
 {{<collapsibleBlock groupId="roles">}}
 Conformemente all’art. 23 della legge federale del 18 marzo 1994 sull’assicurazione malattie (LAMal; RS 832.10), art. 6 cpv. 4 della legge del 9 ottobre 1992 sulla statistica federale (LStat; RS 431.01), art. 6 cpv. 1 dell’ordinanza del 30 giugno 1993 sull’esecuzione di rilevazioni statistiche federali (RS 431. 012.1) e le disposizioni sulla statistica ospedaliera e sulla statistica medica nell’allegato di detta ordinanza tutti gli ospedali sono tenuti a fornire i dati necessari all’Ufficio federale di statistica nella forma legalmente prescritta e entro il termine fissato.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

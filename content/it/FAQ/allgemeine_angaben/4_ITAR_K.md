@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="ITARK">}}
 
+{{<numberedList>}}
 1. Nel quadro della SpiGes sono rilevate solo informazioni in merito ai casi di cure stazionarie. Come deve essere compilata la parte dell’ITAR_K® riservata alle cure ambulatoriali?
 {{<collapsibleBlock groupId="ITARK">}}
 L’ITAR_K® può essere creato con i dati SpiGes. I dati ambulatoriali sono rilevati nei tipi di UFI (unità finale d’imputazione) previsti a questo scopo (ad es., la tariffa di laboratorio).
@@ -45,5 +46,5 @@ Entro questa scadenza, i dati sui costi dovranno essere stati controllati automa
 {{<collapsibleBlock groupId="ITARK">}}
 Lo strumento centrale per la tariffazione e l'audit delle prestazioni sarà creato in futuro da SpiGes. Per garantire una transizione sicura e corretta, per la creazione di ITAR_K® è previsto il funzionamento parallelo della vecchia e della nuova piattaforma (rispettivamente H+ e SpiGes). Nel 2025 (dati 2024), l'ITAR_K® ufficiale continuerà a essere creato dalla piattaforma H+ come in precedenza. A partire da settembre 2025, tutti gli ospedali avranno anche la possibilità di creare l'ITAR_K® 2025 (dati 2024) tramite SpiGes e di confrontare i due risultati. In questo modo, si potranno risolvere eventuali ambiguità prima dell'introduzione produttiva della creazione dell'ITAR_K® tramite SpiGes nel 2026 (dati 2025).
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

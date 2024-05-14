@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="identifikatoren">}}
 
+{{<numberedList>}}
 1. Le numéro AVS est un champ obligatoire. Malgré tout, il y aura des cas sans numéro AVS. Où est décrit ce qui doit être mis dans la variable dans ce cas ?
 {{<collapsibleBlock groupId="identifikatoren">}}
 Précisément cette question est encore ouverte. Dans la description des variables, on peut lire : «Remarque : en ce qui concerne les personnes qui ne peuvent pas avoir de numéro AVS, des clarifications sont encore en cours (voir aussi la colonne "A indiquer pour")». A court terme, il est envisagé de laisser la variable vide dans ce cas ou d'indiquer un numéro fictif. Mais certains cantons frontaliers se sont fortement opposés à cette idée, raison pour laquelle cette question sera encore clarifiée plus en détail à long terme.
@@ -24,4 +25,5 @@ Lors de la transmission des données, les identifiants et les données sont envo
 {{<collapsibleBlock groupId="identifikatoren">}}
 Le canton peut exporter des données pendant l'enquête à des fins de plausibilisation, le NAVS sera alors pseudonymisé.
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
 
+{{<numberedList>}}
 1. Welche zweiten Sicherheitsfaktoren kann ich verwenden?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 Für den Zugriff auf die SpiGes-Plattform ist ein starker zweiter Faktor erforderlich. Als stark gelten die folgenden zweiten Faktoren: Mobile ID und FIDO-Schlüssel.
@@ -24,5 +25,5 @@ Ja. Ohne die Videoidentifikation erreichen Sie nicht die QoA 50 (Quality of Auth
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 Damit eine elektronische Identität als verifiziert gelten kann, muss ein amtlicher, mit einem Foto versehener Ausweis des Inhabers der elektronischen Identität geprüft, registriert und der Inhaber der elektronischen Identität korrekt identifiziert worden sein. Dazu müssen Sie diese kostenpflichtige (CHF 45.00) Videoidentifikation (VIPS) durchlaufen, bei der Ihre Identität von einer zertifizierten Person überprüft wird.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

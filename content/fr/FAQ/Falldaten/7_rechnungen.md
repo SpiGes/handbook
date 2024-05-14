@@ -9,6 +9,7 @@ keywords: []
 
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="rechnungen">}}
+{{<numberedList>}}
 
 1. Une ligne est-elle exportée pour chaque facture émise - et chaque rémunération supplémentaire ?
 {{<collapsibleBlock groupId="rechnungen">}}
@@ -23,5 +24,5 @@ Il faut indiquer la même granularité que les lignes sur les factures envoyées
 -	Les champs qui n'ont pas de sens pour d'autres tarifs peuvent être laissés vides. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

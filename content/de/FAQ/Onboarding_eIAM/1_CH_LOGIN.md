@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="CH_LOGIN">}}
 
+{{<numberedList>}}
 1. Was ist ein zweiter Identifikationsfaktor?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
 Der Begriff zweiter Identifikationsfaktor bezieht sich auf das Sicherheitsmerkmal, das Sie zusätzlich zum ersten Identifikationsfaktor, der Ihr CH-LOGIN-Passwort ist, eingeben müssen.
@@ -34,5 +35,5 @@ Nein, Sie können Ihr CH-LOGIN verwenden. Sie müssen allerdings einen zweiten s
 {{<collapsibleBlock groupId="CH_LOGIN">}}
 Nein, im Moment nicht.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

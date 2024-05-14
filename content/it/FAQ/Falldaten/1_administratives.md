@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="admninistratives">}}
 
+{{<numberedList>}}
 1. Nel dataset SpiGes sono previsti casi a parentesi (= casi accorpati)? Nel campo della psichiatria, l'ANQ si aspetta un dataset con casi singoli, cioè non casi accorpati. Un dialogoo tra voi e l'ANQ in merito all'utilizzo del dataset SpiGes è in corso?
 {{<collapsibleBlock groupId="admninistratives">}}
 Il consolidamento dei casi viene gestito in SpiGes secondo le linee guida di SwissDRG AG. Siamo in dialogo con l'ANQ per quanto riguarda la gestione dei casi non accorpati.
@@ -83,5 +84,5 @@ La formulazione è in realtà un po' contraddittoria. Si è ipotizzato che non c
 - La variabile "liegeklasse", invece, è centrale per la mappatura dell'ITAR_K. Inoltre, non esiste la categoria "altro" e i casi con "sconosciuto" saranno esaminati. A seconda del valore di questa variabile, i casi in ITAR_K sono assegnati a una diversa colonna.
 {{</markdown>}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="diagnose">}}
 
+{{<numberedList>}}
 1. POA-Variable: Könnten Sie uns bitte sagen, zu welchem Zweck die Variable diagnose_poa verwendet wird? 
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
@@ -110,4 +111,5 @@ ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des 
   </tr>
 </table>
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

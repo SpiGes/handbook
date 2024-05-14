@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="rechnungen">}}
 
+{{<numberedList>}}
 1. Viene esportata una riga per ogni fattura emessa e ogni remunerazione supplementare?
 {{<collapsibleBlock groupId="rechnungen">}}
 La rilevazione deve essere effettuata con la stessa granularità delle righe delle fatture inviate. Se, per esempio, per un caso con assicurazione di base sono conteggiati e fatturati all’assicurazione di base e al Cantone un forfait per caso e una remunerazione supplementare, devono essere registrate quattro righe (1. forfait Cantone, 2. remunerazione supplementare Cantone, 3. forfait assicuratore, 4. remunerazione supplementare assicuratore).
@@ -23,4 +24,5 @@ La rilevazione deve essere effettuata con la stessa granularità delle righe del
 -	I campi che non hanno senso per altre tariffe possono essere lasciati vuoti. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="identifikatoren">}}
 
+{{<numberedList>}}
 1. Die AHVN ist ein Pflichtfeld. Trotzdem wird es Fälle ohne AHV-Nr. geben. Wo ist beschrieben was in diesem Fall in die Variable kommt?
 {{<collapsibleBlock groupId="identifikatoren">}}
 Genau diese Frage ist noch offen. Im Datensatz steht: «Anmerkung: Bezüglich der Personen, die keine AHV-Nummer haben können, sind noch Abklärungen im Gange (vgl. auch Spalte "Anzugeben für").» Kurzfristig ist angedacht, die Variable in diesem Falle leer zu lassen resp. eine Dummy-Nummer anzugeben. Es gab nun aber starken Widerstand dagegen aus einigen Grenzkantonen, weshalb diese Frage langfristig noch genauer abgeklärt wird.
@@ -24,5 +25,5 @@ Bei der Datenübermittlung werden Identifikatoren und Daten separat verschickt. 
 {{<collapsibleBlock groupId="identifikatoren">}}
 Der Kanton kann während der Erhebung zu Plausibilisierungszwecken Daten exportieren, dabei wird die AHVN pseudonymisiert werden.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="technische_fragen">}}
 
+{{<numberedList>}}
 1. Existe-t-il un modèle de format pour l'importation de données dans l'application SpiGes ?
 {{<collapsibleBlock groupId="technische_fragen">}}
 Oui, les formats du concept d'interface doivent être repris. 
@@ -149,5 +150,5 @@ N10.2 désigne un nombre de 10 chiffres au total, dont 2 chiffres après la virg
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
 "?xml version="1.0″" se trouve toujours ainsi . La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

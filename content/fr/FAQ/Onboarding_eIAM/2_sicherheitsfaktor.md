@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
 
+{{<numberedList>}}
 1. Quels sont les deuxièmes facteurs de sécurité que je peux utiliser ?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 Un deuxième facteur fort est nécessaire pour accéder à la plateforme SpiGes. Les deuxièmes facteurs suivants sont considérés comme forts : le Mobile ID et la clé FIDO. 
@@ -24,4 +25,5 @@ Oui. Sans l'identification vidéo, vous n'atteignez pas le niveau QoA 50 (Qualit
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 Pour qu'une identité électronique puisse être considérée comme vérifiée, il faut qu'une pièce d'identité officielle du titulaire de l'identité électronique, munie d'une photo, ait été vérifiée, enregistrée et que le titulaire de l'identité électronique ait été correctement identifié. Pour ce faire, vous devez passer par cette procédure d'identification vidéo (VIPS) payante (CHF 45.00, par l'utilisateur final), au cours de laquelle votre identité est vérifiée par une personne certifiée.
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

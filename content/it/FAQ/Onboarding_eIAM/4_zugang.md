@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="zugang">}}
 
+{{<numberedList>}}
 1. Il codice di onboarding scade dopo un certo periodo di tempo? Se sì, cosa devo fare se non sono riuscito a registrarmi in tempo? 
 {{<collapsibleBlock groupId="zugang">}}
 Chiedete alla persona competente del vostro cantone di inviarvi un'e-mail di onboarding.
@@ -29,4 +30,5 @@ Il primo punto di contatto è sempre la persona responsabile del vostro cantone.
 {{<collapsibleBlock groupId="zugang">}}
 No, purtroppo non sarà possibile utilizzare identità elettroniche diverse da quella indicata. Questo perché altre identità elettroniche non hanno una qualità di autenticazione sufficiente per l'utilizzo di SpiGes.
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

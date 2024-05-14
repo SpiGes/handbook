@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
+{{<numberedList>}}
 1. Conosco il concetto di contabilità delle delimitazioni dalla piattaforma per la rilevazione dei dati ospedalieri (Spitaldatenerhebungsplattform, SDEP). Tale contabilità ci sarà anche in SpiGes o solo conformemente a ITAR_K®?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 SpiGes utilizza il ponte di sintonizzazione della CDS / di REKOLE®.
@@ -72,5 +73,5 @@ I costi di utilizzo delle immobilizzazioni (secondo REKOLE® e OCPre) corrispond
 Per ulteriori informazioni, consultare il manuale REKOLE® (capitolo 6.5.3).
 {{</markdown>}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

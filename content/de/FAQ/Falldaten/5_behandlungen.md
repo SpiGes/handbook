@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
+{{<numberedList>}}
 1. Variable «behandlung_id»: Gibt es hier Empfehlungen für die umzusetzende Reihenfolge in der Psychiatrie? Gerade die HoNOS-Items, die als CHOPs geliefert werden, sind ja diagnose- bzw. behandlungsunspezifisch.
 {{<collapsibleBlock groupId="behandlungen">}}
 {{<markdown>}}
@@ -41,4 +42,5 @@ Das BFS ist sich bewusst, dass bei Einführung dieser neuen Angabe die Daten unv
 Wie viele Operateure einer Operation angerechnet werden können, ist eine konzeptuelle Frage und kann von Kanton zu Kanton unterschiedlich sein (in der Regel 2 ist ein Richtwert!). Technisch lassen sich mehrere Operierende erfassen.
 {{<insertImage image="Image2.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

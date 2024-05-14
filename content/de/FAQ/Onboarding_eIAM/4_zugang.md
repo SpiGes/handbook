@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="zugang">}}
 
+{{<numberedList>}}
 1. Läuft der Onboarding-Code nach einer bestimmten Zeit ab? Wenn ja, was soll ich tun, wenn ich mich nicht rechtzeitig anmelden konnte? 
 {{<collapsibleBlock groupId="zugang">}}
 Der Onboarding-Code läuft nach einem Monat ab. Wenn Sie nach dieser Frist noch keine Zeit für das Onboarding hatten, wenden Sie sich bitte an Ihren KT_SuperUser, damit er Ihnen einen Code zurückschickt. 
@@ -29,5 +30,5 @@ Ihr erster Ansprechpartner ist immer der Verantwortliche Ihres Kantons. Wenn Sie
 {{<collapsibleBlock groupId="zugang">}}
 Nein, es wird leider nicht möglich sein, andere elektronische Identitäten als die dargestellte zu verwenden. Dies liegt daran, dass andere elektronische Identitäten keine ausreichende Authentifizierungsqualität für die Nutzung von SpiGes aufweisen.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

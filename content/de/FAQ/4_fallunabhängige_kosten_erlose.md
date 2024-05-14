@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
+{{<numberedList>}}
 1. Wie lassen sich die Kosten und Erlöse der gemeinwirtschaftlichen Leistungen in SpiGes erfassen?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Dazu wählen Sie unter ktr_typ den passenden Code der entsprechenden GWL Leistung aus und tragen die entsprechenden Kosten und Erlöse anhand den in REKOLE® definierten Kostenarten-, bzw. Kostenstellennummern und Erlöskonten ein. Anbei die Liste der unterschiedlichen GWL Typen und dem entsprechenden ktr_typ Code:
@@ -117,5 +118,5 @@ Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeord
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Um ein ITAR_K ausfüllen zu können, werden die Kosten der ambulanten Fälle summarisch pro KTR Typ (z.B. Tarif Dialyse) abgefüllt.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

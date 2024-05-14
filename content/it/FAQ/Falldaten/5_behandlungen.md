@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
+{{<numberedList>}}
 1. Variabile «behandlung_id»: ci sono raccomandazioni per la sequenza da applicare in psichiatria? In particolare, gli item HoNOS, forniti nel quadro della CHOP, non sono specifici alla diagnosi o al trattamento.
 {{<collapsibleBlock groupId="behandlungen">}}
 {{<markdown>}}
@@ -41,5 +42,5 @@ L’UST è consapevole che con l’introduzione del nuovo modo di inserire i dat
 Quanti chirurghi possono essere conteggiati per un'operazione è una questione concettuale e può variare da cantone a cantone (di solito 2, ma è una linea guida!). Tecnicamente, possono essere conteggiati più chirurghi.
 {{<insertImage image="Image2.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

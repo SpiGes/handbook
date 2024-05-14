@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="CH_LOGIN">}}
 
+{{<numberedList>}}
 1. Qu'est-ce qu'un deuxième facteur d'identification ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
 Le terme deuxième facteur d'identification fait référence à la caractéristique de sécurité que vous devez saisir en plus du premier facteur d'identification, qui est votre mot de passe CH-LOGIN.
@@ -34,4 +35,5 @@ Non, vous pouvez utiliser votre CH-LOGIN. Vous devez toutefois mettre en place u
 {{<collapsibleBlock groupId="CH_LOGIN">}}
 Non, pas pour le moment.
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

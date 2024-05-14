@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="technische_fragen">}}
 
+{{<numberedList>}}
 1. Gibt es für den Datenimport in die SpiGes Applikation eine Formatvorlage?
 {{<collapsibleBlock groupId="technische_fragen">}}
 Ja, die Formate im Schnittstellenkonzept sind zu übernehmen.
@@ -148,5 +149,5 @@ Nicht ganz. N10.2 bezeichnet eine Zahl mit insgesamt 10 Stellen, davon 2 Nachkom
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
 «?xml version=“1.0″» steht immer so. Die oberste Version bezieht sich also auf das «XML» selbst, und die untere auf das spezifische SpiGes XML.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

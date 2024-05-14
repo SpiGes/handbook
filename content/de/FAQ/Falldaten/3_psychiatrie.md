@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="psychiatrie">}}
 
+{{<numberedList>}}
 1. Variable psy_zivilstand: Was ist mit dem Code "5 = unverheiratet" gemeint bzw. wie unterscheidet sich dieser von ledig etc.?
 {{<collapsibleBlock groupId="psychiatrie">}}
 {{<markdown>}}
@@ -17,4 +18,5 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="psychiatrie">}}
 -	Siehe Link: [https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/stand-entwicklung/zivilstand.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/stand-entwicklung/zivilstand.html)
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

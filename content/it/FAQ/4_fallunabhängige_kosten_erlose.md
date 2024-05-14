@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
+{{<numberedList>}}
 1. Come possono essere registrati i costi e i ricavi delle prestazioni economicamente d’interesse generale (PEIG) in SpiGes?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Per la registrazione, selezionare il codice appropriato per le relative prestazioni PEIG sotto ktr_typ e inserire i relativi costi e ricavi utilizzando i numeri dei tipi di costo o dei centri di costo e i conti dei ricavi definiti in REKOLE®. In allegato l’elenco dei diversi tipi di PEG e il relativo codice ktr_typ:
@@ -116,6 +117,5 @@ Sì, è possibile. Sulla base dell’indicazione «ktr_typ» viene assegnate un�
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Per poter completare un ITAR_K, i costi dei casi ambulatoriali sono riassunti per tipo di KTR (ad esempio, tariffa per la dialisi).
 {{</collapsibleBlock>}}
-
-
+{{</numberedList>}}
 {{</faqBlock>}}

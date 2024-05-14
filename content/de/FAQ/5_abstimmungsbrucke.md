@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}} 
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
+{{<numberedList>}}
 1. Aus SDEP ist mir die Abgrenzungsrechnung bekannt. Wird es diese in SpiGes auch geben oder nur gemäss ITAR_K?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 SpiGes nutzt die Abstimmbrücke der GDK / von REKOLE.
@@ -69,5 +70,5 @@ Die Anlagenutzungskosten (nach REKOLE® und OCP) entsprechen folgenden Kostenart
 Weitere Informationen sind im REKOLE®-Handbuch (Kapitel 6.5.3) zu finden.
 {{</markdown>}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

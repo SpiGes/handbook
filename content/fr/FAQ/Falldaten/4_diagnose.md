@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="diagnose">}}
 
+{{<numberedList>}}
 1.	Variable POA : Pourriez-vous nous indiquer à quelle fin est utilisée la variable «diagnose_poa» ?  
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
@@ -110,5 +111,5 @@ DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacré
   </tr>
 </table>
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

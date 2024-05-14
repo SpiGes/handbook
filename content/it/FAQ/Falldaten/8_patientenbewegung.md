@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
 
+{{<numberedList>}}
 1. Anche l’ammissione e la dimissione contano come un episodio?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 L’ammissione e la dimissione sono indicate come prima nel campo «data di ammissione» e «data di dimissione». Se il caso non è stato trasferito, non viene registrato alcun episodio. Se però si dovesse arrivare a un trasferimento (p. es. una dimissione intermedia) quale episodio 1 varrebbe il periodo dalla data di ammissione a quella della dimissione intermedia. L’episodio 2 inizia con la dimissione intermedia e termina con la riammissione. L’episodio 3 inizia con la riammissione e termina con il trasferimento successivo (p. es. le vacanze). Così facendo, per uno stesso caso si possono avere diversi episodi (v. illustrazione). L’ultimo episodio (9) si conclude con la data di dimissione. Gli episodi sono gli intervalli temporali prima e dopo eventi riguardanti un caso, quali: cambio di sede, dimissioni intermedie / riammissioni, trattamenti ambulatoriali esterni, congedi e uscite di prova.
@@ -51,5 +52,5 @@ Sì, la data e le ore devono essere fornite per tutti gli episodi, sia all'inizi
 Sì, b n caso di trattamento ambulatoriale esterno, è possibile indicare il numero di BUR della sede di cura, se noto.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

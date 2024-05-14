@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 
+{{<numberedList>}}
 1. Quali variabili cambiano con SpiGes?
 {{<collapsibleBlock groupId="contenu">}}
 {{<markdown>}}
@@ -65,5 +66,5 @@ Questa è l'intenzione. Nello spirito di once only, abbiamo integrato gli elench
 {{<collapsibleBlock groupId="contenu">}}
 Come si può vedere dallo schema XML, queste variabili calcolate non sono incluse. È possibile ignorarle.
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

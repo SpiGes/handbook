@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="kostentraeger">}}
 
+{{<numberedList>}}
 1. Come devono essere presentati i costi dei casi C medico-legali (vari anni di degenza)? Per il caso intero (intera durata di degenza) o solo per i costi del rispettivo anno solare e il resto tramite delimitazioni?
 {{<collapsibleBlock groupId="kostentraeger">}}
 Per i casi B e C, vanno indicati i costi per l’anno solare; per i casi A, i costi per l’intera durata del caso. Anche per le unità di imputazione ambulatoriali e quelle non legate a un caso, i costi si riferiscono all’anno solare. Si veda anche la colonna «Riferimento temporale» nell’elenco delle variabili. 
@@ -28,4 +29,5 @@ per i costi diretti (requisiti medici 400 e 401). Per queste variabili KTR, tutt
 - Con la versione 1.4 dell'interfaccia, la variabile ktr_44_rekole viene convertita da variabile calcolata a variabile raccolta (e aggiunta all'XML), in modo da poter raccogliere un totale ANK REKOLE diverso dalla somma delle singole variabili KTR. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

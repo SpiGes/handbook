@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Aprire tutte le domande: {{<collapsibleGroupCommand groupId="diagnose">}}
 
+{{<numberedList>}}
 1. Variabile POA: potrebbe dirci a quale scopo viene utilizzata la variabile diagnose_poa?  
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
@@ -111,5 +112,5 @@ DS S31.83! Ferita aperta (qualsiasi parte dell’addome, dei lombi e della pelvi
   </tr>
 </table>
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

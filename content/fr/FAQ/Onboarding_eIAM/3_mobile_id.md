@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="mobile_id">}}
 
+{{<numberedList>}}
 1. Je n'ai pas de carte SIM suffisamment récente pour utiliser le Mobile ID, que puis-je faire ?
 {{<collapsibleBlock groupId="mobile_id">}}
 Vous pouvez commander une carte SIM de dernière génération auprès de votre opérateur téléphonique. Vous pouvez également utiliser une clé FIDO comme deuxième facteur de sécurité. 
@@ -29,4 +30,5 @@ Non. L'application Mobile ID n'est pas acceptée comme deuxième facteur de séc
 {{<collapsibleBlock groupId="mobile_id">}}
 Vous pouvez facilement vérifier si votre Mobile ID est actif en le testant sur le site Web Mobile ID. Ensuite, vous pouvez suivre les étapes pour l'ajouter à votre CH-LOGIN comme deuxième facteur de sécurité fort.
 {{</collapsibleBlock>}}
+{{</numberedList>}}
 {{</faqBlock>}}

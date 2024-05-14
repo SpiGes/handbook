@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
+{{<numberedList>}}
 1. Comment saisir les coûts et les revenus des prestations d'intérêt général dans SpiGes ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Pour ce faire, il suffit de sélectionner sous ktr_typ le code de la prestation PIG correspondante et de saisir les coûts et les revenus correspondants à l'aide des numéros de charge par nature ou de centre de charges et des comptes de revenus définis dans REKOLE®®. Ci-dessous vous trouvez la liste des différents types de PIG et le code ktr_typ correspondant :
@@ -116,5 +117,5 @@ Oui, c'est possible. Une unité finale d’imputation est attribuée à une colo
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Pour pouvoir remplir ITAR_K®, les coûts des cas ambulatoires sont remplis sommairement par type de CUFI (p. ex. Tarif Dialyse).
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}

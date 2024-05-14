@@ -10,6 +10,7 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
+{{<numberedList>}}
 1. Je connais la comptabilité des ajustements dans SDEP. Est-ce qu'elle existera aussi dans SpiGes ou seulement selon ITAR_K® ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 SpiGes utilise la passerelle d’ajustement de la CDS / de REKOLE®.
@@ -72,5 +73,5 @@ Les coûts d’utilisation des immobilisations (selon REKOLE® et OCP) correspon
 De plus amples informations sont disponibles dans le manuel REKOLE® (chapitre 6.5.3).
 {{</markdown>}}
 {{</collapsibleBlock>}}
-
+{{</numberedList>}}
 {{</faqBlock>}}
