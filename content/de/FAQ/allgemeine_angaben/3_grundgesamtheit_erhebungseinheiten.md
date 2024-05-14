@@ -21,7 +21,7 @@ Wird bei der Einführung von SpiGes bzw. zum Zeitpunkt der Definition der Grundg
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-{{</listItem>}}
+{{<listItem>}}
 Was ist der Unterschied zwischen einem Spitalunternehmen, einem Spital und einem Spitalstandort?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
