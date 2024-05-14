@@ -26,7 +26,7 @@ Die Begründungen werden als Prüfungen in SpiGes erfasst. D.h. wenn ein Betrag 
 {{</listItem>}}
 
 {{<listItem>}}
-Wo werden die Kosten der Überlieger in der Abstimmungsbrücke berücksichtigt? 
+Wo werden die Kosten der Überlieger in der Abstimmungsbrücke berücksichtigt?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 In der Kostenträgerrechnung von SpiGes lassen sich die Kosten der übers Jahr ausgetretenen Patienten (A Fälle) berechnen. Diese können bereits im Vorjahr ins Spital eingetreten sein und Kosten verursacht haben. In der Finanzbuchhaltung wird der Aufwand pro Jahr (Zeitrechnung) eingegeben. Die daraus entstehende Differenz wird in der Abstimmungsbrücke von SpiGes korrigiert.
 {{</collapsibleBlock>}}
