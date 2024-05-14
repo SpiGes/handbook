@@ -21,7 +21,7 @@ In merito all’introduzione di SpiGes o al momento di definire l’universo sta
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-{{</listItem>}}
+{{<listItem>}}
 Che differenza c’è tra un’impresa ospedaliera, un ospedale e una sede ospedaliera?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
