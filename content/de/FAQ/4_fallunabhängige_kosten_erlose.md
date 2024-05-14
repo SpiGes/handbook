@@ -106,7 +106,7 @@ Dazu wählen Sie unter ktr_typ den passenden Code der entsprechenden GWL Leistun
 {{</listItem>}}
 
 {{<listItem>}}
-Können fallunabhängige Kostenträger einem Spital (burnr_gesv) angehängt werden anstelle eines Standortes? 
+Können fallunabhängige Kostenträger einem Spital (burnr_gesv) angehängt werden anstelle eines Standortes?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Nein, das ist nicht möglich.
 {{</collapsibleBlock>}}
@@ -116,7 +116,7 @@ Nein, das ist nicht möglich.
 Kann man KTR-Typen auch mehrfach verwenden? Zum Beispiel bei 599 mehrfache Zeilen abliefern mit unterschiedlichem Freitext in der Variable "ktr_beschr" ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Ja, das ist möglich. <br />
-Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeordnet. Somit muss in der Variable «ktr_typ» einer der vordefinierten Werte verwendet werden. Es ist jedoch möglich mehrere Kostenträger mit demselben KTR-Typ anzugeben, z.B. für den ktr_typ 205 einmal mit dem Freitext «KVG» und einmal mit dem Freitext «MTK» in der Variable «ktr_beschr». Diese beiden Kostenträger werden dann summiert und in der ITAR_K-Spalte «Tagesklinik Kind- & Jugendpsychiatrie» abgebildet. Theoretisch sind auch weitere Aufteilungen technisch möglich, bis auf den ambulanten Fall. Solange alle denselben KTR-Typ aufweisen, werden sie wie beschrieben summiert und abgebildet. 
+Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeordnet. Somit muss in der Variable «ktr_typ» einer der vordefinierten Werte verwendet werden. Es ist jedoch möglich mehrere Kostenträger mit demselben KTR-Typ anzugeben, z.B. für den ktr_typ 205 einmal mit dem Freitext «KVG» und einmal mit dem Freitext «MTK» in der Variable «ktr_beschr». Diese beiden Kostenträger werden dann summiert und in der ITAR_K-Spalte «Tagesklinik Kind- & Jugendpsychiatrie» abgebildet. Theoretisch sind auch weitere Aufteilungen technisch möglich, bis auf den ambulanten Fall. Solange alle denselben KTR-Typ aufweisen, werden sie wie beschrieben summiert und abgebildet.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-{{<faqBlock>}} 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="abstimmungsbrucke">}}
 
 {{<numberedList>}}

@@ -99,7 +99,7 @@ Gemäss unserer Patientenadministration wird es schwierig für die Fälle mit ei
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 -	Die Flex-Fälle und alle anderen Versicherungsmodelle, die immer populärer werden, sind wirklich nicht ganz einfach abzubilden. Bei der Versicherungsklasse ist das eine Herausforderung aber nicht weiter dramatisch für die Statistik. Im Zweifelsfall sollten diese Fälle als Halbprivat abgebildet werden.
--	Die Variable «liegeklasse» ist hingegen zentral für die Abbildung des ITAR_K. Da gibt es auch keine Kategorie «andere» und Fälle mit «unbekannt» werden wir genau prüfen. Je nach Ausprägung dieser Variable, werden die Fälle in ITAR_K einer anderen Spalte zugeordnet. 
+-	Die Variable «liegeklasse» ist hingegen zentral für die Abbildung des ITAR_K. Da gibt es auch keine Kategorie «andere» und Fälle mit «unbekannt» werden wir genau prüfen. Je nach Ausprägung dieser Variable, werden die Fälle in ITAR_K einer anderen Spalte zugeordnet.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
