@@ -127,6 +127,16 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 <p>
 Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur. 
 </p>
+
+<p>
+Les informations suivantes sont obligatoires: 
+<ul> 
+   <li> Nom(s) </li>
+   <li> Prénom(s) </li>
+   <li> Adresse électronique (mettre l'adresse e-mail professionnelle) </li>
+</ul>
+Les autres informations sont facultatives
+</p>
 </div>
 
 <div class="right_col">
@@ -148,11 +158,11 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> En cliquant sur cette case, vous pouvez ajouter un second rôle à l'utilisateur </li>
+   <li> En cliquant sur cette case, vous pouvez ajouter un second profil à l'utilisateur </li>
    <li> En cliquant sur le crayon, vous pouvez modifier le nom du profil. Vous pouvez également désactiver le profil en cliquant sur la flèche à côté du crayon, puis en cliquant sur "désactiver". </li>
    <li> Vous pouvez ici séléctioner le rôle que vous souhaitez donner à l'utilisateur. En cliquant, un résumé du rôle s'affichera dans l'encadré à droite. </li>
    <li> Vous pouvez accorder le rôle séléctioné à l'utilisateur en cliquant sur "accorder". </li>
-   <li> Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. </li>
+   <!-- <li> Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. </li> -->
 </ol>
 </p>
 
@@ -168,12 +178,11 @@ Vous devez saisir ici les informations personnelles de l'utilisateur que vous so
 &nbsp;
 
 
-<!-- 6eme paire de colonnes -->
+<!-- 
 
 <div class="two_column">
 
 <div class="left_col">
-<!-- First column content goes here -->
 <p>
 En cochant la case, cela vous permet de donner le droit à l'utilisateur de créer et gérer des rôles d'utilisateurs, il ne pourra cependant pas donner des autorisations à l'utilisateur. 
 </p>
@@ -181,16 +190,14 @@ En cochant la case, cela vous permet de donner le droit à l'utilisateur de cré
 </div>
 
 <div class="right_col">
-<!-- Second column content goes here -->
 {{<insertImage image="don_delegation.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
+-->
 {{<alert color="warning">}}
 Il est également de votre responsabilité de faire un suivi attentif des utilisateurs qui ont accès à la plateforme SpiGes et de supprimer l'accès aux personnes qui n'ont plus à l'avoir.
 {{</alert>}}
-
 
 ### Désactivation d'un utilsateur
 

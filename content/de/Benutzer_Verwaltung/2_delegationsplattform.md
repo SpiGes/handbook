@@ -127,6 +127,16 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 <p>
 Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Personalausweis des Benutzers zu finden sind. 
 </p>
+
+<p>
+Die folgenden Informationen sind obligatorisch:  
+<ul> 
+   <li> Name(n) </li>
+   <li> Vorname(n) </li>.
+   <li> E-Mail-Adresse (geschäftliche E-Mail-Adresse einsetzen) </li>.
+</ul>
+Weitere Angaben sind optional.
+</p>
 </div>
 
 <div class="right_col">
@@ -148,11 +158,10 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Rolle hinzufügen </li>
+   <li> Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Profil hinzufügen </li>
    <li> Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken. </li>
    <li> Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt. </li>
    <li> Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Gewähren" klicken. </li>
-   <li> Wenn Sie dem Benutzer erlauben möchten, Rollen zu delegieren, gehen Sie auf die Registerkarte "Berechtigungen für delegierte Verwaltung gewähren. </li>
 </ol>
 </p>
 
@@ -168,12 +177,13 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 &nbsp;
 
 
-<!-- 6eme paire de colonnes -->
+<!-- 6eme paire de colonnes 
+
+   <li> Wenn Sie dem Benutzer erlauben möchten, Rollen zu delegieren, gehen Sie auf die Registerkarte "Berechtigungen für delegierte Verwaltung gewähren. </li>
 
 <div class="two_column">
 
 <div class="left_col">
-<!-- First column content goes here -->
 <p>
 Wenn Sie das Kästchen ankreuzen, ermöglicht Ihnen dies, dem Benutzer das Recht zu geben, Benutzerrollen zu erstellen und zu verwalten, er kann dem Benutzer jedoch keine Berechtigungen erteilen. 
 </p>
@@ -181,12 +191,11 @@ Wenn Sie das Kästchen ankreuzen, ermöglicht Ihnen dies, dem Benutzer das Recht
 </div>
 
 <div class="right_col">
-<!-- Second column content goes here -->
 {{<insertImage image="don_delegation_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
+-->
 {{<alert color="warning">}}
 Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattform haben, sorgfältig zu überwachen und den Zugang für Personen, die ihn nicht mehr benötigen, zu sperren.
 {{</alert>}}
