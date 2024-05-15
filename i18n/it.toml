@@ -11,9 +11,9 @@ other = "SpiGes"
 [project_link]
 other = "https://www.spiges.admin.ch"
 [collapsible_block_click_to_expand_click_text]
-other = "Clicca qui per espandere..."
+other = "Risposta"
 [collapsible_block_click_to_collapse_click_text]
-other = "Clicca qui per comprimere..."
+other = "Risposta"
 [collapsible_group_command_expand_all_click_text]
 other = "Espandere tutto"
 [collapsible_group_command_collapse_all_click_text]

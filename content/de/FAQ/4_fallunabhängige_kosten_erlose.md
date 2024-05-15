@@ -7,9 +7,12 @@ type: docs
 keywords: []
 ---
 
+{{<faqBlock>}}
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="falldunabhangige">}}
 
-1. Wie lassen sich die Kosten und Erlöse der gemeinwirtschaftlichen Leistungen in SpiGes erfassen?
+{{<numberedList>}}
+{{<listItem>}}
+Wie lassen sich die Kosten und Erlöse der gemeinwirtschaftlichen Leistungen in SpiGes erfassen?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Dazu wählen Sie unter ktr_typ den passenden Code der entsprechenden GWL Leistung aus und tragen die entsprechenden Kosten und Erlöse anhand den in REKOLE® definierten Kostenarten-, bzw. Kostenstellennummern und Erlöskonten ein. Anbei die Liste der unterschiedlichen GWL Typen und dem entsprechenden ktr_typ Code:
 <table class="w-100">
@@ -100,19 +103,29 @@ Dazu wählen Sie unter ktr_typ den passenden Code der entsprechenden GWL Leistun
   </tr>
 </table>
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-2. Können fallunabhängige Kostenträger einem Spital (burnr_gesv) angehängt werden anstelle eines Standortes? 
+{{<listItem>}}
+Können fallunabhängige Kostenträger einem Spital (burnr_gesv) angehängt werden anstelle eines Standortes?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Nein, das ist nicht möglich.
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-3. Kann man KTR-Typen auch mehrfach verwenden? Zum Beispiel bei 599 mehrfache Zeilen abliefern mit unterschiedlichem Freitext in der Variable "ktr_beschr" ?
+{{<listItem>}}
+Kann man KTR-Typen auch mehrfach verwenden? Zum Beispiel bei 599 mehrfache Zeilen abliefern mit unterschiedlichem Freitext in der Variable "ktr_beschr" ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Ja, das ist möglich. <br />
-Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeordnet. Somit muss in der Variable «ktr_typ» einer der vordefinierten Werte verwendet werden. Es ist jedoch möglich mehrere Kostenträger mit demselben KTR-Typ anzugeben, z.B. für den ktr_typ 205 einmal mit dem Freitext «KVG» und einmal mit dem Freitext «MTK» in der Variable «ktr_beschr». Diese beiden Kostenträger werden dann summiert und in der ITAR_K-Spalte «Tagesklinik Kind- & Jugendpsychiatrie» abgebildet. Theoretisch sind auch weitere Aufteilungen technisch möglich, bis auf den ambulanten Fall. Solange alle denselben KTR-Typ aufweisen, werden sie wie beschrieben summiert und abgebildet. 
+Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeordnet. Somit muss in der Variable «ktr_typ» einer der vordefinierten Werte verwendet werden. Es ist jedoch möglich mehrere Kostenträger mit demselben KTR-Typ anzugeben, z.B. für den ktr_typ 205 einmal mit dem Freitext «KVG» und einmal mit dem Freitext «MTK» in der Variable «ktr_beschr». Diese beiden Kostenträger werden dann summiert und in der ITAR_K-Spalte «Tagesklinik Kind- & Jugendpsychiatrie» abgebildet. Theoretisch sind auch weitere Aufteilungen technisch möglich, bis auf den ambulanten Fall. Solange alle denselben KTR-Typ aufweisen, werden sie wie beschrieben summiert und abgebildet.
 {{</collapsibleBlock>}}
+{{</listItem>}}
 
-4. Wird der KTR-Teil auch bei ambulanten Fällen erwartet, oder bezieht sich dieser ebenfalls ausschliesslich auf stationäre Fälle?
+{{<listItem>}}
+Wird der KTR-Teil auch bei ambulanten Fällen erwartet, oder bezieht sich dieser ebenfalls ausschliesslich auf stationäre Fälle?
 {{<collapsibleBlock groupId="falldunabhangige">}}
 Um ein ITAR_K ausfüllen zu können, werden die Kosten der ambulanten Fälle summarisch pro KTR Typ (z.B. Tarif Dialyse) abgefüllt.
 {{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{</numberedList>}}
+{{</faqBlock>}}

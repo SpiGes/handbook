@@ -48,9 +48,9 @@ Beispiel:
 <div class="left_col">
 <!-- First column content goes here -->
 <p> <ol>
-  <li> In dieser Spalte sehen Sie die EntID auf Unternehmensebene und Sie sehen die Bur-Nummer auf Ebene der Krankenhausstandorte. </li>
-  <li> In dieser Spalte sehen Sie den "administrativen" Kanton des Unternehmens / des Krankenhausstandorts. </li>
-  <li> In dieser Spalte sehen Sie den geografischen Kanton des Unternehmens / des Krankenhausstandorts. </li>
+  - In dieser Spalte sehen Sie die EntID auf Unternehmensebene und Sie sehen die Bur-Nummer auf Ebene der Krankenhausstandorte. 
+  - In dieser Spalte sehen Sie den "administrativen" Kanton des Unternehmens / des Krankenhausstandorts. 
+  - In dieser Spalte sehen Sie den geografischen Kanton des Unternehmens / des Krankenhausstandorts. 
 </ol> </p>
 
 <p> Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind.  </p>

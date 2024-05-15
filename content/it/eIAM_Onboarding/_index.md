@@ -7,7 +7,7 @@ weight: 20
 type: docs
 ---
 
-In questo capitolo troverete tutti i passaggi da seguire per creare un profilo verificato che vi permetterà di connettervi alla piattaforma SpiGes. 
+In questo capitolo troverete tutti i passaggi da seguire per creare un profilo verificato che vi permetterà di connettervi alla piattaforma SpiGes.
 
 Per creare un CH-login con un secondo fattore forte e un'identità verificata per l'utilizzo della piattaforma SpiGes, sono necessari i seguenti passaggi:
 
@@ -22,7 +22,7 @@ Vi consigliamo di leggere queste pagine di istruzioni prima di provare a configu
 
 ## Come funziona eIAM
 
-eIAM è il sistema centrale di accesso e autorizzazione alle applicazioni web dell'Amministrazione federale. In parole povere, eIAM è l'infrastruttura di accesso centralizzata della Confederazione. Il suo scopo è quello di evitare la creazione di una procedura specifica per ogni applicazione. Questa centralizzazione consente di risparmiare denaro e di utilizzare gli stessi dati di accesso per tutte le applicazioni.    
+eIAM è il sistema centrale di accesso e autorizzazione alle applicazioni web dell'Amministrazione federale. In parole povere, eIAM è l'infrastruttura di accesso centralizzata della Confederazione. Il suo scopo è quello di evitare la creazione di una procedura specifica per ogni applicazione. Questa centralizzazione consente di risparmiare denaro e di utilizzare gli stessi dati di accesso per tutte le applicazioni.
 Ogni utente che accede all'applicazione SpiGes viene automaticamente reindirizzato al portale eIAM per la procedura di autenticazione. Il sistema chiederà quindi all'utente di convalidare la connessione sul proprio telefono cellulare per verificare che si tratti effettivamente della persona giusta che sta cercando di connettersi.  
 
 {{<alert color="warning">}}
@@ -30,7 +30,8 @@ Poiché l'identità dell'utente deve essere verificata, gli account dell'applica
 {{</alert>}}
 
 ## Struttura delle unità eIAM
-I diversi utenti della piattaforma SpiGes sono organizzati come segue: 
+
+I diversi utenti della piattaforma SpiGes sono organizzati come segue:
 
 - Cantone
     - Aziende
@@ -48,13 +49,19 @@ Per esempio:
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> 
-<ol>
-  <li> In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero. </li>
-  <li> In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero. </li>
-  <li> In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero. </li>
-</ol> 
-</p>
+{{<numberedList>}}
+{{<listItem>}}
+In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero.
+{{</listItem>}}
+
+{{<listItem>}}
+In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero.
+{{</listItem>}}
+
+{{<listItem>}}
+In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero.
+{{</listItem>}}
+{{</numberedList>}}
 
 <p> Si può notare che il cantone amministrativo e il cantone geografico del sito 1 non sono gli stessi.  </p>
 </div>
