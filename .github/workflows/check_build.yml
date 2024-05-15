@@ -25,7 +25,6 @@ env:
   DEPLOYED_BASE_URL: "https://spiges.github.io/handbook-test/"
   DEPLOYED_BASE_NAME: "handbook-test"
   # Versions
-  HUGO_VERSION: "0.124.1"
   GO_VERSION: "1.22.2"
   NODE_VERSION: "20.12.1"
   DART_SASS_VERSION: "latest/stable" # Only one stable version available through Snap. It is not possible to select a specific version for an extended period.
