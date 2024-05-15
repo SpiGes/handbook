@@ -22,9 +22,10 @@ La rilevazione deve essere effettuata con la stessa granularità delle righe del
 Come vengono compilati i relativi campi per le fatture che non vengono fatturate attraverso SwissDRG, TARPSY o ST Reha?
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
--	Sostanzialmente analogamente al sito Forum Datenaustausch, la compilazione riguarda solo i trattamenti nel settore stazionario. 
--	Occorre chiarezza per quanto riguarda la tariffa, l’importo e la quantità. 
--	I campi che non hanno senso per altre tariffe possono essere lasciati vuoti. 
+
+- Sostanzialmente analogamente al sito Forum Datenaustausch, la compilazione riguarda solo i trattamenti nel settore stazionario.
+- Occorre chiarezza per quanto riguarda la tariffa, l’importo e la quantità.
+- I campi che non hanno senso per altre tariffe possono essere lasciati vuoti.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
