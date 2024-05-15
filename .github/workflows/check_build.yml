@@ -27,7 +27,6 @@ env:
   # Versions
   GO_VERSION: "1.22.2"
   NODE_VERSION: "20.12.1"
-  DART_SASS_VERSION: "latest/stable" # Only one stable version available through Snap. It is not possible to select a specific version for an extended period.
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -118,28 +117,20 @@ jobs:
           cache: false # to avoid Warning: "Restore cache failed: Dependencies file is not found in /home/runner/work/handbook/handbook. Supported file pattern: go.sum"
           go-version: ${{ env.GO_VERSION }}
 
-      - name: Install Dart Sass
-        if: success()
-        run: sudo snap install dart-sass --channel=${{ env.DART_SASS_VERSION }}
-
       - name: Checkout
-        if: success()
         uses: actions/checkout@v4
         with:
           submodules: recursive
 
       - name: Setup Node.js
-        if: success()
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Install Node.js dependencies with npm ci
-        if: success()
+      - name: Install dependencies
         run: npm ci
 
       - name: Update Hugo config
-        if: success()
         run: |
           baseURL=${{ env.DEPLOYED_BASE_URL }}
           echo "baseURL: $baseURL"
@@ -167,18 +158,15 @@ jobs:
           sed -i "s|version[[:space:]]*=[[:space:]]*\"${version}\"|version = \"${new_version}\"|" hugo.toml
 
       - name: Set Test style (blue lines)
-        if: success()
         run: |
           sed -i "s|\$ob-venetian-red:[[:space:]]*#.*;|\$ob-venetian-red: #004ddc;|" assets/scss/_variables_project.scss
 
-      - name: Build with Hugo
-        if: success()
+      - name: Build project using npm
         env:
           BASE_URL: ${{ env.DEPLOYED_BASE_URL }}
         run: npm run build:production
 
       - name: Copy README.md and LICENSE.md files in public directory
-        if: success()
         run: |
           echo "This repository contents the built SpiGes-Documentation project website for testing" > README.md
           cp README.md public/
