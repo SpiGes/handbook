@@ -43,7 +43,7 @@ Klicken Sie auf Weiter.
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "Aufnahme manuell starten". 
+Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "Onboarding manuell starten". 
 </p>
 </div>
 
@@ -87,15 +87,15 @@ Sie können einen Benutzer auch über das Menü zur Benutzerauswahl deaktivieren
 <p>
 <ol>
     <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen, die mit dem ausgewählten Profil verbunden sind. </li>
-    <li> Sie können dem Nutzer eine Erinnerung an die Aufnahme senden. </li>
-    <li> Sie können dem Nutzer auch einen neuen Registrierungscode senden. </li>
+    <li> Sie können dem Benutzer eine Onboarding-Erinnerung an die Aufnahme senden. </li>
+    <li> Sie können dem Benutzer auch einen neuen Onboarding-Code senden. </li>
 </ol>
 </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="global_onboarding_fr.png" class="edge max-w-90">}}
+{{<insertImage image="global_onboarding_de.png" class="edge max-w-90">}}
 </div>
 </div>
 

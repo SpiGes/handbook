@@ -54,9 +54,9 @@ keywords: []
 <div class="left_col">
 <!-- First column content goes here -->
 <ol> 
-    <li> Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton. </li>.
-    <li> Sie können auch Nutzer aus dem Kanton hinzufügen, indem Sie auf den Kanton klicken (er muss blau markiert sein) und dann auf weiter klicken. </li>.
-</ol>.
+    <li> Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton. </li>
+    <li> Sie können auch Nutzer aus dem Kanton hinzufügen, indem Sie auf den Kanton klicken (er muss blau markiert sein) und dann auf weiter klicken. </li>
+</ol>
 </div>
 
 <div class="right_col">
@@ -74,7 +74,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-Sie können die Krankenhausseite Ihrer Wahl auswählen und unten auf der Seite auf Weiter klicken. 
+Sie können den Spitalstandort Ihrer Wahl auswählen und unten auf der Seite auf Weiter klicken. 
 </div>
 
 <div class="right_col">
@@ -99,7 +99,7 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 <!-- First column content goes here -->
 <p>
 <ol> 
-   <li> Durch Klicken auf dieses Feld können Sie einen neuen Benutzer erstellen. </li>.
+   <li> Durch Klicken auf dieses Feld können Sie einen neuen Benutzer erstellen. </li>
    <li> Wenn Sie auf den Bleistift klicken, können Sie die Informationen über den bestehenden Benutzer ändern. </li>
    <li> Sie können auch die Berechtigungen eines Benutzers ändern, indem Sie ihn auswählen und dann auf "Weiter" klicken. </li>
 </ol>
@@ -132,8 +132,8 @@ Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie
 Die folgenden Informationen sind obligatorisch:  
 <ul> 
    <li> Name(n) </li>
-   <li> Vorname(n) </li>.
-   <li> E-Mail-Adresse (geschäftliche E-Mail-Adresse einsetzen) </li>.
+   <li> Vorname(n) </li>
+   <li> E-Mail-Adresse (geschäftliche E-Mail-Adresse einsetzen) </li>
 </ul>
 Weitere Angaben sind optional.
 </p>
@@ -161,7 +161,7 @@ Weitere Angaben sind optional.
    <li> Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Profil hinzufügen </li>
    <li> Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken. </li>
    <li> Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt. </li>
-   <li> Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Gewähren" klicken. </li>
+   <li> Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Berechtigen" klicken. </li>
 </ol>
 </p>
 
