@@ -94,11 +94,6 @@ jobs:
           cache: false # to avoid Warning "Restore cache failed: Dependencies file is not found in /home/runner/work/handbook/handbook. Supported file pattern: go.sum"
           go-version: ${{ env.GO_VERSION }}
 
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-
       - name: Install Dart Sass
         if: success()
         run: sudo snap install dart-sass --channel=${{ env.DART_SASS_VERSION }}
@@ -120,13 +115,9 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Clear npm cache
-        if: success()
-        run: npm cache clean --force
-
       - name: Install Node.js dependencies with npm ci
         if: success()
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: npm ci
 
       - name: Update hugo.toml with build datetime and git hash
         if: success()
@@ -142,14 +133,8 @@ jobs:
       - name: Build with Hugo
         if: success()
         env:
-          # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-              --gc \
-              --minify \
-              --baseURL "${{ steps.pages.outputs.base_url }}/"
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: npm run build:production
 
       - name: Upload artifact
         if: success()
