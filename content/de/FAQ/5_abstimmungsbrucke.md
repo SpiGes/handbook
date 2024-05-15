@@ -72,10 +72,11 @@ Für 2024 (Daten 2023) hat die SwissDRG AG die Details der Anlagenutzungskosten 
  Das Konto 441 wird weder von VKL noch von REKOLE in die Berechnung der Anlagenutzungskosten einbezogen. Können Sie das bestätigen?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 {{<markdown>}}
-Die Anlagenutzungskosten (nach REKOLE® und OCP) entsprechen folgenden Kostenarten:      
-- 442 Abschreibungen      
-- 444 Übrige Mietzinse (inkl. operatives Leasing)       
-- 448 Kalkulatorische Verzinsung des Anlagevermögens      
+Die Anlagenutzungskosten (nach REKOLE® und OCP) entsprechen folgenden Kostenarten:
+
+- 442 Abschreibungen
+- 444 Übrige Mietzinse (inkl. operatives Leasing)
+- 448 Kalkulatorische Verzinsung des Anlagevermögens
 Weitere Informationen sind im REKOLE®-Handbuch (Kapitel 6.5.3) zu finden.
 {{</markdown>}}
 {{</collapsibleBlock>}}
