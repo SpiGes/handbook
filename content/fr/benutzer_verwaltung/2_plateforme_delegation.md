@@ -53,10 +53,15 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<ol> 
-    <li> En cliquant sur la flèche, vous ouvrez la liste des sites hospitalier de votre canton. </li>
-    <li> Vous pouvez également ajouter des utilsateurs du canton en cliquant sur le canton (il doit être surligné en bleu) puis en cliquant sur continuer. </li>
-</ol>
+{{<numberedList>}}
+{{<listItem>}}
+En cliquant sur la flèche, vous ouvrez la liste des sites hospitalier de votre canton.
+{{</listItem>}}
+
+{{<listItem>}}
+Vous pouvez également ajouter des utilsateurs du canton en cliquant sur le canton (il doit être surligné en bleu) puis en cliquant sur continuer.
+{{</listItem>}}
+{{</numberedList>}}
 </div>
 
 <div class="right_col">
@@ -74,7 +79,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-Vous pouvez selectionner le site hospitalier de votre choix, et cliquer sur continuer tout en bas de la page. 
+Vous pouvez selectionner le site hospitalier de votre choix, et cliquer sur continuer tout en bas de la page.
 </div>
 
 <div class="right_col">
@@ -86,8 +91,7 @@ Vous pouvez selectionner le site hospitalier de votre choix, et cliquer sur cont
 
 &nbsp;
 
-
-## Gestion des utilisateurs 
+## Gestion des utilisateurs
 
 Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du site séléctioné.  
 
@@ -97,14 +101,19 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> En cliquant sur cette case, vous pouvez créer un nouvel utilisateur. </li>
-   <li> En cliquant sur le crayon, vous pouvez modifier les informations concernant l'utilisateur existant. </li>
-   <li> Vous pouvez également modifier les autorisations d'un utilisateur en le séléctionnant puis en ciquant sur "continuer". </li>
-</ol>
+{{<numberedList>}}
+{{<listItem>}}
+En cliquant sur cette case, vous pouvez créer un nouvel utilisateur.
+{{</listItem>}}
 
-</p>
+{{<listItem>}}
+En cliquant sur le crayon, vous pouvez modifier les informations concernant l'utilisateur existant.
+{{</listItem>}}
+
+{{<listItem>}}
+Vous pouvez également modifier les autorisations d'un utilisateur en le séléctionnant puis en ciquant sur "continuer".
+{{</listItem>}}
+{{</numberedList>}}
 </div>
 
 <div class="right_col">
@@ -125,18 +134,16 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur. 
+Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur.
 </p>
 
-<p>
-Les informations suivantes sont obligatoires: 
-<ul> 
-   <li> Nom(s) </li>
-   <li> Prénom(s) </li>
-   <li> Adresse électronique (mettre l'adresse e-mail professionnelle) </li>
-</ul>
+Les informations suivantes sont obligatoires:
+
+- Nom(s)
+- Prénom(s)
+- Adresse électronique (mettre l'adresse e-mail professionnelle)
+
 Les autres informations sont facultatives
-</p>
 </div>
 
 <div class="right_col">
@@ -148,7 +155,7 @@ Les autres informations sont facultatives
 
 &nbsp;
 
-### Modification des autorisations de l'utilisateur 
+### Modification des autorisations de l'utilisateur
 
 <!-- 6eme paire de colonnes -->
 
@@ -156,15 +163,26 @@ Les autres informations sont facultatives
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> En cliquant sur cette case, vous pouvez ajouter un second profil à l'utilisateur </li>
-   <li> En cliquant sur le crayon, vous pouvez modifier le nom du profil. Vous pouvez également désactiver le profil en cliquant sur la flèche à côté du crayon, puis en cliquant sur "désactiver". </li>
-   <li> Vous pouvez ici séléctioner le rôle que vous souhaitez donner à l'utilisateur. En cliquant, un résumé du rôle s'affichera dans l'encadré à droite. </li>
-   <li> Vous pouvez accorder le rôle séléctioné à l'utilisateur en cliquant sur "accorder". </li>
-   <!-- <li> Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. </li> -->
-</ol>
-</p>
+{{<numberedList>}}
+{{<listItem>}}
+En cliquant sur cette case, vous pouvez ajouter un second profil à l'utilisateur
+{{</listItem>}}
+
+{{<listItem>}}
+En cliquant sur le crayon, vous pouvez modifier le nom du profil. Vous pouvez également désactiver le profil en cliquant sur la flèche à côté du crayon, puis en cliquant sur "désactiver".
+{{</listItem>}}
+
+{{<listItem>}}
+Vous pouvez ici séléctioner le rôle que vous souhaitez donner à l'utilisateur. En cliquant, un résumé du rôle s'affichera dans l'encadré à droite.
+{{</listItem>}}
+
+{{<listItem>}}
+Vous pouvez accorder le rôle séléctioné à l'utilisateur en cliquant sur "accorder".
+{{</listItem>}}
+
+<!-- Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. -->
+
+{{</numberedList>}}
 
 </div>
 
@@ -176,7 +194,6 @@ Les autres informations sont facultatives
 </div>
 
 &nbsp;
-
 
 <!-- 
 
@@ -207,12 +224,15 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.  </li>
-   <li> CLiquez sur cette case pour désactiver un profil. </li>
-</ol>
-</p>
+{{<numberedList>}}
+{{<listItem>}}
+En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.
+{{</listItem>}}
+
+{{<listItem>}}
+CLiquez sur cette case pour désactiver un profil.
+{{</listItem>}}
+{{</numberedList>}}
 
 </div>
 
@@ -231,13 +251,19 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options de supprimer/d'archiver et de désactiver le profil séléctionné. </li>
-   <li> Cliquez sur cette case pour supprimer / archiver le profil. </li>
-   <li> Cliquez sur cette case pour désactiver le profil. </li>
-</ol>
-</p>
+{{<numberedList>}}
+{{<listItem>}}
+En cliquant sur la flèche à côté du crayon, vous ouvrez les options de supprimer/d'archiver et de désactiver le profil séléctionné.
+{{</listItem>}}
+
+{{<listItem>}}
+Cliquez sur cette case pour supprimer / archiver le profil.
+{{</listItem>}}
+
+{{<listItem>}}
+Cliquez sur cette case pour désactiver le profil.
+{{</listItem>}}
+{{</numberedList>}}
 
 </div>
 
@@ -249,7 +275,7 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 </div>
 
 &nbsp;
- 
+
 {{<alert color="warning">}}
 Prenez bien garde à désactiver le profil qui correspond au rôle auquel vous souhaitez couper l'accès à la plateforme.
 {{</alert>}}

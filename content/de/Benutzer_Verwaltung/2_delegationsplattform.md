@@ -53,10 +53,15 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<ol> 
-    <li> Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton. </li>
-    <li> Sie können auch Nutzer aus dem Kanton hinzufügen, indem Sie auf den Kanton klicken (er muss blau markiert sein) und dann auf weiter klicken. </li>
-</ol>
+{{<numberedList>}}
+   {{<listItem>}}
+   Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton.
+   {{</listItem>}}
+
+   {{<listItem>}}
+   Sie können auch Nutzer aus dem Kanton hinzufügen, indem Sie auf den Kanton klicken (er muss blau markiert sein) und dann auf weiter klicken.
+   {{</listItem>}}
+{{</numberedList>}}
 </div>
 
 <div class="right_col">
@@ -74,7 +79,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-Sie können den Spitalstandort Ihrer Wahl auswählen und unten auf der Seite auf Weiter klicken. 
+Sie können den Spitalstandort Ihrer Wahl auswählen und unten auf der Seite auf Weiter klicken.
 </div>
 
 <div class="right_col">
@@ -86,8 +91,7 @@ Sie können den Spitalstandort Ihrer Wahl auswählen und unten auf der Seite auf
 
 &nbsp;
 
-
-## Verwaltung der Benutzer 
+## Verwaltung der Benutzer
 
 Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewählten Website haben.  
 
@@ -97,14 +101,19 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> Durch Klicken auf dieses Feld können Sie einen neuen Benutzer erstellen. </li>
-   <li> Wenn Sie auf den Bleistift klicken, können Sie die Informationen über den bestehenden Benutzer ändern. </li>
-   <li> Sie können auch die Berechtigungen eines Benutzers ändern, indem Sie ihn auswählen und dann auf "Weiter" klicken. </li>
-</ol>
+{{<numberedList>}}
+   {{<listItem>}}
+   Durch Klicken auf dieses Feld können Sie einen neuen Benutzer erstellen.
+   {{</listItem>}}
 
-</p>
+   {{<listItem>}}
+   Wenn Sie auf den Bleistift klicken, können Sie die Informationen über den bestehenden Benutzer ändern.
+   {{</listItem>}}
+
+   {{<listItem>}}
+   Sie können auch die Berechtigungen eines Benutzers ändern, indem Sie ihn auswählen und dann auf "Weiter" klicken.
+   {{</listItem>}}
+{{</numberedList>}}
 </div>
 
 <div class="right_col">
@@ -125,18 +134,16 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Personalausweis des Benutzers zu finden sind. 
+Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Personalausweis des Benutzers zu finden sind.
 </p>
 
-<p>
-Die folgenden Informationen sind obligatorisch:  
-<ul> 
-   <li> Name(n) </li>
-   <li> Vorname(n) </li>
-   <li> E-Mail-Adresse (geschäftliche E-Mail-Adresse einsetzen) </li>
-</ul>
+Die folgenden Informationen sind obligatorisch:
+
+- Name(n)
+- Vorname(n)
+- E-Mail-Adresse (geschäftliche E-Mail-Adresse einsetzen)
+
 Weitere Angaben sind optional.
-</p>
 </div>
 
 <div class="right_col">
@@ -148,7 +155,7 @@ Weitere Angaben sind optional.
 
 &nbsp;
 
-### Ändern von Benutzerberechtigungen 
+### Ändern von Benutzerberechtigungen
 
 <!-- 6eme paire de colonnes -->
 
@@ -156,14 +163,23 @@ Weitere Angaben sind optional.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Profil hinzufügen </li>
-   <li> Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken. </li>
-   <li> Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt. </li>
-   <li> Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Berechtigen" klicken. </li>
-</ol>
-</p>
+{{<numberedList>}}
+   {{<listItem>}}
+   Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Profil hinzufügen
+   {{</listItem>}}
+
+   {{<listItem>}}
+   Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken.
+   {{</listItem>}}
+
+   {{<listItem>}}
+   Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt.
+   {{</listItem>}}
+
+   {{<listItem>}}
+   Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Berechtigen" klicken.
+   {{</listItem>}}
+{{</numberedList>}}
 
 </div>
 
@@ -175,7 +191,6 @@ Weitere Angaben sind optional.
 </div>
 
 &nbsp;
-
 
 <!-- 6eme paire de colonnes 
 
@@ -200,7 +215,6 @@ Wenn Sie das Kästchen ankreuzen, ermöglicht Ihnen dies, dem Benutzer das Recht
 Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattform haben, sorgfältig zu überwachen und den Zugang für Personen, die ihn nicht mehr benötigen, zu sperren.
 {{</alert>}}
 
-
 ### Deaktivierung eines Benutzers
 
 <!-- 6eme paire de colonnes -->
@@ -209,11 +223,15 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen Sie die Optionen zum Deaktivieren und Archivieren des ausgewählten Profils.  </li>
-   <li> Klicken Sie auf dieses Kästchen, um ein Profil zu deaktivieren. </li>
-</ol>
+{{<numberedList>}}
+   {{<listItem>}}
+   Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen Sie die Optionen zum Deaktivieren und Archivieren des ausgewählten Profils.
+   {{</listItem>}}
+
+   {{<listItem>}}
+   Klicken Sie auf dieses Kästchen, um ein Profil zu deaktivieren.
+   {{</listItem>}}
+{{</numberedList>}}
 </p>
 
 </div>
@@ -233,14 +251,19 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-<ol> 
-   <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen zum Löschen/Archivieren und Deaktivieren des gewählten Profils. </li>
-   <li> Klicken Sie auf dieses Feld, um das Profil zu löschen / zu archivieren. </li>
-   <li> Klicken Sie auf dieses Feld, um das Profil zu deaktivieren. </li>
-</ol>
-</p>
+{{<numberedList>}}
+   {{<listItem>}}
+   Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen zum Löschen/Archivieren und Deaktivieren des gewählten Profils.
+   {{</listItem>}}
 
+   {{<listItem>}}
+   Klicken Sie auf dieses Feld, um das Profil zu löschen / zu archivieren.
+   {{</listItem>}}
+
+   {{<listItem>}}
+   Klicken Sie auf dieses Feld, um das Profil zu deaktivieren.
+   {{</listItem>}}
+{{</numberedList>}}
 </div>
 
 <div class="right_col">
@@ -251,7 +274,7 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 </div>
 
 &nbsp;
- 
+
 {{<alert color="warning">}}
 Achten Sie darauf, dass Sie das Profil deaktivieren, das der Rolle entspricht, der Sie den Zugriff auf die Plattform verwehren wollen.
 {{</alert>}}

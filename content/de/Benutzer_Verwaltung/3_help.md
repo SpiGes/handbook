@@ -9,9 +9,9 @@ keywords: []
 
 ## Rücksendung des Onboarding-Codes
 
-Es kann sein, dass der Onboarding-Code an den Nutzer zurückgeschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen: 
+Es kann sein, dass der Onboarding-Code an den Nutzer zurückgeschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen:
 
-Loggen Sie sich in das Delegationsportal ein <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, und gehen Sie dann zum Benutzerprofil. 
+Loggen Sie sich in das Delegationsportal ein <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, und gehen Sie dann zum Benutzerprofil.
 
 <!-- 1eme paire de colonnes -->
 
@@ -20,7 +20,7 @@ Loggen Sie sich in das Delegationsportal ein <a href="https://www.portal.eiam.ad
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Sie können die Berechtigungen des Benutzers bei Bedarf ändern. 
+Sie können die Berechtigungen des Benutzers bei Bedarf ändern.
 </p>
 
 <p>
@@ -43,7 +43,7 @@ Klicken Sie auf Weiter.
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "Onboarding manuell starten". 
+Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "Onboarding manuell starten".
 </p>
 </div>
 
@@ -84,13 +84,19 @@ Sie können die Informationen direkt an den Nutzer weiterleiten oder ihm eine On
 Sie können einen Benutzer auch über das Menü zur Benutzerauswahl deaktivieren.
 </p>
 
-<p>
-<ol>
-    <li> Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen, die mit dem ausgewählten Profil verbunden sind. </li>
-    <li> Sie können dem Benutzer eine Onboarding-Erinnerung an die Aufnahme senden. </li>
-    <li> Sie können dem Benutzer auch einen neuen Onboarding-Code senden. </li>
-</ol>
-</p>
+{{<numberedList>}}
+    {{<listItem>}}
+    Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen, die mit dem ausgewählten Profil verbunden sind.
+    {{</listItem>}}
+
+    {{<listItem>}}
+    Sie können dem Benutzer eine Onboarding-Erinnerung an die Aufnahme senden.
+    {{</listItem>}}
+
+    {{<listItem>}}
+    Sie können dem Benutzer auch einen neuen Onboarding-Code senden.
+    {{</listItem>}}
+{{</numberedList>}}
 </div>
 
 <div class="right_col">

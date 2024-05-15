@@ -10,9 +10,9 @@ keywords: []
 
 ## Renvoi du code d'onboarding
 
-Il se peut qu'il faille renvoyer le code d'onboarding à l'utilisateur. Par exemple en cas d'erreur dans l'entrée de l'adresse e-mail ou si cela fait plus d'un mois que le code a été envoyé. Dans ce cas voici ce qu'il faut faire: 
+Il se peut qu'il faille renvoyer le code d'onboarding à l'utilisateur. Par exemple en cas d'erreur dans l'entrée de l'adresse e-mail ou si cela fait plus d'un mois que le code a été envoyé. Dans ce cas voici ce qu'il faut faire:
 
-Connectez vous au portail de délégation <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, puis rendez vous sur le profil de l'utilisateur. 
+Connectez vous au portail de délégation <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, puis rendez vous sur le profil de l'utilisateur.
 
 <!-- 1eme paire de colonnes -->
 
@@ -21,7 +21,7 @@ Connectez vous au portail de délégation <a href="https://www.portal.eiam.admin
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Vous pouvez modifier les autorisations de l'utilisateur si nécessaire. 
+Vous pouvez modifier les autorisations de l'utilisateur si nécessaire.
 </p>
 
 <p>
@@ -44,7 +44,7 @@ Cliquez sur continuer.
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Mettez un message de traçabilité, puis cliquez sur "Commencer manuellement l'enregistrement". 
+Mettez un message de traçabilité, puis cliquez sur "Commencer manuellement l'enregistrement".
 </p>
 </div>
 
@@ -85,13 +85,20 @@ Vous pouvez transmettre les informations directement à l'utilisateur, ou lui re
 Vous pouvez également désactiver un utilisateur à partir du menu de sélection des utilisateurs.
 </p>
 
-<p>
-<ol>
-    <li> En cliquant sur la flèche à côté du crayon, vous ouvrez les options associées au profil séléctionné. </li>
-    <li> Vous pouvez envoyer un rappel d'enregistrement à l'utilisateur. </li>
-    <li> Vous pouvez également envoyer un nouveau code d'enregistrement à l'utilisateur. </li>
-</ol>
-</p>
+{{<numberedList>}}
+{{<listItem>}}
+En cliquant sur la flèche à côté du crayon, vous ouvrez les options associées au profil séléctionné.
+{{</listItem>}}
+
+{{<listItem>}}
+Vous pouvez envoyer un rappel d'enregistrement à l'utilisateur.
+{{</listItem>}}
+
+{{<listItem>}}
+Vous pouvez également envoyer un nouveau code d'enregistrement à l'utilisateur.
+{{</listItem>}}
+{{</numberedList>}}
+
 </div>
 
 <div class="right_col">

@@ -21,6 +21,7 @@ Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits übe
 Wir empfehlen Ihnen, zunächst diese Anleitung zu lesen, bevor Sie versuchen, Ihren neuen sicheren Zugang einzurichten.
 
 ## Funktionsweise von eIAM
+
 eIAM ist ein zentrales Zugangs- und Autorisierungssystem der Bundesverwaltung für Webanwendungen. Vereinfacht gesagt ist eIAM die zentrale Zugangsinfrastruktur des Bundes. Es ist das Ziel, die Einrichtung eines spezifischen Verfahrens für jede einzelne Anwendung zu vermeiden. Diese Zentralisierung ermöglicht Einsparungen und die Verwendung der gleichen Zugangsdaten für alle Anwendungen.
 
 Jeder Benutzer, der sich in die SpiGes-Anwendung einloggt, wird automatisch zum eIAM-Portal für das Authentifizierungsverfahren weitergeleitet. Das System wird den Benutzer auffordern, seine Anmeldung auf seinem Mobiltelefon zu bestätigen, um sicherzustellen, dass es sich tatsächlich um die richtige Person handelt, die versucht, sich anzumelden.
@@ -29,29 +30,38 @@ Da die Identität des Nutzers überprüft werden muss, sind die Konten in der An
 {{</alert>}}
 
 ## Struktur der eIAM Units
-Die verschiedenen Benutzer der SpiGes-Plattform sind wie folgt organisiert: 
+
+Die verschiedenen Benutzer der SpiGes-Plattform sind wie folgt organisiert:
 
 - Kanton
     - Unternehmen
         - Standorte
 
-Ein Kanton enthält ein oder mehrere Unternehmen, die ihrerseits einen oder mehrere Krankenhausstandorte enthalten. 
+Ein Kanton enthält ein oder mehrere Unternehmen, die ihrerseits einen oder mehrere Krankenhausstandorte enthalten.
 
 {{<alert color="warning">}}
 In einigen Fällen sind der geografische Kanton eines Standorts und der administrative Kanton des Unternehmens nicht identisch.
 {{</alert>}}
 
-Beispiel: 
+Beispiel:
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> <ol>
-  - In dieser Spalte sehen Sie die EntID auf Unternehmensebene und Sie sehen die Bur-Nummer auf Ebene der Krankenhausstandorte. 
-  - In dieser Spalte sehen Sie den "administrativen" Kanton des Unternehmens / des Krankenhausstandorts. 
-  - In dieser Spalte sehen Sie den geografischen Kanton des Unternehmens / des Krankenhausstandorts. 
-</ol> </p>
+{{<numberedList>}}
+  {{<listItem>}}
+  In dieser Spalte sehen Sie die EntID auf Unternehmensebene und Sie sehen die Bur-Nummer auf Ebene der Krankenhausstandorte.
+  {{</listItem>}}
+
+  {{<listItem>}}
+  In dieser Spalte sehen Sie den "administrativen" Kanton des Unternehmens / des Krankenhausstandorts.
+  {{</listItem>}}
+
+  {{<listItem>}}
+  In dieser Spalte sehen Sie den geografischen Kanton des Unternehmens / des Krankenhausstandorts.
+  {{</listItem>}}
+{{</numberedList>}}
 
 <p> Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind.  </p>
 </div>
