@@ -124,7 +124,7 @@ Ja, Variablen können fehlen. Gewisse Variablen müssen aber zwingend angegeben 
 {{<listItem>}}
 Können die Variablen, welche keinen Inhalt haben, auch mit einem NULLWERT geliefert werden (zum Beispiel vollständige KTR-Zeilen mit NULLEN in den Variablen wo nichts vorhanden ist)? 
 {{<collapsibleBlock groupId="technische_fragen">}}
-Das kommt auf die Variablen an. Bei den KTR-Variablen ist es möglich, alle Variablen mit dem Wert «0» zu erfassen. Leere Variablen («») oder Nullwerte («NULL») sind jedoch nicht zulässig. Falls Sie das konkret überprüfen möchten, können Sie ihr XML-File gegen die XSD-Definition validieren. Dazu gibt es online gratis Tools. Bitte beachten Sie dabei, dass keine echten Daten auf solche Plattformen hochgeladen werden dürfen. Fiktive Beispiel-Files können sie aber so überprüfen. Auch die SpiGes Plattform wird eine solche Validierung bereitstellen. 
+Das kommt auf die Variablen an. Bei den KTR-Variablen ist es möglich, alle Variablen mit dem Wert «0» zu erfassen. Leere Variablen («») oder Nullwerte («NULL») sind jedoch nicht zulässig. Falls Sie das konkret überprüfen möchten, können Sie ihr XML-File gegen die XSD-Definition validieren. Dazu gibt es online gratis Tools. Bitte beachten Sie dabei, dass keine echten Daten auf solche Plattformen hochgeladen werden dürfen. Fiktive Beispiel-Files können sie aber so überprüfen. Auch die SpiGes Plattform wird eine solche Validierung bereitstellen.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
