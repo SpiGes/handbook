@@ -1,6 +1,6 @@
 ---
 title: 3. Vérification des données
-slug: verification_donnnees
+slug: verification
 description: "Sur cette page, nous vous expliquons comment vérifier les données importées par les sites hospitaliers de votre canton sur la plateforme SpiGes."
 keywords: []
 weight: 40

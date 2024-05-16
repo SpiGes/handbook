@@ -1,6 +1,6 @@
 ---
 title: Schnittstelle der Plattform
-slug: schnittstelle
+slug: interface
 description: "Auf dieser Seite stellen wir Ihnen die Navigation auf der Erhebungsplattform SpiGes vor."
 keywords: []
 weight: 10

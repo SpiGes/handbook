@@ -1,6 +1,6 @@
 ---
 title: Utilisation de la plateforme
-slug: fonction_plateforme
+slug: plateforme
 description: "Ce chapitre vous explique tout ce que vous avez besoin de savoir sur le fonctionnement de la plateforme et sur son utilisation."
 weight: 30
 type: docs

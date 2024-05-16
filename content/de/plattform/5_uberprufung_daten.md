@@ -1,6 +1,6 @@
 ---
 title: 3. Überprüfung der Daten
-slug: uberprufung_daten
+slug: verification
 description: "Auf dieser Seite erklären wir, wie Sie die importierten der Spitalstandorte Ihres Kantons auf der SpiGes plattform überprüfen können."
 keywords: []
 weight: 40

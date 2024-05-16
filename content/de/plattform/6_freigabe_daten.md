@@ -1,6 +1,6 @@
 ---
 title: 4. Freigabe der Daten 
-slug: freigabe_daten
+slug: freigabe
 description: "Auf dieser Seite erklären wir Ihnen, wie Sie die von den Standorten der Spitäler in Ihrem Kanton importierten Daten auf der SpiGes-Plattform freigeben können."
 keywords: []
 weight: 50

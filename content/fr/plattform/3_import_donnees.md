@@ -1,6 +1,6 @@
 ---
 title: 1. Importation des données
-slug: import_donnnees
+slug: import
 description: "Sur cette page, nous vous expliquons comment importer les données de votre site hospitalier sur la plateforme SpiGes."
 keywords: []
 weight: 20

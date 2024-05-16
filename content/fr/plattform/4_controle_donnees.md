@@ -1,6 +1,6 @@
 ---
 title: 2. Contrôle des données
-slug: controle_donnnees
+slug: kontrole
 description: "Sur cette page, nous vous expliquons comment contrôler les données importées par votre site hospitalier sur la plateforme SpiGes."
 keywords: []
 weight: 30

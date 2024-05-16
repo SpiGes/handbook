@@ -1,11 +1,12 @@
 ---
 title: Nutzung der Plattform
-slug: plattform_funktion
+slug: plateforme
 description: "In diesem Kapitel erfahren Sie alles, was Sie über die Funktionsweise der Plattform und ihre Nutzung wissen müssen."
 weight: 30
 type: docs
 keywords: []
 ---
+
 {{<alert color="info">}}
 Die Dokumentation befindet sich im Aufbau.
 {{</alert>}}
