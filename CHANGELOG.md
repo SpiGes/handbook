@@ -12,7 +12,7 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 #### Others
 
-- [#46](https://github.com/SpiGes/handbook/issues/46) - Inform about warnings/errors from linters (markdownlint, eslint, stylelint) on GitHug
+- [#46](https://github.com/SpiGes/handbook/issues/46) - Inform about warnings/errors from linters (markdownlint, eslint, stylelint) on GitHub
 
 ### Updated
 
