@@ -1,0 +1,54 @@
+name: Generate and provide the Hugo cache directory for a Windows environment
+
+on:
+  push:
+    branches:
+      - '**/*'
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: '20.12.1'
+
+jobs:
+  build-and-upload:
+    runs-on: windows-latest
+
+    steps:
+     - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          cache: false # to avoid Warning: "Restore cache failed: Dependencies file is not found in /home/runner/work/handbook/handbook. Supported file pattern: go.sum"
+          go-version: ${{ env.GO_VERSION }}
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass --channel=${{ env.DART_SASS_VERSION }}
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        env:
+          BASE_URL: ${{ env.DEPLOYED_BASE_URL }}
+        run: npm run build
+
+      - name: Find Hugo cache directory
+        id: find-cache
+        run: |
+          $cachePath = Join-Path $Env:LOCALAPPDATA 'hugo_cache'
+          echo "HUGO_CACHE_DIR=$cachePath" | Out-File -Append $GITHUB_ENV
+
+      - name: Upload Hugo cache directory
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-cache
+          path: ${{ env.HUGO_CACHE_DIR }}
