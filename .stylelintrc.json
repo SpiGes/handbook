@@ -60,6 +60,6 @@
                 "severity": "warning"
             }
         ],
-        "media-feature-range-notation": "context"
+        "media-feature-range-notation": "prefix"
     }
 }
