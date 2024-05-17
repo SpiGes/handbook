@@ -13,21 +13,21 @@ on:
   workflow_dispatch:
     inputs:
       deploymentEnabled:
-        description: "The built website must be deployed"
+        description: 'The built website must be deployed'
         required: false
         default: true
         type: boolean
 
 env:
-  TARGET_REPOSITORY: "spiges/handbook-test"
-  TARGET_BRANCH: "main"
+  TARGET_REPOSITORY: 'spiges/handbook-test'
+  TARGET_BRANCH: 'main'
   KEEP_TARGET_HISTORY: false
-  DEPLOYED_BASE_URL: "https://spiges.github.io/handbook-test/"
-  DEPLOYED_BASE_NAME: "handbook-test"
+  DEPLOYED_BASE_URL: 'https://spiges.github.io/handbook-test/'
+  DEPLOYED_BASE_NAME: 'handbook-test'
   # Versions
-  GO_VERSION: "1.22.2"
-  NODE_VERSION: "20.12.1"
-  DART_SASS_VERSION: "latest/stable" # Only one stable version available through Snap. It is not possible to select a specific version for an extended period.
+  GO_VERSION: '1.22.2'
+  NODE_VERSION: '20.12.1'
+  DART_SASS_VERSION: 'latest/stable' # Only one stable version available through Snap. It is not possible to select a specific version for an extended period.
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -53,15 +53,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - run: "npm ci"
+      - run: 'npm ci'
       - uses: reviewdog/action-stylelint@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          filter_mode: nofilter
+          filter_mode: added
           fail_on_error: true
-          stylelint_config: ".stylelintrc.json"
-          stylelint_input: "**/assets/scss/*.scss"
+          stylelint_config: '.stylelintrc.json'
+          stylelint_input: '**/assets/scss/*.scss'
 
   eslintCheck:
     name: Javascript Lint Check
@@ -76,12 +76,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - run: "npm ci"
+      - run: 'npm ci'
       - uses: reviewdog/action-eslint@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          filter_mode: nofilter
+          filter_mode: added
           fail_on_error: true
           eslint_flags: "--debug --stats --ignore-pattern '{public/,node_modules/}' assets/js/"
 
@@ -98,14 +98,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - run: "npm ci"
+      - run: 'npm ci'
       - uses: reviewdog/action-markdownlint@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          filter_mode: nofilter
+          filter_mode: added
           fail_on_error: true
-          markdownlint_flags: "**/content/**/*.md --ignore node_modules --ignore public --config .markdownlint.json"
+          markdownlint_flags: '**/content/**/*.md --ignore node_modules --ignore public --config .markdownlint.json'
 
   # Build job
   build:
