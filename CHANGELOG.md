@@ -2,35 +2,29 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
-## [@Next] - @ReleaseDate
+## [0.1.0-pre-pilot-4] - 2024.05.17
 
 ### Added
 
 #### Documentation
 
+- [#38](https://github.com/SpiGes/handbook/issues/38) - Information about eIAM portal
+
 #### Others
+
+- [#46](https://github.com/SpiGes/handbook/issues/46) - Inform about warnings/errors from linters (markdownlint, eslint, stylelint) on GitHub
 
 ### Updated
 
-#### Documentation
-
 #### Others
 
-- [#46](https://github.com/SpiGes/handbook/issues/46) - Inform about warnings/errors from linters (markdownlint, eslint, stylelint) on GitHug
 - [#48](https://github.com/SpiGes/handbook/issues/48) - Improve the CSS selector allowing to remove the margin-bottom of the paragraphs in the FAQ
 - [#53](https://github.com/SpiGes/handbook/issues/53) - As for SpiGes application, only three languages must be available
+- [#55](https://github.com/SpiGes/handbook/issues/55) - Update layout/format of the FAQ pages
 - [#57](https://github.com/SpiGes/handbook/issues/57) - Update release pipeline to only be executable with main branch
 - [#61](https://github.com/SpiGes/handbook/issues/61) - Reorganize the javascript files + add new eslint rules
 
-### Removed
-
-#### Documentation
-
-#### Others
-
 ### Fixed
-
-#### Documentation
 
 #### Others
 
