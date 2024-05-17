@@ -36,5 +36,9 @@
         "javascriptreact",
         "typescript",
         "typescriptreact"
-    ]
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.enableDebugLogs": true
 }
