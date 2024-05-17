@@ -1,9 +1,6 @@
 name: Generate and provide the Hugo cache directory for a Windows environment
 
 on:
-  push:
-    branches:
-      - '**/*'
   workflow_dispatch:
 
 env:
@@ -45,9 +42,10 @@ jobs:
 
       - name: Find Hugo cache directory
         id: find-cache
+        shell: pwsh
         run: |
-          $cachePath = Join-Path $Env:LOCALAPPDATA 'hugo_cache'
-          echo "HUGO_CACHE_DIR=$cachePath" | Out-File -Append $GITHUB_ENV
+          $cachePath = Join-Path $env:LOCALAPPDATA 'hugo_cache'
+          echo "HUGO_CACHE_DIR=$cachePath" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8
 
       - name: Upload Hugo cache directory
         uses: actions/upload-artifact@v4
