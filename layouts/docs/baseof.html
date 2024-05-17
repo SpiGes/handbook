@@ -1,9 +1,16 @@
 <!doctype html>
-<html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.Language.Lang }}" class="no-js">
+<html
+  itemscope
+  itemtype="http://schema.org/WebPage"
+  lang="{{ .Site.Language.Lang }}"
+  class="no-js"
+>
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
+  <body
+    class="td-{{ .Kind }}{{ with .Page.Params.body_class }}{{ . }}{{ end }}"
+  >
     <div class="viewport">
       <header class="layout-header">
         {{ partial "navbar.html" . }}
@@ -12,15 +19,22 @@
         <div class="td-main">
           <div class="content-wrapper">
             <div class="row flex-xl-nowrap">
-              <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none layout-sidebar">
+              <aside
+                class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none layout-sidebar"
+              >
                 {{ partial "sidebar.html" . }}
               </aside>
-              <main class="col-12 col-md-9 col-xl-10 pl-md-5 layout-main" role="main">
+              <main
+                class="col-12 col-md-9 col-xl-10 pl-md-5 layout-main"
+                role="main"
+              >
                 {{ partial "version-banner.html" . }}
-                {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
+                {{ if not .Site.Params.ui.breadcrumb_disable }}
+                  {{ partial "breadcrumb.html" . }}
+                {{ end }}
                 {{ block "main" . }}{{ end }}
               </main>
-          </div>
+            </div>
           </div>
         </div>
         {{ partial "footer.html" . }}
@@ -31,15 +45,18 @@
       {{ if hugo.IsProduction }}
         {{ $opts := dict "minify" true }}
         {{ with $js := . | js.Build $opts | fingerprint "sha384" }}
-          <script type="module" src="{{ $js.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+          <script
+            type="module"
+            src="{{ $js.RelPermalink }}"
+            integrity="{{ .Data.Integrity }}"
+            crossorigin="anonymous"
+          ></script>
         {{ end }}
       {{ else }}
         {{ with $js := . | js.Build }}
           <script type="module" src="{{ $js.RelPermalink }}"></script>
         {{ end }}
       {{ end }}
-    {{ else }}
-      <p>caca</p>
     {{ end }}
   </body>
 </html>
