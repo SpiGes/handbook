@@ -51,9 +51,7 @@ jobs:
           echo "HUGO_CACHE_DIR=$cachePath" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8
 
       - name: Install 7zip
-        uses: chocolatey-community/chocolatey-setup-action@v2
-        with:
-          package-list: 7zip
+        run: choco install 7zip.install -y
 
       - name: Compress Hugo cache directory
         run: 7z a -tzip hugo_cache.zip ${{ env.HUGO_CACHE_DIR }}
