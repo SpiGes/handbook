@@ -50,8 +50,16 @@ jobs:
           $cachePath = Join-Path $env:LOCALAPPDATA 'hugo_cache'
           echo "HUGO_CACHE_DIR=$cachePath" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8
 
-      - name: Upload Hugo cache directory
-        uses: actions/upload-artifact@v4
+      - name: Install 7zip
+        uses: chocolatey-community/chocolatey-setup-action@v2
+        with:
+          package-list: 7zip
+
+      - name: Compress Hugo cache directory
+        run: 7z a -tzip hugo_cache.zip ${{ env.HUGO_CACHE_DIR }}
+
+      - name: Upload hugo_cache.zip
+        uses: actions/upload-artifact@v3
         with:
           name: hugo-cache
-          path: ${{ env.HUGO_CACHE_DIR }}
+          path: hugo_cache.zip
