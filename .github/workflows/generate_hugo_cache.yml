@@ -1,6 +1,9 @@
 name: Generate and provide the Hugo cache directory for a Windows environment
 
 on:
+  push:
+    branches:
+      - '**/*'
   workflow_dispatch:
 
 env:
