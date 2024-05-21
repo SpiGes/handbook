@@ -44,7 +44,7 @@ Fare clic su Avanti.
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Inserire un messaggio di tracciabilità, quindi fare clic su “Avvia registrazione manuale”.
+Inserire un messaggio di tracciabilità, quindi fare clic su “Avvia il processo di registrazione manualmente”.
 </p>
 </div>
 
@@ -63,7 +63,7 @@ Inserire un messaggio di tracciabilità, quindi fare clic su “Avvia registrazi
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-È possibile inviare le informazioni direttamente all'utente, oppure inviargli un'e-mail di onboarding facendo clic su “Invia il codice di onboarding via e-mail”.
+È possibile inviare le informazioni direttamente all'utente, oppure inviargli un'e-mail di onboarding facendo clic su “Invia il codice di registrazione via e-mail”.
 </p>
 </div>
 

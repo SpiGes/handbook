@@ -111,7 +111,7 @@ Facendo clic sulla matita, è possibile modificare le informazioni sull'utente e
 {{</listItem>}}
 
 {{<listItem>}}
-È inoltre possibile modificare le autorizzazioni di un utente selezionandolo e facendo clic su “continua”.
+È inoltre possibile modificare le autorizzazioni di un utente selezionandolo e facendo clic su “Avanti”.
 {{</listItem>}}
 {{</numberedList>}}
 </div>
@@ -177,7 +177,7 @@ Qui è possibile selezionare il ruolo che si desidera assegnare all'utente. Face
 {{</listItem>}}
 
 {{<listItem>}}
-È possibile assegnare il ruolo selezionato all'utente facendo clic su “Concedi”.
+È possibile assegnare il ruolo selezionato all'utente facendo clic su “Assegnare”.
 {{</listItem>}}
 
 <!-- Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. -->
