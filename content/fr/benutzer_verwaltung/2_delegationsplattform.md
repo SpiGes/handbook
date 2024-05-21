@@ -198,10 +198,15 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<markdown>}}
-1. En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.
-2. Cliquez sur cette case pour désactiver un profil.
-{{</markdown>}}
+{{<numberedList>}}
+{{<listItem>}}
+En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.
+{{</listItem>}}
+
+{{<listItem>}}
+CLiquez sur cette case pour désactiver un profil.
+{{</listItem>}}
+{{</numberedList>}}
 
 </div>
 
