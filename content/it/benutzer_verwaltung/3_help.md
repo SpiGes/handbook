@@ -1,18 +1,18 @@
 ---
-title: Support aux utilisateurs
+title: Supporto agli utenti
 slug: support
-description: "Sur cette page, nous vous expliquons comment aider les utilisateurs en cas de besoin. Cette tâche ne concerne que les responsables des cantons (KT_Superuser)."
+description: "In questa pagina spieghiamo come aiutare gli utenti in caso di necessità. Questo compito riguarda solo i responsabili dei cantoni (KT_Superuser)."
 weight: 30
 type: docs
 keywords: []
 ---
 
 
-## Renvoi du code d'onboarding
+## Reinvio del codice di onboarding
 
-Il se peut qu'il faille renvoyer le code d'onboarding à l'utilisateur. Par exemple en cas d'erreur dans l'entrée de l'adresse e-mail ou si cela fait plus d'un mois que le code a été envoyé. Dans ce cas voici ce qu'il faut faire:
+Potrebbe essere necessario inviare nuovamente il codice di onboarding all'utente. Ad esempio, se si è verificato un errore nell'inserimento dell'indirizzo e-mail o se è passato più di un mese dall'invio del codice. In questo caso, ecco cosa fare:
 
-Connectez vous au portail de délégation <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, puis rendez vous sur le profil de l'utilisateur.
+Accedere al portale di delega <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, quindi andare al profilo dell'utente.
 
 <!-- 1eme paire de colonnes -->
 
@@ -21,17 +21,17 @@ Connectez vous au portail de délégation <a href="https://www.portal.eiam.admin
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Vous pouvez modifier les autorisations de l'utilisateur si nécessaire.
+Se necessario, è possibile modificare le autorizzazioni dell'utente.
 </p>
 
 <p>
-Cliquez sur continuer.
+Fare clic su Avanti.
 </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="continuer_fr.png" class="edge max-w-90">}}
+{{<insertImage image="continuer_it.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -44,13 +44,13 @@ Cliquez sur continuer.
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Mettez un message de traçabilité, puis cliquez sur "Commencer manuellement l'enregistrement".
+Inserire un messaggio di tracciabilità, quindi fare clic su “Avvia registrazione manuale”.
 </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="enreg_manu_fr.png" class="edge max-w-90">}}
+{{<insertImage image="enreg_manu_it.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -63,13 +63,13 @@ Mettez un message de traçabilité, puis cliquez sur "Commencer manuellement l'e
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Vous pouvez transmettre les informations directement à l'utilisateur, ou lui renvoyer un e-mail d'onboarding en cliquant sur "Envoyer le code d'onboarding par courriel"
+È possibile inviare le informazioni direttamente all'utente, oppure inviargli un'e-mail di onboarding facendo clic su “Invia il codice di onboarding via e-mail”.
 </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="onboarding_fr.png" class="edge max-w-90">}}
+{{<insertImage image="onboarding_it.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -82,20 +82,20 @@ Vous pouvez transmettre les informations directement à l'utilisateur, ou lui re
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Vous pouvez également désactiver un utilisateur à partir du menu de sélection des utilisateurs.
+È possibile restituire il codice di onboarding anche dal menu di selezione dell'utente.
 </p>
 
 {{<numberedList>}}
 {{<listItem>}}
-En cliquant sur la flèche à côté du crayon, vous ouvrez les options associées au profil séléctionné.
+Fare clic sulla freccia accanto alla matita per aprire le opzioni associate al profilo selezionato.
 {{</listItem>}}
 
 {{<listItem>}}
-Vous pouvez envoyer un rappel d'enregistrement à l'utilisateur.
+È possibile inviare un promemoria di registrazione all'utente.
 {{</listItem>}}
 
 {{<listItem>}}
-Vous pouvez également envoyer un nouveau code d'enregistrement à l'utilisateur.
+È anche possibile inviare all'utente un nuovo codice di registrazione.
 {{</listItem>}}
 {{</numberedList>}}
 
@@ -103,7 +103,7 @@ Vous pouvez également envoyer un nouveau code d'enregistrement à l'utilisateur
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="global_onboarding_fr.png" class="edge max-w-90">}}
+{{<insertImage image="global_onboarding_it.png" class="edge max-w-90">}}
 </div>
 </div>
 
