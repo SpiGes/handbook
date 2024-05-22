@@ -13,6 +13,12 @@ eIAM bietet mehrere Zweitsicherheitsfaktoren an, aber nur zwei davon werden als 
     - Physischer Sicherheitsschlüssel (FIDO Token).
 2. Die MobileID
 
+{{<alert color="warning">}}
+{{<markdown>}}
+Sie dürfen **keinen** anderen Zweitfaktor als die oben genannten verifizieren. Wenn ein anderer Zweitfaktor überprüft wird, ist die SpiGes-Anwendung nicht zugänglich. 
+{{</markdown>}}
+{{</alert>}}
+
 Idealerweise bevorzugen Sie die Verwendung von Windows Hello auf dem Arbeitscomputer.          
 Wenn dies nicht möglich ist, verwenden Sie entweder die MobileID oder einen physischen Sicherheitsschlüssel. 
 

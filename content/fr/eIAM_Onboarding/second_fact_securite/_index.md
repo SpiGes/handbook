@@ -13,6 +13,12 @@ eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d’entre 
     - Clé de sécurité physique (FIDO Token)
 2. Le MobileID
 
+{{<alert color="warning">}}
+{{<markdown>}}
+Il ne faut **pas** vérifier un autre second facteur que ceux proposé ci-dessus. Avec un autre second facteur vérifié, l'application SpiGes ne sera pas accessible. 
+{{</markdown>}}
+{{</alert>}}
+
 Idéalement, privilégiez l’utilisation de Windows Hello sur l’ordinateur professionnel.          
 Si cela est impossible, utilisez soit le MobileID, soit une clé de sécurité physique. 
 
