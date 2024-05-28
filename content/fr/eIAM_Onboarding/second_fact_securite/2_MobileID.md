@@ -11,7 +11,11 @@ type: docs
 Nous vous demandons si possible d'utiliser le Windows Hello. 
 {{</alert>}}
 
-Si vous ne pouvez pas utiliser le Windows Hello comme second facteur de sécurité, vous pouvez utiliser le Mobile ID. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
+Si vous ne pouvez pas utiliser le Windows Hello comme second facteur de sécurité, vous pouvez utiliser le Mobile ID. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. Vous trouverez les informations pour la remplacer [ici](https://www.mobileid.ch/fr/commander-sim).
+
+{{<alert color="info">}}
+Mobile ID est un service uniquement compatible avec une carte SIM suisse pour le moment.  
+{{</alert>}}
 
 ## Activation du Mobile ID
 
