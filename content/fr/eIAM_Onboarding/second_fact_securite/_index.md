@@ -15,7 +15,7 @@ eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d’entre 
 
 {{<alert color="warning">}}
 {{<markdown>}}
-Il ne faut **pas** vérifier un autre second facteur que ceux proposé ci-dessus. Avec un autre second facteur vérifié, l'application SpiGes ne sera pas accessible. 
+Il ne faut **pas** vérifier un autre second facteur que ceux proposé ci-dessus. Avec un autre second facteur vérifié, l'application SpiGes ne sera pas accessible.  
 {{</markdown>}}
 {{</alert>}}
 

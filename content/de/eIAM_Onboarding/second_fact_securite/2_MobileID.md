@@ -11,6 +11,10 @@ type: docs
 Wir bitten Sie, wenn möglich, Windows Hello zu verwenden. 
 {{</alert>}}
 
+{{<alert color="warning">}}
+Die Mobile ID ist ein anderes Authentifizierungsmittel als die mTAN-SMS.
+{{</alert>}}
+
 Wenn Sie Windows Hello als Zweitsicherheitfaktor nicht verwenden können, können Sie Mobile ID verwenden. Für die Verwendung von Mobile ID benötigen Sie eine SIM-Karte, die mit Mobile ID kompatibel ist. Wenn Ihre SIM-Karte nicht mit Mobile ID kompatibel ist, muss sie ausgetauscht werden. Informationen, wie Sie sie ersetzen können, finden Sie [hier](https://www.mobileid.ch/de/sim-bestellen)
 
 {{<alert color="info">}}
