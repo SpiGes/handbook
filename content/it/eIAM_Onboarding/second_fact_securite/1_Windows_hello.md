@@ -155,7 +155,7 @@ Quindi fare clic su "Avvia".
 
 &nbsp;
 
-Si aprirà una finestra sul computer, selezionate l'opzione "Windows Hello" e scegliete uno dei mezzi di identificazione (impronta digitale, riconoscimento facciale o codice PIN). Seguire i passaggi richiesti dal computer.
+Si aprirà una finestra sul computer, selezionate l'opzione "Windows Hello" e scegliete uno dei mezzi di identificazione (impronta digitale, riconoscimento facciale, password o codice PIN). Seguire i passaggi richiesti dal computer.
 
 
 <!-- 

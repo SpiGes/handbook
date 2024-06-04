@@ -158,7 +158,7 @@ Klicken Sie dann auf "Starten".
 
 &nbsp;
 
-Auf Ihrem Computer wird sich ein Fenster öffnen. Wählen Sie die Option "Windows Hello" und wählen Sie eine der Identifikationsmöglichkeiten (Fingerabdruck, Gesichtserkennung oder PIN-Code). Befolgen Sie die von Ihrem Computer angeforderten Schritte.
+Auf Ihrem Computer wird sich ein Fenster öffnen. Wählen Sie die Option "Windows Hello" und wählen Sie eine der Identifikationsmöglichkeiten (Fingerabdruck, Gesichtserkennung, Passwort oder PIN-Code). Befolgen Sie die von Ihrem Computer angeforderten Schritte.
 
 Sobald diese Schritte abgeschlossen sind, wird Ihr FIDO-Schlüssel als zweiter Sicherheitsfaktor angezeigt und Sie können die Video-Identifizierung für Ihren FIDO-Schlüssel durchführen. Gehen Sie dazu zum Schritt Videoidentifikation.
 

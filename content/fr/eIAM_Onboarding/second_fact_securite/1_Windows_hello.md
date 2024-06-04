@@ -154,7 +154,7 @@ Cliquez ensuite sur "Démarer".
 
 &nbsp;
 
-Une fenêtre va s'ouvrir sur votre ordinateur, choisissez l'option "Windows Hello" et choisissez un des moyens d'identification (empreinte digitale, reconnaissance faciale ou code PIN). Suivez les étapes demandées par votre ordinateur.
+Une fenêtre va s'ouvrir sur votre ordinateur, choisissez l'option "Windows Hello" et choisissez un des moyens d'identification (empreinte digitale, reconnaissance faciale, mot de passe ou code PIN). Suivez les étapes demandées par votre ordinateur.
 
 
 <!-- 
