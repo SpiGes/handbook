@@ -7,6 +7,9 @@ weight: 10
 type: docs
 ---
 
+Informationen zu Windows Hello finden Sie [hier](https://support.microsoft.com/de-de/windows/melden-sie-sich-mit-windows-hello-bei-ihrem-microsoft-konto-an-800a8c01-6b61-49f5-0660-c2159bea4d84).
+
+## Hinzufügen von Windows Hello als Zweitfaktor
 <!-- 1ere paire de colonnes -->
 
 <div class="two_column">
