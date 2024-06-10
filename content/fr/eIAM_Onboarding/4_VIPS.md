@@ -9,6 +9,20 @@ type: docs
 
 Pour pouvoir utiliser la plateforme de relevé SpiGes, vous avez besoin d'une identité vérifiée sur un second facteur fort du CH-Login. L'identité est vérifiée au moyen d'une identification par vidéo (VIPS). 
 
+{{<alert color="warning">}}
+{{<markdown>}}
+Veillez à vérifier un des seconds facteurs forts que nous vous recommandons.
+
+Les seconds facteurs suivants fonctionnent: 
+- FIDO Token (Avec Windows Hello ou une clé physique)
+- Mobile ID
+
+Le seconds facteurs suivants ne fonctionnent pas: 
+- Numéro de téléphone SMS mTAN
+- App d'authentification 
+{{</markdown>}}
+{{</alert>}}
+
 L'identification vidéo peut se faire du lundi au samedi de 8h à 17h.
 
 Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
