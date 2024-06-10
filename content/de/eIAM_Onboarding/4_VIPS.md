@@ -9,6 +9,20 @@ type: docs
 
 Damit Sie die SpiGes-Erhebungsplattform verwenden können, benötigen Sie eine verifizierte Identität auf einem starken Zweitfaktor des CH-Login. Die Identität wird mittels einer Videoidentifikation (VIPS) verifiziert.
 
+{{<alert color="warning">}}
+{{<markdown>}}
+Achten Sie darauf, dass Sie einen der empfohlenen starken Zweitfaktoren überprüfen.
+
+Die folgenden zweiten Faktoren funktionieren: 
+- FIDO-Token (Mit Windows Hello oder einem physischen Schlüssel)
+- Mobile ID
+
+Die folgenden Zweitfaktoren funktionieren nicht: 
+- Telefonnummer SMS mTAN
+- Authentifizierungs-App 
+{{</markdown>}}
+{{</alert>}}
+
 Die Videoidentifikation kann montags bis samstags von 8:00 bis 17:00 Uhr durchgeführt werden.
 
 Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material: 

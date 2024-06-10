@@ -9,6 +9,20 @@ type: docs
 
 Per poter utilizzare la piattaforma di dichiarazione SpiGes, è necessaria un'identità verificata su un secondo fattore forte CH-Login. La verifica dell'identità avviene tramite identificazione video (VIPS). 
 
+{{<alert color="warning">}}
+{{<markdown>}}
+Assicuratevi di controllare uno dei fattori secondari forti che raccomandiamo.
+
+I seguenti secondi fattori funzionano: 
+- Token FIDO (con Windows Hello o una chiave fisica)
+- ID mobile
+
+I seguenti secondi fattori non funzionano: 
+- Numero di telefono SMS mTAN
+- App di autenticazione
+{{</markdown>}}
+{{</alert>}}
+
 La video identificazione è disponibile dal lunedì al sabato, dalle 8.00 alle 17.00.
 
 Per effettuare l'identificazione video, è necessario il seguente equipaggiamento:
