@@ -273,7 +273,9 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div class="left_col">
 <!-- First column content goes here -->
-Immettere il seguente codice MIO: 16783, quindi fare clic su "Salva". 
+{{<markdown>}}
+Immettere il seguente codice MIO: **16783**, quindi fare clic su "Salva". 
+{{</markdown>}}
 </div>
 
 <div class="right_col">
