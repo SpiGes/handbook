@@ -16,7 +16,7 @@ L'import des données peut s’effectuer par étapes, tant chronologiquement que
 Si le chapitre correspondant existe déjà, les données importées précédemment du même chapitre sont intégralement remplacées par celles du nouvel import.
 {{</alert>}}
 
-{{<insertImage image="import_donnees.png" class="edge max-w-90">}}
+{{<insertImage image="import_donnees_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -24,7 +24,7 @@ Pour importer de nouvelles données, il faut se rendre sur la page du site hospi
 
 &nbsp;
 
-{{<insertImage image="import_xml.png" class="edge max-w-90">}}
+{{<insertImage image="import_xml_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -32,7 +32,7 @@ Vous pouvez ensuite soit glisser votre document de données au format XML, soit 
 
 &nbsp;
 
-{{<insertImage image="fin_import.png" class="edge max-w-90">}}
+{{<insertImage image="fin_import_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
