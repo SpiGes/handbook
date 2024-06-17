@@ -8,10 +8,6 @@ type: docs
 ---
 
 {{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
-{{<alert color="info">}}
 Das Hochladen der Daten kann zeitlich und inhaltlich gestaffelt erfolgen. Bis <B> spätestens Ende April</B> des Jahres, das auf das Jahr der Erhebung folgt, müssen alle Daten des Spitals auf der Plattform verfügbar sein. Der Import der Daten erfolgt kapitelweise.
 {{</alert>}}
 

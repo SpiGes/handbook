@@ -7,10 +7,6 @@ type: docs
 keywords: []
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 ## Erhebungsprozess
 
 Die Erhebung der Daten startet im Januar nach dem Datenjahr und wird mit den folgenden Schritten durchgeführt:

@@ -7,28 +7,25 @@ weight: 10
 type: docs
 ---
 
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
-
-
 ### Ecran d'accueil
 
 {{<insertImage image="ecran_accueil.png" class="edge max-w-90">}}
 
 &nbsp;
 
-1. La case "Erhebungen" vous permet d'accéder directement à l'un des relevés les plus récents.  
+1. La case "Relevés" vous permet d'accéder directement à l'un des relevés les plus récents.  
 
 2. La case "Quick Links" vous donne des liens contenant diverses informations utiles.
 
 3. La case "News" vous donne des nouvelles concernant la plateforme.
 
-4. L'onglet "Erhebungsübersicht" permet d'accéder à l'ensembles des données de l'année en cours et des années précédentes. 
+4. L'onglet "Aperçu de l'enquête" permet d'accéder à l'ensembles des données de l'année en cours et des années précédentes. 
 
-5. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme. 
+5. La case "Manuel" vous renvoie vers le manuel d'utilisation SpiGes.
 
-### Ecran d'aperçu du relevé
+6. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme. 
+
+### Ecran "Aperçu de l'enquête"
 
 {{<insertImage image="ecran_erhebungsubersicht.png" class="edge max-w-90">}}
 

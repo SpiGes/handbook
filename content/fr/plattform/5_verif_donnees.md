@@ -7,11 +7,6 @@ weight: 40
 type: docs
 ---
 
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
-
-
 ### Plausibilisation
 
 Lorsque le fournisseur de données a corrigé ou motivé toutes les erreurs, le canton vérifie la plausibilité des justifications. Le canton peut soit accepter des motifs (état « OK »), soit demander des compléments d’information ou une nouvelle livraison via la fonction de chat qui s’affiche pour chaque vérification signalant des erreurs. Si une erreur ne peut pas être corrigée, le canton peut la marquer définitivement comme erreur (état « Erreur »).

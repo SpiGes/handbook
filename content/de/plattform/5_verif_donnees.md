@@ -7,10 +7,6 @@ weight: 40
 type: docs
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 
 ### Plausibilisierung
 

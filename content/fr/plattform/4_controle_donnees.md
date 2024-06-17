@@ -7,10 +7,6 @@ weight: 30
 type: docs
 ---
 
-{{<alert color="info">}}
-La documentation est en cours de construction.
-{{</alert>}}
-
 {{<alert title="Vérification à la source" color="info">}}
 <p> Idéalement, les données sont contrôlées directement dans le système de saisie de l’hôpital, en amont du processus de relevé. </p>
 

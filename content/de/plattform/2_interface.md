@@ -7,14 +7,9 @@ weight: 10
 type: docs
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
-
 ### Startbildschirm
 
-{{<insertImage image="ecran_accueil.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_accueil_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -26,11 +21,13 @@ Die Dokumentation befindet sich im Aufbau.
 
 4. Die Rubrik "Erhebungsübersicht" bietet Zugang zu den Datensätzen des aktuellen Jahres und der Vorjahre. 
 
-5. Das Feld "Logout" oben rechts ermöglicht es Ihnen, sich von der Plattform abzumelden. 
+5. Das Feld "Handbuch" verweist Sie auf das SpiGes-Benutzerhandbuch.
+
+6. Das Feld "Logout" oben rechts ermöglicht es Ihnen, sich von der Plattform abzumelden. 
 
 ### Erhebungsubersicht
 
-{{<insertImage image="ecran_erhebungsubersicht.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_erhebungsubersicht_de.png" class="edge max-w-90">}}
 
 &nbsp;
 

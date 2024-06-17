@@ -7,10 +7,6 @@ weight: 30
 type: docs
 ---
 
-{{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
-{{</alert>}}
-
 {{<alert title="Prüfung an der Quelle" color="info">}}
 Idealerweise werden die Daten direkt im Eingabesystem des Spitals geprüft. Dazu stellt das BFS eine automatisierte Lösung für die Integration in die spitaleigene Informatikumgebung bereit. Die Spitalunternehmen haben zudem die Möglichkeit, ihre Daten mit der SpiGes-Plattform während dem Datenjahr zu überprüfen. Da diese Prüfung vor dem ordentlichen Beginn der Erhebung (Januar des Folgejahres) stattfindet, befindet sich der Status der Erhebung im Zustand "Vorbereitung".
 {{</alert>}}
