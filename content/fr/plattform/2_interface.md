@@ -37,7 +37,7 @@ type: docs
 
 ### Aperçu des entreprises hospitalières
 
-{{<insertImage image="ecran_donnees.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_donnees_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -47,9 +47,9 @@ type: docs
 
 3. La flèche à droite de chaque entreprise vous permet de dérouler la liste des sites hospitaliers liés à cette entreprise. La première flèche de la liste vous permet de dérouler toutes les entreprises.
 
-### Aperçu des éléments de l'enquête
+### Aperçu des parties de l'enquête
 
-{{<insertImage image="donnees_site.png" class="edge max-w-90">}}
+{{<insertImage image="donnees_site_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
