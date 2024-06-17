@@ -21,7 +21,7 @@ Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisatio
 
 ## Contrôle des cas individuels, vue canton
 
-{{<insertImage image="controle_detail_canton.png" class="edge max-w-90">}}
+{{<insertImage image="controle_detail_canton_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
