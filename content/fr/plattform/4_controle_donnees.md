@@ -22,7 +22,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 ## Contrôle du format
 
-{{<insertImage image="test_format.png" class="edge max-w-90">}}
+{{<insertImage image="test_format_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -36,7 +36,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 ## Contrôle des cas individuels
 
-{{<insertImage image="controle.png" class="edge max-w-90">}}
+{{<insertImage image="controle_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -50,7 +50,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 &nbsp;
 
-{{<insertImage image="controle_detail.png" class="edge max-w-90">}}
+{{<insertImage image="controle_detail_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
