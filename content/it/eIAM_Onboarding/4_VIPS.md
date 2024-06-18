@@ -7,7 +7,7 @@ weight: 40
 type: docs
 ---
 
-Per poter utilizzare la piattaforma di dichiarazione SpiGes, è necessaria un'identità verificata su un secondo fattore forte CH-Login. La verifica dell'identità avviene tramite identificazione video (VIPS). 
+Per poter utilizzare la piattaforma di dichiarazione SpiGes, è necessaria un'identità verificata su un secondo fattore forte CH-Login. La verifica dell'identità avviene tramite identificazione video (VIPS).
 
 {{<alert color="warning">}}
 {{<markdown>}}
