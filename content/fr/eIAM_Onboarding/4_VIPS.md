@@ -13,7 +13,8 @@ Pour pouvoir utiliser la plateforme de relevé SpiGes, vous avez besoin d'une id
 {{<markdown>}}
 Veillez à vérifier un des seconds facteurs forts que nous vous recommandons.
 
-Les seconds facteurs suivants fonctionnent: 
+Les seconds facteurs suivants fonctionnent:
+
 - FIDO Token (Avec Windows Hello ou une clé physique)
 - Mobile ID
 
