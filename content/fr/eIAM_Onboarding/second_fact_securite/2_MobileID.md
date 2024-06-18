@@ -273,7 +273,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Saisissez le code MIO suivant: **16783**, puis cliquez sur "enregistrer". 
+Saisissez le code MIO suivant: **16783**, puis cliquez sur "enregistrer".
 {{</markdown>}}
 </div>
 
