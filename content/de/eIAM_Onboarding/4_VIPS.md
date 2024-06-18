@@ -21,7 +21,7 @@ Die folgenden zweiten Faktoren funktionieren:
 Die folgenden Zweitfaktoren funktionieren nicht:
 
 - Telefonnummer SMS mTAN
-- Authentifizierungs-App 
+- Authentifizierungs-App
 {{</markdown>}}
 {{</alert>}}
 
