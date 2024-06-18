@@ -13,7 +13,8 @@ Per poter utilizzare la piattaforma di dichiarazione SpiGes, è necessaria un'id
 {{<markdown>}}
 Assicuratevi di controllare uno dei fattori secondari forti che raccomandiamo.
 
-I seguenti secondi fattori funzionano: 
+I seguenti secondi fattori funzionano:
+
 - Token FIDO (con Windows Hello o una chiave fisica)
 - ID mobile
 
