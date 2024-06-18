@@ -272,7 +272,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Geben Sie den folgenden MIO-Code ein **16783** und klicken Sie auf "Speichern". 
+Geben Sie den folgenden MIO-Code ein **16783** und klicken Sie auf "Speichern".
 {{</markdown>}}
 </div>
 
