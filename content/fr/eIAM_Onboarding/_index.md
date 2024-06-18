@@ -12,8 +12,8 @@ Dans ce chapitre, vous trouverez toutes les marches à suivre afin de vous crée
 Pour créer un CH-login avec un second facteur fort et une identité vérifiée pour l'utilisation de la plateforme SpiGes, les étapes suivantes sont nécessaires :
 
 1. Créer un login CH (avec l'adresse e-mail professionnelle)
-2. Ajouter un second facteur de sécurité au CH-Login
-3. Vérifier l'identité sur le second facteur
+2. Ajouter un second facteur de sécurité fort au CH-Login
+3. Vérifier l'identité sur le second facteur fort
 4. Relier (onboarding) le login CH établi avec SpiGes
 
 Ces étapes sont expliquées dans les pages suivantes. Si vous disposez déjà d'un CH-Login, vous n'avez pas besoin d'en créer un nouveau et vous pouvez passer l'étape correspondante. Vérifiez toutefois que votre CH-Login fonctionne.

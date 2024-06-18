@@ -13,6 +13,12 @@ eIAM offre diversi fattori di sicurezza secondari, ma solo due di essi sono cons
     - Chiave di sicurezza fisica (FIDO Token)
 2. MobileID
 
+{{<alert color="warning">}}
+{{<markdown>}}
+**Non** selezionare un secondo fattore diverso da quelli suggeriti sopra. Se si seleziona un altro secondo fattore, l'applicazione SpiGes non sarà accessibile.
+{{</markdown>}}
+{{</alert>}}
+
 L'ideale sarebbe utilizzare Windows Hello sul computer di lavoro.          
 Se ciò non è possibile, utilizzare MobileID o una chiave di sicurezza fisica. 
 

@@ -7,6 +7,9 @@ weight: 10
 type: docs
 ---
 
+Potete trovare informazioni su Windows Hello [qui](https://support.microsoft.com/it-it/windows/accedi-al-tuo-account-microsoft-con-windows-hello-800a8c01-6b61-49f5-0660-c2159bea4d84).
+
+## Windows Hello aggiunto come secondo fattore
 <!-- 1ere paire de colonnes -->
 
 <div class="two_column">
@@ -155,8 +158,7 @@ Quindi fare clic su "Avvia".
 
 &nbsp;
 
-Si aprirà una finestra sul computer, selezionate l'opzione "Windows Hello" e scegliete uno dei mezzi di identificazione (impronta digitale, riconoscimento facciale o codice PIN). Seguire i passaggi richiesti dal computer.
-
+Si aprirà una finestra sul computer, selezionate l'opzione "Windows Hello" e scegliete uno dei mezzi di identificazione (impronta digitale, riconoscimento facciale, password o codice PIN). Seguire i passaggi richiesti dal computer.
 
 <!-- 
 Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 

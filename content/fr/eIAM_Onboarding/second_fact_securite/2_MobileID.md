@@ -8,10 +8,18 @@ type: docs
 ---
 
 {{<alert color="warning">}}
-Nous vous demandons si possible d'utiliser le Windows Hello. 
+Nous vous demandons si possible d'utiliser le Windows Hello.
 {{</alert>}}
 
-Si vous ne pouvez pas utiliser le Windows Hello comme second facteur de sécurité, vous pouvez utiliser le Mobile ID. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. 
+{{<alert color="warning">}}
+Le Mobile ID est un moyen d'authentification différent du SMS mTAN.
+{{</alert>}}
+
+Si vous ne pouvez pas utiliser le Windows Hello comme second facteur de sécurité, vous pouvez utiliser le Mobile ID. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. Vous trouverez les informations pour la remplacer [ici](https://www.mobileid.ch/fr/commander-sim).
+
+{{<alert color="info">}}
+Mobile ID est un service uniquement compatible avec une carte SIM suisse pour le moment.  
+{{</alert>}}
 
 ## Activation du Mobile ID
 
@@ -264,7 +272,9 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div class="left_col">
 <!-- First column content goes here -->
-Saisissez le code MIO suivant: 16783, puis cliquez sur "enregistrer". 
+{{<markdown>}}
+Saisissez le code MIO suivant: **16783**, puis cliquez sur "enregistrer".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
