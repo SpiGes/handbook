@@ -22,3 +22,5 @@ other = "Comprimere tutto"
 other = "Clicca qui per espandere/comprimere"
 [collapsible_group_command_click_to_expand_collapse_all_tooltip_text]
 other = "Clicca qui per espandere/comprimere tutto"
+[project_title]
+other = "SpiGes manuali"

@@ -1,5 +1,5 @@
 ---
-title: SpiGes
+title: Manuale SpiGes
 slug: introduction
 description: 'SpiGes'
 keywords: []

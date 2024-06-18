@@ -1,5 +1,5 @@
 ---
-title: Manuel SpiGes
+title: Manuel SpiGes 
 slug: introduction
 description: 'SpiGes'
 keywords: []

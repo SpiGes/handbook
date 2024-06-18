@@ -26,3 +26,5 @@ other = "Expand all"
 other = "Collapse all"
 [collapsible_group_command_click_to_expand_collapse_all_tooltip_text]
 other = "Click here to expand/collapse all"
+[project_title]
+other = "Manual SpiGes"
