@@ -22,9 +22,6 @@
 
 - [#66](https://github.com/SpiGes/handbook/issues/66) - Build the project on GitHub using npm instead of the hugo command 
 
-## Fixes
-
-### Others
 
 ## Contributors
 
