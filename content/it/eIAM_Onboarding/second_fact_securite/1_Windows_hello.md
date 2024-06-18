@@ -160,7 +160,6 @@ Quindi fare clic su "Avvia".
 
 Si aprirà una finestra sul computer, selezionate l'opzione "Windows Hello" e scegliete uno dei mezzi di identificazione (impronta digitale, riconoscimento facciale, password o codice PIN). Seguire i passaggi richiesti dal computer.
 
-
 <!-- 
 Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 
 
