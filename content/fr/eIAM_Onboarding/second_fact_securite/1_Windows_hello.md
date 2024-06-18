@@ -10,6 +10,7 @@ type: docs
 Vous trouverez des informations concernant le Windows Hello [ici](https://support.microsoft.com/fr-fr/windows/connectez-vous-%C3%A0-votre-compte-microsoft-avec-windows-hello-800a8c01-6b61-49f5-0660-c2159bea4d84).
 
 ## Ajout du Windows Hello comme second facteur
+
 <div class="two_column">
 
 <div class="left_col">
