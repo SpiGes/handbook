@@ -8,7 +8,7 @@ type: docs
 ---
 
 {{<alert color="warning">}}
-Se possibile, vi chiediamo di utilizzare Windows Hello. 
+Se possibile, vi chiediamo di utilizzare Windows Hello.
 {{</alert>}}
 
 {{<alert color="warning">}}
