@@ -17,7 +17,8 @@ Les seconds facteurs suivants fonctionnent:
 - FIDO Token (Avec Windows Hello ou une clé physique)
 - Mobile ID
 
-Le seconds facteurs suivants ne fonctionnent pas: 
+Le seconds facteurs suivants ne fonctionnent pas:
+
 - Numéro de téléphone SMS mTAN
 - App d'authentification 
 {{</markdown>}}
