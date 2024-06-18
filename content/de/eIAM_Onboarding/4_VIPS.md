@@ -13,7 +13,8 @@ Damit Sie die SpiGes-Erhebungsplattform verwenden können, benötigen Sie eine v
 {{<markdown>}}
 Achten Sie darauf, dass Sie einen der empfohlenen starken Zweitfaktoren überprüfen.
 
-Die folgenden zweiten Faktoren funktionieren: 
+Die folgenden zweiten Faktoren funktionieren:
+
 - FIDO-Token (Mit Windows Hello oder einem physischen Schlüssel)
 - Mobile ID
 
