@@ -15,7 +15,7 @@ eIAM bietet mehrere Zweitsicherheitsfaktoren an, aber nur zwei davon werden als 
 
 {{<alert color="warning">}}
 {{<markdown>}}
-Sie dürfen **keinen** anderen Zweitfaktor als die oben genannten verifizieren. Wenn ein anderer Zweitfaktor überprüft wird, ist die SpiGes-Anwendung nicht zugänglich. 
+Sie dürfen **keinen** anderen Zweitfaktor als die oben genannten verifizieren. Wenn ein anderer Zweitfaktor überprüft wird, ist die SpiGes-Anwendung nicht zugänglich.
 {{</markdown>}}
 {{</alert>}}
 
