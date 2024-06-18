@@ -7,7 +7,7 @@ weight: 40
 type: docs
 ---
 
-Pour pouvoir utiliser la plateforme de relevé SpiGes, vous avez besoin d'une identité vérifiée sur un second facteur fort du CH-Login. L'identité est vérifiée au moyen d'une identification par vidéo (VIPS). 
+Pour pouvoir utiliser la plateforme de relevé SpiGes, vous avez besoin d'une identité vérifiée sur un second facteur fort du CH-Login. L'identité est vérifiée au moyen d'une identification par vidéo (VIPS).
 
 {{<alert color="warning">}}
 {{<markdown>}}
