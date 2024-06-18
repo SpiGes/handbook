@@ -28,10 +28,10 @@ Sobald keine offenen Fehler mehr bestehen, kann die Plausibilisierung der Daten 
 
 1. Mit den quadratischen Feldern können Sie mehrere Fehler auswählen.
 
-2. In dieser Rubrik sehen Sie eine Beschreibung des Fehlers. Sie können auch mehr Details sehen, indem Sie auf den Fehler in der Rubrik "Fall-Id" klicken. 
+2. In dieser Rubrik sehen Sie eine Beschreibung des Fehlers. Sie können auch mehr Details sehen, indem Sie auf den Fehler in der Rubrik "Fall-Id" klicken.
 
 3. In dieser Rubrik können Sie den Status jedes Fehlers sehen.
 
-4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Sie werden auf die Gesamtheit der Fehler einwirken, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler. 
+4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Sie werden auf die Gesamtheit der Fehler einwirken, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler.
 
 5. Sie können auch auf der Ebene des betreffenden Fehlers Bearbeitungen vornehmen, z.B. Begründungen akzeptieren, indem Sie auf das Häkchen klicken.

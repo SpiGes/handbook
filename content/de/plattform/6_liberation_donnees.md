@@ -9,7 +9,7 @@ type: docs
 
 ### Abschluss und Freigabe
 
-Am Ende der Plausibilisierung muss die Korrektheit der Daten zuerst durch die Verantwortlichen des Spitals auf der SpiGes-Plattform bestätigt werden. Danach kann der Abschluss durch den Kanton erfolgen. Dieser Schritt umfasst sowohl den Abschluss der statistischen Erhebung nach BStatG als auch die Freigabe der Daten für die administrative Verwendung nach KVG. 
+Am Ende der Plausibilisierung muss die Korrektheit der Daten zuerst durch die Verantwortlichen des Spitals auf der SpiGes-Plattform bestätigt werden. Danach kann der Abschluss durch den Kanton erfolgen. Dieser Schritt umfasst sowohl den Abschluss der statistischen Erhebung nach BStatG als auch die Freigabe der Daten für die administrative Verwendung nach KVG.
 
 Um die Verbindlichkeit der Daten im KVG-Bereich zu gewährleisten, obliegt es den kantonalen Gesundheitsämtern, die Daten offiziell für diese Nutzung freizugeben. Sollte in einem dieser Abschlussschritte nochmals ein Fehler entdeckt werden,kann der Prozess ausnahmsweise wieder gestartet werden.
 

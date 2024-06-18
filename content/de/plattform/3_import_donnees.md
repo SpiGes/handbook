@@ -8,7 +8,9 @@ type: docs
 ---
 
 {{<alert color="info">}}
-Das Hochladen der Daten kann zeitlich und inhaltlich gestaffelt erfolgen. Bis <B> spätestens Ende April</B> des Jahres, das auf das Jahr der Erhebung folgt, müssen alle Daten des Spitals auf der Plattform verfügbar sein. Der Import der Daten erfolgt kapitelweise.
+{{<markdown>}}
+Das Hochladen der Daten kann zeitlich und inhaltlich gestaffelt erfolgen. Bis **spätestens Ende April** des Jahres, das auf das Jahr der Erhebung folgt, müssen alle Daten des Spitals auf der Plattform verfügbar sein. Der Import der Daten erfolgt kapitelweise.
+{{</markdown>}}
 {{</alert>}}
 
 {{<alert color="warning">}}

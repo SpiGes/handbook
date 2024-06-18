@@ -19,11 +19,11 @@ type: docs
 
 3. La case "News" vous donne des nouvelles concernant la plateforme.
 
-4. L'onglet "Aperçu de l'enquête" permet d'accéder à l'ensembles des données de l'année en cours et des années précédentes. 
+4. L'onglet "Aperçu de l'enquête" permet d'accéder à l'ensembles des données de l'année en cours et des années précédentes.
 
 5. La case "Manuel" vous renvoie vers le manuel d'utilisation SpiGes.
 
-6. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme. 
+6. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme.
 
 ### Ecran "Aperçu de l'enquête"
 
@@ -55,4 +55,4 @@ type: docs
 
 1. Cette case vous permet d'importer des données concernant l'entreprise ou le site hospitalier selectionné. Vous trouverez plus de détail à ce propos sur la page "1. Importation des données sur la plateforme".
 
-2. L'espace commentaire vous permet de communiquer. Pour créer un nouveau sujet de conversation, vous devez créer un nouveau thème en cliquant sur la bulle de dialogue en haut au milieu, puis commenter au sein de cette nouvelle catégorie. 
+2. L'espace commentaire vous permet de communiquer. Pour créer un nouveau sujet de conversation, vous devez créer un nouveau thème en cliquant sur la bulle de dialogue en haut au milieu, puis commenter au sein de cette nouvelle catégorie.

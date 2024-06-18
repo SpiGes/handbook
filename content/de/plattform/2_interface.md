@@ -19,11 +19,11 @@ type: docs
 
 3. Das Feld "News" gibt Ihnen Nachrichten über die Plattform.
 
-4. Die Rubrik "Erhebungsübersicht" bietet Zugang zu den Datensätzen des aktuellen Jahres und der Vorjahre. 
+4. Die Rubrik "Erhebungsübersicht" bietet Zugang zu den Datensätzen des aktuellen Jahres und der Vorjahre.
 
 5. Das Feld "Handbuch" verweist Sie auf das SpiGes-Benutzerhandbuch.
 
-6. Das Feld "Logout" oben rechts ermöglicht es Ihnen, sich von der Plattform abzumelden. 
+6. Das Feld "Logout" oben rechts ermöglicht es Ihnen, sich von der Plattform abzumelden.
 
 ### Erhebungsubersicht
 
@@ -55,4 +55,4 @@ type: docs
 
 1. Dieses Feld ermöglicht es Ihnen, Daten über das ausgewählte Unternehmen oder die ausgewählte Krankenhauseinrichtung zu importieren. Weitere Details dazu finden Sie auf der Seite "1. Daten auf die Plattform importieren".
 
-2. Der Kommentarbereich bietet Ihnen die Möglichkeit zur Kommunikation. Um ein neues Gesprächsthema zu erstellen, müssen Sie auf die Sprechblase oben in der Mitte klicken, und dann können sie rechts im Chat neue Nachrichten eingeben. 
+2. Der Kommentarbereich bietet Ihnen die Möglichkeit zur Kommunikation. Um ein neues Gesprächsthema zu erstellen, müssen Sie auf die Sprechblase oben in der Mitte klicken, und dann können sie rechts im Chat neue Nachrichten eingeben.

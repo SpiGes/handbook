@@ -27,10 +27,10 @@ Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisatio
 
 1. Les cases carrées vous permettent de selectionner plusieurs erreurs.
 
-2. Dans cette colonne, vous pouvez voir une description de l'erreur, vous pouvez également avoir plus de détails en cliquant sur l'erreur dans la colonne "Fall-Id". 
+2. Dans cette colonne, vous pouvez voir une description de l'erreur, vous pouvez également avoir plus de détails en cliquant sur l'erreur dans la colonne "Fall-Id".
 
 3. Dans cette colonne, vous pouvez voir le statut de chaque erreur.
 
-4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon. 
+4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon.
 
 5. Vous pouvez également agir sur une seule erreur au niveau de l'erreur concernée. Vous pouvez également accepter des motifications en cliquant sur le vu.
