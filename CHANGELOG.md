@@ -24,18 +24,6 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 -[#66](https://github.com/SpiGes/handbook/issues/66) - Build the project on GitHub using npm instead of the hugo command
 
-### Removed
-
-#### Documentation
-
-#### Others
-
-### Fixed
-
-#### Documentation
-
-#### Others
-
 
 ## [0.1.0-pre-pilot-4] - 2024.05.17
 
