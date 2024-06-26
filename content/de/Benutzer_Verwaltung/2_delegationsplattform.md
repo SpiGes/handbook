@@ -35,7 +35,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Sie sind nun im eIAM-Portal angemeldet. Um zur Benutzerverwaltung zu gelangen, klicken Sie zuerst auf den Reiter "Benutzerverwaltung" und dann auf "Delegierte Verwaltung". </p>
+<p> Sie sind nun im eIAM-Portal angemeldet. Um zur Benutzerverwaltung zu gelangen, klicken Sie zuerst auf den Reiter "Benutzermanagement" und dann auf "Delegiertes Management". </p>
 </div>
 
 <div class="right_col">
@@ -134,7 +134,7 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Personalausweis des Benutzers zu finden sind.
+Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Ausweis (Pass, ID) des Benutzers zu finden sind.
 </p>
 
 Die folgenden Informationen sind obligatorisch:
@@ -165,7 +165,7 @@ Weitere Angaben sind optional.
 <!-- First column content goes here -->
 {{<numberedList>}}
    {{<listItem>}}
-   Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Profil hinzufügen
+   Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer ein zweites Profil hinzufügen
    {{</listItem>}}
 
    {{<listItem>}}

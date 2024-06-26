@@ -7,11 +7,11 @@ type: docs
 keywords: []
 ---
 
-## Rücksendung des Onboarding-Codes
+## Erneute Sendung des Onboarding-Codes
 
-Es kann sein, dass der Onboarding-Code an den Nutzer zurückgeschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen:
+Es kann sein, dass der Onboarding-Code an den Nutzer nochmals geschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen:
 
-Loggen Sie sich in das Delegationsportal ein <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a>, und gehen Sie dann zum Benutzerprofil.
+Loggen Sie sich in das Delegationsportal <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> ein, und gehen Sie dann zum Benutzerprofil.
 
 <!-- 1eme paire de colonnes -->
 
@@ -62,7 +62,7 @@ Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "O
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Sie können die Informationen direkt an den Nutzer weiterleiten oder ihm eine Onboarding-E-Mail senden, indem Sie auf "Onboarding-Code per E-Mail senden" klicken.
+Sie können dem Benutzer eine Onboarding-E-Mail senden, indem Sie auf "Onboarding-Code per E-Mail senden" klicken.
 </p>
 </div>
 
@@ -81,7 +81,7 @@ Sie können die Informationen direkt an den Nutzer weiterleiten oder ihm eine On
 <div class="left_col">
 <!-- First column content goes here -->
 <p>
-Sie können einen Benutzer auch über das Menü zur Benutzerauswahl deaktivieren.
+Sie können einen Benutzer auch über das Menü Benutzerauswahl deaktivieren oder ihm einen neuen Onboarding-Code senden
 </p>
 
 {{<numberedList>}}
@@ -90,7 +90,7 @@ Sie können einen Benutzer auch über das Menü zur Benutzerauswahl deaktivieren
     {{</listItem>}}
 
     {{<listItem>}}
-    Sie können dem Benutzer eine Onboarding-Erinnerung an die Aufnahme senden.
+    Sie können dem Benutzer eine Onboarding-Erinnerung senden.
     {{</listItem>}}
 
     {{<listItem>}}
