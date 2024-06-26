@@ -14,7 +14,7 @@ Das CH-LOGIN ist ein durch den Standarddienst eIAM der Bundesverwaltung bereitge
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Gehen Sie auf {{<link url="https://www.myaccount.eiam.admin.ch/">}}Mein eIAM-Konto{{</link>}} und wählen Sie das Feld **CH-LOGIN & AGOV (eGovernment)** in den Loginoptionen.
+Gehen Sie auf {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} und wählen Sie das Feld **CH-LOGIN & AGOV (eGovernment)** in den Loginoptionen.
 {{</markdown>}}
 </div>
 
