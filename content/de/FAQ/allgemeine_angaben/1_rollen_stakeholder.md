@@ -23,7 +23,6 @@ Bei fachlichen oder technischen Fragen zur SpiGes wendet sich das Spital primär
 Wie sieht die Rolle der Kantone, insbesondere der kantonalen Erhebungspartner, zukünftig aus?
 {{<collapsibleBlock groupId="Rollen">}}
 {{<markdown>}}
-
 - Die kantonalen Erhebungsstellen wirken bei der BFS Erhebung mit wie bisher (Grundgesamtheit, Koordination und Kommunikation Spital, Mahnwesen usw.).
 
 - Das zuständige kantonale Gesundheitsamt gibt neu Ende Juli die Daten der Spitalunternehmen auf ihrem Hoheitsgebiet für die Nutzung nach KVG auf der SpiGes Plattform frei.

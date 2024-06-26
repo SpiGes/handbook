@@ -1,7 +1,7 @@
 ---
 title: Erstellung des CH-LOGIN
 slug: ch_login
-description: 'Auf dieser Seite erklären wir Ihnen, wie Sie eine CH-LOGIN einrichten, ein Konto, mit dem Sie sich bei eIAM anmelden können.'
+description: 'Auf dieser Seite erklären wir Ihnen, wie Sie ein CH-LOGIN einrichten, ein Konto, mit dem Sie sich bei eIAM anmelden können.'
 keywords: []
 weight: 10
 type: docs
@@ -13,7 +13,9 @@ Das CH-LOGIN ist ein durch den Standarddienst eIAM der Bundesverwaltung bereitge
 
 <div class="left_col">
 <!-- First column content goes here -->
-Gehen Sie auf <a href="https://www.myaccount.eiam.admin.ch/">Mein eIAM-Konto</a> und wählen Sie das Feld <strong>CH-LOGIN & AGOV (eGovernment)</strong> in den Loginoptionen.
+{{<markdown>}}
+Gehen Sie auf [Mein eIAM-Konto](https://www.myaccount.eiam.admin.ch/) und wählen Sie das Feld **CH-LOGIN & AGOV (eGovernment)** in den Loginoptionen.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -50,7 +52,7 @@ Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls 
 <!-- First column content goes here -->
 <p> Geben Sie Ihre persönlichen Daten ein. Achten Sie darauf, dass Sie die gleichen Informationen wie auf Ihrem Ausweis angeben. </p>
 
-<p> Wählen Sie Ihre berufliche E-Mail-Adresse, die Sie während der gesamten Dauer Ihrer Nutzung der SpiGes-Plattform verwenden werden. Sie wird auch benötigt, um Ihr Passwort zurückzusetzen, falls dies erforderlich sein sollte. </p>
+<p> Wählen Sie Ihre geschäftliche E-Mail-Adresse, die Sie während der gesamten Dauer Ihrer Nutzung der SpiGes-Plattform verwenden werden. Sie wird auch benötigt, um Ihr Passwort zurückzusetzen, falls dies erforderlich sein sollte. </p>
 
 <p> Klicken Sie dann auf "Ich akzeptiere die Nutzungsbedingungen" und klicken Sie auf "Weiter". </p>
 </div>

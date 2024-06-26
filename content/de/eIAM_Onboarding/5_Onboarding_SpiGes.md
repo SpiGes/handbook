@@ -7,7 +7,7 @@ weight: 50
 type: docs
 ---
 
-Sie werden eine E-Mail erhalten, in der Sie aufgefordert werden, Ihr Onboarding mit Ihrem Zugang zur SpiGes-Erhebungsplattform abzuschließen. 
+Sie werden eine E-Mail erhalten, in der Sie aufgefordert werden, Ihr Onboarding mit Ihrem Zugang zur SpiGes-Erhebungsplattform abzuschliessen. 
 
 <!-- 1ere paire de colonnes -->
 
