@@ -48,11 +48,13 @@ Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Geben Sie Ihre persönlichen Daten ein. Achten Sie darauf, dass Sie die gleichen Informationen wie auf Ihrem Ausweis angeben. </p>
+{{<markdown>}}
+Geben Sie Ihre persönlichen Daten ein. Achten Sie darauf, dass Sie die gleichen Informationen wie auf Ihrem Ausweis angeben.
 
-<p> Wählen Sie Ihre geschäftliche E-Mail-Adresse, die Sie während der gesamten Dauer Ihrer Nutzung der SpiGes-Plattform verwenden werden. Sie wird auch benötigt, um Ihr Passwort zurückzusetzen, falls dies erforderlich sein sollte. </p>
+Wählen Sie Ihre geschäftliche E-Mail-Adresse, die Sie während der gesamten Dauer Ihrer Nutzung der SpiGes-Plattform verwenden werden. Sie wird auch benötigt, um Ihr Passwort zurückzusetzen, falls dies erforderlich sein sollte.
 
-<p> Klicken Sie dann auf "Ich akzeptiere die Nutzungsbedingungen" und klicken Sie auf "Weiter". </p>
+Klicken Sie dann auf "Ich akzeptiere die Nutzungsbedingungen" und klicken Sie auf "Weiter".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -69,9 +71,11 @@ Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Sie erhalten nun einen Bestätigungscode an die angegebene E-Mail-Adresse. </p>
+{{<markdown>}}
+Sie erhalten nun einen Bestätigungscode an die angegebene E-Mail-Adresse.
 
-<p> Geben Sie den Bestätigungscode ein und drücken Sie auf "Weiter". </p>
+Geben Sie den Bestätigungscode ein und drücken Sie auf "Weiter".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
