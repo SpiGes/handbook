@@ -54,7 +54,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<markdown>}} 
+{{<markdown>}}
 Zurück in der Registerkarte "Anmeldung und Sicherheit" haben Sie nun das Kästchen "Verifizieren Sie einen Zweitfaktor." zusätzlich.
 
 Klicken Sie im Feld "Registrieren Sie einen Zweitfaktor für ein noch sichereres Anmelden" auf "Registrieren". 
