@@ -15,7 +15,7 @@ Sie werden eine E-Mail erhalten, in der Sie aufgefordert werden, Ihr Onboarding 
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<markdown>}} 
+{{<markdown>}}
 Wählen Sie Ihren Onboarding-Code aus, kopieren Sie ihn mit der rechten Maustaste und klicken Sie dann auf den Onboarding-Abschluss-Link.
 
 Melden Sie sich mit Ihrem CH-LOGIN an. 
