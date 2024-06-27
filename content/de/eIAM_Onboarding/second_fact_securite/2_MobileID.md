@@ -52,7 +52,7 @@ Gehen Sie auf die Website von {{<link url="https://www.mobileid.ch/fr" newTab="t
 {{<markdown>}}
 Geben Sie Ihre Telefonnummer ein.
 
-Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erhaltenen Code ein. 
+Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erhaltenen Code ein.
 {{</markdown>}}
 </div>
 
