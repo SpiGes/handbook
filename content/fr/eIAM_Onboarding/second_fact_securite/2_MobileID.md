@@ -176,7 +176,7 @@ Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez 
 
 Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe.
 
-Vous avez terminé. 
+Vous avez terminé.
 
 {{<alert color="warning">}}
 Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
