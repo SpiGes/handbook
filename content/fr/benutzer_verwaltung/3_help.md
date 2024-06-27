@@ -20,11 +20,11 @@ Connectez vous au portail de délégation {{<link url="https://www.portal.eiam.a
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<makrdown>}}
+{{<markdown>}}
 Vous pouvez modifier les autorisations de l'utilisateur si nécessaire.
 
 Cliquez sur continuer.
-{{</makrdown>}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -75,13 +75,13 @@ Vous pouvez transmettre les informations directement à l'utilisateur, ou lui re
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<makrdown>}}
+{{<markdown>}}
 Vous pouvez également désactiver un utilisateur à partir du menu de sélection des utilisateurs.
 
 1. En cliquant sur la flèche à côté du crayon, vous ouvrez les options associées au profil séléctionné.
 2. Vous pouvez envoyer un rappel d'enregistrement à l'utilisateur.
 3. Vous pouvez également envoyer un nouveau code d'enregistrement à l'utilisateur.
-{{</makrdown>}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
