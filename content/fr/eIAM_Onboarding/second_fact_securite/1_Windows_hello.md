@@ -7,7 +7,7 @@ weight: 10
 type: docs
 ---
 
-Vous trouverez des informations concernant le Windows Hello [ici](https://support.microsoft.com/fr-fr/windows/connectez-vous-%C3%A0-votre-compte-microsoft-avec-windows-hello-800a8c01-6b61-49f5-0660-c2159bea4d84).
+Vous trouverez des informations concernant le Windows Hello {{<link url="https://support.microsoft.com/fr-fr/windows/connectez-vous-%C3%A0-votre-compte-microsoft-avec-windows-hello-800a8c01-6b61-49f5-0660-c2159bea4d84" newTab="true">}}ici{{</link>}}.
 
 ## Ajout du Windows Hello comme second facteur
 
@@ -15,7 +15,7 @@ Vous trouverez des informations concernant le Windows Hello [ici](https://suppor
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Connectez vous à votre <a href="https://www.myaccount.eiam.admin.ch/">Mon compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mon compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
 <p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
 </div>
@@ -53,10 +53,11 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus. </p>
+{{<markdown>}}
+De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
 
-<p> Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer». </p>
-
+Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer».
+{{</markdown>}}
 </div>
 
 <div class="right_col">

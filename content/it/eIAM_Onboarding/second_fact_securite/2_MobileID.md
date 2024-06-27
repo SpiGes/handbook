@@ -15,7 +15,7 @@ Se possibile, vi chiediamo di utilizzare Windows Hello.
 Il Mobile ID è un metodo di autenticazione diverso dall'SMS mTAN.
 {{</alert>}}
 
-Se non è possibile utilizzare Windows Hello come secondo fattore di sicurezza, è possibile utilizzare Mobile ID. Per utilizzare Mobile ID, è necessaria una scheda SIM compatibile con Mobile ID. Se la scheda SIM non è compatibile con Mobile ID, deve essere sostituita. È possibile trovare informazioni su come sostituirlo [qui](https://www.mobileid.ch/it/comessa-sim).
+Se non è possibile utilizzare Windows Hello come secondo fattore di sicurezza, è possibile utilizzare Mobile ID. Per utilizzare Mobile ID, è necessaria una scheda SIM compatibile con Mobile ID. Se la scheda SIM non è compatibile con Mobile ID, deve essere sostituita. È possibile trovare informazioni su come sostituirlo {{<link url="https://www.mobileid.ch/it/comessa-sim" newTab="true">}}qui{{</link>}}.
 
 {{<alert color="info">}}
 Mobile ID è un servizio attualmente compatibile solo con una carta SIM svizzera.
@@ -31,7 +31,7 @@ Per attivare Mobile ID, procedere come segue.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Andate sul sito web <a href="https://www.mobileid.ch/it">MobileID</a> e selezionate "Prova subito". 
+Andate sul sito web {{<link url="https://www.mobileid.ch/it">}}MobileID{{</link>}} e selezionate "Prova subito". 
 </div>
 
 <div class="right_col">
@@ -49,9 +49,11 @@ Andate sul sito web <a href="https://www.mobileid.ch/it">MobileID</a> e selezion
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Inserire il numero di telefono. </p>
+{{<markdown>}}
+Inserire il numero di telefono.
 
-<p> Riceverete quindi un codice via SMS al numero indicato, inserite il codice ricevuto. </p>
+Riceverete quindi un codice via SMS al numero indicato, inserite il codice ricevuto.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -152,9 +154,9 @@ Accettare i termini e le condizioni, quindi fare clic su "Avanti".
 
 </div>
 
- &nbsp;
+&nbsp;
 
-  <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 
@@ -170,7 +172,7 @@ Ora avete la possibilità di ripristinare un Mobile ID se ne avevate già uno. I
 
 </div>
 
- &nbsp;
+&nbsp;
 
 Sul cellulare si apre una finestra che chiede di inserire una password di 6 cifre. Si aprirà quindi una nuova finestra che chiederà di confermare la password. 
 
@@ -196,7 +198,7 @@ Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Accedere al proprio <a href="https://www.myaccount-r.eiam.admin.ch/">account eIAM</a> con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
+<p> Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
 
 <p> In fondo alla pagina, cliccate su "Modificare le impostazioni del secondo fattore". </p>
 </div>

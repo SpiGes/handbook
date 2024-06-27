@@ -15,7 +15,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Pour vous connecter au portail de délégation, rendez-vous sur le site <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
+<p> Pour vous connecter au portail de délégation, rendez-vous sur le site {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}eIAM Portal{{</link>}} puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
 
 <p> Vous devez ensuite accepter les conditions d'utilisation pour pouvoir accéder au portail.  </p>
 </div>
@@ -35,7 +35,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".   </p>
+Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".  
 </div>
 
 <div class="right_col">
@@ -133,9 +133,8 @@ Vous pouvez également modifier les autorisations d'un utilisateur en le séléc
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
+{{<markdown>}}
 Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur.
-</p>
 
 Les informations suivantes sont obligatoires:
 
@@ -144,6 +143,7 @@ Les informations suivantes sont obligatoires:
 - Adresse électronique (mettre l'adresse e-mail professionnelle)
 
 Les autres informations sont facultatives
+{{</markdown>}}
 </div>
 
 <div class="right_col">

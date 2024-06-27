@@ -15,9 +15,11 @@ Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Sélectionnez votre code d'onboarding et copiez le à l'aide du clic droit, puis cliquez sur le lien de cloture d'onboarding. </p>
+{{<markdown>}}
+Sélectionnez votre code d'onboarding et copiez le à l'aide du clic droit, puis cliquez sur le lien de cloture d'onboarding.
 
-<p> Connectez vous à l'aide de votre CH-LOGIN. </p>
+Connectez vous à l'aide de votre CH-LOGIN.
+{{</markdown>}}
 </div>
 
 <div class="right_col">

@@ -15,7 +15,7 @@ Nous vous demandons si possible d'utiliser le Windows Hello.
 Le Mobile ID est un moyen d'authentification différent du SMS mTAN.
 {{</alert>}}
 
-Si vous ne pouvez pas utiliser le Windows Hello comme second facteur de sécurité, vous pouvez utiliser le Mobile ID. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. Vous trouverez les informations pour la remplacer [ici](https://www.mobileid.ch/fr/commander-sim).
+Si vous ne pouvez pas utiliser le Windows Hello comme second facteur de sécurité, vous pouvez utiliser le Mobile ID. Pour l'utilisation de Mobile ID, il faut disposer d'une carte SIM compatible avec Mobile ID. Si votre carte SIM n'est pas compatible avec Mobile ID, elle doit être remplacée. Vous trouverez les informations pour la remplacer {{<link url="https://www.mobileid.ch/fr/commander-sim" newTab="true">}}ici{{</link>}}.
 
 {{<alert color="info">}}
 Mobile ID est un service uniquement compatible avec une carte SIM suisse pour le moment.  
@@ -31,7 +31,7 @@ Suivez les étapes suivantes pour activer le Mobile ID.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">Mobile ID</a> puis sélectionnez '"essayer maintenant"'. 
+Rendez vous sur le site de {{<link url="https://www.mobileid.ch/fr" newTab="true">}}Mobile ID{{</link>}} puis sélectionnez '"essayer maintenant"'. 
 </div>
 
 <div class="right_col">
@@ -49,9 +49,11 @@ Rendez vous sur le site de <a href="https://www.mobileid.ch/fr">Mobile ID</a> pu
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Saisissez votre numéro de téléphone. </p>
+{{<markdown>}}
+Saisissez votre numéro de téléphone.
 
-<p> Vous allez ensuite recevoir un code par SMS au numéro indiqué, saisissez le code reçu. </p>
+Vous allez ensuite recevoir un code par SMS au numéro indiqué, saisissez le code reçu.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -170,7 +172,7 @@ Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez 
 
 </div>
 
- &nbsp;
+&nbsp;
 
 Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe. 
 
@@ -195,7 +197,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Connectez vous à votre <a href="https://www.myaccount.eiam.admin.ch/">Mon compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
 <p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
 </div>
@@ -233,10 +235,11 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus. </p>
+{{<markdown>}}
+De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
 
-<p> Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer». </p>
-
+Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer».
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -254,7 +257,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Choisissez l'option Mobile ID et cliquez sur "Continuer". </p>
+Choisissez l'option Mobile ID et cliquez sur "Continuer".
 </div>
 
 <div class="right_col">

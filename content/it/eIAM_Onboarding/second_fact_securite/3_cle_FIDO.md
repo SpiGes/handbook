@@ -30,7 +30,7 @@ eIAM supporta i seguenti tipi di token FIDO per CH-LOGIN:
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Accedere al proprio <a href="https://www.myaccount-r.eiam.admin.ch/">account eIAM</a> con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
+<p> Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
 
 <p> In fondo alla pagina, cliccate su "Modificare le impostazioni del secondo fattore". </p>
 </div>
@@ -68,10 +68,11 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore". </p>
+{{<markdown>}}
+Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore".
 
-<p> Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra". </p>
-
+Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra".
+{{</markdown>}}
 </div>
 
 <div class="right_col">

@@ -13,7 +13,7 @@ Le CH-LOGIN est une procédure de login mise à disposition par le service eIAM 
 
 <div class="left_col">
 <!-- First column content goes here -->
-Rendez-vous sur le site <a href="https://www.myaccount.eiam.admin.ch/">Mon compte eIAM</a> puis selectionnez la case <strong>CH-LOGIN & AGOV (eGouvernment)</strong> dans les options de connexion.
+Rendez-vous sur le site {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mon compte eIAM{{</link>}} puis selectionnez la case <strong>CH-LOGIN & AGOV (eGouvernment)</strong> dans les options de connexion.
 </div>
 
 <div class="right_col">
@@ -48,11 +48,13 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Saisissez vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité. </p>
+{{<markdown>}}
+Saisissez vos données personnelles. Veillez bien à mettre les mêmes informations que sur vos papiers d'identité.
 
-<p> Choisissez votre adresse e-mail professionnelle, celle dont vous allez vous servir pendant toute la durée de votre utilisation de la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin. </p>
+Choisissez votre adresse e-mail professionnelle, celle dont vous allez vous servir pendant toute la durée de votre utilisation de la plateforme SpiGes. Elle sera également nécessaire pour la réinitialisation du mot de passe si besoin.
 
-<p> Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur "Continuer". </p>
+Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur "Continuer".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -69,9 +71,11 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Vous allez maintenant recevoir un code de confirmation à l'adresse e-mail indiquée. </p>
+{{<markdown>}}
+Vous allez maintenant recevoir un code de confirmation à l'adresse e-mail indiquée.
 
-<p> Saisissez le code de confirmation et appuyez sur "Continuer". </p>
+Saisissez le code de confirmation et appuyez sur "Continuer".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -82,6 +86,5 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 </div>
 
 &nbsp;
-
 
 Vous avez terminé. Il faut maintenant renforcer la sécurité de votre compte avec l’authentification à deux facteurs. 
