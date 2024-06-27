@@ -179,7 +179,7 @@ Auf Ihrem Computer wird ein Fenster geöffnet, wählen Sie aus den angebotenen O
 
 Wenn Sie Ihren FIDO Passkey zum ersten Mal verwenden, müssen Sie ihn konfigurieren. Klicken Sie dazu auf "ok" und legen Sie dann einen PIN-Code für Ihren FIDO Passkey fest. 
 
-Drücken Sie schliesslich auf die Taste auf Ihrem FIDO Passkey (je nach Schlüsselmodell kann es sein, dass Sie den Schlüssel nur berühren müssen). 
+Drücken Sie schliesslich auf die Taste auf Ihrem FIDO Passkey (je nach Schlüsselmodell kann es sein, dass Sie den Schlüssel nur berühren müssen).
 
 <!-- 
 Die Erläuterungen zum Speichern des FIDO Passkeys in Ihrer CH_LOGIN sind noch nicht verfügbar. In der Zwischenzeit können Sie sich auf [diese Anleitung](https://help.eiam.swiss/?c=passkeys&l=de) beziehen.
