@@ -174,7 +174,7 @@ Ora avete la possibilità di ripristinare un Mobile ID se ne avevate già uno. I
 
 &nbsp;
 
-Sul cellulare si apre una finestra che chiede di inserire una password di 6 cifre. Si aprirà quindi una nuova finestra che chiederà di confermare la password. 
+Sul cellulare si apre una finestra che chiede di inserire una password di 6 cifre. Si aprirà quindi una nuova finestra che chiederà di confermare la password.
 
 Il gioco è fatto. 
 
