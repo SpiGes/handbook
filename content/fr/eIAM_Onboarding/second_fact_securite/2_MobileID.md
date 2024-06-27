@@ -136,9 +136,9 @@ Sélectionnez la case "SIM, puis cliquez sur "suivant".
 
 </div>
 
- &nbsp;
+&nbsp;
 
- <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 
@@ -154,9 +154,9 @@ Acceptez les conditions d'utilisations puis cliquez sur "suivant".
 
 </div>
 
- &nbsp;
+&nbsp;
 
-  <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 

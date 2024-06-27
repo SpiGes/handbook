@@ -136,9 +136,9 @@ Selezionare la casella "SIM", quindi fare clic su "Avanti".
 
 </div>
 
- &nbsp;
+&nbsp;
 
- <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 
@@ -236,10 +236,11 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore". </p>
+{{<markdown>}}
+Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore".
 
-<p> Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra". </p>
-
+Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra". 
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -257,7 +258,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Scegliere l'opzione ID cellulare e fare clic su "Continua". </p>
+Scegliere l'opzione ID cellulare e fare clic su "Continua".
 </div>
 
 <div class="right_col">

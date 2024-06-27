@@ -49,9 +49,11 @@ Gehen Sie auf die Website von {{<link url="https://www.mobileid.ch/fr" newTab="t
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Geben Sie Ihre Telefonnummer ein. </p>
+{{<markdown>}}
+Geben Sie Ihre Telefonnummer ein.
 
-<p> Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erhaltenen Code ein. </p>
+Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erhaltenen Code ein. 
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -134,9 +136,9 @@ Wählen Sie das Feld "SIM" und klicken Sie dann auf "Weiter".
 
 </div>
 
- &nbsp;
+&nbsp;
 
- <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 
@@ -152,9 +154,9 @@ Akzeptieren Sie die Nutzungsbedingungen und klicken Sie auf "Weiter".
 
 </div>
 
- &nbsp;
+&nbsp;
 
-  <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 

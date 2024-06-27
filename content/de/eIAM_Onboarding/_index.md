@@ -49,21 +49,13 @@ Beispiel:
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-  {{<listItem>}}
-  In der Spalte 1 sehen Sie die EntID auf Ebene des Unternehmens und Sie sehen die Bur-Nummer auf Ebene der Standorte.
-  {{</listItem>}}
+{{<markdown>}}
+1. In der Spalte 1 sehen Sie die EntID auf Ebene des Unternehmens und Sie sehen die Bur-Nummer auf Ebene der Standorte.
+2. In der Spalte 2 sehen Sie den administrativen (zuständigen) Kanton des Unternehmens / des Krankenhausstandorts.
+3. In der Spalte 3 sehen Sie den geografischen Kanton des Unternehmens / des Standorts.
 
-  {{<listItem>}}
-  In der Spalte 2 sehen Sie den administrativen (zuständigen) Kanton des Unternehmens / des Krankenhausstandorts.
-  {{</listItem>}}
-
-  {{<listItem>}}
-  In der Spalte 3 sehen Sie den geografischen Kanton des Unternehmens / des Standorts.
-  {{</listItem>}}
-{{</numberedList>}}
-
-<p> Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind.  </p>
+Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind. 
+{{</markdown>}}
 </div>
 
 <div class="right_col">
