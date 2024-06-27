@@ -176,7 +176,7 @@ Ora avete la possibilità di ripristinare un Mobile ID se ne avevate già uno. I
 
 Sul cellulare si apre una finestra che chiede di inserire una password di 6 cifre. Si aprirà quindi una nuova finestra che chiederà di confermare la password.
 
-Il gioco è fatto. 
+Il gioco è fatto.
 
 {{<alert color="warning">}}
 Assicuratevi di annotare il codice di recupero in un luogo sicuro. Poiché la verifica della vostra identità si baserà sul vostro Mobile ID, è importante che possiate ripristinarlo se necessario. Questo è necessario se si dimentica il codice PIN o se si deve sostituire la carta SIM (ad esempio, se si perde il cellulare). 
