@@ -106,6 +106,7 @@ Fare nuovamente clic su "Continua" per avviare il processo di autenticazione vid
 Inserite i vostri dati personali. Assicuratevi di inserire esattamente le stesse informazioni che figurano sui vostri documenti d'identità.
 
 Spuntate la casella "Accetto che i miei dati vengano trasmessi a ...", quindi cliccate su "Continua".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
