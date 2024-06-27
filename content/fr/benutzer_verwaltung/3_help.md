@@ -76,7 +76,7 @@ Vous pouvez transmettre les informations directement à l'utilisateur, ou lui re
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Vous pouvez également désactiver un utilisateur à partir du menu de sélection des utilisateurs.
+Vous pouvez également renvoyer le code d'onboarding à un utilisateur à partir du menu de sélection des utilisateurs.
 
 1. En cliquant sur la flèche à côté du crayon, vous ouvrez les options associées au profil séléctionné.
 2. Vous pouvez envoyer un rappel d'enregistrement à l'utilisateur.
