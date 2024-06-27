@@ -18,7 +18,7 @@ Sie werden eine E-Mail erhalten, in der Sie aufgefordert werden, Ihr Onboarding 
 {{<markdown>}}
 Wählen Sie Ihren Onboarding-Code aus, kopieren Sie ihn mit der rechten Maustaste und klicken Sie dann auf den Onboarding-Abschluss-Link.
 
-Melden Sie sich mit Ihrem CH-LOGIN an. 
+Melden Sie sich mit Ihrem CH-LOGIN an.
 {{</markdown>}}
 </div>
 
