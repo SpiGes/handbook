@@ -11,7 +11,7 @@ keywords: []
 
 Es kann sein, dass der Onboarding-Code an den Nutzer nochmals geschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen:
 
-Loggen Sie sich in das Delegationsportal <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> ein, und gehen Sie dann zum Benutzerprofil.
+Loggen Sie sich in das Delegationsportal {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}eIAM Portal{{</link>}} ein, und gehen Sie dann zum Benutzerprofil.
 
 <!-- 1eme paire de colonnes -->
 
@@ -19,13 +19,11 @@ Loggen Sie sich in das Delegationsportal <a href="https://www.portal.eiam.admin.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
+{{<markdown>}}
 Sie können die Berechtigungen des Benutzers bei Bedarf ändern.
-</p>
 
-<p>
 Klicken Sie auf Weiter.
-</p>
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -42,9 +40,7 @@ Klicken Sie auf Weiter.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
 Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "Onboarding manuell starten".
-</p>
 </div>
 
 <div class="right_col">
@@ -61,9 +57,7 @@ Geben Sie eine Nachricht zur Rückverfolgbarkeit ein und klicken Sie dann auf "O
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
 Sie können dem Benutzer eine Onboarding-E-Mail senden, indem Sie auf "Onboarding-Code per E-Mail senden" klicken.
-</p>
 </div>
 
 <div class="right_col">
@@ -80,23 +74,13 @@ Sie können dem Benutzer eine Onboarding-E-Mail senden, indem Sie auf "Onboardin
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
+{{<markdown>}}
 Sie können einen Benutzer auch über das Menü Benutzerauswahl deaktivieren oder ihm einen neuen Onboarding-Code senden
-</p>
 
-{{<numberedList>}}
-    {{<listItem>}}
-    Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen, die mit dem ausgewählten Profil verbunden sind.
-    {{</listItem>}}
-
-    {{<listItem>}}
-    Sie können dem Benutzer eine Onboarding-Erinnerung senden.
-    {{</listItem>}}
-
-    {{<listItem>}}
-    Sie können dem Benutzer auch einen neuen Onboarding-Code senden.
-    {{</listItem>}}
-{{</numberedList>}}
+1. Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen, die mit dem ausgewählten Profil verbunden sind.
+2. Sie können dem Benutzer eine Onboarding-Erinnerung senden.
+3. Sie können dem Benutzer auch einen neuen Onboarding-Code senden.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
