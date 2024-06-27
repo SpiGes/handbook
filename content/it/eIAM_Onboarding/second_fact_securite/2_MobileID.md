@@ -239,7 +239,7 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 {{<markdown>}}
 Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore".
 
-Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra". 
+Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra".
 {{</markdown>}}
 </div>
 
