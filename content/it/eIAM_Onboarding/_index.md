@@ -49,21 +49,13 @@ Per esempio:
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-{{<listItem>}}
-In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero.
-{{</listItem>}}
+{{<markdown>}}
+1. In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero.
+2. In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero.
+3. In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero.
 
-{{<listItem>}}
-In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero.
-{{</listItem>}}
-
-{{<listItem>}}
-In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero.
-{{</listItem>}}
-{{</numberedList>}}
-
-<p> Si può notare che il cantone amministrativo e il cantone geografico del sito 1 non sono gli stessi.  </p>
+Si può notare che il cantone amministrativo e il cantone geografico del sito 1 non sono gli stessi.
+{{</markdown>}}
 </div>
 
 <div class="right_col">

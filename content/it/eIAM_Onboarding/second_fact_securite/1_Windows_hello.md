@@ -7,7 +7,7 @@ weight: 10
 type: docs
 ---
 
-Potete trovare informazioni su Windows Hello [qui](https://support.microsoft.com/it-it/windows/accedi-al-tuo-account-microsoft-con-windows-hello-800a8c01-6b61-49f5-0660-c2159bea4d84).
+Potete trovare informazioni su Windows Hello {{<link url="https://support.microsoft.com/it-it/windows/accedi-al-tuo-account-microsoft-con-windows-hello-800a8c01-6b61-49f5-0660-c2159bea4d84" newTab="true">}}qui{{</link>}}.
 
 ## Windows Hello aggiunto come secondo fattore
 <!-- 1ere paire de colonnes -->
@@ -16,7 +16,7 @@ Potete trovare informazioni su Windows Hello [qui](https://support.microsoft.com
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Accedere al proprio <a href="https://www.myaccount-r.eiam.admin.ch/">account eIAM</a> con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
+<p> Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
 
 <p> In fondo alla pagina, cliccate su "Modificare le impostazioni del secondo fattore". </p>
 </div>
@@ -54,10 +54,11 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore". </p>
+{{<markdown>}}
+Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore".
 
-<p> Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra". </p>
-
+Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra".
+{{</markdown>}}
 </div>
 
 <div class="right_col">

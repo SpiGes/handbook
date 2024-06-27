@@ -13,7 +13,7 @@ Il CH-LOGIN è una procedura di login fornita dal servizio standard eIAM dell'Am
 
 <div class="left_col">
 <!-- First column content goes here -->
-Andate su <a href="https://www.myaccount-r.eiam.admin.ch/">Il mio account eIAM</a> e selezionate la casella <strong>CH-LOGIN & AGOV (eGovernment)</strong> nelle opzioni di accesso.
+Andate su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} e selezionate la casella <strong>CH-LOGIN & AGOV (eGovernment)</strong> nelle opzioni di accesso.
 </div>
 
 <div class="right_col">
@@ -48,11 +48,13 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Inserite i vostri dati personali. Assicuratevi di inserire le stesse informazioni riportate sui vostri documenti d'identità. </p>
+{{<markdown>}}
+Inserite i vostri dati personali. Assicuratevi di inserire le stesse informazioni riportate sui vostri documenti d'identità.
 
-<p> Scegliete il vostro indirizzo e-mail professionale, quello che userete per tutto l'utilizzo della piattaforma SpiGes. Sarà necessario anche per reimpostare la password, se necessario. </p>
+Scegliete il vostro indirizzo e-mail professionale, quello che userete per tutto l'utilizzo della piattaforma SpiGes. Sarà necessario anche per reimpostare la password, se necessario.
 
-<p> Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Avanti". </p>
+Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Avanti".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -69,9 +71,11 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Ora riceverete un codice di conferma all'indirizzo e-mail inserito. </p>
+{{<markdown>}}
+Ora riceverete un codice di conferma all'indirizzo e-mail inserito.
 
-<p> Inserire il codice di conferma e premere "Continua". </p>
+Inserire il codice di conferma e premere "Continua".
+{{</markdown>}}
 </div>
 
 <div class="right_col">

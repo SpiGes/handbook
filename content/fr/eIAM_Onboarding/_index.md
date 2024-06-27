@@ -49,21 +49,13 @@ Exemple:
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-  {{<listItem>}}
-  Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers.
-  {{</listItem>}}
+{{<markdown>}}
+1. Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers.
+2. Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier.
+3. Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier.
 
-  {{<listItem>}}
-  Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier.
-  {{</listItem>}}
-
-  {{<listItem>}}
-  Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier.
-  {{</listItem>}}
-{{</numberedList>}}
-
-<p> Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.  </p>
+Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.
+{{</markdown>}}
 </div>
 
 <div class="right_col">

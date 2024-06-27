@@ -27,10 +27,10 @@ Die folgenden Zweitfaktoren funktionieren nicht:
 
 Die Videoidentifikation kann montags bis samstags von 8:00 bis 17:00 Uhr durchgeführt werden.
 
-Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material:
+Um die Videoidentifizierung durchzuführen, benötigen Sie folgendes Material:
 
 - Ein Smartphone oder einen Laptop mit einer funktionierenden Kamera und einem Mikrofon. Wählen Sie ein Gerät mit guter Bild- und Tonqualität.  
-- Einen gültigen amtlichen Lichtbildausweis (Pass oder Identitätskarte). Je nach [Staatsangehörigkeit](https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317) ist ein Reisepass erforderlich.
+- Einen gültigen amtlichen Ausweis (Pass oder Identitätskarte). Je nach {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}} Staatsangehörigkeit{{</link>}} ist ein Reisepass erforderlich.
 - Ein Zahlungsmittel. Entweder einen Gutschein ("Voucher Codes") oder eines der folgenden Zahlungsmittel: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
 
 <!-- 1ere paire de colonnes -->
@@ -39,7 +39,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Um die Videoidentifizierung zu starten, loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount.eiam.admin.ch/"> eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
+<p> Um die Videoidentifizierung zu starten, loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
 
 <p> Gehen Sie nach unten zum Abschnitt "Zweitfaktor-Verwaltung" und klicken Sie im Feld "Verifizieren Sie einen Zweitfaktor" auf "Zweitfaktor auswählen". </p>
 </div>
@@ -59,9 +59,11 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Wählen Sie den zweiten Faktor aus, den Sie überprüfen möchten (entweder die Mobile ID oder einen FIDO-Passkey) und klicken Sie auf "Weiter". </p>
+{{<markdown>}}
+Wählen Sie den zweiten Faktor aus, den Sie überprüfen möchten (entweder die Mobile ID oder einen FIDO-Passkey) und klicken Sie auf "Weiter".
 
-<p> Bestätigen Sie Ihre Wahl, indem Sie auf "Prüfen" klicken. </p>
+Bestätigen Sie Ihre Wahl, indem Sie auf "Prüfen" klicken.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -79,9 +81,11 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Geben Sie Ihr Passwort ein und klicken Sie auf "Weiter". </p>
+{{<markdown>}}
+Geben Sie Ihr Passwort ein und klicken Sie auf "Weiter".
 
-<p> Klicken Sie dann noch einmal auf "Weiter", um den Prozess der Videoauthentifizierung zu starten. </p>
+Klicken Sie dann noch einmal auf "Weiter", um den Prozess der Videoauthentifizierung zu starten.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -99,9 +103,11 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Füllen Sie Ihre persönlichen Daten aus. Achten Sie darauf, dass Sie genau die gleichen Angaben machen wie in Ihrem Ausweis. </p>
+{{<markdown>}}
+Füllen Sie Ihre persönlichen Daten aus. Achten Sie darauf, dass Sie genau die gleichen Angaben machen wie in Ihrem Ausweis.
 
-<p> Markieren Sie das Kästchen "Ich bin einverstanden, dass meine Daten... geteilt werden" und klicken Sie auf "Weiter". </p>
+Markieren Sie das Kästchen "Ich bin einverstanden, dass meine Daten... geteilt werden" und klicken Sie auf "Weiter".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -119,9 +125,11 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Lesen Sie Ihre persönlichen Daten noch einmal durch. Stellen Sie sicher, dass Sie genau die gleichen Informationen wie in Ihren Ausweispapieren angeben. Wenn nötig, korrigieren Sie die Informationen, indem Sie zurückgehen.</p>
+{{<markdown>}}
+Lesen Sie Ihre persönlichen Daten noch einmal durch. Stellen Sie sicher, dass Sie genau die gleichen Informationen wie in Ihren Ausweispapieren angeben. Wenn nötig, korrigieren Sie die Informationen, indem Sie zurückgehen.
 
-<p> Wenn alle Ihre Angaben korrekt sind, klicken Sie auf "Weiter". </p>
+Wenn alle Ihre Angaben korrekt sind, klicken Sie auf "Weiter".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -139,9 +147,11 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Sie wurden auf die Website von Adnovum weitergeleitet, um die Videoidentifizierung durchführen zu können.</p>
+{{<markdown>}}
+Sie wurden auf die Website von Adnovum weitergeleitet, um die Videoidentifizierung durchführen zu können.
 
-<p> Markieren Sie die Kästchen "Ich bestätige, dass ich die Nutzungsbedingungen gelesen und verstanden habe und erkläre mich mit ihnen einverstanden" und "Ich habe die Datenschutzbestimmungen gelesen" und klicken Sie dann auf " Videoidentifikation starten". </p>
+Markieren Sie die Kästchen "Ich bestätige, dass ich die Nutzungsbedingungen gelesen und verstanden habe und erkläre mich mit ihnen einverstanden" und "Ich habe die Datenschutzbestimmungen gelesen" und klicken Sie dann auf " Videoidentifikation starten".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -159,9 +169,11 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie die folgende Material
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>Sie haben zwei Möglichkeiten, die Zahlung für die Videoidentifizierung vorzunehmen: Gutscheine oder eine herkömmliche Zahlung. </p>
+{{<markdown>}}
+Sie haben zwei Möglichkeiten, die Zahlung für die Videoidentifizierung vorzunehmen: Gutscheine oder eine herkömmliche Zahlung.
 
-<p> Wählen Sie die gewünschte Option und folgen Sie den Anweisungen auf dem Bildschirm. </p>
+Wählen Sie die gewünschte Option und folgen Sie den Anweisungen auf dem Bildschirm.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -182,12 +194,12 @@ Sie erhalten eine Bestätigung des Zahlungseingangs, dann können Sie mit der Vi
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Entweder führen Sie eine Videoidentifizierung über die Webcam Ihres Computers durch </p>
+Entweder führen Sie eine Videoidentifizierung über die Webcam Ihres Computers durch
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-<p> oder Sie führen eine Identifizierung über Ihr Smartphone oder Tablet durch. </p>
+oder Sie führen eine Identifizierung über Ihr Smartphone oder Tablet durch.
 </div>
 
 </div>
@@ -197,13 +209,13 @@ Sie erhalten eine Bestätigung des Zahlungseingangs, dann können Sie mit der Vi
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> {{<insertImage image="choix_ordi.png" description="Choix connexion" class="edge max-w-90">}}</p>   <!-- Image en français -->
+{{<insertImage image="choix_ordi.png" description="Choix connexion" class="edge max-w-90">}}   <!-- Image en français -->
 
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-<p> {{<insertImage image="choix_tel.png" description="Choix connexion" class="edge max-w-90">}} </p>   <!-- Image en français -->
+{{<insertImage image="choix_tel.png" description="Choix connexion" class="edge max-w-90">}} <!-- Image en français -->
 </div>
 
 </div>
@@ -213,13 +225,12 @@ Sie erhalten eine Bestätigung des Zahlungseingangs, dann können Sie mit der Vi
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Markieren Sie dazu alle Kästchen auf dem Bildschirm und folgen Sie den Anweisungen. </p>
-
+Markieren Sie dazu alle Kästchen auf dem Bildschirm und folgen Sie den Anweisungen.
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-<p> Scannen Sie dazu den QR-Code auf dem Bildschirm und installieren Sie die Anwendung. Geben Sie in der Anwendung die Identifikationsnummer ein und folgen Sie den Anweisungen. </p>
+Scannen Sie dazu den QR-Code auf dem Bildschirm und installieren Sie die Anwendung. Geben Sie in der Anwendung die Identifikationsnummer ein und folgen Sie den Anweisungen.
 </div>
 
 </div>
@@ -236,7 +247,7 @@ Sie werden per Videokontakt mit jemandem verbunden, der Ihre Identität überpr�
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>Nach Abschluss der VideoIdentifikation wird Ihr zweiter Faktor mit dem Vertrauensniveau "Verifiziert" angezeigt. </p>
+Nach Abschluss der VideoIdentifikation wird Ihr zweiter Faktor mit dem Vertrauensniveau "Verifiziert" angezeigt.
 
 <div class="right_col">
 <!-- Second column content goes here -->

@@ -29,7 +29,7 @@ La video identificazione è disponibile dal lunedì al sabato, dalle 8.00 alle 1
 
 Per effettuare l'identificazione video, è necessario il seguente equipaggiamento:
 - Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità del suono e delle immagini.  
-- Un documento d'identità ufficiale valido con foto (passaporto o carta d'identità). A seconda della [nazionalità](https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317), il passaporto è obbligatorio.
+- Un documento d'identità ufficiale valido con foto (passaporto o carta d'identità). A seconda della {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nazionalità{{</link>}}, il passaporto è obbligatorio.
 - Un mezzo di pagamento. Un codice voucher o uno dei seguenti metodi di pagamento: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
 
 <!-- 1ere paire de colonnes -->
@@ -38,7 +38,7 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>Per avviare l'identificazione video, accedere al proprio account <a href="https://www.myaccount-r.eiam.admin.ch/">eIAM</a> con CH-LOGIN, quindi accedere alla scheda "Login e sicurezza". </p>
+<p> Per avviare l'identificazione video, accedere al proprio account {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con CH-LOGIN, quindi accedere alla scheda "Login e sicurezza". </p>
 
 <p>Scorrere fino a "Gestisci l'autenticazione a due fattori", quindi fare clic su "Seleziona un secondo fattore" nella casella "Verifica un secondo fattore".  </p>
 </div>
@@ -58,9 +58,11 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Selezionare il secondo fattore da controllare (Mobile ID o una passkey FIDO) e fare clic su "Continua". </p>
+{{<markdown>}}
+Selezionare il secondo fattore da controllare (Mobile ID o una passkey FIDO) e fare clic su "Continua".
 
-<p> Confermare la scelta facendo clic su "Verifica". </p>
+Confermare la scelta facendo clic su "Verifica".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -78,9 +80,11 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Inserire la password e fare clic su "Continua". </p>
+{{<markdown>}}
+Inserire la password e fare clic su "Continua".
 
-<p> Fare nuovamente clic su "Continua" per avviare il processo di autenticazione video. </p>
+Fare nuovamente clic su "Continua" per avviare il processo di autenticazione video.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -98,9 +102,11 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Inserite i vostri dati personali. Assicuratevi di inserire esattamente le stesse informazioni che figurano sui vostri documenti d'identità. </p>
+{{<markdown>}}
+Inserite i vostri dati personali. Assicuratevi di inserire esattamente le stesse informazioni che figurano sui vostri documenti d'identità.
 
-<p> Spuntate la casella "Accetto che i miei dati vengano trasmessi a ...", quindi cliccate su "Continua". </p>
+Spuntate la casella "Accetto che i miei dati vengano trasmessi a ...", quindi cliccate su "Continua".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -118,9 +124,11 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Rileggete i vostri dati personali. Assicuratevi di aver inserito esattamente le stesse informazioni riportate sui vostri documenti d'identità. Se necessario, correggete le informazioni tornando indietro.</p>
+{{<markdown>}}
+Rileggete i vostri dati personali. Assicuratevi di aver inserito esattamente le stesse informazioni riportate sui vostri documenti d'identità. Se necessario, correggete le informazioni tornando indietro.
 
-<p> Se tutte le informazioni sono corrette, fare clic su "Continua". </p>
+Se tutte le informazioni sono corrette, fare clic su "Continua".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -138,9 +146,11 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Siete stati reindirizzati al sito web di Adnovum per poter effettuare l'identificazione video.</p>
+{{<markdown>}}
+Siete stati reindirizzati al sito web di Adnovum per poter effettuare l'identificazione video.
 
-<p> Spuntare le caselle "Confermo di aver letto e compreso le condizioni di utilizzo e dichiaro di accettarle" e "Ho letto le norme sulla protezione dei dati", quindi fare clic su "Avvia identificazione video". </p>
+Spuntare le caselle "Confermo di aver letto e compreso le condizioni di utilizzo e dichiaro di accettarle" e "Ho letto le norme sulla protezione dei dati", quindi fare clic su "Avvia identificazione video".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -158,9 +168,11 @@ Per effettuare l'identificazione video, è necessario il seguente equipaggiament
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Per il pagamento dell'identificazione video avete due possibilità: I voucher o il pagamento tradizionale. </p>
+{{<markdown>}}
+Per il pagamento dell'identificazione video avete due possibilità: I voucher o il pagamento tradizionale.
 
-<p> Selezionate l'opzione che fa per voi e seguite le istruzioni sullo schermo. </p>
+Selezionate l'opzione che fa per voi e seguite le istruzioni sullo schermo.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -201,13 +213,12 @@ Riceverete la conferma che il pagamento è stato ricevuto e potrete quindi inizi
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Per farlo, spuntare tutte le caselle sullo schermo e seguire le istruzioni. </p>
-
+Per farlo, spuntare tutte le caselle sullo schermo e seguire le istruzioni.
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-<p> A tal fine, scansionare il codice QR sullo schermo e installare l'applicazione. Una volta entrati nell'applicazione, inserire il numero di identificazione e seguire le istruzioni. </p>
+A tal fine, scansionare il codice QR sullo schermo e installare l'applicazione. Una volta entrati nell'applicazione, inserire il numero di identificazione e seguire le istruzioni.
 </div>
 
 </div>
@@ -224,7 +235,7 @@ Sarete messi in contatto video con qualcuno che verificherà la vostra identità
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Una volta completata l'identificazione video, il vostro secondo fattore apparirà con il livello di confidenza "Verificato". </p>
+Una volta completata l'identificazione video, il vostro secondo fattore apparirà con il livello di confidenza "Verificato".
 
 <div class="right_col">
 <!-- Second column content goes here -->

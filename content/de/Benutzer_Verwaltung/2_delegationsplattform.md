@@ -15,7 +15,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Um sich in das Delegationsportal einzuloggen, gehen Sie auf die Website <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> und loggen Sie sich dann mit Ihrem CH-LOGIN ein.  </p>
+<p> Um sich in das Delegationsportal einzuloggen, gehen Sie auf die Website {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}eIAM Portal{{</link>}} und loggen Sie sich dann mit Ihrem CH-LOGIN ein.</p>
 
 <p> Anschliessend müssen Sie die Nutzungsbedingungen akzeptieren, um auf das Portal zugreifen zu können.  </p>
 </div>
@@ -35,7 +35,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Sie sind nun im eIAM-Portal angemeldet. Um zur Benutzerverwaltung zu gelangen, klicken Sie zuerst auf den Reiter "Benutzerverwaltung" und dann auf "Delegierte Verwaltung". </p>
+Sie sind nun im eIAM-Portal angemeldet. Um zur Benutzerverwaltung zu gelangen, klicken Sie zuerst auf den Reiter "Benutzermanagement" und dann auf "Delegiertes Management".
 </div>
 
 <div class="right_col">
@@ -53,15 +53,10 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-   {{<listItem>}}
-   Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton.
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Sie können auch Nutzer aus dem Kanton hinzufügen, indem Sie auf den Kanton klicken (er muss blau markiert sein) und dann auf weiter klicken.
-   {{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. Wenn Sie auf den Pfeil klicken, öffnet sich die Liste der Standorte in Ihrem Kanton.
+2. Sie können auch Nutzer aus dem Kanton hinzufügen, indem Sie auf den Kanton klicken (er muss blau markiert sein) und dann auf weiter klicken.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -101,19 +96,11 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-   {{<listItem>}}
-   Durch Klicken auf dieses Feld können Sie einen neuen Benutzer erstellen.
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Wenn Sie auf den Bleistift klicken, können Sie die Informationen über den bestehenden Benutzer ändern.
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Sie können auch die Berechtigungen eines Benutzers ändern, indem Sie ihn auswählen und dann auf "Weiter" klicken.
-   {{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. Durch Klicken auf dieses Feld können Sie einen neuen Benutzer erstellen.
+2. Wenn Sie auf den Bleistift klicken, können Sie die Informationen über den bestehenden Benutzer ändern.
+3. Sie können auch die Berechtigungen eines Benutzers ändern, indem Sie ihn auswählen und dann auf "Weiter" klicken.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -133,9 +120,8 @@ Sie können nun die Benutzer verwalten, die Zugriff auf die Daten der ausgewähl
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
-Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Personalausweis des Benutzers zu finden sind.
-</p>
+{{<markdown>}}
+Hier müssen Sie die persönlichen Informationen des Benutzers eingeben, den Sie hinzufügen möchten. Achten Sie darauf, dass Sie dieselben Informationen eingeben, die auch auf dem Ausweis (Pass, ID) des Benutzers zu finden sind.
 
 Die folgenden Informationen sind obligatorisch:
 
@@ -144,6 +130,7 @@ Die folgenden Informationen sind obligatorisch:
 - E-Mail-Adresse (geschäftliche E-Mail-Adresse einsetzen)
 
 Weitere Angaben sind optional.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -163,23 +150,12 @@ Weitere Angaben sind optional.
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-   {{<listItem>}}
-   Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer eine zweite Profil hinzufügen
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken.
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt.
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Berechtigen" klicken.
-   {{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. Wenn Sie auf dieses Feld klicken, können Sie dem Benutzer ein zweites Profil hinzufügen
+2. Wenn Sie auf den Bleistift klicken, können Sie den Namen des Profils ändern. Sie können das Profil auch deaktivieren, indem Sie auf den Pfeil neben dem Bleistift klicken und dann auf "Deaktivieren" klicken.
+3. Hier können Sie die Rolle auswählen, die Sie dem Benutzer geben möchten. Wenn Sie darauf klicken, wird im Feld rechts eine Zusammenfassung der Rolle angezeigt.
+4. Sie können dem Benutzer die gewählte Rolle gewähren, indem Sie auf "Berechtigen" klicken.
+{{</markdown>}}
 
 </div>
 
@@ -223,16 +199,11 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-   {{<listItem>}}
-   Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen Sie die Optionen zum Deaktivieren und Archivieren des ausgewählten Profils.
-   {{</listItem>}}
+{{<markdown>}}
+1. Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen Sie die Optionen zum Deaktivieren und Archivieren des ausgewählten Profils.
+2. Klicken Sie auf dieses Kästchen, um ein Profil zu deaktivieren.
+{{</markdown>}}
 
-   {{<listItem>}}
-   Klicken Sie auf dieses Kästchen, um ein Profil zu deaktivieren.
-   {{</listItem>}}
-{{</numberedList>}}
-</p>
 
 </div>
 
@@ -251,19 +222,11 @@ Es liegt auch in Ihrer Verantwortung, die Benutzer, die Zugang zur SpiGes-Plattf
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-   {{<listItem>}}
-   Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen zum Löschen/Archivieren und Deaktivieren des gewählten Profils.
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Klicken Sie auf dieses Feld, um das Profil zu löschen / zu archivieren.
-   {{</listItem>}}
-
-   {{<listItem>}}
-   Klicken Sie auf dieses Feld, um das Profil zu deaktivieren.
-   {{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. Wenn Sie auf den Pfeil neben dem Bleistift klicken, öffnen sich die Optionen zum Löschen/Archivieren und Deaktivieren des gewählten Profils.
+2. Klicken Sie auf dieses Feld, um das Profil zu löschen / zu archivieren.
+3. Klicken Sie auf dieses Feld, um das Profil zu deaktivieren.
+{{</markdown>}}
 </div>
 
 <div class="right_col">

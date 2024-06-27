@@ -15,7 +15,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Pour vous connecter au portail de délégation, rendez-vous sur le site <a href="https://www.portal.eiam.admin.ch/portal/adminservice/app/home">eIAM Portal</a> puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
+<p> Pour vous connecter au portail de délégation, rendez-vous sur le site {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}eIAM Portal{{</link>}} puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
 
 <p> Vous devez ensuite accepter les conditions d'utilisation pour pouvoir accéder au portail.  </p>
 </div>
@@ -35,7 +35,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".   </p>
+Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".  
 </div>
 
 <div class="right_col">
@@ -53,15 +53,10 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-{{<listItem>}}
-En cliquant sur la flèche, vous ouvrez la liste des sites hospitalier de votre canton.
-{{</listItem>}}
-
-{{<listItem>}}
-Vous pouvez également ajouter des utilsateurs du canton en cliquant sur le canton (il doit être surligné en bleu) puis en cliquant sur continuer.
-{{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. En cliquant sur la flèche, vous ouvrez la liste des sites hospitalier de votre canton.
+2. Vous pouvez également ajouter des utilsateurs du canton en cliquant sur le canton (il doit être surligné en bleu) puis en cliquant sur continuer.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -101,19 +96,11 @@ Vous pouvez maintenant gérer les utilisateurs qui auront accès aux données du
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-{{<listItem>}}
-En cliquant sur cette case, vous pouvez créer un nouvel utilisateur.
-{{</listItem>}}
-
-{{<listItem>}}
-En cliquant sur le crayon, vous pouvez modifier les informations concernant l'utilisateur existant.
-{{</listItem>}}
-
-{{<listItem>}}
-Vous pouvez également modifier les autorisations d'un utilisateur en le séléctionnant puis en ciquant sur "continuer".
-{{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. En cliquant sur cette case, vous pouvez créer un nouvel utilisateur.
+2. En cliquant sur le crayon, vous pouvez modifier les informations concernant l'utilisateur existant.
+3. Vous pouvez également modifier les autorisations d'un utilisateur en le séléctionnant puis en ciquant sur "continuer".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -133,9 +120,8 @@ Vous pouvez également modifier les autorisations d'un utilisateur en le séléc
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p>
+{{<markdown>}}
 Vous devez saisir ici les informations personnelles de l'utilisateur que vous souhaitez ajouter. Veillez à bien mettre les mêmes informations que celle présente sur la carte d'identité de l'utilisateur.
-</p>
 
 Les informations suivantes sont obligatoires:
 
@@ -144,6 +130,7 @@ Les informations suivantes sont obligatoires:
 - Adresse électronique (mettre l'adresse e-mail professionnelle)
 
 Les autres informations sont facultatives
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -163,26 +150,13 @@ Les autres informations sont facultatives
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-{{<listItem>}}
-En cliquant sur cette case, vous pouvez ajouter un second profil à l'utilisateur
-{{</listItem>}}
-
-{{<listItem>}}
-En cliquant sur le crayon, vous pouvez modifier le nom du profil. Vous pouvez également désactiver le profil en cliquant sur la flèche à côté du crayon, puis en cliquant sur "désactiver".
-{{</listItem>}}
-
-{{<listItem>}}
-Vous pouvez ici séléctioner le rôle que vous souhaitez donner à l'utilisateur. En cliquant, un résumé du rôle s'affichera dans l'encadré à droite.
-{{</listItem>}}
-
-{{<listItem>}}
-Vous pouvez accorder le rôle séléctioné à l'utilisateur en cliquant sur "accorder".
-{{</listItem>}}
-
+{{<markdown>}}
+1. En cliquant sur cette case, vous pouvez ajouter un second profil à l'utilisateur
+2. En cliquant sur le crayon, vous pouvez modifier le nom du profil. Vous pouvez également désactiver le profil en cliquant sur la flèche à côté du crayon, puis en cliquant sur "désactiver".
+3. Vous pouvez ici séléctioner le rôle que vous souhaitez donner à l'utilisateur. En cliquant, un résumé du rôle s'affichera dans l'encadré à droite.
+4. Vous pouvez accorder le rôle séléctioné à l'utilisateur en cliquant sur "accorder".
 <!-- Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. -->
-
-{{</numberedList>}}
+{{</markdown>}}
 
 </div>
 
@@ -224,15 +198,10 @@ Il est également de votre responsabilité de faire un suivi attentif des utilis
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-{{<listItem>}}
-En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.
-{{</listItem>}}
-
-{{<listItem>}}
-CLiquez sur cette case pour désactiver un profil.
-{{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. En cliquant sur la flèche à côté du crayon, vous ouvrez les options de désactiver et d'archiver le profil séléctionné.
+2. Cliquez sur cette case pour désactiver un profil.
+{{</markdown>}}
 
 </div>
 
@@ -251,19 +220,11 @@ CLiquez sur cette case pour désactiver un profil.
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<numberedList>}}
-{{<listItem>}}
-En cliquant sur la flèche à côté du crayon, vous ouvrez les options de supprimer/d'archiver et de désactiver le profil séléctionné.
-{{</listItem>}}
-
-{{<listItem>}}
-Cliquez sur cette case pour supprimer / archiver le profil.
-{{</listItem>}}
-
-{{<listItem>}}
-Cliquez sur cette case pour désactiver le profil.
-{{</listItem>}}
-{{</numberedList>}}
+{{<markdown>}}
+1. En cliquant sur la flèche à côté du crayon, vous ouvrez les options de supprimer/d'archiver et de désactiver le profil séléctionné.
+2. Cliquez sur cette case pour supprimer / archiver le profil.
+3. Cliquez sur cette case pour désactiver le profil.
+{{</markdown>}}
 
 </div>
 

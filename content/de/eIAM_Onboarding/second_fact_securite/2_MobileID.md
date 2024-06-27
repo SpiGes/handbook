@@ -15,7 +15,7 @@ Wir bitten Sie, wenn möglich, Windows Hello zu verwenden.
 Die Mobile ID ist ein anderes Authentifizierungsmittel als die mTAN-SMS.
 {{</alert>}}
 
-Wenn Sie Windows Hello als Zweitsicherheitfaktor nicht verwenden können, können Sie Mobile ID verwenden. Für die Verwendung von Mobile ID benötigen Sie eine SIM-Karte, die mit Mobile ID kompatibel ist. Wenn Ihre SIM-Karte nicht mit Mobile ID kompatibel ist, muss sie ausgetauscht werden. Informationen, wie Sie sie ersetzen können, finden Sie [hier](https://www.mobileid.ch/de/sim-bestellen)
+Wenn Sie Windows Hello als Zweitsicherheitfaktor nicht verwenden können, können Sie Mobile ID verwenden. Für die Verwendung von Mobile ID benötigen Sie eine SIM-Karte, die mit Mobile ID kompatibel ist. Wenn Ihre SIM-Karte nicht mit Mobile ID kompatibel ist, muss sie ausgetauscht werden. Informationen, wie Sie sie ersetzen können, finden Sie {{<link url="https://www.mobileid.ch/de/sim-bestellen" newTab="true">}}hier{{</link>}}
 
 {{<alert color="info">}}
 Mobile ID ist ein Dienst, der derzeit nur mit einer Schweizer SIM-Karte kompatibel ist.
@@ -31,7 +31,7 @@ Folgen Sie den nachstehenden Schritten, um die Mobile ID zu aktivieren.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Gehen Sie auf die Website von <a href="https://www.mobileid.ch/fr">MobileID</a> und wählen Sie "jetzt probieren". 
+Gehen Sie auf die Website von {{<link url="https://www.mobileid.ch/fr" newTab="true">}}MobileID{{</link>}} und wählen Sie "jetzt probieren".
 </div>
 
 <div class="right_col">
@@ -49,9 +49,11 @@ Gehen Sie auf die Website von <a href="https://www.mobileid.ch/fr">MobileID</a> 
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Geben Sie Ihre Telefonnummer ein. </p>
+{{<markdown>}}
+Geben Sie Ihre Telefonnummer ein.
 
-<p> Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erhaltenen Code ein. </p>
+Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erhaltenen Code ein.
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -134,9 +136,9 @@ Wählen Sie das Feld "SIM" und klicken Sie dann auf "Weiter".
 
 </div>
 
- &nbsp;
+&nbsp;
 
- <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 
@@ -152,9 +154,9 @@ Akzeptieren Sie die Nutzungsbedingungen und klicken Sie auf "Weiter".
 
 </div>
 
- &nbsp;
+&nbsp;
 
-  <!-- 4eme paire de colonnes -->
+<!-- 4eme paire de colonnes -->
 
 <div class="two_column">
 
@@ -170,7 +172,7 @@ Sie haben jetzt die Möglichkeit, eine Mobile ID wiederherzustellen, wenn Sie be
 
 </div>
 
- &nbsp;
+&nbsp;
 
 Auf Ihrem Mobiltelefon wird sich ein Fenster öffnen, in dem Sie aufgefordert werden, ein sechsstelliges Passwort einzugeben. Dann wird ein neues Fenster geöffnet, in dem Sie das Passwort bestätigen müssen.
 
@@ -194,7 +196,7 @@ In diesem Schritt wird die Mobile ID dem CH-Login als starker Zweitfaktor hinzug
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Loggen Sie sich mit Ihrem CH-LOGIN in Ihr <a href="https://www.myaccount.eiam.admin.ch/">Mein eIAM-Konto</a> ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
+<p> Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
 
 <p> Klicken Sie ganz unten auf der Seite auf "Zweitfaktor-Einstellungen ändern". </p>
 </div>
@@ -232,10 +234,11 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Zurück in der Registerkarte "Anmeldung und Sicherheit" haben Sie nun das Kästchen "Verifizieren Sie einen Zweitfaktor." zusätzlich. </p>
+{{<markdown>}}
+Zurück in der Registerkarte "Anmeldung und Sicherheit" haben Sie nun das Kästchen "Verifizieren Sie einen Zweitfaktor." zusätzlich.
 
-<p> Klicken Sie im Feld "Registrieren Sie einen Zweitfaktor für ein noch sichereres Anmelden" auf "Registrieren". </p>
-
+Klicken Sie im Feld "Registrieren Sie einen Zweitfaktor für ein noch sichereres Anmelden" auf "Registrieren".
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -253,7 +256,7 @@ Aktivieren Sie das Kontrollkästchen "Erweiterte Sicherheitseinstellungen aktivi
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Wählen Sie die Option Mobile ID und klicken Sie auf "Weiter". </p>
+Wählen Sie die Option Mobile ID und klicken Sie auf "Weiter".
 </div>
 
 <div class="right_col">

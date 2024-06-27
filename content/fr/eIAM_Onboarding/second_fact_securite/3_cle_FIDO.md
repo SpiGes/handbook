@@ -28,7 +28,7 @@ eIAM supporte les types de clé FIDO suivants pour le CH-LOGIN:
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Connectez vous à votre <a href="https://www.myaccount.eiam.admin.ch/">Mon compte eIAM</a> avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
 <p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
 </div>
@@ -66,10 +66,11 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus. </p>
+{{<markdown>}}
+De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
 
-<p> Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer». </p>
-
+Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer».
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -87,7 +88,7 @@ Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez s
 
 <div class="left_col">
 <!-- First column content goes here -->
-Choisissez l'option "Passkey (FIDO)" et cliquez sur "Continuer".
+Choisissez l'option "Passkey (FIDO)" et cliquez sur "continuer".
 </div>
 
 <div class="right_col">
