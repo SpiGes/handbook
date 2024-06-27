@@ -54,7 +54,7 @@ Beispiel:
 2. In der Spalte 2 sehen Sie den administrativen (zuständigen) Kanton des Unternehmens / des Krankenhausstandorts.
 3. In der Spalte 3 sehen Sie den geografischen Kanton des Unternehmens / des Standorts.
 
-Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind. 
+Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind.
 {{</markdown>}}
 </div>
 
