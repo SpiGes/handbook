@@ -174,7 +174,7 @@ Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez 
 
 &nbsp;
 
-Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe. 
+Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe.
 
 Vous avez terminé. 
 
