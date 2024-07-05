@@ -16,19 +16,6 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 - [#80](https://github.com/SpiGes/handbook/issues/80) - Corrections to the German version
 
-#### Others
-
-### Removed
-
-#### Documentation
-
-#### Others
-
-### Fixed
-
-#### Documentation
-
-#### Others
 
 ## [0.1.0-pilot] - 2024.06.18
 
