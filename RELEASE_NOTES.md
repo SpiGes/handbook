@@ -1,6 +1,6 @@
-# Release Notes - SpiGes Documentation Version [0.1.0-pre-pilot-4]
+# Release Notes - SpiGes Documentation Version [0.1.0-pilot-2]
 
-**Release Date:** 2024.05.17
+**Release Date:** 2024.07.05
 
 ## What's New
 
