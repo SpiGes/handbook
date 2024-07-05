@@ -6,8 +6,6 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 ### Added
 
-#### Documentation
-
 #### Others
 
 - [#81](https://github.com/SpiGes/handbook/issues/81) - Clicking on a link to an external web page opens the latter in the same tab
