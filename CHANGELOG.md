@@ -2,6 +2,36 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
+## [0.1.0-pilot-2] - @ReleaseDate
+
+### Added
+
+#### Documentation
+
+#### Others
+
+- [#81](https://github.com/SpiGes/handbook/issues/81) - Clicking on a link to an external web page opens the latter in the same tab
+
+### Updated
+
+#### Documentation
+
+- [#80](https://github.com/SpiGes/handbook/issues/80) - Corrections to the German version
+
+#### Others
+
+### Removed
+
+#### Documentation
+
+#### Others
+
+### Fixed
+
+#### Documentation
+
+#### Others
+
 ## [0.1.0-pilot] - 2024.06.18
 
 ### Added

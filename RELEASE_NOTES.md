@@ -6,22 +6,17 @@
 
 ### Documentation
 
-- [#32](https://github.com/SpiGes/handbook/issues/32) - Usage of the platform
-
 ### Others
 
-- [#63](https://github.com/SpiGes/handbook/issues/63) - Create a new GitHub-Action workflow allowing to provide the hugo_cache directory
+- [#81](https://github.com/SpiGes/handbook/issues/81) - Clicking on a link to an external web page opens the latter in the same tab
 
 ## Improvements
 
 ### Documentation
 
-- [#72](https://github.com/SpiGes/handbook/issues/72) - Details on onboarding
+- [#80](https://github.com/SpiGes/handbook/issues/80) - Corrections to the German version
 
 ### Others
-
-- [#66](https://github.com/SpiGes/handbook/issues/66) - Build the project on GitHub using npm instead of the hugo command 
-
 
 ## Contributors
 
