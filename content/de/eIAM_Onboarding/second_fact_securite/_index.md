@@ -13,12 +13,10 @@ Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eia
 {{<markdown>}}
 Für die Verwendung von SpiGes ist es notwendig, einen zweiten Faktor einzustellen, der als stark eingestuft wird. 
 - Wenn Sie bereits einen nicht verifizierten zweiten Faktor auf Ihrem CH-LOGIN haben, können Sie diesen löschen. 
-- Wenn Sie bereits einen zweiten Faktor haben, der bereits verifiziert ist, muss dieser zu den folgenden zweiten Faktoren gehören: 
+- Wenn Sie bereits einen zweiten Faktor haben, der bereits verifiziert ist, muss dieser zu den nächsten zweiten Faktoren gehören, ansonsten müssen Sie ihn löschen: 
     - Der Passkey FIDO
     - Die MobileID
     - Vasco Digipass
-    
-Andernfalls müssen Sie ihn löschen.
 {{</markdown>}}
 {{</alert>}}
 
