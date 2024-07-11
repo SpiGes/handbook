@@ -7,6 +7,8 @@ weight: 20
 type: docs
 ---
 
+
+
 Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". Unten auf dieser Registerkarte finden Sie den Abschnitt "Verwaltung der Zwei-Faktor-Authentifizierung". 
 
 {{<alert color="info">}}
