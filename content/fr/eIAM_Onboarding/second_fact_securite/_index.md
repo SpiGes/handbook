@@ -6,6 +6,7 @@ keywords: []
 weight: 20
 type: docs
 ---
+
 Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mon compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". En bas de cet onglet, vous trouverez la section "Gestion de l'authentification à deux facteurs". 
 
 {{<alert color="info">}}
@@ -16,6 +17,7 @@ Pour l'utilisation de SpiGes, il est nécessaire de configurer un second facteur
     - Le Passkey FIDO
     - Le MobileID
     - Vasco Digipass
+
 Sinon, il faut le supprimer. 
 {{</markdown>}}
 {{</alert>}}
