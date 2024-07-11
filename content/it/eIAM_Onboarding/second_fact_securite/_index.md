@@ -7,6 +7,8 @@ weight: 20
 type: docs
 ---
 
+Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza".
+
 eIAM offre diversi fattori di sicurezza secondari, ma solo due di essi sono considerati forti (condizione necessaria per l'uso di SpiGes):  
 1. La chiave d'accesso FIDO
     - Windows Hello

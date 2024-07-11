@@ -7,6 +7,8 @@ weight: 20
 type: docs
 ---
 
+Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit".
+
 eIAM bietet mehrere Zweitsicherheitsfaktoren an, aber nur zwei davon werden als stark eingestuft (Im Gegensatz zur Krankenhausstatistik benötigen Sie für die Verwendung von SpiGes einen starken Zweitsicherheitsfaktor):
 1. Der FIDO-Passkey
     - Windows Hello
