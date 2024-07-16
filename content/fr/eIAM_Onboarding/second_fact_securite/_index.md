@@ -12,8 +12,8 @@ Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTa
 {{<alert color="info">}}
 {{<markdown>}}
 Pour l'utilisation de SpiGes, il est nécessaire de configurer un second facteur considéré comme fort. 
-- Si vous avez déjà un second facteur non vérifié sur votre CH-LOGIN, vous pouvez le supprimer. 
-- Si vous avez déjà un second facteur est déjà vérifié, il doit faire parti des seconds facteurs suivants, sinon, il faut le supprimer: 
+- Si vous avez un second facteur non vérifié sur votre CH-LOGIN, vous pouvez le supprimer. 
+- Si vous avez déjà un second facteur vérifié, il doit faire parti des seconds facteurs suivants, sinon, il faut le supprimer: 
     - Le Passkey FIDO
     - Le MobileID
     - Vasco Digipass
