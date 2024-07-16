@@ -58,13 +58,13 @@ keywords: []
     <th> <div style="width:120px"> Responsabilités </div> </th>
   </tr>
   <tr>
-    <td>SP_ErhV_Unternehmen </td>
+    <td> SP_ErhV_Unternehmen </td>
     <td> Chaque entreprise doit désigner au moins un SP_ErhV_Unternehmen. Pendant la phase d'initialisation, il lit les nouveautés concernant le relevé et les met en œuvre si nécessaire. Pendant le relevé, il veille à ce que ses sites hospitaliers respectent les délais de livraison. Il télécharge les données, vérifie la qualité des données à l'aide du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau de l'entreprise hospitalière (clôturer) afin qu'elles puissent être transmises dans le processus (libération du canton). </td>
     <td> Il peut lire, télécharger, commenter, exporter à des fins de plausibilité et clôturer toutes les données de son entreprise hospitalière et de ses sites. </td>
     <td> Il veille à ce que les données de son entreprise hospitalière soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau de l'entreprise hospitalière. </td>
   </tr>
   <tr>
-    <td>SP_ErhV_Standort</td>
+    <td> SP_ErhV_Standort</td>
     <td> Chaque site doit désigner au moins un SP_ErhV_Standort. Il télécharge les données de son site hospitalier, vérifie la qualité des données au moyen du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau du site hospitalier afin qu'elles puissent être transmises dans le processus (libération de l'entreprise hospitalière).</td>
     <td> Il peut lire toutes les données de son site hospitalier, les télécharger, les commenter, les exporter à des fins de plausibilité et les clôturer. </td>
     <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier. De plus, il informe immédiatement le KT_Superuser si les utilisateurs de son site hospitalier changent (p.ex. un collaborateur démissionne, change de fonction et n'a plus besoin de son accès à la plateforme SpiGes,...). </td>
