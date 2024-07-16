@@ -7,15 +7,13 @@ weight: 20
 type: docs
 ---
 
-
-
-Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". Unten auf dieser Registerkarte finden Sie den Abschnitt "Verwaltung der Zwei-Faktor-Authentifizierung". 
+Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". Unten auf dieser Registerkarte finden Sie den Abschnitt "Verwaltung der Zwei-Faktor-Authentifizierung".
 
 {{<alert color="info">}}
 {{<markdown>}}
-Für die Verwendung von SpiGes ist es notwendig, einen zweiten Faktor einzustellen, der als stark eingestuft wird. 
-- Wenn Sie bereits einen nicht verifizierten zweiten Faktor auf Ihrem CH-LOGIN haben, können Sie diesen löschen. 
-- Wenn Sie bereits einen zweiten Faktor haben, der bereits verifiziert ist, muss dieser zu den nächsten zweiten Faktoren gehören, ansonsten müssen Sie ihn löschen: 
+Für die Verwendung von SpiGes ist es notwendig, einen zweiten Faktor einzustellen, der als stark eingestuft wird.
+- Wenn Sie bereits einen nicht verifizierten zweiten Faktor auf Ihrem CH-LOGIN haben, können Sie diesen löschen.
+- Wenn Sie bereits einen zweiten Faktor haben, der bereits verifiziert ist, muss dieser zu den nächsten zweiten Faktoren gehören, ansonsten müssen Sie ihn löschen:
     - Der Passkey FIDO
     - Die MobileID
     - Vasco Digipass
