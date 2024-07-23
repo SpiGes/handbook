@@ -54,9 +54,9 @@ jobs:
           nodejs_version=$(jq -r '.nodejs' tool-versions.json)
           go_version=$(jq -r '.go' tool-versions.json)
           dart_sass_version=$(jq -r '.dart_sass' tool-versions.json)
-          echo "::set-output name=nodejs_version::$nodejs_version"
-          echo "::set-output name=go_version::$go_version"
-          echo "::set-output name=dart_sass_version::$dart_sass_version"
+          echo "nodejs_version=$nodejs_version" >> $GITHUB_OUTPUT
+          echo "go_version=$go_version" >> $GITHUB_OUTPUT
+          echo "dart_sass_version=$dart_sass_version" >> $GITHUB_OUTPUT
         shell: bash
 
   stylelintCheck:
