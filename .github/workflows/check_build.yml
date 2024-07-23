@@ -53,7 +53,7 @@ jobs:
         run: |
           nodejs_version=$(jq -r '.nodejs' tool-versions.json)
           go_version=$(jq -r '.go' tool-versions.json)
-          dart_sass_version=$(jq -r '.dart-sass' tool-versions.json)
+          dart_sass_version=$(jq -r '.dart_sass' tool-versions.json)
           echo "::set-output name=nodejs_version::$nodejs_version"
           echo "::set-output name=go_version::$go_version"
           echo "::set-output name=dart_sass_version::$dart_sass_version"
