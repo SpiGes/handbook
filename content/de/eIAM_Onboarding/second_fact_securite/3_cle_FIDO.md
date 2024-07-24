@@ -13,7 +13,7 @@ Wenn Sie Windows Hello oder die Mobile ID nicht verwenden können, können Sie a
 Wir bitten Sie, wenn möglich, in erster Priorität Windows Hello und in zweiter Instanz die Mobile ID zu verwenden. Die Anschaffung eines FIDO-Schlüssels geht auf Ihre Kosten. 
 {{</alert>}}
 
-FIDO Passkeys sind Datenträger, z. B. in Form eines USB-Sticks welche kryptografisches Material enthalten.
+FIDO Sicherheitsschlüssel (FIDO Passkeys) sind Datenträger, z. B. in Form eines USB-Sticks welche kryptografisches Material enthalten. Sie müssen durch die Endbenutzer selber und auf eigene Kosten beschafft werden.
 
 eIAM unterstützt folgende FIDO Passkeys Typen für das CH-LOGIN.
 - YubiKey 5 FIPS Series with NFC
@@ -21,6 +21,8 @@ eIAM unterstützt folgende FIDO Passkeys Typen für das CH-LOGIN.
 - YubiKey 5 Series with NFC
 - Security Key by Yubico with NFC
 - Feitian BioPass FIDO2 Authenticator
+
+**Yubico** ist einer der grössten Hersteller von FIDO Sicherheitsschlüssel.
 
 ##  Speichern eines KEY FIDO auf Ihrem CH_LOGIN
 
