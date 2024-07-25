@@ -15,7 +15,7 @@ Vous trouverez des informations concernant le Windows Hello {{<link url="https:/
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mon compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
+<p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
 <p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
 </div>

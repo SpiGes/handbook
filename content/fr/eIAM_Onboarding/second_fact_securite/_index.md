@@ -20,7 +20,7 @@ Pour l'utilisation de SpiGes, il est nécessaire de configurer un second facteur
 {{</markdown>}}
 {{</alert>}}
 
-eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d’entre eux sont considérés comme fort (condition nécessaire pour l’utilisation de SpiGes):
+eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d’entre eux sont considérés comme forts (condition nécessaire pour l’utilisation de SpiGes):
 1. Le Passkey FIDO
     - Windows Hello
     - Clé de sécurité physique (FIDO Token)
@@ -28,7 +28,7 @@ eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d’entre 
 
 {{<alert color="warning">}}
 {{<markdown>}}
-Il ne faut **pas** vérifier un autre second facteur que ceux proposé ci-dessus. Avec un autre second facteur vérifié, l'application SpiGes ne sera pas accessible.
+Il ne faut **pas** vérifier un autre second facteur que ceux proposés ci-dessus. Avec un autre second facteur vérifié, l'application SpiGes ne sera pas accessible.
 {{</markdown>}}
 {{</alert>}}
 
