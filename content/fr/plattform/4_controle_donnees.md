@@ -15,7 +15,7 @@ Les hôpitaux contrôlent les données « à la source » dans leur propre syst�
 
 Nous avons prévu les mesures suivantes à cet effet :
 - Vérification XSD : nous publions un fichier XSD qui peut être utilisé facilement pour la vérification technique des fichiers XML. Des programmes et des bibliothèques de logiciels (gratuits) peuvent être utilisés à cet effet.
-- MedPlaus : L'outil MedPlaus est adapté à l'ensemble des données SpiGes et devrait être disponible dès cet automne. Il peut également être intégré dans les logiciels hospitaliers sous forme de version DLL.
+- MedPlaus : L'outil MedPlaus est adapté à l'ensemble des données SpiGes et devrait être disponible dès automne 2024. Il peut également être intégré dans les logiciels hospitaliers sous forme de version DLL.
 - API d'examen : Nous prévoyons une API accessible au public, qui permettra de vérifier la qualité des données fournies. En réponse aux données téléchargées, on obtient une liste des erreurs de format et des erreurs de cas individuels. Des cas individuels peuvent être fournis et les réponses peuvent être traitées automatiquement par des programmes. L'API n'est toutefois pas encore mise en œuvre. Cela sera le cas au plus tôt en 2025.
 {{</markdown>}}
 {{</alert>}}
