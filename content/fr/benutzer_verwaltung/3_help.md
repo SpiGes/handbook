@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-## Gestion mail de différences eIAM 
+## Gestion mail de différences eIAM
 
 Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations: 
 
