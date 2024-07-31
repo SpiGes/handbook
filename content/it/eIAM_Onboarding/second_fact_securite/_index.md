@@ -12,6 +12,7 @@ Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="t
 {{<alert color="info">}}
 {{<markdown>}}
  Per utilizzare SpiGes, è necessario configurare un secondo fattore considerato forte.
+
 - Se nel CH-LOGIN è presente un secondo fattore non verificato, è possibile eliminarlo.
 - Se si dispone già di un secondo fattore verificato, deve essere uno dei seguenti, altrimenti deve essere eliminato:
     - FIDO Passkey
