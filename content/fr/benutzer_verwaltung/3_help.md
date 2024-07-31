@@ -9,7 +9,7 @@ keywords: []
 
 ## Gestion mail de différences eIAM
 
-Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations: 
+Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations:
 
 - Si l'erreur est négligeable (deuxième prénom faux, faute de frappe, ...): Vous pouvez ignorer le mail de eIAM, les données se metteront à jour automatiquement sur eIAM. 
 
