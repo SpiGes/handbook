@@ -16,7 +16,7 @@ Pour l'utilisation de SpiGes, il est nécessaire de configurer un second facteur
 - Si vous avez déjà un second facteur vérifié, il doit faire parti des seconds facteurs suivants, sinon, il faut le supprimer:
     - Le Passkey FIDO
     - Le MobileID
-    - Vasco Digipass
+    - Vasco Digipass 
 {{</markdown>}}
 {{</alert>}}
 
