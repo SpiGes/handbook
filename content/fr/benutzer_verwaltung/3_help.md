@@ -11,7 +11,7 @@ keywords: []
 
 Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations:
 
-- Si l'erreur est négligeable (deuxième prénom faux, faute de frappe, ...): Vous pouvez ignorer le mail de eIAM, les données se metteront à jour automatiquement sur eIAM. 
+- Si l'erreur est négligeable (deuxième prénom faux, faute de frappe, ...): Vous pouvez ignorer le mail de eIAM, les données se metteront à jour automatiquement sur eIAM.
 
 - Si l'adresse mail n'est pas la bonne (adresse mail privée au lieu de professionnelle): Vous devez désactiver le profil de l'utilisateur, et le contacter afin de lui dire de se connecter avec son adresse professionelle. Vous devez ensuite lui créer un nouveau profil afin qu'il puisse le lier avec son adresse professionnelle. 
 
