@@ -22,6 +22,7 @@ Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="t
 {{</alert>}}
 
 eIAM offre diversi fattori di sicurezza secondari, ma solo due di essi sono considerati forti (condizione necessaria per l'uso di SpiGes):
+
 1. La chiave d'accesso FIDO
     - Windows Hello
     - Chiave di sicurezza fisica (FIDO Token)
