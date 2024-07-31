@@ -13,7 +13,7 @@ Il se peut que vous receviez un mail vous indiquant une incohérence entre les d
 
 - Si l'erreur est négligeable (deuxième prénom faux, faute de frappe, ...): Vous pouvez ignorer le mail de eIAM, les données se metteront à jour automatiquement sur eIAM.
 
-- Si l'adresse mail n'est pas la bonne (adresse mail privée au lieu de professionnelle): Vous devez désactiver le profil de l'utilisateur, et le contacter afin de lui dire de se connecter avec son adresse professionelle. Vous devez ensuite lui créer un nouveau profil afin qu'il puisse le lier avec son adresse professionnelle. 
+- Si l'adresse mail n'est pas la bonne (adresse mail privée au lieu de professionnelle): Vous devez désactiver le profil de l'utilisateur, et le contacter afin de lui dire de se connecter avec son adresse professionelle. Vous devez ensuite lui créer un nouveau profil afin qu'il puisse le lier avec son adresse professionnelle.
 
 - Si la personne ayant créer l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): désactivez le profil et contactez imédiatement spiges@bfs.admin.ch. 
 
