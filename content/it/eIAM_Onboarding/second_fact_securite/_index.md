@@ -34,7 +34,7 @@ eIAM offre diversi fattori di sicurezza secondari, ma solo due di essi sono cons
 {{</markdown>}}
 {{</alert>}}
 
-L'ideale sarebbe utilizzare Windows Hello sul computer di lavoro.          
+L'ideale sarebbe utilizzare Windows Hello sul computer di lavoro.
 Se ciò non è possibile, utilizzare MobileID o una chiave di sicurezza fisica.
 
 **Tutti gli accessi alla piattaforma SpiGes devono avvenire da un computer professionale.**
