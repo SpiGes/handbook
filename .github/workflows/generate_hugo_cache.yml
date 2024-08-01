@@ -23,9 +23,7 @@ jobs:
           go-version: ${{ needs.read-tool-versions.outputs.go_version }}
 
       - name: Install Dart Sass
-        uses: ./.github/actions/install-dart-sass
-        with:
-          dart_sass_version: ${{ needs.read-tool-versions.outputs.dart_sass_version }}
+        run: choco install sass --version ${{ needs.read-tool-versions.outputs.dart_sass_version }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
