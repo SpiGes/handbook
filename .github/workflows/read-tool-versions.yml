@@ -6,10 +6,13 @@ on:
     outputs:
       nodejs_version:
         description: 'Node.js version'
+        value: ${{ jobs.read-versions.outputs.nodejs_version }}
       go_version:
         description: 'Go version'
+        value: ${{ jobs.read-versions.outputs.go_version }}
       dart_sass_version:
         description: 'Dart Sass version'
+        value: ${{ jobs.read-versions.outputs.dart_sass_version }}
 
 jobs:
   read-versions:
