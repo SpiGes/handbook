@@ -19,6 +19,7 @@ on:
         type: boolean
 
 env:
+  PROJECT_NAME: 'SpiGes-Documentation'
   TARGET_REPOSITORY: 'spiges/handbook-test'
   TARGET_BRANCH: 'main'
   KEEP_TARGET_HISTORY: false
@@ -175,7 +176,7 @@ jobs:
 
       - name: Copy README.md and LICENSE.md files in public directory
         run: |
-          echo "This repository contents the built SpiGes-Documentation project website for testing" > README.md
+          echo "This repository contents the built ${{ env.PROJECT_NAME }} project website for testing" > README.md
           cp README.md public/
           cp LICENSE.md public/
 
