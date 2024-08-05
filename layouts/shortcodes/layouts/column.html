@@ -1,3 +1,42 @@
+{{/* Shortcode for creating a `column` inside a `row`.
+
+  This shortcode uses the partial `column` to create a column layout.
+  See https://getbootstrap.com/docs/5.0/layout/grid/.
+
+  Parameters:
+  - class: A string containing one or more CSS class names to be added to the row element.
+  This parameter is optional and defaults to an empty string if not provided.
+  - width: Value in % representing the space occupied by the column.
+  - smWidth: Same as width, from >= 576px.
+  - mdWidth: Same as width, From >= 768px.
+  - lgWidth: Same as width, From >= 992px.
+  - xlWidth: Same as width, From >= 1200px.
+  - xxlWidth: Same as width, From >= 1400px.
+
+  Example:
+  {{< layouts/grid
+>}}
+{{< layouts/row justify="center" align="center" >}}
+
+{{< layouts/column width="40" >}}
+{{< markdown >}}
+Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
+cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
+repellendus.
+{{< /markdown >}}
+{{< layouts/column >}}
+
+{{< layouts/column width="60" >}}
+{{< markdown >}}
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+{{< /markdown >}}
+{{< layouts/column >}}
+
+{{< /layouts/row >}}
+{{< /layouts/grid >}}
+*/}}
 {{ $class := .Get "class" | default "" }}
 {{- $width := .Get "width" | default "" -}}
 {{- $smWidth := .Get "smWidth" | default "" -}}

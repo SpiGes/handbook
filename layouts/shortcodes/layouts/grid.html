@@ -1,3 +1,36 @@
+{{/* Shortcode for creating a `grid` layout.
+
+  This shortcode uses the partial `grid` to create a grid layout.
+  See https://getbootstrap.com/docs/5.0/layout/grid/.
+
+  Parameters:
+  - class: A string containing one or more CSS class names to be added to the grid element.
+  This parameter is optional and defaults to an empty string if not provided.
+
+  Example:
+  {{<layouts/grid
+>}}
+{{< layouts/row >}}
+
+{{< layouts/column width="40" >}}
+{{< markdown >}}
+Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
+cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
+repellendus.
+{{< /markdown >}}
+{{< layouts/column >}}
+
+{{< layouts/column width="60" >}}
+{{< markdown >}}
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+{{< /markdown >}}
+{{< layouts/column >}}
+
+{{< /layouts/row >}}
+{{< /layouts/grid >}}
+*/}}
 {{ $class := .Get "class" | default "" }}
 {{ $content := .Inner }}
 {{ partial "layouts/grid.html" (dict "content" $content "class" $class) }}

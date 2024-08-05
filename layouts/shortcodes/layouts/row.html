@@ -1,3 +1,48 @@
+{{/* Shortcode for creating a `row` layout inside a `grid` layout.
+
+  This shortcode uses the partial `row` to create a row layout.
+  See https://getbootstrap.com/docs/5.0/layout/grid/.
+
+  Parameters:
+  - class: A string containing one or more CSS class names to be added to the row element.
+  This parameter is optional and defaults to an empty string if not provided.
+  - justify: Allows changing the alignment of the columns horizontally. See https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
+  - smJustify: Same as justify, from >= 576px.
+  - mdJustify: Same as justify, from >= 768px.
+  - lgJustify: Same as justify, from >= 992px.
+  - xlJustify: Same as justify, from >= 1200px.
+  - xxlJustify: Same as justify, from >= 1400px.
+  - align: Allows changing the alignment of the columns vertically. See https://getbootstrap.com/docs/5.0/utilities/flex/#align-items
+  - smAlign: Same as align, from >= 576px.
+  - mdAlign: Same as align, from >= 768px.
+  - lgAlign: Same as align, from >= 992px.
+  - xlAlign: Same as align, from >= 1200px.
+  - xxlAlign: Same as align, from >= 1400px.
+
+  Example:
+  {{< layouts/grid
+>}}
+{{< layouts/row justify="center" align="center" >}}
+
+{{< layouts/column width="40" >}}
+{{< markdown >}}
+Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
+cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
+repellendus.
+{{< /markdown >}}
+{{< layouts/column >}}
+
+{{< layouts/column width="60" >}}
+{{< markdown >}}
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+{{< /markdown >}}
+{{< layouts/column >}}
+
+{{< /layouts/row >}}
+{{< /layouts/grid >}}
+*/}}
 {{ $class := .Get "class" | default "" }}
 {{- $justify := .Get "justify" | default "" -}}
 {{- $smJustify := .Get "smJustify" | default "" -}}
