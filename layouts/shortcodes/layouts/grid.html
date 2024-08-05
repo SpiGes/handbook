@@ -1,0 +1,3 @@
+{{ $class := .Get "class" | default "" }}
+{{ $content := .Inner }}
+{{ partial "layouts/grid.html" (dict "content" $content "class" $class) }}

@@ -1,0 +1,60 @@
+{{- $classes := slice -}}
+
+{{- if .width -}}
+  {{- if eq .width "auto" -}}
+    {{ $classes = $classes | append (print "col-" .width) }}
+  {{- else -}}
+    {{- $base := (div (mul (int .width) 12) 100) | math.Round -}}
+    {{ $classes = $classes | append (print "col-" $base) }}
+  {{- end -}}
+{{- else -}}
+  {{ $classes = $classes | append (print "col") }}
+{{- end -}}
+{{- if .smWidth -}}
+  {{- if eq .smWidth "auto" -}}
+    {{ $classes = $classes | append (print "col-sm-" .smWidth) }}
+  {{- else -}}
+    {{- $sm := (div (mul (int .smWidth) 12) 100) | math.Round -}}
+    {{ $classes = $classes | append (print "col-sm-" $sm) }}
+  {{- end -}}
+{{- end -}}
+{{- if .mdWidth -}}
+  {{- if eq .mdWidth "auto" -}}
+    {{ $classes = $classes | append (print "col-md-" .mdWidth) }}
+  {{- else -}}
+    {{- $md := (div (mul (int .mdWidth) 12) 100) | math.Round -}}
+    {{ $classes = $classes | append (print "col-md-" $md) }}
+  {{- end -}}
+{{- end -}}
+{{- if .lgWidth -}}
+  {{- if eq .lgWidth "auto" -}}
+    {{ $classes = $classes | append (print "col-lg-" .lgWidth) }}
+  {{- else -}}
+    {{- $lg := (div (mul (int .lgWidth) 12) 100) | math.Round -}}
+    {{ $classes = $classes | append (print "col-lg-" $lg) }}
+  {{- end -}}
+{{- end -}}
+{{- if .xlWidth -}}
+  {{- if eq .xlWidth "auto" -}}
+    {{ $classes = $classes | append (print "col-xl-" .xlWidth) }}
+  {{- else -}}
+    {{- $xl := (div (mul (int .xlWidth) 12) 100) | math.Round -}}
+    {{ $classes = $classes | append (print "col-xl-" $xl) }}
+  {{- end -}}
+
+{{- end -}}
+{{- if .xxlWidth -}}
+  {{- if eq .xxlWidth "auto" -}}
+    {{ $classes = $classes | append (print "col-xxl-" .xxlWidth) }}
+  {{- else -}}
+    {{- $xxl := (div (mul (int .xxlWidth) 12) 100) | math.Round -}}
+    {{ $classes = $classes | append (print "col-xxl-" $xxl) }}
+  {{- end -}}
+{{- end -}}
+
+{{- $classString := delimit $classes " " -}}
+
+
+<div class="{{ $classString }} column-layout {{ .class }}">
+  {{ .content }}
+</div>

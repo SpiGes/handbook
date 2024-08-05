@@ -1,0 +1,19 @@
+{{ $class := .Get "class" | default "" }}
+{{- $width := .Get "width" | default "" -}}
+{{- $smWidth := .Get "smWidth" | default "" -}}
+{{- $mdWidth := .Get "mdWidth" | default "" -}}
+{{- $lgWidth := .Get "lgWidth" | default "" -}}
+{{- $xlWidth := .Get "xlWidth" | default "" -}}
+{{- $xxlWidth := .Get "xxlWidth" | default "" -}}
+
+{{ partial "layouts/column.html" (dict
+  "content" .Inner
+  "width" $width
+  "smWidth" $smWidth
+  "mdWidth" $mdWidth
+  "lgWidth" $lgWidth
+  "xlWidth" $xlWidth
+  "xxlWidth" $xxlWidth
+  "class" $class
+  )
+}}

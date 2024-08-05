@@ -1,0 +1,31 @@
+{{ $class := .Get "class" | default "" }}
+{{- $justify := .Get "justify" | default "" -}}
+{{- $smJustify := .Get "smJustify" | default "" -}}
+{{- $mdJustify := .Get "mdJustify" | default "" -}}
+{{- $lgJustify := .Get "lgJustify" | default "" -}}
+{{- $xlJustify := .Get "xlJustify" | default "" -}}
+{{- $xxlJustify := .Get "xxlJustify" | default "" -}}
+{{- $align := .Get "align" | default "" -}}
+{{- $smAlign := .Get "smAlign" | default "" -}}
+{{- $mdAlign := .Get "mdAlign" | default "" -}}
+{{- $lgAlign := .Get "lgAlign" | default "" -}}
+{{- $xlAlign := .Get "xlAlign" | default "" -}}
+{{- $xxlAlign := .Get "xxlAlign" | default "" -}}
+
+{{ $content := .Inner }}
+{{ partial "layouts/row.html" (dict
+  "content" $content
+  "justify" $justify
+  "smJustify" $smJustify
+  "mdJustify" $mdJustify
+  "lgJustify" $lgJustify
+  "xlJustify" $xlJustify
+  "xxlJustify" $xxlJustify
+  "align" $align
+  "smAlign" $smAlign
+  "mdAlign" $mdAlign
+  "lgAlign" $lgAlign
+  "xlAlign" $xlAlign
+  "xxlAlign" $xxlAlign
+  "class" $class)
+}}
