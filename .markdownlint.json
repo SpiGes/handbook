@@ -24,7 +24,10 @@
             "faqBlock",
             "markdown",
             "link",
-            "lineBreak"
+            "lineBreak",
+            "grid",
+            "row",
+            "column"
         ]
     }
 }
