@@ -10,6 +10,12 @@ type: docs
 {{<alert title="Prüfung an der Quelle" color="info">}}
 {{<markdown>}}
 Idealerweise werden die Daten direkt im Eingabesystem des Spitals geprüft. Dazu stellt das BFS eine automatisierte Lösung für die Integration in die spitaleigene Informatikumgebung bereit. Die Spitalunternehmen haben zudem die Möglichkeit, ihre Daten mit der SpiGes-Plattform während dem Datenjahr zu überprüfen. Da diese Prüfung vor dem ordentlichen Beginn der Erhebung (Januar des Folgejahres) stattfindet, befindet sich der Status der Erhebung im Zustand "Vorbereitung".
+
+Wir haben dafür folgende Massnahmen geplant:
+
+- XSD-Prüfung: Wir publizieren ein XSD-File, welches einfach zur technischen Überprüfung von XML-Files verwendet werden kann. Dazu können (gratis) Programme und Softwarebibliotheken benutzt werden.
+- MedPlaus: Das Tool MedPlaus wird für den SpiGes-Datensatz angepasst und soll ab Herbst 2024 zur Verfügung stehen. Dieses lässt sich als DLL-Version auch in Spitalsoftware integrieren.
+- Prüfungs-API: Wir planen eine öffentlich zugängliche API, mit der gelieferte Daten auf ihre Qualität geprüft werden können. Als Antwort auf die hochgeladene Daten erhält man eine Liste der Format- und Einzelfall-Fehler. Es können einzelne Fälle geliefert werden und die Antworten können von Programmen automatisch verarbeitet werden. Die API ist jedoch noch nicht umgesetzt. Dies wird frühestens 2025 der Fall sein.
 {{</markdown>}}
 {{</alert>}}
 

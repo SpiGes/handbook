@@ -12,6 +12,12 @@ type: docs
 Idéalement, les données sont contrôlées directement dans le système de saisie de l’hôpital, en amont du processus de relevé.
 
 Les hôpitaux contrôlent les données « à la source » dans leur propre système et peuvent au préalable intégrer dans leur système les outils de vérification mis à leur disposition par l’OFS à cet effet. Il est également possible de faire contrôler les données en cours d’année, avant la collecte de données proprement dite, sur la plateforme SpiGes. Étant donné que ce contrôle a lieu avant le début ordinaire du relevé (janvier de l'année suivante), le statut du relevé est à l'état de "préparation".
+
+Nous avons prévu les mesures suivantes à cet effet :
+
+- Vérification XSD : nous publions un fichier XSD qui peut être utilisé facilement pour la vérification technique des fichiers XML. Des programmes et des bibliothèques de logiciels (gratuits) peuvent être utilisés à cet effet.
+- MedPlaus : L'outil MedPlaus est adapté à l'ensemble des données SpiGes et devrait être disponible dès automne 2024. Il peut également être intégré dans les logiciels hospitaliers sous forme de version DLL.
+- API d'examen : Nous prévoyons une API accessible au public, qui permettra de vérifier la qualité des données fournies. En réponse aux données téléchargées, on obtient une liste des erreurs de format et des erreurs de cas individuels. Des cas individuels peuvent être fournis et les réponses peuvent être traitées automatiquement par des programmes. L'API n'est toutefois pas encore mise en œuvre. Cela sera le cas au plus tôt en 2025.
 {{</markdown>}}
 {{</alert>}}
 

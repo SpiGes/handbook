@@ -16,7 +16,7 @@ Um ein CH-Login mit einem starken Zweitfaktor mit verifizierter Identität für 
 3.	Die Identität auf dem starken Zweitfaktor verifizieren
 4.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit SpiGes
 
-Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits über ein CH-Login verfügen, müssen Sie kein neues erstellen und können diesen Schritt überspringen. Vergewissern Sie sich jedoch, dass Ihr CH-Login funktioniert.
+Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits über  ein CH-Login mit Ihrer geschäftlichen E-Mail-Adresse verfügen, müssen Sie kein neues erstellen und können diesen Schritt überspringen. Vergewissern Sie sich jedoch, dass Ihr CH-Login funktioniert. Wenn Sie bereits über einen CH-LOGIN mit Ihrer privaten E-Mail-Adresse verfügen, müssen Sie einen neuen CH-LOGIN mit Ihrer beruflichen E-Mail-Adresse erstellen.
 
 Wir empfehlen Ihnen, zunächst diese Anleitung zu lesen, bevor Sie versuchen, Ihren neuen sicheren Zugang einzurichten.
 
