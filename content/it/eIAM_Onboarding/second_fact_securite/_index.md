@@ -39,6 +39,6 @@ Se ciò non è possibile, utilizzare MobileID o una chiave di sicurezza fisica.
 
 **Tutti gli accessi alla piattaforma SpiGes devono avvenire da un computer professionale.**
 
-Gli utenti dei Cantoni **che hanno già un Vasco Digipass verificato** (per SOMED/Spitex) devono per il momento utilizzarlo come secondo fattore per gli SpiGes.
+Gli utenti dei Cantoni **che hanno già un Vasco Digipass verificato** (per SOMED/Spitex) possono per il momento utilizzarlo come secondo fattore per gli SpiGes.
 
 Le persone che **non hanno un Vasco Digipass** devono utilizzare i mezzi che presentiamo (Passkey FIDO o Mobile ID).
