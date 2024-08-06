@@ -22,7 +22,7 @@ eIAM supporte les types de clé FIDO suivants pour le CH-LOGIN:
 - Security Key par Yubico avec NFC
 - Feitian BioPass FIDO2 Authenticator
 
-## Enregistrement d'une clé FIDO sur votre CH_LOGIN
+## Enregistrement d'une clé FIDO sur votre CH-LOGIN
 
 <div class="two_column">
 
@@ -48,7 +48,7 @@ eIAM supporte les types de clé FIDO suivants pour le CH-LOGIN:
 
 <div class="left_col">
 <!-- First column content goes here -->
-Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
+Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez sur «Fermer».
 </div>
 
 <div class="right_col">
@@ -176,7 +176,7 @@ Une fenêtre va s'ouvrir sur votre ordinateur, choisissez "clé de sécurité" d
 
 Si cela est la première fois que vous utilisez votre passkey FIDO, il faudra la configurer. Pour cela, veuillez cliquer sur "ok" puis définir un code PIN pour votre passkey FIDO. 
 
-Pour finir appuyez sur le bouton sur votre passkey FIDO (selon les modèles de clé, il se peut que l'action à effectuer soit simplement toucher la clé). 
+Pour finir, appuyez sur le bouton de votre passkey FIDO (selon les modèles de clé, il se peut que l'action à effectuer soit simplement toucher la clé). 
 
 <!-- 
 Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 

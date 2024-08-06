@@ -35,7 +35,7 @@ Vous trouverez des informations concernant le Windows Hello {{<link url="https:/
 
 <div class="left_col">
 <!-- First column content goes here -->
-Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
+Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez sur «Fermer».
 </div>
 
 <div class="right_col">
@@ -147,7 +147,7 @@ Nommez votre passkey (FIDO), puis cliquez sur "continuer".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Cliquez ensuite sur "Démarer".
+Cliquez ensuite sur "Démarrer".
 </div>
 
 <div class="right_col">
@@ -167,5 +167,5 @@ Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN 
 Les explications concernant l'identification vidéo pour la clé FIDO ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=fr). 
 -->
 
-Une fois ces étapes terminée, votre clé FIDO apparaitra comme second facteur de sécurité, vous pouvez ensuite effectuer l'identification vidéo pour votre clé FIDO. Pour cela, passez à l'étape de l'identification vidéo.
+Une fois ces étapes terminées, votre clé FIDO apparaitra comme second facteur de sécurité, vous pouvez ensuite effectuer l'identification vidéo pour votre clé FIDO. Pour cela, passez à l'étape de l'identification vidéo.
 
