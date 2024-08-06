@@ -15,7 +15,7 @@ Veillez à vérifier un des seconds facteurs forts que nous vous recommandons.
 
 Les seconds facteurs suivants fonctionnent:
 
-- FIDO Token (Avec Windows Hello ou une clé physique)
+- FIDO Token (avec Windows Hello ou une clé physique)
 - Mobile ID
 
 Le seconds facteurs suivants ne fonctionnent pas:
@@ -59,7 +59,7 @@ Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Séléctionnez le second facteur que vous souhaitez vérifier (soit le Mobile ID, soit une passkey FIDO) puis cliquez sur "Continuer".
+Séléctionnez le second facteur que vous souhaitez vérifier (soit le Mobile ID, soit une passkey FIDO), puis cliquez sur "Continuer".
 
 Confirmer votre choix en cliquant sur "Vérifier".
 {{</markdown>}}
@@ -81,9 +81,9 @@ Confirmer votre choix en cliquant sur "Vérifier".
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Saisissez votre mot de passe puis cliquez sur "Continuer".
+Saisissez votre mot de passe, puis cliquez sur "Continuer".
 
-Ensuite cliquez à nouveau sur "Continuer" pour démarrer le processus d'authentification vidéo.
+Ensuite, cliquez à nouveau sur "Continuer" pour démarrer le processus d'authentification vidéo.
 {{</markdown>}}
 </div>
 
@@ -169,7 +169,7 @@ Cochez les cases "Je confirme que j'ai lu et compris les conditions d'utilisatio
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Deux choix s'offent à vous pour procéder au paiement de l'identification vidéo: Les bons ou un paiement classique.
+Deux choix s'offent à vous pour procéder au paiement de l'identification vidéo: un bon ou un paiement classique.
 
 Sélctionnez l'option qui vous correspond puis suivez les instructions à l'écran.
 {{</markdown>}}
@@ -184,7 +184,7 @@ Sélctionnez l'option qui vous correspond puis suivez les instructions à l'écr
 
 &nbsp;
 
-Vous allez avoir une confirmation de réception du paiement, puis vous allez pouvoir commencer l'identification vidéo. Pour cela deux options s'offre à vous, veuillez privilégier l'option avec la meilleure qualité de micro et d'image:
+Vous allez avoir une confirmation de réception du paiement, puis vous allez pouvoir commencer l'identification vidéo. Pour cela deux options s'offrent à vous, veuillez privilégier l'option avec la meilleure qualité de micro et d'image:
 
 &nbsp;
 

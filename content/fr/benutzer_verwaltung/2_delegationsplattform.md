@@ -15,7 +15,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Pour vous connecter au portail de délégation, rendez-vous sur le site {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}eIAM Portal{{</link>}} puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
+<p> Pour vous connecter au portail de délégation, rendez-vous sur le site {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}eIAM Portal{{</link>}}, puis connectez-vous à l'aide de votre CH-LOGIN.  </p>
 
 <p> Vous devez ensuite accepter les conditions d'utilisation pour pouvoir accéder au portail.  </p>
 </div>
@@ -35,7 +35,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".  
+Vous êtes maintenant connectés au portail eIAM. Pour accéder à la gestion des utilisateurs, cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".  
 </div>
 
 <div class="right_col">
@@ -54,8 +54,8 @@ Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-1. En cliquant sur la flèche, vous ouvrez la liste des sites hospitalier de votre canton.
-2. Vous pouvez également ajouter des utilsateurs du canton en cliquant sur le canton (il doit être surligné en bleu) puis en cliquant sur continuer.
+1. En cliquant sur la flèche, vous ouvrez la liste des sites hospitaliers de votre canton.
+2. Vous pouvez également ajouter des utilsateurs du canton en cliquant sur le canton (il doit être surligné en bleu), puis en cliquant sur continuer.
 {{</markdown>}}
 </div>
 
