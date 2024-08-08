@@ -182,7 +182,6 @@ Vous avez terminé.
 Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
 {{</alert>}}
 
-
 ## Ajout du Mobile ID comme second facteur de sécurité
 
 Cette étape permet d'ajouter le Mobile ID au CH-Login en tant que second facteur fort.
