@@ -174,9 +174,9 @@ Insérez votre clé FIDO dans votre ordinateur, puis cliquez ensuite sur "Démar
 
 Une fenêtre va s'ouvrir sur votre ordinateur, choisissez "clé de sécurité" dans les options proposées. 
 
-Si cela est la première fois que vous utilisez votre passkey FIDO, il faudra la configurer. Pour cela, veuillez cliquer sur "ok" puis définir un code PIN pour votre passkey FIDO. 
+Si cela est la première fois que vous utilisez votre passkey FIDO, il faudra la configurer. Pour cela, veuillez cliquer sur "ok" puis définir un code PIN pour votre passkey FIDO.
 
-Pour finir, appuyez sur le bouton de votre passkey FIDO (selon les modèles de clé, il se peut que l'action à effectuer soit simplement toucher la clé). 
+Pour finir, appuyez sur le bouton de votre passkey FIDO (selon les modèles de clé, il se peut que l'action à effectuer soit simplement toucher la clé).
 
 <!-- 
 Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 
