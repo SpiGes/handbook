@@ -1,7 +1,7 @@
 ---
 title: 2. Kontrolle der Daten
 slug: kontrole
-description: "Auf dieser Seite erklären wir Ihnen, wie Sie die von Ihrer Spitalstandort in die SpiGes-Plattform importierten Daten kontrollieren können."
+description: "Auf dieser Seite erklären wir Ihnen, wie Sie die von Ihrem Spitalstandort in die SpiGes-Plattform importierten Daten kontrollieren können."
 keywords: []
 weight: 30
 type: docs
