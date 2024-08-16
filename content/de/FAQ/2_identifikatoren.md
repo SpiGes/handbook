@@ -21,7 +21,7 @@ Genau diese Frage ist noch offen. Im Datensatz steht: «Anmerkung: Bezüglich de
 {{<listItem>}}
 Bei der Datenerhebung soll ja die AHVN genutzt werden. Wird die AHVN über die Tarifpartner auch an die Krankenkassen ersichtlich sein werden?
 {{<collapsibleBlock groupId="identifikatoren">}}
-Bei der Datenübermittlung werden Identifikatoren und Daten separat verschickt. Der Datenkanal ist verschlüsselt. Zur Überprüfung der AHVN wird der «BFS AHVN Validator» eingesetzt. Nachdem die AHVN verschlüsselt worden ist, wird diese auf der gesicherten Identifikatoren Datenbank gespeichert. Während der Bearbeitung der Daten auf der Plattform ist die AHVN somit pseudonymisiert und nicht zusammen mit dem Leistungsdatensatz abgelegt. Die AHVN kann nur verschlüsselt an die Datennut-zer weitergegeben werden. Da diese Datennutzer den Schlüssel nicht kennen, ist für diese die AHVN anonymisiert. Ein Rückschluss auf den Originalwert ist nicht möglich.
+Bei der Datenübermittlung werden Identifikatoren und Daten separat verschickt. Der Datenkanal ist verschlüsselt. Zur Überprüfung der AHVN wird der «BFS AHVN Validator» eingesetzt. Nachdem die AHVN verschlüsselt worden ist, wird diese auf der gesicherten Identifikatoren Datenbank gespeichert. Während der Bearbeitung der Daten auf der Plattform ist die AHVN somit pseudonymisiert und nicht zusammen mit dem Leistungsdatensatz abgelegt. Die AHVN kann nur verschlüsselt an die Datennutzer weitergegeben werden. Da diese Datennutzer den Schlüssel nicht kennen, ist für diese die AHVN anonymisiert. Ein Rückschluss auf den Originalwert ist nicht möglich.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
