@@ -53,6 +53,7 @@
         "scss/selector-no-redundant-nesting-selector": true,
         "scss/at-import-no-partial-leading-underscore": true,
         "scss/operator-no-unspaced": true,
+        "scss/at-mixin-argumentless-call-parentheses": "always",
         "color-hex-length": "long",
         "number-max-precision": [
             3,

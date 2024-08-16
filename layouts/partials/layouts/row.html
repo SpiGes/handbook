@@ -1,0 +1,54 @@
+{{- $classes := slice -}}
+
+{{- if .justify -}}
+  {{ $classes = $classes | append (print "justify-content-" .justify) }}
+{{- end -}}
+
+{{- if .smJustify -}}
+  {{ $classes = $classes | append (print "justify-content-sm-" .smJustify) }}
+{{- end -}}
+
+{{- if .mdJustify -}}
+  {{ $classes = $classes | append (print "justify-content-md-" .mdJustify) }}
+{{- end -}}
+
+{{- if .lgJustify -}}
+  {{ $classes = $classes | append (print "justify-content-lg-" .lgJustify) }}
+{{- end -}}
+
+{{- if .xlJustify -}}
+  {{ $classes = $classes | append (print "justify-content-xl-" .xlJustify) }}
+{{- end -}}
+
+{{- if .xxlJustify -}}
+  {{ $classes = $classes | append (print "justify-content-xxl-" .xxlJustify) }}
+{{- end -}}
+
+{{- if .align -}}
+  {{ $classes = $classes | append (print "align-items-" .align) }}
+{{- end -}}
+
+{{- if .smAlign -}}
+  {{ $classes = $classes | append (print "align-items-sm-" .smAlign) }}
+{{- end -}}
+
+{{- if .mdAlign -}}
+  {{ $classes = $classes | append (print "align-items-md-" .mdAlign) }}
+{{- end -}}
+
+{{- if .lgAlign -}}
+  {{ $classes = $classes | append (print "align-items-lg-" .lgAlign) }}
+{{- end -}}
+
+{{- if .xlAlign -}}
+  {{ $classes = $classes | append (print "align-items-xl-" .xlAlign) }}
+{{- end -}}
+
+{{- if .xxlAlign -}}
+  {{ $classes = $classes | append (print "align-items-xxl-" .xxlAlign) }}
+{{- end -}}
+
+{{- $classString := delimit $classes " " -}}
+<div class="row row-layout {{ $classString }} {{ .class }}">
+  {{ .content }}
+</div>
