@@ -13,14 +13,16 @@ Si vous ne pouvez pas utiliser le Windows Hello ou le Mobile ID, vous pouvez ég
 Nous vous demandons si possible d'utiliser en priorité le Windows Hello et en deuxième lieu le Mobile ID. L'aquisition d'une clé FIDO se fait à vos frais.
 {{</alert>}}
 
-Les jetons FIDO sont des supports de données qui peuvent prendre la forme d'une clé USB et qui contiennent du matériel cryptographique.
+Les clés de sécurité FIDO sont des supports de données qui peuvent prendre la forme d'une clé USB et qui contiennent du matériel cryptographique. Elles doivent être obtenues par les utilisateurs finaux eux-mêmes, à leur charge. Voici une liste des {{<link url="https://www.agov.admin.ch/fr/cles-de-securite" newTab="true">}}clés de sécurité{{</link>}} supportées. 
+
+<!--Les jetons FIDO sont des supports de données qui peuvent prendre la forme d'une clé USB et qui contiennent du matériel cryptographique.
 
 eIAM supporte les types de clé FIDO suivants pour le CH-LOGIN:
 - YubiKey 5 FIPS Series with NFC
 - YubiKey 5 Series
 - YubiKey 5 Series with NFC
 - Security Key par Yubico avec NFC
-- Feitian BioPass FIDO2 Authenticator
+- Feitian BioPass FIDO2 Authenticator-->
 
 ## Enregistrement d'une clé FIDO sur votre CH-LOGIN
 
