@@ -2,6 +2,26 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
+## [0.1.0-pilot-3] - 2024.08.20
+
+### Added
+
+#### Others
+
+- [#64](https://github.com/SpiGes/handbook/issues/64) - Create a new shortcode allowing to obtain a layout with n columns
+
+### Updated
+
+#### Documentation
+
+- [#89](https://github.com/SpiGes/handbook/issues/89) - Small corrections in french spelling
+- [#85](https://github.com/SpiGes/handbook/issues/85) - Improvements to the eIAM onboarding pages
+- [#73](https://github.com/SpiGes/handbook/issues/73) - Update Roles informations
+
+#### Others
+
+- [#74](https://github.com/SpiGes/handbook/issues/74) - Update tool versions and improve workflow files
+
 ## [0.1.0-pilot-2] - 2024.07.05
 
 ### Added
