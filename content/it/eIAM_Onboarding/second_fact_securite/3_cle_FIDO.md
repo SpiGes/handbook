@@ -7,20 +7,22 @@ weight: 30
 type: docs
 ---
 
-Se non potete usare Windows Hello o Mobile ID, potete anche usare una chiave di sicurezza fisica FIDO come secondo fattore di sicurezza forte. 
+Se non potete usare Windows Hello o Mobile ID, potete anche usare una chiave di sicurezza fisica FIDO come secondo fattore di sicurezza forte.
 
 {{<alert color="warning">}}
-Se possibile, vi chiediamo di utilizzare prima Windows Hello e poi Mobile ID. È necessario acquistare una chiave FIDO a proprie spese. 
+Se possibile, vi chiediamo di utilizzare prima Windows Hello e poi Mobile ID. È necessario acquistare una chiave FIDO a proprie spese.
 {{</alert>}}
 
-I token FIDO sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico.
+Le chiavi di sicurezza FIDO (FIDO Passkeys) sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico. Devono essere acquistati dagli stessi utenti finali, a proprie spese. Ecco un elenco delle {{<link url="https://www.agov.admin.ch/it/chiavi-di-sicurezza" newTab="true">}}chiavi di sicurezza{{</link>}} supportate.
+
+<!--I token FIDO sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico.
 
 eIAM supporta i seguenti tipi di token FIDO per CH-LOGIN:
 - YubiKey Serie 5 FIPS con NFC
 - Serie YubiKey 5
 - YubiKey Serie 5 con NFC
 - Chiave di sicurezza di Yubico con NFC
-- Autenticatore Feitian BioPass FIDO2
+- Autenticatore Feitian BioPass FIDO2-->
 
 ## Registrazione di una key FIDO sul proprio CH_LOGIN
 
