@@ -23,7 +23,7 @@ Mobile ID est un service uniquement compatible avec une carte SIM suisse pour le
 
 ## Activation du Mobile ID
 
-Suivez les étapes suivantes pour activer le Mobile ID.
+Suivez les étapes suivantes pour activer le Mobile ID:
 
 <!-- 1ere paire de colonnes -->
 
@@ -182,8 +182,7 @@ Vous avez terminé.
 Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
 {{</alert>}}
 
-
-## Ajout du MobileID comme second facteur de sécurité
+## Ajout du Mobile ID comme second facteur de sécurité
 
 Cette étape permet d'ajouter le Mobile ID au CH-Login en tant que second facteur fort.
 <!-- 
@@ -217,7 +216,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 <div class="left_col">
 <!-- First column content goes here -->
-Cochez la case «Activer les paramètres de sécurité avancés» puis cliquez sur «Fermer».
+Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez sur «Fermer».
 </div>
 
 <div class="right_col">

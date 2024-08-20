@@ -37,6 +37,6 @@ Wenn dies nicht möglich ist, verwenden Sie entweder die MobileID oder einen phy
 
 **Jeder Zugriff auf die SpiGes-Plattform muss von einem Computer aus erfolgen**.
 
-Benutzer der Kantone, die **bereits einen verifizierten Vasco Digipass** (für SOMED/Spitex) haben, müssen diesen derzeit als Zweitfaktor für SpiGes verwenden.
+Benutzer der Kantone, die **bereits einen verifizierten Vasco Digipass** (für SOMED/Spitex) haben, können diesen derzeit als Zweitfaktor für SpiGes verwenden.
 
 Personen, **die keinen Vasco Digipass** haben, müssen einen FIDO Passkey oder Mobile ID verwenden.

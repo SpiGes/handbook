@@ -31,7 +31,7 @@ type: docs
 
 &nbsp;
 
-1. Dans la liste des années de relevé, en cliquant sur l'année de votre choix, vous serez dirigés vers les données correspondantes à l'année voulue.
+1. Dans la liste des années de relevé, en cliquant sur l'année de votre choix, vous serez dirigé vers les données correspondantes à l'année voulue.
 
 2. Le volet latéral vous permet d'avoir une vue d'ensemble des années de relevé sous forme de liste.
 
@@ -43,7 +43,7 @@ type: docs
 
 1. La barre de recherche vous permet de trouver une entreprise ou un site hospitalier plus rapidement.
 
-2. Dans la liste des entreprises hospitalières, en cliquant sur l'entreprise de votre choix, vous serez dirigé vers les données correspondantes à l'entreprise hospoitalière.
+2. Dans la liste des entreprises hospitalières, en cliquant sur l'entreprise de votre choix, vous serez dirigé vers les données correspondantes à l'entreprise hospitalière.
 
 3. La flèche à droite de chaque entreprise vous permet de dérouler la liste des sites hospitaliers liés à cette entreprise. La première flèche de la liste vous permet de dérouler toutes les entreprises.
 
