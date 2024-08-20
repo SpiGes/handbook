@@ -10,7 +10,7 @@ type: docs
 Wenn Sie Windows Hello oder die Mobile ID nicht verwenden können, können Sie auch einen physischen FIDO-Sicherheitsschlüssel als starken Zweitsicherheitsfaktor verwenden.  
 
 {{<alert color="warning">}}
-Wir bitten Sie, wenn möglich, in erster Priorität Windows Hello und in zweiter Instanz die Mobile ID zu verwenden. Die Anschaffung eines FIDO-Schlüssels geht auf Ihre Kosten. 
+Wir bitten Sie, wenn möglich, in erster Priorität Windows Hello und in zweiter Instanz die Mobile ID zu verwenden. Die Anschaffung eines FIDO-Schlüssels geht auf Ihre Kosten.
 {{</alert>}}
 
 FIDO Sicherheitsschlüssel (FIDO Passkeys) sind Datenträger, z. B. in Form eines USB-Sticks welche kryptografisches Material enthalten. Sie müssen durch die Endbenutzer selber und auf eigene Kosten beschafft werden. Hier ist eine Liste der unterstützten {{<link url="https://www.agov.admin.ch/de/sicherheitsschluessel" newTab="true">}}Sicherheitsschlüssel{{</link>}}.
@@ -24,7 +24,7 @@ eIAM unterstützt folgende FIDO Passkeys Typen für das CH-LOGIN.
 - Security Key by Yubico with NFC
 - Feitian BioPass FIDO2 Authenticator-->
 
-##  Speichern eines KEY FIDO auf Ihrem CH_LOGIN
+## Speichern eines KEY FIDO auf Ihrem CH_LOGIN
 
 <!-- 1ere paire de colonnes -->
 

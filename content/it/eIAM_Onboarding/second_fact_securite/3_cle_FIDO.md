@@ -10,7 +10,7 @@ type: docs
 Se non potete usare Windows Hello o Mobile ID, potete anche usare una chiave di sicurezza fisica FIDO come secondo fattore di sicurezza forte. 
 
 {{<alert color="warning">}}
-Se possibile, vi chiediamo di utilizzare prima Windows Hello e poi Mobile ID. È necessario acquistare una chiave FIDO a proprie spese. 
+Se possibile, vi chiediamo di utilizzare prima Windows Hello e poi Mobile ID. È necessario acquistare una chiave FIDO a proprie spese.
 {{</alert>}}
 
 Le chiavi di sicurezza FIDO (FIDO Passkeys) sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico. Devono essere acquistati dagli stessi utenti finali, a proprie spese. Ecco un elenco delle {{<link url="https://www.agov.admin.ch/it/chiavi-di-sicurezza" newTab="true">}}chiavi di sicurezza{{</link>}} supportate.
