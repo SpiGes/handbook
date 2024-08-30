@@ -14,7 +14,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="identifikatoren">
 {{<listItem>}}
 Die AHVN ist ein Pflichtfeld. Trotzdem wird es Fälle ohne AHV-Nr. geben. Wo ist beschrieben was in diesem Fall in die Variable kommt?
 {{<collapsibleBlock groupId="identifikatoren">}}
-Genau diese Frage ist noch offen. Im Datensatz steht: «Anmerkung: Bezüglich der Personen, die keine AHV-Nummer haben können, sind noch Abklärungen im Gange (vgl. auch Spalte "Anzugeben für").» Kurzfristig ist angedacht, die Variable in diesem Falle leer zu lassen resp. eine Dummy-Nummer anzugeben. Es gab nun aber starken Widerstand dagegen aus einigen Grenzkantonen, weshalb diese Frage langfristig noch genauer abgeklärt wird.
+Bei unbekannter AHVN richten wir uns nach dem Forum Datenaustausch, welche den Dummy-Wert «7569999999991» verwenden. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
