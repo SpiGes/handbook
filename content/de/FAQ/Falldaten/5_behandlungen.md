@@ -69,8 +69,8 @@ Variable «behandlung_auswaerts»: Können Sie die Zuordnung der Ausprägungen d
   BURGESV = Spital/Betrieb
 
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
-Definition der Variable «behandlung_auswaerts» 
-Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben. 
+Definition der Variable «behandlung_auswaerts»
+Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben.
 -> gleicher Betrieb = gleiche BUR_GESV
 -> anderer Betrieb = andere BUR_GESV
 
