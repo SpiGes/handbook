@@ -56,6 +56,7 @@ Rückführung eines Patienten oder einer Patientin mit Schweizer Hauptwohnsitz a
 Wie ist eine «Verlegung» definiert? (z.B. die Codes «5 = Verlegung innerhalb 24 Std.» und «6 = Rückverlegung» der Variable Eintrittsart)
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
+
 -	Die Variable Eintrittsart existiert bereits in der MS und hat sich mit SpiGes auch nicht verändert. Eine Verlegung grenzt sich vom internen Übertritt dadurch ab, dass diese nicht im gleichen Spital (BURGESV) geschieht, sondern spitalübergreifend (zwei unterschiedliche BURGESV). Die Definition richtet sich nach den Grundsätzen der SwissDRG AG, welche Sie hier finden: [https://www.swissdrg.org/application/files/7416/7051/1936/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7.pdf](https://www.swissdrg.org/application/files/7416/7051/1936/Klarstellungen_und_Fallbeispiele_zu_den_Anwendungsregeln_Version_4.7.pdf)
 -	Bei der Eintrittsart «6=Rückverlegung» wurde von der SwissDRG AG folgende Spezifizierung kommuniziert: Bei ununterbrochenem Spitalaufenthalt in einem anderen Spital von mehr als 18 Tagen und Rückkehr in das ursprüngliche Spital.
 -	Gemäss SwissDRG AG wird Rückverlegung nur genutzt als Eintrittsart, wenn der Patient >18 Tage in einem anderen Spital war und wieder zurückkommt und somit ein neuer Fall eröffnet wird.
