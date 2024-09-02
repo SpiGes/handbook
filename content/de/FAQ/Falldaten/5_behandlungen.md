@@ -61,25 +61,25 @@ Wie viele Operateure einer Operation angerechnet werden können, ist eine konzep
 Variable «behandlung_auswaerts»: Können Sie die Zuordnung der Ausprägungen dieser Variable genauer definieren und den Zusammenhang mit der episode_art=5 (ambulante Behandlung auswärts) erläutern?
 {{<collapsibleBlock groupId="behandlungen">}}
 
-- Der Begriff Krankenhausareal ist unscharf. Wir haben hierzu folgendes Schema gemacht:\
+- Der Begriff Krankenhausareal ist unscharf. Wir haben hierzu folgendes Schema gemacht:<br />
 
-  Legende:\
-  BUR = Standort\
-  Areal = Areal\
-  BURGESV = Spital/Betrieb\
+  Legende:<br />
+  BUR = Standort<br />
+  Areal = Areal<br />
+  BURGESV = Spital/Betrieb<br />
 
-{{<insertImage image="Bild1.jpg" class="edge max-w-90">}}\
-Definition der Variable «behandlung_auswaerts»\
-Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben.\
--> gleicher Betrieb = gleiche BUR_GESV\
--> anderer Betrieb = andere BUR_GESV\
+{{<insertImage image="Bild1.jpg" class="edge max-w-90">}}<br />
+Definition der Variable «behandlung_auswaerts»<br />
+Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben.<br />
+-> gleicher Betrieb = gleiche BUR_GESV<br />
+-> anderer Betrieb = andere BUR_GESV<br />
   \
-  Ausprägungen:\
-  1 = eigenes Krankenhausareal, anderer Betrieb\
-  2 = ausserhalb eigenem Krankenhausareal, gleicher Betrieb\
-  3 = ausserhalb eigenem Krankenhausareal, anderer Betrieb\
-  9 = unbekannt\
-  \
+  Ausprägungen:<br />
+  1 = eigenes Krankenhausareal, anderer Betrieb<br />
+  2 = ausserhalb eigenem Krankenhausareal, gleicher Betrieb<br />
+  3 = ausserhalb eigenem Krankenhausareal, anderer Betrieb<br />
+  9 = unbekannt<br />
+  <br />
   Die Fälle mit den Ausprägungen 1 oder 3 werden als episode_art=5 erfasst.
 
 {{</collapsibleBlock>}}
