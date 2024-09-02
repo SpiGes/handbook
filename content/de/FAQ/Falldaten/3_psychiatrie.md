@@ -21,5 +21,17 @@ Variable psy_zivilstand: Was ist mit dem Code "5 = unverheiratet" gemeint bzw. w
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
+
+{{<listItem>}}
+Müssen bei Fallzusammenführungen in der Psychiatrie jeweils die Eintritts- und Austritts-HoNOS (CHOP-Codes) aller zusammengeführten Fälle gemeldet werden? Für die Codierung ist jedoch nur der Eintritts-HoNOS des ersten Falles und der Austritts-HoNOS des letzten Falles relevant.
+{{<collapsibleBlock groupId="psychiatrie">}}
+{{<markdown>}}
+
+- Wir richten uns für die Statistik an die Vorgaben der Kodierung:
+«Im zusammengeführten Fall wird nur der EintrittsHONOS des 1. Falles und der AustrittsHONOS des letzten Falles erfasst. Grouperrelevant sind die EintrittsHONOS des 1. Falles. Das ist klar für den Fragesteller und hat sich nicht geändert.»
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
