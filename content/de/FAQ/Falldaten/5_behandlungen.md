@@ -63,25 +63,26 @@ Variable «behandlung_auswaerts»: Können Sie die Zuordnung der Ausprägungen d
 
 - Der Begriff Krankenhausareal ist unscharf. Wir haben hierzu folgendes Schema gemacht:\
 
-  Legende:\
-  BUR = Standort\
-  Areal = Areal\
-  BURGESV = Spital/Betrieb\
+  Legende:
+  BUR = Standort
+  Areal = Areal
+  BURGESV = Spital/Betrieb
 
-{{<insertImage image="Bild1.jpg" class="edge max-w-90">}}\
-Definition der Variable «behandlung_auswaerts»\
-Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben.\
--> gleicher Betrieb = gleiche BUR_GESV\
--> anderer Betrieb = andere BUR_GESV\
-  \
-  Ausprägungen:\
-  1 = eigenes Krankenhausareal, anderer Betrieb\
-  2 = ausserhalb eigenem Krankenhausareal, gleicher Betrieb\
-  3 = ausserhalb eigenem Krankenhausareal, anderer Betrieb\
-  9 = unbekannt\
-  \
+{{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
+{{<markdown>}}
+- Definition der Variable «behandlung_auswaerts»
+Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben.
+-> gleicher Betrieb = gleiche BUR_GESV
+-> anderer Betrieb = andere BUR_GESV
+  
+  Ausprägungen:
+  1 = eigenes Krankenhausareal, anderer Betrieb
+  2 = ausserhalb eigenem Krankenhausareal, gleicher Betrieb
+  3 = ausserhalb eigenem Krankenhausareal, anderer Betrieb
+  9 = unbekannt
+  
   Die Fälle mit den Ausprägungen 1 oder 3 werden als episode_art=5 erfasst.
-
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
