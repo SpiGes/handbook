@@ -36,6 +36,7 @@ Für die Reihenfolge der Behandlungen sind die folgenden Kriterien empfohlen:
 {{<listItem>}}
 Behandlung_chop: Müssen Behandlungen mit oder ohne Punkt geliefert werden?
 {{<collapsibleBlock groupId="behandlungen">}}
+
 - Ohne Punkte
 {{</collapsibleBlock>}}
 {{</listItem>}}
