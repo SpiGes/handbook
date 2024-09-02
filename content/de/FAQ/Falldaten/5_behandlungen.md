@@ -60,6 +60,7 @@ Wie viele Operateure einer Operation angerechnet werden können, ist eine konzep
 {{<listItem>}}
 Variable «behandlung_auswaerts»: Können Sie die Zuordnung der Ausprägungen dieser Variable genauer definieren und den Zusammenhang mit der episode_art=5 (ambulante Behandlung auswärts) erläutern?
 {{<collapsibleBlock groupId="behandlungen">}}
+
 - Der Begriff Krankenhausareal ist unscharf. Wir haben hierzu folgendes Schema gemacht:
 
   Legende:
