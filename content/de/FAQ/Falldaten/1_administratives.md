@@ -106,5 +106,16 @@ Gemäss unserer Patientenadministration wird es schwierig für die Fälle mit ei
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
+
+### Variable "aufenthalt_ips"
+
+{{<listItem>}}
+Variable aufenthalt_ips: Bei den verschiedenen Variablen zum IPS-Aufenthalt und den Aufwandspunkten ist uns nicht ganz klar, ob die Variablen mit 0 exportiert werden sollen oder gar nicht, wenn ein Fall nicht auf der Intensivstation liegt. Als Wertebereich ist hier immer 0-xxx angegeben.
+{{<collapsibleBlock groupId="admninistratives">}}
+{{<markdown>}}
+-	Da die Angabe nicht obligatorisch ist (required), wird die Variable gar nicht geliefert, wenn ein Fall nicht auf der Intensivstation liegt.
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
 {{</numberedList>}}
 {{</faqBlock>}}
