@@ -88,7 +88,7 @@ In der Variablenbeschreibung ist eine separate Einteilung der aussereuropäische
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-### Variable "versicherungsklasse"
+### Variable "Versicherungsklasse"
 
 {{<listItem>}}
 Im Variablenbeschrieb steht, dass man es für alle angeben muss, ausser Selbstzahler. Im xsd. Ist das Feld jedoch «required». Was sollen wir dann bei Selbstzahlern liefern?
