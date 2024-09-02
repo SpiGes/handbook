@@ -27,8 +27,8 @@ Müssen bei Fallzusammenführungen in der Psychiatrie jeweils die Eintritts- und
 {{<collapsibleBlock groupId="psychiatrie">}}
 {{<markdown>}}
 
-- Wir richten uns für die Statistik an die Vorgaben der Kodierung: 
-«Im zusammengeführten Fall wird nur der EintrittsHONOS des 1. Falles und der AustrittsHONOS des letzten Falles erfasst. Grouperrelevant sind die EintrittsHONOS des 1. Falles. Das ist klar für den Fragesteller und hat sich nicht geändert.» 
+- Wir richten uns für die Statistik an die Vorgaben der Kodierung:
+«Im zusammengeführten Fall wird nur der EintrittsHONOS des 1. Falles und der AustrittsHONOS des letzten Falles erfasst. Grouperrelevant sind die EintrittsHONOS des 1. Falles. Das ist klar für den Fragesteller und hat sich nicht geändert.»
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
