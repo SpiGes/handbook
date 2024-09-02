@@ -70,6 +70,7 @@ Variable «behandlung_auswaerts»: Können Sie die Zuordnung der Ausprägungen d
 
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
 {{<markdown>}}
+
 - Definition der Variable «behandlung_auswaerts»
 Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben.
 -> gleicher Betrieb = gleiche BUR_GESV
