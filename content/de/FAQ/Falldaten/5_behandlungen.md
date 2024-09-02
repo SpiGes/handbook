@@ -34,6 +34,14 @@ Für die Reihenfolge der Behandlungen sind die folgenden Kriterien empfohlen:
 {{</listItem>}}
 
 {{<listItem>}}
+Behandlung_chop: Müssen Behandlungen mit oder ohne Punkt geliefert werden?
+{{<collapsibleBlock groupId="behandlungen">}}
+
+- Ohne Punkte
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
 Wir sorgen uns etwas, dass insbesondere in der Anfangszeit diese Daten nicht vollständig erfasst werden und es zu vielen Nacharbeiten kommen könnte. Daher würden wir gern bei den betroffenen CHOP-Codes das Feld als Muss-Feld definieren. Gibt es für den CHOP-Katalog eine Zuordnung, welche Codes als Operativ bzw. interventionell gelten?
 {{<collapsibleBlock groupId="behandlungen">}}
 Das BFS ist sich bewusst, dass bei Einführung dieser neuen Angabe die Daten unvollständig sein werden. Nach der üblichen Konsolidierungsphase wird sich zeigen, welche Präzisierungen nötig sind. Es ist gar nicht möglich, für jeden CHOP-Kode eindeutig zu bestimmen, ob er eine Angabe der Zeit erfordert oder nicht. Es sind andere Merkmale, die hier massgeblich sind: ob die Behandlung in einem Zusammenhang mit der Benützung eines Operationssaals oder eines Herzkatheterlabors steht.
