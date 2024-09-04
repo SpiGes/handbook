@@ -44,7 +44,8 @@ Wie sind Angaben zu A-Fällen zu liefern, die zum Exportzeitpunkt noch nicht fak
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
 
-- Die Angaben zu den Fällen sind zu liefern. Bei den Rechnungen ist der letzte Stand zu liefern, also nichts.
+
+
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
