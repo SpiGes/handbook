@@ -44,8 +44,6 @@ Wie sind Angaben zu A-Fällen zu liefern, die zum Exportzeitpunkt noch nicht fak
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
 
-
-
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
