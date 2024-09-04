@@ -33,7 +33,6 @@ Wie werden die entsprechenden Felder ausgefüllt für Rechnungen, die nicht übe
 Wie sind Angaben zu den Fällen bzw. Rechnungen zu liefern, wenn letztere zum Exportzeitpunkt storniert sind?
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
-
 - Die Angaben zu den Fällen sind zu liefern. Bei den Rechnungen ist der letzte Stand zu liefern, im Falle von stornierten Rechnungen also nichts.
 {{</markdown>}}
 {{</collapsibleBlock>}}
@@ -43,9 +42,7 @@ Wie sind Angaben zu den Fällen bzw. Rechnungen zu liefern, wenn letztere zum Ex
 Wie sind Angaben zu A-Fällen zu liefern, die zum Exportzeitpunkt noch nicht fakturiert sind?
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
-
-
-
+- Die Angaben zu den Fällen sind zu liefern. Bei den Rechnungen ist der letzte Stand zu liefern, also nichts.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -54,7 +51,6 @@ Wie sind Angaben zu A-Fällen zu liefern, die zum Exportzeitpunkt noch nicht fak
 Variable «rech_unfallnr»: Für die Angaben dieser Nummer ist das Feld auf 17 Zeichen beschränkt. Nun zirkulieren in älteren Systemen auch 20-stellige Schadensnummern. Wie müssen wir vorgehen?
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
-
 -	In Absprache mit der Zentralstelle für Medizinaltarife UVG (ZMT) können die ersten drei Stellen gestrichen werden. Zum Beispiel würde die folgende Schadennummer 01.05.01.23.009999.3 als Nummer 05.01.23.009999.3 gesendet, d.h. ohne den Prefix ‘01.’
 {{</markdown>}}
 {{</collapsibleBlock>}}
