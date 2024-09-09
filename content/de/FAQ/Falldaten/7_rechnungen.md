@@ -29,5 +29,14 @@ Wie werden die entsprechenden Felder ausgefüllt für Rechnungen, die nicht übe
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Wie sind Angaben zu den Fällen bzw. Rechnungen zu liefern, wenn letztere zum Exportzeitpunkt storniert sind?
+{{<collapsibleBlock groupId="rechnungen">}}
+{{<markdown>}}
+-	Die Angaben zu den Fällen sind zu liefern. Bei den Rechnungen ist der letzte Stand zu liefern, im Falle von stornierten Rechnungen also nichts. 
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
