@@ -65,4 +65,4 @@ Variable «rech_unfallnr»: Für die Angaben dieser Nummer ist das Feld auf 17 Z
 {{</listItem>}}
 
 {{</numberedList>}}
-{{</faqBlock>}}
+{{</faqBlock>}} 
