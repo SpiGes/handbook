@@ -69,7 +69,7 @@ Ja, bei externen ambulanten Behandlungen kann die BUR-Nummer des behandelnden  S
 {{</listItem>}}
 
 {{<listItem>}}
-Variable «wiedereintritt_aufenthalt»: Uns ist noch nicht ganz klar, was bei der episode_art=1 (also wenn der Patient im Spital anwesend ist) in der Variablen wiedereintritt_aufenthalt exportiert werden muss. 
+Variable «wiedereintritt_aufenthalt»: Uns ist noch nicht ganz klar, was bei der episode_art=1 (also wenn der Patient im Spital anwesend ist) in der Variablen wiedereintritt_aufenthalt exportiert werden muss.
 {{<collapsibleBlock groupId="patientenbewegung">}}
 wiedereintritt_aufenthalt wird nur bei episode_art=2 ausgefüllt, bei allen anderen episode_arten wird diese Variable nicht erfasst
 {{</collapsibleBlock>}}
