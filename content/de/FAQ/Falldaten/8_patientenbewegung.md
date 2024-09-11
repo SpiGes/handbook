@@ -41,14 +41,14 @@ Die Vermutung trifft zu, was Episoden aufgrund von Standortwechseln betrifft. Ep
 {{</listItem>}}
 
 {{<listItem>}}
-Verstehen wir dies richtig, dass z.B. der Eintritt bis zur ambulanten Behandlung auswärts (siehe Abbildung unten) bereits eine Episode ist? Wir haben also zwischen Urlauben, Belastungserprobungen und auswärtigen Behandlungen immer eine episode_art="1"?
+Verstehen wir dies richtig, dass z.B. der Eintritt bis zur ambulanten Behandlung auswärts bereits eine Episode ist? Wir haben also zwischen Urlauben, Belastungserprobungen und auswärtigen Behandlungen immer eine episode_art="1"?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Richtig
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Wir haben im Beispiel (siehe Abbildung unten) keine Standortwechsel innerhalb desselben Spitals. Verstehen wir es richtig, dass bei der episode_art="1" immer die BUR Nummer Standort des Spitals anzugeben ist?
+Wir haben zum Beispiel keine Standortwechsel innerhalb desselben Spitals. Verstehen wir es richtig, dass bei der episode_art="1" immer die BUR Nummer Standort des Spitals anzugeben ist?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Richtig
 {{</collapsibleBlock>}}
@@ -62,10 +62,16 @@ Ja, Datum und Stundenangabe müssen für alle Episoden sowohl für den Beginn al
 {{</listItem>}}
 
 {{<listItem>}}
-Die Angabe der BURNR des auswärts behandelnden Spitals ist fakultativ, richtig? 
+Die Angabe der BURNR des auswärts behandelnden Spitals ist fakultativ, richtig?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Ja, bei externen ambulanten Behandlungen kann die BUR-Nummer des behandelnden  Standorts angegeben werden, falls diese bekannt ist.
-{{<insertImage image="Image4.jpg" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Variable «wiedereintritt_aufenthalt»: Uns ist noch nicht ganz klar, was bei der episode_art=1 (also wenn der Patient im Spital anwesend ist) in der Variablen wiedereintritt_aufenthalt exportiert werden muss.
+{{<collapsibleBlock groupId="patientenbewegung">}}
+wiedereintritt_aufenthalt wird nur bei episode_art=2 ausgefüllt, bei allen anderen episode_arten wird diese Variable nicht erfasst
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
