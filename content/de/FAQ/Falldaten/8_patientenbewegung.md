@@ -62,7 +62,7 @@ Ja, Datum und Stundenangabe müssen für alle Episoden sowohl für den Beginn al
 {{</listItem>}}
 
 {{<listItem>}}
-Die Angabe der BURNR des auswärts behandelnden Spitals ist fakultativ, richtig? 
+Die Angabe der BURNR des auswärts behandelnden Spitals ist fakultativ, richtig?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Ja, bei externen ambulanten Behandlungen kann die BUR-Nummer des behandelnden  Standorts angegeben werden, falls diese bekannt ist.
 {{</collapsibleBlock>}}
