@@ -22,9 +22,10 @@ Es ist dieselbe Granularität, wie die Zeilen auf den verschickten Rechnungen an
 Wie werden die entsprechenden Felder ausgefüllt für Rechnungen, die nicht über SwissDRG, TARPSY oder ST Reha abgerechnet werden?
 {{<collapsibleBlock groupId="rechnungen">}}
 {{<markdown>}}
--	Grundsätzlich analog Forum Datenaustausch, einfach nur für die stationären Behandlungen. 
--	Tariftyp, Betrag und Menge sollten klar sein. 
--	Felder, die bei anderen Tarifen keinen Sinn machen, können leer gelassen werden. 
+
+-	Grundsätzlich analog Forum Datenaustausch, einfach nur für die stationären Behandlungen.
+-	Tariftyp, Betrag und Menge sollten klar sein.
+-	Felder, die bei anderen Tarifen keinen Sinn machen, können leer gelassen werden.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -48,6 +49,7 @@ Wie sind Angaben zu A-Fällen zu liefern, die zum Exportzeitpunkt noch nicht fak
 
 - Die Angaben zu den Fällen sind zu liefern. Bei den Rechnungen ist der letzte Stand zu liefern, also nichts.
 - Die Angaben zu den Fällen sind zu liefern. Bei den Rechnungen ist der letzte Stand zu liefern, also nichts.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
