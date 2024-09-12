@@ -11,6 +11,7 @@ keywords: []
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="technische_fragen">}}
 
 {{<numberedList>}}
+Allgemein  
 {{<listItem>}}
 Gibt es für den Datenimport in die SpiGes Applikation eine Formatvorlage?
 {{<collapsibleBlock groupId="technische_fragen">}}
