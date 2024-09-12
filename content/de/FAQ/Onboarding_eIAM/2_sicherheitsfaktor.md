@@ -14,6 +14,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Zweiter_sicherhei
 {{<listItem>}}
 Welche zweiten Sicherheitsfaktoren kann ich verwenden?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
+
 - Für den Zugriff auf die SpiGes-Plattform ist ein starker zweiter Faktor erforderlich. Als stark gelten die folgenden zweiten Faktoren: Mobile ID und FIDO-Schlüssel (physischer Schlüssel oder Windows Hello).  
 - mTAN oder App authenticator (oft bereits für die KS-Erhebung installiert) sind als zweite Faktoren nicht stark genug für SpiGes.  
 {{</collapsibleBlock>}}
