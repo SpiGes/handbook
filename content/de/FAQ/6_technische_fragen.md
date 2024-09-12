@@ -88,14 +88,14 @@ Die Tabelle 12 Personenidentifikatoren muss in einem separaten File geliefert we
 {{<listItem>}}
 Gibt es eine Möglichkeit für kleine Betriebe aus einem Excel (in der die KTR eingetragen ist) ein XML-File herzustellen. Gibt es ein Anbieter, der dies plant umzusetzen?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Diese Möglichkeit wird zurzeit vom BFS geprüft.
+Ja, es gibt private Anbieter, die so ein Tool bereitstellen. Das BFS verfolgt diese Idee darum aktuell nicht weiter.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Ist geplant eine Excel für die fallunabhängigen Kosten zur Verfügung zu stellen, in welchem der Betrieb die fallunabhängigen Kosten im Excel-Format ausfüllen kann und dann als XML-Format exportieren kann? 
+Ist geplant eine Exceldatei für die fallunabhängigen Kosten zur Verfügung zu stellen, in welchem der Betrieb die fallunabhängigen Kosten im Excel-Format ausfüllen kann und dann als XML-Format exportieren kann? 
 {{<collapsibleBlock groupId="technische_fragen">}}
-Die separate Lieferung von verschiedenen Arten von XML-Elementen ist möglich. D.h. die fallunabhängigen Kostenträger können grundsätzlich in einem anderen File als die fallabhängigen Kostenträger geliefert werden. Ob wir ein Tool für die Transformation der Daten aus einem Excel-File bereitstellen können, müssen wir noch abklären.
+Die separate Lieferung von verschiedenen Arten von XML-Elementen ist möglich. D.h. die fallunabhängigen Kostenträger können grundsätzlich in einem anderen File als die fallabhängigen Kostenträger geliefert werden. Es gibt private Anbieter, die ein Excel Konvertierungstool bereitstellen. Das BFS verfolgt diese Idee darum aktuell nicht weiter.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
