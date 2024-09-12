@@ -93,7 +93,7 @@ Ja, es gibt private Anbieter, die so ein Tool bereitstellen. Das BFS verfolgt di
 {{</listItem>}}
 
 {{<listItem>}}
-Ist geplant eine Exceldatei für die fallunabhängigen Kosten zur Verfügung zu stellen, in welchem der Betrieb die fallunabhängigen Kosten im Excel-Format ausfüllen kann und dann als XML-Format exportieren kann? 
+Ist geplant eine Exceldatei für die fallunabhängigen Kosten zur Verfügung zu stellen, in welchem der Betrieb die fallunabhängigen Kosten im Excel-Format ausfüllen kann und dann als XML-Format exportieren kann?
 {{<collapsibleBlock groupId="technische_fragen">}}
 Die separate Lieferung von verschiedenen Arten von XML-Elementen ist möglich. D.h. die fallunabhängigen Kostenträger können grundsätzlich in einem anderen File als die fallabhängigen Kostenträger geliefert werden. Es gibt private Anbieter, die ein Excel Konvertierungstool bereitstellen. Das BFS verfolgt diese Idee darum aktuell nicht weiter.
 {{</collapsibleBlock>}}
