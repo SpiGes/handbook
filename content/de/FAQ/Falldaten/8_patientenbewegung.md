@@ -22,7 +22,7 @@ Eintritt und Austritt werden wie bisher unter Eintrittsdatum und Austrittsdatum 
 {{<listItem>}}
 Wird ein Fall, der den Standort wechselt, in beiden Standorten geführt?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Nein, jeder Fall wird nur am Hauptstandort geführt, auch wenn er innerhalb eines Spitals (BURGESV) von einem Standort zum anderen verlegt wird. Wechselt ein Patient in ein anderes Spital (BURGESV), ist ein neuer Fall zu eröffnen. 
+Nein, jeder Fall wird nur am Hauptstandort geführt, auch wenn er innerhalb eines Spitals (BURGESV) von einem Standort zum anderen verlegt wird. Wechselt ein Patient in ein anderes Spital (BURGESV), ist ein neuer Fall zu eröffnen.  
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -71,7 +71,7 @@ Ja, bei externen ambulanten Behandlungen kann die BUR-Nummer des behandelnden  S
 {{<listItem>}}
 Variable «wiedereintritt_aufenthalt»: Uns ist noch nicht ganz klar, was bei der episode_art=1 (also wenn der Patient im Spital anwesend ist) in der Variablen wiedereintritt_aufenthalt exportiert werden muss.
 {{<collapsibleBlock groupId="patientenbewegung">}}
-wiedereintritt_aufenthalt wird nur bei episode_art=2 ausgefüllt, bei allen anderen episode_arten wird diese Variable nicht erfasst
+wiedereintritt_aufenthalt wird nur bei episode_art=2 ausgefüllt, bei allen anderen episode_arten wird diese Variable nicht erfasst.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
