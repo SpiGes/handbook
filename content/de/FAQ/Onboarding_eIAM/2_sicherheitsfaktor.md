@@ -25,6 +25,7 @@ Welche zweiten Sicherheitsfaktoren kann ich verwenden?
 Ist die Videoidentifikation für die Nutzung der SpiGes-Erhebungsplattform obligatorisch?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
 {{<markdown>}}
+
 - Ja. Ohne die Videoidentifikation erreichen Sie nicht die QoA 50 (Quality of Authentication), die für den Zugang zur SpiGes-Erhebungsplattform erforderlich ist. Um diese Qualitätsstufe der Authentifizierung zu erreichen, muss der Nutzer über eine verifizierte elektronische Identität verfügen und nicht nur über eine selbstregistrierte.  
 - Es ist wichtig, die Videoidentifikation mit einem zweiten starken Faktor durchzuführen (siehe Frage 101). Eine Videoidentifikation, die auf mTAN oder App authenticator gemacht wurde, ermöglicht keinen Zugang zu SpiGes.  
 {{</markdown>}}
