@@ -11,7 +11,7 @@ keywords: []
 Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="technische_fragen">}}
 
 {{<numberedList>}}
-Allgemein
+**Allgemein**  
 
 {{<listItem>}}
 Gibt es für den Datenimport in die SpiGes Applikation eine Formatvorlage?
@@ -182,16 +182,36 @@ In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-Formatprüfungen und Fehlermeldungen  
+**Formatprüfungen und Fehlermeldungen**    
 
 {{<listItem>}}
 Generelle Begriffe, die in den Fehlermeldungen verwendet werden:  
 {{<insertImage image="tf1.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
-Element = Erhebungsteil (z.B. Unternehmen, Standort, Fall usw)  
-Attribut = Variable (z.B. ent_id, burnr usw)  
+**Element** = Erhebungsteil (z.B. **Unternehmen**, **Standort**, **Fall** usw.)  
+**Attribut** = Variable (z.B. **ent_id**, **burnr usw**)  
 {{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Welche Fehler verursachen die Fehlermeldung «interner Serverfehler 500»?
+{{<collapsibleBlock groupId="technische_fragen">}}
+{{<markdown>}}
+Beim internen Serverfehler 500 gibt es verschiedene Ursachen, welche Sie hier aufgeführt finden:  
+1.	Datei leer  
+2.	Datei zu gross  
+3.	Kopfzeile falsch   
+4.	Nicht mit UTF 8 codiert  
+
+Kopfzeile:  
+<?xml version="1.0" encoding="UTF-8"?>
+<Unternehmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data/1.3" ent_id="xxxxxxx" version="1.3">  
+
+Um zu testen, ob ihr file mit utf 8 codiert wurde, können sie dieses mit notepad oder text editor öffnen. Unten rechts wird das encoding angezeigt.
+{{</markdown>}}
+
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
