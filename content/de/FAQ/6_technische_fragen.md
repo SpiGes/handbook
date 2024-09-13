@@ -182,7 +182,7 @@ In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-**Formatprüfungen und Fehlermeldungen**    
+**Formatprüfungen und Fehlermeldungen**
 
 {{<listItem>}}
 Generelle Begriffe, die in den Fehlermeldungen verwendet werden:  
