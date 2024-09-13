@@ -201,8 +201,6 @@ Welche Fehler verursachen die Fehlermeldung «interner Serverfehler 500»?
 {{<markdown>}}
 Beim internen Serverfehler 500 gibt es verschiedene Ursachen, welche Sie hier aufgeführt finden:  
 
-
-
 2.	Datei zu gross  
 3.	Kopfzeile falsch
 4.	Nicht mit UTF 8 codiert  
