@@ -182,5 +182,18 @@ In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+Formatprüfungen und Fehlermeldungen  
+
+{{<listItem>}}
+Generelle Begriffe, die in den Fehlermeldungen verwendet werden:  
+{{<insertImage image="tf1.png" class="edge max-w-90">}}
+{{<collapsibleBlock groupId="technische_fragen">}}
+{{<markdown>}}
+Element = Erhebungsteil (z.B. Unternehmen, Standort, Fall usw)  
+Attribut = Variable (z.B. ent_id, burnr usw)  
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
