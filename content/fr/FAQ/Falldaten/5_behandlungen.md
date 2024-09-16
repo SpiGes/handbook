@@ -64,7 +64,7 @@ La notion d'areal d'hospitalisation est floue. Nous avons fait le schéma suivan
   BUR = site
   Areal = aire  
   BURGESV = hôpital/établissement
-{{<markdown>}}
+{{</markdown>}}
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
 {{<markdown>}}
 Traitements ambulatoires extra-muros
@@ -79,7 +79,7 @@ Liste des codes
 9 = inconnu.
 
 Les cas avec les valeurs 1 ou 3 sont enregistrés comme type_épisode=5.
-{{<markdown>}}
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
