@@ -10,10 +10,12 @@ keywords: []
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="format_fehlermeldung">}}
 
+{{<numberedList>}}
 {{<listItem>}}
 Termes généraux utilisés dans les messages d'erreur
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf1.png" class="edge max-w-90">}}
+
 {{<markdown>}}
 Element = partie de l'enquête (par ex. Unternehmen, Standort, Fall, etc.)
 Attribut = variable (par ex. fall_id, burnr, etc.)
@@ -22,7 +24,7 @@ Attribut = variable (par ex. fall_id, burnr, etc.)
 {{</listItem>}}
 
 {{<listItem>}}
-90.	quelles erreurs provoquent le message d'erreur « erreur de serveur interne 500 » ?
+Quelles erreurs provoquent le message d'erreur « erreur de serveur interne 500 » ?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouverez ici :
 {{<markdown>}}
@@ -39,13 +41,13 @@ Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec not
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-{{<numberedList>}}
+<!--{{<numberedList>}}
 {{<listItem>}}
 Existe-t-il un modèle de format pour l'importation de données dans l'application SpiGes ?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 Oui, les formats du concept d'interface doivent être repris. 
 {{</collapsibleBlock>}}
-{{</listItem>}}
+{{</listItem>}}-->
 
 
 {{</numberedList>}}

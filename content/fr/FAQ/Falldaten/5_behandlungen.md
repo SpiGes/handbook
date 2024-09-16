@@ -62,19 +62,21 @@ La notion d'areal d'hospitalisation est floue. Nous avons fait le schéma suivan
 
 {{<markdown>}}
   Legende:  
-  BUR = site
-  Areal = aire  
-  BURGESV = hôpital/établissement
-
+  -  BUR = site
+  -  Areal = aire  
+  -  BURGESV = hôpital/établissement
+{{</markdown>}}
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
-
+{{<markdown>}}
 Traitements ambulatoires extra-muros
 
 Uniquement pour les traitements ambulatoires hors de la propre aire hospitalière ou dans un établissement tiers. Le champ est laissé vide lorsque la question ne se pose pas (traitement au sein du propre établissement).
-
+{{</markdown>}}
+{{<markdown>}}
 Propre établissement = No Bur GESV identique
 Etablissement tiers = No Bur GESV différent
-
+{{</markdown>}}
+{{<markdown>}}
 Liste des codes
 
 1 = Même aire hospitalière, autre établissement.
