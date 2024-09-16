@@ -58,15 +58,15 @@ Le nombre d'opérateurs pouvant être comptabilisé pour une opération est une 
 {{<listItem>}}
 Variable «behandlung_auswaerts»: Pouvez-vous définir plus précisément l'attribution des modalités de cette variable et expliquer le lien avec le type_d'épisode=5 (traitement ambulatoire à l'extérieur) ?
 {{<collapsibleBlock groupId="behandlungen">}}
--   La notion d'areal d'hospitalisation est floue. Nous avons fait le schéma suivant à ce sujet :
-
+La notion d'areal d'hospitalisation est floue. Nous avons fait le schéma suivant à ce sujet :
+{{<markdown>}}
   Legende:  
   BUR = site
   Areal = aire  
   BURGESV = hôpital/établissement
-
+{{<markdown>}}
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
-
+{{<markdown>}}
 Traitements ambulatoires extra-muros
 Uniquement pour les traitements ambulatoires hors de la propre aire hospitalière ou dans un établissement tiers. Le champ est laissé vide lorsque la question ne se pose pas (traitement au sein du propre établissement).
 Propre établissement = No Bur GESV identique
@@ -79,7 +79,7 @@ Liste des codes
 9 = inconnu.
 
 Les cas avec les valeurs 1 ou 3 sont enregistrés comme type_épisode=5.
-
+{{<markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
