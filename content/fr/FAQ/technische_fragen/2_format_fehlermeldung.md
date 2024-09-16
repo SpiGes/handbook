@@ -41,14 +41,12 @@ Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec not
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-<!--{{<numberedList>}}
 {{<listItem>}}
 Existe-t-il un modèle de format pour l'importation de données dans l'application SpiGes ?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 Oui, les formats du concept d'interface doivent être repris. 
 {{</collapsibleBlock>}}
-{{</listItem>}}-->
-
+{{</listItem>}}
 
 {{</numberedList>}}
 {{</faqBlock>}}
