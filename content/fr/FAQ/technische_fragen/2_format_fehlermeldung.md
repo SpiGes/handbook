@@ -14,12 +14,12 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="format_fehlerme
 {{<listItem>}}
 Termes généraux utilisés dans les messages d'erreur
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
+
 {{<insertImage image="tf1.png" class="edge max-w-90">}}
 
-{{<markdown>}}
 Element = partie de l'enquête (par ex. Unternehmen, Standort, Fall, etc.)
 Attribut = variable (par ex. fall_id, burnr, etc.)
-{{</markdown>}}
+
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -42,9 +42,10 @@ Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec not
 {{</listItem>}}
 
 {{<listItem>}}
-Existe-t-il un modèle de format pour l'importation de données dans l'application SpiGes ?
+Que signifie le message d'erreur suivant ?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
-Oui, les formats du concept d'interface doivent être repris. 
+<!--image-->
+Par "not declared", on entend que la variable n'est pas définie (p. ex. majuscules/minuscules incorrectes pour «kanton_zusatzdaten» ; «missbildung» n'est pas une variable présente dans la description de la variable, etc.).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
