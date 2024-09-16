@@ -29,5 +29,26 @@ Comment remplir les champs correspondants pour les factures qui ne sont pas fact
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Comment les données relatives aux cas ou aux factures doivent-elles être fournies si ces dernières sont annulées au moment de l'exportation ? 
+{{<collapsibleBlock groupId="rechnungen">}}
+Les données relatives aux cas doivent être fournies. Pour les factures, il faut fournir le dernier état, c'est-à-dire rien dans le cas de factures annulées.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Comment faut-il fournir les données relatives aux cas A qui n'ont pas encore été facturés au moment de l'exportation ? 
+{{<collapsibleBlock groupId="rechnungen">}}
+Les données relatives aux cas doivent être fournies. Pour les factures, c'est le dernier état qui doit être fourni, donc rien.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Variable «rech_unfallnr» : pour les indications de ce numéro, le champ est limité à 17 caractères. Or, dans des systèmes plus anciens, des numéros de sinistre à 20 chiffres circulent également. Comment devons-nous procéder ?
+{{<collapsibleBlock groupId="rechnungen">}}
+En accord avec le Service central des tarifs médicaux LAA (SCTM), les trois premiers caractères peuvent être supprimés. Par exemple, le numéro de sinistre suivant 01.05.01.23.009999.3 serait envoyé comme numéro 05.01.23.009999.3, c'est-à-dire sans le préfixe '01.'.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

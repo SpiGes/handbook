@@ -48,7 +48,7 @@ Correct
 {{</listItem>}}
 
 {{<listItem>}}
-Dans l'exemple (voir illustration ci-dessous), nous n'avons pas de changement de site au sein du même hôpital. Comprenons-nous bien que pour l'episode_art="1", il faut toujours indiquer le numéro REE site de l'hôpital ?
+Nous n'avons par exemple pas de changement de site au sein du même hôpital. <!--Dans l'exemple (voir illustration ci-dessous), nous n'avons pas de changement de site au sein du même hôpital.--> Comprenons-nous bien que pour l'episode_art="1", il faut toujours indiquer le numéro REE site de l'hôpital ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Correct
 {{</collapsibleBlock>}}
@@ -66,6 +66,13 @@ L'indication du BURNR de l'hôpital traitant à l'extérieur est facultative, n'
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Oui, pour les traitements ambulatoires externes, le numéro REE du site de traitement peut être indiqué s'il est connu.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Variable "wiedereintritt_aufenthalt" : nous ne savons pas encore très bien ce qui doit être exporté dans la variable wiedereintritt_aufenthalt pour le type d'épisode_1 (donc lorsque le patient est présent à l'hôpital).
+{{<collapsibleBlock groupId="patientenbewegung">}}
+wiedereintritt_aufenthalt n'est rempli que pour episode_art=2, pour tous les autres episode_types, cette variable n'est pas saisie.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
