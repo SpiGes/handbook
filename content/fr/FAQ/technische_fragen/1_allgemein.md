@@ -2,7 +2,7 @@
 title: Généralités
 slug: allgemein
 description: " "
-weight: 60
+weight: 20
 type: docs
 keywords: []
 ---
@@ -89,14 +89,16 @@ Le tableau 12 Identificateurs de personnes doit être livré dans un fichier sé
 {{<listItem>}}
 Existe-t-il une possibilité pour les petits établissements de créer un fichier XML à partir d'un fichier Excel (dans lequel la CUFI est saisie). Existe-t-il un fournisseur qui prévoit de le faire ?
 {{<collapsibleBlock groupId="allgemein">}}
-Cette possibilité est actuellement examinée par l'OFS.
+Oui, il existe des fournisseurs privés qui proposent un tel outil. C'est pourquoi l'OFS ne poursuit pas actuellement cette idée.
+<!--Cette possibilité est actuellement examinée par l'OFS.-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Est-il prévu de mettre à disposition un Excel pour les coûts non reliés à un cas, dans lequel établissement peut remplir les coûts non reliés à un cas en format Excel et les exporter ensuite en format XML ? 
 {{<collapsibleBlock groupId="allgemein">}}
-La livraison séparée de différents types d'éléments XML est possible. C'est-à-dire que les unités finales d’imputation non reliées à un cas peuvent en principe être livrées dans un autre fichier que les unités finales d’imputation reliées à un cas. Nous devons encore déterminer si nous pouvons mettre à disposition un outil pour la transformation des données à partir d'un fichier Excel. 
+La livraison séparée de différents types d'éléments XML est possible. C'est-à-dire que les unités finales d’imputation non reliées à un cas peuvent en principe être livrées dans un autre fichier que les unités finales d’imputation reliées à un cas. Il existe des fournisseurs privés qui mettent à disposition un outil de conversion Excel. C'est pourquoi l'OFS ne poursuit pas actuellement cette idée.
+<!--Nous devons encore déterminer si nous pouvons mettre à disposition un outil pour la transformation des données à partir d'un fichier Excel.--> 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
