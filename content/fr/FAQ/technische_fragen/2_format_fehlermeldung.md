@@ -2,7 +2,7 @@
 title: Contrôles de format et messages d'erreur
 slug: format_fehlermeldung
 description: " "
-weight: 20
+weight: 40
 type: docs
 keywords: []
 ---
@@ -14,12 +14,11 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="format_fehlerme
 {{<listItem>}}
 Termes généraux utilisés dans les messages d'erreur
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
-
+{{<markdown>}}
+-  Element = partie de l'enquête (par ex. Unternehmen, Standort, Fall, etc.)
+-  Attribut = variable (par ex. fall_id, burnr, etc.)
+{{</markdown>}}
 {{<insertImage image="tf1.png" class="edge max-w-90">}}
-
-Element = partie de l'enquête (par ex. Unternehmen, Standort, Fall, etc.)
-Attribut = variable (par ex. fall_id, burnr, etc.)
-
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
