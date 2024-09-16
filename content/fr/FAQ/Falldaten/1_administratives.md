@@ -75,7 +75,7 @@ entrée_séjour : 84 = division/clinique de réadaptation, même établissement
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-### Variable "wohnland" (Pays de résidence)
+### Variable "wohnland" (pays de résidence)
 
 {{<listItem>}}
 La description de la variable mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
