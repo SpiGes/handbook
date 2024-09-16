@@ -79,13 +79,13 @@ Uniquement pour les traitements ambulatoires hors de la propre aire hospitalièr
 
 {{<markdown>}}
 Liste des codes
- 1 = Même aire hospitalière, autre établissement.
- 2 = Même établissement, autre aire hospitalière.
- 3 = Autre établissement, autre aire hospitalière.
- 9 = inconnu.
-{{</markdown>}}
+-  1 = Même aire hospitalière, autre établissement.
+-  2 = Même établissement, autre aire hospitalière.
+-  3 = Autre établissement, autre aire hospitalière.
+-  9 = inconnu.
 
 Les cas avec les valeurs 1 ou 3 sont enregistrés comme type_épisode=5.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
