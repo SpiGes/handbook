@@ -47,12 +47,9 @@ Si vous souhaitez maintenant enregistrer le fichier texte avec « Enregistrer so
 
 {{<listItem>}}
 Que signifie le message d'erreur suivant ?
-{{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf4.png" class="edge max-w-90">}}
-
-{{<markdown>}}
+{{<collapsibleBlock groupId="format_fehlermeldung">}}
 Par "not declared", on entend que la variable n'est pas définie (p. ex. majuscules/minuscules incorrectes pour «kanton_zusatzdaten» ; «missbildung» n'est pas une variable présente dans la description de la variable, etc.).
-{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
