@@ -2,7 +2,7 @@
 title: Contrôles de format et messages d'erreur
 slug: format_fehlermeldung
 description: " "
-weight: 60
+weight: 20
 type: docs
 keywords: []
 ---
