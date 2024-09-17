@@ -1,61 +1,61 @@
 ---
-title: Onboarding eIAM
+title: Procedura di accesso con eIAM
 slug: onboarding
-description: 'Questo capitolo contiene tutte le informazioni necessarie per collegarsi alla piattaforma SpiGes.'
+description: 'Su questa pagina sono disponibili tutte le informazioni necessarie per accedere alla piattaforma SpiGes.'
 keywords: []
 weight: 20
 type: docs
 ---
 
-In questo capitolo troverete tutti i passaggi da seguire per creare un profilo verificato che vi permetterà di connettervi alla piattaforma SpiGes.
+Nel presente capitolo sono illustrati tutti i passaggi necessari per creare un profilo verificato con il quale accedere alla piattaforma SpiGes.
 
-Per creare un CH-login con un secondo fattore forte e un'identità verificata per l'utilizzo della piattaforma SpiGes, sono necessari i seguenti passaggi:
+Per accedere a SpiGes occorre creare un CH-LOGIN con un secondo fattore di autenticazione sicuro e un’identità verificata. Per farlo sono necessari i seguenti passaggi:
 
-1. Creare un login CH. (con indirizzo e-mail professionale)
-2. Aggiunta di un secondo forte fattore di sicurezza a CH-Login.
-3. Verificare l'identità del secondo forte fattore.
-4. A bordo del login CH stabilito con SpiGes.
+1.	 creare un CH-LOGIN (con l’indirizzo e-mail aziendale);
+2.	 impostare un secondo fattore sicuro in aggiunta al CH-LOGIN;
+3.	 verificare la propria identità sul secondo fattore scelto;
+4.	 collegare (onboarding) il CH-LOGIN appena creato alla piattaforma SpiGes.
 
-Questi passaggi sono spiegati nelle pagine seguenti. Se si dispone già di un CH-Login o di un Mobile ID, non è necessario crearne uno nuovo e si può saltare il passaggio corrispondente. Tuttavia, verificate che il vostro CH-Login o Mobile ID sia funzionante.
+Ogni passaggio viene illustrato singolarmente nelle pagine successive. Se si dispone già di un account CH-LOGIN, non è necessario crearne uno nuovo e il primo passaggio può quindi essere saltato. È tuttavia importante assicurarsi che il proprio CH-LOGIN funzioni correttamente.
 
-Vi consigliamo di leggere queste pagine di istruzioni prima di provare a configurare il vostro nuovo accesso sicuro.
+Prima di tentare di configurare il proprio accesso protetto, si consiglia di leggere queste istruzioni.
 
 ## Come funziona eIAM
 
-eIAM è il sistema centrale di accesso e autorizzazione alle applicazioni web dell'Amministrazione federale. In parole povere, eIAM è l'infrastruttura di accesso centralizzata della Confederazione. Il suo scopo è quello di evitare la creazione di una procedura specifica per ogni applicazione. Questa centralizzazione consente di risparmiare denaro e di utilizzare gli stessi dati di accesso per tutte le applicazioni.
-Ogni utente che accede all'applicazione SpiGes viene automaticamente reindirizzato al portale eIAM per la procedura di autenticazione. Il sistema chiederà quindi all'utente di convalidare la connessione sul proprio telefono cellulare per verificare che si tratti effettivamente della persona giusta che sta cercando di connettersi.  
+eIAM è un sistema centralizzato di accesso e autorizzazione dell’Amministrazione federale per le applicazioni web. In parole povere, eIAM è l’infrastruttura centrale di accesso della Confederazione, il cui obiettivo è evitare una procedura di accesso diversa per ogni singola applicazione. Questa centralizzazione consente di risparmiare in termini di tempo e risorse, utilizzando gli stessi dati di accesso per tutte le applicazioni.
 
+Ogni utente che accede all’applicazione SpiGes viene automaticamente reindirizzato al portale eIAM per la procedura di autenticazione. Il sistema chiede quindi all’utente di confermare l’accesso sul proprio cellulare per assicurarsi che la persona che sta cercando di accedere sia effettivamente quella autorizzata.
 {{<alert color="warning">}}
-Poiché l'identità dell'utente deve essere verificata, gli account dell'applicazione sono personali. Lo stesso account non può essere utilizzato da più persone.
+Poiché a ogni accesso l’identità dell’utente deve essere verificata, gli account dell’applicazione sono personali. Un account non può infatti essere utilizzato da più persone.
 {{</alert>}}
 
 ## Struttura delle unità eIAM
 
-I diversi utenti della piattaforma SpiGes sono organizzati come segue:
+I vari utenti della piattaforma SpiGes sono organizzati come segue:
 
-- Cantone
-    - Aziende
-        - Siti ospedalieri
+-  Cantone
+    -  Imprese <!--Aziende-->
+        -  Sedi
 
-Un cantone contiene una o più aziende, che a loro volta contengono uno o più siti ospedalieri.  
+Un Cantone comprende una o più imprese, che a loro volta comprendono una o più sedi.
 
 {{<alert color="warning">}}
-In alcuni casi, il cantone geografico di un sito e il cantone amministrativo dell'azienda non coincidono.
+In alcuni casi, il Cantone geografico di una sede e il Cantone amministrativo dell’impresa non coincidono.
 {{</alert>}}
 
-Per esempio:
+Esempio:
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<markdown>}}
-1. In questa colonna si vede l'EntID a livello di azienda e il numero Bur a livello di sito ospedaliero.
-2. In questa colonna, si vede il cantone "amministrativo" dell'azienda/sito ospedaliero.
-3. In questa colonna, si vede il cantone geografico dell'azienda/sito ospedaliero.
+{{&lt;markdown&gt;}}
+1. nella colonna 1 è indicato l’EntID a livello di impresa e il numero RIS a livello di sede;
+2. nella colonna 2 è indicato il Cantone amministrativo (responsabile) dell’impresa o della sede dell’ospedale;
+3. nella colonna 3 viene indicato il Cantone geografico dell’impresa / della sede.
 
-Si può notare che il cantone amministrativo e il cantone geografico del sito 1 non sono gli stessi.
-{{</markdown>}}
+In questo caso si può notare che il Cantone amministrativo e quello geografico della sede 1 sono diversi.
+{{&lt;/markdown&gt;}}
 </div>
 
 <div class="right_col">
@@ -65,4 +65,4 @@ Si può notare che il cantone amministrativo e il cantone geografico del sito 1 
 
 </div>
 
-&nbsp;
+ 

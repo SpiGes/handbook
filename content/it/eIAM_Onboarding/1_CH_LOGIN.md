@@ -3,7 +3,7 @@ title: Creazione di CH-LOGIN
 slug: ch_login
 description: "In questa pagina spieghiamo come creare un CH-LOGIN, l'account che vi permetterà di accedere a eIAM. "
 keywords: []
-weight: 10
+weight: 15
 type: docs
 ---
 
