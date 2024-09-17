@@ -13,13 +13,12 @@ Il CH-LOGIN è una procedura di login fornita dal servizio standard eIAM dell’
 
 <div class="left_col">
 <!-- First column content goes here -->
-Andare su {{&lt;link url="https://www.myaccount.eiam.admin.ch/" newTab="true"&gt;}}MyAccount{{&lt;/link&gt;}} e poi cliccare su **CH-LOGIN & AGOV (eGovernment)** tra le opzioni di accesso.
+Andare su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} e poi cliccare su <strong>CH-LOGIN & AGOV (eGouvernment) tra le opzioni di accesso.
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="ch_login_wahlen.png" description="Choix connexion" class="edge max-w-90">}}
-<!--{{<insertImage image="ecran_choix_connexion_IT.png" description="Choix connexion" class="edge max-w-90">}}-->
+{{<insertImage image="ecran_choix_connexion_IT.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -37,8 +36,7 @@ Se si dispone già di un CH-LOGIN è possibile procedere con il login, altriment
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="konto_erstellen.png" description="Choix connexion" class="edge max-w-90">}}
-<!--{{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="edge max-w-90">}}-->
+{{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -50,18 +48,18 @@ Se si dispone già di un CH-LOGIN è possibile procedere con il login, altriment
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Inserire i propri dati personali. Assicurarsi di inserire le stesse informazioni riportate sul proprio documento d’identità.
 
 Inserire l’indirizzo e-mail aziendale con il quale sarà effettuato l’accesso per tutta la durata dell’utilizzo della piattaforma SpiGes. Sarà inoltre questo l’indirizzo da utilizzare in caso fosse necessario reimpostare la password.
 
 Cliccare quindi su «Accetto le condizioni di utilizzo» e su «Avanti».
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="personlichen_data.png" description="Choix connexion" class="edge max-w-90">}}
+{{<insertImage image="saisie_info_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -73,11 +71,11 @@ Cliccare quindi su «Accetto le condizioni di utilizzo» e su «Avanti».
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Viene poi inviato un codice di conferma all’indirizzo mail inserito.
 
 Inserire il codice e cliccare su «Avanti».
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">

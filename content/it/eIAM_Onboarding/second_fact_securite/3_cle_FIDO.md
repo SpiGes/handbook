@@ -32,14 +32,14 @@ Per il CH-LOGIN, eIAM supporta i seguenti tipi di chiave di sicurezza FIDO.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Effettuare l’accesso su {{&lt;link url="https://www.myaccount.eiam.admin.ch/" newTab="true"&gt;}}MyAccount{{&lt;/link&gt;}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
+<p> Effettuare l’accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
 <p> Cliccare in basso su «Modificare le impostazioni del secondo fattore». Inserire la propria password e cliccare su «Avanti». </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_de.png" class="edge max-w-90">}} 
+{{<insertImage image="modif_parametres_it.png" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -57,7 +57,7 @@ Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare s
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param_de.png" description="Activation paramètres avancés" class="edge max-w-90">}} 
+{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -70,16 +70,16 @@ Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare s
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Nella scheda «Accesso & sicurezza» è ora apparsa anche la casella «Verificare il secondo fattore».
 
 Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un accesso più sicuro».
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_de.png" description="ajout second facteur" class="edge max-w-90">}} 
+{{<insertImage image="ajout_facteur_ti.png" description="ajout second facteur" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -98,7 +98,7 @@ Selezionare l’opzione «Passkey (FIDO)» e cliccare su «Avanti».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_fido_de.png" class="edge max-w-90">}}
+{{<insertImage image="choix_fido_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -116,7 +116,7 @@ Inserire la propria password e cliccare su «Avanti».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="fido_mdp_de.png" class="edge max-w-90">}}
+{{<insertImage image="fido_mdp_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -134,7 +134,7 @@ Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti�
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu_de.png" class="edge max-w-90">}} 
+{{<insertImage image="questions_secu.png" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -152,7 +152,7 @@ Assegnare un nome alla propria chiave di sicurezza FIDO e cliccare su «Avanti»
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="nom_fido_de.png" class="edge max-w-90">}}
+{{<insertImage image="nom_fido_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
