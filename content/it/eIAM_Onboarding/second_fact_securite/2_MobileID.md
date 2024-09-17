@@ -31,7 +31,7 @@ Per attivare Mobile ID, seguire i seguenti passaggi.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Andare sul sito web di {{<link url="https://www.mobileid.ch/it" newTab="true">}}MobileID{</link>} e selezionare «Provare subito».
+Andare sul sito web di {{<link url="https://www.mobileid.ch/it" newTab="true">}}MobileID{{</link>}} e selezionare «Provare subito».
 </div>
 
 <div class="right_col">
