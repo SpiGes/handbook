@@ -1,13 +1,13 @@
 ---
 title: Onboarding con SpiGes
 slug: onboarding_SpiGes
-description: "Questa pagina spiega come collegare il CH-LOGIN con lo SpiGes."
+description: "Su questa pagina viene illustrato come collegare il proprio CH-LOGIN con SpiGes."
 keywords: []
 weight: 50
 type: docs
 ---
 
-Riceverete un'e-mail che vi inviterà a completare l'onboarding accedendo alla piattaforma di sondaggi SpiGes. 
+L’utente riceve un’e-mail che chiederà di finalizzare il collegamento (onboarding) tra il proprio CH-LOGIN e la piattaforma di rilevazione SpiGes.
 
 <!-- 1ere paire de colonnes -->
 
@@ -15,21 +15,21 @@ Riceverete un'e-mail che vi inviterà a completare l'onboarding accedendo alla p
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{<markdown>}}
-Selezionare il codice di onboarding e copiarlo con il tasto destro del mouse, quindi fare clic sul link di chiusura dell'onboarding.
+{{&lt;markdown&gt;}}
+Scegliere il proprio il codice di onboarding, copiarlo con il tasto destro del mouse e poi cliccare sul link di finalizzazione dell’onboarding.
 
-Effettuare il login utilizzando il proprio CH-LOGIN.
-{{</markdown>}}
+Effettuare l’accesso con il proprio CH-LOGIN.
+{{&lt;/markdown&gt;}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding.png" class="edge max-w-90">}}            <!-- ATTENTION image en français -->
+{{<insertImage image="mail_onboarding_de.png" class="edge max-w-90">}} 
 </div>
 
 </div>
 
-&nbsp;
+ 
 
 <!-- Deuxième paire de colonnes -->
 
@@ -37,16 +37,16 @@ Effettuare il login utilizzando il proprio CH-LOGIN.
 
 <div class="left_col">
 <!-- First column content goes here -->
-A questo punto incollate il vostro codice di onboarding, quindi cliccate su "invia codice di registrazione". 
+Inserire il codice di onboarding precedentemente copiato e inviare il codice di registrazione cliccando sull’apposito pulsante. 
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="enregistrement.png" class="edge max-w-90">}}                 <!-- ATTENTION image en français -->
+{{<insertImage image="enregistrement.png" class="edge max-w-90">}}
 </div>
 
 </div>
 
-&nbsp; 
+  
 
-Ora avete accesso alla piattaforma SpiGes. Per accedere, visitate il sito www.spiges.admin.ch
+L’accesso alla piattaforma SpiGes è ora stato attivato. Per effettuare il login, andare sul sito www.spiges.admin.ch.
