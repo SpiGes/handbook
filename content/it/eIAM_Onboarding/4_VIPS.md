@@ -10,7 +10,7 @@ type: docs
 Per poter utilizzare la piattaforma di rilevazione SpiGes è necessario far verificare la propria identità con un secondo fattore forte del CH-LOGIN. L’identità viene verificata tramite identificazione video (VIPS).
 
 {{<alert color="warning">}}
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Assicurarsi di poter utilizzare uno dei secondi fattori forti consigliati.
 
 Possono essere utilizzati i secondi fattori seguenti:
@@ -22,7 +22,7 @@ Non possono essere utilizzati i secondi fattori seguenti:
 
 – numero di telefono via SMS (mTAN);
 – app di autenticazione.
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 {{</alert>}}
 
 L’identificazione video può essere effettuata dal lunedì al sabato dalle 8:00 alle 17:00.
@@ -30,7 +30,7 @@ L’identificazione video può essere effettuata dal lunedì al sabato dalle 8:0
 Per effettuare l’identificazione video occorre il materiale seguente.
 
 – Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità audio e video.  
-– Un documento d’identità ufficiale e in corso di validità (passaporto o carta d’identità). A seconda della {{&lt;link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true"&gt;}}nazionalità{{&lt;/link&gt;}} potrebbe essere necessario il passaporto.
+– Un documento d’identità ufficiale e in corso di validità (passaporto o carta d’identità). A seconda della {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nazionalità{{</link>}} potrebbe essere necessario il passaporto.
 – Un mezzo di pagamento. Può essere utilizzato un voucher (codice buono) oppure uno dei seguenti mezzi di pagamento: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express o PayPal.
 
 <!-- 1ere paire de colonnes -->
@@ -39,14 +39,14 @@ Per effettuare l’identificazione video occorre il materiale seguente.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Per effettuare l’identificazione video, accedere a {{&lt;link url="https://www.myaccount.eiam.admin.ch/" newTab="true"&gt;}}MyAccount{{&lt;/link&gt;}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
+<p> Per effettuare l’identificazione video, accedere a {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
 <p> Scorrere la pagina fino alla sezione «Gestione del secondo fattore» e nel riquadro «Verificare un secondo fattore» cliccare su «Selezionare il secondo fattore». </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_second_facteur_de.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -59,16 +59,16 @@ Per effettuare l’identificazione video occorre il materiale seguente.
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Selezionare il secondo fattore da verificare (Mobile ID o Passkey FIDO) e cliccare su «Avanti».
 
 Confermare poi la selezione cliccando su «Verifica».
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_mobileid_de.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="selection_mobileid.png" description="Choix connexion" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -81,16 +81,16 @@ Confermare poi la selezione cliccando su «Verifica».
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Inserire la propria password e cliccare su «Avanti».
 
 Cliccare poi di nuovo su «Avanti» per avviare la procedura di autentificazione video.
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="vips_saisie_mdp_de.png" description="Choix connexion" class="edge max-w-90">}}
+{{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -103,16 +103,16 @@ Cliccare poi di nuovo su «Avanti» per avviare la procedura di autentificazione
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Compilare con i propri dati personali facendo attenzione ad inserire le stesse informazioni riportate sul proprio documento d’identità.
 
 Selezionare la casella «Accetto che i miei dati siano condivisi...» e cliccare su «Avanti».
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_donnees_perso_de.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -125,11 +125,11 @@ Selezionare la casella «Accetto che i miei dati siano condivisi...» e cliccare
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Rileggere e verificare i dati inseriti per assicurarsi di aver immesso esattamente le stesse informazioni contenute nei documenti d’identità. Se necessario, correggere le informazioni tornando indietro.
 
 Se tutti i dati inseriti sono corretti, cliccare su «Avanti».
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -147,11 +147,11 @@ Se tutti i dati inseriti sono corretti, cliccare su «Avanti».
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Si viene poi reindirizzati sul sito di Adnovum per eseguire l’identificazione video.
 
 Spuntare le caselle «Confermo di aver letto e compreso le condizioni di utilizzo e dichiaro esplicitamente di accettarle» e «Ho letto il regolamento sulla protezione dei dati», quindi cliccare su «Avvia l’identificazione video».
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -169,11 +169,11 @@ Spuntare le caselle «Confermo di aver letto e compreso le condizioni di utilizz
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Ci sono due possibilità per effettuare il pagamento per l’identificazione video: un voucher (codice buono) oppure un pagamento convenzionale.
 
 Selezionare l’opzione desiderata e poi seguire le istruzioni sullo schermo.
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
@@ -251,7 +251,7 @@ Una volta completata l’identificazione video, il secondo fattore viene visuali
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_verifie_de.png" description="Choix connexion" class="edge max-w-90">}}  
+{{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="edge max-w-90">}}  
 </div>
 
 </div>

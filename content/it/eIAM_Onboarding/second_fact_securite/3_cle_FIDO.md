@@ -79,7 +79,7 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_ti.png" description="ajout second facteur" class="edge max-w-90">}} 
+{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}} 
 </div>
 
 </div>

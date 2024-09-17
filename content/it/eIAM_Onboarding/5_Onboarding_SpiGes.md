@@ -15,16 +15,16 @@ L’utente riceve un’e-mail che chiederà di finalizzare il collegamento (onbo
 
 <div class="left_col">
 <!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<markdown>}}
 Scegliere il proprio il codice di onboarding, copiarlo con il tasto destro del mouse e poi cliccare sul link di finalizzazione dell’onboarding.
 
 Effettuare l’accesso con il proprio CH-LOGIN.
-{{&lt;/markdown&gt;}}
+{{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding_de.png" class="edge max-w-90">}} 
+{{<insertImage image="mail_onboarding.png" class="edge max-w-90">}} 
 </div>
 
 </div>
