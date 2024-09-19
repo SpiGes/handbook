@@ -69,7 +69,8 @@ Variable «behandlung_auswaerts»: Können Sie die Zuordnung der Ausprägungen d
   BURGESV = Spital/Betrieb  
 
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
-Definition der Variable «behandlung_auswaerts»\
+{{<markdown>}}
+Definition der Variable «behandlung_auswaerts»
 Nur bei ambulanten Behandlungen ausserhalb des eigenen Krankenhausareals anzugeben.
 
 - gleicher Betrieb = gleiche BUR_GESV
@@ -81,7 +82,7 @@ Ausprägungen:
 3 = ausserhalb eigenem Krankenhausareal, anderer Betrieb  
 9 = unbekannt
 Die Fälle mit den Ausprägungen 1 oder 3 werden als episode_art=5 erfasst.
-
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
