@@ -28,9 +28,10 @@ Quelles erreurs provoquent le message d'erreur « erreur de serveur interne 500 
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouverez ici :
 {{<markdown>}}
+
 1. fichier vide
 2. fichier trop grand
-3. en-tête incorrect 
+3. en-tête incorrect
 4. non codé en UTF 8
 
 En-tête :
@@ -55,7 +56,7 @@ Par "not declared", on entend que la variable n'est pas définie (p. ex. majuscu
 {{</listItem>}}
 
 {{<listItem>}}
-Messages d'erreur indiquant que le format ou l'expression est incorrect : 
+Messages d'erreur indiquant que le format ou l'expression est incorrect :
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
@@ -65,9 +66,9 @@ Messages d'erreur indiquant que le format ou l'expression est incorrect :
 Messages d'erreur lorsque les parties du relevé (elements) sont mélangées en ce qui concerne la structure ou l'ordre :
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf6.png" class="edge max-w-90">}}
-Par exemple, l'élément Opérateur est ici placé sous le cas au même titre que Traitement. 
+Par exemple, l'élément Opérateur est ici placé sous le cas au même titre que Traitement.
 {{<insertImage image="tf7.png" class="edge max-w-90">}}
-L'élément Opérateur est un enfant du traitement et devrait être structuré de la sorte : 
+L'élément Opérateur est un enfant du traitement et devrait être structuré de la sorte :
 {{<insertImage image="tf8.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
