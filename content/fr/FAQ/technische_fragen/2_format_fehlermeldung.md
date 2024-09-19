@@ -35,10 +35,10 @@ L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouver
 4. non codé en UTF 8
 
 En-tête :
-
-<?xml version=« 1.0 » encoding=« UTF-8 »?>
-<Entreprise xmlns:xsi=« http://www.w3.org/2001/XMLSchema-instance » xmlns=« http://www.bfs.admin.ch/xmlns/gvs/spiges-data/1.3 » ent_id=« xxxxxxx » version=« 1.3 »>
-
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<Entreprise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data/1.3" ent_id="xxxxxxx" version="1.3">
+```
 Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec notepad ou text editor. L'encodage est affiché en bas à droite.
 {{<insertImage image="tf2.png" class="edge max-w-90">}}
 Si vous souhaitez maintenant enregistrer le fichier texte avec « Enregistrer sous », vous pouvez également modifier le codage. Sélectionnez maintenant utf-8 sous Codage et enregistrez le fichier.
