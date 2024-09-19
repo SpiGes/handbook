@@ -84,7 +84,7 @@ La description de la variable mentionne une répartition séparée des pays extr
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
-- La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste : 
+- La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :
 {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html" newTab="true">}}ici{{</link>}}.
 - Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres.
 {{</markdown>}}
