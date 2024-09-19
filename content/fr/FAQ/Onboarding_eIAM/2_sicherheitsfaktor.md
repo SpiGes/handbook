@@ -14,16 +14,18 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="Zweiter_sicherh
 {{<listItem>}}
 Quels sont les deuxièmes facteurs de sécurité que je peux utiliser ?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
--   Un deuxième facteur fort est nécessaire pour accéder à la plateforme SpiGes. Les deuxièmes facteurs suivants sont considérés comme forts : le Mobile ID et la clé FIDO (clé physique ou Windows Hello). 
--   mTAN ou App authenticator (souvent déjà installés pour le relevé KS) ne sont pas des deuxièmes facteurs assez forts pour SpiGes. 
+
+- Un deuxième facteur fort est nécessaire pour accéder à la plateforme SpiGes. Les deuxièmes facteurs suivants sont considérés comme forts : le Mobile ID et la clé FIDO (clé physique ou Windows Hello).
+- mTAN ou App authenticator (souvent déjà installés pour le relevé KS) ne sont pas des deuxièmes facteurs assez forts pour SpiGes.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 L'identification vidéo est-elle obligatoire pour l'utilisation de la plateforme de collecte de données SpiGes ?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
--  Oui. Sans l'identification vidéo, vous n'atteignez pas le niveau QoA 50 (Quality of Authentication) requis pour accéder à la plateforme d'enquête SpiGes. Pour atteindre ce niveau de qualité d'authentification, l'utilisateur doit disposer d'une identité électronique vérifiée et pas seulement d'une identité auto-enregistrée.
--  Il est important de faire l’identification vidéo sur le deuxième facteur fort (cf. question précédente). Une identification vidéo faite sur mTAN ou App authenticator ne permet pas d’accéder à SpiGes. 
+
+- Oui. Sans l'identification vidéo, vous n'atteignez pas le niveau QoA 50 (Quality of Authentication) requis pour accéder à la plateforme d'enquête SpiGes. Pour atteindre ce niveau de qualité d'authentification, l'utilisateur doit disposer d'une identité électronique vérifiée et pas seulement d'une identité auto-enregistrée.
+- Il est important de faire l’identification vidéo sur le deuxième facteur fort (cf. question précédente). Une identification vidéo faite sur mTAN ou App authenticator ne permet pas d’accéder à SpiGes.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

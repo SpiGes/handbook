@@ -35,7 +35,7 @@ Les critères suivants sont recommandés pour l'ordre des traitements :
 {{<listItem>}}
 Variable «behandlung_chop» : les traitements doivent-ils être livrés avec ou sans points ?
 {{<collapsibleBlock groupId="behandlungen">}}
-Sans points. 
+Sans points.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -62,9 +62,10 @@ La notion d'areal d'hospitalisation est floue. Nous avons fait le schéma suivan
 
 {{<markdown>}}
   Legende:  
-  -  BUR = site
-  -  Areal = aire  
-  -  BURGESV = hôpital/établissement
+
+- BUR = site
+- Areal = aire  
+- BURGESV = hôpital/établissement
 {{</markdown>}}
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
 
@@ -73,16 +74,17 @@ Traitements ambulatoires extra-muros
 
 Uniquement pour les traitements ambulatoires hors de la propre aire hospitalière ou dans un établissement tiers. Le champ est laissé vide lorsque la question ne se pose pas (traitement au sein du propre établissement).
 
--  Propre établissement = No Bur GESV identique
--  Etablissement tiers = No Bur GESV différent
+- Propre établissement = No Bur GESV identique
+- Etablissement tiers = No Bur GESV différent
 {{</markdown>}}
 
 {{<markdown>}}
 Liste des codes
--  1 = Même aire hospitalière, autre établissement.
--  2 = Même établissement, autre aire hospitalière.
--  3 = Autre établissement, autre aire hospitalière.
--  9 = inconnu.
+
+- 1 = Même aire hospitalière, autre établissement.
+- 2 = Même établissement, autre aire hospitalière.
+- 3 = Autre établissement, autre aire hospitalière.
+- 9 = inconnu.
 
 Les cas avec les valeurs 1 ou 3 sont enregistrés comme type_épisode=5.
 {{</markdown>}}

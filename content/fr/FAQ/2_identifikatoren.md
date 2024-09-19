@@ -14,7 +14,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="identifikatoren
 {{<listItem>}}
 Le numéro AVS est un champ obligatoire. Malgré tout, il y aura des cas sans numéro AVS. Où est décrit ce qui doit être mis dans la variable dans ce cas ?
 {{<collapsibleBlock groupId="identifikatoren">}}
-Si le numéro AVS est inconnu, nous nous basons sur le Forum Datenaustausch, qui utilise la valeur fictive «7569999999991». 
+Si le numéro AVS est inconnu, nous nous basons sur le Forum Datenaustausch, qui utilise la valeur fictive «7569999999991».
 <!--Précisément cette question est encore ouverte. Dans la description des variables, on peut lire : «Remarque : en ce qui concerne les personnes qui ne peuvent pas avoir de numéro AVS, des clarifications sont encore en cours (voir aussi la colonne "A indiquer pour")». A court terme, il est envisagé de laisser la variable vide dans ce cas ou d'indiquer un numéro fictif. Mais certains cantons frontaliers se sont fortement opposés à cette idée, raison pour laquelle cette question sera encore clarifiée plus en détail à long terme.-->
 {{</collapsibleBlock>}}
 {{</listItem>}}

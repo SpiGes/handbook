@@ -56,10 +56,11 @@ Rapatriement d'un patient ou d'une patiente avec une résidence principale suiss
 Comment est défini un « transfert » ? (p. ex. les codes «5 = transfert dans les 24 heures» et «6 = retransfert» de la variable type d'admission).
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
-- La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (REEGESV), mais dans un autre hôpital (deux REEGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici:  <a href="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions"> https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions </a>. 
+
+- La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (REEGESV), mais dans un autre hôpital (deux REEGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici:  <a href="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions"> https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions </a>.
 -	Bei der Eintrittsart «6=Rückverlegung» wurde von der SwissDRG AG folgende Spezifizierung kommuniziert: Bei ununterbrochenem Spitalaufenthalt in einem anderen Spital von mehr als 18 Tagen und Rückkehr in das ursprüngliche Spital.
--   Selon SwissDRG SA, le retransfert n'est utilisé comme type d'entrée que si le patient a séjourné plus de 18 jours dans un autre hôpital et qu'il y retourne, ouvrant ainsi un nouveau cas. 
--   Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du type d'entrée de sa première entrée, car il est regroupé.
+- Selon SwissDRG SA, le retransfert n'est utilisé comme type d'entrée que si le patient a séjourné plus de 18 jours dans un autre hôpital et qu'il y retourne, ouvrant ainsi un nouveau cas.
+- Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du type d'entrée de sa première entrée, car il est regroupé.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -81,8 +82,9 @@ entrée_séjour : 84 = division/clinique de réadaptation, même établissement
 La description de la variable mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
-- La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste : [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html) 
-- Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres. 
+
+- La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste : [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html)
+- Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -100,6 +102,7 @@ La formulation peut en effet porter à confusion. Pour qu'il n'y ait pas de miss
 Selon notre administration des patients, il est difficile d'obtenir l'information pour les cas avec une "assurance Flex" et de la consigner avec "8 = autre".  Y a-t-il un problème lors des analyses ultérieures ou quelles sont les conséquences sur les statistiques si nous n'indiquons pas (ou ne pouvons pas indiquer) "8=autres" ?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
+
 - Les cas Flex et tous les autres modèles d'assurance qui deviennent de plus en plus populaires ne sont pas faciles à représenter. Malgré ces difficultés, d’un point de vue statistique, cela n’est pas dramatique pour la variable Classe d'assurance si l’information n’est pas sure. En cas de doute, ces cas devraient être représentés en tant que semi-privés.
 - La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l’ITAR_K®.
 {{</markdown>}}  

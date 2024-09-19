@@ -14,7 +14,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="allgemein">}}
 {{<listItem>}}
 Existe-t-il un modèle de format pour l'importation de données dans l'application SpiGes ?
 {{<collapsibleBlock groupId="allgemein">}}
-Oui, les formats du concept d'interface doivent être repris. 
+Oui, les formats du concept d'interface doivent être repris.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -85,7 +85,6 @@ Le tableau 12 Identificateurs de personnes doit être livré dans un fichier sé
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-
 {{<listItem>}}
 Existe-t-il une possibilité pour les petits établissements de créer un fichier XML à partir d'un fichier Excel (dans lequel la CUFI est saisie). Existe-t-il un fournisseur qui prévoit de le faire ?
 {{<collapsibleBlock groupId="allgemein">}}
@@ -95,10 +94,10 @@ Oui, il existe des fournisseurs privés qui proposent un tel outil. C'est pourqu
 {{</listItem>}}
 
 {{<listItem>}}
-Est-il prévu de mettre à disposition un Excel pour les coûts non reliés à un cas, dans lequel établissement peut remplir les coûts non reliés à un cas en format Excel et les exporter ensuite en format XML ? 
+Est-il prévu de mettre à disposition un Excel pour les coûts non reliés à un cas, dans lequel établissement peut remplir les coûts non reliés à un cas en format Excel et les exporter ensuite en format XML ?
 {{<collapsibleBlock groupId="allgemein">}}
 La livraison séparée de différents types d'éléments XML est possible. C'est-à-dire que les unités finales d’imputation non reliées à un cas peuvent en principe être livrées dans un autre fichier que les unités finales d’imputation reliées à un cas. Il existe des fournisseurs privés qui mettent à disposition un outil de conversion Excel. C'est pourquoi l'OFS ne poursuit pas actuellement cette idée.
-<!--Nous devons encore déterminer si nous pouvons mettre à disposition un outil pour la transformation des données à partir d'un fichier Excel.--> 
+<!--Nous devons encore déterminer si nous pouvons mettre à disposition un outil pour la transformation des données à partir d'un fichier Excel.-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -113,8 +112,9 @@ Il y aura plusieurs fichiers d'exportation. D'une part, il sera possible d'expor
 Dans le format XML, l'ordre des variables au sein d'une ligne joue-t-il un rôle ?
 {{<collapsibleBlock groupId="allgemein">}}
 {{<markdown>}}
+
 - L'ordre des éléments est prédéfini et ne peut pas être modifié. Les éléments peuvent tout au plus être omis. Ainsi, pour l'élément «cas», les sous-éléments doivent toujours être indiqués dans l'ordre suivant : «administratif», «nouveau-nés», «psychiatrie», «CUFI cas», «diagnostics», «traitements», «médicaments», «facture», «mouvement des patients» et «données cantonales».  
-- L'ordre des attributs peut en revanche être choisi librement. Ainsi, par exemple, dans l'élément «administratif», il est possible d'indiquer aussi bien «...sexe="2" âge="37"...» que «...âge="37" sexe="2"...». 
+- L'ordre des attributs peut en revanche être choisi librement. Ainsi, par exemple, dans l'élément «administratif», il est possible d'indiquer aussi bien «...sexe="2" âge="37"...» que «...âge="37" sexe="2"...».
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -129,7 +129,7 @@ Oui, les variables peuvent être manquantes. Certaines variables doivent cependa
 {{<listItem>}}
 Les variables qui n'ont pas de contenu peuvent-elles être fournies avec une valeur NULL (p. ex. des lignes KTR complètes avec des NULL dans les variables où il n'y a rien) ?
 {{<collapsibleBlock groupId="allgemein">}}
-Cela dépend des variables. Pour les variables KTR, il est possible de saisir toutes les variables avec la valeur "0". Les variables vides ("") ou les valeurs nulles ("NULL") ne sont toutefois pas autorisées. Si vous souhaitez le vérifier concrètement, vous pouvez valider votre fichier XML par rapport à la définition XSD. Il existe pour cela des outils gratuits en ligne. Veuillez noter qu'aucune donnée réelle ne peut être téléchargée sur de telles plateformes. Vous pouvez toutefois vérifier des exemples de fichiers fictifs. La plateforme SpiGes proposera également une telle validation. 
+Cela dépend des variables. Pour les variables KTR, il est possible de saisir toutes les variables avec la valeur "0". Les variables vides ("") ou les valeurs nulles ("NULL") ne sont toutefois pas autorisées. Si vous souhaitez le vérifier concrètement, vous pouvez valider votre fichier XML par rapport à la définition XSD. Il existe pour cela des outils gratuits en ligne. Veuillez noter qu'aucune donnée réelle ne peut être téléchargée sur de telles plateformes. Vous pouvez toutefois vérifier des exemples de fichiers fictifs. La plateforme SpiGes proposera également une telle validation.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -144,8 +144,9 @@ Un outil de contrôle sera mis à disposition via API (Application Programming I
 Sait-on déjà quelle sera la procédure concernant les données supplémentaires cantonales ? Plusieurs cantons (par ex. LU, GR, VS et VD) disposent déjà d'une ligne MK. En outre, les cantons de ZH et BE collectent également des données supplémentaires dans le cadre du SDEP. Savez-vous déjà si ces données seront intégrées dans l'exportation SpiGes ou si elles devront être exportées séparément ?
 {{<collapsibleBlock groupId="allgemein">}}
 {{<markdown>}}
-- Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html) 
-- Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons. 
+
+- Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
+- Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons.
 - Les données cantonales ne peuvent être exportées que par l'hôpital lui-même et par le canton. Il est probable que les données cantonales pour ces utilisateurs soient contenues dans le même fichier XML que les autres données.
 {{</markdown>}}
 {{</collapsibleBlock>}}
@@ -166,11 +167,12 @@ N10.2 désigne un nombre de 10 chiffres au total, dont 2 chiffres après la virg
 {{</listItem>}}
 
 {{<listItem>}}
-Nouvelles variables medi_id et rech_id : d'après la description, nous ne savons pas s'il s'agit de numéros d'ordre ou d'ID réels du système. Si oui, lesquelles ? En ce qui concerne medi_id, nous avons tout de suite pensé au code ATC_, mais il existe une variable supplémentaire pour cela. 
+Nouvelles variables medi_id et rech_id : d'après la description, nous ne savons pas s'il s'agit de numéros d'ordre ou d'ID réels du système. Si oui, lesquelles ? En ce qui concerne medi_id, nous avons tout de suite pensé au code ATC_, mais il existe une variable supplémentaire pour cela.
 {{<collapsibleBlock groupId="allgemein">}}
 {{<markdown>}}
-- Il s'agit, pour les deux nouvelles variables "medi_id" et "rech_id", d'identifiants qui sont nécessaires pour des raisons techniques afin d'assurer une attribution claire. Ceux-ci ne doivent pas obligatoirement commencer par 1, mais ils doivent être uniques pour chaque cas. 
-- Le fichier modèle XML 1.3, que vous trouverez sur notre site , contient également un exemple. medi_id ="1" contient l'information selon laquelle il s'agit du premier médicament hautement coûteux selon les directives de SwissDRG SA pour ce cas spécifique. 
+
+- Il s'agit, pour les deux nouvelles variables "medi_id" et "rech_id", d'identifiants qui sont nécessaires pour des raisons techniques afin d'assurer une attribution claire. Ceux-ci ne doivent pas obligatoirement commencer par 1, mais ils doivent être uniques pour chaque cas.
+- Le fichier modèle XML 1.3, que vous trouverez sur notre site , contient également un exemple. medi_id ="1" contient l'information selon laquelle il s'agit du premier médicament hautement coûteux selon les directives de SwissDRG SA pour ce cas spécifique.
 {{</markdown>}}
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}

@@ -15,8 +15,9 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="format_fehlerme
 Termes généraux utilisés dans les messages d'erreur
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<markdown>}}
--  Element = partie de l'enquête (par ex. Unternehmen, Standort, Fall, etc.)
--  Attribut = variable (par ex. fall_id, burnr, etc.)
+
+- Element = partie de l'enquête (par ex. Unternehmen, Standort, Fall, etc.)
+- Attribut = variable (par ex. fall_id, burnr, etc.)
 {{</markdown>}}
 {{<insertImage image="tf1.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}

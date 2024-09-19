@@ -30,14 +30,14 @@ Comment remplir les champs correspondants pour les factures qui ne sont pas fact
 {{</listItem>}}
 
 {{<listItem>}}
-Comment les données relatives aux cas ou aux factures doivent-elles être fournies si ces dernières sont annulées au moment de l'exportation ? 
+Comment les données relatives aux cas ou aux factures doivent-elles être fournies si ces dernières sont annulées au moment de l'exportation ?
 {{<collapsibleBlock groupId="rechnungen">}}
 Les données relatives aux cas doivent être fournies. Pour les factures, il faut fournir le dernier état, c'est-à-dire rien dans le cas de factures annulées.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Comment faut-il fournir les données relatives aux cas A qui n'ont pas encore été facturés au moment de l'exportation ? 
+Comment faut-il fournir les données relatives aux cas A qui n'ont pas encore été facturés au moment de l'exportation ?
 {{<collapsibleBlock groupId="rechnungen">}}
 Les données relatives aux cas doivent être fournies. Pour les factures, c'est le dernier état qui doit être fourni, donc rien.
 {{</collapsibleBlock>}}
