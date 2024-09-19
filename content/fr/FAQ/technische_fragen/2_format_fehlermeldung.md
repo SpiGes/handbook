@@ -36,7 +36,7 @@ L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouver
 
 En-tête :
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Entreprise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data/1.3" ent_id="xxxxxxx" version="1.3">
 ```
