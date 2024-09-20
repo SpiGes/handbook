@@ -27,56 +27,24 @@ Im Januar 2023 haben wir ein Informationsveranstaltung Richtung KIS Hersteller (
 
 {{<listItem>}}
 Gemäss Variablenliste 1.3 gibt es folgende Tabellen
-<table>
-  <tr>
-    <td> 1 </td>
-    <td> Administratives </td>
-  </tr>
-  <tr>
-    <td> 2 </td>
-    <td> Neugeborene </td>
-  </tr>
-  <tr>
-    <td> 3 </td>
-    <td> Psychiatrie </td>
-  </tr>
-  <tr>
-    <td> 4 </td>
-    <td> KTR </td>
-  </tr>
-  <tr>
-    <td> 5 </td>
-    <td> Diagnosen </td>
-  </tr>
-  <tr>
-    <td> 6 </td>
-    <td> Behandlungen </td>
-  </tr>
-  <tr>
-    <td> 7 </td>
-    <td> Operierende </td>
-  </tr>
-  <tr>
-    <td> 8 </td>
-    <td> Medikamente </td>
-  </tr>
-  <tr>
-    <td> 9 </td>
-    <td> Rechnungen </td>
-  </tr>
-  <tr>
-    <td> 10 </td>
-    <td> Patientenbewegungen </td>
-  </tr>
-  <tr>
-    <td> 11 </td>
-    <td> Kantonsdaten </td>
-  </tr>
-  <tr>
-    <td> 12 </td>
-    <td> Patientenidentifikator </td>
-  </tr>
-</table>
+{{<markdown>}}
+|||
+|-----------|-----------|
+| 1 | Administratives |
+| 2 | Neugeborene |
+| 3 | Psychiatrie |
+| 4 | KTR |
+| 5 | Diagnosen |
+| 6 | Behandlungen |
+| 7 | Operierende |
+| 8 | Medikamente |
+| 9 | Rechnungen |
+| 10 | Patientenbewegungen |
+| 11 | Kantonsdaten |
+| 12 | Patientenidentifikator |
+
+{{</markdown>}}
+
 Kann man unter SpiGes diese Tabellen alle als einzelnes xml-File abgeben?
 {{<collapsibleBlock groupId="allgemein">}}
 {{<markdown>}}
