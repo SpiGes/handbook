@@ -62,12 +62,14 @@ Variable «behandlung_auswaerts»: Können Sie die Zuordnung der Ausprägungen d
 {{<collapsibleBlock groupId="behandlungen">}}
 
 - Der Begriff Krankenhausareal ist unscharf. Wir haben hierzu folgendes Schema gemacht:
+{{<markdown>}}
 
   Legende:  
   BUR = Standort  
   Areal = Areal  
-  BURGESV = Spital/Betrieb  
-
+  BURGESV = Spital/Betrieb
+  
+{{</markdown>}}
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
 {{<markdown>}}
 Definition der Variable «behandlung_auswaerts»
