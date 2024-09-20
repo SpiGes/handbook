@@ -26,7 +26,7 @@ Im Januar 2023 haben wir ein Informationsveranstaltung Richtung KIS Hersteller (
 {{</listItem>}}
 
 {{<listItem>}}
-Gemäss Variablenliste 1.3 gibt es folgende Tabellen 
+Gemäss Variablenliste 1.3 gibt es folgende Tabellen
 <table>
   <tr>
     <td> 1 </td>
