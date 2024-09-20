@@ -38,7 +38,12 @@ Kopfzeile:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<Entreprise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data/1.3" ent_id="xxxxxxx" version="1.3">
+<Entreprise 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data/1.3" 
+    ent_id="xxxxxxx" 
+    version="1.3"
+>
 ```
 
 Um zu testen, ob ihr file mit utf 8 codiert wurde, können sie dieses mit notepad oder text editor öffnen. Unten rechts wird das encoding angezeigt.
