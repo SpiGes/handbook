@@ -28,14 +28,13 @@ Welche Fehler verursachen die Fehlermeldung «interner Serverfehler 500»?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 Beim internen Serverfehler 500 gibt es verschiedene Ursachen, welche Sie hier aufgeführt finden:
 {{<markdown>}}
-
 1. Datei leer
 2. Datei zu gross
 3. Kopfzeile falsch
 4. Nicht mit UTF 8 codiert
-
+{{</markdown>}}
+<br />
 Kopfzeile:
-
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Entreprise 
@@ -50,7 +49,6 @@ Um zu testen, ob ihr file mit utf 8 codiert wurde, können sie dieses mit notepa
 {{<insertImage image="tf2.png" class="edge max-w-90">}}
 Wenn Sie nun das Textfile mit «Speichern unter» speichern wollen, können Sie die Codierung gleich mit ändern. Wählen Sie nun unter Codierung utf-8 aus und speichern Sie das File.
 {{<insertImage image="tf3.png" class="edge max-w-90">}}
-{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

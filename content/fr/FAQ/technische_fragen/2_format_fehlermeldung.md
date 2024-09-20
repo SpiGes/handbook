@@ -33,7 +33,7 @@ L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouver
 3. en-tête incorrect
 4. non codé en UTF 8
 {{</markdown>}}
-
+<br />
 En-tête :
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -42,6 +42,7 @@ En-tête :
     xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data/1.3" 
     ent_id="xxxxxxx" 
     version="1.3"
+>
 ```
 
 Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec notepad ou text editor. L'encodage est affiché en bas à droite.
