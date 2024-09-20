@@ -79,9 +79,7 @@ Selon la liste de variables 1.3, il existe les tableaux suivants
 </table>
 Est-il possible de livrer ces tableaux sous forme de fichiers xml individuels à la plateforme SpiGes ?
 {{<collapsibleBlock groupId="allgemein">}}
-{{<markdown>}}
-Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre site web [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html).
-{{</markdown>}}
+Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html" newTab="true">}}site web{{</link>}}.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -182,6 +180,8 @@ Nouvelles variables medi_id et rech_id : d'après la description, nous ne savons
 Dans les fichiers d'exemple pour le fichier des identificateurs et le fichier des données, il y a deux champs pour la version. Or, ces versions ne correspondent pas. Ainsi, la version 1.0 est indiquée dans l'en-tête et la version 1.3 dans le tag Entreprise. Pourquoi les numéros de version sont-ils différents ? Comment savoir quand indiquer quel numéro de version ?
 {{<collapsibleBlock groupId="allgemein">}}
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
+
+
 "?xml version="1.0″" se trouve toujours ainsi . La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
 {{</collapsibleBlock>}}
 {{</listItem>}}

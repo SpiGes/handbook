@@ -47,10 +47,7 @@ Gemäss Variablenliste 1.3 gibt es folgende Tabellen
 
 Kann man unter SpiGes diese Tabellen alle als einzelnes xml-File abgeben?
 {{<collapsibleBlock groupId="allgemein">}}
-{{<markdown>}}
-	Die Tabelle 12 Personenidentifikatoren muss in einem separaten File geliefert werden (aus Datenschutzgründen). Für die restlichen Tabellen ist ein anderes File definiert, welches aber Teillieferungen unterstützt. Theoretisch ist es also möglich, alle Tabellen in einem einzelnen XML-File als Teillieferungen zu liefern. Wir empfehlen dies jedoch nicht, da dies eine aufwändige Abstimmung der verschiedenen Tabellen erfordert (Sicherstellen, dass die Informationen zu allen Fällen in allen Files vorhanden sind).  Genauere Informationen zu diesem Thema finden Sie in der Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform auf unserer Webseite.  
-[https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html).
-{{</markdown>}}
+Die Tabelle 12 Personenidentifikatoren muss in einem separaten File geliefert werden (aus Datenschutzgründen). Für die restlichen Tabellen ist ein anderes File definiert, welches aber Teillieferungen unterstützt. Theoretisch ist es also möglich, alle Tabellen in einem einzelnen XML-File als Teillieferungen zu liefern. Wir empfehlen dies jedoch nicht, da dies eine aufwändige Abstimmung der verschiedenen Tabellen erfordert (Sicherstellen, dass die Informationen zu allen Fällen in allen Files vorhanden sind).  Genauere Informationen zu diesem Thema finden Sie in der Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform auf unserer {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html" newTab="true">}}Webseite{{</link>}}.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -129,9 +126,9 @@ Nein, die Plattform bietet keine Möglichkeit, Daten einzugeben oder zu korrigie
 {{</listItem>}}
 
 {{<listItem>}}
-77.86.	Neue Formate: Es gibt neue Formate. Beispielweise bei rech_betrag. Das Format lautet N10.2 Wir vermuten, es handelt sich hierbei um die Angabe von Dezimalstellen. In diesem Fall 2 Dezimalstellen und eine Gesamtlänge von 12. Ist dies korrekt?
+Es gibt neue Formate. Beispielweise bei rech_betrag. Das Format lautet N10.2 Wir vermuten, es handelt sich hierbei um die Angabe von Dezimalstellen. In diesem Fall 2 Dezimalstellen und eine Gesamtlänge von 12. Ist dies korrekt?
 {{<collapsibleBlock groupId="allgemein">}}
-Nicht ganz. N10.2 bezeichnet eine Zahl mit insgesamt 10 Stellen, davon 2 Nachkommastellen (und ergo max. 8 Vorkommastellen).
+N10.2 bezeichnet eine Zahl mit insgesamt 10 Stellen, davon 2 Nachkommastellen (und ergo max. 8 Vorkommastellen).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -151,6 +148,8 @@ Neue Variablen medi_id und rech_id: Aus der Beschreibung sind wir uns nicht sich
 In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es zwei Felder für die Version. Diese Versionen stimmen aber nicht überein. So wird im Header die Version 1.0 angegeben und beim Tag Unternehmen die Version 1.3. Warum sind die Versionsnummern unterschiedlich? Woher wissen wir wann welche Versionsnummer anzugeben ist?
 {{<collapsibleBlock groupId="allgemein">}}
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
+
+
 «?xml version=“1.0″» steht immer so. Die oberste Version bezieht sich also auf das «XML» selbst, und die untere auf das spezifische SpiGes XML.
 {{</collapsibleBlock>}}
 {{</listItem>}}

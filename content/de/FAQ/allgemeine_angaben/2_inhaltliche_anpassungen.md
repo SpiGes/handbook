@@ -33,9 +33,7 @@ Welche Variablen ändern sich mit SpiGes?
 {{<listItem>}}
 Welche Auswirkungen hat SpiGes auf die Kodierrichtlinien?
 {{<collapsibleBlock groupId="anpassungen">}}
-{{<markdown>}}
 Diese Informationen finden Sie im {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html" newTab="true">}}Kodierungshandbuch{{</link>}}.
-{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

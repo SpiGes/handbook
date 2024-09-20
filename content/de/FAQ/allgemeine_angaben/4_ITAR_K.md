@@ -15,7 +15,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="ITARK">}}
 {{<listItem>}}
 SpiGes erhebt nur Informationen zu den stationären Fällen. Wie kann der ambulante Teil des ITAR_K® ausgefüllt werden?
 {{<collapsibleBlock groupId="ITARK">}}
-ITAR_K kann mit den SpiGes Daten erstellt werden. Die ambulanten Angaben werden in den dafür vorgesehenen KTR Typen erhoben (z.B. Tarif Labor).
+ITAR_K® kann mit den SpiGes Daten erstellt werden. Die ambulanten Angaben werden in den dafür vorgesehenen KTR Typen erhoben (z.B. Tarif Labor).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -34,7 +34,7 @@ Bei dieser Frist müssen die Kostendaten erstmals automatisch auf der SpiGes Pla
 {{</listItem>}}
 
 {{<listItem>}}
-Wir finden keine SpiGes-Variable, die es ermöglichen würde, die direkt mit einem Fall verbundenen GWL-Einnahmen/Kosten in die dafür vorgesehene GWL Spalte im ITAR_K zu überführen. Wie wird die GWL-Spalte von ITAR_K® mit den SpiGes Daten berechnet?
+Wir finden keine SpiGes-Variable, die es ermöglichen würde, die direkt mit einem Fall verbundenen GWL-Einnahmen/Kosten in die dafür vorgesehene GWL Spalte im ITAR_K® zu überführen. Wie wird die GWL-Spalte von ITAR_K® mit den SpiGes Daten berechnet?
 {{<collapsibleBlock groupId="ITARK">}}
 {{<markdown>}}
 -	Bei der Abbildung der gemeinwirtschaftlichen Leistungen hält sich SpiGes grundsätzlich an die Rechtsprechung und die Empfehlungen des Spitalverbandes H+. REKOLE® sieht vor, dass die Kosten der fallbezogenen gemeinwirtschaftlichen Leistungen auf dem Fall, die Erlöse jedoch auf einem separaten GWL-Kostenträger abgebildet werden. Kosten und Erlöse von fallunabhängigen GWL werden ebenfalls auf einem separaten GWL-Kostenträger abgebildet.
