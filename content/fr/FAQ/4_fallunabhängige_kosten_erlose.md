@@ -1,5 +1,5 @@
 ---
-title: Coûts et produits non reliées à un cas 
+title: Coûts et produits non liées à un cas 
 slug: falldunabhangige
 description: " "
 weight: 40
