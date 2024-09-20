@@ -49,4 +49,5 @@ Fügen Sie nun Ihren Onboarding-Code ein und klicken Sie auf "Registrierungscode
 
 &nbsp; 
 
-Sie haben nun Zugang zur SpiGes-Plattform. Um sich einzuloggen, gehen Sie auf die Website www.spiges.admin.ch
+Sie haben nun Zugang zur SpiGes-Plattform. Um sich einzuloggen, gehen Sie auf die Webseite {{<link url="https://www.spiges.admin.ch/home" newTab="true">}}www.spiges.admin.ch{{</link>}} 
+<!--www.spiges.admin.ch-->

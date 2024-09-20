@@ -49,4 +49,5 @@ Collez maintenant votre code d'onboarding, puis cliquez sur "envoyer le code d'e
 
 &nbsp; 
 
-Vous avez maintenant accès à la plateforme SpiGes. Pour vous connecter, rendez vous sur le site www.spiges.admin.ch
+Vous avez maintenant accès à la plateforme SpiGes. Pour vous connecter, rendez vous sur le site {{<link url="https://www.spiges.admin.ch/home" newTab="true">}}www.spiges.admin.ch{{</link>}} 
+<!--www.spiges.admin.ch-->
