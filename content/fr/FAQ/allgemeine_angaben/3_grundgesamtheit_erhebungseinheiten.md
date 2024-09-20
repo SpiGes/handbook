@@ -16,7 +16,7 @@ Lors de l'introduction de SpiGes ou au moment de la définition de la population
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 - Lors de la première enquête SpiGes (données 2024) en 2025, la population KS est encore importée manuellement sous forme de listes Excel.
-- L'actuel «REE» s'appellera «REEGESV» et restera l'identifiant de l'hôpital. Le «REE de site» s'appellera «REE» à partir des données 2024 (relevé 2025).
+- L'actuel BUR (REE) s'appellera BURGESV et restera l'identifiant de l'hôpital. Le BUR (REE) de site s'appellera BUR à partir des données 2024 (relevé 2025).
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -26,9 +26,9 @@ Quelle est la différence entre une entreprise hospitalière, un hôpital et un 
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 - Une entreprise hospitalière est une entreprise dont le code NOGA est 861001 (hôpitaux généraux), 861002 (cliniques spécialisées) ou 869004 (maisons de naissance). Elle est désignée de manière univoque par le numéro d'identification IDENT.
-- Dans le relevé SpiGes, l'hôpital est une unité qui remplit un ITAR_K et sur lequel se base la définition de cas de SwissDRG SA. Un hôpital est identifié par le n° REE GESV qui n'est géré que sur la base de données de GESV.
-- Un site hospitalier est clairement identifié par le numéro REE et appartient toujours à une seule entreprise hospitalière.
-Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/IDENT) avec 12 hôpitaux (REEGESV) et 14 sites (REE) :
+- Dans le relevé SpiGes, l'hôpital est une unité qui remplit un ITAR_K et sur lequel se base la définition de cas de SwissDRG SA. Un hôpital est identifié par le n° BURGESV qui n'est géré que sur la base de données de GESV.
+- Un site hospitalier est clairement identifié par le numéro BUR (REE) et appartient toujours à une seule entreprise hospitalière.
+Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/IDENT) avec 12 hôpitaux (BURGESV) et 14 sites (BUR) :
 {{</markdown>}}
 {{<insertImage image="tableauFAQ1_fr.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}
@@ -63,10 +63,10 @@ Quels sont les termes synonymes d'entreprise hospitalière, d'hôpital et de sit
 {{</listItem>}}
 
 {{<listItem>}}
-Comment déterminer à quel hôpital (REEGESV) appartient un site (REE) ?
+Comment déterminer à quel hôpital (BURGESV) appartient un site (BUR) ?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
-- Nous demandons l'attribution des sites (REE) aux hôpitaux (REEGESV) lors de la collecte de la population de base. Dans ce processus, ce sont les cantons, en collaboration avec les hôpitaux, qui nous donnent l’information.
+- Nous demandons l'attribution des sites (BUR) aux hôpitaux (BURGESV) lors de la collecte de la population de base. Dans ce processus, ce sont les cantons, en collaboration avec les hôpitaux, qui nous donnent l’information.
 - Le burnr_gesv est également relevé à la demande de nos partenaires.
 {{</markdown>}}
 {{</collapsibleBlock>}}
