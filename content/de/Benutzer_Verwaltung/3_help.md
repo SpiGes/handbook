@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-## Erneute Sendung des Onboarding-Codes
+## Zurücksendung des Onboarding-Codes
 
 Es kann sein, dass der Onboarding-Code an den Nutzer nochmals geschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen:
 

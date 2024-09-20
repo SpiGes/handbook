@@ -24,7 +24,7 @@ Quelles sont les variables qui changent avec SpiGes ?
 	- La référence entre plusieurs diagnostics (dague/étoile, point d'exclamation) est désormais saisie avec une variable de référence (diagnose_zusatz) saisi à la place du caractère spécial.
 - La meilleure façon de suivre toutes les modifications apportées à l'ensemble de données ainsi que les détails exacts est de prendre la liste des variables et de filtrer la colonne "Nouveau/Variable MS" pour distinguer les nouvelles variables et les variables adaptées.
 - Les données de facturation et les coûts, respectivement les recettes, sont désormais collectées.
-- Vous trouverez ici le jeu de données complet : [https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html)
+- Vous trouverez ici le {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}jeu de données complet{{</link>}}.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -33,7 +33,7 @@ Quelles sont les variables qui changent avec SpiGes ?
 Quel est l'impact de SpiGes sur les directives de codage ?
 {{<collapsibleBlock groupId="contenu">}}
 {{<markdown>}}
-Vous trouverez ces informations dans le manuel de codage. Celui-ci peut être téléchargé sous le lien suivant : [https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html).
+Vous trouverez ces informations dans le {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medkk.html" newTab="true">}}manuel de codage{{</link>}}.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

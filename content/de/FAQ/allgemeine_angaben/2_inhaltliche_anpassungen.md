@@ -25,7 +25,7 @@ Welche Variablen ändern sich mit SpiGes?
 	- Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. 
 - Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. 
 - Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. 
-- Hier finden Sie den kompletten Datensatz: [https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html)
+- Hier finden Sie den {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}kompletten Datensatz{{</link>}}.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -34,7 +34,7 @@ Welche Variablen ändern sich mit SpiGes?
 Welche Auswirkungen hat SpiGes auf die Kodierrichtlinien?
 {{<collapsibleBlock groupId="anpassungen">}}
 {{<markdown>}}
-Diese Informationen finden Sie im Kodierungshandbuch. Dieses ist unter dem folgenden Link herunterladbar: [https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html)
+Diese Informationen finden Sie im {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medkk.html" newTab="true">}}Kodierungshandbuch{{</link>}}.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -69,12 +69,12 @@ Spiges (genau andersrum):
 Andere Beispiele wären hier die Schulbildung oder der Zivilstand. Das ist aus unserer Sicht nicht optimal und wir würden gerne wissen, ob dies beabsichtigt ist, und wenn ja, warum? 
 {{</markdown>}}
 {{<collapsibleBlock groupId="anpassungen">}}
-Das ist beabsichtigt. Im Sinne des once only haben wir die Codelisten und Metadaten in ein BFS System integriert, welches dann auch veröffentlicht wird. Die neuen Codelisten entsprechen jetzt dem schweizweiten Standard der Interoperabilitätsplattform i14y.admin.ch, vorher war es eine MS Sonderlösung.
+Das ist beabsichtigt. Im Sinne des "once only" haben wir die Codelisten und Metadaten in ein BFS System integriert, welches dann auch veröffentlicht wird. Die neuen Codelisten entsprechen jetzt dem schweizweiten Standard der Interoperabilitätsplattform i14y.admin.ch, vorher war es eine MS Sonderlösung.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Berechnete Werte: In der Variablenliste gibt es einige Zeilen die «ausgegraut» sind mit der Bemerkung «berechnet» (Beispiel uid). Heisst das, wir liefern sie im XML leer mit und das BFS wird diese berechnen und eintragen? Oder liefern wir diese Werte gar nicht mit und ignorieren sie? 
+Berechnete Werte: In der Variablenliste gibt es einige Zeilen die ausgegraut sind mit der Bemerkung berechnet (Beispiel uid). Heisst das, wir liefern sie im XML leer mit und das BFS wird diese berechnen und eintragen? Oder liefern wir diese Werte gar nicht mit und ignorieren sie? 
 {{<collapsibleBlock groupId="anpassungen">}}
 Wie Sie dem XML Schema entnehmen können, sind diese berechneten Variablen nicht enthalten. Sie können diese ignorieren.
 {{</collapsibleBlock>}}
