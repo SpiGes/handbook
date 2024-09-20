@@ -1,4 +1,4 @@
----
+    ---
 title: Support aux utilisateurs
 slug: support
 description: "Sur cette page, nous vous expliquons comment aider les utilisateurs en cas de besoin. Cette tâche ne concerne que les responsables des cantons (KT_Superuser)."
@@ -6,16 +6,6 @@ weight: 30
 type: docs
 keywords: []
 ---
-
-## Gestion mail de différences eIAM
-
-Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations:
-
-- Si l'erreur est négligeable (deuxième prénom faux, faute de frappe, ...): Vous pouvez ignorer le mail de eIAM, les données se metteront à jour automatiquement sur eIAM.
-
-- Si l'adresse mail n'est pas la bonne (adresse mail privée au lieu de professionnelle): Vous devez désactiver le profil de l'utilisateur, et le contacter afin de lui dire de se connecter avec son adresse professionelle. Vous devez ensuite lui créer un nouveau profil afin qu'il puisse le lier avec son adresse professionnelle.
-
-- Si la personne ayant créer l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): désactivez le profil et contactez imédiatement spiges@bfs.admin.ch. 
 
 ## Renvoi du code d'onboarding
 
@@ -100,3 +90,15 @@ Vous pouvez également renvoyer le code d'onboarding à un utilisateur à partir
 </div>
 
 &nbsp;
+
+## Différences eIAM
+
+Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations:
+
+- Si l'erreur est négligeable (deuxième prénom faux, faute de frappe, ...): Vous pouvez ignorer l'e-mail de eIAM, les données se metteront à jour automatiquement sur eIAM.
+
+- Si l'adresse e-mail n'est pas la bonne (e-mail privé et non professionnel): Vous devez désactiver le profil de l'utilisateur, et le contacter afin qu'il utilise son adresse e-mail professionelle pour se connecter. Vous devez ensuite lui créer un nouveau profil qu'il pourra lier avec son adresse e-mail professionnelle.
+
+- Si la personne ayant créé l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): Il faut désactiver le profil et contacter imédiatement spiges@bfs.admin.ch. 
+
+

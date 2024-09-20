@@ -1,7 +1,7 @@
 ---
 title: Nutzung des Delegationsportals
 slug: delegationsplattform
-description: "Auf dieser Seite erklären wir Ihnen, wie Sie sich beim eIAM-Delegationsportal anmelden und wie Sie von dort aus die Benutzer verwalten können. Diese Aufgabe betrifft nur die Kantonsverantwortlichen."
+description: "Auf dieser Seite erklären wir Ihnen, wie Sie sich beim eIAM-Delegationsportal anmelden und wie Sie von dort aus die Benutzer verwalten können. Diese Aufgabe betrifft nur die Kantonsverantwortlichen (KT_Superuser)."
 weight: 20
 type: docs
 keywords: []
