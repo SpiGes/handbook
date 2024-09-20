@@ -1,5 +1,5 @@
 ---
-title: Questions techniques
+title: Technische Fragen
 slug: technische_fragen
 description: " "
 weight: 10
