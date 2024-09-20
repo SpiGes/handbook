@@ -32,9 +32,7 @@ Quelles sont les variables qui changent avec SpiGes ?
 {{<listItem>}}
 Quel est l'impact de SpiGes sur les directives de codage ?
 {{<collapsibleBlock groupId="contenu">}}
-{{<markdown>}}
 Vous trouverez ces informations dans le {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medkk.html" newTab="true">}}manuel de codage{{</link>}}.
-{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
