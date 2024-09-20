@@ -32,8 +32,7 @@ L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouver
 2. fichier trop grand
 3. en-tête incorrect
 4. non codé en UTF 8
-{{</markdown>}}
-<br />
+\
 En-tête :
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -49,6 +48,7 @@ Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec not
 {{<insertImage image="tf2.png" class="edge max-w-90">}}
 Si vous souhaitez maintenant enregistrer le fichier texte avec « Enregistrer sous », vous pouvez également modifier le codage. Sélectionnez maintenant utf-8 sous Codage et enregistrez le fichier.
 {{<insertImage image="tf3.png" class="edge max-w-90">}}
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
