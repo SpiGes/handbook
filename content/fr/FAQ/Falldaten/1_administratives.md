@@ -63,7 +63,7 @@ La variable Type d'admission existe déjà dans la MS et n'a pas non plus chang�
 {{</listItem>}}
 
 {{<listItem>}}
-Bei der Eintrittsart «6=Rückverlegung» wurde von der SwissDRG AG folgende Spezifizierung kommuniziert: Bei ununterbrochenem Spitalaufenthalt in einem anderen Spital von mehr als 18 Tagen und Rückkehr in das ursprüngliche Spital.
+Pour le mode d'admission "6=Réhospitalisation", la spécification suivante a été communiquée par SwissDRG SA : en cas d'hospitalisation ininterrompue de plus de 18 jours dans un autre hôpital et de retour dans l'hôpital d'origine.
 {{</listItem>}}
 
 {{<listItem>}}
