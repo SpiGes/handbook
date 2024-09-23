@@ -93,10 +93,10 @@ eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-### Variable "Wohnland"
+<!--### Variable "Wohnland"-->
 
 {{<listItem>}}
-In der Variablenbeschreibung ist eine separate Einteilung der aussereuropäischen Länder in Regionen erwähnt. Existiert diese Liste bereits oder wird sie noch veröffentlicht?
+In der Variablenbeschreibung "Wohnland" ist eine separate Einteilung der aussereuropäischen Länder in Regionen erwähnt. Existiert diese Liste bereits oder wird sie noch veröffentlicht?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
@@ -106,10 +106,10 @@ In der Variablenbeschreibung ist eine separate Einteilung der aussereuropäische
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-### Variable "Versicherungsklasse"
+<!--### Variable "Versicherungsklasse"-->
 
 {{<listItem>}}
-Im Variablenbeschrieb steht, dass man es für alle angeben muss, ausser Selbstzahler. Im xsd. Ist das Feld jedoch «required». Was sollen wir dann bei Selbstzahlern liefern?
+In der Variablenbeschreibung "Versicherungsklasse" steht, dass man es für alle angeben muss, ausser Selbstzahler. Im xsd. Ist das Feld jedoch «required». Was sollen wir dann bei Selbstzahlern liefern?
 {{<collapsibleBlock groupId="admninistratives">}}
 Das ist tatsächlich etwas widersprüchlich formuliert. Damit hier keine Missings vorhanden sind, wurde required vorausgesetzt. Dann betrifft es natürlich auch die Selbstzahler, welche mit 9=unbekannt codiert werden.
 {{</collapsibleBlock>}}
@@ -126,10 +126,10 @@ Gemäss unserer Patientenadministration wird es schwierig für die Fälle mit ei
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-### Variable "aufenthalt_ips"
+<!--### Variable "aufenthalt_ips"-->
 
 {{<listItem>}}
-Variable aufenthalt_ips: Bei den verschiedenen Variablen zum IPS-Aufenthalt und den Aufwandspunkten ist uns nicht ganz klar, ob die Variablen mit 0 exportiert werden sollen oder gar nicht, wenn ein Fall nicht auf der Intensivstation liegt. Als Wertebereich ist hier immer 0-xxx angegeben.
+Bei den verschiedenen Variablen zum IPS-Aufenthalt und den Aufwandspunkten ("aufenthalt_ips") ist uns nicht ganz klar, ob die Variablen mit 0 exportiert werden sollen oder gar nicht, wenn ein Fall nicht auf der Intensivstation liegt. Als Wertebereich ist hier immer 0-xxx angegeben.
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 

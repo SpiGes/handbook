@@ -149,8 +149,9 @@ In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es 
 {{<collapsibleBlock groupId="allgemein">}}
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
 
-
-«?xml version=“1.0″» steht immer so. Die oberste Version bezieht sich also auf das «XML» selbst, und die untere auf das spezifische SpiGes XML.
+{{<lineBreak>}}
+«?xml version=“1.0″» steht immer so. 
+Die oberste Version bezieht sich also auf das «XML» selbst, und die untere auf das spezifische SpiGes XML.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

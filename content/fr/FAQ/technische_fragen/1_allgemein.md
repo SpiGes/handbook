@@ -182,7 +182,8 @@ Dans les fichiers d'exemple pour le fichier des identificateurs et le fichier de
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
 
 {{<lineBreak>}}
-"?xml version="1.0″" se trouve toujours ainsi . La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
+"?xml version="1.0″" se trouve toujours ainsi . 
+La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
