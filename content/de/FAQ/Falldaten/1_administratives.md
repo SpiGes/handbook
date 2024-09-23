@@ -59,7 +59,6 @@ Wie ist eine «Verlegung» definiert? (z.B. die Codes «5 = Verlegung innerhalb 
 {{<collapsibleBlock groupId="admninistratives">}}
 
 {{<unorderedList>}}
-
 {{<listItem>}}
 Die Variable Eintrittsart existiert bereits in der MS und hat sich mit SpiGes auch nicht verändert. Eine Verlegung grenzt sich vom internen Übertritt dadurch ab, dass diese nicht im gleichen Spital (BURGESV) geschieht, sondern spitalübergreifend (zwei unterschiedliche BURGESV). Die Definition richtet sich nach den Grundsätzen der SwissDRG AG, welche Sie hier finden:  
 {{<link url="https://www.swissdrg.org/de/akutsomatik/swissdrg-system-1302024/regeln-und-definitionen" newTab="true">}}https://www.swissdrg.org/de/akutsomatik/swissdrg-system-1302024/regeln-und-definitionen{{</link>}}
@@ -78,16 +77,14 @@ Ein Patient, der nach <18 Tage ins Spital zurückkommt, erhält die Eintrittsart
 {{</listItem>}}
 
 {{</unorderedList>}}
-
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Wie werden Fälle, die von der Rehabilitation (Tarif ST-REHA) in die Langzeitpflege (Tarif «Pflegetaxe») des gleichen Betriebs übergehen codiert? Die Variablen 1.2.V02 und 1.5.V03 erlauben uns nicht, «Langzeitpflege, gleicher Betrieb» anzugeben.
 {{<collapsibleBlock groupId="admninistratives">}}
-Dies war bereits bei der MS so; der Fall wechselt von Rehabilitation zu SOMED (gleicher Betrieb); bei Code 2 sind beide Möglichkeiten enthalten (gleicher Betrieb oder anderer Betrieb). Der Fall muss wie folgt kodiert werden:
-{{<breakLine>}}
 {{<markdown>}}
+Dies war bereits bei der MS so; der Fall wechselt von Rehabilitation zu SOMED (gleicher Betrieb); bei Code 2 sind beide Möglichkeiten enthalten (gleicher Betrieb oder anderer Betrieb). Der Fall muss wie folgt kodiert werden:
 austritt_aufenthalt: 2 = Krankenheim, Pflegeheim
 eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb
 {{</markdown>}}
