@@ -48,6 +48,7 @@ Kopfzeile:
 
 Um zu testen, ob ihr file mit utf 8 codiert wurde, können sie dieses mit notepad oder text editor öffnen. Unten rechts wird das encoding angezeigt.
 {{<insertImage image="tf2.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Wenn Sie nun das Textfile mit «Speichern unter» speichern wollen, können Sie die Codierung gleich mit ändern. Wählen Sie nun unter Codierung utf-8 aus und speichern Sie das File.
 {{<insertImage image="tf3.png" class="edge max-w-90">}}
 {{</markdown>}}
@@ -88,6 +89,7 @@ Formatfehler behandlung_beginn:
 {{<insertImage image="tf9.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 Die Variable ist im XSD wie folgt definiert:
+{{<lineBreak>}}
 {{<insertImage image="tf10.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 Bei behandlung_beginn kann zwar die Uhrzeit völlig fehlen, also nur das Datum stehen (z.B. 20230110) oder aber es steht auch die Uhrzeit (vierstellig) (z.B. 202301100000). In Ihrem Fall sind für die Uhrzeit drei Stellen aufgeführt, das wird nicht akzeptiert. Hinweis: die Uhrzeit 0000 steht für Mitternacht und sollte keinesfalls angegeben werden, wenn keine Uhrzeit gemeldet werden soll.
@@ -100,6 +102,7 @@ Formatfehler rech_menge:
 {{<insertImage image="tf11.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 Die Variable ist im XSD wie folgt definiert:
+{{<lineBreak>}}
 {{<insertImage image="tf12.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 Bei rech_menge sind gesamt 12 Stellen möglich, davon maximal 5 Nachkommastellen.
