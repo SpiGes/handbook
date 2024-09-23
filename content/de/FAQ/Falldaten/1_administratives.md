@@ -99,8 +99,8 @@ eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb
 In der Variablenbeschreibung "Wohnland" ist eine separate Einteilung der aussereuropäischen Länder in Regionen erwähnt. Existiert diese Liste bereits oder wird sie noch veröffentlicht?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
-
-- Das Vorgehen und die Liste ist gleich geblieben wie bei der MS. Anbei der Link zur Liste: [https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html)
+- Das Vorgehen und die Liste ist gleich geblieben wie bei der MS. Anbei der Link zur Liste: 
+[https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html)
 -	Für die aussereuropäischen Länder können Regionen erfasst werden, es können aber auch die Ländercodes angegeben werden. Dies ist bereits in der MS so und hat sich nicht geändert. Das Format ist alphanumerisch und kann somit sowohl Zahlen wie Buchstaben enthalten.
 {{</markdown>}}
 {{</collapsibleBlock>}}
