@@ -90,8 +90,7 @@ Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du t
 {{<listItem>}}
 Comment coder les cas qui passent de la réadaptation (tarif ST-REHA) aux soins de longue durée (tarif "taxe de soins") du même établissement ? Les variables 1.2.V02 et 1.5.V03 ne nous permettent pas d'indiquer "soins de longue durée, même établissement".
 {{<collapsibleBlock groupId="admninistratives">}}
-{{<markdown>}}
-C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit :
+C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit : 
 {{<lineBreak>}}   
 {{<markdown>}}        
 sortie_séjour : 2 = établ. de santé non hospit. médicalisé             
