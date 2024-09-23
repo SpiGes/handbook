@@ -73,8 +73,10 @@ Fehlermeldungen die anzeigen, dass das Format oder die Ausprägung falsch sind:
 Fehlermeldungen wenn die Erhebungsteile (Elemente) bezüglich Struktur oder Reihenfolge durcheinandergeraten sind:
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf6.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Zum Beispiel wird hier das Element Operierende gleichwertig wie Behandlung unter den Fall gelegt.
 {{<insertImage image="tf7.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Richtigerweise ist das Element Operierende ein child von Behandlung und sollte so strukturiert sein:
 {{<insertImage image="tf8.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
@@ -84,8 +86,10 @@ Richtigerweise ist das Element Operierende ein child von Behandlung und sollte s
 Formatfehler behandlung_beginn:
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf9.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Die Variable ist im XSD wie folgt definiert:
 {{<insertImage image="tf10.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Bei behandlung_beginn kann zwar die Uhrzeit völlig fehlen, also nur das Datum stehen (z.B. 20230110) oder aber es steht auch die Uhrzeit (vierstellig) (z.B. 202301100000). In Ihrem Fall sind für die Uhrzeit drei Stellen aufgeführt, das wird nicht akzeptiert. Hinweis: die Uhrzeit 0000 steht für Mitternacht und sollte keinesfalls angegeben werden, wenn keine Uhrzeit gemeldet werden soll.
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -94,8 +98,10 @@ Bei behandlung_beginn kann zwar die Uhrzeit völlig fehlen, also nur das Datum s
 Formatfehler rech_menge:
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf11.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Die Variable ist im XSD wie folgt definiert:
 {{<insertImage image="tf12.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Bei rech_menge sind gesamt 12 Stellen möglich, davon maximal 5 Nachkommastellen.
 {{</collapsibleBlock>}}
 {{</listItem>}}
