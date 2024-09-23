@@ -20,6 +20,7 @@
             "insertImage",
             "alert",
             "numberedList",
+            "unorderedList",
             "listItem",
             "faqBlock",
             "markdown",
