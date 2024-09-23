@@ -32,7 +32,9 @@ L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouver
 2. fichier trop grand
 3. en-tête incorrect
 4. non codé en UTF 8
-\
+{{</markdown>}}
+{{<lineBreak>}}
+{{<markdown>}}
 En-tête :
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

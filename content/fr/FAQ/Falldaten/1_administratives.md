@@ -39,7 +39,7 @@ Jusqu'à présent, il n'a pas été défini si ces variables doivent être fourn
 Comment est définie le «Transfert interne» ?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
-- Le transfert interne d’un domaine de prestations (soins aigus, psychiatrie, réadaptation) vers un autre domaine de prestations au sein du même hôpital (ree_gesv) 
+- Le transfert interne d’un domaine de prestations (soins aigus, psychiatrie, réadaptation) vers un autre domaine de prestations au sein du même hôpital (burnr_gesv), 
 - ou pour les cas considérés comme étant en attente de placement. 
 {{</markdown>}}
 {{</collapsibleBlock>}}

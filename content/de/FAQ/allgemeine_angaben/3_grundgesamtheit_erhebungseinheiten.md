@@ -66,7 +66,7 @@ Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Sp
 Wie wird festgestellt, zu welchem Spital (burnr_gesv) ein Standort (burnr) gehört?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
-- Die Zuordnung der Standorte (BUR-Nummern) zu den Spitälern (BUR-GESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben.
+- Die Zuordnung der Standorte (BUR-Nummern) zu den Spitälern (BURGESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben.
 - Die burnr_gesv wird auf Wunsch unserer Partner auch erhoben.
 {{</markdown>}}
 {{</collapsibleBlock>}}
