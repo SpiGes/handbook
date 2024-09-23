@@ -18,6 +18,14 @@ Für B- und C-Fälle sind die Kosten im Kalenderjahr anzugeben, für A-Fälle di
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+<!-- A TRADUIRE
+{{<listItem>}}
+Les cas de longue durée peuvent-ils être livrés dans SpiGes avec Type de CUFI 101=Longue durée comme unité finale d'imputation indépendante du cas, même si le SOMED est saisi en parallèle pour les soins de longue durée ?
+{{<collapsibleBlock groupId="kostentraeger">}}
+Si l'établissement remplit SOMED, ces Coûts doivent être saisis dans SpiGes via le Type de UFI 101. Inversement, les cas individuels de longue durée en soins somatiques aigus et en réadaptation (patients en attente) doivent être représentés comme Type de CUFI 1 (=cas) et tarif 7 correspondant (=taxe de soins). Ainsi, l'ITAR_K et les statistiques sont corrects. 
+{{</collapsibleBlock>}}
+{{</listItem>}}-->
+
 {{<listItem>}}
 Zuschläge für Anlagenutzungskosten (ANK) bei den Einzelkosten:  Auf den Einzelkosten (Medizinischer Bedarf 400 und 401) dürfen gemäss REKOLE® ANK-Zuschläge erfasst werden. Für diese KTR-Variablen existieren in SpiGes und im SwissDRG Kostendatensatz aber im Gegensatz zu den Gemeinkosten keine separaten ANK-Variablen, auf denen die Anlagenutzungskosten gemäss REKOLE angegeben werden können. In ITAR_K müssen die Konten 400 und 401 ohne ANK-Zuschläge angegeben werden. Wie ist mit diesen ANK-Zuschlägen auf den Konten 400 und 401 zu verfahren?
 {{<collapsibleBlock groupId="kostentraeger">}}
