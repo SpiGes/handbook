@@ -76,24 +76,24 @@ entrée_séjour : 84 = division/clinique de réadaptation, même établissement
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-<!--### Variable "wohnland" (pays de résidence)-->
+### Variable "wohnland" (pays de résidence)
 
 {{<listItem>}}
-La description de la variable "wohnland" (pays de résidence) mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
+La description de la variable mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
 - La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :
-[https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html).
+{{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html" newTab="true">}}ici{{</link>}}.
 - Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-<!--###	Variable "versicherungsklasse" (classe d'assurance)-->
+###	Variable "versicherungsklasse" (classe d'assurance)
 
 {{<listItem>}}
-Dans la description de la variable "versicherungsklasse" (classe d'assurance), il est indiqué qu'il faut l'indiquer pour tous, sauf pour les personnes payant elles-mêmes. Mais dans le xsd, le champ est "required". Que faut-il alors fournir pour les personnes payant elles-mêmes ?
+Dans la description de la variable, il est indiqué qu'il faut l'indiquer pour tous, sauf pour les personnes payant elles-mêmes. Mais dans le xsd, le champ est "required". Que faut-il alors fournir pour les personnes payant elles-mêmes ?
 {{<collapsibleBlock groupId="admninistratives">}}
 La formulation peut en effet porter à confusion. Pour qu'il n'y ait pas de missings ici, required a été présupposé. Cela concerne aussi les self-payeurs, qui sont codés avec 9=inconnu.
 {{</collapsibleBlock>}}
@@ -110,10 +110,10 @@ Selon notre administration des patients, il est difficile d'obtenir l'informatio
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-<!--###	Variable "aufenthalt_ips"-->
+###	Variable "aufenthalt_ips"
 
 {{<listItem>}}
-Pour les différentes variables concernant le séjour IPS et les points de charge ("aufenthalt_ips"), nous ne savons pas très bien si les variables doivent être exportées avec 0 ou pas du tout lorsqu'un cas ne se trouve pas aux soins intensifs. Le domaine de valeurs indiqué ici est toujours 0-xxx.
+Pour les différentes variables concernant le séjour IPS et les points de charge, nous ne savons pas très bien si les variables doivent être exportées avec 0 ou pas du tout lorsqu'un cas ne se trouve pas aux soins intensifs. Le domaine de valeurs indiqué ici est toujours 0-xxx.
 {{<collapsibleBlock groupId="admninistratives">}}
 Comme l'indication n'est pas obligatoire (required), la variable n'est pas livrée du tout lorsqu'un cas n'est pas aux soins intensifs.
 {{</collapsibleBlock>}}
