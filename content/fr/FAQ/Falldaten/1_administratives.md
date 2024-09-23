@@ -55,13 +55,36 @@ Rapatriement d'un patient ou d'une patiente avec une résidence principale suiss
 {{<listItem>}}
 Comment est défini un « transfert » ? (p. ex. les codes «5 = transfert dans les 24 heures» et «6 = retransfert» de la variable type d'admission).
 {{<collapsibleBlock groupId="admninistratives">}}
-{{<markdown>}}
 
-- La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (REEGESV), mais dans un autre hôpital (deux REEGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici: [https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions](https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions). 
+{{<unorderedList>}}
+
+{{<listItem>}}
+La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (BURGESV), mais dans un autre hôpital (deux BURGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici: 
+{{<link url="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions" newTab="true">}}https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions{{</link>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Bei der Eintrittsart «6=Rückverlegung» wurde von der SwissDRG AG folgende Spezifizierung kommuniziert: Bei ununterbrochenem Spitalaufenthalt in einem anderen Spital von mehr als 18 Tagen und Rückkehr in das ursprüngliche Spital.
+{{</listItem>}}
+
+{{<listItem>}}
+Selon SwissDRG SA, le retransfert n'est utilisé comme type d'entrée que si le patient a séjourné plus de 18 jours dans un autre hôpital et qu'il y retourne, ouvrant ainsi un nouveau cas.
+{{</listItem>}}
+
+{{<listItem>}}
+Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du type d'entrée de sa première entrée, car il est regroupé.
+{{</listItem>}}
+
+{{</unorderedList>}}
+
+<!--
+{{<markdown>}}
+- La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (BURGESV), mais dans un autre hôpital (deux BURGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici: 
+[https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions](https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions). 
 -	Bei der Eintrittsart «6=Rückverlegung» wurde von der SwissDRG AG folgende Spezifizierung kommuniziert: Bei ununterbrochenem Spitalaufenthalt in einem anderen Spital von mehr als 18 Tagen und Rückkehr in das ursprüngliche Spital.
 - Selon SwissDRG SA, le retransfert n'est utilisé comme type d'entrée que si le patient a séjourné plus de 18 jours dans un autre hôpital et qu'il y retourne, ouvrant ainsi un nouveau cas.
 - Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du type d'entrée de sa première entrée, car il est regroupé.
-{{</markdown>}}
+{{</markdown>}}-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -83,7 +106,8 @@ La description de la variable "wohnland" (pays de résidence) mentionne une rép
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
-- La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :[https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html).
+- La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :
+[https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html).
 - Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres.
 {{</markdown>}}
 {{</collapsibleBlock>}}

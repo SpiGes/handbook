@@ -14,7 +14,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="psychiatrie">}}
 {{<listItem>}}
 Variable psy_zivilstand: Was ist mit dem Code "5 = unverheiratet" gemeint bzw. wie unterscheidet sich dieser von ledig etc.?
 {{<collapsibleBlock groupId="psychiatrie">}}
- Die Codeliste der {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/population/effectif-evolution/etat-civil.html" newTab="true">}}Variable Zivilstand{{</link>}} wird beim BFS einheitlich genutzt. Der Zivilstand «Unverheiratet» kann als Folge einer Ungültigerklärung der letzten Ehe oder als Folge einer Verschollenerklärung des letzten Ehepartners bzw. der letzten Ehepartnerin entstehen.
+ Die Codeliste der Variable Zivilstand wird beim BFS einheitlich genutzt. Der Zivilstand «Unverheiratet» kann als Folge einer Ungültigerklärung der letzten Ehe oder als Folge einer Verschollenerklärung des letzten Ehepartners bzw. der letzten Ehepartnerin entstehen. Siehe Link:{{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/population/effectif-evolution/etat-civil.html" newTab="true">}}https://www.bfs.admin.ch/bfs/fr/home/statistiques/population/effectif-evolution/etat-civil.html{{</link>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
