@@ -91,31 +91,34 @@ Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du t
 Comment coder les cas qui passent de la réadaptation (tarif ST-REHA) aux soins de longue durée (tarif "taxe de soins") du même établissement ? Les variables 1.2.V02 et 1.5.V03 ne nous permettent pas d'indiquer "soins de longue durée, même établissement".
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
-C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit :           
+C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit :
+{{<breakLine>}}   
+{{<markdown>}}        
 sortie_séjour : 2 = établ. de santé non hospit. médicalisé             
 entrée_séjour : 84 = division/clinique de réadaptation, même établissement  
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-
-### Variable "wohnland" (pays de résidence)
+<!--
+### Variable "wohnland" (pays de résidence)-->
 
 {{<listItem>}}
-La description de la variable mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
+La description de la variable "wohnland" (pays de résidence) mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
 - La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :
-{{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medsreg.html" newTab="true">}}ici{{</link>}}.
+[https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/nomenklaturen/medsreg.html](https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/nomenklaturen/medsreg.html)
+-	Für die aussereuropäischen Länder können Regionen erfasst werden, es kön
 - Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-
-###	Variable "versicherungsklasse" (classe d'assurance)
+<!--
+###	Variable "versicherungsklasse" (classe d'assurance)-->
 
 {{<listItem>}}
-Dans la description de la variable, il est indiqué qu'il faut l'indiquer pour tous, sauf pour les personnes payant elles-mêmes. Mais dans le xsd, le champ est "required". Que faut-il alors fournir pour les personnes payant elles-mêmes ?
+Dans la description de la variable "versicherungsklasse" (classe d'assurance), il est indiqué qu'il faut l'indiquer pour tous, sauf pour les personnes payant elles-mêmes. Mais dans le xsd, le champ est "required". Que faut-il alors fournir pour les personnes payant elles-mêmes ?
 {{<collapsibleBlock groupId="admninistratives">}}
 La formulation peut en effet porter à confusion. Pour qu'il n'y ait pas de missings ici, required a été présupposé. Cela concerne aussi les self-payeurs, qui sont codés avec 9=inconnu.
 {{</collapsibleBlock>}}
@@ -131,11 +134,11 @@ Selon notre administration des patients, il est difficile d'obtenir l'informatio
 {{</markdown>}}  
 {{</collapsibleBlock>}}
 {{</listItem>}}
-
-###	Variable "aufenthalt_ips"
+<!--
+###	Variable "aufenthalt_ips"-->
 
 {{<listItem>}}
-Pour les différentes variables concernant le séjour IPS et les points de charge, nous ne savons pas très bien si les variables doivent être exportées avec 0 ou pas du tout lorsqu'un cas ne se trouve pas aux soins intensifs. Le domaine de valeurs indiqué ici est toujours 0-xxx.
+Pour les différentes variables concernant le séjour IPS et les points de charge ("aufenthalt_ips"), nous ne savons pas très bien si les variables doivent être exportées avec 0 ou pas du tout lorsqu'un cas ne se trouve pas aux soins intensifs. Le domaine de valeurs indiqué ici est toujours 0-xxx.
 {{<collapsibleBlock groupId="admninistratives">}}
 Comme l'indication n'est pas obligatoire (required), la variable n'est pas livrée du tout lorsqu'un cas n'est pas aux soins intensifs.
 {{</collapsibleBlock>}}
