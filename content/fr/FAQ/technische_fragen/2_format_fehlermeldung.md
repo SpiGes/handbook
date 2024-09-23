@@ -48,6 +48,7 @@ En-tête :
 
 Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec notepad ou text editor. L'encodage est affiché en bas à droite.
 {{<insertImage image="tf2.png" class="edge max-w-90">}}
+{{<lineBreak>}}
 Si vous souhaitez maintenant enregistrer le fichier texte avec « Enregistrer sous », vous pouvez également modifier le codage. Sélectionnez maintenant utf-8 sous Codage et enregistrez le fichier.
 {{<insertImage image="tf3.png" class="edge max-w-90">}}
 {{</markdown>}}
@@ -88,6 +89,7 @@ Erreur de format behandlung_beginn:
 {{<insertImage image="tf9.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 La variable est définie comme suit dans XSD :
+{{<lineBreak>}}
 {{<insertImage image="tf10.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 Dans behandlung_beginn, l'heure peut être totalement absente, c'est-à-dire que seule la date est indiquée (p. ex. 20230110), ou l'heure (quatre chiffres) peut également être indiquée (p. ex. 202301100000). Dans votre cas, l'heure est indiquée avec trois chiffres, ce qui n'est pas accepté. Remarque : l'heure 0000 correspond à minuit et ne doit en aucun cas être indiquée si aucune heure ne doit être signalée.
@@ -100,6 +102,7 @@ Erreur de format rech_menge:
 {{<insertImage image="tf11.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 La variable est définie comme suit dans XSD :
+{{<lineBreak>}}
 {{<insertImage image="tf12.png" class="edge max-w-90">}}
 {{<lineBreak>}}
 Pour rech_menge, 12 chiffres au total sont possibles, dont 5 chiffres maximum après la virgule.
