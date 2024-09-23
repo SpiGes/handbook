@@ -63,9 +63,9 @@ Der Begriff Krankenhausareal ist unscharf. Wir haben hierzu folgendes Schema gem
 {{<markdown>}}
   Legende:  
 
-- BUR = site
+- BUR = Standort
 - Areal = aire  
-- BURGESV = hôpital/établissement
+- BURGESV = Spital/Betrieb
 {{</markdown>}}
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
 
