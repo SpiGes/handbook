@@ -31,7 +31,7 @@ SpiGes a surtout des répercussions importantes sur le processus de contrôle de
 La meilleure façon de suivre toutes les modifications apportées à l'ensemble de données ainsi que les détails exacts est de prendre la liste des variables et de filtrer la colonne "Nouveau/Variable MS" pour distinguer les nouvelles variables et les variables adaptées.
 {{</listItem>}}
 
-{{</istItem>}}
+{{<listItem>}}
 Les données de facturation et les coûts, respectivement les recettes, sont désormais collectées.
 {{</listItem>}}
 
