@@ -19,12 +19,12 @@ Welche Variablen ändern sich mit SpiGes?
 {{<listItem>}}
 SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
 {{<markdown>}}
-	- Die Hauptbehandlung wird abgeschafft. 
-	- Der Zusatz zur Hauptdiagnose wird abgeschafft. 
-	- Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. 
-	- Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. 
-	- Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  
-	- Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. 
+- Die Hauptbehandlung wird abgeschafft. 
+- Der Zusatz zur Hauptdiagnose wird abgeschafft. 
+- Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. 
+- Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. 
+- Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  
+- Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. 
 {{</markdown>}}
 {{</listItem>}}
 

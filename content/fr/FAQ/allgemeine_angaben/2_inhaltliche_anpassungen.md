@@ -14,18 +14,31 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="contenu">}}
 {{<listItem>}}
 Quelles sont les variables qui changent avec SpiGes ?
 {{<collapsibleBlock groupId="contenu">}}
+{{<unorderedList>}}
+{{<listItem>}}
+SpiGes a surtout des répercussions importantes sur le processus de contrôle des données et le format des données de la livraison. En ce qui concerne les données médicales (MS actuel), seuls quelques points changent. Les plus importants pour vous devraient être les suivants :
 {{<markdown>}}
-- SpiGes a surtout des répercussions importantes sur le processus de contrôle des données et le format des données de la livraison. En ce qui concerne les données médicales (MS actuel), seuls quelques points changent. Les plus importants pour vous devraient être les suivants :
-    - Le traitement principal est supprimé.
-	- Le complément au diagnostic principal est supprimé.
-	- Les diagnostics et les traitements peuvent désormais être saisis en nombre illimité. 
-	- Le temps de prestation chirurgicale est saisi pour les procédures chirurgicales.
-	- Le début du traitement doit être saisi avec l'heure (de l'opération dans son ensemble) pour les procédures chirurgicales. 
-	- La référence entre plusieurs diagnostics (dague/étoile, point d'exclamation) est désormais saisie avec une variable de référence (diagnose_zusatz) saisi à la place du caractère spécial.
-- La meilleure façon de suivre toutes les modifications apportées à l'ensemble de données ainsi que les détails exacts est de prendre la liste des variables et de filtrer la colonne "Nouveau/Variable MS" pour distinguer les nouvelles variables et les variables adaptées.
-- Les données de facturation et les coûts, respectivement les recettes, sont désormais collectées.
-- Vous trouverez ici le {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}jeu de données complet{{</link>}}.
+- Le traitement principal est supprimé.
+- Le complément au diagnostic principal est supprimé.
+- Les diagnostics et les traitements peuvent désormais être saisis en nombre illimité. 
+- Le temps de prestation chirurgicale est saisi pour les procédures chirurgicales.
+- Le début du traitement doit être saisi avec l'heure (de l'opération dans son ensemble) pour les procédures chirurgicales. 
+- La référence entre plusieurs diagnostics (dague/étoile, point d'exclamation) est désormais saisie avec une variable de référence (diagnose_zusatz) saisi à la place du caractère spécial.
 {{</markdown>}}
+{{</listItem>}}
+
+{{<listItem>}}
+La meilleure façon de suivre toutes les modifications apportées à l'ensemble de données ainsi que les détails exacts est de prendre la liste des variables et de filtrer la colonne "Nouveau/Variable MS" pour distinguer les nouvelles variables et les variables adaptées.
+{{</listItem>}}
+
+{{</istItem>}}
+Les données de facturation et les coûts, respectivement les recettes, sont désormais collectées.
+{{</listItem>}}
+
+{{<listItem>}}
+Vous trouverez ici le {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}jeu de données complet{{</link>}}.
+{{</listItem>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
