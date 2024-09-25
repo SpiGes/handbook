@@ -63,9 +63,10 @@ Statistiques sur la MS :
 1 = né vivant.      
 Spiges (exactement l'inverse) :         
 0 = naissance vivante        
-1 = mort-né.        
-D'autres exemples seraient la formation scolaire ou l'État civil. De notre point de vue, ce n'est pas optimal et nous aimerions savoir si c'est l'intention et, si oui, pourquoi ? 
+1 = mort-né.
 {{</markdown>}}
+{{<lineBreak>}}
+D'autres exemples seraient la formation scolaire ou l'État civil. De notre point de vue, ce n'est pas optimal et nous aimerions savoir si c'est l'intention et, si oui, pourquoi ? 
 {{<collapsibleBlock groupId="contenu">}}
 Dans l'esprit du "once only", nous avons intégré les listes de codes et les métadonnées dans un système OFS, qui sera ensuite publié. Les nouvelles listes de codes correspondent désormais au standard suisse de la plateforme d'interopérabilité i14y.admin.ch, alors qu'auparavant il s'agissait d'une solution spéciale MS.
 {{</collapsibleBlock>}}

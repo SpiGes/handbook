@@ -34,13 +34,12 @@ Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten na
 
 {{<listItem>}}
 Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. 
-{{<listItem>}}
+{{</listItem>}}
 
 {{<listItem>}}
 Hier finden Sie den {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}kompletten Datensatz{{</link>}}.
-{{<listItem>}}
-
-{{</numberedList>}}
+{{</listItem>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -77,9 +76,10 @@ MS-Statistik:
 1 = lebendgeboren       
 Spiges (genau andersrum):              
 0 = Lebendgeburt        
-1 = Totgeburt 		
-Andere Beispiele wären hier die Schulbildung oder der Zivilstand. Das ist aus unserer Sicht nicht optimal und wir würden gerne wissen, ob dies beabsichtigt ist, und wenn ja, warum? 
+1 = Totgeburt
 {{</markdown>}}
+{{<lineBreak>}} 		
+Andere Beispiele wären hier die Schulbildung oder der Zivilstand. Das ist aus unserer Sicht nicht optimal und wir würden gerne wissen, ob dies beabsichtigt ist, und wenn ja, warum? 
 {{<collapsibleBlock groupId="anpassungen">}}
 Das ist beabsichtigt. Im Sinne des "once only" haben wir die Codelisten und Metadaten in ein BFS System integriert, welches dann auch veröffentlicht wird. Die neuen Codelisten entsprechen jetzt dem schweizweiten Standard der Interoperabilitätsplattform i14y.admin.ch, vorher war es eine MS Sonderlösung.
 {{</collapsibleBlock>}}
