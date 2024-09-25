@@ -15,18 +15,32 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="anpassungen">}}
 {{<listItem>}}
 Welche Variablen ändern sich mit SpiGes?
 {{<collapsibleBlock groupId="anpassungen">}}
+{{<unorderedList>}}
+{{<listItem>}}
+SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
 {{<markdown>}}
-- SpiGes hat vor allem grössere Auswirkungen auf den Prozess der Datenprüfung und das Datenformat der Lieferung. Bei den medizinischen Angaben (heutige MS) ändern sich nur wenige Punkte. Die wichtigsten dürften für Sie die folgenden sein:
 	- Die Hauptbehandlung wird abgeschafft. 
 	- Der Zusatz zur Hauptdiagnose wird abgeschafft. 
 	- Diagnosen und Behandlungen können neu in unbegrenzter Zahl erfasst werden. 
 	- Die chirurgische Leistungszeit wird bei operativen Prozeduren erfasst. 
 	- Der Behandlungsbeginn muss bei operativen Prozeduren mit der Uhrzeit (der Operation insgesamt) erfasst werden.  
 	- Der Bezug zwischen mehreren Diagnosen (Kreuz/Stern, Ausrufezeichen) wird neu mit einer Bezugsvariable (diagnose_zusatz) anstelle des Sonderzeichens erfasst. 
-- Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. 
-- Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. 
-- Hier finden Sie den {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}kompletten Datensatz{{</link>}}.
 {{</markdown>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Alle Änderungen am Datensatz sowie die genauen Details können Sie am besten nachvollziehen, wenn Sie die Variablenliste zur Hand nehmen und die Spalte «Neu/MS-Variable» filtern nach neuen und angepassten Variablen. 
+{{</listItem>}}
+
+{{<listItem>}}
+Neu werden Rechnungsdaten und Kosten, resp. Erlöse pro Fall erhoben. 
+{{<listItem>}}
+
+{{<listItem>}}
+Hier finden Sie den {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}kompletten Datensatz{{</link>}}.
+{{<listItem>}}
+
+{{</numberedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
