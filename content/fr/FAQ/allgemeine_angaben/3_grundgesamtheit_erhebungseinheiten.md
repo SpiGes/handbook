@@ -28,7 +28,7 @@ Quelle est la différence entre une entreprise hospitalière, un hôpital et un 
 - Une entreprise hospitalière est une entreprise dont le code NOGA est 861001 (hôpitaux généraux), 861002 (cliniques spécialisées) ou 869004 (maisons de naissance). Elle est désignée de manière univoque par le numéro d'identification ENTID.
 - Dans le relevé SpiGes, l'hôpital est une unité qui remplit un ITAR_K® et sur lequel se base la définition de cas de SwissDRG SA. Un hôpital est identifié par le n° BURGESV qui n'est géré que sur la base de données de GESV.
 - Un site hospitalier est clairement identifié par le numéro BUR (REE) et appartient toujours à une seule entreprise hospitalière.
-Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/IDENT) avec 12 hôpitaux (BURGESV) et 14 sites (BUR) :
+Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/ENTID) avec 12 hôpitaux (BURGESV) et 14 sites (BUR) :
 {{</markdown>}}
 {{<insertImage image="tableauFAQ1.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}

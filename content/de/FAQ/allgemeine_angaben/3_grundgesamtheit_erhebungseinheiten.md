@@ -26,7 +26,7 @@ Was ist der Unterschied zwischen einem Spitalunternehmen, einem Spital und einem
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 - Ein Spitalunternehmen, ist ein Unternehmen mit dem NOGA-Code 861001 (Allgemeine Krankenhäuser), 861002 (Spezialkliniken) oder 869004 (Geburtshäuser). Es ist mit der Identifikationsnummer ENTID eindeutig bezeichnet.
-- Das Spital ist in der SpiGes Erhebung eine Einheit, welche ein ITAR-K ausfüllt und nach der sich die Falldefinition der SwissDRG AG richtet. Ein Spital ist mit der BUR-Nr. GESV gekennzeichnet, welche nur auf der Datenbank von GESV geführt wird.
+- Das Spital ist in der SpiGes Erhebung eine Einheit, welche ein ITAR_K® ausfüllt und nach der sich die Falldefinition der SwissDRG AG richtet. Ein Spital ist mit der BUR-Nr. GESV gekennzeichnet, welche nur auf der Datenbank von GESV geführt wird.
 - Ein Spitalstandort ist mit der BUR-Nr. eindeutig gekennzeichnet und gehört immer zu genau einem Spitalunternehmen.
 Folgende Tabelle zeigt als Beispiel ein Unternehmen (UID/ENTID) mit 12 Spitälern (BURGESV) und 14 Standorten (BUR) :
 {{</markdown>}}
@@ -66,7 +66,7 @@ Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Sp
 Wie wird festgestellt, zu welchem Spital (burnr_gesv) ein Standort (burnr) gehört?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
-- Die Zuordnung der Standorte (BUR-Nummern) zu den Spitälern (BURGESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben.
+- Die Zuordnung der Standorte (BUR) zu den Spitälern (BURGESV) erfragen wir bei der Erhebung der Grundgesamtheit. In diesem Prozess sind es die Kantone, die uns in Zusammenarbeit mit den Krankenhäusern die Informationen geben.
 - Die burnr_gesv wird auf Wunsch unserer Partner auch erhoben.
 {{</markdown>}}
 {{</collapsibleBlock>}}
