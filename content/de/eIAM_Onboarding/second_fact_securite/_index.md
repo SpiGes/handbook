@@ -1,7 +1,7 @@
 ---
-title: Zweitfaktoren
+title: Zweitsicherheitsfaktor
 slug: second_fact
-description: "In diesem Kapitel finden Sie alle Möglichkeiten, die Sie als Zweitfaktor haben."
+description: "In diesem Kapitel finden Sie alle Möglichkeiten, die Sie als Zweitsicherheitsfaktor haben."
 keywords: []
 weight: 20
 type: docs
@@ -20,7 +20,7 @@ Für die Verwendung von SpiGes ist es notwendig, einen zweiten Faktor einzustell
 {{</markdown>}}
 {{</alert>}}
 
-eIAM bietet mehrere Zweitsicherheitsfaktoren an, aber nur zwei davon werden als stark eingestuft (Im Gegensatz zur Krankenhausstatistik benötigen Sie für die Verwendung von SpiGes einen starken Zweitsicherheitsfaktor):
+eIAM bietet mehrere Zweitsicherheitsfaktoren an, aber nur zwei davon werden als stark eingestuft (im Gegensatz zur Krankenhausstatistik (KS) benötigen Sie für die Verwendung von SpiGes einen starken Zweitsicherheitsfaktor):
 1. Der FIDO-Passkey
     - Windows Hello
     - Physischer Sicherheitsschlüssel (FIDO Token).

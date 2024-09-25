@@ -247,7 +247,7 @@ Sie werden per Videokontakt mit jemandem verbunden, der Ihre Identität überpr�
 
 <div class="left_col">
 <!-- First column content goes here -->
-Nach Abschluss der VideoIdentifikation wird Ihr zweiter Faktor mit dem Vertrauensniveau "Verifiziert" angezeigt.
+Nach Abschluss der VideoIdentifikation wird Ihr zweiter Faktor mit dem Vertrauensniveau "Geprüft" angezeigt.
 
 <div class="right_col">
 <!-- Second column content goes here -->

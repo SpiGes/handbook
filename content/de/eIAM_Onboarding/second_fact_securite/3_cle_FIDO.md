@@ -1,7 +1,7 @@
 ---
 title: FIDO Token
 slug: FIDO_token
-description: "Auf dieser Seite geben wir Ihnen alle Informationen über die Verwendung von FIDO Passkeys als zweiten Sicherheitsfaktor."
+description: "Auf dieser Seite geben wir Ihnen alle Informationen über die Verwendung von FIDO Passkeys als Zweitsicherheitsfaktor."
 keywords: []
 weight: 30
 type: docs
@@ -24,7 +24,7 @@ eIAM unterstützt folgende FIDO Passkeys Typen für das CH-LOGIN.
 - Security Key by Yubico with NFC
 - Feitian BioPass FIDO2 Authenticator-->
 
-## Speichern eines KEY FIDO auf Ihrem CH_LOGIN
+## Speichern eines KEY FIDO auf Ihrem CH-LOGIN
 
 <!-- 1ere paire de colonnes -->
 
