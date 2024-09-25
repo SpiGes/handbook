@@ -109,12 +109,19 @@ Es wird ein Prüftool via API (Application Programming Interfaces) zur Verfügun
 {{<listItem>}}
 Ist schon bekannt, wie das Vorgehen in Bezug auf die kantonalen Zusatzdaten sein wird? Verschiedene Kantone (z.B. LU, GR, VS und VD) haben ja bereits heute eine MK-Zeile. Zudem erheben die Kantone ZH und BE im Rahmen von SDEP ebenfalls zusätzliche Daten. Wissen Sie bereits, ob diese Daten in den Export SpiGes integriert werden oder ob diese separat exportiert werden müssen?
 {{<collapsibleBlock groupId="allgemein">}}
-{{<markdown>}}
+{{<unorderedList>}}
+{{<listItem>}}
+Die kantonalen Zusatzdaten wurden in der Schnittstelle berücksichtigt; siehe {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html" newTab="true">}}Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform 1.3{{</link>}}.
+{{</listItem>}}
 
-- Die kantonalen Zusatzdaten wurden in der Schnittstelle berücksichtigt; siehe Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform 1.3: [https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html](https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html)
-- Die kantonalen Zusatzdaten können zwar im XML angegeben werden, werden beim Import auf die SpiGes Plattform jedoch nicht weiterverarbeitet. Sie werden von den Kantonen separat plausibilisiert und bearbeitet.
-- Exportierbar sind die Kantonsdaten nur durch das Spital selbst und durch den Kanton. Voraussichtlich sind die Kantonsdaten für diese User im selben XML-File enthalten, wie die restlichen Daten.
-{{</markdown>}}
+{{<listItem>}}
+Die kantonalen Zusatzdaten können zwar im XML angegeben werden, werden beim Import auf die SpiGes Plattform jedoch nicht weiterverarbeitet. Sie werden von den Kantonen separat plausibilisiert und bearbeitet.
+{{</listItem>}}
+
+{{<listItem>}}
+Exportierbar sind die Kantonsdaten nur durch das Spital selbst und durch den Kanton. Voraussichtlich sind die Kantonsdaten für diese User im selben XML-File enthalten, wie die restlichen Daten.
+{{</listItem>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

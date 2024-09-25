@@ -141,12 +141,17 @@ Un outil de contrôle sera mis à disposition via API (Application Programming I
 {{<listItem>}}
 Sait-on déjà quelle sera la procédure concernant les données supplémentaires cantonales ? Plusieurs cantons (par ex. LU, GR, VS et VD) disposent déjà d'une ligne MK. En outre, les cantons de ZH et BE collectent également des données supplémentaires dans le cadre du SDEP. Savez-vous déjà si ces données seront intégrées dans l'exportation SpiGes ou si elles devront être exportées séparément ?
 {{<collapsibleBlock groupId="allgemein">}}
-{{<markdown>}}
-
-- Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
-- Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons.
-- Les données cantonales ne peuvent être exportées que par l'hôpital lui-même et par le canton. Il est probable que les données cantonales pour ces utilisateurs soient contenues dans le même fichier XML que les autres données.
-{{</markdown>}}
+{{<unorderedList>}}
+{{<listItem>}}
+Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html" newTab="true">}}la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3{{</link>}}.
+{{</listItem>}}
+{{<listItem>}}
+Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons.
+{{</listItem>}}
+{{<listItem>}}
+Les données cantonales ne peuvent être exportées que par l'hôpital lui-même et par le canton. Il est probable que les données cantonales pour ces utilisateurs soient contenues dans le même fichier XML que les autres données.
+{{</listItem>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
