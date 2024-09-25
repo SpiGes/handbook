@@ -22,7 +22,7 @@ L'entrée et la sortie sont indiquées comme auparavant sous Date d’admission 
 {{<listItem>}}
 Un cas qui change de site est-il comptabilisé dans les deux sites ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Un cas est saisi une seule fois sous le site principal lorsqu'il est transféré d'un site à l'autre au sein d'un même hôpital (BURGESV).
+Non, chaque cas n'est enregistré que sur le site principal, même s'il est transféré d'un site à l'autre au sein d'un même hôpital (BURGESV). Si un patient est transféré dans un autre hôpital (BURGESV), un nouveau cas doit être ouvert.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
