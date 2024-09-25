@@ -36,7 +36,7 @@ Les données de facturation et les coûts, respectivement les recettes, sont dé
 {{</listItem>}}
 
 {{<listItem>}}
-Vous trouverez ici le {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}jeu de données complet{{</link>}}.
+Vous trouverez ici le {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}jeu de données complet{{</link>}}.
 {{</listItem>}}
 {{</unorderedList>}}
 {{</collapsibleBlock>}}
