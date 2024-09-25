@@ -143,7 +143,7 @@ Sait-on déjà quelle sera la procédure concernant les données supplémentaire
 {{<collapsibleBlock groupId="allgemein">}}
 {{<unorderedList>}}
 {{<listItem>}}
-Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html" newTab="true">}}la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3{{</link>}}.
+Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.32129189.html" newTab="true">}}la description du fichier XML pour l'importation des données dans la plateforme SpiGes{{</link>}}.
 {{</listItem>}}
 {{<listItem>}}
 Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons.

@@ -111,7 +111,7 @@ Ist schon bekannt, wie das Vorgehen in Bezug auf die kantonalen Zusatzdaten sein
 {{<collapsibleBlock groupId="allgemein">}}
 {{<unorderedList>}}
 {{<listItem>}}
-Die kantonalen Zusatzdaten wurden in der Schnittstelle berücksichtigt; siehe {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html" newTab="true">}}Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform 1.3{{</link>}}.
+Die kantonalen Zusatzdaten wurden in der Schnittstelle berücksichtigt; siehe {{<link url="https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.32129189.html" newTab="true">}}Beschreibung der XML-Datei für den Datenimport in die SpiGes-Plattform{{</link>}}.
 {{</listItem>}}
 
 {{<listItem>}}

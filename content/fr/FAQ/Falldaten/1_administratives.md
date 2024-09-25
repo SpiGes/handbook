@@ -59,7 +59,7 @@ Comment est défini un « transfert » ? (p. ex. les codes «5 = transfert dans 
 {{<unorderedList>}}
 {{<listItem>}}
 La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (BURGESV), mais dans un autre hôpital (deux BURGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici:   
-{{<link url="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions" newTab="true">}}https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions{{</link>}}
+{{<link url="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions" newTab="true">}}règles et définitions{{</link>}}
 {{</listItem>}}
 
 {{<listItem>}}
@@ -101,13 +101,14 @@ entrée_séjour : 84 = division/clinique de réadaptation, même établissement
 {{<listItem>}}
 La description de la variable "wohnland" (pays de résidence) mentionne une répartition séparée des pays extra-européens en régions. Cette liste existe-t-elle déjà ou sera-t-elle publiée ?
 {{<collapsibleBlock groupId="admninistratives">}}
-{{<markdown>}}
-
-- La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :
-[https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/nomenklaturen/medsreg.html](https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/nomenklaturen/medsreg.html)
--	Für die aussereuropäischen Länder können Regionen erfasst werden, es kön
-- Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres.
-{{</markdown>}}
+{{<unorderedList>}}
+{{<listItem>}}
+La procédure et la liste sont restées les mêmes que pour la MS. Ci-joint le lien vers la liste :{{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/nomenklaturen/medsreg.html" newTab="true">}}medsreg{{</link>}}.
+{{</listItem>}}
+{{<listItem>}}
+Pour les pays extra-européens, il est possible de saisir des régions, mais aussi d'indiquer les codes des pays. Ceci est déjà le cas dans la MS et n'a pas changé. Le format est alphanumérique et peut donc contenir aussi bien des chiffres que des lettres.
+{{</listItem>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 <!--
@@ -126,7 +127,7 @@ Selon notre administration des patients, il est difficile d'obtenir l'informatio
 {{<markdown>}}
 
 - Les cas Flex et tous les autres modèles d'assurance qui deviennent de plus en plus populaires ne sont pas faciles à représenter. Malgré ces difficultés, d’un point de vue statistique, cela n’est pas dramatique pour la variable Classe d'assurance si l’information n’est pas sure. En cas de doute, ces cas devraient être représentés en tant que semi-privés.
-- La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l’ITAR_K®.
+- La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K®. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l’ITAR_K®.
 {{</markdown>}}  
 {{</collapsibleBlock>}}
 {{</listItem>}}
