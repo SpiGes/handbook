@@ -99,4 +99,4 @@ Es kann vorkommen, dass Sie eine E-Mail erhalten, die Sie auf eine Abweichung zw
 
 - Wenn die E-Mail-Adresse nicht die richtige ist (private und nicht professionelle E-Mail): Sie müssen das Profil des Nutzers deaktivieren und ihn kontaktieren, damit er seine professionnelle E-Mail-Adresse zum Einloggen verwendet. Sie müssen dann ein neues Profil erstellen, das er mit seiner professionnellen E-Mail-Adresse verknüpfen kann.
 
-- Wenn die Person, die den Zugang erstellt hat, nicht die ursprünglich vorgesehene Person ist (die Daten stammen von einer anderen Person): Deaktivieren Sie das Profil und wenden Sie sich umgehend an spiges@bfs.admin.ch.
+- Wenn die Person, die den Zugang erstellt hat, nicht die ursprünglich vorgesehene Person ist (die Daten stammen von einer anderen Person): Deaktivieren Sie das Profil und wenden Sie sich umgehend an <spiges@bfs.admin.ch>.
