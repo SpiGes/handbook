@@ -45,24 +45,21 @@ In einigen Fällen sind der geografische Kanton eines Standorts und der administ
 
 Beispiel:
 
-<div class="two_column">
-
-<div class="left_col">
-<!-- First column content goes here -->
+{{<layouts/grid>}}
+{{<layouts/row>}}
+{{<layouts/column width="50">}}
 {{<markdown>}}
+
 1. In der Spalte 1 sehen Sie die EntID auf Ebene des Unternehmens und Sie sehen die Bur-Nummer auf Ebene der Standorte.
 2. In der Spalte 2 sehen Sie den administrativen (zuständigen) Kanton des Unternehmens / des Krankenhausstandorts.
 3. In der Spalte 3 sehen Sie den geografischen Kanton des Unternehmens / des Standorts.
 
 Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind.
 {{</markdown>}}
-</div>
+{{</layouts/column>}}
 
-<div class="right_col">
-<!-- Second column content goes here -->
+{{<layouts/column>}}
 {{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
-</div>
-
-</div>
-
-&nbsp;
+{{</layouts/column>}}
+{{</layouts/row>}}
+{{</layouts/grid>}}

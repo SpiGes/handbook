@@ -9,45 +9,35 @@ type: docs
 
 Sie werden eine E-Mail erhalten, in der Sie aufgefordert werden, Ihr Onboarding mit Ihrem Zugang zur SpiGes-Erhebungsplattform abzuschliessen.
 
-<!-- 1ere paire de colonnes -->
+{{<layouts/grid class="mb-3">}}
+{{<layouts/row align="center" class="mb-3">}}
 
-<div class="two_column">
-
-<div class="left_col">
-<!-- First column content goes here -->
+{{<layouts/column width="50">}}
 {{<markdown>}}
 Wählen Sie Ihren Onboarding-Code aus, kopieren Sie ihn mit der rechten Maustaste und klicken Sie dann auf den Onboarding-Abschluss-Link.
 
 Melden Sie sich mit Ihrem CH-LOGIN an.
 {{</markdown>}}
-</div>
+{{</layouts/column>}}
 
-<div class="right_col">
-<!-- Second column content goes here -->
+{{<layouts/column>}}
 {{<insertImage image="mail_onboarding_de.png" class="edge max-w-90">}}
-</div>
+{{</layouts/column>}}
 
-</div>
+{{</layouts/row>}}
 
-&nbsp;
+{{<layouts/row align="center">}}
 
-<!-- Deuxième paire de colonnes -->
-
-<div class="two_column">
-
-<div class="left_col">
-<!-- First column content goes here -->
+{{<layouts/column width="50">}}
 Fügen Sie nun Ihren Onboarding-Code ein und klicken Sie auf "Registrierungscode senden".
-</div>
+{{</layouts/column>}}
 
-<div class="right_col">
-<!-- Second column content goes here -->
+{{<layouts/column>}}
 {{<insertImage image="enregistrement.png" class="edge max-w-90">}}
-</div>
+{{</layouts/column>}}
 
-</div>
-
-&nbsp;
+{{</layouts/row>}}
+{{</layouts/grid>}}
 
 Sie haben nun Zugang zur SpiGes-Plattform. Um sich einzuloggen, gehen Sie auf die Webseite {{<link url="https://www.spiges.admin.ch/home" newTab="true">}}www.spiges.admin.ch{{</link>}}
 <!--www.spiges.admin.ch-->

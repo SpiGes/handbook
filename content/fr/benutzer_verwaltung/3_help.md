@@ -1,4 +1,4 @@
-    ---
+---
 
 title: Support aux utilisateurs
 slug: support
