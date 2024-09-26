@@ -1,7 +1,7 @@
 ---
-title: Zweitfaktoren
+title: Zweitsicherheitsfaktor
 slug: second_fact
-description: "In diesem Kapitel finden Sie alle Möglichkeiten, die Sie als Zweitfaktor haben."
+description: "In diesem Kapitel finden Sie alle Möglichkeiten, die Sie als Zweitsicherheitsfaktor haben."
 keywords: []
 weight: 20
 type: docs
@@ -12,6 +12,7 @@ Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eia
 {{<alert color="info">}}
 {{<markdown>}}
 Für die Verwendung von SpiGes ist es notwendig, einen zweiten Faktor einzustellen, der als stark eingestuft wird.
+
 - Wenn Sie bereits einen nicht verifizierten zweiten Faktor auf Ihrem CH-LOGIN haben, können Sie diesen entfernen.
 - Wenn Sie bereits einen zweiten Faktor haben, der bereits verifiziert ist, muss dieser zu den nächsten zweiten Faktoren gehören, ansonsten müssen Sie ihn entfernen:
     - Der Passkey FIDO
@@ -20,7 +21,8 @@ Für die Verwendung von SpiGes ist es notwendig, einen zweiten Faktor einzustell
 {{</markdown>}}
 {{</alert>}}
 
-eIAM bietet mehrere Zweitsicherheitsfaktoren an, aber nur zwei davon werden als stark eingestuft (Im Gegensatz zur Krankenhausstatistik benötigen Sie für die Verwendung von SpiGes einen starken Zweitsicherheitsfaktor):
+eIAM bietet mehrere Zweitsicherheitsfaktoren an, aber nur zwei davon werden als stark eingestuft (im Gegensatz zur Krankenhausstatistik (KS) benötigen Sie für die Verwendung von SpiGes einen starken Zweitsicherheitsfaktor):
+
 1. Der FIDO-Passkey
     - Windows Hello
     - Physischer Sicherheitsschlüssel (FIDO Token).
@@ -32,7 +34,7 @@ Sie dürfen **keinen** anderen Zweitfaktor als die oben genannten verifizieren. 
 {{</markdown>}}
 {{</alert>}}
 
-Idealerweise verwenden Sie Windows Hello auf dem Computer.      
+Idealerweise verwenden Sie Windows Hello auf dem Computer.
 Wenn dies nicht möglich ist, verwenden Sie entweder die MobileID oder einen physischen Sicherheitsschlüssel.
 
 **Jeder Zugriff auf die SpiGes-Plattform muss von einem Computer aus erfolgen**.

@@ -45,24 +45,23 @@ Dans certains cas, le canton géographique d'un site et celui administratif de l
 
 Exemple:
 
-<div class="two_column">
+{{<layouts/grid>}}
+{{<layouts/row>}}
 
-<div class="left_col">
-<!-- First column content goes here -->
+{{<layouts/column width="50">}}
 {{<markdown>}}
+
 1. Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers.
 2. Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier.
 3. Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier.
 
 Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.
 {{</markdown>}}
-</div>
+{{</layouts/column>}}
 
-<div class="right_col">
-<!-- Second column content goes here -->
+{{<layouts/column>}}
 {{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
-</div>
+{{</layouts/column>}}
 
-</div>
-
-&nbsp;
+{{</layouts/row>}}
+{{</layouts/grid>}}

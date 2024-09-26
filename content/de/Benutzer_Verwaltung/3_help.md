@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-## Erneute Sendung des Onboarding-Codes
+## Zurücksendung des Onboarding-Codes
 
 Es kann sein, dass der Onboarding-Code an den Nutzer nochmals geschickt werden muss. Zum Beispiel, wenn bei der Eingabe der E-Mail-Adresse ein Fehler gemacht wurde oder wenn es mehr als einen Monat her ist, dass der Code gesendet wurde. In diesem Fall müssen Sie wie folgt vorgehen:
 
@@ -90,3 +90,13 @@ Sie können einen Benutzer auch über das Menü Benutzerauswahl deaktivieren ode
 </div>
 
 &nbsp;
+
+## eIAM-Differenzen
+
+Es kann vorkommen, dass Sie eine E-Mail erhalten, die Sie auf eine Abweichung zwischen den im eIAM-Portal eingegebenen Daten und den Daten des angemeldeten Benutzers hinweist. Hier erfahren Sie, was Sie in den verschiedenen Situationen tun sollten:
+
+- Wenn der Fehler vernachlässigbar ist (falscher zweiter Vorname, Tippfehler, ...): Sie können die E-Mail von eIAM ignorieren, die Daten werden automatisch in eIAM aktualisiert.
+
+- Wenn die E-Mail-Adresse nicht die richtige ist (private und nicht professionelle E-Mail): Sie müssen das Profil des Nutzers deaktivieren und ihn kontaktieren, damit er seine professionnelle E-Mail-Adresse zum Einloggen verwendet. Sie müssen dann ein neues Profil erstellen, das er mit seiner professionnellen E-Mail-Adresse verknüpfen kann.
+
+- Wenn die Person, die den Zugang erstellt hat, nicht die ursprünglich vorgesehene Person ist (die Daten stammen von einer anderen Person): Deaktivieren Sie das Profil und wenden Sie sich umgehend an <spiges@bfs.admin.ch>.

@@ -14,9 +14,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="diagnose">}}
 {{<listItem>}}
 POA-Variable: Könnten Sie uns bitte sagen, zu welchem Zweck die Variable diagnose_poa verwendet wird?
 {{<collapsibleBlock groupId="diagnose">}}
-{{<markdown>}}
-Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Patientensicherheit verwendet werden. Siehe z. B. die Mitteilung des Kantons Zürich zu diesem Thema. [Present on admission - Informationen zur Erfassung (zh.ch)](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/gesundheit/gesundheitsversorgung/spitaeler_kliniken/daten_und_statistik_der_listenspitaeler/datenerhebung/poa_informationen.pdf)
-{{</markdown>}}
+Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Patientensicherheit verwendet werden. Siehe z. B. die Mitteilung des Kantons Zürich zu diesem Thema: {{<link url="https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/gesundheit/gesundheitsversorgung/spitaeler_kliniken/daten_und_statistik_der_listenspitaeler/datenerhebung/poa_informationen.pdf" newTab="true">}}Present on admission - Informationen zur Erfassung (zh.ch){{</link>}}.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

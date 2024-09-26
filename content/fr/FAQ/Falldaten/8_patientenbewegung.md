@@ -22,7 +22,7 @@ L'entrée et la sortie sont indiquées comme auparavant sous Date d’admission 
 {{<listItem>}}
 Un cas qui change de site est-il comptabilisé dans les deux sites ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Un cas est saisi une seule fois sous le site principal lorsqu'il est transféré d'un site à l'autre au sein d'un même hôpital (REE GESV).
+Non, chaque cas n'est enregistré que sur le site principal, même s'il est transféré d'un site à l'autre au sein d'un même hôpital (BURGESV). Si un patient est transféré dans un autre hôpital (BURGESV), un nouveau cas doit être ouvert.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -62,9 +62,9 @@ Oui, la date et l'heure doivent être fournies pour tous les épisodes, tant pou
 {{</listItem>}}
 
 {{<listItem>}}
-L'indication du BURNR de l'hôpital traitant à l'extérieur est facultative, n'est-ce pas ? 
+L'indication du BURNR de l'hôpital traitant à l'extérieur est facultative, n'est-ce pas ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Oui, pour les traitements ambulatoires externes, le numéro REE du site de traitement peut être indiqué s'il est connu.
+Oui, pour les traitements ambulatoires externes, le numéro REE du site (BUR) de traitement peut être indiqué s'il est connu.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

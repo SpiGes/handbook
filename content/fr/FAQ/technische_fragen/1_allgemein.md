@@ -26,7 +26,7 @@ En janvier 2023, nous avons organisé une réunion d'information à l’intentio
 {{</listItem>}}
 
 {{<listItem>}}
-Selon la liste de variables 1.3, il existe les tableaux suivants 
+Selon la liste de variables 1.3, il existe les tableaux suivants
 <table>
   <tr>
     <td> 1 </td>
@@ -79,9 +79,7 @@ Selon la liste de variables 1.3, il existe les tableaux suivants
 </table>
 Est-il possible de livrer ces tableaux sous forme de fichiers xml individuels à la plateforme SpiGes ?
 {{<collapsibleBlock groupId="allgemein">}}
-{{<markdown>}}
-Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre site web [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html).
-{{</markdown>}}
+Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html" newTab="true">}}site web{{</link>}}.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -143,12 +141,17 @@ Un outil de contrôle sera mis à disposition via API (Application Programming I
 {{<listItem>}}
 Sait-on déjà quelle sera la procédure concernant les données supplémentaires cantonales ? Plusieurs cantons (par ex. LU, GR, VS et VD) disposent déjà d'une ligne MK. En outre, les cantons de ZH et BE collectent également des données supplémentaires dans le cadre du SDEP. Savez-vous déjà si ces données seront intégrées dans l'exportation SpiGes ou si elles devront être exportées séparément ?
 {{<collapsibleBlock groupId="allgemein">}}
-{{<markdown>}}
-
-- Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir la description du fichier XML pour l'importation des données dans la plateforme SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
-- Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons.
-- Les données cantonales ne peuvent être exportées que par l'hôpital lui-même et par le canton. Il est probable que les données cantonales pour ces utilisateurs soient contenues dans le même fichier XML que les autres données.
-{{</markdown>}}
+{{<unorderedList>}}
+{{<listItem>}}
+Les données supplémentaires cantonales ont été prises en compte dans l'interface ; voir {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.32129189.html" newTab="true">}}la description du fichier XML pour l'importation des données dans la plateforme SpiGes{{</link>}}.
+{{</listItem>}}
+{{<listItem>}}
+Les données cantonales supplémentaires peuvent certes être indiquées dans le XML, mais elles ne sont pas traitées plus avant lors de l'importation sur la plateforme SpiGes. Elles sont plausibilisées et traitées séparément par les cantons.
+{{</listItem>}}
+{{<listItem>}}
+Les données cantonales ne peuvent être exportées que par l'hôpital lui-même et par le canton. Il est probable que les données cantonales pour ces utilisateurs soient contenues dans le même fichier XML que les autres données.
+{{</listItem>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -182,7 +185,12 @@ Nouvelles variables medi_id et rech_id : d'après la description, nous ne savons
 Dans les fichiers d'exemple pour le fichier des identificateurs et le fichier des données, il y a deux champs pour la version. Or, ces versions ne correspondent pas. Ainsi, la version 1.0 est indiquée dans l'en-tête et la version 1.3 dans le tag Entreprise. Pourquoi les numéros de version sont-ils différents ? Comment savoir quand indiquer quel numéro de version ?
 {{<collapsibleBlock groupId="allgemein">}}
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
-"?xml version="1.0″" se trouve toujours ainsi . La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
+
+{{<lineBreak>}}
+{{<markdown>}}
+`?xml version="1.0"` se trouve toujours ainsi .
+La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

@@ -1,5 +1,5 @@
 ---
-title: ITAR_K 
+title: ITAR_K® 
 slug: ITAR_K
 description: " "
 weight: 40
@@ -13,14 +13,14 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="ITARK">}}
 {{<numberedList>}}
 
 {{<listItem>}}
-SpiGes erhebt nur Informationen zu den stationären Fällen. Wie kann der ambulante Teil des ITAR_K ausgefüllt werden?
+SpiGes erhebt nur Informationen zu den stationären Fällen. Wie kann der ambulante Teil des ITAR_K® ausgefüllt werden?
 {{<collapsibleBlock groupId="ITARK">}}
-Das ITAR_K kann mit den SpiGes Daten erstellt werden. Die ambulanten Angaben werden in den dafür vorgesehenen KTR Typen erhoben (z.B. Tarif Labor).
+ITAR_K® kann mit den SpiGes Daten erstellt werden. Die ambulanten Angaben werden in den dafür vorgesehenen KTR Typen erhoben (z.B. Tarif Labor).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Wie wird das ITAR_K von Kliniken erstellt, welche nur Teil eines Spitalunternehmens sind? (z.B. Klinik St. Anne von Fribourg ist Teil der Swiss Medical Network AG)
+Wie wird ITAR_K® von Kliniken erstellt, welche nur Teil eines Spitalunternehmens sind? (z.B. Klinik St. Anne von Fribourg ist Teil der Swiss Medical Network AG)
 {{<collapsibleBlock groupId="ITARK">}}
 Die Klinik St. Anne von Fribourg wird die Finanzbuchhaltung (und alle anderen Angaben) in der Krankenhausstatistik pro Klinik (Ebene BURGESV) ausfüllen. Die Kosten aus SpiGes lassen sich nach BURGESV aggregieren.
 {{</collapsibleBlock>}}
@@ -34,9 +34,10 @@ Bei dieser Frist müssen die Kostendaten erstmals automatisch auf der SpiGes Pla
 {{</listItem>}}
 
 {{<listItem>}}
-Wir finden keine SpiGes-Variable, die es ermöglichen würde, die direkt mit einem Fall verbundenen GWL-Einnahmen/Kosten in die dafür vorgesehene GWL Spalte im ITAR_K zu überführen. Wie wird die GWL-Spalte von ITAR_K mit den SpiGes Daten berechnet?
+Wir finden keine SpiGes-Variable, die es ermöglichen würde, die direkt mit einem Fall verbundenen GWL-Einnahmen/Kosten in die dafür vorgesehene GWL Spalte im ITAR_K® zu überführen. Wie wird die GWL-Spalte von ITAR_K® mit den SpiGes Daten berechnet?
 {{<collapsibleBlock groupId="ITARK">}}
 {{<markdown>}}
+
 -	Bei der Abbildung der gemeinwirtschaftlichen Leistungen hält sich SpiGes grundsätzlich an die Rechtsprechung und die Empfehlungen des Spitalverbandes H+. REKOLE® sieht vor, dass die Kosten der fallbezogenen gemeinwirtschaftlichen Leistungen auf dem Fall, die Erlöse jedoch auf einem separaten GWL-Kostenträger abgebildet werden. Kosten und Erlöse von fallunabhängigen GWL werden ebenfalls auf einem separaten GWL-Kostenträger abgebildet.
 -	Aus technischer Sicht ist es möglich, von den Vorgaben von REKOLE® abzuweichen. Die Kosten und Erlöse der fallbezogenen GWL könnten auch auf einem eigenen Kostenträger (Typ KTR 700-799) erfasst werden. Dies liegt im Ermessen des Kantons. Wichtig ist in diesem Fall, dass die Kosten und Erlöse für die OKP-Leistungen trotzdem auf dem Fall erfasst werden (Typ KTR = 1).
 {{</markdown>}}
@@ -44,11 +45,12 @@ Wir finden keine SpiGes-Variable, die es ermöglichen würde, die direkt mit ein
 {{</listItem>}}
 
 {{<listItem>}}
-ITAR_K kann sowohl auf Unternehmens als auch auf Standort-Ebene ausgefüllt werden. Was wird in SpiGes verlangt? Liegt die Entscheidung dazu bei den Kantonen?
+ITAR_K® kann sowohl auf Unternehmens als auch auf Standort-Ebene ausgefüllt werden. Was wird in SpiGes verlangt? Liegt die Entscheidung dazu bei den Kantonen?
 {{<collapsibleBlock groupId="ITARK">}}
 {{<markdown>}}
--	ITAR_K wird immer auf der Ebene BUR-GESV ausgefüllt, diese Ebene muss mit der Erhebung der KS übereinstimmen. Die Informationen dazu liefert der Kanton in der Erhebung der Grundgesamtheit an das BFS. Insofern hat der Kanton einen Einfluss. Er muss sich aber mit dem Spital absprechen.
--	Das ITAR_K stellt das Grundinstrument für die Verhandlungen der Spitäler mit den Versicherern dar. Ob dabei der Kanton bezüglich Granularität mitbestimmt, ist abhängig davon ob es sich um ein Listenspital, ein Vertragsspital oder ein Ausstandspital handelt.
+
+-	ITAR_K® wird immer auf der Ebene BURGESV ausgefüllt, diese Ebene muss mit der Erhebung der KS übereinstimmen. Die Informationen dazu liefert der Kanton in der Erhebung der Grundgesamtheit an das BFS. Insofern hat der Kanton einen Einfluss. Er muss sich aber mit dem Spital absprechen.
+-	ITAR_K® stellt das Grundinstrument für die Verhandlungen der Spitäler mit den Versicherern dar. Ob dabei der Kanton bezüglich Granularität mitbestimmt, ist abhängig davon ob es sich um ein Listenspital, ein Vertragsspital oder ein Ausstandspital handelt.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

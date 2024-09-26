@@ -115,15 +115,14 @@ Nein, das ist nicht möglich.
 {{<listItem>}}
 Kann man KTR-Typen auch mehrfach verwenden? Zum Beispiel bei 599 mehrfache Zeilen abliefern mit unterschiedlichem Freitext in der Variable "ktr_beschr" ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Ja, das ist möglich. <br />
-Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K-Spalte zugeordnet. Somit muss in der Variable «ktr_typ» einer der vordefinierten Werte verwendet werden. Es ist jedoch möglich mehrere Kostenträger mit demselben KTR-Typ anzugeben, z.B. für den ktr_typ 205 einmal mit dem Freitext «KVG» und einmal mit dem Freitext «MTK» in der Variable «ktr_beschr». Diese beiden Kostenträger werden dann summiert und in der ITAR_K-Spalte «Tagesklinik Kind- & Jugendpsychiatrie» abgebildet. Theoretisch sind auch weitere Aufteilungen technisch möglich, bis auf den ambulanten Fall. Solange alle denselben KTR-Typ aufweisen, werden sie wie beschrieben summiert und abgebildet.
+Ja, das ist möglich. Anhand der Angabe «ktr_typ» wird ein Kostenträger einer ITAR_K®-Spalte zugeordnet. Somit muss in der Variable «ktr_typ» einer der vordefinierten Werte verwendet werden. Es ist jedoch möglich mehrere Kostenträger mit demselben KTR-Typ anzugeben, z.B. für den ktr_typ 205 einmal mit dem Freitext «KVG» und einmal mit dem Freitext «MTK» in der Variable «ktr_beschr». Diese beiden Kostenträger werden dann summiert und in der ITAR_K®-Spalte «Tagesklinik Kind- & Jugendpsychiatrie» abgebildet. Theoretisch sind auch weitere Aufteilungen technisch möglich, bis auf den ambulanten Fall. Solange alle denselben KTR-Typ aufweisen, werden sie wie beschrieben summiert und abgebildet.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Wird der KTR-Teil auch bei ambulanten Fällen erwartet, oder bezieht sich dieser ebenfalls ausschliesslich auf stationäre Fälle?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Um ein ITAR_K ausfüllen zu können, werden die Kosten der ambulanten Fälle summarisch pro KTR Typ (z.B. Tarif Dialyse) abgefüllt.
+Um ein ITAR_K® ausfüllen zu können, werden die Kosten der ambulanten Fälle summarisch pro KTR Typ (z.B. Tarif Dialyse) abgefüllt.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

@@ -31,7 +31,7 @@ Um die Videoidentifizierung durchzuführen, benötigen Sie folgendes Material:
 
 - Ein Smartphone oder einen Laptop mit einer funktionierenden Kamera und einem Mikrofon. Wählen Sie ein Gerät mit guter Bild- und Tonqualität.  
 - Einen gültigen amtlichen Ausweis (Pass oder Identitätskarte). Je nach {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}} Staatsangehörigkeit{{</link>}} ist ein Reisepass erforderlich.
-- Ein Zahlungsmittel. Entweder einen Gutschein ("Voucher Codes") oder eines der folgenden Zahlungsmittel: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
+- Ein Zahlungsmittel. Entweder einen vom BFS ausgegeben Gutschein ("Voucher Codes") oder eines der folgenden Zahlungsmittel: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
 
 <!-- 1ere paire de colonnes -->
 
@@ -247,7 +247,7 @@ Sie werden per Videokontakt mit jemandem verbunden, der Ihre Identität überpr�
 
 <div class="left_col">
 <!-- First column content goes here -->
-Nach Abschluss der VideoIdentifikation wird Ihr zweiter Faktor mit dem Vertrauensniveau "Verifiziert" angezeigt.
+Nach Abschluss der VideoIdentifikation wird Ihr zweiter Faktor mit dem Vertrauensniveau "Geprüft" angezeigt.
 
 <div class="right_col">
 <!-- Second column content goes here -->

@@ -35,7 +35,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-Vous êtes maintenant connectés au portail eIAM. Pour accéder à la gestion des utilisateurs, cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".  
+Vous êtes maintenant connecté au portail eIAM. Pour accéder à la gestion des utilisateurs, cliquez d'abord dans l'onglet "Gestion des utilisateurs", puis cliquez sur "Gestion déléguée".  
 </div>
 
 <div class="right_col">
