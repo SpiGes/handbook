@@ -28,6 +28,7 @@ Welche Fehler verursachen die Fehlermeldung «interner Serverfehler 500»?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 Beim internen Serverfehler 500 gibt es verschiedene Ursachen, welche Sie hier aufgeführt finden:
 {{<markdown>}}
+
 1. Datei leer
 2. Datei zu gross
 3. Kopfzeile falsch
@@ -36,6 +37,7 @@ Beim internen Serverfehler 500 gibt es verschiedene Ursachen, welche Sie hier au
 {{<lineBreak>}}
 {{<markdown>}}
 Kopfzeile:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Entreprise 

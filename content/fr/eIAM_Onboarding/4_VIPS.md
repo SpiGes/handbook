@@ -28,6 +28,7 @@ Le seconds facteurs suivants ne fonctionnent pas:
 L'identification vidéo peut se faire du lundi au samedi de 8h à 17h.
 
 Pour réaliser l'identification vidéo, vous avez besoin du matériel suivant :
+
 - Un smartphone ou un ordinateur portable avec une caméra et un microphone fonctionnels. Privilégiez un appareil avec une bonne qualité de son et d'image.  
 - Une pièce d'identité officielle avec photo en cours de validité (passeport ou carte d'identité). Selon la {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nationalité{{</link>}}, un passeport est obligatoirement requis.
 - Un moyen de paiement. Soit un bon donné par l'OFS ("voucher codes"), soit un des moyens de payement suivants: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.

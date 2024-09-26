@@ -7,7 +7,7 @@ weight: 50
 type: docs
 ---
 
-Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre accès à la plateforme de relevé SpiGes. 
+Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre accès à la plateforme de relevé SpiGes.
 
 <!-- 1ere paire de colonnes -->
 
@@ -24,7 +24,7 @@ Connectez vous à l'aide de votre CH-LOGIN.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding.png" class="edge max-w-90">}} 
+{{<insertImage image="mail_onboarding.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -37,7 +37,7 @@ Connectez vous à l'aide de votre CH-LOGIN.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Collez maintenant votre code d'onboarding, puis cliquez sur "envoyer le code d'enregistrement". 
+Collez maintenant votre code d'onboarding, puis cliquez sur "envoyer le code d'enregistrement".
 </div>
 
 <div class="right_col">
@@ -47,7 +47,7 @@ Collez maintenant votre code d'onboarding, puis cliquez sur "envoyer le code d'e
 
 </div>
 
-&nbsp; 
+&nbsp;
 
-Vous avez maintenant accès à la plateforme SpiGes. Pour vous connecter, rendez vous sur le site {{<link url="https://www.spiges.admin.ch/home" newTab="true">}}www.spiges.admin.ch{{</link>}} 
+Vous avez maintenant accès à la plateforme SpiGes. Pour vous connecter, rendez vous sur le site {{<link url="https://www.spiges.admin.ch/home" newTab="true">}}www.spiges.admin.ch{{</link>}}
 <!--www.spiges.admin.ch-->

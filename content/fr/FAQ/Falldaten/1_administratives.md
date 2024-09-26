@@ -22,8 +22,9 @@ Le regroupement des cas est géré à SpiGes conformément aux directives de Swi
 fall_id_ch : Qui génère ce numéro de cas et celui-ci est-il automatiquement déposé dans Opale (système IRP) ? Jusqu'à présent, nous pouvions générer automatiquement l'identifiant de cas dans les deux fichiers (données OFS et fichier des coûts par cas) dans Opale.
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
-- Le numéro de cas clair pour toute la Suisse est généré par la plateforme SpiGes. Lors d'une exportation de données à partir de la plateforme, ce fall_id_ch est à la disposition des utilisateurs de données. 
-- L'identifiant du cas, la variable fall_id, est généré par les hôpitaux. Les logiciels hospitaliers (comme Opale par exemple) devraient continuer à disposer de cette fonction. 
+
+- Le numéro de cas clair pour toute la Suisse est généré par la plateforme SpiGes. Lors d'une exportation de données à partir de la plateforme, ce fall_id_ch est à la disposition des utilisateurs de données.
+- L'identifiant du cas, la variable fall_id, est généré par les hôpitaux. Les logiciels hospitaliers (comme Opale par exemple) devraient continuer à disposer de cette fonction.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -39,8 +40,9 @@ Jusqu'à présent, il n'a pas été défini si ces variables doivent être fourn
 Comment est définie le «Transfert interne» ?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
-- Le transfert interne d’un domaine de prestations (soins aigus, psychiatrie, réadaptation) vers un autre domaine de prestations au sein du même hôpital (burnr_gesv), 
-- ou pour les cas considérés comme étant en attente de placement. 
+
+- Le transfert interne d’un domaine de prestations (soins aigus, psychiatrie, réadaptation) vers un autre domaine de prestations au sein du même hôpital (burnr_gesv),
+- ou pour les cas considérés comme étant en attente de placement.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -58,7 +60,7 @@ Comment est défini un « transfert » ? (p. ex. les codes «5 = transfert dans 
 
 {{<unorderedList>}}
 {{<listItem>}}
-La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (BURGESV), mais dans un autre hôpital (deux BURGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici:   
+La variable Type d'admission existe déjà dans la MS et n'a pas non plus changé avec SpiGes. Un transfert se distingue d'un transfert interne par le fait qu'il n'a pas lieu dans le même hôpital (BURGESV), mais dans un autre hôpital (deux BURGESV différents). La définition se base sur les principes de SwissDRG SA, que vous trouverez ici:
 {{<link url="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions" newTab="true">}}règles et définitions{{</link>}}
 {{</listItem>}}
 
@@ -88,9 +90,9 @@ Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du t
 {{<listItem>}}
 Comment coder les cas qui passent de la réadaptation (tarif ST-REHA) aux soins de longue durée (tarif "taxe de soins") du même établissement ? Les variables 1.2.V02 et 1.5.V03 ne nous permettent pas d'indiquer "soins de longue durée, même établissement".
 {{<collapsibleBlock groupId="admninistratives">}}
-{{<markdown>}}   
+{{<markdown>}}
 C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit :  
-sortie_séjour : 2 = établ. de santé non hospit. médicalisé             
+sortie_séjour : 2 = établ. de santé non hospit. médicalisé
 entrée_séjour : 84 = division/clinique de réadaptation, même établissement  
 {{</markdown>}}
 {{</collapsibleBlock>}}

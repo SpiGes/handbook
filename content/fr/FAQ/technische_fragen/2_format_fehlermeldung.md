@@ -28,6 +28,7 @@ Quelles erreurs provoquent le message d'erreur « erreur de serveur interne 500 
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouverez ici :
 {{<markdown>}}
+
 1. fichier vide
 2. fichier trop grand
 3. en-tête incorrect
@@ -36,6 +37,7 @@ L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouver
 {{<lineBreak>}}
 {{<markdown>}}
 En-tête :
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Entreprise 

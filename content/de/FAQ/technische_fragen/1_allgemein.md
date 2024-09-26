@@ -157,8 +157,11 @@ In den Beispieldateien für das Identifikatoren-File und das Daten-File gibt es 
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
 
 {{<lineBreak>}}
-«?xml version=“1.0″» steht immer so. 
+{{<markdown>}}
+`?xml version="1.0"` steht immer so.
 Die oberste Version bezieht sich also auf das «XML» selbst, und die untere auf das spezifische SpiGes XML.
+{{</markdown>}}
+
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

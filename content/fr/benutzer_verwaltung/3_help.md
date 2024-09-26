@@ -1,4 +1,5 @@
     ---
+
 title: Support aux utilisateurs
 slug: support
 description: "Sur cette page, nous vous expliquons comment aider les utilisateurs en cas de besoin. Cette tâche ne concerne que les responsables des cantons (KT_Superuser)."
@@ -81,6 +82,7 @@ Vous pouvez également renvoyer le code d'onboarding à un utilisateur à partir
 2. Vous pouvez envoyer un rappel d'enregistrement à l'utilisateur.
 3. Vous pouvez également envoyer un nouveau code d'enregistrement à l'utilisateur.
 {{</markdown>}}
+
 </div>
 
 <div class="right_col">
@@ -99,6 +101,4 @@ Il se peut que vous receviez un mail vous indiquant une incohérence entre les d
 
 - Si l'adresse e-mail n'est pas la bonne (e-mail privé et non professionnel): Vous devez désactiver le profil de l'utilisateur, et le contacter afin qu'il utilise son adresse e-mail professionelle pour se connecter. Vous devez ensuite lui créer un nouveau profil qu'il pourra lier avec son adresse e-mail professionnelle.
 
-- Si la personne ayant créé l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): Il faut désactiver le profil et contacter imédiatement spiges@bfs.admin.ch. 
-
-
+- Si la personne ayant créé l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): Il faut désactiver le profil et contacter imédiatement <spiges@bfs.admin.ch>.

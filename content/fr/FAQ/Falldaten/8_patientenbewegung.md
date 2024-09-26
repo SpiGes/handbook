@@ -62,7 +62,7 @@ Oui, la date et l'heure doivent être fournies pour tous les épisodes, tant pou
 {{</listItem>}}
 
 {{<listItem>}}
-L'indication du BURNR de l'hôpital traitant à l'extérieur est facultative, n'est-ce pas ? 
+L'indication du BURNR de l'hôpital traitant à l'extérieur est facultative, n'est-ce pas ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Oui, pour les traitements ambulatoires externes, le numéro REE du site (BUR) de traitement peut être indiqué s'il est connu.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}

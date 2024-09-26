@@ -24,7 +24,7 @@ Melden Sie sich mit Ihrem CH-LOGIN an.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding_de.png" class="edge max-w-90">}} 
+{{<insertImage image="mail_onboarding_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -37,7 +37,7 @@ Melden Sie sich mit Ihrem CH-LOGIN an.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Fügen Sie nun Ihren Onboarding-Code ein und klicken Sie auf "Registrierungscode senden". 
+Fügen Sie nun Ihren Onboarding-Code ein und klicken Sie auf "Registrierungscode senden".
 </div>
 
 <div class="right_col">
@@ -47,7 +47,7 @@ Fügen Sie nun Ihren Onboarding-Code ein und klicken Sie auf "Registrierungscode
 
 </div>
 
-&nbsp; 
+&nbsp;
 
-Sie haben nun Zugang zur SpiGes-Plattform. Um sich einzuloggen, gehen Sie auf die Webseite {{<link url="https://www.spiges.admin.ch/home" newTab="true">}}www.spiges.admin.ch{{</link>}} 
+Sie haben nun Zugang zur SpiGes-Plattform. Um sich einzuloggen, gehen Sie auf die Webseite {{<link url="https://www.spiges.admin.ch/home" newTab="true">}}www.spiges.admin.ch{{</link>}}
 <!--www.spiges.admin.ch-->

@@ -26,7 +26,7 @@ En janvier 2023, nous avons organisé une réunion d'information à l’intentio
 {{</listItem>}}
 
 {{<listItem>}}
-Selon la liste de variables 1.3, il existe les tableaux suivants 
+Selon la liste de variables 1.3, il existe les tableaux suivants
 <table>
   <tr>
     <td> 1 </td>
@@ -187,8 +187,10 @@ Dans les fichiers d'exemple pour le fichier des identificateurs et le fichier de
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
 
 {{<lineBreak>}}
-"?xml version="1.0″" se trouve toujours ainsi . 
+{{<markdown>}}
+`?xml version="1.0"` se trouve toujours ainsi .
 La version supérieure se réfère donc au "XML" lui-même, et la version inférieure au XML SpiGes spécifique.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

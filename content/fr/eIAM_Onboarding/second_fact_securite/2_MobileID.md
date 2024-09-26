@@ -65,17 +65,17 @@ Vous allez ensuite recevoir un code par SMS au numéro indiqué, saisissez le co
 
 &nbsp;
 
-Vous êtes maintenant sur votre tableau de bord Mobile ID. 
+Vous êtes maintenant sur votre tableau de bord Mobile ID.
 
-L'étape suivante sera d'activer le Mobile ID. 
+L'étape suivante sera d'activer le Mobile ID.
 
 {{<alert color="warning">}}
-Pour l'utilisation de la plateforme SpiGes, l'activation doit nécessairement se faire par la carte SIM (l'activation par l'application MobileID ne suffit pas). Pour cela, il vous faudra une carte SIM compatible avec Mobile ID. 
+Pour l'utilisation de la plateforme SpiGes, l'activation doit nécessairement se faire par la carte SIM (l'activation par l'application MobileID ne suffit pas). Pour cela, il vous faudra une carte SIM compatible avec Mobile ID.
 {{</alert>}}
 
 La compatibilité de votre carte SIM s'affiche sur votre tableau de bord Mobile ID. Si votre carte SIM n'est pas compatible, il faudra commander une nouvelle carte SIM auprès de votre opérateur téléphonique.
 
-&nbsp; 
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -98,7 +98,7 @@ Si votre carte SIM est compatible, le message suivant s'affichera sur votre tabl
 
 &nbsp;
 
-Si votre carte SIM est compatible, voici les étapes à suivre: 
+Si votre carte SIM est compatible, voici les étapes à suivre:
 
 &nbsp;
 
@@ -108,7 +108,7 @@ Si votre carte SIM est compatible, voici les étapes à suivre:
 
 <div class="left_col">
 <!-- First column content goes here -->
-Cliquez sur "activer" dans la case "activer Mobile ID". 
+Cliquez sur "activer" dans la case "activer Mobile ID".
 </div>
 
 <div class="right_col">
@@ -179,7 +179,7 @@ Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander d
 Vous avez terminé.
 
 {{<alert color="warning">}}
-Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable). 
+Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque la vérification de votre identité sera basée sur votre Mobile ID, il est important que vous puissiez le restaurer si besoin. Cela est nécessaire en cas d'oubli du code PIN ou de remplacement de la carte SIM (par exemple en cas de perte du téléphone portable).
 {{</alert>}}
 
 ## Ajout du Mobile ID comme second facteur
@@ -208,7 +208,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 2eme paire de colonnes -->
 
@@ -226,7 +226,7 @@ Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez 
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -248,7 +248,7 @@ Dans la case «Enregistrer un second facteur pour vous connecter de manière plu
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 4eme paire de colonnes -->
 
@@ -266,7 +266,7 @@ Choisissez l'option Mobile ID et cliquez sur "Continuer".
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 5eme paire de colonnes -->
 
@@ -286,7 +286,7 @@ Saisissez le code MIO suivant: **16783**, puis cliquez sur "enregistrer".
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 6eme paire de colonnes -->
 
@@ -304,7 +304,7 @@ Entrez votre mot de passe, puis cliquez sur "continuer".
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 7eme paire de colonnes -->
 
@@ -342,7 +342,7 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 
 &nbsp;
 
-Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID. 
+Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID.
 
 Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
 {{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}

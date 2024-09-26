@@ -12,7 +12,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="zugang">}}
 
 {{<numberedList>}}
 {{<listItem>}}
-Le code d'embarquement (onboarding) expire-t-il après un certain temps ? Si oui, que dois-je faire si je n'ai pas pu m'inscrire à temps ? 
+Le code d'embarquement (onboarding) expire-t-il après un certain temps ? Si oui, que dois-je faire si je n'ai pas pu m'inscrire à temps ?
 {{<collapsibleBlock groupId="zugang">}}
 Le code d'embarquement (onboarding) expire au bout d'un mois. Si vous n'avez pas eu le temps de faire votre onboarding après ce délai, veuillez contacter votre KT_Superuser pour qu'il vous renvoie un code.
 {{</collapsibleBlock>}}

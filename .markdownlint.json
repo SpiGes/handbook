@@ -28,7 +28,8 @@
             "lineBreak",
             "grid",
             "row",
-            "column"
+            "column",
+            "br"
         ]
     }
 }
