@@ -6,7 +6,7 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 ### Added
 
-### Documentation
+#### Documentation
 
 - [#153](https://github.com/SpiGes/handbook/issues/153) - FAQ - input H+
 
