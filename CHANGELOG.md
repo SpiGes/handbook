@@ -2,6 +2,26 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
+## [0.2.0] - 2024.10.03
+
+### Added
+
+#### Documentation
+
+- [#153](https://github.com/SpiGes/handbook/issues/153) - FAQ - input H+
+
+#### Others
+
+- [#150](https://github.com/SpiGes/handbook/issues/150) - New shortcode allowing to write unordered list of items
+
+### Updated
+
+#### Documentation
+
+- [#137](https://github.com/SpiGes/handbook/issues/137) - Update_FAQ_FR
+- [#145](https://github.com/SpiGes/handbook/issues/145) - Update_FAQ_DE
+- [#148](https://github.com/SpiGes/handbook/issues/148) - Check layout FAQ de/fr
+
 ## [0.1.0-pilot-3] - 2024.08.20
 
 ### Added
@@ -36,7 +56,6 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 - [#80](https://github.com/SpiGes/handbook/issues/80) - Corrections to the German version
 
-
 ## [0.1.0-pilot] - 2024.06.18
 
 ### Added
@@ -58,7 +77,6 @@ All notable changes to the SpiGes documentation will be documented in this file.
 #### Others
 
 -[#66](https://github.com/SpiGes/handbook/issues/66) - Build the project on GitHub using npm instead of the hugo command
-
 
 ## [0.1.0-pre-pilot-4] - 2024.05.17
 
