@@ -37,7 +37,7 @@ L’impresa può quindi elaborare autonomamente i risultati dei controlli automa
 
 2. In questa colonna è possibile vedere se i dati in questione hanno superato i test di controllo del formato. Se sono stati identificati errori, è possibile fare clic su ognuno di essi per visualizzare i dettagli dell’errore, in modo da poterlo correggere nel file XML e importarlo nuovamente. **ATTENZIONE:** L’importazione di nuovi dati sovrascrive quelli precedentemente importati.
 
-3 Una volta eseguito il controllo del formato, in questa colonna vengono visualizzati gli errori rilevati per i singoli casi e che devono essere elaborati. Cliccando sul simbolo che segnala gli errori si possono vedere i dettagli del controllo.
+3. Una volta eseguito il controllo del formato, in questa colonna vengono visualizzati gli errori rilevati per i singoli casi e che devono essere elaborati. Cliccando sul simbolo che segnala gli errori si possono vedere i dettagli del controllo.
 
 4. Qui sono visualizzati i commenti aggiunti in precedenza. È possibile inserire commenti per spiegare i propri errori o per rispondere a commenti precedenti. È inoltre possibile creare un nuovo argomento di discussione facendo clic sulla vignetta a destra del titolo.
 
@@ -65,7 +65,7 @@ L’impresa può quindi elaborare autonomamente i risultati dei controlli automa
 
 2. Questa colonna contiene la descrizione degli errori. È inoltre possibile visualizzare ulteriori dettagli facendo clic sull’errore nella colonna «ID caso».
 
-3 In questa colonna è possibile vedere se l’errore è ancora «In sospeso», se è già stato risolto («OK») o se è stato definitivamente valutato come «Errore».
+3. In questa colonna è possibile vedere se l’errore è ancora «In sospeso», se è già stato risolto («OK») o se è stato definitivamente valutato come «Errore».
 
 4. Qui è possibile commentare (facendo clic sulla vignetta) o scaricare i dati (facendo clic sulla freccia che punta in basso). Se non è stato selezionato alcun errore, i commenti vengono applicati a tutti gli errori, altrimenti vengono aggiunti solo agli errori selezionati.
 
