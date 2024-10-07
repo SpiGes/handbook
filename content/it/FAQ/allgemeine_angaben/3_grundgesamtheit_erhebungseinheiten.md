@@ -30,7 +30,7 @@ Che differenza c’è tra un’impresa ospedaliera, un ospedale e una sede osped
 - Una sede ospedaliera è contrassegnata in modo univoco con il numero BUR (RIS) e fa sempre capo a un’impresa ospedaliera ben precisa.
 La tabella seguente mostra un esempio di impresa (UID/ENTID) con 12 ospedali (BURGESV) e 14 sedi (BUR):
 {{</markdown>}}
-{{<insertImage image="tableauFAQ1_it.png"  class="max-w-90">}}
+{{<insertImage image="tableauFAQ1.png"  class="max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

@@ -26,7 +26,7 @@ Se l'organizzazione compila il SOMED, questi costi devono essere registrati in S
 {{</listItem>}}
 -->
 {{<listItem>}}
-Supplementi per costi di utilizzo delle immobilizzazioni (CUI) ai costi diretti:  Secondo REKOLE®, sui costi diretti (fabbisogno medico 400 e 401) possono essere indicati supplementi CUI. Tuttavia, per queste variabili CUFI e a differenza dei costi comuni, sulla piattaforma SpiGes e nel set di dati sui costi di SwissDRG non esistono variabili CUI separate su cui è possibile specificare i costi di utilizzo delle immobilizzazioni secondo REKOLE. Nell’ITAR_K i conti 400 e 401 devono essere indicati senza supplementi CUI. Cosa occorre fare con questi supplementi CUI sui conti 400 e 401?
+Supplementi per costi di utilizzo delle immobilizzazioni (CUI) ai costi diretti:  Secondo REKOLE®, sui costi diretti (fabbisogno medico 400 e 401) possono essere indicati supplementi CUI. Tuttavia, per queste variabili CUFI e a differenza dei costi comuni, sulla piattaforma SpiGes e nel set di dati sui costi di SwissDRG non esistono variabili CUI separate su cui è possibile specificare i costi di utilizzo delle immobilizzazioni secondo REKOLE®. Nell’ITAR_K® i conti 400 e 401 devono essere indicati senza supplementi CUI. Cosa occorre fare con questi supplementi CUI sui conti 400 e 401?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
 - I supplementi CUI non devono essere indicati nei conti 400 e 401. Devono tuttavia essere inclusi nelle variabili CUI totali (ktr_44_vkl / ktr_44_rekole). 
