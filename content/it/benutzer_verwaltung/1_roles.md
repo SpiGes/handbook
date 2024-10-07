@@ -12,7 +12,7 @@ keywords: []
 <table style="width:100%">
   <tr>
     <th style="width:23%"> Nome </div></th>
-    <th> Tâches </th>
+    <th> Compiti </th>
     <th style="width:20%"> Competenze </div> </th>
     <th style="width:30%"> Responsabilità </div> </th>
   </tr>
@@ -53,7 +53,7 @@ keywords: []
 <table>
   <tr>
     <th><div style="width:160px"> Nome </div></th>
-    <th> Tâches </th>
+    <th> Compiti </th>
     <th> <div style="width:110px"> Competenze </div> </th>
     <th> <div style="width:120px"> Responsabilità </div> </th>
   </tr>

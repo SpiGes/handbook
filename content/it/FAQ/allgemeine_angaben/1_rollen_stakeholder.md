@@ -23,7 +23,7 @@ Quale sarà in futuro il ruolo dei Cantoni, in particolare dei partner cantonali
 {{<collapsibleBlock groupId="roles">}}
 {{<markdown>}}
 - I servizi cantonali di rilevazione sono coinvolti nell’indagine UST come in precedenza (universo statistico, coordinamento e comunicazione con gli ospedali, solleciti ecc.).
-- D’ora in poi il competente ufficio cantonale di sanità rilascerà a fine luglio i dati delle imprese ospedaliere presenti sul proprio territorio per l’utilizzo sulla piattaforma SpiGes, ai sensi della LAMal.
+- D’ora in poi il competente ufficio cantonale di sanità approverà a fine luglio i dati delle imprese ospedaliere presenti sul proprio territorio perché possano essere utilizzati sulla piattaforma SpiGes, ai sensi della LAMal.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
