@@ -14,28 +14,39 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="contenu">}}
 {{<listItem>}}
 Quali variabili cambiano con SpiGes?
 {{<collapsibleBlock groupId="contenu">}}
+{{<unorderedList>}}
+{{<listItem>}}
+SpiGes ha un impatto importante sul processo di verifica e sul formato dei dati contenuti nella fornitura. Per quanto riguarda i dati medici (attuale MS), cambiano solo pochi punti. I più importanti sono probabilmente i seguenti :
 {{<markdown>}}
-
-- SpiGes ha un impatto importante sul processo di verifica e sul formato dei dati contenuti nella fornitura. Per quanto riguarda i dati medici (attuale MS), cambiano solo pochi punti. I più importanti sono probabilmente i seguenti:
-    - il trattamento principale è abolito; 
-	- il complemento alla diagnosi principale è abolito; 
-	- novità: è possibile registrare un numero illimitato di diagnosi e trattamenti; 
-	- il tempo di prestazione medica chirurgica viene registrato sotto procedure chirurgiche; 
-	- per le procedure chirurgiche, l’inizio del trattamento deve essere registrato con l’ora (dell’operazione nel suo complesso);  
-	- la relazione tra più diagnosi (croce/asterisco, punto esclamativo) viene ora registrata con una variabile di riferimento (diagnose_zusatz) anziché con il carattere speciale. 
-- Il modo migliore per tenere traccia di tutte le modifiche apportate al set di dati e dei dettagli esatti è quello di esaminare l’elenco delle variabili e filtrare la colonna «Nuova / Variabile MS» secondo le variabili nuove e quelle adattate.
-- da ora i dati delle fatture e i costi o i ricavi vengono raccolti per ogni caso.
-- Il set di dati completo è disponibile qui: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.25885643.html)
+- il trattamento principale è abolito; 
+- il complemento alla diagnosi principale è abolito; 
+- è possibile registrare un numero illimitato di diagnosi e trattamenti; 
+- il tempo di prestazione medica chirurgica viene registrato sotto procedure chirurgiche; 
+- per le procedure chirurgiche, l’inizio del trattamento deve essere registrato con l’ora (dell’operazione nel suo complesso);  
+- la relazione tra più diagnosi (croce/asterisco, punto esclamativo) viene ora registrata con una variabile di riferimento (diagnose_zusatz) anziché con il carattere speciale.
 {{</markdown>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Il modo migliore per tenere traccia di tutte le modifiche apportate al set di dati e dei dettagli esatti è quello di esaminare l’elenco delle variabili e filtrare la colonna «Nuova / Variabile MS» secondo le variabili nuove e quelle adattate.
+{{</listItem>}}
+
+{{<listItem>}}
+Da ora i dati delle fatture e i costi o i ricavi vengono raccolti per ogni caso.
+{{</listItem>}}
+
+{{<listItem>}}
+Il {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.assetdetail.25885643.html" newTab="true">}}set di dati completo{{</link>}}è disponibile qui.
+{{</listItem>}}
+
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Che ripercussioni ha SpiGes sulle direttive di codifica?
 {{<collapsibleBlock groupId="contenu">}}
-{{<markdown>}}
-Queste informazioni sono riportate nel Manuale di codifica, scaricabile al link seguente: [https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html](https://www.bfs.admin.ch/bfs/it/home/statistiche/salute/nomenclature/medkk.html).
-{{</markdown>}}
+Queste informazioni sono riportate nel {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/nomenclatures/medkk.html" newTab="true">}}Manuale di codifica{{</link>}}.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
