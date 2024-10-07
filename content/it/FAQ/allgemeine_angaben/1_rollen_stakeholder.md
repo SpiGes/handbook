@@ -8,7 +8,7 @@ keywords: []
 ---
 
 {{<faqBlock>}}
-Aprire tutte le domande: {{<collapsibleGroupCommand groupId="roles">}}
+Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="roles">}}
 
 {{<numberedList>}}
 {{<listItem>}}
