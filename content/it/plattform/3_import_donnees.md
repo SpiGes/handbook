@@ -18,7 +18,7 @@ Il caricamento dei dati può essere scaglionato in termini di tempo e di contenu
 Se per il capitolo corrispondente sono già stati importati dati in precedenza, i dati meno recenti saranno completamente sostituiti dai dati del nuovo caricamento.
 {{</alert>}}
 
-{{<insertImage image="import_donnees_.png" class="edge max-w-90">}}
+{{<insertImage image="import_donnees.png" class="edge max-w-90">}}
 
 &nbsp;
 
