@@ -1,5 +1,5 @@
 ---
-title: Admninistratif
+title: Dati amministrativi 
 slug: admninistratives
 description: " "
 weight: 10
@@ -41,7 +41,6 @@ Qual è la definizione di «trasferimento interno»?
 {{<markdown>}}
 -	È il passaggio da un reparto (acuto, psichiatria, riabilitazione) a un altro dello stesso ospedale (burnr_gesv),
 -	Oppure si riferisce ai cosiddetti «pazienti in attesa».
-
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -98,8 +97,7 @@ La procedura e l’elenco sono gli stessi che valevano per la MS. Ecco il link p
 {{</listItem>}}
 {{<listItem>}}
 Per i Paesi extraeuropei possono essere indicate regioni, ma è possibile anche indicare i codici dei Paesi. Questo era già così nella MS ed è rimasto invariato. Il formato è alfanumerico e può quindi contenere sia numeri che lettere.
-{{<listItem>}}
-{{</markdown>}}
+{{</listItem>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
