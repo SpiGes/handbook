@@ -22,7 +22,7 @@ L’ammissione e la dimissione sono indicate come prima nel campo «data di ammi
 {{<listItem>}}
 Un caso che cambia sede viene gestito in entrambe le sedi?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-No, ogni caso viene gestito solo nella sede principale, anche se viene trasferito da una sede all’altra all’interno di un ospedale (BURGESV). Se un paziente viene trasferito in un altro ospedale (RISGESV), è necessario aprire un nuovo caso. 
+No, ogni caso viene gestito solo nella sede principale, anche se viene trasferito da una sede all’altra all’interno di un ospedale (BURGESV). Se un paziente viene trasferito in un altro ospedale (BURGESV), è necessario aprire un nuovo caso. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -43,14 +43,14 @@ Per quanto riguarda gli episodi dovuti a cambiamenti di sede in tal caso va bene
 {{<listItem>}}
 Abbiamo capito bene che ad esempio che il periodo dall’ammissione fino al trattamento ambulatoriale esterno (v. illustrazione sotto ) deve essere già considerato come un episodio? Quando si hanno congedi, uscite di prova e trattamenti ambulatoriali esterni dobbiamo quindi sempre indicare un episode-art="1"?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Esatto.
+Esatto
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Nell’esempio, non ci sono cambi di sede all’interno dello stesso ospedale. È giusto che in caso di episode_art="1" va indicato sempre il numero RIS della sede dell’ospedale?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Esatto.
+Esatto
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -68,6 +68,13 @@ Sì, nel caso di trattamenti ambulatoriali esterni, è possibile indicare il num
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-
+<!-- A traduire:new FAQ
+{{<listItem>}}
+Variable "wiedereintritt_aufenthalt" : nous ne savons pas encore très bien ce qui doit être exporté dans la variable wiedereintritt_aufenthalt pour le type d'épisode_1 (donc lorsque le patient est présent à l'hôpital).
+{{<collapsibleBlock groupId="patientenbewegung">}}
+wiedereintritt_aufenthalt n'est rempli que pour episode_art=2, pour tous les autres episode_types, cette variable n'est pas saisie.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+-->
 {{</numberedList>}}
 {{</faqBlock>}}
