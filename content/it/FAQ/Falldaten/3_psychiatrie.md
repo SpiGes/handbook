@@ -14,7 +14,7 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="psychiatrie">}}
 {{<listItem>}}
 Variabile «psy_zivilstand»: cosa si intende con il codice «5 = non coniugato/a» e come si distingue da celibe/nubile ecc.?
 {{<collapsibleBlock groupId="psychiatrie">}}
-Per la variabile «Stato civile» l’UST utilizza un elenco di codici standardizzati. Lo stato civile «non coniugato/a» è valido in caso di dichiarazione di nullità dell’ultimo matrimonio o in caso di dichiarazione di scomparsa dell’ultimo/a coniuge. V. link seguente: {{<link url="https://www.bfs.admin.ch/bfs/it/home/statistiche/popolazione/effettivo-evoluzione/stato-civile.html" newTab="true">}}état civil{{</link>}}
+Per la variabile «Stato civile» l’UST utilizza un elenco di codici standardizzati. Lo stato civile «non coniugato/a» è valido in caso di dichiarazione di nullità dell’ultimo matrimonio o in caso di dichiarazione di scomparsa dell’ultimo/a coniuge. V. link seguente: {{<link url="https://www.bfs.admin.ch/bfs/it/home/statistiche/popolazione/effettivo-evoluzione/stato-civile.html" newTab="true">}}stato civile{{</link>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 <!--A traduire: new FAQ
