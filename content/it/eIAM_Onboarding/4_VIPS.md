@@ -15,13 +15,13 @@ Assicurarsi di poter utilizzare uno dei secondi fattori forti consigliati.
 
 Possono essere utilizzati i secondi fattori seguenti:
 
-– token FIDO (con Windows Hello o con una chiave su supporto fisico);
-– Mobile ID.
+- token FIDO (con Windows Hello o con una chiave su supporto fisico);
+-  Mobile ID.
 
 Non possono essere utilizzati i secondi fattori seguenti:
 
-– numero di telefono via SMS (mTAN);
-– app di autenticazione.
+- numero di telefono via SMS (mTAN);
+- app di autenticazione.
 {{</markdown>}}
 {{</alert>}}
 
@@ -29,9 +29,9 @@ L’identificazione video può essere effettuata dal lunedì al sabato dalle 8:0
 
 Per effettuare l’identificazione video occorre il materiale seguente.
 
-– Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità audio e video.  
-– Un documento d’identità ufficiale e in corso di validità (passaporto o carta d’identità). A seconda della {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nazionalità{{</link>}} potrebbe essere necessario il passaporto.
-– Un mezzo di pagamento. Può essere utilizzato un voucher (codice buono) oppure uno dei seguenti mezzi di pagamento: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express o PayPal.
+- Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità audio e video.  
+- Un documento d’identità ufficiale e in corso di validità (passaporto o carta d’identità). A seconda della {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nazionalità{{</link>}} potrebbe essere necessario il passaporto.
+- Un mezzo di pagamento. Può essere utilizzato un voucher (codice buono) oppure uno dei seguenti mezzi di pagamento: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express o PayPal.
 
 <!-- 1ere paire de colonnes -->
 
