@@ -122,6 +122,13 @@ Secondo la nostra amministrazione pazienti, è difficile ottenere l’informazio
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
+<!-- A traduire: new FAQ
+{{<listItem>}}
+Pour les différentes variables concernant le séjour IPS et les points de charge ("aufenthalt_ips"), nous ne savons pas très bien si les variables doivent être exportées avec 0 ou pas du tout lorsqu'un cas ne se trouve pas aux soins intensifs. Le domaine de valeurs indiqué ici est toujours 0-xxx.
+{{<collapsibleBlock groupId="admninistratives">}}
+Comme l'indication n'est pas obligatoire (required), la variable n'est pas livrée du tout lorsqu'un cas n'est pas aux soins intensifs.
+{{</collapsibleBlock>}}
+{{</listItem>}}-->
 
 {{</numberedList>}}
 {{</faqBlock>}}

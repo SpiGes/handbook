@@ -8,7 +8,7 @@ keywords: []
 ---
 
 {{<faqBlock>}}
-Aprire tutte le domande: {{<collapsibleGroupCommand groupId="behandlungen">}}
+Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
 {{<numberedList>}}
 {{<listItem>}}
@@ -16,8 +16,8 @@ Variabile «behandlung_id»: ci sono raccomandazioni per la sequenza da applicar
 {{<collapsibleBlock groupId="behandlungen">}}
 {{<markdown>}}
 
-- Conformemente alla descrizione delle variabili vale quanto segue:
-Numero univoco progressivo del trattamento.
+- Conformemente alla descrizione delle variabili vale quanto segue:        
+Numero univoco progressivo del trattamento.         
 1 = Trattamento 1
 2 = Trattamento 2
 3 = Trattamento 3
@@ -43,10 +43,10 @@ L’UST è consapevole che con l’introduzione del nuovo modo di inserire i dat
 {{</listItem>}}
 
 {{<listItem>}}
-Operatori: Qui c'è un problema di interpretazione delle specifiche nel file XML. La descrizione della variabile afferma che si possono contare al massimo due operatori per ogni operazione. Nella panoramica, tuttavia, l'attributo non indica se questo può essere esportato più volte.
+Operatori: abbiamo un problema di comprensione dell’interpretazione delle specifiche indicate nel file XML. La descrizione della variabile indica che possono essere attribuiti a un intervento al massimo due medici operanti. Nella panoramica non si vede tuttavia se l’attributo può essere esportato più volte.
 {{<insertImage image="Image1.jpg" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="behandlungen">}}
-Quanti chirurghi possono essere conteggiati per un'operazione è una questione concettuale e può variare da cantone a cantone (di solito 2, ma è una linea guida!). Tecnicamente, possono essere conteggiati più chirurghi.
+Quanti medici operanti possono essere attribuiti a ogni intervento è una questione concettuale che può quindi variare da Cantone a Cantone (di solito 2 è un valore indicativo!). Dal punto di vista tecnico possono essere registrati più medici operanti.
 {{<insertImage image="Image2.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

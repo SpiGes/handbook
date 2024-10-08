@@ -1,58 +1,58 @@
 ---
-title: Interface de la plateforme
+title: Interfaccia della piattaforma
 slug: interface
-description: "Sur cette page, nous vous présentons la navigation sur la plateforme de relevé SpiGes."
+description: "Su questa pagina viene illustrato come orientarsi sulla piattaforma di rilevazione SpiGes."
 keywords: []
 weight: 10
 type: docs
 ---
 
-### Ecran d'accueil
+### Pagina iniziale
 
 {{<insertImage image="ecran_accueil.png" class="edge max-w-90">}}
 
 &nbsp;
 
-1. La case "Relevés" vous permet d'accéder directement à l'un des relevés les plus récents.  
+1. Il campo «Rilevazioni» consente di accedere direttamente a una delle rilevazioni più recenti.  
 
-2. La case "Quick Links" vous donne des liens contenant diverses informations utiles.
+2. Il campo «Link di accesso rapido» propone link contenenti diverse informazioni utili.
 
-3. La case "News" vous donne des nouvelles concernant la plateforme.
+3. il campo «News» fornisce notizie sulla piattaforma.
 
-4. L'onglet "Aperçu de l'enquête" permet d'accéder à l'ensembles des données de l'année en cours et des années précédentes.
+4. La scheda «Panoramica rilevazioni » consente di accedere ai seti di dati dell’anno in corso e di quello precedente.
 
-5. La case "Manuel" vous renvoie vers le manuel d'utilisation SpiGes.
+5. La scheda  «Manuale» rimanda al manuale SpiGes.
 
-6. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme.
+6. Il campo «Logout» nell’angolo in alto a destra consente di disconnettersi dalla piattaforma.
 
-### Ecran "Aperçu de l'enquête"
+### Panoramica rilevazioni
 
 {{<insertImage image="ecran_erhebungsubersicht.png" class="edge max-w-90">}}
 
 &nbsp;
 
-1. Dans la liste des années de relevé, en cliquant sur l'année de votre choix, vous serez dirigé vers les données correspondantes à l'année voulue.
+1. Nell’elenco degli anni di rilevazione, cliccando sull’anno desiderato si accede ai dati corrispondenti.
 
-2. Le volet latéral vous permet d'avoir une vue d'ensemble des années de relevé sous forme de liste.
+2. Nella barra laterale è possibile visualizzare una panoramica degli anni di rilevazione sotto forma di elenco.
 
-### Aperçu des entreprises hospitalières
+### Panoramica imprese ospedaliere
 
 {{<insertImage image="ecran_donnees_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
-1. La barre de recherche vous permet de trouver une entreprise ou un site hospitalier plus rapidement.
+1. La barra di ricerca consente di trovare più rapidamente un’impresa o una sede ospedaliera.
 
-2. Dans la liste des entreprises hospitalières, en cliquant sur l'entreprise de votre choix, vous serez dirigé vers les données correspondantes à l'entreprise hospitalière.
+2. Nell’elenco delle imprese ospedaliere, cliccando sull’impresa desiderata si viene reindirizzati ai dati corrispondenti a tale impresa.
 
-3. La flèche à droite de chaque entreprise vous permet de dérouler la liste des sites hospitaliers liés à cette entreprise. La première flèche de la liste vous permet de dérouler toutes les entreprises.
+3. Cliccando sulla freccia a destra della riga di ogni impresa si apre un elenco delle sedi  associate a questa impresa. Utilizzando la prima freccia dell’elenco si può aprire la lista di tutte le imprese ospedaliere.
 
-### Aperçu des parties de l'enquête
+### Panoramica parti della rilevazione
 
 {{<insertImage image="donnees_site_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
-1. Cette case vous permet d'importer des données concernant l'entreprise ou le site hospitalier selectionné. Vous trouverez plus de détail à ce propos sur la page "1. Importation des données sur la plateforme".
+1. Qui è possibile importare i dati dell’impresa o della sede ospedaliera selezionata. Ulteriori dettagli sono disponibili alla pagina «1. Importazione dati». 
 
-2. L'espace commentaire vous permet de communiquer. Pour créer un nouveau sujet de conversation, vous devez créer un nouveau thème en cliquant sur la bulle de dialogue en haut au milieu, puis commenter au sein de cette nouvelle catégorie.
+2. Nella parte bassa della pagina figura una sezione dove è possibile comunicare lasciando commenti. Per creare un nuovo argomento di discussione, fare clic sulla vignetta a destra del titolo «Comunicazioni relative alla rilevazione» e poi inserire nuovi messaggi sul lato destro della chat.

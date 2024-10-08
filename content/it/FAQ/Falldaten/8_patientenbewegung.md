@@ -8,13 +8,13 @@ keywords: []
 ---
 
 {{<faqBlock>}}
-Aprire tutte le domande: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
+Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="patientenbewegung">}}
 
 {{<numberedList>}}
 {{<listItem>}}
 Anche l’ammissione e la dimissione contano come un episodio?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-L’ammissione e la dimissione sono indicate come prima nel campo «data di ammissione» e «data di dimissione». Se il caso non è stato trasferito, non viene registrato alcun episodio. Se però si dovesse arrivare a un trasferimento (p. es. una dimissione intermedia) quale episodio 1 varrebbe il periodo dalla data di ammissione a quella della dimissione intermedia. L’episodio 2 inizia con la dimissione intermedia e termina con la riammissione. L’episodio 3 inizia con la riammissione e termina con il trasferimento successivo (p. es. le vacanze). Così facendo, per uno stesso caso si possono avere diversi episodi (v. illustrazione). L’ultimo episodio (9) si conclude con la data di dimissione. Gli episodi sono gli intervalli temporali prima e dopo eventi riguardanti un caso, quali: cambio di sede, dimissioni intermedie / riammissioni, trattamenti ambulatoriali esterni, congedi e uscite di prova.
+L’ammissione e la dimissione sono indicate come prima nel campo «data di ammissione» e «data di dimissione». Se il caso non è stato trasferito, non viene registrato alcun episodio. Se però si dovesse arrivare a un trasferimento (ad es. una dimissione intermedia) quale episodio 1 varrebbe il periodo dalla data di ammissione a quella della dimissione intermedia. L’episodio 2 inizia con la dimissione intermedia e termina con la riammissione. L’episodio 3 inizia con la riammissione e termina con il trasferimento successivo (ad es. congedo). Così facendo, per uno stesso caso si possono avere diversi episodi (v. illustrazione). L’ultimo episodio (9) si conclude con la data di dimissione. Gli episodi sono gli intervalli temporali prima e dopo eventi riguardanti un caso, quali: cambio di sede, dimissioni intermedie / riammissioni, trattamenti ambulatoriali esterni, congedi e uscite di prova.
 {{<insertImage image="Image3_it.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -22,49 +22,49 @@ L’ammissione e la dimissione sono indicate come prima nel campo «data di ammi
 {{<listItem>}}
 Un caso che cambia sede viene gestito in entrambe le sedi?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-No, ogni caso viene gestito solo nella sede principale, anche se viene trasferito da una sede all’altra all’interno di un ospedale (BURGESV). Se un paziente viene trasferito in un altro ospedale (BURGESV), è necessario aprire un nuovo caso
+No, ogni caso viene gestito solo nella sede principale, anche se viene trasferito da una sede all’altra all’interno di un ospedale (BURGESV). Se un paziente viene trasferito in un altro ospedale (RISGESV), è necessario aprire un nuovo caso. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Variabili "re-entry_stay" e "reason_re-entry": perché queste voci possono essere inserite solo per i casi A se tutte le voci degli episodi sono destinate ai casi ABC?
+Variabili "wiedereintritt_aufenthalt" e "grund_wiedereintritt": perché queste informazioni possono essere fornite solo per i casi A quando invece tutte le informazioni sugli episodi sono indicate per i casi ABC?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Da chiarimenti con SwissDRG AG è emerso che le due variabili "re_admission_stay" e "reason_re_admission" possono essere specificate per i casi statistici ABC. La descrizione delle variabili 1.4 ne terrà conto.
+In seguito a chiarimenti con SwissDRG SA è emerso che le due variabili "wiedereintritt_aufenthalt" e "grund_wiedereintritt" possono essere effettivamente specificate per i casi statistici ABC. Aggiorneremo la descrizione delle variabili (versione 1.4) in tal senso.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Episodio_id: riteniamo che per la nostra clinica non sia necessario differenziare gli episodi per i casi di ricovero, in quanto non registriamo alcun cambiamento di sede all'interno dell'ospedale. Abbiamo capito bene?
+episode_id: Per la nostra sede ospedaliera, riteniamo che non sia necessario differenziare gli episodi dei casi stazionari, poiché non registriamo alcun cambiamento di sede all’interno dell’ospedale. Abbiamo capito bene?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Questa ipotesi si applica agli episodi dovuti a cambiamenti di sede. Tuttavia, devono essere registrati gli episodi dovuti a uscite/rientri intermedi, vacanze, test da sforzo o trattamenti ambulatoriali fuori sede.
+Per quanto riguarda gli episodi dovuti a cambiamenti di sede in tal caso va bene non indicarli. Tuttavia, devono essere indicati gli episodi dovuti a dimissioni intermedie/riammissioni, congedi, uscita di prova  e trattamenti ambulatoriali esterni.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Abbiamo capito bene, ad esempio che l'ingresso al trattamento ambulatoriale fuori casa (vedi figura sotto) è già un episodio? Quindi abbiamo sempre un episode_type="1" tra vacanze, test da sforzo e trattamento ambulatoriale?
+Abbiamo capito bene che ad esempio che il periodo dall’ammissione fino al trattamento ambulatoriale esterno (v. illustrazione sotto ) deve essere già considerato come un episodio? Quando si hanno congedi, uscite di prova e trattamenti ambulatoriali esterni dobbiamo quindi sempre indicare un episode-art="1"?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Corretto
+Esatto.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Nell'esempio (vedi figura sotto), non ci sono cambi di sede all'interno dello stesso ospedale. Abbiamo capito bene che l'ubicazione del numero BUR dell'ospedale deve essere sempre specificata per il tipo_di_episodio="1"?
+Nell’esempio, non ci sono cambi di sede all’interno dello stesso ospedale. È giusto che in caso di episode_art="1" va indicato sempre il numero RIS della sede dell’ospedale?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Corretto
+Esatto.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Per quanto ne sappiamo, l'orario di rientro dal trattamento ambulatoriale non è documentato. Tuttavia, potrebbe essere registrato nei sistemi informativi degli ospedali. Queste informazioni sono obbligatorie?
+Per quanto ne sappiamo, l’orario del rientro da un trattamento ambulatoriale esterno non è documentato. Tuttavia, questo potrebbe essere registrato nei sistemi informativi dell’ospedale. Tale informazione è obbligatoria?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Sì, la data e le ore devono essere fornite per tutti gli episodi, sia all'inizio che alla fine. Se la fine di un trattamento ambulatoriale extraospedaliero non è registrata, si consiglia di aggiungere questa informazione. Se ciò non è possibile (in tempi brevi), si consiglia di utilizzare una durata standard per il trattamento ambulatoriale fuori casa.
+Sì, la data e l’ora devono essere fornite per tutti gli episodi, sia per l’inizio che per la fine di questi ultimi. Se la fine di un trattamento ambulatoriale esterno finora non veniva registrata, si raccomanda di iniziare a farlo. Se ciò non fosse possibile (in tempi brevi), per i trattamenti ambulatoriali esterni si consiglia di considerare una durata standard.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Il BURNR dell'ospedale fuori città è facoltativo, giusto? 
+L’indicazione del BURNR dell’ospedale che ha fornito il trattamento ambulatoriale esterno è facoltativa, giusto? 
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Sì, b n caso di trattamento ambulatoriale esterno, è possibile indicare il numero di BUR della sede di cura, se noto.
+Sì, nel caso di trattamenti ambulatoriali esterni, è possibile indicare il numero RIS della sede che li ha forniti, qualora sia noto.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
