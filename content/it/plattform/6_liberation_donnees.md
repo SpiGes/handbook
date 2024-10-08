@@ -1,18 +1,18 @@
 ---
-title: 4. Libération des données 
+title: 4. Convalida dei dati 
 slug: freigabe
-description: "Sur cette page, nous vous expliquons comment libérer les données importées par les sites hospitaliers de votre canton sur la plateforme SpiGes."
+description: "Su questa pagina viene illustrato come convalidare i dati importati dalle sedi degli ospedali del proprio Cantone sulla piattaforma SpiGes."
 keywords: []
 weight: 50
 type: docs
 ---
 
-### Clôture et libération
+### Finalizzazione e convalida
 
-À la fin de la plausibilisation, la correction des données doit tout d’abord être confirmée par le(s) responsable(s) de l’hôpital sur la plateforme SpiGes. Le canton peut ensuite procéder à la clôture. Cette étape comprend aussi bien la clôture du relevé statistique selon la LSF que la validation des données administratives selon la LAMal.
+Una volta terminata la verifica della plausibilità, la correttezza dei dati deve essere prima di tutto confermata sulla piattaforma SpiGes dalle persone responsabili per i dati dell’ospedale. Dopodiché il Cantone dovrà finalizzare il processo di controllo dei dati. Questa fase comprende sia la chiusura della rilevazione statistica in conformità alla legge sulla statistica federale (LStat), sia l’approvazione dei dati per uso amministrativo in conformità alla legge federale sull’assicurazione malattie (LAMal).
 
-Afin de garantir le caractère obligatoire des données dans le domaine de la LAMal, il appartient aux offices cantonaux de la santé de valider les données officiellement pour cet usage. Si une nouvelle erreur était découverte au cours de cette étape de clôture, le processus pourrait exceptionnellement être relancé.
+Per garantire il carattere vincolante dei dati nell’ambito della LAMal, spetta agli uffici di sanità cantonali autorizzare ufficialmente i dati per questo utilizzo. Qualora in una di queste fasi finali venga rilevato un altro errore, il processo di controllo può essere riavviato in via eccezionale.
 
-Le processus de clôture a lieu tant pour les données d’un site que pour les données de l’ensemble de l’établissement. En principe, le canton du site est responsable du processus pour les sites hospitaliers, et le canton du siège principal pour les entreprises. Des accords individuels entre les cantons et des adaptations correspondantes dans SpiGes sont toutefois possibles.
+Il processo di finalizzazione qui descritto viene effettuato sia per i dati di una sede che per quelli dell’intera impresa ospedaliera. In linea di principio, il Cantone in cui si trova una sede ospedaliera è sempre responsabile per i dati di tale sede, mentre è il Cantone dove si trova la sede principale ad essere responsabile per i dati dell’intera impresa ospedaliera corrispondente. Sono tuttavia possibili accordi individuali tra i Cantoni con eventuali conseguenti adeguamenti sulla piattaforma SpiGes.
 
-Une fois que la collecte des données selon la LSF est terminée, au niveau tant du site que de l’entreprise, et que les données selon la LAMal sont validées, ces dernières sont marquées comme définitives sur la plateforme SpiGes. Les données, l’état des vérifications et la communication ne peuvent désormais plus être modifiés. De nouvelles livraisons sont certes encore possibles pour d’autres processus (partenaires tarifaires). Elles n’ont toutefois aucun effet sur les données définitives selon la LAMal et la LSF. La clôture et la libération selon la LAMal doivent avoir lieu d’ici la fin juillet.
+Una volta chiusa la rilevazione dei dati a livello di sede e di impresa in conformità con la LStat e una volta approvati i dati in conformità con la LAMal, questi vengono contrassegnati come definitivi sulla piattaforma SpiGes. I dati, lo stato dei controlli e la comunicazione ad essi relativa non potranno quindi più essere modificati. Sono però ancora possibili nuovi invii di dati per altri processi (ad es. partner tariffali). Secondo quanto previsto dalla LAMal e dalla LStat , questi non avranno tuttavia alcun effetto sui dati definitivi. Conformemente alla LAMal, la finalizzazione del processo di controllo e l’approvazione dei dati  devono avvenire entro la fine del mese di luglio.

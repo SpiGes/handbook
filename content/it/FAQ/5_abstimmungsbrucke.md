@@ -12,7 +12,7 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="abstimmungsbruc
 
 {{<numberedList>}}
 {{<listItem>}}
-Conosco il concetto di contabilità delle delimitazioni dalla piattaforma per la rilevazione dei dati ospedalieri (Spitaldatenerhebungsplattform, SDEP). Tale contabilità ci sarà anche in SpiGes o sarà utilizzato solo l’ITAR_K®?
+Conosco il concetto di contabilità delle delimitazioni dalla piattaforma per la rilevazione dei dati ospedalieri (Spitaldatenerhebungsplattform, SDEP). Tale contabilità ci sarà anche in SpiGes o sarà utilizzato solo ITAR_K®?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 SpiGes utilizza il ponte di sintonizzazione della CDS / di REKOLE®.
 {{</collapsibleBlock>}}
