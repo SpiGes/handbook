@@ -28,6 +28,6 @@ Come vengono compilati i relativi campi per le fatture che non vengono fatturate
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-
+<!-- A compléter: new FAQ-->
 {{</numberedList>}}
 {{</faqBlock>}}
