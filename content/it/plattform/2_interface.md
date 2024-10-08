@@ -37,7 +37,7 @@ type: docs
 
 ### Panoramica imprese ospedaliere
 
-{{<insertImage image="ecran_donnees_de.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_donnees.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -49,7 +49,7 @@ type: docs
 
 ### Panoramica parti della rilevazione
 
-{{<insertImage image="donnees_site_de.png" class="edge max-w-90">}}
+{{<insertImage image="donnees_site.png" class="edge max-w-90">}}
 
 &nbsp;
 
