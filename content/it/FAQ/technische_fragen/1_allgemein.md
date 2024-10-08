@@ -6,15 +6,15 @@ weight: 60
 type: docs
 keywords: []
 ---
-
+<!-- A revoir: new FAQ-->
 {{<faqBlock>}}
-Aprire tutte le domande: {{<collapsibleGroupCommand groupId="technische_fragen">}}
+Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="technische_fragen">}}
 
 {{<numberedList>}}
 {{<listItem>}}
 C’è un modello di formato per l’importazione dei dati nell’applicazione SpiGes?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Sì, vanno utilizzati imperativamente i formati nel piano dell’interfaccia. 
+Sì, vanno utilizzati imperativamente i formati nel piano dell’interfaccia.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -79,9 +79,7 @@ In base all’elenco delle variabili 1.3 vi sono le seguenti tabelle:
 </table>
 È possibile presentare tutte queste tabelle come un unico file xml in SpiGes?
 {{<collapsibleBlock groupId="technische_fragen">}}
-{{<markdown>}}
-La tabella 12 Identificatori personali deve essere fornita in un file separato (per motivi di protezione dei dati). Per le tabelle rimanenti viene definito un file diverso, che però supporta le forniture parziali. In teoria, è quindi possibile consegnare tutte le tabelle in un unico file XML come consegne parziali. Tuttavia, si sconsiglia questa soluzione, in quanto richiede una laboriosa armonizzazione delle varie tabelle (per garantire che le informazioni su tutti i casi siano disponibili in tutti i file). Informazioni più dettagliate su questo argomento sono disponibili nella descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes sul nostro sito web. [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
-{{</markdown>}}
+La tabella 12 Identificatori personali deve essere fornita in un file separato (per motivi di protezione dei dati). Per le tabelle rimanenti viene definito un file diverso, che però supporta le forniture parziali. In teoria, è quindi possibile consegnare tutte le tabelle in un unico file XML come consegne parziali. Tuttavia, si sconsiglia questa soluzione, in quanto richiede una laboriosa armonizzazione delle varie tabelle (per garantire che le informazioni su tutti i casi siano disponibili in tutti i file). Informazioni più dettagliate su questo argomento sono disponibili sul nostro {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html" newTab="true">}}sito web{{</link>}} nella descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes .
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -93,7 +91,7 @@ Questa possibilità è attualmente al vaglio dell’UST.
 {{</listItem>}}
 
 {{<listItem>}}
-È previsto di mettere a disposizione un Excel per i costi indipendenti dai casi, in cui l’impresa possa compilare i costi indipendenti dai casi in formato Excel e poi esportarli in formato XML? 
+È previsto di mettere a disposizione un Excel per i costi indipendenti dai casi, in cui l’impresa possa compilare i costi indipendenti dai casi in formato Excel e poi esportarli in formato XML?  
 {{<collapsibleBlock groupId="technische_fragen">}}
 La fornitura separata di diversi tipi di elementi XML è consentita. Ciò significa che i centri di costo indipendenti dai casi possono sempre essere consegnati in un file diverso da quello dei centri di costo dipendenti dai casi. Dobbiamo ancora chiarire se possiamo fornire un tool per trasformare i dati tratti da un file Excel.
 {{</collapsibleBlock>}}
@@ -110,8 +108,8 @@ Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare i
 Nel formato XML la sequenza delle variabili all’interno di una riga è determinante?
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
-- La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l’elemento caso, i sottoelementi devono sempre essere inseriti nell’ordine «Amministrativo», «Neonati», «Psichiatria», «CUFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali». 
-- La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell’elemento «Amministrativo» si possono inserire attributi sia nella sequenza «...sesso=«2» età=«37»..» sia «...età=«37» sesso=«2»...». 
+- La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l’elemento caso, i sottoelementi devono sempre essere inseriti nell’ordine «Dati amministrativi», «Neonati», «Psichiatria», «UFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali». 
+- La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell’elemento «Administratives» (Dati amministrativi) si possono inserire attributi sia nella sequenza «…geschlecht="2" alter="37"…» che nella sequenza «…alter="37" geschlecht="2"…». 
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -119,14 +117,14 @@ Nel formato XML la sequenza delle variabili all’interno di una riga è determi
 {{<listItem>}}
 È anche possibile che il campo relativo a una variabile all’interno di una riga sia vuoto laddove la clinica non abbia nulla da inserire in quella riga per quella determinata variabile? Oppure in ogni riga devono sempre esse compilate tutte le variabili dell’interfaccia?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Sì, è possibile che il campo relativo a una variabile venga lasciato vuoto. Alcune variabili, tuttavia, devono essere inserite imperativamente. Esse sono contrassegnate come «required» nel file di definizione XSD ("xs:attribute name="fall_id" use="required"). Aggiungeremo questa informazione anche all’elenco delle variabili.
+Sì, è possibile che il campo di una variabile venga lasciato vuoto. Alcune variabili, tuttavia, devono essere inserite imperativamente. Esse sono contrassegnate come «required» nel file di definizione XSD ("xs:attribute name="fall_id" use="required"). Aggiungeremo questa informazione anche all’elenco delle variabili.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Le variabili prive di contenuto possono essere consegnate anche con un valore ZERO (ad es., righe CUFI complete con ZERI nelle variabili in cui non è presente nulla)? 
 {{<collapsibleBlock groupId="technische_fragen">}}
-Dipende dalle variabili. Per le variabili CUFI, è possibile compilare tutte le variabili con il valore «0». Tuttavia, le variabili vuote («») o i valori nulli (»ZERO») non sono ammessi. Se si desidera controllare questo aspetto in concreto, è possibile convalidare il file XML rispetto alla definizione XSD. A tal fine esistono online appositi strumenti gratuiti. Si noti che su tali piattaforme non è consentito caricare dati reali. Tuttavia, è possibile utilizzarle per controllare esempi di file fittizi. Anche la piattaforma SpiGes appronterà una convalida del genere. 
+Dipende dalle variabili. Per le variabili CUFI, è possibile compilare tutte le variabili con il valore «0». Tuttavia, le variabili vuote («») o i valori nulli (»ZERO») non sono ammessi. Se si desidera controllare questo aspetto in concreto, è possibile convalidare il file XML rispetto alla definizione XSD. A tal fine esistono online appositi strumenti gratuiti. Si noti che su tali piattaforme non è consentito caricare dati reali. Tuttavia, è possibile utilizzarle per controllare esempi di file fittizi. Anche la piattaforma SpiGes appronterà una convalida del genere.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -142,8 +140,8 @@ Si sa già quale sarà la procedura per quanto riguarda i dati cantonali aggiunt
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
 - I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia; vedi la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
-- Sebbene i dati cantonali aggiuntivi possano essere indicati in XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente. 
-- La parte SpiGes dei dati SDEP sarà integrata nell’esportazione SpiGes e resa disponibile agli utenti dei dati secondo la LAMal dalla piattaforma SpiGes. 
+- Sebbene i dati cantonali aggiuntivi possano essere indicati nell’XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente.  
+- I dati cantonali possono essere esportati solo dall’ospedale stesso e dal Cantone. I dati cantonali di questi utenti sono probabilmente contenuti nello stesso file XML che contiene il resto dei dati.  
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -151,33 +149,33 @@ Si sa già quale sarà la procedura per quanto riguarda i dati cantonali aggiunt
 {{<listItem>}}
 Sarà possibile effettuare correzioni direttamente sulla piattaforma?
 {{<collapsibleBlock groupId="technische_fragen">}}
-No, la piattaforma non offre la possibilità di inserire o correggere i dati. L’obiettivo è correggere gli errori alla fonte, cioè nei sistemi degli ospedali, in modo che le future esportazioni siano coerenti e che nelle prossime rilevazioni gli errori non si verifichino più
+No, la piattaforma non offre la possibilità di inserire o correggere i dati. L’obiettivo è correggere gli errori alla fonte, cioè nei sistemi degli ospedali, in modo che le future esportazioni siano coerenti e che nelle prossime rilevazioni gli errori non si verifichino più.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Nuovi formati: Ci sono nuovi formati. Ad esempio, per rech_betrag. Il formato è N10.2 Si presume che si riferisca alla specificazione delle cifre decimali. In questo caso, 2 cifre decimali e una lunghezza totale di 12. È corretto?
+Nuovi formati: Ci sono nuovi formati, ad esempio per rech_betrag il formato è N10.2. Presumiamo che si riferisca alla specificazione delle cifre decimali. In questo caso 2 cifre decimali e una lunghezza totale di 12 cifre, giusto?
 {{<collapsibleBlock groupId="technische_fragen">}}
 Non proprio. N10.2 indica un numero con un totale di 10 cifre, di cui 2 dopo la virgola (e quindi un massimo di 8 cifre prima della virgola).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Nuove variabili medi_id e rech_id: dalla descrizione non si capisce se si tratta di numeri sequenziali o di ID effettivi del sistema. Se sì, quale? Con medi_id abbiamo subito pensato all'ATC_Code, ma c'è una variabile in più per questo.  
+Nuove variabili medi_id e rech_id: Dalla descrizione non è chiaro se si tratti di numeri sequenziali o di ID effettivi del sistema. Se sì, quali? Per il medi_id abbiamo pensato subito all’ATC_Code, ma esiste già una variabile per questo codice.
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
-- Le due nuove variabili "medi_id" e "rech_id" sono 0  identificatori necessari per ragioni tecniche per una chiara assegnazione . Non devono necessariamente iniziare con 1, ma devono essere uniche per ogni caso. 
-- Il file XML di esempio 1.3, disponibile sulla nostra homepage all'indirizzo , contieneriporta anche un esempio. medi_id ="1" contiene l'informazione che si tratta del primo farmaco ad alto costo secondo le specifiche di SwissDRG AG per questo caso specifico. 
+- Le due nuove variabili «medi_id» e «rech_id» sono entrambe identificatori necessari dal punto di vista tecnico per garantire un’assegnazione univoca. Non devono necessariamente iniziare con 1, ma devono essere unici per ogni caso. 
+- Il modello di file XML 1.3, disponibile sulla nostra homepage, contiene un esempio al riguardo. medi_id="1" contiene l’informazione che si tratta del primo farmaco ad alto costo secondo le direttive di SwissDRG SA per questo caso specifico. 
 {{</markdown>}}
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Nei file di esempio per il file di identificazione e il file di dati, ci sono due campi per la versione. Tuttavia, queste versioni non corrispondono. La versione 1.0 è specificata nell'intestazione e la versione 1.3 nel tag aziendale. Perché i numeri di versione sono diversi? Come si fa a sapere quando specificare quale numero di versione?
+Nei file di esempio, per il file di identificatori e il file di dati ci sono due campi relativi alla versione. Queste versioni però non corrispondono. Nell’intestazione è indicata la versione 1.0 mentre nel tag dell’impresa  è indicata la versione 1.3. Perché i numeri di versione sono diversi? Come sapere quando specificare un numero o l’altro?
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
-"?xml version="1.0″" è sempre in questo modo. La versione superiore si riferisce quindi all'"XML" stesso, mentre quella inferiore si riferisce all'XML specifico di SpiGes.
+"?xml version="1.0″" rimane sempre così. La versione indicata più in alto si riferisce infatti al file XML stesso, mentre quella più in basso all’XML specifico di SpiGes. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
