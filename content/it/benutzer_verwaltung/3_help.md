@@ -28,7 +28,7 @@ Cliccare su «Avanti».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="continuer_fr.png" class="edge max-w-90">}}
+{{<insertImage image="continuer_it.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -45,7 +45,7 @@ Nella scheda della panoramica, inserire una motivazione dell’autorizzazione pe
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="enreg_manu_fr.png" class="edge max-w-90">}}
+{{<insertImage image="enreg_manu_it.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -62,7 +62,7 @@ Nella scheda della panoramica, inserire una motivazione dell’autorizzazione pe
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="onboarding_fr.png" class="edge max-w-90">}}
+{{<insertImage image="onboarding_it.png" class="edge max-w-90">}}
 </div>
 </div>
 
@@ -86,7 +86,7 @@ Nella scheda della panoramica, inserire una motivazione dell’autorizzazione pe
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="global_onboarding_fr.png" class="edge max-w-90">}}
+{{<insertImage image="global_onboarding_it.png" class="edge max-w-90">}}
 </div>
 </div>
 

@@ -40,7 +40,7 @@ La connessione al portale eIAM è così stata completata. Per procedere alla ges
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="gestion_del.png" class="edge max-w-90">}}
+{{<insertImage image="gestion_del_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -61,7 +61,7 @@ La connessione al portale eIAM è così stata completata. Per procedere alla ges
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_niveau_fr.png" class="edge max-w-90">}}
+{{<insertImage image="selection_niveau_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -79,7 +79,7 @@ Selezionare la sede ospedaliera desiderata e cliccare poi su «Avanti» in basso
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_site.png" class="edge max-w-90">}}
+{{<insertImage image="selection_site_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -105,7 +105,7 @@ Selezionare la sede ospedaliera desiderata e cliccare poi su «Avanti» in basso
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_utilisateur.png" class="edge max-w-90">}}
+{{<insertImage image="selection_utilisateur_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -135,7 +135,7 @@ Le altre informazioni sono facoltative.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="creation_utilisateur.png" class="edge max-w-90">}}
+{{<insertImage image="creation_utilisateur_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -162,7 +162,7 @@ Le altre informazioni sono facoltative.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="param_utilisateur.png" class="edge max-w-90">}}
+{{<insertImage image="param_utilisateur_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -207,7 +207,7 @@ La persona che gestisce gli utenti è inoltre responsabile di monitorare attenta
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="desactiv_utilis.png" class="edge max-w-90">}}
+{{<insertImage image="desactiv_utilis_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -230,7 +230,7 @@ La persona che gestisce gli utenti è inoltre responsabile di monitorare attenta
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="desactSupp_fr.png" class="edge max-w-90">}}
+{{<insertImage image="desactSupp_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
