@@ -40,7 +40,7 @@ Qual è la definizione di «trasferimento interno»?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 -	È il passaggio da un reparto (acuto, psichiatria, riabilitazione) a un altro dello stesso ospedale (burnr_gesv),
--	Oppure si riferisce ai cosiddetti «pazienti in attesa».
+-	oppure si riferisce ai cosiddetti «pazienti in attesa».
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -58,7 +58,7 @@ Qual è la definizione di «trasferimento»? (ad es. i codici «5 = Trasferiment
 {{<unorderedList>}}
 {{<listItem>}}
 La variabile Modalità di ammissione esisteva già nella MS e non ha subito modifiche nella piattaforma SpiGes. La differenza tra un trasferimento e un trasferimento interno, è che il primo non avviene all’interno dello stesso ospedale (BURGESV), ma tra ospedali diversi (due BURGESV diversi). La definizione si basa sui principi di SwissDRG AG, che potete trovare qui:
-{{<link url="https://www.swissdrg.org/fr/somatique-aigue/systeme-swissdrg-1302024/regles-et-definitions" newTab="true">}}règles et définitions{{</link>}}
+{{<link url="https://www.swissdrg.org/it/somatica-acuta/sistema-swissdrg-1302024/regole-e-definizioni" newTab="true">}}regole e definizioni{{</link>}}
 {{</listItem>}}
 
 {{<listItem>}}
@@ -92,12 +92,14 @@ eintritt_aufenthalt: 84 = Reparto/Clinica di riabilitazione, stesso stabilimento
 {{<listItem>}}
 Nella descrizione delle variabili "wohnland" (paese di domicilio) è menzionata una distinta ripartizione dei Paesi extraeuropei in regioni. Questo elenco esiste già o sarà pubblicato in futuro?
 {{<collapsibleBlock groupId="admninistratives">}}
+{{<unorderedList>}}
 {{<listItem>}}
 La procedura e l’elenco sono gli stessi che valevano per la MS. Ecco il link per consultare l’elenco:{{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/nomenklaturen/medsreg.html" newTab="true">}}medsreg{{</link>}}.
 {{</listItem>}}
 {{<listItem>}}
 Per i Paesi extraeuropei possono essere indicate regioni, ma è possibile anche indicare i codici dei Paesi. Questo era già così nella MS ed è rimasto invariato. Il formato è alfanumerico e può quindi contenere sia numeri che lettere.
 {{</listItem>}}
+{{/<unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
