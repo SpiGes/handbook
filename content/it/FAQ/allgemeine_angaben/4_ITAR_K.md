@@ -14,12 +14,12 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="ITARK">}}
 {{<listItem>}}
 Nel quadro della SpiGes sono rilevate solo informazioni in merito ai casi di cure stazionarie. Come deve essere compilata la parte dell’ITAR_K® riservata alle cure ambulatoriali?
 {{<collapsibleBlock groupId="ITARK">}}
-L’ITAR_K® può essere creato con i dati SpiGes. I dati ambulatoriali sono rilevati nei tipi di CUFI previsti a questo scopo (ad es. la tariffa di laboratorio).
+ITAR_K® può essere creato con i dati SpiGes. I dati ambulatoriali sono rilevati nei tipi di CUFI previsti a questo scopo (ad es. la tariffa di laboratorio).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Come viene creato l’ITAR_K® delle cliniche che costituiscono solo una parte di un’impresa ospedaliera? (ad es., la clinica St. Anne di Friburgo fa parte della Swiss Medical Network AG).
+Come viene creato ITAR_K® delle cliniche che costituiscono solo una parte di un’impresa ospedaliera? (ad es., la clinica St. Anne di Friburgo fa parte della Swiss Medical Network AG).
 {{<collapsibleBlock groupId="ITARK">}}
 Sarà la clinica St. Anne di Friburgo a compilare la contabilità finanziaria (e tutti gli altri dati) per la statistica ospedaliera per ogni sua clinica (livello BURGESV). I costi di SpiGes possono essere aggregati in base al BURGESV.
 {{</collapsibleBlock>}}
@@ -43,7 +43,7 @@ Non riusciamo a trovare una variabile SpiGes che permetta di trasferire i ricavi
 {{</listItem>}}
 -->
 {{<listItem>}}
-L’ITAR_K® può essere compilato sia a livello di impresa che di sede. Cosa è richiesto di fare per la SpiGes? Sono i Cantoni a decidere?
+ITAR_K® può essere compilato sia a livello di impresa che di sede. Cosa è richiesto di fare per la SpiGes? Sono i Cantoni a decidere?
 {{<collapsibleBlock groupId="ITARK">}}
 {{<markdown>}}
 - ITAR_K® viene sempre compilato al livello BURGESV ; questo livello deve corrispondere alla rilevazione della SO. Il Cantone fornisce all’UST queste informazioni nell’ambito della rilevazione dell’universo statistico. In questo senso, il Cantone può influire sulla decisione. Deve tuttavia accordarsi con l’ospedale.
@@ -53,7 +53,7 @@ L’ITAR_K® può essere compilato sia a livello di impresa che di sede. Cosa è
 {{</listItem>}}
 
 {{<listItem>}}
-Da quando sarà possibile generare un ITAR_K® direttamente dalla piattaforma SpiGes?
+Da quando sarà possibile generare ITAR_K® direttamente dalla piattaforma SpiGes?
 {{<collapsibleBlock groupId="ITARK">}}
 In futuro, lo strumento principale per l’elaborazione delle strutture tariffali e per la verifica dell’economicità delle prestazioni sarà creato attraverso la piattaforma SpiGes. Per garantire una transizione sicura e corretta, per generare l’ITAR_K® è previsto che in un primo periodo la vecchia e la nuova piattaforma (rispettivamente H+ e SpiGes) funzionino in parallelo. Nel 2025 (dati del 2024), l’ITAR_K® ufficiale continuerà a essere quindi creato dalla piattaforma H+ come in precedenza. A partire da settembre 2025, tutti gli ospedali avranno in più la possibilità di creare l’ITAR_K® 2025 (dati del 2024) tramite la piattaforma SpiGes e di confrontare i due risultati. In tal modo sarà possibile risolvere eventuali ambiguità prima dell’introduzione produttiva della creazione dell’ITAR_K® tramite la piattaforma SpiGes nel 2026 per i dati del 2025.
 {{</collapsibleBlock>}}
