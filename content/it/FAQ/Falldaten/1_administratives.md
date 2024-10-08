@@ -64,14 +64,14 @@ La variabile Modalità di ammissione esisteva già nella MS e non ha subito modi
 {{<listItem>}}
 La seguente specifica è stata comunicata da SwissDRG AG per il tipo di ricovero "6=Retransfer": Per un ricovero ininterrotto in un altro ospedale per più di 18 giorni e ritorno all'ospedale di origine. 
 {{</listItem>}}
-<!-- A traduire: new FAQ-->
+<!-- A traduire: new FAQ
 {{<listItem>}}
 Selon SwissDRG SA, le retransfert n'est utilisé comme type d'entrée que si le patient a séjourné plus de 18 jours dans un autre hôpital et qu'il y retourne, ouvrant ainsi un nouveau cas.
 {{</listItem>}}
 
 {{<listItem>}}
 Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du type d'entrée de sa première entrée, car il est regroupé.
-{{</listItem>}}
+{{</listItem>}}-->
 {{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -99,7 +99,7 @@ La procedura e l’elenco sono gli stessi che valevano per la MS. Ecco il link p
 {{<listItem>}}
 Per i Paesi extraeuropei possono essere indicate regioni, ma è possibile anche indicare i codici dei Paesi. Questo era già così nella MS ed è rimasto invariato. Il formato è alfanumerico e può quindi contenere sia numeri che lettere.
 {{</listItem>}}
-{{/<unorderedList>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
