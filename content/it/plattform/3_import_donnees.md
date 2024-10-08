@@ -18,7 +18,7 @@ Il caricamento dei dati può essere scaglionato in termini di tempo e di contenu
 Se per il capitolo corrispondente sono già stati importati dati in precedenza, i dati meno recenti saranno completamente sostituiti dai dati del nuovo caricamento.
 {{</alert>}}
 
-{{<insertImage image="import_donnees_fr.png" class="edge max-w-90">}}
+{{<insertImage image="import_donnees_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -26,7 +26,7 @@ Per importare nuovi dati, occorre andare alla pagina web dell’ospedale desider
 
 &nbsp;
 
-{{<insertImage image="import_xml_fr.png" class="edge max-w-90">}}
+{{<insertImage image="import_xml_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -34,7 +34,7 @@ Nella pagina che si apre è quindi possibile trascinare il file di dati in forma
 
 &nbsp;
 
-{{<insertImage image="fin_import_fr.png" class="edge max-w-90">}}
+{{<insertImage image="fin_import_de.png" class="edge max-w-90">}}
 
 &nbsp;
 

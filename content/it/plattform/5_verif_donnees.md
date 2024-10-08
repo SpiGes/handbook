@@ -21,7 +21,7 @@ Una volta che non ci sono pi√π errori in sospeso, la verifica della plausibilit√
 
 ## Controllo dei casi singoli, visualizzazione del Cantone
 
-{{<insertImage image="controle_detail_canton_fr.png" class="edge max-w-90">}}
+{{<insertImage image="controle_detail_canton_de.png" class="edge max-w-90">}}
 
 &nbsp;
 

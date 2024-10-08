@@ -9,7 +9,7 @@ type: docs
 
 ### Pagina iniziale
 
-{{<insertImage image="ecran_accueil.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_accueil_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -27,7 +27,7 @@ type: docs
 
 ### Panoramica rilevazioni
 
-{{<insertImage image="ecran_erhebungsubersicht.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_erhebungsubersicht_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -37,7 +37,7 @@ type: docs
 
 ### Panoramica imprese ospedaliere
 
-{{<insertImage image="ecran_donnees_fr.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_donnees_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -49,7 +49,7 @@ type: docs
 
 ### Panoramica parti della rilevazione
 
-{{<insertImage image="donnees_site_fr.png" class="edge max-w-90">}}
+{{<insertImage image="donnees_site_de.png" class="edge max-w-90">}}
 
 &nbsp;
 

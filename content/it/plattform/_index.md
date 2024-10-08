@@ -22,4 +22,4 @@ A monte di questo processo di raccolta dei dati, questi vengono controllati «al
 
 La seguente immagine fornisce una panoramica delle fasi della rilevazione.
 
-{{<insertImage image="phase_releve.jpg" class="edge max-w-90">}}
+{{<insertImage image="phase_releve_de.jpg" class="edge max-w-90">}}

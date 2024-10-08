@@ -29,7 +29,7 @@ L’impresa può quindi elaborare autonomamente i risultati dei controlli automa
 
 ### Contrôle du format
 
-{{<insertImage image="test_format_fr.png" class="edge max-w-90">}}
+{{<insertImage image="test_format_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -43,7 +43,7 @@ L’impresa può quindi elaborare autonomamente i risultati dei controlli automa
 
 ### Controllo casi singoli
 
-{{<insertImage image="controle_fr.png" class="edge max-w-90">}}
+{{<insertImage image="controle_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -57,7 +57,7 @@ L’impresa può quindi elaborare autonomamente i risultati dei controlli automa
 
 &nbsp;
 
-{{<insertImage image="controle_detail_fr.png" class="edge max-w-90">}}
+{{<insertImage image="controle_detail_de.png" class="edge max-w-90">}}
 
 &nbsp;
 
