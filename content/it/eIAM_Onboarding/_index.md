@@ -45,24 +45,26 @@ In alcuni casi, il Cantone geografico di una sede e il Cantone amministrativo de
 
 Esempio:
 
-<div class="two_column">
+{{<layouts/grid>}}
+{{<layouts/row>}}
 
-<div class="left_col">
-<!-- First column content goes here -->
-{{&lt;markdown&gt;}}
+{{<layouts/column width="50">}}
+{{<markdown>}}
+
 1. nella colonna 1 è indicato l’EntID a livello di impresa e il numero RIS a livello di sede;
 2. nella colonna 2 è indicato il Cantone amministrativo (responsabile) dell’impresa o della sede dell’ospedale;
 3. nella colonna 3 viene indicato il Cantone geografico dell’impresa / della sede.
 
 In questo caso si può notare che il Cantone amministrativo e quello geografico della sede 1 sono diversi.
-{{&lt;/markdown&gt;}}
-</div>
+{{</markdown>}}
+{{</layouts/column>}}
 
-<div class="right_col">
-<!-- Second column content goes here -->
+{{<layouts/column>}}
 {{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
-</div>
+{{</layouts/column>}}
 
-</div>
+{{</layouts/row>}}
+{{</layouts/grid>}}
+
 
  
