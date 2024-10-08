@@ -1,5 +1,5 @@
 ---
-title: Domande tecniche 
+title: Informazioni generali
 slug: technische_fragen
 description: " "
 weight: 60
@@ -138,11 +138,17 @@ Un simile tool di test sarà messo a disposizione tramite API (Application Progr
 {{<listItem>}}
 Si sa già quale sarà la procedura per quanto riguarda i dati cantonali aggiuntivi? Diversi Cantoni (ad es. LU, GR, VS e VD) dispongono già di una riga MK. Inoltre, anche i Cantoni di ZH e BE raccolgono dati aggiuntivi all’interno della piattaforma SDEP (Spitaldatenerhebungsplattform). Sapete già se questi dati saranno integrati nell’esportazione SpiGes o se dovranno essere esportati separatamente?
 {{<collapsibleBlock groupId="technische_fragen">}}
-{{<markdown>}}
-- I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia; vedi la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes 1.3: [https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html](https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.html)
-- Sebbene i dati cantonali aggiuntivi possano essere indicati nell’XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente.  
-- I dati cantonali possono essere esportati solo dall’ospedale stesso e dal Cantone. I dati cantonali di questi utenti sono probabilmente contenuti nello stesso file XML che contiene il resto dei dati.  
-{{</markdown>}}
+{{<unorderedList>}}
+{{<listItem>}}
+I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia ; vedi {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.32129189.html" newTab="true">}}la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes{{</link>}}.
+{{</listItem>}}
+{{<listItem>}}
+Sebbene i dati cantonali aggiuntivi possano essere indicati nell’XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente. 
+{{</listItem>}}
+{{<listItem>}}
+I dati cantonali possono essere esportati solo dall’ospedale stesso e dal Cantone. I dati cantonali di questi utenti sono probabilmente contenuti nello stesso file XML che contiene il resto dei dati. 
+{{</listItem>}}
+{{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -156,7 +162,7 @@ No, la piattaforma non offre la possibilità di inserire o correggere i dati. L�
 {{<listItem>}}
 Nuovi formati: Ci sono nuovi formati, ad esempio per rech_betrag il formato è N10.2. Presumiamo che si riferisca alla specificazione delle cifre decimali. In questo caso 2 cifre decimali e una lunghezza totale di 12 cifre, giusto?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Non proprio. N10.2 indica un numero con un totale di 10 cifre, di cui 2 dopo la virgola (e quindi un massimo di 8 cifre prima della virgola).
+N10.2 indica un numero con un totale di 10 cifre, di cui 2 dopo la virgola (e quindi un massimo di 8 cifre prima della virgola).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -175,7 +181,12 @@ Nuove variabili medi_id e rech_id: Dalla descrizione non è chiaro se si tratti 
 Nei file di esempio, per il file di identificatori e il file di dati ci sono due campi relativi alla versione. Queste versioni però non corrispondono. Nell’intestazione è indicata la versione 1.0 mentre nel tag dell’impresa  è indicata la versione 1.3. Perché i numeri di versione sono diversi? Come sapere quando specificare un numero o l’altro?
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
-"?xml version="1.0″" rimane sempre così. La versione indicata più in alto si riferisce infatti al file XML stesso, mentre quella più in basso all’XML specifico di SpiGes. 
+
+{{<lineBreak>}}
+{{<markdown>}}
+`?xml version="1.0"` rimane sempre così.
+La versione indicata più in alto si riferisce infatti al file XML stesso, mentre quella più in basso all’XML specifico di SpiGes.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
