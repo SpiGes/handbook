@@ -34,6 +34,7 @@ Andare su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyA
 Se si dispone già di un CH-LOGIN è possibile procedere con il login, altrimenti cliccare su «Creare un account».
 </div>
 
+
 <div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="edge max-w-90">}}
