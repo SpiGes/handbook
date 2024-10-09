@@ -36,7 +36,7 @@ Si la correction n’est pas possible ou que le contrôle a détecté une erreur
 
 1. Dans cette colonne, vous pouvez voir la date et l'heure du dernier import de données.
 
-2. Dans cette colonne, vous voyez si les données concernées ont passé les tests de contrôle du format. En cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger dans le fichier XML et la réimporter. **ATTENTION:** l'import de nouvelles données remplace les données précédemment importées.
+2. Dans cette colonne, vous voyez si les données concernées ont passé les tests de contrôle du format. En cas d'erreur, vous pouvez cliquer dessus pour afficher les détails de l'erreur afin de la corriger dans le fichier XML et la réimporter. **ATTENTION:** l'import de nouvelles données remplace les données précédemment importées. Le fichier de données corrigé doit contenir les mêmes parties du relevé. Les erreurs de format ne peuvent pas être effectuées et affichées par partie du relevé, mais uniquement par fichier.
 
 3. Une fois le contrôle du format validé, vous voyez dans cette colonnes les erreurs de cas individuels à traiter. Vous pouvez cliquer dans la catégorie souhaitée pour voir les erreurs plus en détails.
 
