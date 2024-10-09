@@ -27,56 +27,24 @@ En janvier 2023, nous avons organisé une réunion d'information à l’intentio
 
 {{<listItem>}}
 Selon la liste de variables 1.3, il existe les tableaux suivants
-<table>
-  <tr>
-    <td> 1 </td>
-    <td> Administratif </td>
-  </tr>
-  <tr>
-    <td> 2 </td>
-    <td> Nouveau-nés </td>
-  </tr>
-  <tr>
-    <td> 3 </td>
-    <td> Psychiatrie </td>
-  </tr>
-  <tr>
-    <td> 4 </td>
-    <td> CUFI </td>
-  </tr>
-  <tr>
-    <td> 5 </td>
-    <td> Diagnostics </td>
-  </tr>
-  <tr>
-    <td> 6 </td>
-    <td> Traitements </td>
-  </tr>
-  <tr>
-    <td> 7 </td>
-    <td> Médecins pratiquant les opérations </td>
-  </tr>
-  <tr>
-    <td> 8 </td>
-    <td> Médicaments </td>
-  </tr>
-  <tr>
-    <td> 9 </td>
-    <td> Factures </td>
-  </tr>
-  <tr>
-    <td> 10 </td>
-    <td> Mouvement des patients </td>
-  </tr>
-  <tr>
-    <td> 11 </td>
-    <td> Données cantonales </td>
-  </tr>
-  <tr>
-    <td> 12 </td>
-    <td> Identificateurs des personnes </td>
-  </tr>
-</table>
+{{<markdown>}}
+|||
+|-----------|-----------|
+| 1 | Administratif |
+| 2 | Nouveau-nés |
+| 3 | Psychiatrie |
+| 4 | CUFI |
+| 5 | Diagnostics |
+| 6 | Traitements |
+| 7 | Médecins pratiquant les opérations |
+| 8 | Médicaments |
+| 9 | Factures |
+| 10 | Mouvement des patients |
+| 11 | Données cantonales |
+| 12 | Identificateurs des personnes |
+
+{{</markdown>}}
+
 Est-il possible de livrer ces tableaux sous forme de fichiers xml individuels à la plateforme SpiGes ?
 {{<collapsibleBlock groupId="allgemein">}}
 Le tableau 12 Identificateurs de personnes doit être livré dans un fichier séparé (pour des raisons de protection des données). Pour les autres tableaux, un autre fichier est défini, mais il supporte les livraisons partielles. En théorie, il est donc possible de livrer tous les tableaux dans un seul fichier XML sous forme de livraisons partielles. Nous ne le recommandons toutefois pas, car cela nécessite une coordination complexe des différents tableaux (s'assurer que les informations sur tous les cas sont disponibles dans tous les fichiers).  Vous trouverez des informations plus précises à ce sujet dans la description du fichier XML pour l'importation de données dans la plateforme SpiGes sur notre {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiken/gesundheit/gesundheitswesen/projekt-spiges.html" newTab="true">}}site web{{</link>}}.

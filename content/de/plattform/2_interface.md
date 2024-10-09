@@ -53,6 +53,6 @@ type: docs
 
 &nbsp;
 
-1. Dieses Feld ermöglicht es Ihnen, Daten über das ausgewählte Unternehmen oder die ausgewählte Krankenhauseinrichtung zu importieren. Weitere Details dazu finden Sie auf der Seite "1. Daten ,importieren".
+1. Dieses Feld ermöglicht es Ihnen, Daten über das ausgewählte Unternehmen oder die ausgewählte Krankenhauseinrichtung zu importieren. Weitere Details dazu finden Sie auf der Seite "1. Daten importieren".
 
 2. Der Kommentarbereich bietet Ihnen die Möglichkeit zur Kommunikation. Um ein neues Gesprächsthema zu erstellen, müssen Sie auf die Sprechblase oben in der Mitte klicken, und dann können sie rechts im Chat neue Nachrichten eingeben.
