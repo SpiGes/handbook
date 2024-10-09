@@ -17,7 +17,7 @@ Die Erhebung der Daten startet im Januar nach dem Datenjahr und wird mit den fol
 4. Die Kantone geben die Daten frei. Dabei ist sowohl eine Freigabe der Daten nach KVG als auch nach BStatG erforderlich.
 5. Die Daten werden getrennt nach KVG und BStatG verarbeitet.
 
-Vorgelagert zu diesem Erhebungsprozess werden die Daten auf hauseigenen Systemen der Spitäler «an der Quelle» geprüft. -	Dazu bereitgestellte Prüftools (MedPlaus, SpiGes Prüf-API) können in die Systeme integriert werden. Ausserdem besteht die Möglichkeit die Daten unterjährig, d.h. bereits vor der eigentlichen Datenerhebung auf der SpiGes-Plattform prüfen zu lassen. Weitere Details zu diesem Prozess finden Sie im Abschnitt "Datenkontrolle".
+Vorgelagert zu diesem Erhebungsprozess werden die Daten auf hauseigenen Systemen der Spitäler «an der Quelle» geprüft. -	Dazu bereitgestellte Prüftools (MedPlaus, SpiGes Prüf-API) können in die Systeme integriert werden. Ausserdem besteht die Möglichkeit die Daten unterjährig, d.h. bereits vor der eigentlichen Datenerhebung auf der SpiGes-Plattform prüfen zu lassen. Weitere Details zu diesem Prozess finden Sie im Abschnitt "Überprüfung der Daten".
 
 Folgende Abbildung gibt einen Überblick über die Erhebungsphasen:
 

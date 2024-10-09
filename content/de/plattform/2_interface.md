@@ -21,7 +21,7 @@ type: docs
 
 4. Die Rubrik "Erhebungsübersicht" bietet Zugang zu den Datensätzen des aktuellen Jahres und der Vorjahre.
 
-5. Das Feld "Handbuch" verweist Sie auf das SpiGes-Benutzerhandbuch.
+5. Die Rubrik "Handbuch" verweist Sie auf das SpiGes-Benutzerhandbuch.
 
 6. Das Feld "Logout" oben rechts ermöglicht es Ihnen, sich von der Plattform abzumelden.
 
@@ -45,7 +45,7 @@ type: docs
 
 2. In der Liste der Krankenhausunternehmen werden Sie durch Klicken auf das Unternehmen Ihrer Wahl zu den entsprechenden Daten des hospoitalen Unternehmens weitergeleitet.
 
-3. Mit dem Pfeil rechts neben jedem Unternehmen können Sie die Liste der mit diesem Unternehmen verbundenen Hospizbetriebe aufklappen. Mit dem ersten Pfeil in der Liste können Sie alle Unternehmen aufklappen.
+3. Mit dem Pfeil rechts neben jedem Unternehmen können Sie die Liste der mit diesem Unternehmen verbundenen Spitalstandorte aufklappen. Mit dem ersten Pfeil in der Liste können Sie alle Unternehmen aufklappen.
 
 ### Übersicht Erhebungsteile
 
@@ -53,6 +53,6 @@ type: docs
 
 &nbsp;
 
-1. Dieses Feld ermöglicht es Ihnen, Daten über das ausgewählte Unternehmen oder die ausgewählte Krankenhauseinrichtung zu importieren. Weitere Details dazu finden Sie auf der Seite "1. Daten auf die Plattform importieren".
+1. Dieses Feld ermöglicht es Ihnen, Daten über das ausgewählte Unternehmen oder die ausgewählte Krankenhauseinrichtung zu importieren. Weitere Details dazu finden Sie auf der Seite "1. Daten ,importieren".
 
 2. Der Kommentarbereich bietet Ihnen die Möglichkeit zur Kommunikation. Um ein neues Gesprächsthema zu erstellen, müssen Sie auf die Sprechblase oben in der Mitte klicken, und dann können sie rechts im Chat neue Nachrichten eingeben.
