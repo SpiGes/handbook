@@ -156,7 +156,7 @@ Klicken Sie dann auf "Starten".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="config_fido_de.png" class="edge max-w-50">}}
+{{<insertImage image="config_fido_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
