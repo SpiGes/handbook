@@ -11,7 +11,7 @@ keywords: []
 
 Potrebbe essere necessario inviare nuovamente il codice di registrazione all’utente. Ad esempio, in caso sia stato commesso un errore nell’inserimento dell’indirizzo e-mail o se è passato più di un mese dall’invio del codice. In questo caso occorre procedere come segue:
 
-Effettuare l’accesso al portale eIAM{{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}Gestione delegata{{</link>}}, andare nella scheda «Gestione degli utenti» e selezionare il profilo utente desiderato.
+Effettuare l’accesso al {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}portale eIAM di delegazione{{</link>}}, andare nella scheda «Gestione degli utenti» e selezionare il profilo utente desiderato.
 
 <!-- 1eme paire de colonnes -->
 
