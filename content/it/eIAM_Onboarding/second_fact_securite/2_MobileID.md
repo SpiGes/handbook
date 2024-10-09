@@ -131,7 +131,7 @@ Selezionare il riquadro «SIM» e cliccare su «Avanti».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_sim.png" description="Choix carte SIM" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="choix_sim_it.png" description="Choix carte SIM" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -149,7 +149,7 @@ Spuntare la casella «Accetto i termini e le condizioni» e cliccare su «Avanti
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="cond_utilisation_fr.png" description="Conditions d'utilisation" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="cond_utilisation_it.png" description="Conditions d'utilisation" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -167,7 +167,7 @@ Chi fosse già stato in possesso di un Mobile ID in passato, ha ora la possibili
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_recup.png" description="Possibilité récupération" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="choix_recup_it.png" description="Possibilité récupération" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -299,7 +299,7 @@ Inserire la propria password e cliccare su «Avanti».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge max-w-90">}} 
+{{<insertImage image="mot_de_passe_it.png" description="Mot de passe" class="edge max-w-90">}} 
 </div>
 
 </div>
