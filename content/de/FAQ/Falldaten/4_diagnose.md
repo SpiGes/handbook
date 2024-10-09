@@ -67,7 +67,7 @@ ND V99! Transportmittelunfall
 ND S36.03 Rissverletzung der Milz mit Beteiligung des Parenchyms      
 ND S36.49 Verletzung sonstiger und mehrerer Teile des Dünndarmes      
 ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des Beckens) mit Verbindung zu einer intraabdominalen Verletzung      
-…wird wie folgt in SpiGes erfasst:      
+…wird wie folgt in **SpiGes** erfasst:      
 {{</markdown>}}
 <table class="w-100">
   <tr>

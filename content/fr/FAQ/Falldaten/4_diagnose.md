@@ -67,7 +67,7 @@ DS V99! Accident de transport
 DS S36.03 Déchirure de la rate, avec atteinte du parenchyme       
 DS S36.49 Autres parties et parties multiples de l’intestin grêle       
 DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacrée et du bassin) associée à une lésion intraabdominale       
-…est saisi dans SpiGes comme suit :    
+…est saisi dans **SpiGes** comme suit :    
 {{</markdown>}}   
 <table class="w-100">
   <tr>

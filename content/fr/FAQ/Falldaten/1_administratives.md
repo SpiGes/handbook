@@ -19,7 +19,7 @@ Le regroupement des cas est géré à SpiGes conformément aux directives de Swi
 {{</listItem>}}
 
 {{<listItem>}}
-fall_id_ch : Qui génère ce numéro de cas et celui-ci est-il automatiquement déposé dans Opale (système IRP) ? Jusqu'à présent, nous pouvions générer automatiquement l'identifiant de cas dans les deux fichiers (données OFS et fichier des coûts par cas) dans Opale.
+fall_id_ch : Qui génère ce numéro de cas et celui-ci est-il automatiquement déposé dans Opale (système ERP) ? Jusqu'à présent, nous pouvions générer automatiquement l'identifiant de cas dans les deux fichiers (données OFS et fichier des coûts par cas) dans Opale.
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
