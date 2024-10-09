@@ -58,7 +58,7 @@ Al numero indicato sarà quindi inviato un SMS con un codice che va immesso nell
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel_it.png" description="Code SMS" class="edge max-w-90">}} 
+{{<insertImage image="saisie_tel_mobileid_it.png" description="Code SMS" class="edge max-w-90">}} 
 </div>
 
 </div>
