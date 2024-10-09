@@ -190,7 +190,7 @@ En cochant la case, cela vous permet de donner le droit à l'utilisateur de cré
 Il est également de votre responsabilité de faire un suivi attentif des utilisateurs qui ont accès à la plateforme SpiGes et de supprimer l'accès aux personnes qui n'ont plus à l'avoir.
 {{</alert>}}
 
-### Désactivation d'un utilsateur
+### Désactivation d'un utilisateur
 
 <!-- 6eme paire de colonnes -->
 
