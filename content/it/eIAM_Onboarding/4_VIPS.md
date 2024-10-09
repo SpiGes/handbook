@@ -251,7 +251,7 @@ Una volta completata l’identificazione video, il secondo fattore viene visuali
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mobileid_verifie.png" description="Choix connexion" class="edge max-w-90">}}  
+{{<insertImage image="mobileid_verifie_it.png" description="Choix connexion" class="edge max-w-90">}}  
 </div>
 
 </div>

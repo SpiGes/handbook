@@ -345,4 +345,4 @@ Inserite il proprio numero di cellulare (il numero collegato al proprio Mobile 
 Apparirà quindi un messaggio e il cellulare chiederà di confermare il collegamento inserendo il PIN del proprio Mobile ID. 
 
 Una volta effettuata questa operazione, «Mobile ID» figurerà come possibilità di autenticazione a due fattori.
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}
+{{<insertImage image="mobileid_present_it.png" description="ajout second facteur" class="edge max-w-90">}}
