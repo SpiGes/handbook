@@ -80,7 +80,7 @@ Geben Sie den Bestätigungscode ein und drücken Sie auf "Weiter".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="edge max-w-90">}}   <!-- Image en français -->
+{{<insertImage image="code_conf_de.png" description="Choix connexion" class="edge max-w-90">}}   <!-- Image en français -->
 </div>
 
 </div>
