@@ -170,7 +170,7 @@ Stecken Sie Ihren FIDO-Schlüssel in Ihren Computer und klicken Sie dann auf "St
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="config_fido.png" class="edge max-w-90">}}
+{{<insertImage image="config_fido_de.png" class="edge max-w-90">}}
 </div>
 
 </div>
