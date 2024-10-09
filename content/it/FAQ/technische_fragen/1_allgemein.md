@@ -2,7 +2,7 @@
 title: Informazioni generali
 slug: technische_fragen
 description: " "
-weight: 60
+weight: 20
 type: docs
 keywords: []
 ---
