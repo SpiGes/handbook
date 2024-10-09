@@ -33,7 +33,7 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 1. In dieser Rubrik sehen Sie das Datum und die Uhrzeit des letzten Datenimports.
 
-2. In dieser Rubrik sehen Sie, ob die betreffenden Daten die Formatkontrolltests bestanden haben. Falls ein Fehler aufgetreten ist, können Sie darauf klicken, um die Details des Fehlers anzuzeigen, damit Sie ihn in der XML-Datei korrigieren und erneut importieren können. **ACHTUNG:** Der Import neuer Daten überschreibt die zuvor importierten Daten.
+2. In dieser Rubrik sehen Sie, ob die betreffenden Daten die Formatkontrolltests bestanden haben. Falls ein Fehler aufgetreten ist, können Sie darauf klicken, um die Details des Fehlers anzuzeigen, damit Sie ihn in der XML-Datei korrigieren und erneut importieren können. **ACHTUNG:** Der Import neuer Daten überschreibt die zuvor importierten Daten. Das korrigierte Datenfile muss die gleichen Erhebungsteile enthalten. Die Formatfehler können nicht pro Erhebungsteil durchgeführt und angezeigt werden, sondern nur pro File.
 
 3. Nachdem die Formatprüfung freigegeben wurde, sehen Sie in dieser Rubrik die Fehler einzelner Fälle, die bearbeitet werden müssen. Sie können auf die gewünschte Kategorie klicken, um sich die Fehler genauer anzusehen.
 
