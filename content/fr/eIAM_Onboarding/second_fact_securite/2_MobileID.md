@@ -58,7 +58,7 @@ Vous allez ensuite recevoir un code par SMS au numéro indiqué, saisissez le co
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel_fr.png" description="Code SMS" class="edge max-w-90">}}
+{{<insertImage image="saisie_tel_mobileid_fr.png" description="Code SMS" class="edge max-w-90">}}
 </div>
 
 </div>
