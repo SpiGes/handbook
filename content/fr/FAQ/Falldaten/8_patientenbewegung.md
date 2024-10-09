@@ -36,7 +36,7 @@ Des clarifications avec SwissDRG SA ont montré que les deux variables "wiederei
 {{<listItem>}}
 episode_id : Nous sommes d'avis que pour notre clinique, il n'est pas nécessaire de distinguer des épisodes pour les cas hospitaliers, car nous n'enregistrons aucun changement de site au sein de l'hôpital. Est-ce bien compris de notre part ?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-La supposition est vraie en ce qui concerne les épisodes dus à des changements de lieu. Les épisodes dus à des sorties/réadmissions intermédiaires, à des congés, à des tests d'effort ou à des traitements ambulatoires extra-muros doivent toutefois être enregistrés.
+La supposition est vraie en ce qui concerne les épisodes dus à des changements de lieu. Les épisodes dus à des sorties/réadmissions intermédiaires, à des congés, à des tests d'essai (en psychiatrie) ou à des traitements ambulatoires extra-muros doivent toutefois être enregistrés.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

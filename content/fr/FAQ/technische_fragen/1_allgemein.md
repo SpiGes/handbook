@@ -26,7 +26,7 @@ En janvier 2023, nous avons organisé une réunion d'information à l’intentio
 {{</listItem>}}
 
 {{<listItem>}}
-Selon la liste de variables 1.3, il existe les tableaux suivants
+Selon la liste de variables, il existe les tableaux suivants:
 {{<markdown>}}
 |||
 |-----------|-----------|
@@ -38,7 +38,7 @@ Selon la liste de variables 1.3, il existe les tableaux suivants
 | 6 | Traitements |
 | 7 | Médecins pratiquant les opérations |
 | 8 | Médicaments |
-| 9 | Factures |
+| 9 | Facture |
 | 10 | Mouvement des patients |
 | 11 | Données cantonales |
 | 12 | Identificateurs des personnes |
