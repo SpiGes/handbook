@@ -7,7 +7,7 @@ weight: 20
 type: docs
 ---
 
-Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mon compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". En bas de cet onglet, vous trouverez la section "Gestion de l'authentification à deux facteurs".
+Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". En bas de cet onglet, vous trouverez la section "Gestion de l'authentification à deux facteurs".
 
 {{<alert color="info">}}
 {{<markdown>}}
