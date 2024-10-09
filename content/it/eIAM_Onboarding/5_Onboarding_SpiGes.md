@@ -42,7 +42,7 @@ Inserire il codice di onboarding precedentemente copiato e inviare il codice di 
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="enregistrement.png" class="edge max-w-90">}}
+{{<insertImage image="enregistrement_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
