@@ -46,7 +46,7 @@ Per effettuare l’identificazione video occorre il materiale seguente.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_second_facteur.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="selection_second_facteur_it.png" description="Choix connexion" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -68,7 +68,7 @@ Confermare poi la selezione cliccando su «Verifica».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_mobileid.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="selection_mobileid_it.png" description="Choix connexion" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -90,7 +90,7 @@ Cliccare poi di nuovo su «Avanti» per avviare la procedura di autentificazione
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="vips_saisie_mdp.png" description="Choix connexion" class="edge max-w-90">}}
+{{<insertImage image="vips_saisie_mdp_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
@@ -112,7 +112,7 @@ Selezionare la casella «Accetto che i miei dati siano condivisi...» e cliccare
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_donnees_perso.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="saisie_donnees_perso_it.png" description="Choix connexion" class="edge max-w-90">}} 
 </div>
 
 </div>
@@ -134,7 +134,7 @@ Se tutti i dati inseriti sono corretti, cliccare su «Avanti».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="controle_infos.png" description="Choix connexion" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="controle_infos_it.png" description="Choix connexion" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
