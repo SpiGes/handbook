@@ -335,7 +335,7 @@ Inserite il proprio numero di cellulare (il numero collegato al proprio Mobile 
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel_it.png" description="ajout second facteur" class="edge max-w-90">}} 
+{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}} 
 </div>
 
 </div>

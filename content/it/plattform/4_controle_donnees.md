@@ -27,7 +27,7 @@ Durante il caricamento, tutti i controlli vengono eseguiti automaticamente e i r
 
 L’impresa può quindi elaborare autonomamente i risultati dei controlli automatici e correggere i dati ove necessario caricando dati corretti. Se non è possibile correggere i dati o se il controllo automatico ha segnalato errori che non ci sono, l’impresa può scrivere un commento al riguardo sulla piattaforma giustificando la mancata correzione dell’errore rilevato dal sistema. Un controllo automatico può anche generare un’avvertenza, ovvero la segnalazione di un’imprecisione che non deve necessariamente essere giustificata o corretta. Una volta corretti o giustificati tutti gli errori, il controllo autonomo è completato. Tale controllo deve avvenire entro la fine di aprile dell’anno successivo a quello della rilevazione.
 
-### Contrôle du format
+### Controllo del formato
 
 {{<insertImage image="test_format.png" class="edge max-w-90">}}
 
