@@ -58,7 +58,7 @@ Sie erhalten dann einen Code per SMS an die angegebene Nummer, geben Sie den erh
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel_de.png" description="Code SMS" class="edge max-w-90">}} 
+{{<insertImage image="saisie_tel_mobileid_de.png" description="Code SMS" class="edge max-w-90">}} 
 </div>
 
 </div>

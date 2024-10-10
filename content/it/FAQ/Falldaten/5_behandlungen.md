@@ -8,15 +8,14 @@ keywords: []
 ---
 
 {{<faqBlock>}}
-Aprire tutte le domande: {{<collapsibleGroupCommand groupId="behandlungen">}}
+Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="behandlungen">}}
 
 {{<numberedList>}}
 {{<listItem>}}
 Variabile «behandlung_id»: ci sono raccomandazioni per la sequenza da applicare in psichiatria? In particolare, gli item HoNOS, forniti nel quadro della CHOP, non sono specifici alla diagnosi o al trattamento.
 {{<collapsibleBlock groupId="behandlungen">}}
 {{<markdown>}}
-
-- Conformemente alla descrizione delle variabili vale quanto segue:
+- Conformemente alla descrizione delle variabili vale quanto segue:        
 Numero univoco progressivo del trattamento.
 1 = Trattamento 1
 2 = Trattamento 2
@@ -29,9 +28,15 @@ Per la sequenza dei trattamenti si raccomanda di attenersi ai criteri seguenti:
 3. Procedure per la determinazione della diagnosi principale
 4. Procedure per la determinazione delle diagnosi secondarie
 5. Altre procedure
-
 - Raccomandiamo una numerazione cronologica per gli item HoNOS (misurazioni HoNOS temporalmente remote = ID bassi, misurazioni HoNOS recenti = ID alti).
 {{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+<!-- A traduire: new FAQ-->
+{{<listItem>}}
+Variable «behandlung_chop» : les traitements doivent-ils être livrés avec ou sans points ?
+{{<collapsibleBlock groupId="behandlungen">}}
+Sans points.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -43,13 +48,49 @@ L’UST è consapevole che con l’introduzione del nuovo modo di inserire i dat
 {{</listItem>}}
 
 {{<listItem>}}
-Operatori: Qui c'è un problema di interpretazione delle specifiche nel file XML. La descrizione della variabile afferma che si possono contare al massimo due operatori per ogni operazione. Nella panoramica, tuttavia, l'attributo non indica se questo può essere esportato più volte.
+Operatori: abbiamo un problema di comprensione dell’interpretazione delle specifiche indicate nel file XML. La descrizione della variabile indica che possono essere attribuiti a un intervento al massimo due medici operanti. Nella panoramica non si vede tuttavia se l’attributo può essere esportato più volte.
 {{<insertImage image="Image1.jpg" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="behandlungen">}}
-Quanti chirurghi possono essere conteggiati per un'operazione è una questione concettuale e può variare da cantone a cantone (di solito 2, ma è una linea guida!). Tecnicamente, possono essere conteggiati più chirurghi.
+Quanti medici operanti possono essere attribuiti a ogni intervento è una questione concettuale che può quindi variare da Cantone a Cantone (di solito 2 è un valore indicativo!). Dal punto di vista tecnico possono essere registrati più medici operanti.
 {{<insertImage image="Image2.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
+<!-- A traduire: new FAQ
+{{<listItem>}}
+Variable «behandlung_auswaerts»: Pouvez-vous définir plus précisément l'attribution des modalités de cette variable et expliquer le lien avec le type_d'épisode=5 (traitement ambulatoire à l'extérieur) ?
+{{<collapsibleBlock groupId="behandlungen">}}
+La notion d'areal d'hospitalisation est floue. Nous avons fait le schéma suivant à ce sujet :
 
+{{<markdown>}}
+  Legende:  
+
+- BUR = site
+- Areal = aire  
+- BURGESV = hôpital/établissement
+{{</markdown>}}
+{{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
+
+{{<markdown>}}
+Traitements ambulatoires extra-muros
+
+Uniquement pour les traitements ambulatoires hors de la propre aire hospitalière ou dans un établissement tiers. Le champ est laissé vide lorsque la question ne se pose pas (traitement au sein du propre établissement).
+
+- Propre établissement = No Bur GESV identique
+- Etablissement tiers = No Bur GESV différent
+{{</markdown>}}
+
+{{<markdown>}}
+Liste des codes
+
+- 1 = Même aire hospitalière, autre établissement.
+- 2 = Même établissement, autre aire hospitalière.
+- 3 = Autre établissement, autre aire hospitalière.
+- 9 = inconnu.
+
+Les cas avec les valeurs 1 ou 3 sont enregistrés comme type_épisode=5.
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+-->
 {{</numberedList>}}
 {{</faqBlock>}}

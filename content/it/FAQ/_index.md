@@ -1,7 +1,7 @@
 ---
 title: FAQ
 slug: FAQ
-description: "In questa pagina troverete le risposte alle domande su SpiGes."
+description: "Questa pagina contiene tutte le risposte alle domande relative a SpiGes."
 weight: 440
 type: docs
 keywords: []
