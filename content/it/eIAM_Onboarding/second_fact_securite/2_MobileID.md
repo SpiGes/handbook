@@ -113,7 +113,7 @@ Nel riquadro «Attivare Mobile ID» cliccare su «Attivare».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activer_mobile_id.png" description="activer MobileID" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="activer_mobile_id_it.png" description="activer MobileID" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
