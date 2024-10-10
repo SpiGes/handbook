@@ -6,7 +6,7 @@ weight: 40
 type: docs
 keywords: []
 ---
-<!-- A revoir: new FAQ-->
+<!-- A revoir: new FAQ
 {{<faqBlock>}}
 Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="format_fehlermeldung">}}
 
@@ -113,3 +113,4 @@ Pour rech_menge, 12 chiffres au total sont possibles, dont 5 chiffres maximum ap
 
 {{</numberedList>}}
 {{</faqBlock>}}
+-->

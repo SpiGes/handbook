@@ -92,7 +92,7 @@ Nella scheda della panoramica, inserire una motivazione dell’autorizzazione pe
 
 &nbsp;
 
-<!-- A traduire: new FAQ-->
+<!-- A traduire: new FAQ
 ## Différences eIAM
 
 Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations:
@@ -101,4 +101,4 @@ Il se peut que vous receviez un mail vous indiquant une incohérence entre les d
 
 - Si l'adresse e-mail n'est pas la bonne (e-mail privé et non professionnel): Vous devez désactiver le profil de l'utilisateur, et le contacter afin qu'il utilise son adresse e-mail professionelle pour se connecter. Vous devez ensuite lui créer un nouveau profil qu'il pourra lier avec son adresse e-mail professionnelle.
 
-- Si la personne ayant créé l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): Il faut désactiver le profil et contacter imédiatement <spiges@bfs.admin.ch>.
+- Si la personne ayant créé l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): Il faut désactiver le profil et contacter imédiatement <spiges@bfs.admin.ch>.-->
