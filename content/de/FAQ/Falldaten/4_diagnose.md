@@ -22,14 +22,17 @@ Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Pat
  Variable «diagnose_zusatz»: Welche Angaben müssen hier bei Stern-Kodes und Kodes mit Ausrufezeichen gemacht werden?
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
--	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. 
--	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM. 
 
-**Beispiel 4** im Kodierhandbuch (Seite 38)      
-HD E10.73† Diabetes mellitus, Typ 1, mit multiplen Komplikationen, als entgleist bezeichnet       
-ND I79.2* Periphere Angiopathie bei anderenorts klassifizierten Krankheiten       
-ND H36.0* Retinopathia diabetica      
-ND N08.3* Glomeruläre Krankheiten bei Diabetes mellitus       
+-	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode.
+-	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM.
+
+**Beispiel 4** im Kodierhandbuch (Seite 38)
+
+- HD E10.73† Diabetes mellitus, Typ 1, mit multiplen Komplikationen, als entgleist bezeichnet
+- ND I79.2\* Periphere Angiopathie bei anderenorts klassifizierten Krankheiten
+- ND H36.0\* Retinopathia diabetica
+- ND N08.3\* Glomeruläre Krankheiten bei Diabetes mellitus
+
 …wird wie folgt in **SpiGes** erfasst:  
 {{</markdown>}}
 <table class="w-100">
@@ -60,14 +63,17 @@ ND N08.3* Glomeruläre Krankheiten bei Diabetes mellitus
   </tr>
 </table>
 {{<markdown>}}
-**Beispiel 4** im Koderhandbuch (Seite 40)       
-HD S37.03 Komplette Ruptur des Nierenparenchyms       
-L 2       
-ND V99! Transportmittelunfall       
-ND S36.03 Rissverletzung der Milz mit Beteiligung des Parenchyms      
-ND S36.49 Verletzung sonstiger und mehrerer Teile des Dünndarmes      
-ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des Beckens) mit Verbindung zu einer intraabdominalen Verletzung      
-…wird wie folgt in SpiGes erfasst:      
+
+**Beispiel 4** im Koderhandbuch (Seite 40)
+
+- HD S37.03 Komplette Ruptur des Nierenparenchyms
+- L 2
+- ND V99! Transportmittelunfall
+- ND S36.03 Rissverletzung der Milz mit Beteiligung des Parenchyms
+- ND S36.49 Verletzung sonstiger und mehrerer Teile des Dünndarmes
+- ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des Beckens) mit Verbindung zu einer intraabdominalen Verletzung
+
+…wird wie folgt in **SpiGes** erfasst:
 {{</markdown>}}
 <table class="w-100">
   <tr>

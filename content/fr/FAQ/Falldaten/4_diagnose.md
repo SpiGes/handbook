@@ -22,16 +22,19 @@ L'indication «POA» peut être utilisée, entre autres, pour améliorer la qual
 Variable «diagnose_zusatz» : quelles indications doivent être données ici pour les codes avec étoile et les codes avec point d'exclamation ?
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
--	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser. 
--	Les codes étoile ne sont pas marqués comme tels, l’association se fait suivant CIM-10-GM. 
 
-**Exemple 4** dans le manuel du codage (page 38) :       
-DP E10.73† Diabète sucré, type 1, avec complications multiples, désigné comme décompensé      
-DS I79.2* Angiopathie périphérique au cours de maladies classées ailleurs       
-DS H36.0* Rétinopathie diabétique       
-DS N08.3* Glomérulopathie au cours du diabète sucré       
-…est saisi dans <b>SpiGes</b> comme suit : 
-{{</markdown>}}     
+-	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser.
+-	Les codes étoile ne sont pas marqués comme tels, l’association se fait suivant CIM-10-GM.
+
+**Exemple 4** dans le manuel du codage (page 38) :
+
+- DP E10.73† Diabète sucré, type 1, avec complications multiples, désigné comme décompensé
+- DS I79.2\* Angiopathie périphérique au cours de maladies classées ailleurs
+- DS H36.0\* Rétinopathie diabétique
+- DS N08.3\* Glomérulopathie au cours du diabète sucré
+
+…est saisi dans **SpiGes** comme suit :
+{{</markdown>}}
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
@@ -60,15 +63,18 @@ DS N08.3* Glomérulopathie au cours du diabète sucré
   </tr>
 </table>
 {{<markdown>}}
-**Exemple 4** dans le manuel du codage (page 40) :       
-DP S37.03 Rupture totale du parenchyme rénal      
-L 2       
-DS V99! Accident de transport       
-DS S36.03 Déchirure de la rate, avec atteinte du parenchyme       
-DS S36.49 Autres parties et parties multiples de l’intestin grêle       
-DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacrée et du bassin) associée à une lésion intraabdominale       
-…est saisi dans SpiGes comme suit :    
-{{</markdown>}}   
+
+**Exemple 4** dans le manuel du codage (page 40) :
+
+- DP S37.03 Rupture totale du parenchyme rénal
+- L 2
+- DS V99! Accident de transport
+- DS S36.03 Déchirure de la rate, avec atteinte du parenchyme
+- DS S36.49 Autres parties et parties multiples de l’intestin grêle
+- DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacrée et du bassin) associée à une lésion intraabdominale
+
+…est saisi dans **SpiGes** comme suit :
+{{</markdown>}}
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
