@@ -29,7 +29,10 @@
             "grid",
             "row",
             "column",
-            "br"
+            "br",
+            "table",
+            "td",
+            "tr"
         ]
     }
 }
