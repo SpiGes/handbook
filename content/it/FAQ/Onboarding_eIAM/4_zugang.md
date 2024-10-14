@@ -12,9 +12,9 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="zugang">}}
 
 {{<numberedList>}}
 {{<listItem>}}
-Il codice di registrazione (onboarding) ha una scadenza? In caso affermativo, cosa devo fare se non effettuo la registrazione in tempo? 
+Il codice di registrazione (onboarding) ha una scadenza? In caso affermativo, cosa devo fare se non effettuo la registrazione in tempo?
 {{<collapsibleBlock groupId="zugang">}}
-Il codice di registrazione scade dopo un mese. Se la registrazione non è stata effettuata entro tale scadenza, contattare il proprio KT_Superuser richiedendo l’invio di un nuovo codice. 
+Il codice di registrazione scade dopo un mese. Se la registrazione non è stata effettuata entro tale scadenza, contattare il proprio KT_Superuser richiedendo l’invio di un nuovo codice.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -33,7 +33,7 @@ Il primo punto di contatto è sempre la persona responsabile del proprio Cantone
 {{</listItem>}}
 
 {{<listItem>}}
-Ho un altro tipo di conto dell’Amministrazione federale, posso utilizzarlo al posto del CH-LOGIN? 
+Ho un altro tipo di conto dell’Amministrazione federale, posso utilizzarlo al posto del CH-LOGIN?
 {{<collapsibleBlock groupId="zugang">}}
 No, purtroppo non è possibile utilizzare identità elettroniche diverse da quella indicata. Questo perché le altre identità elettroniche non hanno una qualità di autenticazione sufficiente per l’uso di SpiGes.
 {{</collapsibleBlock>}}

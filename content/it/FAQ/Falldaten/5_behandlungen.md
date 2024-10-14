@@ -15,7 +15,8 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="behandlungen">}
 Variabile «behandlung_id»: ci sono raccomandazioni per la sequenza da applicare in psichiatria? In particolare, gli item HoNOS, forniti nel quadro della CHOP, non sono specifici alla diagnosi o al trattamento.
 {{<collapsibleBlock groupId="behandlungen">}}
 {{<markdown>}}
-- Conformemente alla descrizione delle variabili vale quanto segue:        
+
+- Conformemente alla descrizione delle variabili vale quanto segue:
 Numero univoco progressivo del trattamento.
 1 = Trattamento 1
 2 = Trattamento 2
@@ -28,6 +29,7 @@ Per la sequenza dei trattamenti si raccomanda di attenersi ai criteri seguenti:
 3. Procedure per la determinazione della diagnosi principale
 4. Procedure per la determinazione delle diagnosi secondarie
 5. Altre procedure
+
 - Raccomandiamo una numerazione cronologica per gli item HoNOS (misurazioni HoNOS temporalmente remote = ID bassi, misurazioni HoNOS recenti = ID alti).
 {{</markdown>}}
 {{</collapsibleBlock>}}

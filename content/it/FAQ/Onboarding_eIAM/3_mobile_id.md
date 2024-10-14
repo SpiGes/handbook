@@ -14,7 +14,7 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="mobile_id">}}
 {{<listItem>}}
 Non ho una scheda SIM abbastanza recente da poter utilizzare Mobile ID, cosa posso fare?
 {{<collapsibleBlock groupId="mobile_id">}}
-È possibile ordinare una scheda SIM di ultima generazione presso il proprio operatore telefonico. In alternativa, è possibile utilizzare una chiave FIDO. 
+È possibile ordinare una scheda SIM di ultima generazione presso il proprio operatore telefonico. In alternativa, è possibile utilizzare una chiave FIDO.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -28,7 +28,7 @@ Occorre far bloccare la scheda SIM dal proprio operatore telefonico. Ciò blocch
 {{<listItem>}}
 Posso utilizzare l’app Mobile ID invece di attivare il Mobile ID con la scheda SIM?
 {{<collapsibleBlock groupId="mobile_id">}}
-No. L’applicazione Mobile ID non è abilitata come secondo fattore di sicurezza forte per il CH-LOGIN. 
+No. L’applicazione Mobile ID non è abilitata come secondo fattore di sicurezza forte per il CH-LOGIN.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

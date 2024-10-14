@@ -22,7 +22,7 @@ L’ammissione e la dimissione sono indicate come prima nel campo «data di ammi
 {{<listItem>}}
 Un caso che cambia sede viene gestito in entrambe le sedi?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-No, ogni caso viene gestito solo nella sede principale, anche se viene trasferito da una sede all’altra all’interno di un ospedale (BURGESV). Se un paziente viene trasferito in un altro ospedale (BURGESV), è necessario aprire un nuovo caso. 
+No, ogni caso viene gestito solo nella sede principale, anche se viene trasferito da una sede all’altra all’interno di un ospedale (BURGESV). Se un paziente viene trasferito in un altro ospedale (BURGESV), è necessario aprire un nuovo caso.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -62,7 +62,7 @@ Sì, la data e l’ora devono essere fornite per tutti gli episodi, sia per l’
 {{</listItem>}}
 
 {{<listItem>}}
-L’indicazione del BURNR dell’ospedale che ha fornito il trattamento ambulatoriale esterno è facoltativa, giusto? 
+L’indicazione del BURNR dell’ospedale che ha fornito il trattamento ambulatoriale esterno è facoltativa, giusto?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Sì, nel caso di trattamenti ambulatoriali esterni, è possibile indicare il numero RIS della sede che li ha forniti, qualora sia noto.
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}

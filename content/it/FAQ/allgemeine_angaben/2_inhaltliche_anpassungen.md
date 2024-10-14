@@ -18,10 +18,11 @@ Quali variabili cambiano con SpiGes?
 {{<listItem>}}
 SpiGes ha un impatto importante sul processo di verifica e sul formato dei dati contenuti nella fornitura. Per quanto riguarda i dati medici (attuale MS), cambiano solo pochi punti. I più importanti sono probabilmente i seguenti :
 {{<markdown>}}
-- il trattamento principale è abolito; 
-- il complemento alla diagnosi principale è abolito; 
-- è possibile registrare un numero illimitato di diagnosi e trattamenti; 
-- il tempo di prestazione medica chirurgica viene registrato sotto procedure chirurgiche; 
+
+- il trattamento principale è abolito;
+- il complemento alla diagnosi principale è abolito;
+- è possibile registrare un numero illimitato di diagnosi e trattamenti;
+- il tempo di prestazione medica chirurgica viene registrato sotto procedure chirurgiche;
 - per le procedure chirurgiche, l’inizio del trattamento deve essere registrato con l’ora (dell’operazione nel suo complesso);  
 - la relazione tra più diagnosi (croce/asterisco, punto esclamativo) viene ora registrata con una variabile di riferimento (diagnose_zusatz) anziché con il carattere speciale.
 {{</markdown>}}
@@ -61,15 +62,16 @@ Il contenuto esatto del rapporto di verifica dipende dalle verifiche, che sono a
 Gli ospedali pilota saranno in grado di creare un primo «set di dati» già nella primavera del 2024. Altri Cantoni hanno invece richiesto l’invio di un primo file di dati XML entro settembre. Per questi invii sono richiesti dati reali provenienti da un sistema di produzione o sono sufficienti dati di prova provenienti da un sistema di test? In altre parole, La «vera» analisi dei dati inizierà solo nel 2025 o l’UST vuole analizzare anche dati reali del 2024?
 {{<collapsibleBlock groupId="contenu">}}
 {{<markdown>}}
-- Per l’invio degli ospedali pilota della primavera del 2024 si richiedono dati reali provenienti da un sistema di produzione. Questi sono analizzati solo per acquisire conoscenze sull’invio pilota. 
-- Entro agosto 2024, tutti gli ospedali (in tutti i Cantoni) devono effettuare un test dell’interfaccia per verificare che l’implementazione tecnica dell’interfaccia funzioni. A tal fine sono sufficienti anche invii parziali da sistemi di prova. 
-- Dal 1.1. 2025 tutti gli ospedali devono fornire dati reali per il 2024 provenienti da sistemi di produzione e, entro la fine di aprile devono controllarli tutti e, se necessario, aggiungere commenti. 
+
+- Per l’invio degli ospedali pilota della primavera del 2024 si richiedono dati reali provenienti da un sistema di produzione. Questi sono analizzati solo per acquisire conoscenze sull’invio pilota.
+- Entro agosto 2024, tutti gli ospedali (in tutti i Cantoni) devono effettuare un test dell’interfaccia per verificare che l’implementazione tecnica dell’interfaccia funzioni. A tal fine sono sufficienti anche invii parziali da sistemi di prova.
+- Dal 1.1. 2025 tutti gli ospedali devono fornire dati reali per il 2024 provenienti da sistemi di produzione e, entro la fine di aprile devono controllarli tutti e, se necessario, aggiungere commenti.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Valori scambiati: abbiamo notato che i valori di alcune variabili sono diversi rispetto alla statistica MS. A titolo di esempio ecco i valori della variabile «Stato vitale».       
+Valori scambiati: abbiamo notato che i valori di alcune variabili sono diversi rispetto alla statistica MS. A titolo di esempio ecco i valori della variabile «Stato vitale».
 {{<markdown>}}		
 Statistiche MS:
 0 = nato morto
@@ -77,7 +79,7 @@ Statistiche MS:
 SpiGes (esattamente l’opposto):
 0 = nato vivo
 1 = nato morto
-Altri esempi si possono trovare per le variabili «Formazione scolastica» e «Stato civile». A nostro avviso, non sembra una scelta ottimale e vorremmo quindi sapere se questa scelta è stata fatta intenzionalmente e, in caso affermativo, perché? 
+Altri esempi si possono trovare per le variabili «Formazione scolastica» e «Stato civile». A nostro avviso, non sembra una scelta ottimale e vorremmo quindi sapere se questa scelta è stata fatta intenzionalmente e, in caso affermativo, perché?
 {{</markdown>}}
 {{<collapsibleBlock groupId="contenu">}}
 La scelta è stata intenzionale. In linea con il principio «once-only», abbiamo integrato gli elenchi di codici e i metadati in un sistema dell’UST, che viene poi anche pubblicato. I nuovi elenchi di codici corrispondono ora allo standard della piattaforma di interoperabilità i14y.admin.ch, valido a livello svizzero; in precedenza si trattava di una soluzione specifica solo alla MS.
