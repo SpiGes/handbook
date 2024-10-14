@@ -76,8 +76,9 @@ Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare i
 Nel formato XML la sequenza delle variabili all’interno di una riga è determinante?
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
-- La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l’elemento caso, i sottoelementi devono sempre essere inseriti nell’ordine «Dati amministrativi», «Neonati», «Psichiatria», «UFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali». 
-- La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell’elemento «Administratives» (Dati amministrativi) si possono inserire attributi sia nella sequenza «…geschlecht="2" alter="37"…» che nella sequenza «…alter="37" geschlecht="2"…». 
+
+- La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l’elemento caso, i sottoelementi devono sempre essere inseriti nell’ordine «Dati amministrativi», «Neonati», «Psichiatria», «UFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali».
+- La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell’elemento «Administratives» (Dati amministrativi) si possono inserire attributi sia nella sequenza «…geschlecht="2" alter="37"…» che nella sequenza «…alter="37" geschlecht="2"…».
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -90,7 +91,7 @@ Sì, è possibile che il campo di una variabile venga lasciato vuoto. Alcune var
 {{</listItem>}}
 
 {{<listItem>}}
-Le variabili prive di contenuto possono essere consegnate anche con un valore ZERO (ad es., righe CUFI complete con ZERI nelle variabili in cui non è presente nulla)? 
+Le variabili prive di contenuto possono essere consegnate anche con un valore ZERO (ad es., righe CUFI complete con ZERI nelle variabili in cui non è presente nulla)?
 {{<collapsibleBlock groupId="technische_fragen">}}
 Dipende dalle variabili. Per le variabili CUFI, è possibile compilare tutte le variabili con il valore «0». Tuttavia, le variabili vuote («») o i valori nulli (»ZERO») non sono ammessi. Se si desidera controllare questo aspetto in concreto, è possibile convalidare il file XML rispetto alla definizione XSD. A tal fine esistono online appositi strumenti gratuiti. Si noti che su tali piattaforme non è consentito caricare dati reali. Tuttavia, è possibile utilizzarle per controllare esempi di file fittizi. Anche la piattaforma SpiGes appronterà una convalida del genere.
 {{</collapsibleBlock>}}
@@ -111,10 +112,10 @@ Si sa già quale sarà la procedura per quanto riguarda i dati cantonali aggiunt
 I dati cantonali aggiuntivi sono stati presi in considerazione nell’interfaccia ; vedi {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.32129189.html" newTab="true">}}la descrizione del file XML per l’importazione dei dati nella piattaforma SpiGes{{</link>}}.
 {{</listItem>}}
 {{<listItem>}}
-Sebbene i dati cantonali aggiuntivi possano essere indicati nell’XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente. 
+Sebbene i dati cantonali aggiuntivi possano essere indicati nell’XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente.
 {{</listItem>}}
 {{<listItem>}}
-I dati cantonali possono essere esportati solo dall’ospedale stesso e dal Cantone. I dati cantonali di questi utenti sono probabilmente contenuti nello stesso file XML che contiene il resto dei dati. 
+I dati cantonali possono essere esportati solo dall’ospedale stesso e dal Cantone. I dati cantonali di questi utenti sono probabilmente contenuti nello stesso file XML che contiene il resto dei dati.
 {{</listItem>}}
 {{</unorderedList>}}
 {{</collapsibleBlock>}}
@@ -138,8 +139,9 @@ N10.2 indica un numero con un totale di 10 cifre, di cui 2 dopo la virgola (e qu
 Nuove variabili medi_id e rech_id: Dalla descrizione non è chiaro se si tratti di numeri sequenziali o di ID effettivi del sistema. Se sì, quali? Per il medi_id abbiamo pensato subito all’ATC_Code, ma esiste già una variabile per questo codice.
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
-- Le due nuove variabili «medi_id» e «rech_id» sono entrambe identificatori necessari dal punto di vista tecnico per garantire un’assegnazione univoca. Non devono necessariamente iniziare con 1, ma devono essere unici per ogni caso. 
-- Il modello di file XML 1.3, disponibile sulla nostra homepage, contiene un esempio al riguardo. medi_id="1" contiene l’informazione che si tratta del primo farmaco ad alto costo secondo le direttive di SwissDRG SA per questo caso specifico. 
+
+- Le due nuove variabili «medi_id» e «rech_id» sono entrambe identificatori necessari dal punto di vista tecnico per garantire un’assegnazione univoca. Non devono necessariamente iniziare con 1, ma devono essere unici per ogni caso.
+- Il modello di file XML 1.3, disponibile sulla nostra homepage, contiene un esempio al riguardo. medi_id="1" contiene l’informazione che si tratta del primo farmaco ad alto costo secondo le direttive di SwissDRG SA per questo caso specifico.
 {{</markdown>}}
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
