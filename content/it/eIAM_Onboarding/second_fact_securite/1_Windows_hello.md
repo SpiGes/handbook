@@ -23,12 +23,10 @@ Per saperne di più su Windows Hello, cliccare {{<link url="https://support.micr
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_it.png" class="edge max-w-90">}} 
+{{<insertImage image="modif_parametres_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
-  
 
 <!-- 2eme paire de colonnes -->
 
@@ -41,12 +39,10 @@ Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare s
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}} 
+{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}}
 </div>
 
 </div>
-
-  
 
 <!-- 3eme paire de colonnes -->
 
@@ -64,13 +60,10 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}} 
+{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
-
-  
-
 
 <!-- 4eme paire de colonnes -->
 
@@ -88,8 +81,6 @@ Selezionare l’opzione «Passkey (FIDO)» e cliccare su «Avanti».
 
 </div>
 
-  
-
 <!-- 6eme paire de colonnes -->
 
 <div class="two_column">
@@ -106,8 +97,6 @@ Inserire la propria password e cliccare su «Avanti».
 
 </div>
 
-  
-
 <!-- 7eme paire de colonnes -->
 
 <div class="two_column">
@@ -119,12 +108,10 @@ Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti�
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" class="edge max-w-90">}} 
+{{<insertImage image="questions_secu.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
- 
 
 <!-- 8eme paire de colonnes -->
 
@@ -142,9 +129,6 @@ Assegnare un nome alla propria chiave di sicurezza FIDO e cliccare su «Avanti»
 
 </div>
 
- 
-
-
 <!-- 9eme paire de colonnes -->
 
 <div class="two_column">
@@ -161,8 +145,6 @@ Cliccare poi su «Start».
 
 </div>
 
- 
-
 Sullo schermo apparirà quindi una finestra. Selezionare l’opzione «Windows Hello» e poi una delle opzioni di identificazione (impronta digitale, riconoscimento facciale, password o codice PIN). Seguire poi passo per passo le istruzioni fornite dal proprio computer.
 
 Una volta completati tutti i passaggi richiesti, la chiave FIDO apparirà come secondo fattore di sicurezza e sarà quindi possibile eseguire l’identificazione video per quest’ultima. Per farlo, procedere con l’identificazione video.
@@ -172,4 +154,3 @@ Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN 
 
 Les explications concernant l'identification vidéo pour la clé FIDO ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=fr). 
 -->
-

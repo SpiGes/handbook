@@ -35,7 +35,7 @@ keywords: []
 
 <div class="left_col">
 <!-- First column content goes here -->
-La connessione al portale eIAM è così stata completata. Per procedere alla gestione degli utenti, cliccare sulla scheda «Gestione degli utenti» e poi su «Gestione delegata». 
+La connessione al portale eIAM è così stata completata. Per procedere alla gestione degli utenti, cliccare sulla scheda «Gestione degli utenti» e poi su «Gestione delegata».
 </div>
 
 <div class="right_col">

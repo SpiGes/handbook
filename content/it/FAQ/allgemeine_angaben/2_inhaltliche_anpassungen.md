@@ -87,7 +87,7 @@ La scelta è stata intenzionale. In linea con il principio «once-only», abbiam
 {{</listItem>}}
 
 {{<listItem>}}
-Valori calcolati: Nell’elenco delle variabili alcune righe sono scritte in grigio con l’indicazione «calcolato» (ad es. la variabile «uid»). Significa che li dobbiamo inviare vuoti nell’XML e che sarà l’UST ad occuparsi di calcolarli e inserirli? Oppure significa che non dobbiamo proprio inviare questa variabile bensì semplicemente ignorarla? 
+Valori calcolati: Nell’elenco delle variabili alcune righe sono scritte in grigio con l’indicazione «calcolato» (ad es. la variabile «uid»). Significa che li dobbiamo inviare vuoti nell’XML e che sarà l’UST ad occuparsi di calcolarli e inserirli? Oppure significa che non dobbiamo proprio inviare questa variabile bensì semplicemente ignorarla?
 {{<collapsibleBlock groupId="contenu">}}
 Come si può vedere dallo schema XML, queste variabili calcolate non sono incluse. Possono quindi essere ignorate.
 {{</collapsibleBlock>}}

@@ -53,6 +53,6 @@ type: docs
 
 &nbsp;
 
-1. Qui è possibile importare i dati dell’impresa o della sede ospedaliera selezionata. Ulteriori dettagli sono disponibili alla pagina «1. Importazione dati». 
+1. Qui è possibile importare i dati dell’impresa o della sede ospedaliera selezionata. Ulteriori dettagli sono disponibili alla pagina «1. Importazione dati».
 
 2. Nella parte bassa della pagina figura una sezione dove è possibile comunicare lasciando commenti. Per creare un nuovo argomento di discussione, fare clic sulla vignetta a destra del titolo «Comunicazioni relative alla rilevazione» e poi inserire nuovi messaggi sul lato destro della chat.

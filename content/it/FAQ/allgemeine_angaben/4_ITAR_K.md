@@ -46,6 +46,7 @@ Non riusciamo a trovare una variabile SpiGes che permetta di trasferire i ricavi
 ITAR_K® può essere compilato sia a livello di impresa che di sede. Cosa è richiesto di fare per la SpiGes? Sono i Cantoni a decidere?
 {{<collapsibleBlock groupId="ITARK">}}
 {{<markdown>}}
+
 - ITAR_K® viene sempre compilato al livello BURGESV ; questo livello deve corrispondere alla rilevazione della SO. Il Cantone fornisce all’UST queste informazioni nell’ambito della rilevazione dell’universo statistico. In questo senso, il Cantone può influire sulla decisione. Deve tuttavia accordarsi con l’ospedale.
 -	ITAR_K® è lo strumento di base per le trattative tra ospedali e assicurazioni. Il fatto che il Cantone abbia voce in capitolo sulla granularità dipende se si tratta di un ospedale figurante nell’elenco del Cantone, di un ospedale convenzionato oppure di un ospedale autonomo.
 {{</markdown>}}

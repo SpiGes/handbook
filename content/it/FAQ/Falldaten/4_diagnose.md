@@ -22,16 +22,17 @@ L’indicazione «POA» (present on admission) può essere utilizzata, tra l’a
 Variabile «diagnose_zusatz»: quali informazioni devono essere inserite qui per i codici con asterisco e i codici con punto esclamativo?
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
--	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare. 
-- I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l’ICD-10-GM. 
 
-**Esempio 4** nel Manuale di codifica (pag. 38)       
-DP E10.73† Diabete mellito, tipo 1, con complicanze multipl, definito come scompensato      
-DS I79.2* Angiopatia periferica in malattie classificate altrove      
-DS H36.0* Retinopatia diabetica       
-DS N08.3* Disturbi glomerulari in diabete mellito       
-…va indicato in **SpiGe** come segue :   
-{{</markdown>}}   
+-	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare.
+- I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l’ICD-10-GM.
+
+**Esempio 4** nel Manuale di codifica (pag. 38)
+DP E10.73† Diabete mellito, tipo 1, con complicanze multipl, definito come scompensato
+DS I79.2* Angiopatia periferica in malattie classificate altrove
+DS H36.0* Retinopatia diabetica
+DS N08.3* Disturbi glomerulari in diabete mellito
+…va indicato in **SpiGe** come segue :
+{{</markdown>}}
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>
@@ -61,15 +62,15 @@ DS N08.3* Disturbi glomerulari in diabete mellito
 </table>
 
 {{<markdown>}}
-**Esempio** nel Manuale di codifica (pag. 40)      
-DP S37.03 Rottura completa del parenchima renale      
-L 2       
-DS V99! Incidente da trasporto non specificato      
-DS S36.03 Lacerazione della milza con interessamento del parenchima       
-DS S36.49 Traumatismo di altre e multiple parti dell’intestino tenue      
-DS S31.83! Ferita aperta (qualsiasi parte dell’addome, dei lombi e della pelvi) in collegamento con traumatismo intraaddominale       
-…va indicato in **SpiGes** come segue:     
-{{</markdown>}} 
+**Esempio** nel Manuale di codifica (pag. 40)
+DP S37.03 Rottura completa del parenchima renale
+L 2
+DS V99! Incidente da trasporto non specificato
+DS S36.03 Lacerazione della milza con interessamento del parenchima
+DS S36.49 Traumatismo di altre e multiple parti dell’intestino tenue
+DS S31.83! Ferita aperta (qualsiasi parte dell’addome, dei lombi e della pelvi) in collegamento con traumatismo intraaddominale
+…va indicato in **SpiGes** come segue:
+{{</markdown>}}
 <table class="w-100">
   <tr>
     <th style="width:35%"> diagnose_kode </div></th>

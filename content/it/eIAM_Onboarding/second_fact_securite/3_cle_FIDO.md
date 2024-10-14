@@ -10,7 +10,7 @@ type: docs
 Nel caso in cui non sia possibile utilizzare Windows Hello o Mobile ID come secondo fattore di sicurezza forte, è possibile utilizzare una chiave di sicurezza FIDO su supporto fisico.  
 
 {{<alert color="warning">}}
-Se possibile, consigliamo di dare la priorità in primo luogo a Windows Hello e in secondo luogo a Mobile ID. L’acquisto di una chiave FIDO è a carico dell’utente. 
+Se possibile, consigliamo di dare la priorità in primo luogo a Windows Hello e in secondo luogo a Mobile ID. L’acquisto di una chiave FIDO è a carico dell’utente.
 {{</alert>}}
 
 Le chiavi di sicurezza FIDO (FIDO Passkeys) sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico. Devono essere acquistati dagli stessi utenti finali, a proprie spese. Ecco un elenco delle {{<link url="https://www.agov.admin.ch/it/chiavi-di-sicurezza" newTab="true">}}chiavi di sicurezza{{</link>}} supportate.
@@ -24,7 +24,7 @@ Per il CH-LOGIN, eIAM supporta i seguenti tipi di chiave di sicurezza FIDO.
 – Security Key by Yubico with NFC
 – Feitian BioPass FIDO2 Authenticator-->
 
-##  Salvataggio di una chiave di sicurezza FIDO sul proprio CH-LOGIN
+## Salvataggio di una chiave di sicurezza FIDO sul proprio CH-LOGIN
 
 <!-- 1ere paire de colonnes -->
 
@@ -39,12 +39,10 @@ Per il CH-LOGIN, eIAM supporta i seguenti tipi di chiave di sicurezza FIDO.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_it.png" class="edge max-w-90">}} 
+{{<insertImage image="modif_parametres_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
-  
 
 <!-- 2eme paire de colonnes -->
 
@@ -57,12 +55,10 @@ Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare s
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}} 
+{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}}
 </div>
 
 </div>
-
-  
 
 <!-- 3eme paire de colonnes -->
 
@@ -79,13 +75,10 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}} 
+{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
-
-  
-
 
 <!-- 4eme paire de colonnes -->
 
@@ -103,8 +96,6 @@ Selezionare l’opzione «Passkey (FIDO)» e cliccare su «Avanti».
 
 </div>
 
-  
-
 <!-- 6eme paire de colonnes -->
 
 <div class="two_column">
@@ -121,8 +112,6 @@ Inserire la propria password e cliccare su «Avanti».
 
 </div>
 
-  
-
 <!-- 7eme paire de colonnes -->
 
 <div class="two_column">
@@ -134,12 +123,10 @@ Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti�
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" class="edge max-w-90">}} 
+{{<insertImage image="questions_secu.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
- 
 
 <!-- 8eme paire de colonnes -->
 
@@ -157,15 +144,13 @@ Assegnare un nome alla propria chiave di sicurezza FIDO e cliccare su «Avanti»
 
 </div>
 
- 
-
 <!-- 9eme paire de colonnes -->
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-Inserire la chiave FIDO nel computer e fare clic su «Start». 
+Inserire la chiave FIDO nel computer e fare clic su «Start».
 </div>
 
 <div class="right_col">
@@ -175,11 +160,9 @@ Inserire la chiave FIDO nel computer e fare clic su «Start».
 
 </div>
 
- 
- 
-Sul computer si aprirà una finestra contenente diverse opzioni. Scegliere «Chiave di sicurezza». 
+Sul computer si aprirà una finestra contenente diverse opzioni. Scegliere «Chiave di sicurezza».
 
-Nel caso si stia utilizzando una chiave di sicurezza FIDO per la prima volta, è necessario configurarla. Per farlo, cliccare su «OK» e scegliere un codice PIN per la propria chiave di sicurezza FIDO. 
+Nel caso si stia utilizzando una chiave di sicurezza FIDO per la prima volta, è necessario configurarla. Per farlo, cliccare su «OK» e scegliere un codice PIN per la propria chiave di sicurezza FIDO.
 
 Infine, premere il pulsante presente sulla chiave FIDO (a seconda del modello di chiave, potrebbe essere sufficiente solo toccarla).
 

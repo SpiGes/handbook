@@ -24,12 +24,10 @@ Effettuare l’accesso con il proprio CH-LOGIN.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mail_onboarding.png" class="edge max-w-90">}} 
+{{<insertImage image="mail_onboarding.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
- 
 
 <!-- Deuxième paire de colonnes -->
 
@@ -37,7 +35,7 @@ Effettuare l’accesso con il proprio CH-LOGIN.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Inserire il codice di onboarding precedentemente copiato e inviare il codice di registrazione cliccando sull’apposito pulsante. 
+Inserire il codice di onboarding precedentemente copiato e inviare il codice di registrazione cliccando sull’apposito pulsante.
 </div>
 
 <div class="right_col">
@@ -47,6 +45,4 @@ Inserire il codice di onboarding precedentemente copiato e inviare il codice di 
 
 </div>
 
-  
-
-L’accesso alla piattaforma SpiGes è ora stato attivato. Per effettuare il login, andare sul sito www.spiges.admin.ch.
+L’accesso alla piattaforma SpiGes è ora stato attivato. Per effettuare il login, andare sul sito <www.spiges.admin.ch>.

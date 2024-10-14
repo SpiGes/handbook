@@ -40,4 +40,3 @@ Nella pagina che si apre è quindi possibile trascinare il file di dati in forma
 
 Una volta completata l’importazione, sullo schermo apparirà un riepilogo dei dati importati.
 Per visualizzare lo stato dei dati importati e per controllarli occorre ritornare sulla pagina della sede o dell’impresa ospedaliera.
-

@@ -108,7 +108,7 @@ Per la registrazione, selezionare il codice appropriato per le relative prestazi
 {{<listItem>}}
 Le unità di imputazione indipendenti dal caso possono essere collegate a un ospedale (burnr_gesv) invece che a una sede?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-No, non è possibile. 
+No, non è possibile.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

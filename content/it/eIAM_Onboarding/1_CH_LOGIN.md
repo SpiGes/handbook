@@ -23,8 +23,6 @@ Andare su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyA
 
 </div>
 
-
-
 <!-- Deuxième paire de colonnes -->
 
 <div class="two_column">
@@ -34,7 +32,6 @@ Andare su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyA
 Se si dispone già di un CH-LOGIN è possibile procedere con il login, altrimenti cliccare su «Creare un account».
 </div>
 
-
 <div class="right_col">
 <!-- Second column content goes here -->
 {{<insertImage image="creer_ch_login_it.png" description="Choix connexion" class="edge max-w-90">}}
@@ -42,7 +39,6 @@ Se si dispone già di un CH-LOGIN è possibile procedere con il login, altriment
 
 </div>
 
-  
 <!-- 3eme paire de colonnes -->
 
 <div class="two_column">
@@ -65,7 +61,6 @@ Cliccare quindi su «Accetto le condizioni di utilizzo» e su «Avanti».
 
 </div>
 
-  
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">
@@ -85,7 +80,5 @@ Inserire il codice e cliccare su «Avanti».
 </div>
 
 </div>
-
- 
 
 L’account è stato creato. È ora necessario incrementare il livello di sicurezza del proprio account con l’autenticazione a due fattori.

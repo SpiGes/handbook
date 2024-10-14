@@ -28,6 +28,7 @@ Nel gennaio 2023 abbiamo organizzato un evento informativo per il produttore KIS
 {{<listItem>}}
 In base all’elenco delle variabili vi sono le seguenti tabelle:
 {{<markdown>}}
+
 |||
 |-----------|-----------|
 | 1 | Amministrativo |
@@ -68,7 +69,7 @@ La fornitura separata di diversi tipi di elementi XML è consentita. Ciò signif
 {{<listItem>}}
 Il file di esportazione SpiGes ha la stessa struttura del file che gli ospedali importano in SpiGes?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare il file XML che gli ospedali importano, dall’altro sarà possibile esportare in un formato semplice (diversi file CSV). 
+Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare il file XML che gli ospedali importano, dall’altro sarà possibile esportare in un formato semplice (diversi file CSV).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

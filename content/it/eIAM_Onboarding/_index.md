@@ -11,10 +11,10 @@ Nel presente capitolo sono illustrati tutti i passaggi necessari per creare un p
 
 Per accedere a SpiGes occorre creare un CH-LOGIN con un secondo fattore di autenticazione sicuro e un’identità verificata. Per farlo sono necessari i seguenti passaggi:
 
-1.	 creare un CH-LOGIN (con l’indirizzo e-mail aziendale);
-2.	 impostare un secondo fattore sicuro in aggiunta al CH-LOGIN;
-3.	 verificare la propria identità sul secondo fattore scelto;
-4.	 collegare (onboarding) il CH-LOGIN appena creato alla piattaforma SpiGes.
+1. creare un CH-LOGIN (con l’indirizzo e-mail aziendale);
+2. impostare un secondo fattore sicuro in aggiunta al CH-LOGIN;
+3. verificare la propria identità sul secondo fattore scelto;
+4. collegare (onboarding) il CH-LOGIN appena creato alla piattaforma SpiGes.
 
 Ogni passaggio viene illustrato singolarmente nelle pagine successive. Se si dispone già di un account CH-LOGIN, non è necessario crearne uno nuovo e il primo passaggio può quindi essere saltato. È tuttavia importante assicurarsi che il proprio CH-LOGIN funzioni correttamente.
 
@@ -33,9 +33,9 @@ Poiché a ogni accesso l’identità dell’utente deve essere verificata, gli a
 
 I vari utenti della piattaforma SpiGes sono organizzati come segue:
 
--  Cantone
-    -  Imprese <!--Aziende-->
-        -  Sedi
+- Cantone
+    - Imprese <!--Aziende-->
+        - Sedi
 
 Un Cantone comprende una o più imprese, che a loro volta comprendono una o più sedi.
 
@@ -65,6 +65,3 @@ In questo caso si può notare che il Cantone amministrativo e quello geografico 
 
 {{</layouts/row>}}
 {{</layouts/grid>}}
-
-
- 
