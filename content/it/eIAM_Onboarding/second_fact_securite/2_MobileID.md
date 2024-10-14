@@ -1,7 +1,7 @@
 ---
 title: Mobile ID
 slug: mobile_id
-description: "Su questa pagina sono disponibili tutte le informazioni sull’utilizzo di Mobile ID come secondo fattore di sicurezza."
+description: "Su questa pagina sono disponibili tutte le informazioni sull'utilizzo di Mobile ID come secondo fattore di sicurezza."
 keywords: []
 weight: 20
 type: docs
@@ -12,7 +12,7 @@ Se possibile, consigliamo di utilizzare Windows Hello.
 {{</alert>}}
 
 {{<alert color="warning">}}
-Mobile ID è un mezzo di autenticazione diverso dall’SMS (mTAN).
+Mobile ID è un mezzo di autenticazione diverso dall'SMS (mTAN).
 {{</alert>}}
 
 Nel caso in cui non sia possibile utilizzare Windows Hello come secondo fattore di sicurezza, è possibile utilizzare Mobile ID. Per poterlo fare è tuttavia necessaria una scheda SIM compatibile con Mobile ID. Qualora la propria SIM non fosse compatibile con Mobile ID, deve essere sostituita. Maggiori informazioni su come sostituirla sono disponibili {{<link url="https://www.mobileid.ch/it/comessa-sim" newTab="true">}}qui{{</link>}}.
@@ -50,7 +50,7 @@ Andare sul sito web di {{<link url="https://www.mobileid.ch/it" newTab="true">}}
 {{<markdown>}}
 Inserire il proprio numero di cellulare.
 
-Al numero indicato sarà quindi inviato un SMS con un codice che va immesso nell’interfaccia web.
+Al numero indicato sarà quindi inviato un SMS con un codice che va immesso nell'interfaccia web.
 {{</markdown>}}
 </div>
 
@@ -61,12 +61,12 @@ Al numero indicato sarà quindi inviato un SMS con un codice che va immesso nell
 
 </div>
 
-Una volta inserito il codice correttamente l’utente si troverà sulla propria dashboard Mobile ID.
+Una volta inserito il codice correttamente l'utente si troverà sulla propria dashboard Mobile ID.
 
-Il passaggio successivo consiste nell’attivazione di Mobile ID.
+Il passaggio successivo consiste nell'attivazione di Mobile ID.
 
 {{<alert color="warning">}}
-Per poter utilizzare la piattaforma SpiGes, l’attivazione deve avvenire tramite la scheda SIM (l’attivazione tramite l’applicazione Mobile ID non è sufficiente). A tal fine, è necessario disporre di una scheda SIM compatibile con Mobile ID.
+Per poter utilizzare la piattaforma SpiGes, l'attivazione deve avvenire tramite la scheda SIM (l'attivazione tramite l'applicazione Mobile ID non è sufficiente). A tal fine, è necessario disporre di una scheda SIM compatibile con Mobile ID.
 {{</alert>}}
 
 Nella dashboard di Mobile ID, sotto «SIM Status» è indicato se la scheda SIM è compatibile o meno. Nel caso in cui non sia compatibile, occorre ordinare una nuova scheda SIM presso il proprio gestore telefonico.
@@ -146,7 +146,7 @@ Spuntare la casella «Accetto i termini e le condizioni» e cliccare su «Avanti
 
 <div class="left_col">
 <!-- First column content goes here -->
-Chi fosse già stato in possesso di un Mobile ID in passato, ha ora la possibilità di ripristinarlo. Qualora l’utente conosca il codice di ripristino, selezionare l’opzione «Conosco il mio codice di ripristino» e procedere secondo le indicazioni. In caso contrario, selezionare l’opzione «Vorrei continuare senza un’opzione di sblocco». In caso l’utente non avesse mai attivato un Mobile ID prima d’ora o qualora non conoscesse il codice di ripristino, selezionare l’opzione «Vorrei continuare senza un’opzione di sblocco». Cliccare su «Avanti» e confermare la propria scelta cliccando nuovamente su «Avanti».
+Chi fosse già stato in possesso di un Mobile ID in passato, ha ora la possibilità di ripristinarlo. Qualora l'utente conosca il codice di ripristino, selezionare l'opzione «Conosco il mio codice di ripristino» e procedere secondo le indicazioni. In caso contrario, selezionare l'opzione «Vorrei continuare senza un'opzione di sblocco». In caso l'utente non avesse mai attivato un Mobile ID prima d'ora o qualora non conoscesse il codice di ripristino, selezionare l'opzione «Vorrei continuare senza un'opzione di sblocco». Cliccare su «Avanti» e confermare la propria scelta cliccando nuovamente su «Avanti».
 </div>
 
 <div class="right_col">
@@ -161,7 +161,7 @@ Sul cellulare si aprirà quindi una finestra che chiederà di inserire un PIN di
 La procedura è ora terminata.
 
 {{<alert color="warning">}}
-Assicurarsi di conservare il codice di ripristino in un luogo sicuro. Poiché la verifica dell’identità di ogni utente si basa sul suo Mobile ID, è importante che sia possibile ripristinarlo se necessario. Questa operazione è necessaria se si dimentica il codice PIN o se la scheda SIM deve essere sostituita (ad esempio, in caso di perdita del cellulare).
+Assicurarsi di conservare il codice di ripristino in un luogo sicuro. Poiché la verifica dell'identità di ogni utente si basa sul suo Mobile ID, è importante che sia possibile ripristinarlo se necessario. Questa operazione è necessaria se si dimentica il codice PIN o se la scheda SIM deve essere sostituita (ad esempio, in caso di perdita del cellulare).
 {{</alert>}}
 
 ## Aggiunta di ID Mobile come secondo fattore
@@ -175,7 +175,7 @@ Qui di seguito viene illustrato come impostare ID Mobile come secondo fattore f
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Effettuare l’accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
+<p> Effettuare l'accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
 <p> Cliccare in basso su «Modificare le impostazioni del secondo fattore». Inserire la propria password e cliccare su «Avanti». </p>
 </div>
@@ -229,7 +229,7 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 <div class="left_col">
 <!-- First column content goes here -->
-Selezionare l’opzione «Mobile ID» e cliccare su «Avanti».
+Selezionare l'opzione «Mobile ID» e cliccare su «Avanti».
 </div>
 
 <div class="right_col">

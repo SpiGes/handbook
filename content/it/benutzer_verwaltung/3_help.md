@@ -9,9 +9,9 @@ keywords: []
 
 ## Nuovo invio di un codice di registrazione (onboarding)
 
-Potrebbe essere necessario inviare nuovamente il codice di registrazione all’utente. Ad esempio, in caso sia stato commesso un errore nell’inserimento dell’indirizzo e-mail o se è passato più di un mese dall’invio del codice. In questo caso occorre procedere come segue:
+Potrebbe essere necessario inviare nuovamente il codice di registrazione all'utente. Ad esempio, in caso sia stato commesso un errore nell'inserimento dell'indirizzo e-mail o se è passato più di un mese dall'invio del codice. In questo caso occorre procedere come segue:
 
-Effettuare l’accesso al {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}portale eIAM di delegazione{{</link>}}, andare nella scheda «Gestione degli utenti» e selezionare il profilo utente desiderato.
+Effettuare l'accesso al {{<link url="https://www.portal.eiam.admin.ch/portal/adminservice/app/home" newTab="true">}}portale eIAM di delegazione{{</link>}}, andare nella scheda «Gestione degli utenti» e selezionare il profilo utente desiderato.
 
 <!-- 1eme paire de colonnes -->
 
@@ -20,7 +20,7 @@ Effettuare l’accesso al {{<link url="https://www.portal.eiam.admin.ch/portal/a
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Qui se necessario è possibile modificare le autorizzazioni dell’utente selezionato.
+Qui se necessario è possibile modificare le autorizzazioni dell'utente selezionato.
 
 Cliccare su «Avanti».
 {{</markdown>}}
@@ -40,7 +40,7 @@ Cliccare su «Avanti».
 
 <div class="left_col">
 <!-- First column content goes here -->
-Nella scheda della panoramica, inserire una motivazione dell’autorizzazione per garantire la tracciabilità delle operazioni e poi cliccare su «Avvia il processo di registrazione manualmente ».
+Nella scheda della panoramica, inserire una motivazione dell'autorizzazione per garantire la tracciabilità delle operazioni e poi cliccare su «Avvia il processo di registrazione manualmente ».
 </div>
 
 <div class="right_col">
@@ -57,7 +57,7 @@ Nella scheda della panoramica, inserire una motivazione dell’autorizzazione pe
 
 <div class="left_col">
 <!-- First column content goes here -->
-È ora possibile inviare all’utente un’e-mail di onboarding cliccando su «Invia il codice di registrazione via e-mail».
+È ora possibile inviare all'utente un'e-mail di onboarding cliccando su «Invia il codice di registrazione via e-mail».
 </div>
 
 <div class="right_col">
@@ -78,7 +78,7 @@ Nella scheda della panoramica, inserire una motivazione dell’autorizzazione pe
 È inoltre possibile disattivare un utente tramite il menu di selezione degli utenti o inviargli un nuovo codice di registrazione (onboarding).
 
 1. Cliccare sulla freccia accanto alla matita per aprire le opzioni associate al profilo selezionato.
-2. È possibile inviare all’utente un promemoria per la registrazione (onboarding).
+2. È possibile inviare all'utente un promemoria per la registrazione (onboarding).
 3. Oppure inviare un nuovo codice di registrazione (onboarding) via e-mail.
 {{</markdown>}}
 

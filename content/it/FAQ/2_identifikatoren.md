@@ -22,7 +22,7 @@ La questione è ancora aperta. Nel set di dati è riportato: «Nota Bene: sono a
 {{<listItem>}}
 Per la rilevazione dei dati infatti bisognerebbe utilizzare il NAVS. Il NAVS, attraverso i partner tariffari, sarà visibile anche alle casse malati?
 {{<collapsibleBlock groupId="identifikatoren">}}
-Al momento della trasmissione dei dati, gli identificatori e i dati vengono inviati separatamente. Il canale dei dati è criptato. Per il controllo dei NAVS viene utilizzato il «sistema di validazione UST NAVS». Una volta crittografato, il NAVS viene salvato nella banca dati sicura degli identificatori. Durante l’elaborazione dei dati sulla piattaforma, quindi, il NAVS è pseudonimizzato e non è salvato insieme al set di dati delle prestazioni. Il NAVS può essere trasmesso agli utenti dei dati solo in forma criptata. Dal momento che questi utenti dei dati non ne conoscono la chiave, per loro il NAVS è anonimizzato. Non è possibile risalire al numero originale.
+Al momento della trasmissione dei dati, gli identificatori e i dati vengono inviati separatamente. Il canale dei dati è criptato. Per il controllo dei NAVS viene utilizzato il «sistema di validazione UST NAVS». Una volta crittografato, il NAVS viene salvato nella banca dati sicura degli identificatori. Durante l'elaborazione dei dati sulla piattaforma, quindi, il NAVS è pseudonimizzato e non è salvato insieme al set di dati delle prestazioni. Il NAVS può essere trasmesso agli utenti dei dati solo in forma criptata. Dal momento che questi utenti dei dati non ne conoscono la chiave, per loro il NAVS è anonimizzato. Non è possibile risalire al numero originale.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

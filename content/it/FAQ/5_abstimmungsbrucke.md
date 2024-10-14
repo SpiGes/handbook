@@ -19,16 +19,16 @@ SpiGes utilizza il ponte di sintonizzazione della CDS / di REKOLE®.
 {{</listItem>}}
 
 {{<listItem>}}
-All’interno dell’UST, dove sono integrate le motivazioni delle delimitazioni? Come funziona?
+All'interno dell'UST, dove sono integrate le motivazioni delle delimitazioni? Come funziona?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-Le motivazioni vengono registrate come verifica in SpiGes. In altre parole, se un importo secondo CoFi non corrisponde a quello secondo COAZ, occorre motivarne la differenza. Tali motivazioni vengono poi utilizzate anche altrove, ad esempio per il rapporto di verifica e per l’ITAR_K® o anche per il ponte di sintonizzazione della CDS.
+Le motivazioni vengono registrate come verifica in SpiGes. In altre parole, se un importo secondo CoFi non corrisponde a quello secondo COAZ, occorre motivarne la differenza. Tali motivazioni vengono poi utilizzate anche altrove, ad esempio per il rapporto di verifica e per l'ITAR_K® o anche per il ponte di sintonizzazione della CDS.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Nel ponte di sintonizzazione, dove vengono considerati i costi dei pazienti ospedalizzati a cavallo di due anni?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
-Nella contabilità per unità finali d’imputazione di SpiGes è possibile calcolare i costi dei pazienti dimessi nel corso dell’anno (casi A). Questi pazienti possono essere stati ammessi all’ospedale già nel corso degli anni precedenti e aver generato dei costi. Nella contabilità finanziaria gli oneri sono registrati per anno (calcolo temporale). La differenza risultante viene corretta nel ponte di sintonizzazione di SpiGes.
+Nella contabilità per unità finali d'imputazione di SpiGes è possibile calcolare i costi dei pazienti dimessi nel corso dell'anno (casi A). Questi pazienti possono essere stati ammessi all'ospedale già nel corso degli anni precedenti e aver generato dei costi. Nella contabilità finanziaria gli oneri sono registrati per anno (calcolo temporale). La differenza risultante viene corretta nel ponte di sintonizzazione di SpiGes.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -74,14 +74,14 @@ Per il 2024 (dati 2023), SwissDRG SA ha richiesto i dettagli dei costi di utiliz
 {{</listItem>}}
 
 {{<listItem>}}
-Il conto 441 non è incluso nel calcolo dei costi di utilizzo delle immobilizzazioni né dall’OCPre né da REKOLE®. Siete in grado di confermarlo?
+Il conto 441 non è incluso nel calcolo dei costi di utilizzo delle immobilizzazioni né dall'OCPre né da REKOLE®. Siete in grado di confermarlo?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 {{<markdown>}}
 I costi di utilizzo delle immobilizzazioni (secondo REKOLE® e OCPre) corrispondono ai seguenti tipi di costi:
 
 - 442 Ammortamenti
 - 444 Altri canoni di locazione (compreso il leasing operativo)
-- 448 Interessi calcolatori sull’attivo fisso
+- 448 Interessi calcolatori sull'attivo fisso
 Per ulteriori informazioni, consultare il manuale REKOLE® (capitolo 6.5.3).
 {{</markdown>}}
 {{</collapsibleBlock>}}

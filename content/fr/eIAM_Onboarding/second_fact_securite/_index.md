@@ -21,7 +21,7 @@ Pour l'utilisation de SpiGes, il est nécessaire de configurer un second facteur
 {{</markdown>}}
 {{</alert>}}
 
-eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d’entre eux sont considérés comme forts (contrairement à la statistique des hôpitaux (KS), vous avez besoin d'un second facteur de sécurité fort pour l'utilisation de SpiGes):
+eIAM propose plusieurs seconds facteurs de sécurité mais seuls deux d'entre eux sont considérés comme forts (contrairement à la statistique des hôpitaux (KS), vous avez besoin d'un second facteur de sécurité fort pour l'utilisation de SpiGes):
 
 1. Le Passkey FIDO
     - Windows Hello
@@ -34,11 +34,11 @@ Il ne faut **pas** vérifier un autre second facteur que ceux proposés ci-dessu
 {{</markdown>}}
 {{</alert>}}
 
-Idéalement, privilégiez l’utilisation de Windows Hello sur l’ordinateur professionnel.          
+Idéalement, privilégiez l'utilisation de Windows Hello sur l'ordinateur professionnel.
 Si cela est impossible, utilisez soit le MobileID, soit une clé de sécurité physique.
 
 **Tout accès à la plateforme SpiGes doit se faire depuis un ordinateur professionnel.**
 
-Les utilisateurs des cantons **ayant déjà un Vasco Digipass vérifié** (pour SOMED/Spitex) peuvent, pour l’instant, l’utiliser comme second facteur pour SpiGes. 
+Les utilisateurs des cantons **ayant déjà un Vasco Digipass vérifié** (pour SOMED/Spitex) peuvent, pour l'instant, l'utiliser comme second facteur pour SpiGes.
 
-Les personnes qui **n’ont pas de Vasco Digipass** doivent utiliser les moyens que nous présentons (Passkey FIDO ou MobileID).
+Les personnes qui **n'ont pas de Vasco Digipass** doivent utiliser les moyens que nous présentons (Passkey FIDO ou MobileID).

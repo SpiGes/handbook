@@ -7,7 +7,7 @@ weight: 10
 type: docs
 ---
 
-Le CH-LOGIN est une procédure de login mise à disposition par le service eIAM de l'administration fédérale. Le compte CH-LOGIN peut être utilisé pour les applications de l'administration fédérale. 
+Le CH-LOGIN est une procédure de login mise à disposition par le service eIAM de l'administration fédérale. Le compte CH-LOGIN peut être utilisé pour les applications de l'administration fédérale.
 
 <div class="two_column">
 
@@ -41,7 +41,7 @@ Si vous possédez déjà un CH-LOGIN, vous pouvez vous connecter, sinon cliquez 
 
 </div>
 
-&nbsp; 
+&nbsp;
 <!-- 3eme paire de colonnes -->
 
 <div class="two_column">
@@ -64,7 +64,7 @@ Cochez ensuite "j'accepte les conditions d'utilisation" et appuyez sur "Continue
 
 </div>
 
-&nbsp; 
+&nbsp;
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">
@@ -87,4 +87,4 @@ Saisissez le code de confirmation et appuyez sur "Continuer".
 
 &nbsp;
 
-Vous avez terminé. Il faut maintenant renforcer la sécurité de votre compte avec l’authentification à deux facteurs. 
+Vous avez terminé. Il faut maintenant renforcer la sécurité de votre compte avec l'authentification à deux facteurs.

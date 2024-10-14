@@ -28,7 +28,7 @@ L'identification vidéo est-elle obligatoire pour l'utilisation de la plateforme
 {{<markdown>}}
 
 - Oui. Sans l'identification vidéo, vous n'atteignez pas le niveau QoA 50 (Quality of Authentication) requis pour accéder à la plateforme d'enquête SpiGes. Pour atteindre ce niveau de qualité d'authentification, l'utilisateur doit disposer d'une identité électronique vérifiée et pas seulement d'une identité auto-enregistrée.
-- Il est important de faire l’identification vidéo sur le deuxième facteur fort (cf. question précédente). Une identification vidéo faite sur mTAN ou App authenticator ne permet pas d’accéder à SpiGes.
+- Il est important de faire l'identification vidéo sur le deuxième facteur fort (cf. question précédente). Une identification vidéo faite sur mTAN ou App authenticator ne permet pas d'accéder à SpiGes.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

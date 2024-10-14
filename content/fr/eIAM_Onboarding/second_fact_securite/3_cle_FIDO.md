@@ -32,7 +32,7 @@ eIAM supporte les types de clé FIDO suivants pour le CH-LOGIN:
 <!-- First column content goes here -->
 <p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
-<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
+<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l'authentification à deux facteurs». </p>
 </div>
 
 <div class="right_col">
@@ -42,7 +42,7 @@ eIAM supporte les types de clé FIDO suivants pour le CH-LOGIN:
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 2eme paire de colonnes -->
 
@@ -60,7 +60,7 @@ Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez 
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -69,7 +69,7 @@ Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez 
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
+De retour dans l'onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
 
 Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer».
 {{</markdown>}}
@@ -82,7 +82,7 @@ Dans la case «Enregistrer un second facteur pour vous connecter de manière plu
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 4eme paire de colonnes -->
 
@@ -100,7 +100,7 @@ Choisissez l'option "Passkey (FIDO)" et cliquez sur "continuer".
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 6eme paire de colonnes -->
 
@@ -118,7 +118,7 @@ Entrez votre mot de passe, puis cliquez sur "continuer".
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 7eme paire de colonnes -->
 
@@ -162,7 +162,7 @@ Nommez votre passkey (FIDO), puis cliquez sur "continuer".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Insérez votre clé FIDO dans votre ordinateur, puis cliquez ensuite sur "Démarer". 
+Insérez votre clé FIDO dans votre ordinateur, puis cliquez ensuite sur "Démarer".
 </div>
 
 <div class="right_col">
@@ -174,7 +174,7 @@ Insérez votre clé FIDO dans votre ordinateur, puis cliquez ensuite sur "Démar
 
 &nbsp;
 
-Une fenêtre va s'ouvrir sur votre ordinateur, choisissez "clé de sécurité" dans les options proposées. 
+Une fenêtre va s'ouvrir sur votre ordinateur, choisissez "clé de sécurité" dans les options proposées.
 
 Si cela est la première fois que vous utilisez votre passkey FIDO, il faudra la configurer. Pour cela, veuillez cliquer sur "ok" puis définir un code PIN pour votre passkey FIDO.
 
@@ -187,4 +187,3 @@ Les explications concernant l'identification vidéo pour la clé FIDO ne sont pa
 -->
 
 Une fois votre clé FIDO enregistrée comme second facteur fort de votre CH-LOGIN, vous pouvez ensuite effectuer l'identification vidéo pour votre clé FIDO. Pour cela, passez à l'étape de l'identification vidéo.
-

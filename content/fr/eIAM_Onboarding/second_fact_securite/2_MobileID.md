@@ -162,7 +162,7 @@ Acceptez les conditions d'utilisations puis cliquez sur "suivant".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez déjà un. Si ce n’est pas le cas ou si vous ne connaissez pas votre code de restauration, choisissez l’option «Je voudrais continuer sans l’option de restauration». Cliquez sur «suivant», puis validez votre choix en cliquant à nouveau sur «suivant».
+Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez déjà un. Si ce n'est pas le cas ou si vous ne connaissez pas votre code de restauration, choisissez l'option «Je voudrais continuer sans l'option de restauration». Cliquez sur «suivant», puis validez votre choix en cliquant à nouveau sur «suivant».
 </div>
 
 <div class="right_col">
@@ -174,7 +174,7 @@ Vous avez maintenant la possibilité de restaurer un Mobile ID si vous en aviez 
 
 &nbsp;
 
-Sur votre téléphone portable, une fenêtre va s’ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s’ouvrir pour que vous confirmiez le mot de passe.
+Sur votre téléphone portable, une fenêtre va s'ouvrir et va vous demander de saisir un mot de passe à 6 chiffres. Puis une nouvelle fenêtre va s'ouvrir pour que vous confirmiez le mot de passe.
 
 Vous avez terminé.
 
@@ -186,7 +186,7 @@ Assurez-vous de noter votre code de récupération dans un endroit sûr. Puisque
 
 Cette étape permet d'ajouter le Mobile ID au CH-Login en tant que second facteur fort.
 <!-- 
-Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le supprimer d'abord. Pour ce faire, cliquez sur Supprimer dans l’encadré Numéro mobile (mTAN). Vous pouvez ensuite suivre les instructions mentionnées ci-dessus pour enregistrer l'ID mobile comme second facteur (fort).
+Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le supprimer d'abord. Pour ce faire, cliquez sur Supprimer dans l'encadré Numéro mobile (mTAN). Vous pouvez ensuite suivre les instructions mentionnées ci-dessus pour enregistrer l'ID mobile comme second facteur (fort).
 -->
 &nbsp;
 
@@ -198,7 +198,7 @@ Si vous avez déjà un second facteur (faible) (mTAN), il est recommandé de le 
 <!-- First column content goes here -->
 <p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
-<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
+<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l'authentification à deux facteurs». </p>
 </div>
 
 <div class="right_col">
@@ -235,7 +235,7 @@ Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez 
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
+De retour dans l'onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
 
 Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer».
 {{</markdown>}}
@@ -342,7 +342,7 @@ Saisissez votre numéro de téléphone (celui lié à votre Mobile ID), puis cli
 
 &nbsp;
 
-Un message va s’afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID.
+Un message va s'afficher et votre téléphone va vous notifier de confirmer la connexion par la saisie de votre mot de passe Mobile ID.
 
-Une fois cela terminé, la case «Mobile ID» s’affichera comme moyen d'authentification à deux facteurs.
+Une fois cela terminé, la case «Mobile ID» s'affichera comme moyen d'authentification à deux facteurs.
 {{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}

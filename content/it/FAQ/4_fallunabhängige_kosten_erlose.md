@@ -12,9 +12,9 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="falldunabhangig
 
 {{<numberedList>}}
 {{<listItem>}}
-Come possono essere registrati i costi e i ricavi delle prestazioni economicamente d’interesse generale (PEIG) in SpiGes?
+Come possono essere registrati i costi e i ricavi delle prestazioni economicamente d'interesse generale (PEIG) in SpiGes?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Per la registrazione, selezionare il codice appropriato per le relative prestazioni PEIG sotto ktr_typ e inserire i relativi costi e ricavi utilizzando i numeri dei tipi di costo o dei centri di costo e i conti dei ricavi definiti in REKOLE®. In allegato l’elenco dei diversi tipi di PEIG e il relativo codice ktr_typ:
+Per la registrazione, selezionare il codice appropriato per le relative prestazioni PEIG sotto ktr_typ e inserire i relativi costi e ricavi utilizzando i numeri dei tipi di costo o dei centri di costo e i conti dei ricavi definiti in REKOLE®. In allegato l'elenco dei diversi tipi di PEIG e il relativo codice ktr_typ:
 <table class="w-100">
   <tr>
     <th style="width:20%"> Codice </div></th>
@@ -39,7 +39,7 @@ Per la registrazione, selezionare il codice appropriato per le relative prestazi
   <tr>
     <td> 504 </td>
     <td> Tipo a) </td>
-    <td> Scuole dell’infanzia e scuole per pazienti </td>
+    <td> Scuole dell'infanzia e scuole per pazienti </td>
   </tr>
   <tr>
     <td> 505 </td>
@@ -115,7 +115,7 @@ No, non è possibile.
 {{<listItem>}}
 I tipi di CUFI possono essere utilizzati più di una volta? Ad esempio, per 599 consegnare più righe con testo libero diverso nella variabile «ktr_beschr»?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Sì, è possibile. Sulla base dell’indicazione «ktr_typ» viene assegnata un’unità di imputazione di una colonna ITAR_K®. Ciò significa che nella variabile «ktr_typ» deve essere utilizzato uno dei valori predefiniti. Tuttavia, è possibile indicare più unità di imputazione con lo stesso tipo di CUFI, ad esempio per ktr_typ 205 una volta con il testo libero «LAMal» e una volta con il testo libero «CTM» nella variabile «ktr_beschr». Queste due unità di imputazione vengono poi sommate e riportate nella colonna ITAR_K® «Ospedali di giorno psichiatria infantile e adolescenziale». In teoria, sono tecnicamente possibili anche altre suddivisioni, ad eccezione del caso ambulatoriale. Se hanno tutti lo stesso tipo di CUFI, vengono sommati e raffigurati come descritto.
+Sì, è possibile. Sulla base dell'indicazione «ktr_typ» viene assegnata un'unità di imputazione di una colonna ITAR_K®. Ciò significa che nella variabile «ktr_typ» deve essere utilizzato uno dei valori predefiniti. Tuttavia, è possibile indicare più unità di imputazione con lo stesso tipo di CUFI, ad esempio per ktr_typ 205 una volta con il testo libero «LAMal» e una volta con il testo libero «CTM» nella variabile «ktr_beschr». Queste due unità di imputazione vengono poi sommate e riportate nella colonna ITAR_K® «Ospedali di giorno psichiatria infantile e adolescenziale». In teoria, sono tecnicamente possibili anche altre suddivisioni, ad eccezione del caso ambulatoriale. Se hanno tutti lo stesso tipo di CUFI, vengono sommati e raffigurati come descritto.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

@@ -121,13 +121,13 @@ Selezionare la sede ospedaliera desiderata e cliccare poi su «Avanti» in basso
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Qui devono essere inserite le informazioni personali dell’utente che si desidera aggiungere. Assicurarsi di inserire le stesse informazioni che si trovano sul documento d’identità dell’utente (passaporto, carta d’identità.
+Qui devono essere inserite le informazioni personali dell'utente che si desidera aggiungere. Assicurarsi di inserire le stesse informazioni che si trovano sul documento d'identità dell'utente (passaporto, carta d'identità.
 
 Le informazioni seguenti sono obbligatorie:
 
 - cognome/i;
 - nome/i;
-- indirizzo e-mail (inserire l’indirizzo aziendale).
+- indirizzo e-mail (inserire l'indirizzo aziendale).
 
 Le altre informazioni sono facoltative.
 {{</markdown>}}
@@ -151,10 +151,10 @@ Le altre informazioni sono facoltative.
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-1. Cliccando su questo pulsante, è possibile aggiungere un secondo profilo all’utente.
+1. Cliccando su questo pulsante, è possibile aggiungere un secondo profilo all'utente.
 2. Cliccando sulla matita, è invece possibile modificare il nome del profilo. È inoltre possibile disattivare il profilo facendo clic sulla freccia accanto alla matita e poi su «Disattiva».
-3. In questo riquadro è possibile selezionare il ruolo che si desidera assegnare all’utente. Facendo clic su uno di questi apparirà una breve descrizione del ruolo nel riquadro a destra.
-4. Per assegnare all’utente il ruolo selezionato, cliccare su «Assegnare ».
+3. In questo riquadro è possibile selezionare il ruolo che si desidera assegnare all'utente. Facendo clic su uno di questi apparirà una breve descrizione del ruolo nel riquadro a destra.
+4. Per assegnare all'utente il ruolo selezionato, cliccare su «Assegnare ».
 <!-- Si vous souhaitez permettre à l'utilisateur de déléguer des rôles, rendez vous sur l'onglet "Accorder des autorisations de gestion déléguée. -->
 {{</markdown>}}
 
@@ -187,7 +187,7 @@ En cochant la case, cela vous permet de donner le droit à l'utilisateur de cré
 </div>
 -->
 {{<alert color="warning">}}
-La persona che gestisce gli utenti è inoltre responsabile di monitorare attentamente gli utenti che hanno accesso alla piattaforma SpiGes e bloccare l’accesso alle persone che non ne hanno più bisogno.
+La persona che gestisce gli utenti è inoltre responsabile di monitorare attentamente gli utenti che hanno accesso alla piattaforma SpiGes e bloccare l'accesso alle persone che non ne hanno più bisogno.
 {{</alert>}}
 
 ### Disattivazione di un utente
@@ -238,5 +238,5 @@ La persona che gestisce gli utenti è inoltre responsabile di monitorare attenta
 &nbsp;
 
 {{<alert color="warning">}}
-Assicurarsi di disattivare il profilo corrispondente al ruolo cui si vuole negare l’accesso alla piattaforma.
+Assicurarsi di disattivare il profilo corrispondente al ruolo cui si vuole negare l'accesso alla piattaforma.
 {{</alert>}}

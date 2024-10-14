@@ -1,7 +1,7 @@
 ---
 title: 1. Importazione dati
 slug: import
-description: "Su questa pagina viene illustrato come importare i dati dalla pagina web dell’ospedale sulla piattaforma SpiGes."
+description: "Su questa pagina viene illustrato come importare i dati dalla pagina web dell'ospedale sulla piattaforma SpiGes."
 keywords: []
 weight: 20
 type: docs
@@ -10,7 +10,7 @@ type: docs
 
 {{<alert color="info">}}
 {{<markdown>}}
-Il caricamento dei dati può essere scaglionato in termini di tempo e di contenuto. Tutti i dati degli ospedali devono essere disponibili sulla piattaforma entro **la fine di aprile** dell’anno successivo a quello della rilevazione. I dati vengono importati per capitoli.
+Il caricamento dei dati può essere scaglionato in termini di tempo e di contenuto. Tutti i dati degli ospedali devono essere disponibili sulla piattaforma entro **la fine di aprile** dell'anno successivo a quello della rilevazione. I dati vengono importati per capitoli.
 {{</markdown>}}
 {{</alert>}}
 
@@ -22,7 +22,7 @@ Se per il capitolo corrispondente sono già stati importati dati in precedenza, 
 
 &nbsp;
 
-Per importare nuovi dati, occorre andare alla pagina web dell’ospedale desiderato e cliccare sul campo «+ Nuovo invio di dati».
+Per importare nuovi dati, occorre andare alla pagina web dell'ospedale desiderato e cliccare sul campo «+ Nuovo invio di dati».
 
 &nbsp;
 
@@ -38,5 +38,5 @@ Nella pagina che si apre è quindi possibile trascinare il file di dati in forma
 
 &nbsp;
 
-Una volta completata l’importazione, sullo schermo apparirà un riepilogo dei dati importati.
-Per visualizzare lo stato dei dati importati e per controllarli occorre ritornare sulla pagina della sede o dell’impresa ospedaliera.
+Una volta completata l'importazione, sullo schermo apparirà un riepilogo dei dati importati.
+Per visualizzare lo stato dei dati importati e per controllarli occorre ritornare sulla pagina della sede o dell'impresa ospedaliera.

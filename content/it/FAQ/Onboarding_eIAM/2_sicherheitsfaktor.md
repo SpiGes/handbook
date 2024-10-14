@@ -20,17 +20,17 @@ Per accedere alla piattaforma SpiGes è necessario utilizzare un secondo fattore
 {{</listItem>}}
 
 {{<listItem>}}
-L’identificazione video è obbligatoria per poter accedere alla piattaforma di rilevazione SpiGes?
+L'identificazione video è obbligatoria per poter accedere alla piattaforma di rilevazione SpiGes?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Sì. Senza identificazione video, non è possibile raggiungere la QoA 50 (Quality of Authentication) necessaria per accedere alla piattaforma di rilevazione SpiGes. Per raggiungere questo livello di qualità di autenticazione, l’utente deve disporre di un’identità elettronica  verificata e non solo autoregistrata.
+Sì. Senza identificazione video, non è possibile raggiungere la QoA 50 (Quality of Authentication) necessaria per accedere alla piattaforma di rilevazione SpiGes. Per raggiungere questo livello di qualità di autenticazione, l'utente deve disporre di un'identità elettronica  verificata e non solo autoregistrata.
 <!-- A compléter avec new faq-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Che cos’è un’identità elettronica verificata e cosa bisogna fare per ottenerla?
+Che cos'è un'identità elettronica verificata e cosa bisogna fare per ottenerla?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Affinché un’identità elettronica sia considerata verificata, un documento d’identità ufficiale con foto del titolare dell’identità elettronica deve essere stato controllato e registrato, e il titolare dell’identità elettronica deve essere stato correttamente identificato. A tal fine, è necessario sottoporsi alla procedura di identificazione video (VIPS), che è a pagamento (CHF 45.00) e prevede la verifica dell’identità dell’utente da parte di una persona autorizzata.
+Affinché un'identità elettronica sia considerata verificata, un documento d'identità ufficiale con foto del titolare dell'identità elettronica deve essere stato controllato e registrato, e il titolare dell'identità elettronica deve essere stato correttamente identificato. A tal fine, è necessario sottoporsi alla procedura di identificazione video (VIPS), che è a pagamento (CHF 45.00) e prevede la verifica dell'identità dell'utente da parte di una persona autorizzata.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

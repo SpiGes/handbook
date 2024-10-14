@@ -21,14 +21,14 @@ Non ho una scheda SIM abbastanza recente da poter utilizzare Mobile ID, cosa pos
 {{<listItem>}}
 Cosa fare se il telefono cellulare collegato al Mobile ID viene rubato o smarrito?
 {{<collapsibleBlock groupId="mobile_id">}}
-Occorre far bloccare la scheda SIM dal proprio operatore telefonico. Ciò bloccherà automaticamente anche il rispettivo Mobile ID. Non appena si dispone di una nuova scheda SIM, è possibile riattivare il Mobile ID presso il proprio operatore di rete utilizzando il codice di ripristino ricevuto al momento dell’attivazione del Mobile ID.  
+Occorre far bloccare la scheda SIM dal proprio operatore telefonico. Ciò bloccherà automaticamente anche il rispettivo Mobile ID. Non appena si dispone di una nuova scheda SIM, è possibile riattivare il Mobile ID presso il proprio operatore di rete utilizzando il codice di ripristino ricevuto al momento dell'attivazione del Mobile ID.  
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Posso utilizzare l’app Mobile ID invece di attivare il Mobile ID con la scheda SIM?
+Posso utilizzare l'app Mobile ID invece di attivare il Mobile ID con la scheda SIM?
 {{<collapsibleBlock groupId="mobile_id">}}
-No. L’applicazione Mobile ID non è abilitata come secondo fattore di sicurezza forte per il CH-LOGIN.
+No. L'applicazione Mobile ID non è abilitata come secondo fattore di sicurezza forte per il CH-LOGIN.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

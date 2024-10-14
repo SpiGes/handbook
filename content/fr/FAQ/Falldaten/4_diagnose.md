@@ -23,8 +23,8 @@ Variable «diagnose_zusatz» : quelles indications doivent être données ici po
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 
--	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d’exclamation, le code est à préciser.
--	Les codes étoile ne sont pas marqués comme tels, l’association se fait suivant CIM-10-GM.
+-	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d'exclamation, le code est à préciser.
+-	Les codes étoile ne sont pas marqués comme tels, l'association se fait suivant CIM-10-GM.
 
 **Exemple 4** dans le manuel du codage (page 38) :
 
@@ -70,8 +70,8 @@ Variable «diagnose_zusatz» : quelles indications doivent être données ici po
 - L 2
 - DS V99! Accident de transport
 - DS S36.03 Déchirure de la rate, avec atteinte du parenchyme
-- DS S36.49 Autres parties et parties multiples de l’intestin grêle
-- DS S31.83! Plaie ouverte (toute partie de l’abdomen, de la région lombosacrée et du bassin) associée à une lésion intraabdominale
+- DS S36.49 Autres parties et parties multiples de l'intestin grêle
+- DS S31.83! Plaie ouverte (toute partie de l'abdomen, de la région lombosacrée et du bassin) associée à une lésion intraabdominale
 
 …est saisi dans **SpiGes** comme suit :
 {{</markdown>}}

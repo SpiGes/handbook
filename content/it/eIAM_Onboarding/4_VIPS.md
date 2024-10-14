@@ -1,13 +1,13 @@
 ---
 title: Identificazione video
 slug: vips
-description: "Su questa pagina viene illustrato come far verificare la propria identità attraverso l’autenticazione video."
+description: "Su questa pagina viene illustrato come far verificare la propria identità attraverso l'autenticazione video."
 keywords: []
 weight: 40
 type: docs
 ---
 
-Per poter utilizzare la piattaforma di rilevazione SpiGes è necessario far verificare la propria identità con un secondo fattore forte del CH-LOGIN. L’identità viene verificata tramite identificazione video (VIPS).
+Per poter utilizzare la piattaforma di rilevazione SpiGes è necessario far verificare la propria identità con un secondo fattore forte del CH-LOGIN. L'identità viene verificata tramite identificazione video (VIPS).
 
 {{<alert color="warning">}}
 {{<markdown>}}
@@ -25,12 +25,12 @@ Non possono essere utilizzati i secondi fattori seguenti:
 {{</markdown>}}
 {{</alert>}}
 
-L’identificazione video può essere effettuata dal lunedì al sabato dalle 8:00 alle 17:00.
+L'identificazione video può essere effettuata dal lunedì al sabato dalle 8:00 alle 17:00.
 
-Per effettuare l’identificazione video occorre il materiale seguente.
+Per effettuare l'identificazione video occorre il materiale seguente.
 
 - Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità audio e video.  
-- Un documento d’identità ufficiale e in corso di validità (passaporto o carta d’identità). A seconda della {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nazionalità{{</link>}} potrebbe essere necessario il passaporto.
+- Un documento d'identità ufficiale e in corso di validità (passaporto o carta d'identità). A seconda della {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nazionalità{{</link>}} potrebbe essere necessario il passaporto.
 - Un mezzo di pagamento. Può essere utilizzato un voucher (codice buono) oppure uno dei seguenti mezzi di pagamento: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express o PayPal.
 
 <!-- 1ere paire de colonnes -->
@@ -39,7 +39,7 @@ Per effettuare l’identificazione video occorre il materiale seguente.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Per effettuare l’identificazione video, accedere a {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
+<p> Per effettuare l'identificazione video, accedere a {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
 <p> Scorrere la pagina fino alla sezione «Gestione del secondo fattore» e nel riquadro «Verificare un secondo fattore» cliccare su «Selezionare il secondo fattore». </p>
 </div>
@@ -98,7 +98,7 @@ Cliccare poi di nuovo su «Avanti» per avviare la procedura di autentificazione
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Compilare con i propri dati personali facendo attenzione ad inserire le stesse informazioni riportate sul proprio documento d’identità.
+Compilare con i propri dati personali facendo attenzione ad inserire le stesse informazioni riportate sul proprio documento d'identità.
 
 Selezionare la casella «Accetto che i miei dati siano condivisi...» e cliccare su «Avanti».
 {{</markdown>}}
@@ -118,7 +118,7 @@ Selezionare la casella «Accetto che i miei dati siano condivisi...» e cliccare
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Rileggere e verificare i dati inseriti per assicurarsi di aver immesso esattamente le stesse informazioni contenute nei documenti d’identità. Se necessario, correggere le informazioni tornando indietro.
+Rileggere e verificare i dati inseriti per assicurarsi di aver immesso esattamente le stesse informazioni contenute nei documenti d'identità. Se necessario, correggere le informazioni tornando indietro.
 
 Se tutti i dati inseriti sono corretti, cliccare su «Avanti».
 {{</markdown>}}
@@ -138,9 +138,9 @@ Se tutti i dati inseriti sono corretti, cliccare su «Avanti».
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Si viene poi reindirizzati sul sito di Adnovum per eseguire l’identificazione video.
+Si viene poi reindirizzati sul sito di Adnovum per eseguire l'identificazione video.
 
-Spuntare le caselle «Confermo di aver letto e compreso le condizioni di utilizzo e dichiaro esplicitamente di accettarle» e «Ho letto il regolamento sulla protezione dei dati», quindi cliccare su «Avvia l’identificazione video».
+Spuntare le caselle «Confermo di aver letto e compreso le condizioni di utilizzo e dichiaro esplicitamente di accettarle» e «Ho letto il regolamento sulla protezione dei dati», quindi cliccare su «Avvia l'identificazione video».
 {{</markdown>}}
 </div>
 
@@ -158,9 +158,9 @@ Spuntare le caselle «Confermo di aver letto e compreso le condizioni di utilizz
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Ci sono due possibilità per effettuare il pagamento per l’identificazione video: un voucher (codice buono) oppure un pagamento convenzionale.
+Ci sono due possibilità per effettuare il pagamento per l'identificazione video: un voucher (codice buono) oppure un pagamento convenzionale.
 
-Selezionare l’opzione desiderata e poi seguire le istruzioni sullo schermo.
+Selezionare l'opzione desiderata e poi seguire le istruzioni sullo schermo.
 {{</markdown>}}
 </div>
 
@@ -171,7 +171,7 @@ Selezionare l’opzione desiderata e poi seguire le istruzioni sullo schermo.
 
 </div>
 
-Una volta che l’utente ha ricevuto la conferma della ricezione del pagamento può procedere con l’identificazione video. Selezionare l’opzione con la migliore qualità audio e video:
+Una volta che l'utente ha ricevuto la conferma della ricezione del pagamento può procedere con l'identificazione video. Selezionare l'opzione con la migliore qualità audio e video:
 
 <!-- 8ème paire de colonnes avant -->
 <div class="two_column">
@@ -214,12 +214,12 @@ Per farlo, spuntare tutte le caselle sullo schermo e seguire le istruzioni.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-Per farlo, scansionare il codice QR apparso sullo schermo e istallare l’applicazione. Inserire il numero di identificazione nell’applicazione e seguire le istruzioni.
+Per farlo, scansionare il codice QR apparso sullo schermo e istallare l'applicazione. Inserire il numero di identificazione nell'applicazione e seguire le istruzioni.
 </div>
 
 </div>
 
-L’utente sarà quindi collegato tramite video con una persona incaricata di verificare la sua identità.
+L'utente sarà quindi collegato tramite video con una persona incaricata di verificare la sua identità.
 
 <!-- 9ème paire de colonnes -->
 
@@ -227,7 +227,7 @@ L’utente sarà quindi collegato tramite video con una persona incaricata di ve
 
 <div class="left_col">
 <!-- First column content goes here -->
-Una volta completata l’identificazione video, il secondo fattore viene visualizzato con il livello di affidabilità «Verificato».
+Una volta completata l'identificazione video, il secondo fattore viene visualizzato con il livello di affidabilità «Verificato».
 
 <div class="right_col">
 <!-- Second column content goes here -->

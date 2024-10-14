@@ -1,7 +1,7 @@
 ---
 title: Token FIDO
 slug: FIDO_token
-description: "Su questa pagina sono disponibili tutte le informazioni sull’utilizzo di FIDO Passkey come secondo fattore di sicurezza."
+description: "Su questa pagina sono disponibili tutte le informazioni sull'utilizzo di FIDO Passkey come secondo fattore di sicurezza."
 keywords: []
 weight: 30
 type: docs
@@ -10,7 +10,7 @@ type: docs
 Nel caso in cui non sia possibile utilizzare Windows Hello o Mobile ID come secondo fattore di sicurezza forte, è possibile utilizzare una chiave di sicurezza FIDO su supporto fisico.  
 
 {{<alert color="warning">}}
-Se possibile, consigliamo di dare la priorità in primo luogo a Windows Hello e in secondo luogo a Mobile ID. L’acquisto di una chiave FIDO è a carico dell’utente.
+Se possibile, consigliamo di dare la priorità in primo luogo a Windows Hello e in secondo luogo a Mobile ID. L'acquisto di una chiave FIDO è a carico dell'utente.
 {{</alert>}}
 
 Le chiavi di sicurezza FIDO (FIDO Passkeys) sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico. Devono essere acquistati dagli stessi utenti finali, a proprie spese. Ecco un elenco delle {{<link url="https://www.agov.admin.ch/it/chiavi-di-sicurezza" newTab="true">}}chiavi di sicurezza{{</link>}} supportate.
@@ -32,7 +32,7 @@ Per il CH-LOGIN, eIAM supporta i seguenti tipi di chiave di sicurezza FIDO.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Effettuare l’accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
+<p> Effettuare l'accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
 <p> Cliccare in basso su «Modificare le impostazioni del secondo fattore». Inserire la propria password e cliccare su «Avanti». </p>
 </div>
@@ -86,7 +86,7 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 <div class="left_col">
 <!-- First column content goes here -->
-Selezionare l’opzione «Passkey (FIDO)» e cliccare su «Avanti».
+Selezionare l'opzione «Passkey (FIDO)» e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
@@ -173,4 +173,4 @@ Die Erläuterungen zum Speichern des FIDO Passkeys in Ihrer CH_LOGIN sind noch n
 Die Erläuterungen zur Videoidentifikation für den FIDO Passkeys sind noch nicht verfügbar. In der Zwischenzeit können Sie sich auf [diese Anleitung](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=de) beziehen.
 -->
 
-Una volta registrata la chiave FIDO come secondo fattore forte del proprio CH-LOGIN, può quindi essere effettuata l’identificazione video ad essa relativa. A tal fine, procedere con l’identificazione video.
+Una volta registrata la chiave FIDO come secondo fattore forte del proprio CH-LOGIN, può quindi essere effettuata l'identificazione video ad essa relativa. A tal fine, procedere con l'identificazione video.

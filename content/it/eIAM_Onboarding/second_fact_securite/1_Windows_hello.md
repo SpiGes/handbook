@@ -1,7 +1,7 @@
 ---
 title: Utilizzo di Windows Hello
 slug: windows_hello
-description: "Su questa pagina sono disponibili tutte le informazioni sull’utilizzo di Windows Hello come secondo fattore di sicurezza."
+description: "Su questa pagina sono disponibili tutte le informazioni sull'utilizzo di Windows Hello come secondo fattore di sicurezza."
 keywords: []
 weight: 10
 type: docs
@@ -16,7 +16,7 @@ Per saperne di più su Windows Hello, cliccare {{<link url="https://support.micr
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Effettuare l’accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
+<p> Effettuare l'accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
 <p> Cliccare in basso su «Modificare le impostazioni del secondo fattore». Inserire la propria password e cliccare su «Avanti». </p>
 </div>
@@ -71,7 +71,7 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 <div class="left_col">
 <!-- First column content goes here -->
-Selezionare l’opzione «Passkey (FIDO)» e cliccare su «Avanti».
+Selezionare l'opzione «Passkey (FIDO)» e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
@@ -145,9 +145,9 @@ Cliccare poi su «Start».
 
 </div>
 
-Sullo schermo apparirà quindi una finestra. Selezionare l’opzione «Windows Hello» e poi una delle opzioni di identificazione (impronta digitale, riconoscimento facciale, password o codice PIN). Seguire poi passo per passo le istruzioni fornite dal proprio computer.
+Sullo schermo apparirà quindi una finestra. Selezionare l'opzione «Windows Hello» e poi una delle opzioni di identificazione (impronta digitale, riconoscimento facciale, password o codice PIN). Seguire poi passo per passo le istruzioni fornite dal proprio computer.
 
-Una volta completati tutti i passaggi richiesti, la chiave FIDO apparirà come secondo fattore di sicurezza e sarà quindi possibile eseguire l’identificazione video per quest’ultima. Per farlo, procedere con l’identificazione video.
+Una volta completati tutti i passaggi richiesti, la chiave FIDO apparirà come secondo fattore di sicurezza e sarà quindi possibile eseguire l'identificazione video per quest'ultima. Per farlo, procedere con l'identificazione video.
 
 <!-- 
 Les explications concernant l'enregistrement de la clé FIDO sur votre CH_LOGIN ne sont pas encore disponible. En attendant, vous pouvez vous réferer à [cette marche-à-suivre](https://help.eiam.swiss/?c=passkeys&l=fr). 

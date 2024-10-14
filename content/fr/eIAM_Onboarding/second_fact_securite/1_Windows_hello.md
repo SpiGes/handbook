@@ -17,7 +17,7 @@ Vous trouverez des informations concernant le Windows Hello {{<link url="https:/
 <!-- First column content goes here -->
 <p> Connectez vous à votre {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}compte eIAM{{</link>}} avec votre CH-LOGIN, puis rendez-vous dans l'onglet "Connexion et sécurité". </p>
 
-<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l’authentification à deux facteurs». </p>
+<p> Tout en bas de la page, cliquez sur «Modifier les paramètres de l'authentification à deux facteurs». </p>
 </div>
 
 <div class="right_col">
@@ -27,7 +27,7 @@ Vous trouverez des informations concernant le Windows Hello {{<link url="https:/
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 2eme paire de colonnes -->
 
@@ -45,7 +45,7 @@ Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez 
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -54,7 +54,7 @@ Cochez la case «Activer les paramètres de sécurité avancés», puis cliquez 
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-De retour dans l’onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
+De retour dans l'onglet «Connexion et sécurité», vous avez maintenant la case «Vérifier un second facteur» en plus.
 
 Dans la case «Enregistrer un second facteur pour vous connecter de manière plus sécurisée.», cliquez sur «Enregistrer».
 {{</markdown>}}
@@ -67,7 +67,7 @@ Dans la case «Enregistrer un second facteur pour vous connecter de manière plu
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 4eme paire de colonnes -->
 
@@ -85,7 +85,7 @@ Choisissez l'option "Passkey (FIDO)" et cliquez sur "Continuer".
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 6eme paire de colonnes -->
 
@@ -103,7 +103,7 @@ Entrez votre mot de passe, puis cliquez sur "continuer".
 
 </div>
 
-&nbsp; 
+&nbsp;
 
 <!-- 7eme paire de colonnes -->
 
@@ -168,4 +168,3 @@ Les explications concernant l'identification vidéo pour la clé FIDO ne sont pa
 -->
 
 Une fois ces étapes terminées, votre clé FIDO apparaitra comme second facteur de sécurité, vous pouvez ensuite effectuer l'identification vidéo pour votre clé FIDO. Pour cela, passez à l'étape de l'identification vidéo.
-

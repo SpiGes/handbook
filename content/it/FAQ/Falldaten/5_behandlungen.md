@@ -43,14 +43,14 @@ Sans points.
 {{</listItem>}}
 
 {{<listItem>}}
-Siamo un po’ preoccupati che questi dati non vengano registrati in modo completo, soprattutto nei primi giorni, e che ciò renda necessari ulteriori aggiustamenti supplementari. Vorremmo quindi definire il campo come obbligatorio per i codici CHOP interessati. Esiste una classificazione per il catalogo CHOP per quanto riguarda i codici considerati operativi o interventistici?
+Siamo un po' preoccupati che questi dati non vengano registrati in modo completo, soprattutto nei primi giorni, e che ciò renda necessari ulteriori aggiustamenti supplementari. Vorremmo quindi definire il campo come obbligatorio per i codici CHOP interessati. Esiste una classificazione per il catalogo CHOP per quanto riguarda i codici considerati operativi o interventistici?
 {{<collapsibleBlock groupId="behandlungen">}}
-L’UST è consapevole che con l’introduzione del nuovo modo di inserire i dati, all’inizio questi saranno incompleti. Dopo la consueta fase di consolidamento, si capirà quali precisazioni saranno necessarie. Non è possibile determinare chiaramente per ogni codice CHOP se richiede o meno l’indicazione dell’ora. Ci sono altre caratteristiche che sono decisive in questo caso: se il trattamento è legato all’utilizzo di una sala operatoria o di un laboratorio di cateterismo cardiaco.
+L'UST è consapevole che con l'introduzione del nuovo modo di inserire i dati, all'inizio questi saranno incompleti. Dopo la consueta fase di consolidamento, si capirà quali precisazioni saranno necessarie. Non è possibile determinare chiaramente per ogni codice CHOP se richiede o meno l'indicazione dell'ora. Ci sono altre caratteristiche che sono decisive in questo caso: se il trattamento è legato all'utilizzo di una sala operatoria o di un laboratorio di cateterismo cardiaco.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Operatori: abbiamo un problema di comprensione dell’interpretazione delle specifiche indicate nel file XML. La descrizione della variabile indica che possono essere attribuiti a un intervento al massimo due medici operanti. Nella panoramica non si vede tuttavia se l’attributo può essere esportato più volte.
+Operatori: abbiamo un problema di comprensione dell'interpretazione delle specifiche indicate nel file XML. La descrizione della variabile indica che possono essere attribuiti a un intervento al massimo due medici operanti. Nella panoramica non si vede tuttavia se l'attributo può essere esportato più volte.
 {{<insertImage image="Image1.jpg" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="behandlungen">}}
 Quanti medici operanti possono essere attribuiti a ogni intervento è una questione concettuale che può quindi variare da Cantone a Cantone (di solito 2 è un valore indicativo!). Dal punto di vista tecnico possono essere registrati più medici operanti.

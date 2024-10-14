@@ -7,7 +7,7 @@ weight: 10
 type: docs
 ---
 
-Il CH-LOGIN è una procedura di login fornita dal servizio standard eIAM dell’Amministrazione federale e può essere utilizzato per varie applicazioni.
+Il CH-LOGIN è una procedura di login fornita dal servizio standard eIAM dell'Amministrazione federale e può essere utilizzato per varie applicazioni.
 
 <div class="two_column">
 
@@ -46,9 +46,9 @@ Se si dispone già di un CH-LOGIN è possibile procedere con il login, altriment
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Inserire i propri dati personali. Assicurarsi di inserire le stesse informazioni riportate sul proprio documento d’identità.
+Inserire i propri dati personali. Assicurarsi di inserire le stesse informazioni riportate sul proprio documento d'identità.
 
-Inserire l’indirizzo e-mail aziendale con il quale sarà effettuato l’accesso per tutta la durata dell’utilizzo della piattaforma SpiGes. Sarà inoltre questo l’indirizzo da utilizzare in caso fosse necessario reimpostare la password.
+Inserire l'indirizzo e-mail aziendale con il quale sarà effettuato l'accesso per tutta la durata dell'utilizzo della piattaforma SpiGes. Sarà inoltre questo l'indirizzo da utilizzare in caso fosse necessario reimpostare la password.
 
 Cliccare quindi su «Accetto le condizioni di utilizzo» e su «Avanti».
 {{</markdown>}}
@@ -68,7 +68,7 @@ Cliccare quindi su «Accetto le condizioni di utilizzo» e su «Avanti».
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Viene poi inviato un codice di conferma all’indirizzo mail inserito.
+Viene poi inviato un codice di conferma all'indirizzo mail inserito.
 
 Inserire il codice e cliccare su «Avanti».
 {{</markdown>}}
@@ -81,4 +81,4 @@ Inserire il codice e cliccare su «Avanti».
 
 </div>
 
-L’account è stato creato. È ora necessario incrementare il livello di sicurezza del proprio account con l’autenticazione a due fattori.
+L'account è stato creato. È ora necessario incrementare il livello di sicurezza del proprio account con l'autenticazione a due fattori.
