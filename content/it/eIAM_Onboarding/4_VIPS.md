@@ -16,7 +16,7 @@ Assicurarsi di poter utilizzare uno dei secondi fattori forti consigliati.
 Possono essere utilizzati i secondi fattori seguenti:
 
 - token FIDO (con Windows Hello o con una chiave su supporto fisico);
--  Mobile ID.
+- Mobile ID.
 
 Non possono essere utilizzati i secondi fattori seguenti:
 
@@ -46,12 +46,10 @@ Per effettuare l’identificazione video occorre il materiale seguente.
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_second_facteur_it.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="selection_second_facteur_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
-
- 
 
 <!-- 2ème paire de colonnes -->
 
@@ -68,12 +66,10 @@ Confermare poi la selezione cliccando su «Verifica».
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="selection_mobileid_it.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="selection_mobileid_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
-
- 
 
 <!-- 3ème paire de colonnes -->
 
@@ -95,8 +91,6 @@ Cliccare poi di nuovo su «Avanti» per avviare la procedura di autentificazione
 
 </div>
 
- 
-
 <!-- 4ème paire de colonnes -->
 
 <div class="two_column">
@@ -112,12 +106,10 @@ Selezionare la casella «Accetto che i miei dati siano condivisi...» e cliccare
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_donnees_perso_it.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="saisie_donnees_perso_it.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
-
- 
 
 <!-- 5ème paire de colonnes -->
 
@@ -139,8 +131,6 @@ Se tutti i dati inseriti sono corretti, cliccare su «Avanti».
 
 </div>
 
- 
-
 <!-- 6ème paire de colonnes -->
 
 <div class="two_column">
@@ -160,8 +150,6 @@ Spuntare le caselle «Confermo di aver letto e compreso le condizioni di utilizz
 </div>
 
 </div>
-
- 
 
 <!-- 7ème paire de colonnes -->
 
@@ -183,11 +171,7 @@ Selezionare l’opzione desiderata e poi seguire le istruzioni sullo schermo.
 
 </div>
 
- 
-
 Una volta che l’utente ha ricevuto la conferma della ricezione del pagamento può procedere con l’identificazione video. Selezionare l’opzione con la migliore qualità audio e video:
-
- 
 
 <!-- 8ème paire de colonnes avant -->
 <div class="two_column">
@@ -235,11 +219,7 @@ Per farlo, scansionare il codice QR apparso sullo schermo e istallare l’applic
 
 </div>
 
- 
-
 L’utente sarà quindi collegato tramite video con una persona incaricata di verificare la sua identità.
-
- 
 
 <!-- 9ème paire de colonnes -->
 
