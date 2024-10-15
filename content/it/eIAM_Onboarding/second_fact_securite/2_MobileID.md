@@ -75,7 +75,7 @@ Per poter utilizzare la piattaforma SpiGes, l'attivazione deve avvenire tramite 
 
 Nella dashboard di Mobile ID, sotto «SIM Status» è indicato se la scheda SIM è compatibile o meno. Nel caso in cui non sia compatibile, occorre ordinare una nuova scheda SIM presso il proprio gestore telefonico.
 
-&nbsp; 
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 

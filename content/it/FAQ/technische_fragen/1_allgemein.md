@@ -90,7 +90,7 @@ Sì, è possibile che il campo di una variabile venga lasciato vuoto. Alcune var
 {{</listItem>}}
 
 {{<listItem>}}
-Le variabili prive di contenuto possono essere consegnate anche con un valore ZERO (ad es., righe CUFI complete con ZERI nelle variabili in cui non è presente nulla)? 
+Le variabili prive di contenuto possono essere consegnate anche con un valore ZERO (ad es., righe CUFI complete con ZERI nelle variabili in cui non è presente nulla)?
 {{<collapsibleBlock groupId="technische_fragen">}}
 Dipende dalle variabili. Per le variabili CUFI, è possibile compilare tutte le variabili con il valore «0». Tuttavia, le variabili vuote («») o i valori nulli (»ZERO») non sono ammessi. Se si desidera controllare questo aspetto in concreto, è possibile convalidare il file XML rispetto alla definizione XSD. A tal fine esistono online appositi strumenti gratuiti. Si noti che su tali piattaforme non è consentito caricare dati reali. Tuttavia, è possibile utilizzarle per controllare esempi di file fittizi. Anche la piattaforma SpiGes appronterà una convalida del genere.
 {{</collapsibleBlock>}}
