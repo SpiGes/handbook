@@ -41,6 +41,8 @@ Andare sul sito web di {{<link url="https://www.mobileid.ch/it" newTab="true">}}
 
 </div>
 
+&nbsp;
+
 <!-- 2eme paire de colonnes -->
 
 <div class="two_column">
