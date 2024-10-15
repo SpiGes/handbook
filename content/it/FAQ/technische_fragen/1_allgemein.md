@@ -76,8 +76,9 @@ Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare i
 Nel formato XML la sequenza delle variabili all'interno di una riga è determinante?
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
-- La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l'elemento caso, i sottoelementi devono sempre essere inseriti nell'ordine «Dati amministrativi», «Neonati», «Psichiatria», «UFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali». 
-- La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell'elemento «Administratives» (Dati amministrativi) si possono inserire attributi sia nella sequenza «…geschlecht="2" alter="37"…» che nella sequenza «…alter="37" geschlecht="2"…». 
+
+- La sequenza degli elementi è predefinita e non può essere modificata. Al massimo possono essere omessi degli elementi. Quindi, per l'elemento caso, i sottoelementi devono sempre essere inseriti nell'ordine «Dati amministrativi», «Neonati», «Psichiatria», «UFI (caso)», «Diagnosi», «Trattamenti», «Medicamenti», «Fattura», «Trasferimento paziente» e «Dati cantonali».
+- La sequenza dei singoli attributi da inserire nei campi può invece essere scelta liberamente. Ad esempio, nell'elemento «Administratives» (Dati amministrativi) si possono inserire attributi sia nella sequenza «…geschlecht="2" alter="37"…» che nella sequenza «…alter="37" geschlecht="2"…».
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
