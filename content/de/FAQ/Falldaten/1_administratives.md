@@ -19,7 +19,7 @@ Die Fallzusammenführung wird in SpiGes gemäss den Richtlinien der SwissDRG AG 
 {{</listItem>}}
 
 {{<listItem>}}
-fall_id_ch: Wer generiert diese Fallnummer und wird diese automatisch in Opale (IRP-System) hinterlegt? Bisher konnten wir die Fallidentifikation in beiden Dateien (BFS-Daten und Fallkostendatei) automatisch in Opale generieren.
+fall_id_ch: Wer generiert diese Fallnummer und wird diese automatisch in Opale (ERP-System) hinterlegt? Bisher konnten wir die Fallidentifikation in beiden Dateien (BFS-Daten und Fallkostendatei) automatisch in Opale generieren.
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 

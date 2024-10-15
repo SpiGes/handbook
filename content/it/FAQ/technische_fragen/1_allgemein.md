@@ -26,9 +26,8 @@ Nel gennaio 2023 abbiamo organizzato un evento informativo per il produttore KIS
 {{</listItem>}}
 
 {{<listItem>}}
-In base all'elenco delle variabili vi sono le seguenti tabelle:
+In base all'elenco delle variabili 1.3 vi sono le seguenti tabelle:
 {{<markdown>}}
-
 |||
 |-----------|-----------|
 | 1 | Amministrativo |

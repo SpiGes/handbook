@@ -28,6 +28,8 @@ Per saperne di più su Windows Hello, cliccare {{<link url="https://support.micr
 
 </div>
 
+&nbsp;
+
 <!-- 2eme paire de colonnes -->
 
 <div class="two_column">
@@ -43,6 +45,8 @@ Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare s
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -65,6 +69,8 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 </div>
 
+&nbsp;
+
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">
@@ -80,6 +86,8 @@ Selezionare l'opzione «Passkey (FIDO)» e cliccare su «Avanti».
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 6eme paire de colonnes -->
 
@@ -97,6 +105,8 @@ Inserire la propria password e cliccare su «Avanti».
 
 </div>
 
+&nbsp;
+
 <!-- 7eme paire de colonnes -->
 
 <div class="two_column">
@@ -112,6 +122,8 @@ Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti�
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 8eme paire de colonnes -->
 
@@ -129,6 +141,8 @@ Assegnare un nome alla propria chiave di sicurezza FIDO e cliccare su «Avanti»
 
 </div>
 
+&nbsp;
+
 <!-- 9eme paire de colonnes -->
 
 <div class="two_column">
@@ -144,6 +158,8 @@ Cliccare poi su «Start».
 </div>
 
 </div>
+
+&nbsp;
 
 Sullo schermo apparirà quindi una finestra. Selezionare l'opzione «Windows Hello» e poi una delle opzioni di identificazione (impronta digitale, riconoscimento facciale, password o codice PIN). Seguire poi passo per passo le istruzioni fornite dal proprio computer.
 

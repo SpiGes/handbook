@@ -26,7 +26,7 @@ Im Januar 2023 haben wir ein Informationsveranstaltung Richtung KIS Hersteller (
 {{</listItem>}}
 
 {{<listItem>}}
-Gemäss Variablenliste 1.3 gibt es folgende Tabellen
+Gemäss Variablenliste gibt es folgende Tabellen:
 {{<markdown>}}
 |||
 |-----------|-----------|
@@ -38,10 +38,10 @@ Gemäss Variablenliste 1.3 gibt es folgende Tabellen
 | 6 | Behandlungen |
 | 7 | Operierende |
 | 8 | Medikamente |
-| 9 | Rechnungen |
+| 9 | Rechnung |
 | 10 | Patientenbewegungen |
 | 11 | Kantonsdaten |
-| 12 | Patientenidentifikator |
+| 12 | Personenidentifikatoren |
 
 {{</markdown>}}
 

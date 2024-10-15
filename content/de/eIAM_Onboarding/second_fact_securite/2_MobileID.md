@@ -113,7 +113,7 @@ Klicken Sie auf "Aktivieren" im Feld "Mobile ID aktivieren".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activer_mobile_id.png" description="activer MobileID" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="activer_mobile_id_de.png" description="activer MobileID" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
@@ -131,7 +131,7 @@ Wählen Sie das Feld "SIM" und klicken Sie dann auf "Weiter".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_sim.png" description="Choix carte SIM" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="choix_sim_de.png" description="Choix carte SIM" class="edge max-w-90">}}  
 </div>
 
 </div>
@@ -149,7 +149,7 @@ Akzeptieren Sie die Nutzungsbedingungen und klicken Sie auf "Weiter".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="cond_utilisation_fr.png" description="Conditions d'utilisation" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="cond_utilisation_de.png" description="Conditions d'utilisation" class="edge max-w-90">}}  
 </div>
 
 </div>
@@ -167,7 +167,7 @@ Sie haben jetzt die Möglichkeit, eine Mobile ID wiederherzustellen, wenn Sie be
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_recup.png" description="Possibilité récupération" class="edge max-w-90">}}  <!-- Image en français -->
+{{<insertImage image="choix_recup_de.png" description="Possibilité récupération" class="edge max-w-90">}}  
 </div>
 
 </div>
@@ -196,7 +196,7 @@ In diesem Schritt wird die Mobile ID dem CH-Login als starker Zweitfaktor hinzug
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
+<p> Loggen Sie sich mit Ihrem CH-LOGIN in {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
 
 <p> Klicken Sie ganz unten auf der Seite auf "Zweitfaktor-Einstellungen ändern". </p>
 </div>

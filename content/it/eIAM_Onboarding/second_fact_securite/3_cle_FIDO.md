@@ -44,6 +44,8 @@ Per il CH-LOGIN, eIAM supporta i seguenti tipi di chiave di sicurezza FIDO.
 
 </div>
 
+&nbsp;
+
 <!-- 2eme paire de colonnes -->
 
 <div class="two_column">
@@ -59,6 +61,8 @@ Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare s
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -80,6 +84,8 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 </div>
 
+&nbsp;
+
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">
@@ -95,6 +101,8 @@ Selezionare l'opzione «Passkey (FIDO)» e cliccare su «Avanti».
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 6eme paire de colonnes -->
 
@@ -112,6 +120,8 @@ Inserire la propria password e cliccare su «Avanti».
 
 </div>
 
+&nbsp;
+
 <!-- 7eme paire de colonnes -->
 
 <div class="two_column">
@@ -127,6 +137,8 @@ Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti�
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 8eme paire de colonnes -->
 
@@ -144,6 +156,8 @@ Assegnare un nome alla propria chiave di sicurezza FIDO e cliccare su «Avanti»
 
 </div>
 
+&nbsp;
+
 <!-- 9eme paire de colonnes -->
 
 <div class="two_column">
@@ -159,6 +173,8 @@ Inserire la chiave FIDO nel computer e fare clic su «Start».
 </div>
 
 </div>
+
+&nbsp;
 
 Sul computer si aprirà una finestra contenente diverse opzioni. Scegliere «Chiave di sicurezza».
 

@@ -16,7 +16,7 @@ Informationen zu Windows Hello finden Sie {{<link url="https://support.microsoft
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Loggen Sie sich mit Ihrem CH-LOGIN in Ihr {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}Mein eIAM-Konto{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
+<p> Loggen Sie sich mit Ihrem CH-LOGIN in {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} ein und gehen Sie dann auf die Registerkarte "Login & Sicherheit". </p>
 
 <p> Klicken Sie ganz unten auf der Seite auf "Zweitfaktor-Einstellungen ändern". </p>
 </div>
@@ -156,7 +156,7 @@ Klicken Sie dann auf "Starten".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="config_fido.png" class="edge max-w-90">}}
+{{<insertImage image="config_fido_de.png" class="edge max-w-90">}}
 </div>
 
 </div>

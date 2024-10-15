@@ -51,6 +51,8 @@ Per effettuare l'identificazione video occorre il materiale seguente.
 
 </div>
 
+&nbsp;
+
 <!-- 2ème paire de colonnes -->
 
 <div class="two_column">
@@ -70,6 +72,8 @@ Confermare poi la selezione cliccando su «Verifica».
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 3ème paire de colonnes -->
 
@@ -91,6 +95,8 @@ Cliccare poi di nuovo su «Avanti» per avviare la procedura di autentificazione
 
 </div>
 
+&nbsp;
+
 <!-- 4ème paire de colonnes -->
 
 <div class="two_column">
@@ -110,6 +116,8 @@ Selezionare la casella «Accetto che i miei dati siano condivisi...» e cliccare
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 5ème paire de colonnes -->
 
@@ -131,6 +139,8 @@ Se tutti i dati inseriti sono corretti, cliccare su «Avanti».
 
 </div>
 
+&nbsp;
+
 <!-- 6ème paire de colonnes -->
 
 <div class="two_column">
@@ -150,6 +160,8 @@ Spuntare le caselle «Confermo di aver letto e compreso le condizioni di utilizz
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 7ème paire de colonnes -->
 
@@ -171,7 +183,11 @@ Selezionare l'opzione desiderata e poi seguire le istruzioni sullo schermo.
 
 </div>
 
+&nbsp;
+
 Una volta che l'utente ha ricevuto la conferma della ricezione del pagamento può procedere con l'identificazione video. Selezionare l'opzione con la migliore qualità audio e video:
+
+&nbsp;
 
 <!-- 8ème paire de colonnes avant -->
 <div class="two_column">
@@ -219,7 +235,11 @@ Per farlo, scansionare il codice QR apparso sullo schermo e istallare l'applicaz
 
 </div>
 
+&nbsp;
+
 L'utente sarà quindi collegato tramite video con una persona incaricata di verificare la sua identità.
+
+&nbsp;
 
 <!-- 9ème paire de colonnes -->
 

@@ -41,6 +41,8 @@ Andare sul sito web di {{<link url="https://www.mobileid.ch/it" newTab="true">}}
 
 </div>
 
+&nbsp;
+
 <!-- 2eme paire de colonnes -->
 
 <div class="two_column">
@@ -61,6 +63,8 @@ Al numero indicato sarà quindi inviato un SMS con un codice che va immesso nell
 
 </div>
 
+&nbsp;
+
 Una volta inserito il codice correttamente l'utente si troverà sulla propria dashboard Mobile ID.
 
 Il passaggio successivo consiste nell'attivazione di Mobile ID.
@@ -70,6 +74,8 @@ Per poter utilizzare la piattaforma SpiGes, l'attivazione deve avvenire tramite 
 {{</alert>}}
 
 Nella dashboard di Mobile ID, sotto «SIM Status» è indicato se la scheda SIM è compatibile o meno. Nel caso in cui non sia compatibile, occorre ordinare una nuova scheda SIM presso il proprio gestore telefonico.
+
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -90,7 +96,11 @@ In caso la SIM sia compatibile, sulla propria dashboard apparirà il messaggio s
 
 </div>
 
+&nbsp;
+
 In caso di compatibilità della propria SIM, procedere come segue:
+
+&nbsp;
 
 <!-- 4eme paire de colonnes -->
 
@@ -108,6 +118,8 @@ Nel riquadro «Attivare Mobile ID» cliccare su «Attivare».
 
 </div>
 
+&nbsp;
+
 <!-- 5eme paire de colonnes -->
 
 <div class="two_column">
@@ -123,6 +135,8 @@ Selezionare il riquadro «SIM» e cliccare su «Avanti».
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 4eme paire de colonnes -->
 
@@ -140,6 +154,8 @@ Spuntare la casella «Accetto i termini e le condizioni» e cliccare su «Avanti
 
 </div>
 
+&nbsp;
+
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">
@@ -156,6 +172,8 @@ Chi fosse già stato in possesso di un Mobile ID in passato, ha ora la possibili
 
 </div>
 
+&nbsp;
+
 Sul cellulare si aprirà quindi una finestra che chiederà di inserire un PIN di sei cifre. Una volta inserito e cliccato su «OK», si aprirà una nuova finestra dove il PIN scelto dovrà essere immesso di nuovo per conferma.
 
 La procedura è ora terminata.
@@ -168,6 +186,8 @@ Assicurarsi di conservare il codice di ripristino in un luogo sicuro. Poiché la
 
 Qui di seguito viene illustrato come impostare ID Mobile come secondo fattore forte nel CH-LOGIN.
 <!-- Wenn Sie bereits einen (schwachen) Zweitfaktor (mTAN) haben, wird empfohlen diesen zuerst zu entfernen. Klicken Sie dazu in der Kachel Mobile-Nummer (mTAN) auf Entfernen. Danach können Sie der oben erwähnten Anleitung folgen um die Mobile ID als (starken) Zweitfaktor zu registrieren. -->
+
+&nbsp;
 
 <!-- 1ere paire de colonnes -->
 
@@ -187,6 +207,8 @@ Qui di seguito viene illustrato come impostare ID Mobile come secondo fattore f
 
 </div>
 
+&nbsp;
+
 <!-- 2eme paire de colonnes -->
 
 <div class="two_column">
@@ -202,6 +224,8 @@ Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare s
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 3eme paire de colonnes -->
 
@@ -223,6 +247,8 @@ Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un acc
 
 </div>
 
+&nbsp;
+
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">
@@ -238,6 +264,8 @@ Selezionare l'opzione «Mobile ID» e cliccare su «Avanti».
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 5eme paire de colonnes -->
 
@@ -257,6 +285,8 @@ Immettere il seguente codice MIO **16783** e cliccare su «Salva».
 
 </div>
 
+&nbsp;
+
 <!-- 6eme paire de colonnes -->
 
 <div class="two_column">
@@ -272,6 +302,8 @@ Inserire la propria password e cliccare su «Avanti».
 </div>
 
 </div>
+
+&nbsp;
 
 <!-- 7eme paire de colonnes -->
 
@@ -289,6 +321,8 @@ Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti�
 
 </div>
 
+&nbsp;
+
 <!-- 8eme paire de colonnes -->
 
 <div class="two_column">
@@ -304,6 +338,8 @@ Inserite il proprio numero di cellulare (il numero collegato al proprio Mobile 
 </div>
 
 </div>
+
+&nbsp;
 
 Apparirà quindi un messaggio e il cellulare chiederà di confermare il collegamento inserendo il PIN del proprio Mobile ID.
 
