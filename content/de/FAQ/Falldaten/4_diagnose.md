@@ -34,16 +34,12 @@ Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Au
 
 …wird wie folgt in **SpiGes** erfasst:  
 
-{{<markdown>}}
 |diagnose_kode|diagnose_id|diagnose_zusatz
 |---------|---------|---------|
 |E10.73|1| |
 |I79.2|2|E10.73|
 |H36.0|3|E10.73|
 |N08.3|4|E10.73|
-{{</markdown>}}
-
-{{<markdown>}}
 
 **Beispiel 4** im Koderhandbuch (Seite 40)
 
@@ -55,9 +51,7 @@ Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Au
 - ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des Beckens) mit Verbindung zu einer intraabdominalen Verletzung
 
 …wird wie folgt in **SpiGes** erfasst:
-{{</markdown>}}
 
-{{<markdown>}}
 |diagnose_kode|diagnose_id|diagnose_zusatz
 |---------|---------|---------|
 |S37.03|1| |
@@ -67,10 +61,9 @@ Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Au
 |S31.83|5|S36.03|
 |S31.83|6|S36.49|
 |S31.83|7|S37.03|
-{{</markdown>}}
 
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-
 {{</numberedList>}}
 {{</faqBlock>}}
