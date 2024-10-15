@@ -41,14 +41,14 @@ Comment est définie le «Transfert interne» ?
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
-- Le transfert interne d’un domaine de prestations (soins aigus, psychiatrie, réadaptation) vers un autre domaine de prestations au sein du même hôpital (burnr_gesv),
+- Le transfert interne d'un domaine de prestations (soins aigus, psychiatrie, réadaptation) vers un autre domaine de prestations au sein du même hôpital (burnr_gesv),
 - ou pour les cas considérés comme étant en attente de placement.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Est-il possible d’avoir une définition pour la valeur « 7 = rapatriement » ?
+Est-il possible d'avoir une définition pour la valeur « 7 = rapatriement » ?
 {{<collapsibleBlock groupId="admninistratives">}}
 Rapatriement d'un patient ou d'une patiente avec une résidence principale suisse de l'étranger vers la Suisse, sans exigences particulières quant au moyen de transport ou à l'accompagnement.
 {{</collapsibleBlock>}}
@@ -128,8 +128,8 @@ Selon notre administration des patients, il est difficile d'obtenir l'informatio
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 
-- Les cas Flex et tous les autres modèles d'assurance qui deviennent de plus en plus populaires ne sont pas faciles à représenter. Malgré ces difficultés, d’un point de vue statistique, cela n’est pas dramatique pour la variable Classe d'assurance si l’information n’est pas sure. En cas de doute, ces cas devraient être représentés en tant que semi-privés.
-- La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K®. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l’ITAR_K®.
+- Les cas Flex et tous les autres modèles d'assurance qui deviennent de plus en plus populaires ne sont pas faciles à représenter. Malgré ces difficultés, d'un point de vue statistique, cela n'est pas dramatique pour la variable Classe d'assurance si l'information n'est pas sure. En cas de doute, ces cas devraient être représentés en tant que semi-privés.
+- La variable "liegeklasse" est en revanche centrale pour la représentation de l'ITAR_K®. Il n'y a pas non plus de catégorie "autre" et les cas avec "inconnu" seront examinés de près. En fonction de la valeur de cette variable, les cas sont attribués dans des colonnes différentes dans l'ITAR_K®.
 {{</markdown>}}  
 {{</collapsibleBlock>}}
 {{</listItem>}}

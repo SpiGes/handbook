@@ -1,5 +1,5 @@
 ---
-title: Indicazioni generali  
+title: Informazioni generali
 slug: allgemeine_angaben
 description: " "
 weight: 10

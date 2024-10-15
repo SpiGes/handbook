@@ -14,7 +14,7 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung-Nicht kom
 
 ## Français
 
-Ce travail est sous licence [Creative Commons Attribution - Pas d’Utilisation Commerciale - Pas de Modification 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr).
+Ce travail est sous licence [Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr).
 
 ![Licence Creative Commons](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
 
@@ -27,5 +27,3 @@ Quest'opera è distribuita con Licenza [Creative Commons Attribuzione - Non comm
 ## Rumantsch
 
 Please note: The Romanche language version is not officially provided by Creative Commons. For detailed information, please refer to the English version or another official Swiss language version.
-
-

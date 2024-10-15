@@ -1,30 +1,30 @@
 ---
-title: FIDO Key
+title: Token FIDO
 slug: FIDO_token
-description: "In questa pagina vi forniamo tutte le informazioni necessarie per utilizzare una FIDO key come secondo fattore di sicurezza."
+description: "Su questa pagina sono disponibili tutte le informazioni sull'utilizzo di FIDO Passkey come secondo fattore di sicurezza."
 keywords: []
 weight: 30
 type: docs
 ---
 
-Se non potete usare Windows Hello o Mobile ID, potete anche usare una chiave di sicurezza fisica FIDO come secondo fattore di sicurezza forte.
+Nel caso in cui non sia possibile utilizzare Windows Hello o Mobile ID come secondo fattore di sicurezza forte, è possibile utilizzare una chiave di sicurezza FIDO su supporto fisico.  
 
 {{<alert color="warning">}}
-Se possibile, vi chiediamo di utilizzare prima Windows Hello e poi Mobile ID. È necessario acquistare una chiave FIDO a proprie spese.
+Se possibile, consigliamo di dare la priorità in primo luogo a Windows Hello e in secondo luogo a Mobile ID. L'acquisto di una chiave FIDO è a carico dell'utente.
 {{</alert>}}
 
 Le chiavi di sicurezza FIDO (FIDO Passkeys) sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico. Devono essere acquistati dagli stessi utenti finali, a proprie spese. Ecco un elenco delle {{<link url="https://www.agov.admin.ch/it/chiavi-di-sicurezza" newTab="true">}}chiavi di sicurezza{{</link>}} supportate.
 
-<!--I token FIDO sono supporti di dati che possono assumere la forma di una chiave USB e contenere materiale crittografico.
+<!--Le chiavi di sicurezza FIDO sono supporti di dati, ad esempio sotto forma di chiavette USB, che contengono materiale crittografico.
 
-eIAM supporta i seguenti tipi di token FIDO per CH-LOGIN:
-- YubiKey Serie 5 FIPS con NFC
-- Serie YubiKey 5
-- YubiKey Serie 5 con NFC
-- Chiave di sicurezza di Yubico con NFC
-- Autenticatore Feitian BioPass FIDO2-->
+Per il CH-LOGIN, eIAM supporta i seguenti tipi di chiave di sicurezza FIDO.
+– YubiKey 5 FIPS Series with NFC
+– YubiKey 5 Series
+– YubiKey 5 Series with NFC
+– Security Key by Yubico with NFC
+– Feitian BioPass FIDO2 Authenticator-->
 
-## Registrazione di una key FIDO sul proprio CH_LOGIN
+## Salvataggio di una chiave di sicurezza FIDO sul proprio CH-LOGIN
 
 <!-- 1ere paire de colonnes -->
 
@@ -32,19 +32,17 @@ eIAM supporta i seguenti tipi di token FIDO per CH-LOGIN:
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
+<p> Effettuare l'accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
-<p> In fondo alla pagina, cliccate su "Modificare le impostazioni del secondo fattore". </p>
+<p> Cliccare in basso su «Modificare le impostazioni del secondo fattore». Inserire la propria password e cliccare su «Avanti». </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_it.png" description="modification paramètres" class="edge max-w-90">}}    
+{{<insertImage image="modif_parametres_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 2eme paire de colonnes -->
 
@@ -52,17 +50,15 @@ eIAM supporta i seguenti tipi di token FIDO per CH-LOGIN:
 
 <div class="left_col">
 <!-- First column content goes here -->
-Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su "Chiudi".
+Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare su «Chiudi».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}}     
+{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 3eme paire de colonnes -->
 
@@ -71,20 +67,18 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore".
+Nella scheda «Accesso & sicurezza» è ora apparsa anche la casella «Verificare il secondo fattore».
 
-Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra".
+Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un accesso più sicuro».
 {{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}}           
+{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 4eme paire de colonnes -->
 
@@ -92,7 +86,7 @@ Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare c
 
 <div class="left_col">
 <!-- First column content goes here -->
-Scegliere l'opzione "Passkey (FIDO)" e fare clic su "Avanti".
+Selezionare l'opzione «Passkey (FIDO)» e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
@@ -102,15 +96,13 @@ Scegliere l'opzione "Passkey (FIDO)" e fare clic su "Avanti".
 
 </div>
 
-&nbsp; 
-
 <!-- 6eme paire de colonnes -->
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-Immettere la password, quindi fare clic su "Avanti".
+Inserire la propria password e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
@@ -120,26 +112,21 @@ Immettere la password, quindi fare clic su "Avanti".
 
 </div>
 
-&nbsp; 
-
 <!-- 7eme paire de colonnes -->
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "Avanti".
+Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge max-w-90">}}         <!-- ATTENTION image en français -->
+{{<insertImage image="questions_secu.png" class="edge max-w-90">}}
 </div>
 
 </div>
-
-
-&nbsp;
 
 <!-- 8eme paire de colonnes -->
 
@@ -147,7 +134,7 @@ Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "Avanti".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Assegnare un nome alla chiave di accesso (FIDO), quindi fare clic su "Avanti".
+Assegnare un nome alla propria chiave di sicurezza FIDO e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
@@ -157,43 +144,33 @@ Assegnare un nome alla chiave di accesso (FIDO), quindi fare clic su "Avanti".
 
 </div>
 
-&nbsp;
-
 <!-- 9eme paire de colonnes -->
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-Inserire la chiave FIDO nel computer, quindi fare clic su "Start". 
+Inserire la chiave FIDO nel computer e fare clic su «Start».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="config_fido.png" class="edge max-w-90">}}
+{{<insertImage image="config_fido_it.png" class="edge max-w-90">}}
 </div>
 
 </div>
 
-&nbsp;
+Sul computer si aprirà una finestra contenente diverse opzioni. Scegliere «Chiave di sicurezza».
 
+Nel caso si stia utilizzando una chiave di sicurezza FIDO per la prima volta, è necessario configurarla. Per farlo, cliccare su «OK» e scegliere un codice PIN per la propria chiave di sicurezza FIDO.
 
-Inserire la chiave FIDO nel computer, quindi scegliere "chiave di sicurezza" dalle opzioni. 
-
-Se è la prima volta che si utilizza la chiave FIDO, è necessario configurarla. A tal fine, fare clic su "ok" e definire un codice PIN per la chiave FIDO. 
-
-Infine, premere il pulsante della chiave FIDO (a seconda del modello di chiave, potrebbe essere sufficiente toccare la chiave). 
+Infine, premere il pulsante presente sulla chiave FIDO (a seconda del modello di chiave, potrebbe essere sufficiente solo toccarla).
 
 <!-- 
+Die Erläuterungen zum Speichern des FIDO Passkeys in Ihrer CH_LOGIN sind noch nicht verfügbar. In der Zwischenzeit können Sie sich auf [diese Anleitung](https://help.eiam.swiss/?c=passkeys&l=de) beziehen.
+ 
 
-Le spiegazioni su come registrare la chiave FIDO sul proprio CH_LOGIN non sono ancora disponibili. Nel frattempo, è possibile fare riferimento a [queste istruzioni](https://help.eiam.swiss/?c=passkeys&l=fr). 
-
-Una volta che la chiave FIDO è stata registrata come secondo fattore forte del CH-LOGIN, è possibile eseguire l'identificazione video della chiave FIDO. 
-
-Le spiegazioni sull'identificazione video della chiave FIDO non sono ancora disponibili. Nel frattempo, è possibile consultare [queste istruzioni](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=en). 
-
+Die Erläuterungen zur Videoidentifikation für den FIDO Passkeys sind noch nicht verfügbar. In der Zwischenzeit können Sie sich auf [diese Anleitung](https://help.eiam.swiss/index.php?c=h!vipspasskey&l=de) beziehen.
 -->
 
-Una volta che la chiave FIDO è stata registrata come secondo fattore forte del CH-LOGIN, è possibile effettuare l'identificazione video della chiave FIDO. A tal fine, passare alla fase di identificazione video.
-
-
+Una volta registrata la chiave FIDO come secondo fattore forte del proprio CH-LOGIN, può quindi essere effettuata l'identificazione video ad essa relativa. A tal fine, procedere con l'identificazione video.

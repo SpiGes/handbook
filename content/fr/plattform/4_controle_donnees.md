@@ -9,9 +9,9 @@ type: docs
 
 {{<alert title="Vérification à la source" color="info">}}
 {{<markdown>}}
-Idéalement, les données sont contrôlées directement dans le système de saisie de l’hôpital, en amont du processus de relevé.
+Idéalement, les données sont contrôlées directement dans le système de saisie de l'hôpital, en amont du processus de relevé.
 
-Les hôpitaux contrôlent les données « à la source » dans leur propre système et peuvent au préalable intégrer dans leur système les outils de vérification mis à leur disposition par l’OFS à cet effet. Il est également possible de faire contrôler les données en cours d’année, avant la collecte de données proprement dite, sur la plateforme SpiGes. Étant donné que ce contrôle a lieu avant le début ordinaire du relevé (janvier de l'année suivante), le statut du relevé est à l'état de "préparation".
+Les hôpitaux contrôlent les données « à la source » dans leur propre système et peuvent au préalable intégrer dans leur système les outils de vérification mis à leur disposition par l'OFS à cet effet. Il est également possible de faire contrôler les données en cours d'année, avant la collecte de données proprement dite, sur la plateforme SpiGes. Étant donné que ce contrôle a lieu avant le début ordinaire du relevé (janvier de l'année suivante), le statut du relevé est à l'état de "préparation".
 
 Nous avons prévu les mesures suivantes à cet effet :
 
@@ -23,10 +23,10 @@ Nous avons prévu les mesures suivantes à cet effet :
 
 ## Vérification autonome
 
-Lors d’un import, toutes les vérifications sont effectuées automatiquement. Leurs résultats sont enregistrés et présentés. Les compléments sont également apportés automatiquement, de sorte que les données peuvent aussi être contrôlées à ce sujet.
+Lors d'un import, toutes les vérifications sont effectuées automatiquement. Leurs résultats sont enregistrés et présentés. Les compléments sont également apportés automatiquement, de sorte que les données peuvent aussi être contrôlées à ce sujet.
 
-L’établissement traite les résultats du contrôle de manière autonome et corrige les données lorsque cela est possible en téléchargeant les données corrigées.
-Si la correction n’est pas possible ou que le contrôle a détecté une erreur à tort, l’établissement saisit une justification dans la section commentaire prévu à cette effet sur la plateforme. La vérification peut aussi générer un avertissement, qui se veut informatif et n’implique pas forcément une justification ou une correction. La vérification autonome est terminée une fois que toutes les erreurs ont été corrigées ou justifiées, ce qui doit être fait d’ici à la fin avril.
+L'établissement traite les résultats du contrôle de manière autonome et corrige les données lorsque cela est possible en téléchargeant les données corrigées.
+Si la correction n'est pas possible ou que le contrôle a détecté une erreur à tort, l'établissement saisit une justification dans la section commentaire prévu à cette effet sur la plateforme. La vérification peut aussi générer un avertissement, qui se veut informatif et n'implique pas forcément une justification ou une correction. La vérification autonome est terminée une fois que toutes les erreurs ont été corrigées ou justifiées, ce qui doit être fait d'ici à la fin avril.
 
 ### Contrôle du format
 

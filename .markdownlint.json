@@ -29,7 +29,14 @@
             "grid",
             "row",
             "column",
-            "br"
+            "br",
+            "table",
+            "td",
+            "tr",
+            "th",
+            "div",
+            "p",
+            "strong"
         ]
     }
 }

@@ -1,5 +1,5 @@
 ---
-title: Unité finale d’imputation «Cas»
+title: Unité finale d'imputation «Cas»
 slug: kostentraeger_fall
 description: " "
 weight: 90
@@ -12,7 +12,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="kostentraeger">
 
 {{<numberedList>}}
 {{<listItem>}}
-Comment faut-il présenter les coûts pour les cas forensiques C (durée de séjour de plusieurs années) ? Pour l'ensemble du cas (durée de séjour complète) ou seulement les coûts pour l'année civile concernée et le reste par le biais d’ajustements ?
+Comment faut-il présenter les coûts pour les cas forensiques C (durée de séjour de plusieurs années) ? Pour l'ensemble du cas (durée de séjour complète) ou seulement les coûts pour l'année civile concernée et le reste par le biais d'ajustements ?
 {{<collapsibleBlock groupId="kostentraeger">}}
 Pour les cas B et C, les coûts doivent être indiqués pour l'année civile ; pour les cas A,les coûts doivent être indiqués pour toute la durée du cas. Pour les payeurs ambulatoires et non liés à un cas, indiquer également les coûts sur l'année civile. Voir également la colonne «Indic. Temp» de la liste des variables.  
 {{</collapsibleBlock>}}

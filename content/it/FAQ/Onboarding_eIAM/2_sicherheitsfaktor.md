@@ -8,27 +8,29 @@ keywords: []
 ---
 
 {{<faqBlock>}}
-Aprire tutte le domande: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
+Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="Zweiter_sicherheitsfaktor">}}
 
 {{<numberedList>}}
 {{<listItem>}}
-Quali fattori di sicurezza secondari posso utilizzare?
+Quali secondi fattori di sicurezza possono essere utilizzati?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Per accedere alla piattaforma SpiGes è necessario un secondo fattore forte. Sono considerati forti i seguenti secondi fattori: Mobile ID e chiave FIDO. 
+Per accedere alla piattaforma SpiGes è necessario utilizzare un secondo fattore forte. I seguenti secondi fattori sono considerati forti: Mobile ID e FIDO Passkey.
+<!-- A compléter avec new faq-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-L'identificazione video è obbligatoria per l'utilizzo della piattaforma di indagine SpiGes?
+L'identificazione video è obbligatoria per poter accedere alla piattaforma di rilevazione SpiGes?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Sì, senza identificazione video non si raggiunge la QoA 50 (Qualità dell'autenticazione), necessaria per accedere alla piattaforma della rilevazione SpiGes. Per raggiungere questo livello di qualità dell'autenticazione, l'utente deve avere un'identità elettronica verificata e non solo autoregistrata.
+Sì. Senza identificazione video, non è possibile raggiungere la QoA 50 (Quality of Authentication) necessaria per accedere alla piattaforma di rilevazione SpiGes. Per raggiungere questo livello di qualità di autenticazione, l'utente deve disporre di un'identità elettronica  verificata e non solo autoregistrata.
+<!-- A compléter avec new faq-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Che cos'è un'identità verificata e cosa bisogna fare per ottenerla?
+Che cos'è un'identità elettronica verificata e cosa bisogna fare per ottenerla?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Affinché un'identità elettronica sia considerata verificata, è necessario che un documento d'identità ufficiale con foto del titolare dell'identità elettronica sia stato controllato, registrato e che il titolare dell'identità elettronica sia stato correttamente identificato. A tal fine, è necessario sottoporsi al processo di identificazione video (VIPS) a pagamento (CHF 45.00), durante il quale l'identità viene verificata da una persona certificata.
+Affinché un'identità elettronica sia considerata verificata, un documento d'identità ufficiale con foto del titolare dell'identità elettronica deve essere stato controllato e registrato, e il titolare dell'identità elettronica deve essere stato correttamente identificato. A tal fine, è necessario sottoporsi alla procedura di identificazione video (VIPS), che è a pagamento (CHF 45.00) e prevede la verifica dell'identità dell'utente da parte di una persona autorizzata.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

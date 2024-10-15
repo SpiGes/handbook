@@ -41,7 +41,7 @@ Wenn Sie bereits ein CH-LOGIN besitzen, können Sie sich einloggen, andernfalls 
 
 </div>
 
-&nbsp; 
+&nbsp;
 <!-- 3eme paire de colonnes -->
 
 <div class="two_column">
@@ -64,7 +64,7 @@ Klicken Sie dann auf "Ich akzeptiere die Nutzungsbedingungen" und klicken Sie au
 
 </div>
 
-&nbsp; 
+&nbsp;
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">

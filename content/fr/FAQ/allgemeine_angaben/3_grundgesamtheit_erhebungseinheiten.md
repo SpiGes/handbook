@@ -40,6 +40,7 @@ Le tableau suivant montre, à titre d'exemple, une entreprise (IDE/ENTID) avec 1
 Quels sont les termes synonymes d'entreprise hospitalière, d'hôpital et de site hospitalier utilisés dans l'enquête SpiGes ?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
+
 |Niveau|Termes synonymes|
 |-------|-------|
 |**Entreprise hospitalière**<br>Unité juridique|Entreprise (hospitalière)|
@@ -56,7 +57,7 @@ Comment déterminer à quel hôpital (BURGESV) appartient un site (BUR) ?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 
-- Nous demandons l'attribution des sites (BUR) aux hôpitaux (BURGESV) lors de la collecte de la population de base. Dans ce processus, ce sont les cantons, en collaboration avec les hôpitaux, qui nous donnent l’information.
+- Nous demandons l'attribution des sites (BUR) aux hôpitaux (BURGESV) lors de la collecte de la population de base. Dans ce processus, ce sont les cantons, en collaboration avec les hôpitaux, qui nous donnent l'information.
 - Le burnr_gesv est également relevé à la demande de nos partenaires.
 {{</markdown>}}
 {{</collapsibleBlock>}}

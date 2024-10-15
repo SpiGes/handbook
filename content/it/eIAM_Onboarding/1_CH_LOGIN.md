@@ -1,19 +1,19 @@
 ---
-title: Creazione di CH-LOGIN
+title: Creazione di un CH-LOGIN
 slug: ch_login
-description: "In questa pagina spieghiamo come creare un CH-LOGIN, l'account che vi permetterà di accedere a eIAM. "
+description: 'Su questa pagina sono riportate le istruzioni per creare un CH-LOGIN, un account con il quale è possibile accedere a eIAM.'
 keywords: []
 weight: 10
 type: docs
 ---
 
-Il CH-LOGIN è una procedura di login fornita dal servizio standard eIAM dell'Amministrazione federale. Il conteggio del CH-LOGIN può essere utilizzato per diverse applicazioni dell'Amministrazione federale.
+Il CH-LOGIN è una procedura di login fornita dal servizio standard eIAM dell'Amministrazione federale e può essere utilizzato per varie applicazioni.
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-Andate su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} e selezionate la casella <strong>CH-LOGIN & AGOV (eGovernment)</strong> nelle opzioni di accesso.
+Andare su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} e poi cliccare su <strong>CH-LOGIN & AGOV (eGouvernment)</strong> tra le opzioni di accesso.
 </div>
 
 <div class="right_col">
@@ -23,15 +23,13 @@ Andate su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}acc
 
 </div>
 
-&nbsp;
-
 <!-- Deuxième paire de colonnes -->
 
 <div class="two_column">
 
 <div class="left_col">
 <!-- First column content goes here -->
-Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti cliccate su "creare un account".
+Se si dispone già di un CH-LOGIN è possibile procedere con il login, altrimenti cliccare su «Creare un account».
 </div>
 
 <div class="right_col">
@@ -41,7 +39,6 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 
 </div>
 
-&nbsp; 
 <!-- 3eme paire de colonnes -->
 
 <div class="two_column">
@@ -49,11 +46,11 @@ Se avete già un account CH-LOGIN, potete effettuare il login, altrimenti clicca
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Inserite i vostri dati personali. Assicuratevi di inserire le stesse informazioni riportate sui vostri documenti d'identità.
+Inserire i propri dati personali. Assicurarsi di inserire le stesse informazioni riportate sul proprio documento d'identità.
 
-Scegliete il vostro indirizzo e-mail professionale, quello che userete per tutto l'utilizzo della piattaforma SpiGes. Sarà necessario anche per reimpostare la password, se necessario.
+Inserire l'indirizzo e-mail aziendale con il quale sarà effettuato l'accesso per tutta la durata dell'utilizzo della piattaforma SpiGes. Sarà inoltre questo l'indirizzo da utilizzare in caso fosse necessario reimpostare la password.
 
-Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Avanti".
+Cliccare quindi su «Accetto le condizioni di utilizzo» e su «Avanti».
 {{</markdown>}}
 </div>
 
@@ -64,7 +61,6 @@ Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Avanti".
 
 </div>
 
-&nbsp; 
 <!-- 4eme paire de colonnes -->
 
 <div class="two_column">
@@ -72,20 +68,17 @@ Spuntare quindi la voce "Accetto le condizioni di utilizzo" e premere "Avanti".
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Ora riceverete un codice di conferma all'indirizzo e-mail inserito.
+Viene poi inviato un codice di conferma all'indirizzo mail inserito.
 
-Inserire il codice di conferma e premere "Continua".
+Inserire il codice e cliccare su «Avanti».
 {{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="code_conf_fr.png" description="Choix connexion" class="edge max-w-90">}}  <!-- ATTENTION image en français -->
+{{<insertImage image="code_conf_it.png" description="Choix connexion" class="edge max-w-90">}}   <!-- Image en français -->
 </div>
 
 </div>
 
-&nbsp;
-
-
-Questo è tutto. Ora è necessario rafforzare la sicurezza del proprio account con l'autenticazione a due fattori. A tal fine, attivare Mobile ID.
+L'account è stato creato. È ora necessario incrementare il livello di sicurezza del proprio account con l'autenticazione a due fattori.

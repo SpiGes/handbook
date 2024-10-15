@@ -24,22 +24,22 @@ Pour ce faire, il suffit de sélectionner sous ktr_typ le code de la prestation 
   <tr>
     <td> 501 </td>
     <td> Typ a) </td>
-    <td> Prestations en attente (exclus prestations en attente pour l’urgence) </td>
+    <td> Prestations en attente (exclus prestations en attente pour l'urgence) </td>
   </tr>
   <tr>
     <td> 502 </td>
     <td> Typ a) </td>
-    <td> Service de sauvetage et d’ambulance / Appel d’urgence 144 </td>
+    <td> Service de sauvetage et d'ambulance / Appel d'urgence 144 </td>
   </tr>
   <tr>
     <td> 503 </td>
     <td> Typ a) </td>
-    <td> Unités d’hôpital protégées </td>
+    <td> Unités d'hôpital protégées </td>
   </tr>
   <tr>
     <td> 504 </td>
     <td> Typ a) </td>
-    <td> Jardins d’enfants et écoles pour les patients </td>
+    <td> Jardins d'enfants et écoles pour les patients </td>
   </tr>
   <tr>
     <td> 505 </td>
@@ -64,7 +64,7 @@ Pour ce faire, il suffit de sélectionner sous ktr_typ le code de la prestation 
   <tr>
     <td> 599 </td>
     <td> Typ a) </td>
-    <td> Autres missions de l’hôpital </td>
+    <td> Autres missions de l'hôpital </td>
   </tr>
   <tr>
     <td> 601 </td>
@@ -106,16 +106,16 @@ Pour ce faire, il suffit de sélectionner sous ktr_typ le code de la prestation 
 {{</listItem>}}
 
 {{<listItem>}}
-Les objets de coûts non reliés à un cas peuvent-ils être rattachés à un hôpital (burnr_gesv) au lieu d'un site ? 
+Les objets de coûts non reliés à un cas peuvent-ils être rattachés à un hôpital (burnr_gesv) au lieu d'un site ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Non, ce n'est pas possible. 
+Non, ce n'est pas possible.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Peut-on utiliser les types KTR plusieurs fois ? Par exemple, pour 599, livrer plusieurs lignes avec un texte libre différent dans la variable «ktr_beschr» ?
 {{<collapsibleBlock groupId="falldunabhangige">}}
-Oui, c'est possible. Une unité finale d’imputation est attribuée à une colonne ITAR_K® sur la base de l'indication «ktr_typ». Ainsi, une des valeurs prédéfinies doit être utilisée dans la variable «ktr_typ». Il est toutefois possible d'indiquer plusieurs unités finales d’imputation avec le même type de KTR, par exemple pour le ktr_typ 205, une fois avec le texte libre «LAMal» et une fois avec le texte libre «CTM» dans la variable «ktr_beschr». Ces deux objets de coûts sont ensuite additionnés et représentés dans la colonne ITAR_K® «Psy. Hôpital de jour enfants, adolescents». En théorie, d'autres déclinaisons sont techniquement possibles, jusqu’au cas ambulatoire. Tant qu'ils présentent tous le même type KTR, ils sont additionnés et représentés comme décrit.
+Oui, c'est possible. Une unité finale d'imputation est attribuée à une colonne ITAR_K® sur la base de l'indication «ktr_typ». Ainsi, une des valeurs prédéfinies doit être utilisée dans la variable «ktr_typ». Il est toutefois possible d'indiquer plusieurs unités finales d'imputation avec le même type de KTR, par exemple pour le ktr_typ 205, une fois avec le texte libre «LAMal» et une fois avec le texte libre «CTM» dans la variable «ktr_beschr». Ces deux objets de coûts sont ensuite additionnés et représentés dans la colonne ITAR_K® «Psy. Hôpital de jour enfants, adolescents». En théorie, d'autres déclinaisons sont techniquement possibles, jusqu'au cas ambulatoire. Tant qu'ils présentent tous le même type KTR, ils sont additionnés et représentés comme décrit.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

@@ -19,9 +19,9 @@ Oui, les formats du concept d'interface doivent être repris.
 {{</listItem>}}
 
 {{<listItem>}}
-Les grands fournisseurs de logiciels d’administration des patients (par exemple SAP) ont-ils également été informés par l'OFS et développent-ils déjà des solutions logicielles ? Il est probable que le fichier XML devrait à l'avenir être créé dans le logiciel d’administration des patients.
+Les grands fournisseurs de logiciels d'administration des patients (par exemple SAP) ont-ils également été informés par l'OFS et développent-ils déjà des solutions logicielles ? Il est probable que le fichier XML devrait à l'avenir être créé dans le logiciel d'administration des patients.
 {{<collapsibleBlock groupId="allgemein">}}
-En janvier 2023, nous avons organisé une réunion d'information à l’intention des fabricants de systèmes d’information clinique (logiciels d'administration des patients). SAP y était également représenté. L'OFS informe régulièrement ce groupe de l'état d'avancement de SpiGes.
+En janvier 2023, nous avons organisé une réunion d'information à l'intention des fabricants de systèmes d'information clinique (logiciels d'administration des patients). SAP y était également représenté. L'OFS informe régulièrement ce groupe de l'état d'avancement de SpiGes.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -94,7 +94,7 @@ Oui, il existe des fournisseurs privés qui proposent un tel outil. C'est pourqu
 {{<listItem>}}
 Est-il prévu de mettre à disposition un Excel pour les coûts non reliés à un cas, dans lequel établissement peut remplir les coûts non reliés à un cas en format Excel et les exporter ensuite en format XML ?
 {{<collapsibleBlock groupId="allgemein">}}
-La livraison séparée de différents types d'éléments XML est possible. C'est-à-dire que les unités finales d’imputation non reliées à un cas peuvent en principe être livrées dans un autre fichier que les unités finales d’imputation reliées à un cas. Il existe des fournisseurs privés qui mettent à disposition un outil de conversion Excel. C'est pourquoi l'OFS ne poursuit pas actuellement cette idée.
+La livraison séparée de différents types d'éléments XML est possible. C'est-à-dire que les unités finales d'imputation non reliées à un cas peuvent en principe être livrées dans un autre fichier que les unités finales d'imputation reliées à un cas. Il existe des fournisseurs privés qui mettent à disposition un outil de conversion Excel. C'est pourquoi l'OFS ne poursuit pas actuellement cette idée.
 <!--Nous devons encore déterminer si nous pouvons mettre à disposition un outil pour la transformation des données à partir d'un fichier Excel.-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -156,7 +156,7 @@ Les données cantonales ne peuvent être exportées que par l'hôpital lui-même
 {{</listItem>}}
 
 {{<listItem>}}
-Est-ce qu’il sera possible d’effectuer des corrections directement sur la plateforme ?
+Est-ce qu'il sera possible d'effectuer des corrections directement sur la plateforme ?
 {{<collapsibleBlock groupId="allgemein">}}
 Non, la plateforme n'offre pas la possibilité de saisir ou de corriger des données. L'objectif est de corriger les erreurs à la source, c'est-à-dire dans les systèmes des hôpitaux, afin que les exportations ultérieures soient cohérentes et que les erreurs n'apparaissent plus dans les prochains relevés.
 {{</collapsibleBlock>}}

@@ -1,29 +1,29 @@
 ---
-title: Mobile ID
+title: Mobile ID
 slug: mobile_id
-description: "In questa pagina vi forniamo tutte le informazioni necessarie per utilizzare il Mobile ID come secondo fattore di sicurezza."
+description: "Su questa pagina sono disponibili tutte le informazioni sull'utilizzo di Mobile ID come secondo fattore di sicurezza."
 keywords: []
 weight: 20
 type: docs
 ---
 
 {{<alert color="warning">}}
-Se possibile, vi chiediamo di utilizzare Windows Hello.
+Se possibile, consigliamo di utilizzare Windows Hello.
 {{</alert>}}
 
 {{<alert color="warning">}}
-Il Mobile ID è un metodo di autenticazione diverso dall'SMS mTAN.
+Mobile ID è un mezzo di autenticazione diverso dall'SMS (mTAN).
 {{</alert>}}
 
-Se non è possibile utilizzare Windows Hello come secondo fattore di sicurezza, è possibile utilizzare Mobile ID. Per utilizzare Mobile ID, è necessaria una scheda SIM compatibile con Mobile ID. Se la scheda SIM non è compatibile con Mobile ID, deve essere sostituita. È possibile trovare informazioni su come sostituirlo {{<link url="https://www.mobileid.ch/it/comessa-sim" newTab="true">}}qui{{</link>}}.
+Nel caso in cui non sia possibile utilizzare Windows Hello come secondo fattore di sicurezza, è possibile utilizzare Mobile ID. Per poterlo fare è tuttavia necessaria una scheda SIM compatibile con Mobile ID. Qualora la propria SIM non fosse compatibile con Mobile ID, deve essere sostituita. Maggiori informazioni su come sostituirla sono disponibili {{<link url="https://www.mobileid.ch/it/comessa-sim" newTab="true">}}qui{{</link>}}.
 
 {{<alert color="info">}}
-Mobile ID è un servizio attualmente compatibile solo con una carta SIM svizzera.
+Attualmente il servizio Mobile ID è compatibile solo con schede SIM svizzere.
 {{</alert>}}
 
-## Attivazione del Mobile ID
+## Attivazione di Mobile ID
 
-Per attivare Mobile ID, procedere come segue.
+Per attivare Mobile ID, seguire i seguenti passaggi.
 
 <!-- 1ere paire de colonnes -->
 
@@ -31,17 +31,15 @@ Per attivare Mobile ID, procedere come segue.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Andate sul sito web {{<link url="https://www.mobileid.ch/it">}}MobileID{{</link>}} e selezionate "Prova subito".
+Andare sul sito web di {{<link url="https://www.mobileid.ch/it" newTab="true">}}MobileID{{</link>}} e selezionare «Provare subito».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mobile_id_it.png" description="MobileID" class="edge max-w-90">}}  
+{{<insertImage image="mobile_id_it.png" description="MobileID" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp;
 
 <!-- 2eme paire de colonnes -->
 
@@ -50,32 +48,28 @@ Andate sul sito web {{<link url="https://www.mobileid.ch/it">}}MobileID{{</link>
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Inserire il numero di telefono.
+Inserire il proprio numero di cellulare.
 
-Riceverete quindi un codice via SMS al numero indicato, inserite il codice ricevuto.
+Al numero indicato sarà quindi inviato un SMS con un codice che va immesso nell'interfaccia web.
 {{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel_it.png" description="Code SMS" class="edge max-w-90">}}    
+{{<insertImage image="saisie_tel_mobileid_it.png" description="Code SMS" class="edge max-w-90">}}
 </div>
 
 </div>
 
-&nbsp;
+Una volta inserito il codice correttamente l'utente si troverà sulla propria dashboard Mobile ID.
 
-Ora siete sulla vostra dashboard Mobile ID. 
-
-Il passo successivo è l'attivazione di Mobile ID. 
+Il passaggio successivo consiste nell'attivazione di Mobile ID.
 
 {{<alert color="warning">}}
-Per utilizzare la piattaforma SpiGes, l'attivazione deve avvenire tramite la carta SIM (l'attivazione tramite l'applicazione MobileID non è sufficiente). È necessaria una carta SIM compatibile con Mobile ID. 
+Per poter utilizzare la piattaforma SpiGes, l'attivazione deve avvenire tramite la scheda SIM (l'attivazione tramite l'applicazione Mobile ID non è sufficiente). A tal fine, è necessario disporre di una scheda SIM compatibile con Mobile ID.
 {{</alert>}}
 
-La compatibilità della carta SIM è visualizzata sul cruscotto del Mobile ID. Se la vostra carta SIM non è compatibile, dovrete ordinare una nuova carta SIM presso il vostro operatore telefonico.
-
-&nbsp; 
+Nella dashboard di Mobile ID, sotto «SIM Status» è indicato se la scheda SIM è compatibile o meno. Nel caso in cui non sia compatibile, occorre ordinare una nuova scheda SIM presso il proprio gestore telefonico.
 
 <!-- 3eme paire de colonnes -->
 
@@ -83,24 +77,20 @@ La compatibilità della carta SIM è visualizzata sul cruscotto del Mobile ID. S
 
 <div class="left_col">
 <!-- First column content goes here -->
-Se la carta SIM è incompatibile, sulla dashboard di Mobile ID viene visualizzato il seguente messaggio.
-{{<insertImage image="sim_incompatible_fr.png" description="Code SMS" class="edge max-w-90">}}    <!-- ATTENTION image en français -->
+Sempre in caso di incompatibilità, sulla propria dashboard Mobile ID apparirà il messaggio seguente.
+{{<insertImage image="sim_incompatible_fr.png" description="Code SMS" class="edge max-w-90">}}  <!-- Image en français -->
 
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-Se la carta SIM è compatibile, sulla dashboard di Mobile ID viene visualizzato il seguente messaggio.
-{{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="edge max-w-90">}}      <!-- ATTENTION image en français -->
+In caso la SIM sia compatibile, sulla propria dashboard apparirà il messaggio seguente.
+{{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
 
-&nbsp;
-
-Se la scheda SIM è compatibile, ecco i passaggi da seguire: 
-
-&nbsp;
+In caso di compatibilità della propria SIM, procedere come segue:
 
 <!-- 4eme paire de colonnes -->
 
@@ -108,17 +98,15 @@ Se la scheda SIM è compatibile, ecco i passaggi da seguire:
 
 <div class="left_col">
 <!-- First column content goes here -->
-Fare clic su "attiva" nel riquadro "attiva ID mobile". 
+Nel riquadro «Attivare Mobile ID» cliccare su «Attivare».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activer_mobile_id.png" description="activer MobileID" class="edge max-w-90">}}    <!-- ATTENTION image en français -->
+{{<insertImage image="activer_mobile_id_it.png" description="activer MobileID" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
-
-&nbsp;
 
 <!-- 5eme paire de colonnes -->
 
@@ -126,17 +114,15 @@ Fare clic su "attiva" nel riquadro "attiva ID mobile".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Selezionare la casella "SIM", quindi fare clic su "Avanti".
+Selezionare il riquadro «SIM» e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_sim.png" description="Choix carte SIM" class="edge max-w-90">}}     <!-- ATTENTION image en français -->
+{{<insertImage image="choix_sim_it.png" description="Choix carte SIM" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
-
-&nbsp;
 
 <!-- 4eme paire de colonnes -->
 
@@ -144,17 +130,15 @@ Selezionare la casella "SIM", quindi fare clic su "Avanti".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Accettare i termini e le condizioni, quindi fare clic su "Avanti".
+Spuntare la casella «Accetto i termini e le condizioni» e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="cond_utilisation_fr.png" description="Conditions d'utilisation" class="edge max-w-90">}}      <!-- ATTENTION image en français -->
+{{<insertImage image="cond_utilisation_it.png" description="Conditions d'utilisation" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
-
-&nbsp;
 
 <!-- 4eme paire de colonnes -->
 
@@ -162,35 +146,28 @@ Accettare i termini e le condizioni, quindi fare clic su "Avanti".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Ora avete la possibilità di ripristinare un Mobile ID se ne avevate già uno. In caso contrario o se non si conosce il codice di ripristino, scegliere l'opzione "Desidero continuare senza l'opzione di ripristino". Fare clic su "Avanti", quindi confermare la scelta facendo nuovamente clic su "Avanti".
+Chi fosse già stato in possesso di un Mobile ID in passato, ha ora la possibilità di ripristinarlo. Qualora l'utente conosca il codice di ripristino, selezionare l'opzione «Conosco il mio codice di ripristino» e procedere secondo le indicazioni. In caso contrario, selezionare l'opzione «Vorrei continuare senza un'opzione di sblocco». In caso l'utente non avesse mai attivato un Mobile ID prima d'ora o qualora non conoscesse il codice di ripristino, selezionare l'opzione «Vorrei continuare senza un'opzione di sblocco». Cliccare su «Avanti» e confermare la propria scelta cliccando nuovamente su «Avanti».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_recup.png" description="Possibilité récupération" class="edge max-w-90">}}      <!-- ATTENTION image en français -->
+{{<insertImage image="choix_recup_it.png" description="Possibilité récupération" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 
 </div>
 
-&nbsp;
+Sul cellulare si aprirà quindi una finestra che chiederà di inserire un PIN di sei cifre. Una volta inserito e cliccato su «OK», si aprirà una nuova finestra dove il PIN scelto dovrà essere immesso di nuovo per conferma.
 
-Sul cellulare si apre una finestra che chiede di inserire una password di 6 cifre. Si aprirà quindi una nuova finestra che chiederà di confermare la password.
-
-Il gioco è fatto.
+La procedura è ora terminata.
 
 {{<alert color="warning">}}
-Assicuratevi di annotare il codice di recupero in un luogo sicuro. Poiché la verifica della vostra identità si baserà sul vostro Mobile ID, è importante che possiate ripristinarlo se necessario. Questo è necessario se si dimentica il codice PIN o se si deve sostituire la carta SIM (ad esempio, se si perde il cellulare). 
+Assicurarsi di conservare il codice di ripristino in un luogo sicuro. Poiché la verifica dell'identità di ogni utente si basa sul suo Mobile ID, è importante che sia possibile ripristinarlo se necessario. Questa operazione è necessaria se si dimentica il codice PIN o se la scheda SIM deve essere sostituita (ad esempio, in caso di perdita del cellulare).
 {{</alert>}}
 
+## Aggiunta di ID Mobile come secondo fattore
 
-## Aggiunta del Mobile ID come secondo fattore
-
-Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
-
-<!-- Se avete già un secondo fattore (debole) (mTAN), vi consigliamo di eliminarlo prima. A tal fine, fate clic su Elimina nella casella Numero di cellulare (mTAN). È quindi possibile seguire le istruzioni di cui sopra per registrare l'ID cellulare come secondo fattore (forte). -->
-
-
-&nbsp;
+Qui di seguito viene illustrato come impostare ID Mobile come secondo fattore forte nel CH-LOGIN.
+<!-- Wenn Sie bereits einen (schwachen) Zweitfaktor (mTAN) haben, wird empfohlen diesen zuerst zu entfernen. Klicken Sie dazu in der Kachel Mobile-Nummer (mTAN) auf Entfernen. Danach können Sie der oben erwähnten Anleitung folgen um die Mobile ID als (starken) Zweitfaktor zu registrieren. -->
 
 <!-- 1ere paire de colonnes -->
 
@@ -198,19 +175,17 @@ Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
 
 <div class="left_col">
 <!-- First column content goes here -->
-<p> Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". </p>
+<p> Effettuare l'accesso su {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}MyAccount{{</link>}} con il proprio CH-LOGIN e poi andare alla scheda «Accesso & sicurezza». </p>
 
-<p> In fondo alla pagina, cliccate su "Modificare le impostazioni del secondo fattore". </p>
+<p> Cliccare in basso su «Modificare le impostazioni del secondo fattore». Inserire la propria password e cliccare su «Avanti». </p>
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="modif_parametres_it.png" description="modification paramètres" class="edge max-w-90">}}    
+{{<insertImage image="modif_parametres_it.png" description="modification paramètres" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 2eme paire de colonnes -->
 
@@ -218,17 +193,15 @@ Questo passaggio aggiunge il Mobile ID al CH-Login come secondo fattore forte.
 
 <div class="left_col">
 <!-- First column content goes here -->
-Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su "Chiudi".
+Mettere la spunta su «Abilita impostazioni avanzate di sicurezza» e cliccare su «Chiudi».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}}     
+{{<insertImage image="activation_param_it.png" description="Activation paramètres avancés" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 3eme paire de colonnes -->
 
@@ -237,20 +210,18 @@ Spuntare la casella "Abilita impostazioni avanzate di sicurezza" e fare clic su 
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Tornando alla scheda "Accesso e sicurezza", ora è presente anche la casella "Verificare un secondo fattore".
+Nella scheda «Accesso & sicurezza» è ora apparsa anche la casella «Verificare il secondo fattore».
 
-Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare clic su "Registra".
+Cliccare su «Registra» alla sezione «Registrare un secondo fattore per un accesso più sicuro».
 {{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}}           
+{{<insertImage image="ajout_facteur_it.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 4eme paire de colonnes -->
 
@@ -258,17 +229,15 @@ Nella casella "Registrare un secondo fattore per un accesso più sicuro", fare c
 
 <div class="left_col">
 <!-- First column content goes here -->
-Scegliere l'opzione ID cellulare e fare clic su "Continua".
+Selezionare l'opzione «Mobile ID» e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="choix_mobileid_it.png" description="ajout second facteur" class="edge max-w-90">}}       
+{{<insertImage image="choix_mobileid_it.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp;
 
 <!-- 5eme paire de colonnes -->
 
@@ -277,18 +246,16 @@ Scegliere l'opzione ID cellulare e fare clic su "Continua".
 <div class="left_col">
 <!-- First column content goes here -->
 {{<markdown>}}
-Immettere il seguente codice MIO: **16783**, quindi fare clic su "Salva".
+Immettere il seguente codice MIO **16783** e cliccare su «Salva».
 {{</markdown>}}
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="code_mio_it.png" description="ajout second facteur" class="edge max-w-90">}} 
+{{<insertImage image="code_mio_it.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 6eme paire de colonnes -->
 
@@ -296,17 +263,15 @@ Immettere il seguente codice MIO: **16783**, quindi fare clic su "Salva".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Immettere la password, quindi fare clic su "continua".
+Inserire la propria password e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="mot_de_passe.png" description="Mot de passe" class="edge max-w-90">}}           <!-- ATTENTION image en français -->
+{{<insertImage image="mot_de_passe_it.png" description="Mot de passe" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp; 
 
 <!-- 7eme paire de colonnes -->
 
@@ -314,17 +279,15 @@ Immettere la password, quindi fare clic su "continua".
 
 <div class="left_col">
 <!-- First column content goes here -->
-Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua".
+Scegliere tre domande di sicurezza, inserire le risposte e cliccare su «Avanti».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge max-w-90">}}         <!-- ATTENTION image en français -->
+{{<insertImage image="questions_secu.png" description="ajout questions sécurité" class="edge max-w-90">}}
 </div>
 
 </div>
-
-&nbsp;
 
 <!-- 8eme paire de colonnes -->
 
@@ -332,20 +295,17 @@ Scegliere 3 domande di sicurezza, compilare le risposte e fare clic su "continua
 
 <div class="left_col">
 <!-- First column content goes here -->
-Inserite il vostro numero di telefono (quello collegato al vostro Mobile ID), quindi fate clic su "Salva".
+Inserite il proprio numero di cellulare (il numero collegato al proprio Mobile ID) e cliccare su «Salva».
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}}         <!-- ATTENTION image en français -->
+{{<insertImage image="saisie_tel.png" description="ajout second facteur" class="edge max-w-90">}}
 </div>
 
 </div>
 
-&nbsp;
+Apparirà quindi un messaggio e il cellulare chiederà di confermare il collegamento inserendo il PIN del proprio Mobile ID.
 
-Verrà visualizzato un messaggio e il telefono chiederà di confermare la connessione inserendo la password Mobile ID. 
-
-Una volta effettuata questa operazione, apparirà la casella "Mobile ID" come metodo di autenticazione a due fattori. 
-
-{{<insertImage image="mobileid_present.png" description="ajout second facteur" class="edge max-w-90">}}           <!-- ATTENTION image en français -->
+Una volta effettuata questa operazione, «Mobile ID» figurerà come possibilità di autenticazione a due fattori.
+{{<insertImage image="mobileid_present_it.png" description="ajout second facteur" class="edge max-w-90">}}

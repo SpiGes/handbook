@@ -1,5 +1,5 @@
 ---
-title: Nouveau-nés 
+title: Neonati
 slug: neugeborene
 description: " "
 weight: 20
