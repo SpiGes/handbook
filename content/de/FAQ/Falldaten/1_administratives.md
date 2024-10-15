@@ -85,8 +85,8 @@ Wie werden Fälle, die von der Rehabilitation (Tarif ST-REHA) in die Langzeitpfl
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 Dies war bereits bei der MS so; der Fall wechselt von Rehabilitation zu SOMED (gleicher Betrieb); bei Code 2 sind beide Möglichkeiten enthalten (gleicher Betrieb oder anderer Betrieb). Der Fall muss wie folgt kodiert werden:
-austritt_aufenthalt: 2 = Krankenheim, Pflegeheim
-eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb
+- austritt_aufenthalt: 2 = Krankenheim, Pflegeheim,
+- eintritt_aufenthalt: 84 = Rehabilitations-abteilung/-klinik, gleicher Betrieb.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
