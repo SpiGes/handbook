@@ -21,7 +21,7 @@ Effettuare l'accesso con il proprio CH-LOGIN.
 {{</layouts/column>}}
 
 {{<layouts/column>}}
-{{<insertImage image="mail_onboarding_it.png" class="edge max-w-90">}}
+{{<insertImage image="mail_onboarding_de.png" class="edge max-w-90">}}
 {{</layouts/column>}}
 
 {{</layouts/row>}}
