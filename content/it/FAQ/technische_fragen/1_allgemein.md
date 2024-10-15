@@ -68,7 +68,7 @@ La fornitura separata di diversi tipi di elementi XML è consentita. Ciò signif
 {{<listItem>}}
 Il file di esportazione SpiGes ha la stessa struttura del file che gli ospedali importano in SpiGes?
 {{<collapsibleBlock groupId="technische_fragen">}}
-Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare il file XML che gli ospedali importano, dall'altro sarà possibile esportare in un formato semplice (diversi file CSV). 
+Ci saranno diversi file di esportazione. Da un lato, sarà possibile esportare il file XML che gli ospedali importano, dall'altro sarà possibile esportare in un formato semplice (diversi file CSV).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -111,10 +111,10 @@ Si sa già quale sarà la procedura per quanto riguarda i dati cantonali aggiunt
 I dati cantonali aggiuntivi sono stati presi in considerazione nell'interfaccia ; vedi {{<link url="https://www.bfs.admin.ch/bfs/fr/home/statistiques/sante/systeme-sante/projet-spiges.assetdetail.32129189.html" newTab="true">}}la descrizione del file XML per l'importazione dei dati nella piattaforma SpiGes{{</link>}}.
 {{</listItem>}}
 {{<listItem>}}
-Sebbene i dati cantonali aggiuntivi possano essere indicati nell'XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente. 
+Sebbene i dati cantonali aggiuntivi possano essere indicati nell'XML, quando vengono importati sulla piattaforma SpiGes non vengono poi elaborati ulteriormente. I Cantoni ne verificano la plausibilità e li elaborano separatamente.
 {{</listItem>}}
 {{<listItem>}}
-I dati cantonali possono essere esportati solo dall'ospedale stesso e dal Cantone. I dati cantonali di questi utenti sono probabilmente contenuti nello stesso file XML che contiene il resto dei dati. 
+I dati cantonali possono essere esportati solo dall'ospedale stesso e dal Cantone. I dati cantonali di questi utenti sono probabilmente contenuti nello stesso file XML che contiene il resto dei dati.
 {{</listItem>}}
 {{</unorderedList>}}
 {{</collapsibleBlock>}}
@@ -138,8 +138,9 @@ N10.2 indica un numero con un totale di 10 cifre, di cui 2 dopo la virgola (e qu
 Nuove variabili medi_id e rech_id: Dalla descrizione non è chiaro se si tratti di numeri sequenziali o di ID effettivi del sistema. Se sì, quali? Per il medi_id abbiamo pensato subito all'ATC_Code, ma esiste già una variabile per questo codice.
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<markdown>}}
-- Le due nuove variabili «medi_id» e «rech_id» sono entrambe identificatori necessari dal punto di vista tecnico per garantire un'assegnazione univoca. Non devono necessariamente iniziare con 1, ma devono essere unici per ogni caso. 
-- Il modello di file XML 1.3, disponibile sulla nostra homepage, contiene un esempio al riguardo. medi_id="1" contiene l'informazione che si tratta del primo farmaco ad alto costo secondo le direttive di SwissDRG SA per questo caso specifico. 
+
+- Le due nuove variabili «medi_id» e «rech_id» sono entrambe identificatori necessari dal punto di vista tecnico per garantire un'assegnazione univoca. Non devono necessariamente iniziare con 1, ma devono essere unici per ogni caso.
+- Il modello di file XML 1.3, disponibile sulla nostra homepage, contiene un esempio al riguardo. medi_id="1" contiene l'informazione che si tratta del primo farmaco ad alto costo secondo le direttive di SwissDRG SA per questo caso specifico.
 {{</markdown>}}
 {{<insertImage image="Image5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
