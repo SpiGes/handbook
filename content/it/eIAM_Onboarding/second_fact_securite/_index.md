@@ -7,7 +7,7 @@ weight: 20
 type: docs
 ---
 
-Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda "Accesso e sicurezza". In fondo a questa scheda si trova la sezione "Gestione dell'autenticazione a due fattori".
+Accedere al proprio {{<link url="https://www.myaccount.eiam.admin.ch/" newTab="true">}}account eIAM{{</link>}} con il CH-LOGIN, quindi andare alla scheda «Accesso e sicurezza». In fondo a questa scheda si trova la sezione «Gestione dell'autenticazione a due fattori».
 
 {{<alert color="info">}}
 {{<markdown>}}
