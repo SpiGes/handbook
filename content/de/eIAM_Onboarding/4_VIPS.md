@@ -134,7 +134,7 @@ Wenn alle Ihre Angaben korrekt sind, klicken Sie auf "Weiter".
 
 <div class="right_col">
 <!-- Second column content goes here -->
-{{<insertImage image="controle_infos_de.png" description="Choix connexion" class="edge max-w-90">}} 
+{{<insertImage image="controle_infos_de.png" description="Choix connexion" class="edge max-w-90">}}
 </div>
 
 </div>
