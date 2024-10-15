@@ -23,8 +23,7 @@ Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Pat
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 
--	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode.
--	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM.
+Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM.
 
 **Beispiel 4** im Kodierhandbuch (Seite 38)
 

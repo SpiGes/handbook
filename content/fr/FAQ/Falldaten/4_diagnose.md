@@ -23,8 +23,7 @@ Variable «diagnose_zusatz» : quelles indications doivent être données ici po
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 
--	Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d'exclamation, le code est à préciser.
--	Les codes étoile ne sont pas marqués comme tels, l'association se fait suivant CIM-10-GM.
+Pour les codes étoile, le code dague associé est indiqué ici. Pour les codes avec points d'exclamation, le code est à préciser. Les codes étoile ne sont pas marqués comme tels, l'association se fait suivant CIM-10-GM.
 
 **Exemple 4** dans le manuel du codage (page 38) :
 

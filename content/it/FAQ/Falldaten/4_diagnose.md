@@ -23,8 +23,7 @@ Variabile «diagnose_zusatz»: quali informazioni devono essere inserite qui per
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 
--	Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare.
-- I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l'ICD-10-GM.
+Per i codici con asterisco, qui va inserito il corrispondente codice con croce. Per i codici con punto esclamativo, il codice da specificare. I codici con asterisco non sono contrassegnati come tali; sono assegnati secondo l'ICD-10-GM.
 
 **Esempio 4** nel Manuale di codifica (pag. 38)
 
