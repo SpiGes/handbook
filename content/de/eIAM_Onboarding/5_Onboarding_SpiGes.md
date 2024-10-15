@@ -33,7 +33,7 @@ Fügen Sie nun Ihren Onboarding-Code ein und klicken Sie auf "Registrierungscode
 {{</layouts/column>}}
 
 {{<layouts/column>}}
-{{<insertImage image="enregistrement.png" class="edge max-w-90">}}
+{{<insertImage image="enregistrement_de.png" class="edge max-w-90">}}
 {{</layouts/column>}}
 
 {{</layouts/row>}}
