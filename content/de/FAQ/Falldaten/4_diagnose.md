@@ -33,6 +33,18 @@ Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Au
 - ND N08.3\* Glomeruläre Krankheiten bei Diabetes mellitus
 
 …wird wie folgt in **SpiGes** erfasst:  
+
+{{<markdown>}}
+|diagnose_kode|diagnose_id|diagnose_zusatz
+|---------|---------|---------|
+|E10.7|1| |
+|I79.2|2|E10.73|
+|H36.0|3|E10.73|
+|N08.3|4|E10.73|
+{{</markdown>}}
+
+or 
+
 {{</markdown>}}
 <table class="w-100">
   <tr>
