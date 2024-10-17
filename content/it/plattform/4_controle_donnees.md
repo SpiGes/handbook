@@ -35,7 +35,7 @@ L'impresa può quindi elaborare autonomamente i risultati dei controlli automati
 
 1. In questa colonna sono indicate la data e l'ora dell'ultima importazione di dati.
 
-2. In questa colonna è possibile vedere se i dati in questione hanno superato i test di controllo del formato. Se sono stati identificati errori, è possibile fare clic su ognuno di essi per visualizzare i dettagli dell'errore, in modo da poterlo correggere nel file XML e importarlo nuovamente. **ATTENZIONE:** L'importazione di nuovi dati sovrascrive quelli precedentemente importati.
+2. In questa colonna è possibile vedere se i dati in questione hanno superato i test di controllo del formato. Se sono stati identificati errori, è possibile fare clic su ognuno di essi per visualizzare i dettagli dell'errore, in modo da poterlo correggere nel file XML e importarlo nuovamente. **ATTENZIONE:** L'importazione di nuovi dati sovrascrive quelli precedentemente importati. Il file di dati corretto deve contenere le stesse parti di rilievo. Gli errori di formato non possono essere eseguiti e visualizzati per parte di rilievo, ma solo per file.
 
 3. Una volta eseguito il controllo del formato, in questa colonna vengono visualizzati gli errori rilevati per i singoli casi e che devono essere elaborati. Cliccando sul simbolo che segnala gli errori si possono vedere i dettagli del controllo.
 
