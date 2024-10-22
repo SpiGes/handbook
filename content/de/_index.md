@@ -10,5 +10,5 @@ type: docs
 Willkomen bei SpiGes-Handbuch
 
 {{<alert color="info">}}
-Die Dokumentation befindet sich im Aufbau.
+Wählen Sie links eines der Themengebiete. Bitte beachten Sie, dass das Handbuch laufend aktualisiert wird.
 {{</alert>}}
