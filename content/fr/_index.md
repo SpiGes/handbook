@@ -7,8 +7,8 @@ weight: 0
 type: docs
 ---
 
-Bienvenue dans le manuel de la plateforme de relevé SpiGes 
+Bienvenue dans le manuel de la plateforme de relevé SpiGes
 
 {{<alert color="info">}}
-La documentation est en cours de construction.
+Sélectionnez l'un des sujets sur le côté gauche. Le manuel est constamment mis à jour.
 {{</alert>}}
