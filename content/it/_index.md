@@ -1,7 +1,7 @@
 ---
 title: Manuale SpiGes
 slug: introduction
-description: 'SpiGes'
+description: 
 keywords: []
 weight: 0
 type: docs
