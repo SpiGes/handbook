@@ -49,29 +49,7 @@ Quali termini sono usati come sinonimi nella rilevazione SpiGes per impresa ospe
 |**Sede ospedaliera**<br>Unità locale|Sede (ospedaliera)|
 
 {{</markdown>}}
-<!--
-<table class="w-100">
-  <tr>
-    <th style="width:50%"> Livello </div></th>
-    <th> Sinonimo dei termini </th>
-  </tr>
-  <tr>
-    <td> <b> Impresa ospedaliera </b> <br /> 
-    Entità giuridica
- 	</td>
-    <td> Impresa (ospedaliera) </td>
-  </tr>
-  <tr>
-    <td> <b> Ospedale </b> (secondo l'indicazione Cantone, indagine MS/KS, definizione del caso) </td>
-    <td> Ospedale, clinica, stabilimento (ospedalieri) </td>
-  </tr>
-  <tr>
-    <td> <b> Sede </b> <br /> 
-    Unità locale
-	</td>
-    <td> Sede </td>
-  </tr>
-</table>-->
+
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -80,7 +58,7 @@ Come si determina a quale ospedale (burnr_gesv) appartiene una sede (burnr)?
 {{<collapsibleBlock groupId="GGH">}}
 {{<markdown>}}
 
-- L'attribuzione delle sedi (numeri RIS) agli ospedali (RISGESV) viene chiesta nel quadro della rilevazione dell'universo statistico. In questo processo, sono i Cantoni a fornirci le informazioni in collaborazione con gli ospedali.
+- L'attribuzione delle sedi (BUR) agli ospedali (BURGESV) viene chiesta nel quadro della rilevazione dell'universo statistico. In questo processo, sono i Cantoni a fornirci le informazioni in collaborazione con gli ospedali.
 - Il burnr_gesv viene rilevato anche su richiesta dei nostri partner.
 
 {{</markdown>}}

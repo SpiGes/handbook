@@ -148,7 +148,7 @@ Nuove variabili medi_id e rech_id: Dalla descrizione non è chiaro se si tratti 
 {{</listItem>}}
 
 {{<listItem>}}
-Nei file di esempio, per il file di identificatori e il file di dati ci sono due campi relativi alla versione. Queste versioni però non corrispondono. Nell'intestazione è indicata la versione 1.0 mentre nel tag dell'impresa  è indicata la versione 1.3. Perché i numeri di versione sono diversi? Come sapere quando specificare un numero o l'altro?
+Nei file di esempio, per il file di identificatori e il file di dati ci sono due campi relativi alla versione. Queste versioni però non corrispondono. Nell'intestazione è indicata la versione 1.0 mentre nel tag "Unternehmen" è indicata la versione 1.3. Perché i numeri di versione sono diversi? Come sapere quando specificare un numero o l'altro?
 {{<collapsibleBlock groupId="technische_fragen">}}
 {{<insertImage image="Image6.jpg" class="edge max-w-90">}}
 
