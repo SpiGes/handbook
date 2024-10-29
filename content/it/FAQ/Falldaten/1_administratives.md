@@ -83,6 +83,7 @@ Come vengono codificati i casi trasferiti dalla riabilitazione (tariffa ST-REHA)
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 Questo era già così per la MS; il caso passa dalla riabilitazione alla SOMED (stesso stabilimento); il codice 2 contiene entrambe le opzioni (stesso stabilimento o altro stabilimento). Il caso deve essere codificato come segue:
+
 - austritt_aufenthalt: 2 = casa di cura,
 - eintritt_aufenthalt: 84 = Reparto/Clinica di riabilitazione, stesso stabilimento.
 {{</markdown>}}
