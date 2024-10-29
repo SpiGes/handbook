@@ -34,7 +34,7 @@ Per i codici con asterisco, qui va inserito il corrispondente codice con croce. 
 
 …va indicato in **SpiGes** come segue :
 
-|diagnose_kode|diagnose_id|diagnose_zusatz
+|diagnose_kode|diagnose_id|diagnose_zusatz|
 |---------|---------|---------|
 |E10.73|1| |
 |I79.2|2|E10.73|
@@ -52,7 +52,7 @@ Per i codici con asterisco, qui va inserito il corrispondente codice con croce. 
 
 …va indicato in **SpiGes** come segue :
 
-|diagnose_kode|diagnose_id|diagnose_zusatz
+|diagnose_kode|diagnose_id|diagnose_zusatz|
 |---------|---------|---------|
 |S37.03|1| |
 |V99|2|S37.03|
