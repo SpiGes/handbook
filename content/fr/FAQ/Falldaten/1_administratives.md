@@ -92,8 +92,9 @@ Comment coder les cas qui passent de la réadaptation (tarif ST-REHA) aux soins 
 {{<collapsibleBlock groupId="admninistratives">}}
 {{<markdown>}}
 C'était déjà le cas pour la MS ; le cas change de réadaptation à SOMED (même établissement) ; pour le code 2, les deux possibilités sont simplement incluses (même établissement ou autre établissement). Le cas doit être codé comme suit :  
-sortie_séjour : 2 = établ. de santé non hospit. médicalisé
-entrée_séjour : 84 = division/clinique de réadaptation, même établissement  
+
+- sortie_séjour : 2 = établ. de santé non hospit. médicalisé,
+- entrée_séjour : 84 = division/clinique de réadaptation, même établissement.  
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

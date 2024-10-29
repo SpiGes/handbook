@@ -83,14 +83,14 @@ Nella dashboard di Mobile ID, sotto «SIM Status» è indicato se la scheda SIM
 
 <div class="left_col">
 <!-- First column content goes here -->
-Sempre in caso di incompatibilità, sulla propria dashboard Mobile ID apparirà il messaggio seguente.
+In caso la SIM sia incompatibile, sulla propria dashboard Mobile ID apparirà il messaggio seguente.
 {{<insertImage image="sim_incompatible_fr.png" description="Code SMS" class="edge max-w-90">}}  <!-- Image en français -->
 
 </div>
 
 <div class="right_col">
 <!-- Second column content goes here -->
-In caso la SIM sia compatibile, sulla propria dashboard apparirà il messaggio seguente.
+In caso la SIM sia compatibile, sulla propria dashboard Mobile ID apparirà il messaggio seguente.
 {{<insertImage image="sim_compatible_fr.png" description="Code SMS" class="edge max-w-90">}}  <!-- Image en français -->
 </div>
 

@@ -23,8 +23,7 @@ Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Pat
 {{<collapsibleBlock groupId="diagnose">}}
 {{<markdown>}}
 
--	Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode.
--	Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM.
+Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Ausrufezeichen, der zu präzisierende Kode. Stern-Kodes werden nicht als solche markiert, die Vergabe erfolgt gemäss ICD-10-GM.
 
 **Beispiel 4** im Kodierhandbuch (Seite 38)
 
@@ -34,35 +33,13 @@ Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Pat
 - ND N08.3\* Glomeruläre Krankheiten bei Diabetes mellitus
 
 …wird wie folgt in **SpiGes** erfasst:  
-{{</markdown>}}
-<table class="w-100">
-  <tr>
-    <th style="width:35%"> diagnose_kode </div></th>
-    <th> diagnose_id </th>
-    <th style="width:35%"> diagnose_zusatz </th>
-  </tr>
-  <tr>
-    <td> E10.73 </td>
-    <td> 1 </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td> I79.2 </td>
-    <td> 2 </td>
-    <td> E10.73 </td>
-  </tr>
-  <tr>
-    <td> H36.0 </td>
-    <td> 3 </td>
-    <td> E10.73 </td>
-  </tr>
-  <tr>
-    <td> N08.3 </td>
-    <td> 4 </td>
-    <td> E10.73 </td>
-  </tr>
-</table>
-{{<markdown>}}
+
+|diagnose_kode|diagnose_id|diagnose_zusatz|
+|---------|---------|---------|
+|E10.73|1| |
+|I79.2|2|E10.73|
+|H36.0|3|E10.73|
+|N08.3|4|E10.73|
 
 **Beispiel 4** im Koderhandbuch (Seite 40)
 
@@ -74,51 +51,19 @@ Die Angabe «POA» kann unter anderem zur Verbesserung der Qualität und der Pat
 - ND S31.83! Offene Wunde (jeder Teil des Abdomens, der Lumbosakralgegend und des Beckens) mit Verbindung zu einer intraabdominalen Verletzung
 
 …wird wie folgt in **SpiGes** erfasst:
+
+|diagnose_kode|diagnose_id|diagnose_zusatz|
+|---------|---------|---------|
+|S37.03|1| |
+|V99|2|S37.03|
+|S36.03|3||
+|S36.49|4||
+|S31.83|5|S36.03|
+|S31.83|6|S36.49|
+|S31.83|7|S37.03|
+
 {{</markdown>}}
-<table class="w-100">
-  <tr>
-    <th style="width:35%"> diagnose_kode </div></th>
-    <th> diagnose_id </th>
-    <th style="width:35%"> diagnose_zusatz </th>
-  </tr>
-  <tr>
-    <td> S37.03 </td>
-    <td> 1 </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td> V99 </td>
-    <td> 2 </td>
-    <td> S37.03 </td>
-  </tr>
-  <tr>
-    <td> S36.03 </td>
-    <td> 3 </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> S36.49 </td>
-    <td> 4 </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> S31.83 </td>
-    <td> 5 </td>
-    <td> S36.03 </td>
-  </tr>
-  <tr>
-    <td> S31.83 </td>
-    <td> 6 </td>
-    <td> S36.49 </td>
-  </tr>
-  <tr>
-    <td> S31.83 </td>
-    <td> 7 </td>
-    <td> S37.03 </td>
-  </tr>
-</table>
 {{</collapsibleBlock>}}
 {{</listItem>}}
-
 {{</numberedList>}}
 {{</faqBlock>}}
