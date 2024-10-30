@@ -1,42 +1,42 @@
 ---
-title: Contrôles de format et messages d'erreur
+title: Controlli di formato e messaggi di errore
 slug: format_fehlermeldung
 description: " "
 weight: 40
 type: docs
 keywords: []
 ---
-<!-- A revoir: new FAQ
+
 {{<faqBlock>}}
-Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="format_fehlermeldung">}}
+Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="format_fehlermeldung">}}
 
 {{<numberedList>}}
 {{<listItem>}}
-Termes généraux utilisés dans les messages d'erreur
+Termini generali utilizzati nei messaggi di errore
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<markdown>}}
 
-- Element = partie de l'enquête (par ex. Unternehmen, Standort, Fall, etc.)
-- Attribut = variable (par ex. fall_id, burnr, etc.)
+- Elemento = Parte della rilevazione (ad es. impresa, sede, caso ecc.).
+- Attributo = Variabile (ad es. ent_id, burnr ecc.).
 {{</markdown>}}
 {{<insertImage image="tf1.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Quelles erreurs provoquent le message d'erreur « erreur de serveur interne 500 » ?
+Quali errori causano il messaggio « interner Serverfehler 500 » ?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
-L'erreur de serveur interne 500 peut avoir différentes causes, que vous trouverez ici :
+Le cause di questo errore possono essere diverse e sono elencate qui di seguito:
 {{<markdown>}}
 
-1. fichier vide
-2. fichier trop grand
-3. en-tête incorrect
-4. non codé en UTF 8
+1.	File vuoto
+2.	File troppo grande
+3.	Intestazione sbagliata 
+4.	Non codificato con UTF 8 
 {{</markdown>}}
 {{<lineBreak>}}
 {{<markdown>}}
-En-tête :
+Intestazione :
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -48,69 +48,68 @@ En-tête :
 >
 ```
 
-Pour tester si votre fichier est encodé en utf 8, vous pouvez l'ouvrir avec notepad ou text editor. L'encodage est affiché en bas à droite.
+Per verificare se il file è stato codificato con UTF 8, è sufficiente aprirlo con Notepad o con l'editor di file .txt. Il tipo di codifica è indicato in basso a destra.
 {{<insertImage image="tf2.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-Si vous souhaitez maintenant enregistrer le fichier texte avec « Enregistrer sous », vous pouvez également modifier le codage. Sélectionnez maintenant utf-8 sous Codage et enregistrez le fichier.
+In caso la codifica non corrisponda a quella desiderata, per modificarla basta salvare il file di testo (.txt) cliccando su «Salva con nome» e selezionando la codifica giusta (UTF 8).
 {{<insertImage image="tf3.png" class="edge max-w-90">}}
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Que signifie le message d'erreur suivant ?
+Cosa significa il seguente messaggio di errore ?
 {{<insertImage image="tf4.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
-Par "not declared", on entend que la variable n'est pas définie (p. ex. majuscules/minuscules incorrectes pour «kanton_zusatzdaten» ; «missbildung» n'est pas une variable présente dans la description de la variable, etc.).
+«Not declared» indica che la variabile non è definita correttamente (ad es., che le maiuscole e minuscole della variabile «Canton_additional_data» sono sbagliate»; oppure che «missbildung» non è una variabile dell'elenco ecc.).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Messages d'erreur indiquant que le format ou l'expression est incorrect :
+Messaggi di errore che indicano che il formato o il valore non sono corretti :
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf5.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Messages d'erreur lorsque les parties du relevé (elements) sont mélangées en ce qui concerne la structure ou l'ordre :
+Messaggi di errore che indicano che le parti della rilevazione (elementi) contengono errori di struttura o nella sequenza :
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf6.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-Par exemple, l'élément Opérateur est ici placé sous le cas au même titre que Traitement.
+Ad esempio, sotto «Fall», l'elemento «Operierende» è posizionato allo stesso livello di «Behandlung».
 {{<insertImage image="tf7.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-L'élément Opérateur est un enfant du traitement et devrait être structuré de la sorte :
+Siccome il medico operante dipende dal trattamento, la struttura corretta vorrebbe l'elemento «Operierende» un livello sotto all’elemento «Behandlung».
 {{<insertImage image="tf8.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Erreur de format behandlung_beginn:
+Errore di formato «behandlung_beginn» :
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf9.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-La variable est définie comme suit dans XSD :
+La variabile è definita nel file XSD come segue :
 {{<lineBreak>}}
 {{<insertImage image="tf10.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-Dans behandlung_beginn, l'heure peut être totalement absente, c'est-à-dire que seule la date est indiquée (p. ex. 20230110), ou l'heure (quatre chiffres) peut également être indiquée (p. ex. 202301100000). Dans votre cas, l'heure est indiquée avec trois chiffres, ce qui n'est pas accepté. Remarque : l'heure 0000 correspond à minuit et ne doit en aucun cas être indiquée si aucune heure ne doit être signalée.
+Per la variabile «behandlung_beginn» l'indicazione dell'ora non è obbligatoria e può essere indicata solo la data (ad es.20230110). Se viene indicata, deve però avere un formato a 4 cifre (ad es. 202301100000). Nel caso raffigurato, l'ora ha tre cifre sole e questo formato non è ammesso. N. B.: L'ora 0000 indica la mezzanotte e non deve mai essere inserita per i casi in cui non si vuole indicare l'ora.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Erreur de format rech_menge:
+Errore di formato «rech_menge» :
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<insertImage image="tf11.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-La variable est définie comme suit dans XSD :
+La variabile è definita nel file XSD come segue :
 {{<lineBreak>}}
 {{<insertImage image="tf12.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-Pour rech_menge, 12 chiffres au total sont possibles, dont 5 chiffres maximum après la virgule.
+Per la variabile «rech_menge» possono essere indicate un totale di 12 posizioni, di cui massimo 5 decimali (dopo la virgola).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{</numberedList>}}
 {{</faqBlock>}}
--->
