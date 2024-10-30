@@ -33,7 +33,7 @@ Entro questa scadenza, i dati sui costi dovranno essere stati controllati automa
 {{</listItem>}}
 
 {{<listItem>}}
-Non riusciamo a trovare una variabile SpiGes che permetta di trasferire i ricavi/costi della PEIG direttamente associati a un caso nella colonna PEIG prevista a questo scopo nell'ITAR_K. Come viene calcolata la colonna PEIG dell'ITAR_K con i dati SpiGes?
+Non riusciamo a trovare una variabile SpiGes che permetta di trasferire i ricavi/costi della PEIG direttamente associati a un caso nella colonna PEIG prevista a questo scopo nell'ITAR_K®. Come viene calcolata la colonna PEIG dell'ITAR_K® con i dati SpiGes?
 {{<collapsibleBlock groupId="ITARK">}}
 {{<markdown>}}
 - Non ci sono costi o ricavi per prestazioni economicamente d’interesse generale (PEIG) direttamente legati a un caso. Nella raffigurazione delle PEIG, la SpiGes si attiene alla giurisprudenza e alle raccomandazioni dell'associazione degli ospedali H+ e la sua soluzione settoriale REKOLE®.
