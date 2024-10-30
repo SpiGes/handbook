@@ -54,14 +54,14 @@ La tabella 12 Identificatori personali deve essere fornita in un file separato (
 {{<listItem>}}
 Esiste la possibilità per le piccole imprese di creare un file XML a partire da un file Excel (in cui viene inserita la CUFI)? C'è un fornitore che ha in programma di attuare questa soluzione?
 {{<collapsibleBlock groupId="allgemein">}}
-Questa possibilità è attualmente al vaglio dell'UST.
+Sì, esistono fornitori privati che offrono questo strumento. Pertanto, l'UST al momento non sta portando avanti l'idea di svilupparne uno.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 È previsto di mettere a disposizione un Excel per i costi indipendenti dai casi, in cui l'impresa possa compilare i costi indipendenti dai casi in formato Excel e poi esportarli in formato XML?  
 {{<collapsibleBlock groupId="allgemein">}}
-La fornitura separata di diversi tipi di elementi XML è consentita. Ciò significa che i centri di costo indipendenti dai casi possono sempre essere consegnati in un file diverso da quello dei centri di costo dipendenti dai casi. Dobbiamo ancora chiarire se possiamo fornire un tool per trasformare i dati tratti da un file Excel.
+La fornitura separata di diversi tipi di elementi XML è consentita. Ciò significa che i centri di costo indipendenti dai casi possono sempre essere consegnati in un file diverso da quello dei centri di costo dipendenti dai casi. Esistono fornitori privati che offrono questo strumento. Pertanto, l'UST al momento non sta portando avanti l'idea di svilupparne uno.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
