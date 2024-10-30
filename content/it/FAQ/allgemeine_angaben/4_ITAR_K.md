@@ -31,17 +31,18 @@ I dati sui costi devono essere inseriti entro il 31 marzo. È necessario fare un
 Entro questa scadenza, i dati sui costi dovranno essere stati controllati automaticamente per la prima volta sulla piattaforma SpiGes. La revisione potrà avvenire in un secondo tempo.
 {{</collapsibleBlock>}}
 {{</listItem>}}
-<!-- A revoir : selon H+
+
 {{<listItem>}}
 Non riusciamo a trovare una variabile SpiGes che permetta di trasferire i ricavi/costi della PEIG direttamente associati a un caso nella colonna PEIG prevista a questo scopo nell'ITAR_K. Come viene calcolata la colonna PEIG dell'ITAR_K con i dati SpiGes?
 {{<collapsibleBlock groupId="ITARK">}}
 {{<markdown>}}
-- Nella raffigurazione delle prestazioni d'interesse generale, fondamentalmente lo SpiGes si attiene alla giurisprudenza e alle raccomandazioni dell'associazione degli ospedali H+. REKOLE®® prevede la raffigurazione dei costi delle prestazioni d'interesse generale vincolate al caso e di quelle indipendenti dal caso.
-- Da un punto di vista tecnico, è possibile discostarsi dai requisiti previsti da REKOLE®®. I costi e i ricavi della PEIG legata a un caso possono essere rilevati anche in un'unità di imputazione separata (tipo UFI 700-799). Anche questo è a discrezione del Cantone. In questo caso, è importante che i costi e i ricavi delle prestazioni AOMS siano registrati ugualmente con riferimento al caso (tipo UFI = 1).
+- Non ci sono costi o ricavi per prestazioni economicamente d’interesse generale (PEIG) direttamente legati a un caso. Nella raffigurazione delle PEIG, la SpiGes si attiene alla giurisprudenza e alle raccomandazioni dell'associazione degli ospedali H+ e la sua soluzione settoriale REKOLE®.
+- Secondo REKOLE®, le imprese ospedaliere possono fornire PEIG per compiti speciali e/o per la ricerca e la formazione universitaria. I costi e i ricavi per queste prestazioni sono contabilizzati per mandati delimitati in modo chiaro (cap. 9.10 della Checklist di REKOLE®). REKOLE® prevede anche che i ricavi derivanti da altri contributi finalizzati al mantenimento di capacità ospedaliere speciali per motivi di politica regionale o da contributi per tariffe che non sarebbero altrimenti coperte siano attribuiti a unità di imputazione o di ricavo che contengono solo ricavi. A questi ricavi non corrisponde tuttavia nessuna prestazione definita. Non devono pertanto influire sui costi degli stabilimenti che offrono cure stazionarie (cap. 9.11.3 di REKOLE®).
+- Nell'elenco delle variabili SpiGes, la definizione della variabile «ktr_typ» dice quanto segue: «Qui va indicato il tipo di unità finale di imputazione (UFI): caso (=1) o **mandato** con sottocategorie di precisazione. Le caratteristiche vanno riprese dal foglio «Tipi UFI». **Per ogni PEIG e servizio annesso deve essere compilata una riga**. Nel foglio «Tipi UFI» sono riportate anche indicazioni specifiche per le singole unità finali di imputazione. Questa variabile è rilevante per l'attribuzione dei casi alle colonne in ITAR_K®. I costi/ricavi delle PEIG sono quindi rilevati da SpiGes nella sezione CUFI (KTR) e la loro somma è inserita nella colonna PEIG del file ITAR_K®.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
--->
+
 {{<listItem>}}
 ITAR_K® può essere compilato sia a livello di impresa che di sede. Cosa è richiesto di fare per la SpiGes? Sono i Cantoni a decidere?
 {{<collapsibleBlock groupId="ITARK">}}

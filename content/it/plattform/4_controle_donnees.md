@@ -13,11 +13,11 @@ Il modo migliore è quello di controllarli direttamente alla fonte, ovvero nel s
 
 A tal fine, gli ospedali possono integrare nel loro sistema gli strumenti di controllo messi a disposizione dall'UST (soluzione automatizzata). Durante l'anno di riferimento, le imprese ospedaliere hanno inoltre la possibilità di verificare i propri dati sulla piattaforma SpiGes. Poiché questo controllo avviene prima del regolare inizio della rilevazione (gennaio dell'anno successivo a quello di riferimento), lo stato della rilevazione sarà «In preparazione».
 
-Nous avons prévu les mesures suivantes à cet effet :
+A tal fine abbiamo previsto le misure riportate di seguito :
 
-- Vérification XSD : nous publions un fichier XSD qui peut être utilisé facilement pour la vérification technique des fichiers XML. Des programmes et des bibliothèques de logiciels (gratuits) peuvent être utilisés à cet effet.
-- MedPlaus : L'outil MedPlaus est adapté à l'ensemble des données SpiGes et devrait être disponible dès automne 2024. Il peut également être intégré dans les logiciels hospitaliers sous forme de version DLL.
-- API d'examen : Nous prévoyons une API accessible au public, qui permettra de vérifier la qualité des données fournies. En réponse aux données téléchargées, on obtient une liste des erreurs de format et des erreurs de cas individuels. Des cas individuels peuvent être fournis et les réponses peuvent être traitées automatiquement par des programmes. L'API n'est toutefois pas encore mise en œuvre. Cela sera le cas au plus tôt en 2025.
+- Controllo con file XSD: Pubblichiamo un file XSD che può essere facilmente utilizzato per la verifica dal punto di vista tecnico dei file XML. A questo scopo possono essere utilizzati programmi (gratuiti) e librerie di software.
+- MedPlaus: lo strumento MedPlaus sarà adattato al set di dati SpiGes e dovrebbe essere disponibile dall’autunno 2024. La versione DLL di questo strumento può essere integrata anche nel software del proprio ospedale.
+- Controlli API: Stiamo progettando un'API accessibile a tutti che possa essere utilizzata per verificare la qualità dei dati forniti. In risposta ai dati caricati, verrà inviato un elenco di errori di formato e relativi ai singoli casi. Possono essere forniti i dati anche per casi singoli e le risposte possono essere elaborate automaticamente da programmi. L'API non è tuttavia ancora operativa e non lo sarà prima del 2025.
 {{</markdown>}}
 {{</alert>}}
 
