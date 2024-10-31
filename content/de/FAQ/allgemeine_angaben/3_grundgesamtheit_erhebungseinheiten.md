@@ -42,7 +42,7 @@ Welche Begriffe werden in der SpiGes Erhebung synonym für Spitalunternehmen, Sp
 {{<markdown>}}
 |Ebene|Begriffe synony|
 |---------|---------|
-|**Spitalunternehmen**<br>Juristische Einheit|(Spital-)Unternehmen|
+|**Spitalunternehmen**<br>juristische Einheit|(Spital-)Unternehmen|
 |**Spital** (gemäss Angabe Kanton, Erhebung MS/KS, Falldefinition)|Spital, Klinik, (Spital-)Betrieb|
 |**Spitalstandort**<br>lokale Einheit|(Spital-)Standort|
 

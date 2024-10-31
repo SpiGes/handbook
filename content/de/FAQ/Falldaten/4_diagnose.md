@@ -41,7 +41,7 @@ Bei Stern-Kodes wird hier der zugehörige Kreuz-Kode angegeben. Bei Kodes mit Au
 |H36.0|3|E10.73|
 |N08.3|4|E10.73|
 
-**Beispiel 4** im Koderhandbuch (Seite 40)
+**Beispiel 4** im Kodierhandbuch (Seite 40)
 
 - HD S37.03 Komplette Ruptur des Nierenparenchyms
 - L 2

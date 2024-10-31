@@ -38,7 +38,7 @@ Per la sequenza dei trattamenti si raccomanda di attenersi ai criteri seguenti:
 {{<listItem>}}
 Behandlung_chop: i trattamenti devono essere forniti con o senza punto?
 {{<collapsibleBlock groupId="behandlungen">}}
-Senza punti 
+Senza punti. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
