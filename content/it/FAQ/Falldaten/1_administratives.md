@@ -61,7 +61,7 @@ Qual è la definizione di «trasferimento»? (ad es. i codici «5 = Trasferiment
 {{<listItem>}}
 La variabile Modalità di ammissione esisteva già nella MS e non ha subito modifiche nella piattaforma SpiGes. La differenza tra un trasferimento e un trasferimento interno, è che il primo non avviene all'interno dello stesso ospedale (BURGESV), ma tra ospedali diversi (due BURGESV diversi). La definizione si basa sui principi di SwissDRG AG, che potete trovare qui:
 {{<link url="https://www.swissdrg.org/it/somatica-acuta/sistema-swissdrg-1302024/regole-e-definizioni" newTab="true">}}regole e definizioni{{</link>}}
-{{</listItem>}}.
+{{</listItem>}}
 
 {{<listItem>}}
 La seguente specifica è stata comunicata da SwissDRG AG per il tipo di ricovero "6=Retransfer": Per un ricovero ininterrotto in un altro ospedale per più di 18 giorni e ritorno all'ospedale di origine.
