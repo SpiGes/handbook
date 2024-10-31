@@ -68,13 +68,13 @@ Sì, nel caso di trattamenti ambulatoriali esterni, è possibile indicare il num
 {{<insertImage image="Image4.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-<!-- A traduire:new FAQ
+
 {{<listItem>}}
-Variable "wiedereintritt_aufenthalt" : nous ne savons pas encore très bien ce qui doit être exporté dans la variable wiedereintritt_aufenthalt pour le type d'épisode_1 (donc lorsque le patient est présent à l'hôpital).
+Variabile «wiedereintritt_aufenthalt»: Non è del tutto chiaro cosa debba essere esportato per la variabile «wiedereintritt_aufenthalt» nel caso di un episode_type=1 (ovvero quando un paziente non lascia mai l'ospedale durante l'episodio.
 {{<collapsibleBlock groupId="patientenbewegung">}}
-wiedereintritt_aufenthalt n'est rempli que pour episode_art=2, pour tous les autres episode_types, cette variable n'est pas saisie.
+«wiedereintritt_aufenthalt» viene compilata solo in caso di episode_art=2, per tutti gli altri tipi di episodio questa variabile non deve essere compilata.
 {{</collapsibleBlock>}}
 {{</listItem>}}
--->
+
 {{</numberedList>}}
 {{</faqBlock>}}

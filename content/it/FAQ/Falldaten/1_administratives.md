@@ -66,14 +66,14 @@ La variabile Modalità di ammissione esisteva già nella MS e non ha subito modi
 {{<listItem>}}
 La seguente specifica è stata comunicata da SwissDRG AG per il tipo di ricovero "6=Retransfer": Per un ricovero ininterrotto in un altro ospedale per più di 18 giorni e ritorno all'ospedale di origine.
 {{</listItem>}}
-<!-- A traduire: new FAQ
+
 {{<listItem>}}
-Selon SwissDRG SA, le retransfert n'est utilisé comme type d'entrée que si le patient a séjourné plus de 18 jours dans un autre hôpital et qu'il y retourne, ouvrant ainsi un nouveau cas.
+Secondo quanto indicato da SwissDRG SA, «Paziente trasferito» viene utilizzata come modalità di ammissione solo in caso il paziente sia stato ricoverato in un altro ospedale per un periodo superiore ai 18 giorni e venga ricoverato di nuovo, fatto che richiede l'apertura di un nuovo caso. 
 {{</listItem>}}
 
 {{<listItem>}}
-Un patient qui revient à l'hôpital dans les 18 jours reçoit l'indication du type d'entrée de sa première entrée, car il est regroupé.
-{{</listItem>}}-->
+Per un paziente che viene ricoverato nuovamente in ospedale dopo meno di 18 giorni di degenza in un altro ospedale vengono riprese le indicazioni relative alla modalità di ammissione del primo ricovero e i due ricoveri vengono quindi uniti.
+{{</listItem>}}
 {{</unorderedList>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -126,13 +126,13 @@ Secondo la nostra amministrazione pazienti, è difficile ottenere l'informazione
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-<!-- A traduire: new FAQ
+
 {{<listItem>}}
-Pour les différentes variables concernant le séjour IPS et les points de charge ("aufenthalt_ips"), nous ne savons pas très bien si les variables doivent être exportées avec 0 ou pas du tout lorsqu'un cas ne se trouve pas aux soins intensifs. Le domaine de valeurs indiqué ici est toujours 0-xxx.
+Per quanto riguarda le diverse variabili relative alla degenza in unità di cure intense e i punti risorse ("aufenthalt_ips"), non ci è del tutto chiaro se le variabili con punteggio 0, in caso un paziente non sia mai stato ricoverato in un'unità di cure intense, debbano essere esportate o meno. L'intervallo di valori qui specificato è sempre 0-xxx.
 {{<collapsibleBlock groupId="admninistratives">}}
-Comme l'indication n'est pas obligatoire (required), la variable n'est pas livrée du tout lorsqu'un cas n'est pas aux soins intensifs.
+Poiché questa informazione non è obbligatoria (required), la variabile non deve essere fornita se un caso non passa mai per un'unità di cure intense.
 {{</collapsibleBlock>}}
-{{</listItem>}}-->
+{{</listItem>}}
 
 {{</numberedList>}}
 {{</faqBlock>}}

@@ -34,11 +34,11 @@ Per la sequenza dei trattamenti si raccomanda di attenersi ai criteri seguenti:
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-<!-- A traduire: new FAQ-->
+
 {{<listItem>}}
-Variable «behandlung_chop» : les traitements doivent-ils être livrés avec ou sans points ?
+Behandlung_chop: i trattamenti devono essere forniti con o senza punto?
 {{<collapsibleBlock groupId="behandlungen">}}
-Sans points.
+Senza punti 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -57,42 +57,42 @@ Quanti medici operanti possono essere attribuiti a ogni intervento è una questi
 {{<insertImage image="Image2.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-<!-- A traduire: new FAQ
+
 {{<listItem>}}
-Variable «behandlung_auswaerts»: Pouvez-vous définir plus précisément l'attribution des modalités de cette variable et expliquer le lien avec le type_d'épisode=5 (traitement ambulatoire à l'extérieur) ?
+Variabile «behandlung_auswaerts»: È possibile definire con maggiore precisione l'assegnazione dei valori di questa variabile e spiegare come sono collegati con episode_art=5 (trattamento ambulatoriale esterno)?
 {{<collapsibleBlock groupId="behandlungen">}}
-La notion d'areal d'hospitalisation est floue. Nous avons fait le schéma suivant à ce sujet :
+Il termine «area» è vago. Per precisarlo abbiamo creato lo schema seguente :
 
 {{<markdown>}}
-  Legende:  
+  Legenda:  
 
-- BUR = site
-- Areal = aire  
-- BURGESV = hôpital/établissement
+- BUR = sede
+- Areal = area  
+- BURGESV = ospedale/stabilimento
 {{</markdown>}}
 {{<insertImage image="Bild1.jpg" class="edge max-w-90">}}
 
 {{<markdown>}}
-Traitements ambulatoires extra-muros
+Trattamenti ambulatoriali extra-muros
 
-Uniquement pour les traitements ambulatoires hors de la propre aire hospitalière ou dans un établissement tiers. Le champ est laissé vide lorsque la question ne se pose pas (traitement au sein du propre établissement).
+Da indicare solo per i trattamenti ambulatoriali al di fuori della propria area. Il campo viene lasciato vuoto quando la domanda non si pone (trattamento all'interno dello proprio stabilimento).
 
-- Propre établissement = No Bur GESV identique
-- Etablissement tiers = No Bur GESV différent
+- Stesso stabilimento = stesso BURGESV.
+- Altro stabilimento = altro BURGESV.
 {{</markdown>}}
 
 {{<markdown>}}
-Liste des codes
+Valori :
 
-- 1 = Même aire hospitalière, autre établissement.
-- 2 = Même établissement, autre aire hospitalière.
-- 3 = Autre établissement, autre aire hospitalière.
-- 9 = inconnu.
+- 1 = propria area, altro stabilimento
+- 2 = altra area, stesso stabilimento
+- 3 = altra area, altro stabilimento
+- 9 = sconosciuto
 
-Les cas avec les valeurs 1 ou 3 sont enregistrés comme type_épisode=5.
+I casi cui si applicano i valori 2 o 3 devono essere registrati come episode_art=5.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
--->
+
 {{</numberedList>}}
 {{</faqBlock>}}
