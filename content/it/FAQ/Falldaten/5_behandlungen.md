@@ -30,7 +30,7 @@ Per la sequenza dei trattamenti si raccomanda di attenersi ai criteri seguenti:
 4. Procedure per la determinazione delle diagnosi secondarie
 5. Altre procedure
 
-- Raccomandiamo una numerazione cronologica per gli item HoNOS (misurazioni HoNOS temporalmente remote = ID bassi, misurazioni HoNOS recenti = ID alti).
+- Raccomandiamo una numerazione cronologica per gli item HoNOS (misurazioni HoNOS temporalmente remote = ID più bassi, misurazioni HoNOS recenti = ID più alti).
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

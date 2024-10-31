@@ -14,7 +14,7 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="patientenbewegu
 {{<listItem>}}
 Anche l'ammissione e la dimissione contano come un episodio?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-L'ammissione e la dimissione sono indicate come prima nel campo «data di ammissione» e «data di dimissione». Se il caso non è stato trasferito, non viene registrato alcun episodio. Se però si dovesse arrivare a un trasferimento (ad es. una dimissione intermedia) quale episodio 1 varrebbe il periodo dalla data di ammissione a quella della dimissione intermedia. L'episodio 2 inizia con la dimissione intermedia e termina con la riammissione. L'episodio 3 inizia con la riammissione e termina con il trasferimento successivo (ad es. congedo). Così facendo, per uno stesso caso si possono avere diversi episodi (v. illustrazione). L'ultimo episodio (9) si conclude con la data di dimissione. Gli episodi sono gli intervalli temporali prima e dopo eventi riguardanti un caso, quali: cambio di sede, dimissioni intermedie / riammissioni, trattamenti ambulatoriali esterni, congedi e uscite di prova.
+L'ammissione e la dimissione sono indicate come prima nel campo «data di ammissione» e «data di dimissione». Se il caso non è stato trasferito, non viene registrato alcun episodio. Se però si dovesse arrivare a un trasferimento (ad es. una dimissione intermedia) quale episodio 1 varrebbe il periodo dalla data di ammissione a quella della dimissione intermedia. L'episodio 2 inizia con la dimissione intermedia e termina con la riammissione. L'episodio 3 inizia con la riammissione e termina con il trasferimento successivo (ad es. congedo). Così facendo, per uno stesso caso si possono avere diversi episodi (v. illustrazione). L'ultimo episodio (9) si conclude con la data di dimissione. Gli episodi sono gli intervalli temporali prima e dopo eventi riguardanti un caso, quali: cambio di sede, dimissioni intermedie / riammissioni, congedi, prova di reinserimento nell'ambiente di vita e trattamenti ambulatoriali esterni.
 {{<insertImage image="Image3_it.jpg" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -34,14 +34,14 @@ In seguito a chiarimenti con SwissDRG SA è emerso che le due variabili "wiedere
 {{</listItem>}}
 
 {{<listItem>}}
-episode_id: Per la nostra sede ospedaliera, riteniamo che non sia necessario differenziare gli episodi dei casi stazionari, poiché non registriamo alcun cambiamento di sede all'interno dell'ospedale. Abbiamo capito bene?
+episode_id: per la nostra sede ospedaliera, riteniamo che non sia necessario differenziare gli episodi dei casi stazionari, poiché non registriamo alcun cambiamento di sede all'interno dell'ospedale. Abbiamo capito bene?
 {{<collapsibleBlock groupId="patientenbewegung">}}
-Per quanto riguarda gli episodi dovuti a cambiamenti di sede in tal caso va bene non indicarli. Tuttavia, devono essere indicati gli episodi dovuti a dimissioni intermedie/riammissioni, congedi, uscita di prova  e trattamenti ambulatoriali esterni.
+Per quanto riguarda gli episodi dovuti a cambiamenti di sede, in tal caso va bene non indicarli. Tuttavia, devono essere indicati gli episodi dovuti a dimissioni intermedie/riammissioni, congedi, prove di reinserimento nell'ambiente di vita e trattamenti ambulatoriali esterni.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Abbiamo capito bene che ad esempio che il periodo dall'ammissione fino al trattamento ambulatoriale esterno (v. illustrazione sotto ) deve essere già considerato come un episodio? Quando si hanno congedi, uscite di prova e trattamenti ambulatoriali esterni dobbiamo quindi sempre indicare un episode-art="1"?
+Abbiamo capito bene che ad esempio che il periodo dall'ammissione fino al trattamento ambulatoriale esterno (v. illustrazione sotto ) deve essere già considerato come un episodio? Quando si hanno congedi, prove di reinserimento nell'ambiente di vita e trattamenti ambulatoriali esterni dobbiamo quindi sempre indicare un episode-art="1"?
 {{<collapsibleBlock groupId="patientenbewegung">}}
 Esatto
 {{</collapsibleBlock>}}

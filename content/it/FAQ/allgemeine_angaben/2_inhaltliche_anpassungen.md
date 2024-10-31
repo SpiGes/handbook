@@ -54,7 +54,7 @@ Queste informazioni sono riportate nel {{<link url="https://www.bfs.admin.ch/bfs
 {{<listItem>}}
 Qual è il contenuto del rapporto di verifica?
 {{<collapsibleBlock groupId="contenu">}}
-Il contenuto esatto del rapporto di verifica dipende dalle verifiche, che sono attualmente in fase di elaborazione all'interno di un gruppo di lavoro in cui sono rappresentati tutti gli stakeholder. In sostanza, il rapporto di verifica contiene tutte le verifiche che sono state avviate e le motivazioni ufficiali relative a tali verifiche (un estratto della chat relativa alla verifica).
+Il contenuto esatto del rapporto di verifica dipende dalle verifiche che sono attualmente in fase di elaborazione all'interno di un gruppo di lavoro in cui sono rappresentati tutti gli stakeholder. In sostanza, il rapporto di verifica contiene tutte le verifiche che sono state avviate e le motivazioni ufficiali relative a tali verifiche (un estratto della chat relativa alla verifica).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -65,7 +65,7 @@ Gli ospedali pilota saranno in grado di creare un primo «set di dati» già nel
 
 - Per l'invio degli ospedali pilota della primavera del 2024 si richiedono dati reali provenienti da un sistema di produzione. Questi sono analizzati solo per acquisire conoscenze sull'invio pilota.
 - Entro agosto 2024, tutti gli ospedali (in tutti i Cantoni) devono effettuare un test dell'interfaccia per verificare che l'implementazione tecnica dell'interfaccia funzioni. A tal fine sono sufficienti anche invii parziali da sistemi di prova.
-- Dal 1.1. 2025 tutti gli ospedali devono fornire dati reali per il 2024 provenienti da sistemi di produzione e, entro la fine di aprile devono controllarli tutti e, se necessario, aggiungere commenti.
+- Dal 1.1. 2025 tutti gli ospedali devono fornire dati reali per il 2024 provenienti da sistemi di produzione; entro la fine di aprile devono controllarli tutti e, se necessario, aggiungere commenti.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
