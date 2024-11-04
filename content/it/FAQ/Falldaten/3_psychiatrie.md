@@ -24,7 +24,7 @@ Per i casi raggruppati di psichiatria devono essere indicati sia il codice HoNOS
 {{<markdown>}}
 Per la statistica facciamo riferimento alle direttive di codifica :
 
-- «Per i casi raggruppati va registrato solo il codice HoNOS di ammissione del primo caso e quello di dimissione dell'ultimo caso. Per il gruppo  sono rilevanti solo i codici HoNOS di ammissione del primo caso. Questo è chiaro per il richiedente  e non è quindi cambiato.»
+- «Per i casi raggruppati va registrato solo il codice HoNOS di ammissione del primo caso e quello di dimissione dell'ultimo caso. Per il gruppo  sono rilevanti solo i codici HoNOS di ammissione del primo caso.»
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

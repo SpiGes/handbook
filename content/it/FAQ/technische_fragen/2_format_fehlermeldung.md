@@ -24,7 +24,7 @@ Termini generali utilizzati nei messaggi di errore
 {{</listItem>}}
 
 {{<listItem>}}
-Quali errori causano il messaggio « interner Serverfehler 500 » ?
+Quali errori causano il messaggio « 500 Internal Server Error » ?
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 Le cause di questo errore possono essere diverse e sono elencate qui di seguito:
 {{<markdown>}}
