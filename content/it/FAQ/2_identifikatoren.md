@@ -14,7 +14,7 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="identifikatoren
 {{<listItem>}}
 Il NAVS è un campo obbligatorio. Tuttavia, ci saranno casi senza numero AVS. Dove è descritto cosa occorre indicare nella variabile in questo caso?
 {{<collapsibleBlock groupId="identifikatoren">}}
-Nei casi in cui il NAVS non è noto, facciamo riferimento al sito Forum Datenaustausch, che utilizza  il valore fittizio «7569999999991». 
+Nei casi in cui il NAVS non è noto, facciamo riferimento al sito Forum Datenaustausch, che utilizza  il valore fittizio «7569999999991».
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
