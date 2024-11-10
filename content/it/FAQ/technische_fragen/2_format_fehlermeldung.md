@@ -31,8 +31,8 @@ Le cause di questo errore possono essere diverse e sono elencate qui di seguito:
 
 1.	File vuoto
 2.	File troppo grande
-3.	Intestazione sbagliata 
-4.	Non codificato con UTF 8 
+3.	Intestazione sbagliata
+4.	Non codificato con UTF 8
 {{</markdown>}}
 {{<lineBreak>}}
 {{<markdown>}}

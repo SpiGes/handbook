@@ -21,13 +21,13 @@ L'autenticazione a due fattori consente di incrementare la sicurezza di un accou
 {{<listItem>}}
 È possibile avere un solo CH-LOGIN per l’intera impresa/sede?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-No, il CH-LOGIN è personale. Poiché per accedere alla piattaforma SpiGes, l'identità di ogni utente deve essere verificata, è essenziale che gli account siano personali. 
+No, il CH-LOGIN è personale. Poiché per accedere alla piattaforma SpiGes, l'identità di ogni utente deve essere verificata, è essenziale che gli account siano personali.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 In caso di cambiamento di un collaboratore o una collaboratrice con un CH-LOGIN presso un'impresa o una sede, è possibile trasferire l’account alla persona che prende il suo posto?{{<collapsibleBlock groupId="CH_LOGIN">}}
-No, il CH-LOGIN è personale. Poiché per accedere alla piattaforma SpiGes, l'identità di ogni utente deve essere verificata, è essenziale che gli account siano personali. 
+No, il CH-LOGIN è personale. Poiché per accedere alla piattaforma SpiGes, l'identità di ogni utente deve essere verificata, è essenziale che gli account siano personali.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

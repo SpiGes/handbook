@@ -68,7 +68,7 @@ La seguente specifica è stata comunicata da SwissDRG AG per il tipo di ricovero
 {{</listItem>}}
 
 {{<listItem>}}
-Secondo quanto indicato da SwissDRG SA, «Paziente trasferito» viene utilizzata come modalità di ammissione solo in caso il paziente sia stato ricoverato in un altro ospedale per un periodo superiore ai 18 giorni e venga ricoverato di nuovo, fatto che richiede l'apertura di un nuovo caso. 
+Secondo quanto indicato da SwissDRG SA, «Paziente trasferito» viene utilizzata come modalità di ammissione solo in caso il paziente sia stato ricoverato in un altro ospedale per un periodo superiore ai 18 giorni e venga ricoverato di nuovo, fatto che richiede l'apertura di un nuovo caso.
 {{</listItem>}}
 
 {{<listItem>}}

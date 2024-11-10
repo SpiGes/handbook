@@ -31,14 +31,14 @@ Come vengono compilati i relativi campi per le fatture che non vengono fatturate
 {{</listItem>}}
 
 {{<listItem>}}
-Come devono essere fornite le informazioni sui casi o sulle fatture nei casi in cui, al momento dell’esportazione dei dati, queste ultime sono state annullate? 
+Come devono essere fornite le informazioni sui casi o sulle fatture nei casi in cui, al momento dell’esportazione dei dati, queste ultime sono state annullate?
 {{<collapsibleBlock groupId="rechnungen">}}
 Le informazioni sui casi devono essere fornite comunque. Per quanto riguarda le fatture, devono essere inviate le informazioni sul loro ultimo stato, per cui in caso di fattura annullata, non deve essere fornito niente.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Come devono essere fornite le informazioni sui casi  A che, al momento dell'esportazione dei dati, non sono ancora stati fatturati? 
+Come devono essere fornite le informazioni sui casi  A che, al momento dell'esportazione dei dati, non sono ancora stati fatturati?
 {{<collapsibleBlock groupId="rechnungen">}}
 Le informazioni sui casi devono essere fornite comunque. Anche in questo caso per le fatture devono essere fornite le informazioni relative al loro ultimo stato, e quindi niente.
 {{</collapsibleBlock>}}

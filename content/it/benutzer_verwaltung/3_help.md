@@ -92,7 +92,6 @@ Nella scheda della panoramica, inserire una motivazione dell'autorizzazione per 
 
 &nbsp;
 
-
 ## Differenze rispetto ad eIAM
 
 Può succedere che si riceva un'e-mail che informa di una discrepanza tra i dati inseriti nel portale eIAM e i dati dell'utente registrato in SpiGes. Qui di seguito viene spiegato cosa fare a seconda della situazione:
