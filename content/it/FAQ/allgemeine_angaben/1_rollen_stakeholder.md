@@ -32,7 +32,7 @@ Quale sarà in futuro il ruolo dei Cantoni, in particolare dei partner cantonali
 {{<listItem>}}
 Sulla piattaforma SpiGes sono presenti variabili facoltative, che possono essere compilate secondo le indicazioni del Cantone. Entro quando il Cantone deve informare le imprese o l'UST in merito alle variabili che devono essere compilate? Il Cantone è libero di decidere quali tra gli elementi facoltativi debbano essere completati?
 {{<collapsibleBlock groupId="roles">}}
-I Cantoni informano i loro ospedali di preparare le variabili facoltative (ad es. op_gln) con sufficiente anticipo, in modo che queste vengano registrate nel sistema ospedaliero a partire dai dati del 2024. Il Cantone decide in base alle proprie linee guida nel settore sanitario, quali di queste variabili possono essere più specifiche rispetto alle linee guida nazionali.
+I Cantoni informano i loro ospedali sulla preparazione delle variabili facoltative (ad es. op_gln) con sufficiente anticipo, in modo che queste vengano registrate nel sistema ospedaliero a partire dai dati del 2024. Il Cantone decide in base alle proprie linee guida nel settore sanitario, quali di queste variabili possono essere più specifiche rispetto alle linee guida nazionali.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -53,7 +53,7 @@ L'UST è in contatto con l'ANQ per armonizzare le variabili e i formati SpiGes.
 {{<listItem>}}
 Qual è la base giuridica che obbliga gli ospedali a trasmettere la statistica?
 {{<collapsibleBlock groupId="roles">}}
-Conformemente all'art. 23 della legge federale del 18 marzo 1994 sull'assicurazione malattie (LAMal; RS 832.10), art. 6 cpv. 4 della legge del 9 ottobre 1992 sulla statistica federale (LStat; RS 431.01), art. 6 cpv. 1 dell'ordinanza del 30 giugno 1993 sull'esecuzione di rilevazioni statistiche federali (RS 431. 012.1) e le disposizioni sulla statistica ospedaliera e sulla statistica medica nell'allegato di detta ordinanza tutti gli ospedali sono tenuti a fornire i dati necessari all'Ufficio federale di statistica nella forma legalmente prescritta e entro il termine fissato.
+Conformemente all'art. 23 della legge federale del 18 marzo 1994 sull'assicurazione malattie (LAMal; RS 832.10), all'art. 6 cpv. 4 della legge del 9 ottobre 1992 sulla statistica federale (LStat; RS 431.01), all'art. 6 cpv. 1 dell'ordinanza del 30 giugno 1993 sull'esecuzione di rilevazioni statistiche federali (RS 431. 012.1) e alle disposizioni sulla statistica ospedaliera e sulla statistica medica nell'allegato di detta ordinanza, tutti gli ospedali sono tenuti a fornire i dati necessari all'Ufficio federale di statistica nella forma legalmente prescritta e entro il termine fissato.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

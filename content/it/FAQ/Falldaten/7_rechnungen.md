@@ -29,6 +29,27 @@ Come vengono compilati i relativi campi per le fatture che non vengono fatturate
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
-<!-- A compléter: new FAQ-->
+
+{{<listItem>}}
+Come devono essere fornite le informazioni sui casi o sulle fatture nei casi in cui, al momento dell’esportazione dei dati, queste ultime sono state annullate?
+{{<collapsibleBlock groupId="rechnungen">}}
+Le informazioni sui casi devono essere fornite comunque. Per quanto riguarda le fatture, devono essere inviate le informazioni sul loro ultimo stato, per cui in caso di fattura annullata, non deve essere fornito niente.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Come devono essere fornite le informazioni sui casi  A che, al momento dell'esportazione dei dati, non sono ancora stati fatturati?
+{{<collapsibleBlock groupId="rechnungen">}}
+Le informazioni sui casi devono essere fornite comunque. Anche in questo caso per le fatture devono essere fornite le informazioni relative al loro ultimo stato, e quindi niente.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Variabile «rech_unfallnr»: il campo relativo a questa variabile può contenere un massimo di 17 caratteri. Tuttavia, nei vecchi sistemi circolano ancora numeri di infortunio di 20 caratteri. Cosa occorre fare in questi casi?
+{{<collapsibleBlock groupId="rechnungen">}}
+In accordo con il Servizio centrale delle tariffe mediche LAINF (SCTM), le prime tre posizioni possono essere cancellate. Ad esempio, il seguente numero di infortunio 01.05.01.23.009999.3 sarà inviato come 05.01.23.009999.3, cioè senza il prefisso «01.».
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

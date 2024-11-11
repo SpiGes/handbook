@@ -92,13 +92,12 @@ Nella scheda della panoramica, inserire una motivazione dell'autorizzazione per 
 
 &nbsp;
 
-<!-- A traduire: new FAQ
-## Différences eIAM
+## Differenze rispetto ad eIAM
 
-Il se peut que vous receviez un mail vous indiquant une incohérence entre les données saisies sur le portail eIAM et les données de l'utilisateur s'étant connecté. Voici ce qu'il faut faire dans les différentes situations:
+Può succedere che si riceva un'e-mail che informa di una discrepanza tra i dati inseriti nel portale eIAM e i dati dell'utente registrato in SpiGes. Qui di seguito viene spiegato cosa fare a seconda della situazione:
 
-- Si l'erreur est négligeable (deuxième prénom faux, faute de frappe, ...): Vous pouvez ignorer l'e-mail de eIAM, les données se metteront à jour automatiquement sur eIAM.
+- Se l'errore è trascurabile (secondo nome sbagliato, errore di battitura ecc.), l'e-mail di eIAM può essere ignorata, poiché i dati verranno aggiornati automaticamente su eIAM.
 
-- Si l'adresse e-mail n'est pas la bonne (e-mail privé et non professionnel): Vous devez désactiver le profil de l'utilisateur, et le contacter afin qu'il utilise son adresse e-mail professionelle pour se connecter. Vous devez ensuite lui créer un nouveau profil qu'il pourra lier avec son adresse e-mail professionnelle.
+- Se è stato indicato un indirizzo e-mail sbagliato (e-mail privata e non professionale), occorre disattivare il profilo dell'utente e contattarlo per informarlo che deve utilizzare il suo indirizzo e-mail professionale per accedere a SpiGes. Sarà quindi necessario creare un nuovo profilo per l'utente in questione, che dovrà poi collegare al proprio indirizzo e-mail professionale.
 
-- Si la personne ayant créé l'accès n'est pas celle prévue initialement (les données sont celles d'une autre personne): Il faut désactiver le profil et contacter imédiatement <spiges@bfs.admin.ch>.-->
+- Se la persona che ha creato l'accesso non è quella originariamente prevista (i dati provengono da un'altra persona), occorre disattivare il profilo e segnalarlo immediatamente a <spiges@bfs.admin.ch>.

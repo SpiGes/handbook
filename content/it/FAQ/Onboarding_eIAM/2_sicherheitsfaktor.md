@@ -14,16 +14,22 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="Zweiter_sicherh
 {{<listItem>}}
 Quali secondi fattori di sicurezza possono essere utilizzati?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Per accedere alla piattaforma SpiGes è necessario utilizzare un secondo fattore forte. I seguenti secondi fattori sono considerati forti: Mobile ID e FIDO Passkey.
-<!-- A compléter avec new faq-->
+{{<markdown>}}
+
+- Per accedere alla piattaforma SpiGes è necessario utilizzare un secondo fattore forte. I seguenti secondi fattori sono considerati forti: Mobile ID e chiave FIDO (chiave su supporto fisico o Windows Hello).
+- mTAN o l'applicazione Authenticator (spesso già installati per la rilevazione KS) non sono sufficientemente forti come secondi fattori per SpiGes.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 L'identificazione video è obbligatoria per poter accedere alla piattaforma di rilevazione SpiGes?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Sì. Senza identificazione video, non è possibile raggiungere la QoA 50 (Quality of Authentication) necessaria per accedere alla piattaforma di rilevazione SpiGes. Per raggiungere questo livello di qualità di autenticazione, l'utente deve disporre di un'identità elettronica  verificata e non solo autoregistrata.
-<!-- A compléter avec new faq-->
+{{<markdown>}}
+
+- Sì. Senza identificazione video, non è possibile raggiungere la QoA 50 (Quality of Authentication) necessaria per accedere alla piattaforma di rilevazione SpiGes. Per raggiungere questo livello di qualità di autenticazione, l'utente deve disporre di un'identità elettronica verificata e non solo autoregistrata.
+- È importante effettuare l'identificazione video con un secondo fattore forte (v. domanda 101). Un’identificazione video effettuata su mTAN o sull'applicazione Authenticator non consente l'accesso a SpiGes.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

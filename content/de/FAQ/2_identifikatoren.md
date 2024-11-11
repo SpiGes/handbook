@@ -14,7 +14,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="identifikatoren">
 {{<listItem>}}
 Die AHVN ist ein Pflichtfeld. Trotzdem wird es Fälle ohne AHV-Nr. geben. Wo ist beschrieben was in diesem Fall in die Variable kommt?
 {{<collapsibleBlock groupId="identifikatoren">}}
-Bei unbekannter AHVN richten wir uns nach dem Forum Datenaustausch, welche den Dummy-Wert «7569999999991» verwenden.
+Bei unbekannter AHVN richten wir uns nach dem Forum Datenaustausch, welche den Dummy-Wert «7569999999991» verwendet.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
