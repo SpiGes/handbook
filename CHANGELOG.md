@@ -2,6 +2,25 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
+## [0.2.1] - 2024.11.11
+
+### Added
+
+#### Documentation
+
+- [#141](https://github.com/SpiGes/handbook/issues/141) - Add italian
+- [#156](https://github.com/SpiGes/handbook/issues/156) - Add italian images
+- [#174](https://github.com/SpiGes/handbook/issues/174) - Finalize italian traduction
+
+#### Others
+
+### Updated
+
+#### Documentation
+
+- [#159](https://github.com/SpiGes/handbook/issues/159) - Corrections_FR_DE_inputs_traductrice
+- [#164](https://github.com/SpiGes/handbook/issues/164) - Check layout it/fr/de
+
 ## [0.2.0] - 2024.10.03
 
 ### Added
