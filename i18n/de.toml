@@ -24,3 +24,21 @@ other = "Klicken Sie hier, um zu erweitern/reduzieren"
 other = "Klicken Sie hier, um alle zu erweitern/reduzieren"
 [project_title]
 other = "Handbuch SpiGes"
+
+# Release notes
+[release_notes_title]
+other = "Versionshinweise"
+[release_notes_dear_text]
+other = "Sehr geehrte kantonale Erhebungsverantwortliche"
+[release_notes_new_version_text]
+other = "Ein neuer SpiGes Release wurde freigeschaltet."
+[release_notes_thanks_text]
+other = "Besten Dank für Ihre Geduld und Mithilfe."
+[release_notes_improvements_title]
+other = "Folgende Anpassungen wurden gemacht"
+[release_notes_fixed_bugs_title]
+other = "Folgende Bugs wurden behoben"
+[release_notes_new_features_title]
+other = "Folgende Funktionalitäten sind gleich"
+[release_notes_next_features_title]
+other = "Folgende Funktionalitäten werden folgen"

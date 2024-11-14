@@ -1,0 +1,18 @@
+<div class="release-notes">
+  <h2>
+    {{ T "release_notes_title" }}
+    {{ with .Get "date" }}- {{ . }}{{ end }}
+    {{ with .Get "version" }}- Version {{ . }}{{ end }}
+
+  </h2>
+  <br />
+  <p>{{ T "release_notes_dear_text" }}</p>
+  <p>{{ T "release_notes_new_version_text" }}</p>
+
+  {{ .Inner }}
+
+
+  <br />
+  <p>{{ T "release_notes_thanks_text" }}</p>
+  <p>{{ .Get "responsible" }}</p>
+</div>

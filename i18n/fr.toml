@@ -24,3 +24,21 @@ other = "Cliquez ici pour développer/réduire"
 other = "Cliquez ici pour tout développer/réduire"
 [project_title]
 other = "Manuel SpiGes"
+
+# Release notes
+[release_notes_title]
+other = "Release notes"
+[release_notes_dear_text]
+other = "Chers responsables de relevé,"
+[release_notes_new_version_text]
+other = "Une nouvelle version de SpiGes a été mise en ligne."
+[release_notes_thanks_text]
+other = "Nous vous remercions de votre patience et de votre aide."
+[release_notes_improvements_title]
+other = "Les adaptations suivantes ont été effectuées"
+[release_notes_fixed_bugs_title]
+other = "Les bugs suivants ont été corrigés"
+[release_notes_new_features_title]
+other = "Les fonctions suivantes existaient déjà"
+[release_notes_next_features_title]
+other = "Les fonctionnalités suivantes suivront"
