@@ -2,6 +2,18 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
+## [0.3] - 2024.11.19
+
+### Added
+
+#### Documentation
+
+- [#177](https://github.com/SpiGes/handbook/issues/177) - First release notes added
+
+#### Others
+
+- [#177](https://github.com/SpiGes/handbook/issues/177) - New shortcodes added to write release notes (same task number as for adding the release notes)
+
 ## [0.2.1] - 2024.11.11
 
 ### Added
