@@ -41,9 +41,8 @@ sur les coûts unitaires (besoins médicaux 400 et 401). Mais pour ces variables
 Les sites purement ambulatoires ne sont pas pris en compte dans la population de SpiGes. ITAR_K® contient les coûts par tarif ambulatoire. A quel niveau les coûts purement ambulatoires sont-ils livrés dans SpiGes ?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
-- Les coûts purement ambulatoires sont livrés dans l'élément **KostentraegerUnternehmen** au niveau de l'entreprise (voir exemple xml fictif):
+Les coûts purement ambulatoires sont livrés dans l'élément **KostentraegerUnternehmen** au niveau de l'entreprise (voir exemple xml fictif).Les coûts ne sont pas saisis par patient (cas) mais par tarif ambulatoire (ktr_typ).
 {{<insertImage image="xml_tarifambu.png" class="edge max-w-90">}}
-- Les coûts ne sont pas saisis par patient (cas) mais par tarif ambulatoire (ktr_typ).
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
