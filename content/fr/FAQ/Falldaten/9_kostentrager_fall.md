@@ -42,7 +42,7 @@ Les sites purement ambulatoires ne sont pas pris en compte dans la population de
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
 Les coûts des sites purement ambulatoires sont livrés dans l'élément **KostentraegerUnternehmen** au niveau de l'entreprise (voir exemple xml fictif). Les coûts ne sont pas saisis par patient (cas) mais par tarif ambulatoire (ktr_typ, dans l'exemble "301" = Tarif TARMED, LAMal purement AOS).
-{{<insertImage image="xml_tarifambu.png" class="edge max-w-90">}}
+{{<insertImage image="xml_tarifambu.png" class="edge max-w-70">}}
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

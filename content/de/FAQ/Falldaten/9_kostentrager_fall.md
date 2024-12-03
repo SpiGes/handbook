@@ -34,7 +34,7 @@ Die rein ambulanten Standorte sind in SpiGes nicht in der Grundgesamtheit erfass
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
 Die Kosten der rein ambulanten Standorte werden im Element **KostentraegerUnternehmen** auf Unternehmensebene geliefert (siehe fiktives xml Beispiel). Die Kosten werden nicht pro Patient (Fall) sondern pro ambulanten Tarif (ktr_typ, im Beispiel "301" = Tarif TARMED, KVG reine OKP) erfasst.
-{{<insertImage image="xml_tarifambu.png" class="edge max-w-90">}}
+{{<insertImage image="xml_tarifambu.png" class="edge max-w-70">}}
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

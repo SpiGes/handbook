@@ -41,7 +41,7 @@ Le sedi puramente ambulatoriali non sono incluse nella popolazione di base dello
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
 I costi delle sedi puramente ambulatoriali sono forniti a livello aziendale nell'elemento **KostentraegerUnternehmen** (cfr. esempio xml fittizio). I costi non sono registrati per paziente (caso) ma per tariffa ambulatoriale (ktr_typ, nell'esempio "301" = TARMED, LAMal solo AOMS).
-{{<insertImage image="xml_tarifambu.png" class="edge max-w-90">}}
+{{<insertImage image="xml_tarifambu.png" class="edge max-w-70">}}
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
