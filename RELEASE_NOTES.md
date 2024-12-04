@@ -1,16 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.3]
+# Release Notes - SpiGes Documentation Version [0.4]
 
-**Release Date:** 2024.11.19
+**Release Date:** 2024.12.04
 
 ## What's New
 
 ### Documentation
 
-- [#177](https://github.com/SpiGes/handbook/issues/177) - First release notes added
-
-### Others
-
-- [#177](https://github.com/SpiGes/handbook/issues/177) - New shortcodes added to write the release notes (same task number as for adding the releae notes)
+- [#184](https://github.com/SpiGes/handbook/issues/184) - Tarifambu added in the FAQ
 
 ## Contributors
 
