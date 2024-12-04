@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
+## [0.4] - 2024.12.04
+
+### Added
+
+#### Documentation
+
+- [#184](https://github.com/SpiGes/handbook/issues/184) - Tarifambu added in the FAQ
+
 ## [0.3] - 2024.11.19
 
 ### Added
