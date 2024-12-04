@@ -36,5 +36,15 @@ Supplementi per costi di utilizzo delle immobilizzazioni (CUI) ai costi diretti:
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Le sedi puramente ambulatoriali non sono incluse nella popolazione di base dello SpiGes. ITAR_K® contiene i costi per tariffa ambulatoriale. A quale livello vengono forniti i costi puramente ambulatoriali in SpiGes?
+{{<collapsibleBlock groupId="kostentraeger">}}
+{{<markdown>}}
+I costi delle sedi puramente ambulatoriali sono forniti a livello aziendale nell'elemento **KostentraegerUnternehmen** (cfr. esempio xml fittizio). I costi non sono registrati per paziente (caso) ma per tariffa ambulatoriale (ktr_typ, nell'esempio "301" = TARMED, LAMal solo AOMS).
+{{<insertImage image="xml_tarifambu.png" class="edge max-w-70">}}
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
