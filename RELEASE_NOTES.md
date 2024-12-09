@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.4]
+# Release Notes - SpiGes Documentation Version [0.5]
 
-**Release Date:** 2024.12.04
+**Release Date:** 2024.12.09
 
 ## What's New
 
 ### Documentation
 
-- [#184](https://github.com/SpiGes/handbook/issues/184) - Tarifambu added in the FAQ
+- [#187](https://github.com/SpiGes/handbook/issues/187) - New release notes added
 
 ## Contributors
 
