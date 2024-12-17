@@ -33,7 +33,12 @@ Zuschläge für Anlagenutzungskosten (ANK) bei den Einzelkosten:  Auf den Einzel
 Die rein ambulanten Standorte sind in SpiGes nicht in der Grundgesamtheit erfasst. ITAR_K® enthält die Kosten pro ambulanten Tarif. Auf welcher Ebene werden die rein ambulanten Kosten in SpiGes geliefert?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
-Die Kosten der rein ambulanten Standorte werden im Element **KostentraegerUnternehmen** auf Unternehmensebene geliefert (siehe fiktives xml Beispiel). Die Kosten werden nicht pro Patient (Fall) sondern pro ambulanten Tarif (ktr_typ, im Beispiel "301" = Tarif TARMED, KVG reine OKP) erfasst.
+Die Kosten der rein ambulanten Standorte können im Element **KostentraegerStandort** auf einen anderen Standortsebene oder im Element **KostentraegerUnternehmen** auf Unternehmensebene geliefert werden (siehe fiktives xml Beispiel). Die Kosten werden nicht pro Patient (Fall) sondern pro ambulanten Tarif (ktr_typ, im Beispiel "301" = Tarif TARMED, KVG reine OKP) erfasst.
+
+Zu beachten:
+- Angaben zu Kosten- und Erlösträgern sollten wenn immer möglich auf Standortebene erfolgen. 
+- Kostenträger- und Erlösträgerinformationen auf Unternehmensebene dürfen nur bei Unternehmen mit **einem** Spital (BURGESV) angegeben werden. Bei Unternehmen mit mehreren Spitälern werden die allfällige Kostenträgerinformationen auf Unternehmensebene für die Zwecke von ITAR_K® vom BFS automatisch einem Standort zugeordnet.
+
 {{<insertImage image="xml_tarifambu.png" class="edge max-w-70">}}
 {{</markdown>}}
 {{</collapsibleBlock>}}
