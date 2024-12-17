@@ -45,7 +45,8 @@ Les coûts des sites purement ambulatoires peuvent être livrés dans l'élémen
 
 A noter: 
 - Les informations sur les objets de coûts et de recettes doivent, si possible, être fournies au niveau du site. 
-- Les informations sur les objets de coûts et de recettes au niveau de l'entreprise ne peuvent être indiquées que pour les entreprises avec UN hôpital (BURGESV). Pour les entreprises avec plusieurs hôpitaux, les éventuelles informations mises au niveau de l'entreprise seront automatiquement attribuées à un site par l'OFS.
+- Les informations sur les objets de coûts et de recettes au niveau de l'entreprise ne peuvent être indiquées que pour les entreprises avec **un** hôpital (BURGESV). Pour les entreprises avec plusieurs hôpitaux, les éventuelles informations mises au niveau de l'entreprise seront automatiquement attribuées à un site par l'OFS.
+
 {{<insertImage image="xml_tarifambu.png" class="edge max-w-70">}}
 {{</markdown>}}
 {{</collapsibleBlock>}}
