@@ -39,7 +39,7 @@ Zu beachten:
 - Angaben zu Kosten- und Erlösträgern sollten wenn immer möglich auf Standortebene erfolgen. 
 - Kostenträger- und Erlösträgerinformationen auf Unternehmensebene dürfen nur bei Unternehmen mit **einem** Spital (BURGESV) angegeben werden. Bei Unternehmen mit mehreren Spitälern werden die allfällige Kostenträgerinformationen auf Unternehmensebene für die Zwecke von ITAR_K® vom BFS automatisch einem Standort zugeordnet.
 
-{{<insertImage image="xml_tarifambu.png" class="edge max-w-70">}}
+{{<insertImage image="xml_tarifambu.png" class="edge max-w-70" style="width: 50%">}}
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
