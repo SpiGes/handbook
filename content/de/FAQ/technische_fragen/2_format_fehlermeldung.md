@@ -119,10 +119,10 @@ Wieso wird **grund_wiedereintritt=" "** als Formatfehler angezeigt? In der Varia
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<markdown>}}
 Beim xml wird dieses Format nicht unterstützt. Wenn die Ausprägung in begründeten Fällen nicht vorkommt, wird die Variable nicht geliefert. 
-
 {{<lineBreak>}}
 Falsch:
 {{<insertImage image="vide_faux.png" class="edge max-w-90">}}
+
 {{<lineBreak>}}
 Richtig: **grund_wiedereintritt** wird entführt.
 {{<insertImage image="vide_correct.png" class="edge max-w-90">}}{{</collapsibleBlock>}}

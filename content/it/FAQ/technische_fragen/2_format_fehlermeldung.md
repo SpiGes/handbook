@@ -119,10 +119,10 @@ Perché **grund_wiedereintritt=" "** viene segnalato come errore di formato? L'e
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<markdown>}}
 Questo formato non è supportato per l'xml. Se il valore non appare in casi giustificati, la variabile non deve essere fornita. 
-
 {{<lineBreak>}}
 Falso:
 {{<insertImage image="vide_faux.png" class="edge max-w-90">}}
+
 {{<lineBreak>}}
 Corretto: **grund_wiedereintritt** viene rimosso.
 {{<insertImage image="vide_correct.png" class="edge max-w-90">}}{{</collapsibleBlock>}}
