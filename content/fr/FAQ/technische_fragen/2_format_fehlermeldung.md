@@ -112,15 +112,16 @@ Pour rech_menge, 12 chiffres au total sont possibles, dont 5 chiffres maximum ap
 {{</listItem>}}
 
 {{<listItem>}}
-Pourquoi grund_wiedereintritt= " " est affiché comme erreur de format (voir print screen)? La liste des variables indique que cette variable peut être livrée vide.
+Pourquoi **grund_wiedereintritt=" "** est affiché comme erreur de format? La liste des variables indique que cette variable peut être livrée vide.
 {{<insertImage image="grund_wiedereintritt_erreur.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 Pour le xml, ce format n'est pas supporté. Si la valeur n'apparaît pas dans des cas justifiés, la variable ne doit pas être fournie. 
+
 {{<lineBreak>}}
 Faux:
 {{<insertImage image="vide_faux.png" class="edge max-w-90">}}
 {{<lineBreak>}}
-Correct: grund_wiedereintritt est enlevé
+Correct: **grund_wiedereintritt** est enlevé.
 {{<insertImage image="vide_correct.png" class="edge max-w-90">}}{{</collapsibleBlock>}}
 {{</listItem>}}
 
