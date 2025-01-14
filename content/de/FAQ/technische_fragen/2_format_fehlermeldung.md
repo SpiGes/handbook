@@ -114,8 +114,10 @@ Bei rech_menge sind gesamt 12 Stellen möglich, davon maximal 5 Nachkommastellen
 {{<listItem>}}
 {{<markdown>}}
 Wieso wird **grund_wiedereintritt=" "** als Formatfehler angezeigt? In der Variablenliste steht, dass diese Variable leer geliefert werden kann.
+{{</markdown>}}
 {{<insertImage image="grund_wiedereintritt_erreur.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
+{{<markdown>}}
 Beim xml wird dieses Format nicht unterstützt. Wenn die Ausprägung in begründeten Fällen nicht vorkommt, wird die Variable nicht geliefert. 
 
 {{<lineBreak>}}
