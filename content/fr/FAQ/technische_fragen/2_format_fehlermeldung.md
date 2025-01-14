@@ -112,6 +112,7 @@ Pour rech_menge, 12 chiffres au total sont possibles, dont 5 chiffres maximum ap
 {{</listItem>}}
 
 {{<listItem>}}
+{{<markdown>}}
 Pourquoi **grund_wiedereintritt=" "** est affiché comme erreur de format? La liste des variables indique que cette variable peut être livrée vide.
 {{<insertImage image="grund_wiedereintritt_erreur.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
@@ -123,6 +124,7 @@ Faux:
 {{<lineBreak>}}
 Correct: **grund_wiedereintritt** est enlevé.
 {{<insertImage image="vide_correct.png" class="edge max-w-90">}}{{</collapsibleBlock>}}
+{{</markdown>}}
 {{</listItem>}}
 
 {{</numberedList>}}

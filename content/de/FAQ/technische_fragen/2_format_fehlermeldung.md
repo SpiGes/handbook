@@ -112,6 +112,7 @@ Bei rech_menge sind gesamt 12 Stellen möglich, davon maximal 5 Nachkommastellen
 {{</listItem>}}
 
 {{<listItem>}}
+{{<markdown>}}
 Wieso wird **grund_wiedereintritt=" "** als Formatfehler angezeigt? In der Variablenliste steht, dass diese Variable leer geliefert werden kann.
 {{<insertImage image="grund_wiedereintritt_erreur.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
@@ -123,6 +124,7 @@ Falsch:
 {{<lineBreak>}}
 Richtig: **grund_wiedereintritt** wird entführt.
 {{<insertImage image="vide_correct.png" class="edge max-w-90">}}{{</collapsibleBlock>}}
+{{</markdown>}}
 {{</listItem>}}
 
 {{</numberedList>}}

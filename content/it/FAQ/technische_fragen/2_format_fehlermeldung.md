@@ -112,6 +112,7 @@ Per la variabile «rech_menge» possono essere indicate un totale di 12 posizion
 {{</listItem>}}
 
 {{<listItem>}}
+{{<markdown>}}
 Perché **grund_wiedereintritt=" "** viene segnalato come errore di formato? L'elenco delle variabili indica che questa variabile può essere consegnata vuota.
 {{<insertImage image="grund_wiedereintritt_erreur.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
@@ -123,6 +124,7 @@ Falso:
 {{<lineBreak>}}
 Corretto: **grund_wiedereintritt** viene rimosso.
 {{<insertImage image="vide_correct.png" class="edge max-w-90">}}{{</collapsibleBlock>}}
+{{</markdown>}}
 {{</listItem>}}
 
 {{</numberedList>}}
