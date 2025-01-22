@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.5]
+# Release Notes - SpiGes Documentation Version [0.6]
 
-**Release Date:** 2024.12.09
+**Release Date:** 2025.01.22
 
 ## What's New
 
 ### Documentation
 
-- [#187](https://github.com/SpiGes/handbook/issues/187) - New release notes added
+- [#189](https://github.com/SpiGes/handbook/issues/189) - Info in FAQ added
 
 ## Contributors
 
