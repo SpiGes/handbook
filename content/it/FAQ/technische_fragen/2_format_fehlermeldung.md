@@ -111,5 +111,23 @@ Per la variabile «rech_menge» possono essere indicate un totale di 12 posizion
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+{{<markdown>}}
+Perché **grund_wiedereintritt=" "** viene segnalato come errore di formato? L'elenco delle variabili indica che questa variabile può essere vuota.
+{{</markdown>}}
+{{<insertImage image="grund_wiedereintritt_erreur.png" class="edge max-w-90">}}
+{{<collapsibleBlock groupId="format_fehlermeldung">}}
+{{<markdown>}}
+Questo formato non è supportato per l'xml. Se il valore non appare in casi giustificati, la variabile non è fornita.
+{{<lineBreak>}}
+Falso:
+{{<insertImage image="vide_faux.png" class="edge max-w-90">}}
+
+{{<lineBreak>}}
+Corretto: **grund_wiedereintritt** viene rimosso.
+{{<insertImage image="vide_correct.png" class="edge max-w-90">}}{{</collapsibleBlock>}}
+{{</markdown>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
