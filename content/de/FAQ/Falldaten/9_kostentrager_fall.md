@@ -35,7 +35,8 @@ Die rein ambulanten Standorte sind in SpiGes nicht in der Grundgesamtheit erfass
 {{<markdown>}}
 Die Kosten der rein ambulanten Standorte werden im Element **KostentraegerStandort** auf einen anderen Standortsebene oder im Element **KostentraegerUnternehmen** auf Unternehmensebene geliefert werden (siehe fiktives xml Beispiel). Die Kosten werden nicht pro Patient (Fall) sondern pro ambulanten Tarif (ktr_typ, im Beispiel "301" = Tarif TARMED, KVG reine OKP) erfasst.
 
-Damit diese Erfassung im ITAR_K® (**pro BURGESV**) korrekt erfolgt, muss Folgendes beachtet werden: 
+Damit diese Erfassung im ITAR_K® (**pro BURGESV**) korrekt erfolgt, muss Folgendes beachtet werden:
+
 - Kosten und Erlöse von rein ambulant behandelten Patienten auf Unternehmensebene erfassen: bei Unternehmen mit **einem** Spital (BURGESV).
 - Kosten und Erlöse von rein ambulant behandelten Patienten auf Standortebene erfassen: bei Unternehmen mit **mehreren** Spitälern (BURGESV).
 

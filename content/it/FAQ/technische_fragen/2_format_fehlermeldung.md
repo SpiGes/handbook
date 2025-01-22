@@ -118,7 +118,7 @@ Perché **grund_wiedereintritt=" "** viene segnalato come errore di formato? L'e
 {{<insertImage image="grund_wiedereintritt_erreur.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="format_fehlermeldung">}}
 {{<markdown>}}
-Questo formato non è supportato per l'xml. Se il valore non appare in casi giustificati, la variabile non è fornita. 
+Questo formato non è supportato per l'xml. Se il valore non appare in casi giustificati, la variabile non è fornita.
 {{<lineBreak>}}
 Falso:
 {{<insertImage image="vide_faux.png" class="edge max-w-90">}}

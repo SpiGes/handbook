@@ -44,6 +44,7 @@ Les sites purement ambulatoires ne sont pas pris en compte dans la population de
 Les coûts des sites purement ambulatoires sont livrés dans l'élément **KostentraegerStandort** au niveau d'un autre site ou dans l'élément **KostentraegerUnternehmen** au niveau de l'entreprise (voir exemple xml fictif). Les coûts ne sont pas saisis par patient (cas) mais par tarif ambulatoire (ktr_typ, dans l'exemble "301" = Tarif TARMED, LAMal purement AOS).
 
 Pour que cette saisie soit correcte dans ITAR_K® (**par BURGESV**), il faut tenir compte de ce qui suit :
+
 - Saisie des coûts et des recettes des patients traités uniquement en ambulatoire au niveau de l'entreprise : pour les entreprises avec **un** hôpital (BURGESV).
 - Saisie des coûts et des recettes des patients traités uniquement en ambulatoire au niveau d'un site : pour les entreprises avec **plusieurs** hôpitaux (BURGESV).
 
