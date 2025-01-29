@@ -1,6 +1,6 @@
 # Release Notes - SpiGes Documentation Version [0.7]
 
-**Release Date:** 2025.mm.dd
+**Release Date:** 2025.01.29
 
 ## What's New
 
