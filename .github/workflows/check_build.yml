@@ -83,7 +83,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           filter_mode: added
-          fail_on_error: true
+          fail_level: warning
           eslint_flags: "--debug --stats --ignore-pattern '{public/,node_modules/}' assets/js/"
 
   markdownlintCheck:
@@ -105,7 +105,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           filter_mode: added
-          fail_on_error: true
+          fail_level: warning
           markdownlint_flags: '**/content/**/*.md --ignore node_modules --ignore public --config .markdownlint.json'
 
   # Build job
