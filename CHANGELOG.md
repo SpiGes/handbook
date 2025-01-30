@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
 
+## [0.x] - 2025.mm.dd
+
+### Updated
+
+#### Others
+
+- [#178](https://github.com/SpiGes/handbook/issues/178) - Tools and dependencies updated
+
 ## [0.7] - 2025.01.29
 
 ### Added
