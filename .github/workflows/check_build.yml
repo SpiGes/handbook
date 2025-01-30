@@ -60,7 +60,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           filter_mode: added
-          fail_on_error: true
+          fail_level: warning
           stylelint_config: '.stylelintrc.json'
           stylelint_input: '**/assets/scss/*.scss'
 
