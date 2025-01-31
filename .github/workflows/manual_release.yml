@@ -50,7 +50,7 @@ jobs:
             echo "Release version is empty. Stopping the workflow."
             exit 1
           else
-            echo "release_version=$release_version" >> $GITHUB_OUTPUT
+            echo "release_version=v$release_version" >> $GITHUB_OUTPUT
           fi
 
   check_git_tag:
@@ -145,7 +145,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   create-release:
-    needs: [deploy, extract_release_version]
+    needs: [deploy]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -161,10 +161,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "release version = $RELEASE_VERSION"
-          gh release create "v$RELEASE_VERSION" --title "Release $RELEASE_VERSION" --notes-file RELEASE_NOTES.md --draft
+          gh release create "$RELEASE_VERSION" --title "$RELEASE_VERSION" --notes-file RELEASE_NOTES.md --draft
 
   publish-release:
-    needs: [create-release, extract_release_version]
+    needs: [create-release]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -179,4 +179,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "release version = $RELEASE_VERSION"
-          gh release edit "v$RELEASE_VERSION" --draft=false
+          gh release edit "$RELEASE_VERSION" --draft=false
