@@ -8,6 +8,12 @@
 
 - [#178](https://github.com/SpiGes/handbook/issues/178) - Tools and dependencies updated
 
+## Fixes
+
+### Others
+
+- [#183](https://github.com/SpiGes/handbook/issues/183) - Release version extraction step in Release workflow fixed
+
 ## Contributors
 
 - **SpiGes documentation team**.
