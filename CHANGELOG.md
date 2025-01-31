@@ -10,6 +10,12 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 - [#178](https://github.com/SpiGes/handbook/issues/178) - Tools and dependencies updated
 
+### Fixed
+
+#### Others
+
+- [#183](https://github.com/SpiGes/handbook/issues/183) - Release version extraction step in Release workflow fixed
+
 ## [0.7] - 2025.01.29
 
 ### Added
