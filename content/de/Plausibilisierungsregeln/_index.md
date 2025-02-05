@@ -10,4 +10,4 @@ keywords: []
 
 Sie können die Prüfungsregeln in Form einer CSV Datei herunterladen. Es sind alle Einzelfallprüfungen darin enthalten.
 
-<https://github.com/SpiGes/Rules-PRD/releases/latest/download/Rules_PRD.csv>
+https://github.com/SpiGes/Rules-PRD/releases/latest/download/Rules_PRD.csv
