@@ -1,12 +1,18 @@
-# Release Notes - SpiGes Documentation Version [0.7]
+# Release Notes - SpiGes Documentation Version [0.x]
 
-**Release Date:** 2025.01.29
+**Release Date:** 2025.mm.dd
 
-## What's New
+## Improvements
 
-### Documentation
+### Others
 
-- [#192](https://github.com/SpiGes/handbook/issues/192) - New release notes added
+- [#178](https://github.com/SpiGes/handbook/issues/178) - Tools and dependencies updated
+
+## Fixes
+
+### Others
+
+- [#183](https://github.com/SpiGes/handbook/issues/183) - Release version extraction step in Release workflow fixed
 
 ## Contributors
 
