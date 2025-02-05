@@ -145,7 +145,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   create-release:
-    needs: [deploy]
+    needs: [deploy, extract_release_version]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -164,7 +164,7 @@ jobs:
           gh release create "$RELEASE_VERSION" --title "$RELEASE_VERSION" --notes-file RELEASE_NOTES.md --draft
 
   publish-release:
-    needs: [create-release]
+    needs: [create-release, extract_release_version]
     runs-on: ubuntu-latest
     permissions:
       contents: write
