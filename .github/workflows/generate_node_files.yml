@@ -50,10 +50,11 @@ jobs:
             exit 1
           }
 
-      - name: Archive node_modules and package-lock.json
+      - name: Create archive of node_modules and package-lock.json
+        run: Compress-Archive -Path node_modules, package-lock.json -DestinationPath node-files.zip
+
+      - name: Upload archive
         uses: actions/upload-artifact@v4
         with:
           name: node-files
-          path: |
-            node_modules
-            package-lock.json
+          path: node-files.zip
