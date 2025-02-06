@@ -7,7 +7,8 @@ type: docs
 keywords: []
 ---
 ## Konfiguration von Plausibilisierungsregeln
-
+{{<markdown>}}
 Sie können die Prüfungsregeln in Form einer CSV Datei herunterladen. Es sind alle Einzelfallprüfungen darin enthalten.
 
-https://github.com/SpiGes/Rules-PRD/releases/latest/download/Rules_PRD.csv
+[Herunterladen der Datei: Rules_PRD] (https://github.com/SpiGes/Rules-PRD/releases/latest/download/Rules_PRD.csv)
+{{</markdown>}}
