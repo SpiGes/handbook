@@ -2,6 +2,12 @@
 
 **Release Date:** 2025.mm.dd
 
+## What's New
+
+### Documentation
+
+- [#197](https://github.com/SpiGes/handbook/issues/197) - New Plausibilisation Rules topic added, with link to download rules file
+
 ## Improvements
 
 ### Others

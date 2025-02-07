@@ -4,6 +4,12 @@ All notable changes to the SpiGes documentation will be documented in this file.
 
 ## [0.x] - 2025.mm.dd
 
+### Added
+
+#### Documentation
+
+- [#197](https://github.com/SpiGes/handbook/issues/197) - New Plausibilisation Rules topic added, with link to download rules file
+
 ### Updated
 
 #### Others
