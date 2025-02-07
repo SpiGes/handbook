@@ -287,6 +287,8 @@ body {
 
 .td-sidebar {
   background-color: $ob-white;
+  word-break: keep-all;
+  hyphens: none;
 
   .td-sidebar__inner {
     top: 0 !important;
