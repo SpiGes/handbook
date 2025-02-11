@@ -7,6 +7,7 @@
 ### Documentation
 
 - [#197](https://github.com/SpiGes/handbook/issues/197) - New Plausibilisation Rules topic added, with link to download rules file
+- New SpiGes release notes 2025.02.10 added
 
 ## Improvements
 
