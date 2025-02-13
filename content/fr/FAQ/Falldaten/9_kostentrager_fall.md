@@ -57,14 +57,16 @@ Pour que cette saisie soit correcte dans ITAR_K® (**par BURGESV**), il faut ten
 Comment les recettes et les factures sont-elles représentées lorsque le canton définit un budget global ?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
-Si le budget global est plus élevé que les recettes ou qu'il n'est pas utilisé, la représentation se fait normalement. Les réponses ici concernent uniquement le cas où le budget global est épuisé et que les recettes auraient été plus élevées sans budget global. 
+Si le budget global est plus élevé que les recettes ou qu'il n'est pas utilisé, la représentation se fait normalement. Les réponses ici concernent uniquement **le cas où le budget global est épuisé et que les recettes auraient été plus élevées sans budget global**. 
 
 Principe : les recettes doivent être représentées sur les cas.
 Il existe deux variantes de procédure :
-1.	Proportionnel
+- Proportionnel
+
 Les recettes «normales» (sans budget global) sont réduites d'un facteur constant. Le facteur ne peut être calculé que lorsque les recettes définitives du budget global sont connues. 
 Exemple : recettes théoriques du canton 100 millions, budget global 90 millions -> Pour tous les cas concernés par le budget global, seuls 90% des recettes «normales» du canton sont comptabilisés (resp. 49,5% [90% des 55% de part du canton]).
-2.	épuiser, ensuite 0
+- épuiser, ensuite 0
+
 En inscrivant la totalité des 55% du canton sur les cas jusqu'à ce que le Budget global soit épuisé. Ensuite, plus aucune recette n'est comptabilisée sur les cas restants de l'année. 
 Exemple : recettes théoriques du canton 100 millions, budget global 90 millions -> Tous les cas sont comptabilisés avec des recettes cantonales de 100% jusqu'à ce que le budget global soit épuisé. Les cas qui sont comptabilisés après cela n'ont pas de recettes du canton (0).
 Important pour la création d'ITAR_K : aucune unité finale d'imputation séparée ne peut être gérée avec les réductions de recettes.
