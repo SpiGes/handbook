@@ -62,10 +62,11 @@ Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> Bei 
 
 indem die vollen 55% des Kantons so lange auf die Fälle gebucht werden, bis das Globalbudget erschöpft ist. Danach werden keine Erlöse mehr auf die verbleibeenden Fälle des Jahres verbucht.  
 Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> Alle Fälle werden mit kantonalen Erlösen von 100% verbucht, bis das Globalbudget erschöpft ist. Fälle, die danach verbucht werden, weisen keinen Erlös des Kantons auf (0).
-Wichtig für ITAR_K-Erstellung: Es darf kein separater Kostenträger mit den Erlösminderungen geführt werden.)
+Wichtig für ITAR_K-Erstellung: Es darf kein separater Kostenträger mit den Erlösminderungen geführt werden.
+
 **Wichtig für ITAR_K-Erstellung**: Es darf kein separater Kostenträger mit den Erlösminderungen geführt werden.
 
-Falls diese Lösungen für die Rechnungsstellung aufwändig umzusetzen sind, können nach Rücksprache mit Kanton und BFS im ersten Erhebungsjahr andere Methoden angewandt werden. 
+Falls diese Lösungen für die Rechnungen aufwändig umzusetzen sind, können nach Rücksprache mit Kanton und BFS im ersten Erhebungsjahr andere Methoden angewandt werden. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
