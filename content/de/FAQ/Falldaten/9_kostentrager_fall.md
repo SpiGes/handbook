@@ -45,5 +45,30 @@ Damit diese Erfassung im ITAR_K® (**pro BURGESV**) korrekt erfolgt, muss Folgen
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Wie werden Erlöse und Rechnungen abgebildet, wenn der Kanton ein Globalbudget vorgibt ?
+{{<collapsibleBlock groupId="kostentraeger">}}
+{{<markdown>}}
+Ist das Globalbudget höher als die Erlöse, resp. wird dieses nicht ausgeschöpft, erfolgt die Abbildung ganz normal. Die Antworten hier betreffen nur **den Fall, dass das Globalbudget ausgeschöpft wird und die Erlöse ohne Globalbudget höher gelegen hätten**. 
+
+Grundsatz: Erlöse müssen auf den Fällen abgebildet werden.
+Es gibt zwei Vorgehensvarianten:
+- proportional
+
+Die «normalen» Erlöse (ohne Globalbudget) werden um einen konstanten Faktor reduziert. Der Faktor kann erst berechnet werden, wenn die definitiven Erlöse aus dem Globalbudget bekannt sind. 
+Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> Bei allen vom Globalbudget betroffenen Fällen wird nur 90% der «normalen» Erlöse des Kantons verbucht (resp. 49.5% [90% der 55% Kantonsanteil].
+
+- ausschöpfen, nachher 0
+
+indem die vollen 55% des Kantons so lange auf die Fälle gebucht werden, bis das Globalbudget erschöpft ist. Danach werden keine Erlöse mehr auf die verbleibeenden Fälle des Jahres verbucht.  
+Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> Alle Fälle werden mit kantonalen Erlösen von 100% verbucht, bis das Globalbudget erschöpft ist. Fälle, die danach verbucht werden, weisen keinen Erlös des Kantons auf (0).
+Wichtig für ITAR_K-Erstellung: Es darf kein separater Kostenträger mit den Erlösminderungen geführt werden.)
+**Wichtig für ITAR_K-Erstellung**: Es darf kein separater Kostenträger mit den Erlösminderungen geführt werden.
+
+Falls diese Lösungen für die Rechnungsstellung aufwändig umzusetzen sind, können nach Rücksprache mit Kanton und BFS im ersten Erhebungsjahr andere Methoden angewandt werden. 
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

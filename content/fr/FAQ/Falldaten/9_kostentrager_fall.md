@@ -69,7 +69,7 @@ Exemple : recettes théoriques du canton 100 millions, budget global 90 millions
 
 En inscrivant la totalité des 55% du canton sur les cas jusqu'à ce que le Budget global soit épuisé. Ensuite, plus aucune recette n'est comptabilisée sur les cas restants de l'année. 
 Exemple : recettes théoriques du canton 100 millions, budget global 90 millions -> Tous les cas sont comptabilisés avec des recettes cantonales de 100% jusqu'à ce que le budget global soit épuisé. Les cas qui sont comptabilisés après cela n'ont pas de recettes du canton (0).
-Important pour la création d'ITAR_K : aucune unité finale d'imputation séparée ne peut être gérée avec les réductions de recettes.
+**Important pour la création d'ITAR_K** : aucune unité finale d'imputation séparée ne peut être gérée avec les réductions de recettes.
 
 Pour les factures, si ces solutions sont laborieuses à mettre en œuvre, d'autres méthodes peuvent être appliquées après consultation du canton et de l'OFS la première année de relevé. 
 {{</markdown>}}
