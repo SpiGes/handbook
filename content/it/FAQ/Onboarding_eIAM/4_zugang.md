@@ -39,5 +39,15 @@ No, purtroppo non è possibile utilizzare identità elettroniche diverse da quel
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}} <!--DeepL-->
+Mi occupo anche del rilevamento KS (e/o SOMED) e non riesco più a connettermi a queste altre applicazioni?  
+{{<collapsibleBlock groupId="zugang">}}
+{{<markdown>}}
+L'accesso a KS/SOMED e l'accesso a SpiGes avvengono con lo stesso CH-Login, ma con un **profilo diverso**. Il profilo utilizzato per KS/SOMED corrisponde al profilo standard (CHL...), il nome non può purtroppo essere modificato per essere più esplicito perché è utilizzato per altre applicazioni della Confederazione. Sotto il nome del profilo, è possibile vedere quali applicazioni sono considerate. 
+{{</markdown>}} 
+{{<insertImage image="profile_IT.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
