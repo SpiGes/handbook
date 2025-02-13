@@ -45,9 +45,11 @@ Die Angaben zu den Fällen sind zu liefern. Bei den Rechnungen ist der letzte St
 {{</listItem>}}
 
 {{<listItem>}}
-Variable «rech_unfallnr»: Für die Angaben dieser Nummer ist das Feld auf 17 Zeichen beschränkt. Nun zirkulieren in älteren Systemen auch 20-stellige Schadensnummern. Wie müssen wir vorgehen?
+<!--Variable «rech_unfallnr»: Für die Angaben dieser Nummer ist das Feld auf 17 Zeichen beschränkt. Nun zirkulieren in älteren Systemen auch 20-stellige Schadensnummern. Wie müssen wir vorgehen?-->
+Variable «rech_unfallnr»: Für die Angaben dieser Nummer ist das Feld auf 17 Zeichen beschränkt. Nun zirkulieren aber auch 32-stellige Schadensnummern. Wie müssen wir vorgehen?
 {{<collapsibleBlock groupId="rechnungen">}}
-In Absprache mit der Zentralstelle für Medizinaltarife UVG (ZMT) können die ersten drei Stellen gestrichen werden. Zum Beispiel würde die folgende Schadennummer 01.05.01.23.009999.3 als Nummer 05.01.23.009999.3 gesendet, d.h. ohne den Prefix ‘01.'  
+<!--In Absprache mit der Zentralstelle für Medizinaltarife UVG (ZMT) können die ersten drei Stellen gestrichen werden. Zum Beispiel würde die folgende Schadennummer 01.05.01.23.009999.3 als Nummer 05.01.23.009999.3 gesendet, d.h. ohne den Prefix ‘01.'-->
+Wir werden die Anzahl Zeichen auf 50 erweitern. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 {{</numberedList>}}

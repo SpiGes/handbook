@@ -44,9 +44,11 @@ Les données relatives aux cas doivent être fournies. Pour les factures, c'est 
 {{</listItem>}}
 
 {{<listItem>}}
-Variable «rech_unfallnr» : pour les indications de ce numéro, le champ est limité à 17 caractères. Or, dans des systèmes plus anciens, des numéros de sinistre à 20 chiffres circulent également. Comment devons-nous procéder ?
+<!--Variable «rech_unfallnr» : pour les indications de ce numéro, le champ est limité à 17 caractères. Or, dans des systèmes plus anciens, des numéros de sinistre à 20 chiffres circulent également. Comment devons-nous procéder ?-->
+Variable «rech_unfallnr» : pour les indications de ce numéro, le champ est limité à 17 caractères. Or des numéros de sinistre à 32 chiffres circulent également. Comment devons-nous procéder ?
 {{<collapsibleBlock groupId="rechnungen">}}
-En accord avec le Service central des tarifs médicaux LAA (SCTM), les trois premiers caractères peuvent être supprimés. Par exemple, le numéro de sinistre suivant 01.05.01.23.009999.3 serait envoyé comme numéro 05.01.23.009999.3, c'est-à-dire sans le préfixe '01.'.
+<!--En accord avec le Service central des tarifs médicaux LAA (SCTM), les trois premiers caractères peuvent être supprimés. Par exemple, le numéro de sinistre suivant 01.05.01.23.009999.3 serait envoyé comme numéro 05.01.23.009999.3, c'est-à-dire sans le préfixe '01.'.-->
+Nous allons augmenter le nombre de caractères à 50. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

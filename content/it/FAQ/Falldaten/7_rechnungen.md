@@ -45,9 +45,11 @@ Le informazioni sui casi devono essere fornite comunque. Anche in questo caso pe
 {{</listItem>}}
 
 {{<listItem>}}
-Variabile «rech_unfallnr»: il campo relativo a questa variabile può contenere un massimo di 17 caratteri. Tuttavia, nei vecchi sistemi circolano ancora numeri di infortunio di 20 caratteri. Cosa occorre fare in questi casi?
+<!--Variabile «rech_unfallnr»: il campo relativo a questa variabile può contenere un massimo di 17 caratteri. Tuttavia, nei vecchi sistemi circolano ancora numeri di infortunio di 20 caratteri. Cosa occorre fare in questi casi?-->
+Variabile «rech_unfallnr»: il campo relativo a questa variabile può contenere un massimo di 17 caratteri. Tuttavia, circolano numeri di infortunio di 32 caratteri. Cosa occorre fare in questi casi?
 {{<collapsibleBlock groupId="rechnungen">}}
-In accordo con il Servizio centrale delle tariffe mediche LAINF (SCTM), le prime tre posizioni possono essere cancellate. Ad esempio, il seguente numero di infortunio 01.05.01.23.009999.3 sarà inviato come 05.01.23.009999.3, cioè senza il prefisso «01.».
+<!--In accordo con il Servizio centrale delle tariffe mediche LAINF (SCTM), le prime tre posizioni possono essere cancellate. Ad esempio, il seguente numero di infortunio 01.05.01.23.009999.3 sarà inviato come 05.01.23.009999.3, cioè senza il prefisso «01.».-->
+Estendere il limite dei caratteri a 50.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
