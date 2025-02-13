@@ -70,9 +70,17 @@ Oui, pour les traitements ambulatoires externes, le numéro REE du site (BUR) de
 {{</listItem>}}
 
 {{<listItem>}}
-Variable "wiedereintritt_aufenthalt" : nous ne savons pas encore très bien ce qui doit être exporté dans la variable wiedereintritt_aufenthalt pour le type d'épisode_1 (donc lorsque le patient est présent à l'hôpital).
+Variable "wiedereintritt_aufenthalt" : Nous ne savons pas encore très bien ce qui doit être exporté dans la variable wiedereintritt_aufenthalt pour le type d'épisode_1 (donc lorsque le patient est présent à l'hôpital).
 {{<collapsibleBlock groupId="patientenbewegung">}}
 wiedereintritt_aufenthalt n'est rempli que pour episode_art=2, pour tous les autres episode_types, cette variable n'est pas saisie.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}} <!--DeepL-->
+Variables «episode_art=3 (Urlaub)» et «admin_urlaub»: Le format des épisodes est AAAAMMJJH. Les épisodes ne connaissent donc pas les minutes. La définition indique que les vacances ne doivent être indiquées que si elles durent plus de 24 heures.
+Faut-il indiquer les vacances à partir de 24 heures et 20 minutes ou seulement à partir de 25 heures, puisque les épisodes ne connaissent pas les minutes?
+{{<collapsibleBlock groupId="patientenbewegung">}}
+Selon les règles et définitions de la facturation des cas de SwissDRG AG, les minutes sont également un critère pour déterminer si la limite des 24 heures a été dépassée. Ici, en plus de l'épisode_art=3 (Urlaub), le nombre d'heures est également enregistré dans la variable admin_urlaub (anciennement 1.3.V04 dans le MS). Il est indiqué que seules les heures complètes sont enregistrées. Ainsi, dans votre exemple de congé de 24 heures et 20 minutes, la valeur 24 heures serait indiquée.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

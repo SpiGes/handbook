@@ -76,5 +76,13 @@ wiedereintritt_aufenthalt wird nur bei episode_art=2 ausgefüllt, bei allen ande
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Variablen «episode_art=3 (Urlaub)» und «admin_urlaub»: Das Format der Episoden ist JJJJMMDDHH. Die Episoden kennen also keine Minuten. In der Definition steht, dass Urlaube nur angegeben werden sollen, wenn sie grösser als 24 Stunden sind.
+Muss ein Urlaub ab 24 Stunden und 20 Minuten angegeben werden oder erst ab 25 Stunden, da die Episoden keine Minuten kennen?
+{{<collapsibleBlock groupId="patientenbewegung">}}
+Gemäss den Regeln und Definitionen zur Fallabrechnung der SwissDRG AG zählen auch die Minuten als Kriterium, ob die 24h-Marke überschritten wurde. Hier werden zusätzlich zur episode_art=3 (Urlaub) noch bei der Variable admin_urlaub (ehemalig 1.3.V04 in der MS) die Anzahl Stunden erfasst. Dort steht, dass nur vollendete Stunden erfasst werden. Somit würde bei Ihrem Beispiel von einem Urlaub von 24h und 20 Minuten der Wert 24h angegeben.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

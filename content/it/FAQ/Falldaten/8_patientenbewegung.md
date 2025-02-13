@@ -76,5 +76,13 @@ Variabile «wiedereintritt_aufenthalt»: Non è del tutto chiaro cosa debba esse
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}} <!--DeepL-->
+Variabili «episode_art=3 (Urlaub)» e «admin_urlaub»: Il formato delle episodi è AAAAMMJJH. Le episodi non conoscono quindi i minuti. La definizione indica che le vacanze devono essere indicate solo se durano più di 24 ore.
+Bisogna indicare le vacanze a partire da 24 ore e 20 minuti o solo a partire da 25 ore, dato che le puntate non conoscono i minuti?
+{{<collapsibleBlock groupId="patientenbewegung">}}
+Secondo le regole e le definizioni per la fatturazione dei casi di SwissDRG SA, anche i minuti contano come criterio per stabilire se il limite di 24 ore è stato superato. Qui, oltre a episode_art=3 (Urlaub), viene registrato anche il numero di ore nella variabile admin_urlaub (ex 1.3.V04 nel MS). Lì si dice che vengono registrate solo le ore complete. Quindi, nel suo esempio di una vacanza di 24 ore e 20 minuti, verrebbe indicato il valore 24 ore.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
