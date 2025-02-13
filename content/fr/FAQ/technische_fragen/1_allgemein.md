@@ -51,6 +51,13 @@ Le tableau 12 Identificateurs de personnes doit être livré dans un fichier sé
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}} <!--DeepL-->
+Est-il vrai que la livraison des données à SwissDRG SA au format SpiGes ne permet pas de livraisons partielles ?
+{{<collapsibleBlock groupId="allgemein">}}
+À ce sujet, veuillez consulter les informations sur le site internet de SwissDRG SA concernant le relevé 2025 (données 2024) (par exemple, soins somatiques aigus).
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{<listItem>}}
 Existe-t-il une possibilité pour les petits établissements de créer un fichier XML à partir d'un fichier Excel (dans lequel la CUFI est saisie). Existe-t-il un fournisseur qui prévoit de le faire ?
 {{<collapsibleBlock groupId="allgemein">}}

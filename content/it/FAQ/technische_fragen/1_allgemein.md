@@ -51,6 +51,13 @@ La tabella 12 Identificatori personali deve essere fornita in un file separato (
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}} <!--DeepL-->
+È vero che la trasmissione dei dati alla SwissDRG SA nel formato SpiGes non consente consegne parziali?
+{{<collapsibleBlock groupId="allgemein">}}
+A questo proposito, consultare le indicazioni sul sito web di SwissDRG SA per la rilevazione 2025 (dati 2024) (ad es. medicina somatica acuta).
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{<listItem>}}
 Esiste la possibilità per le piccole imprese di creare un file XML a partire da un file Excel (in cui viene inserita la CUFI)? C'è un fornitore che ha in programma di attuare questa soluzione?
 {{<collapsibleBlock groupId="allgemein">}}
