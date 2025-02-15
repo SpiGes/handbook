@@ -1,0 +1,141 @@
+name: Generate Release Notes and Changelog
+
+on:
+  workflow_call:
+    inputs:
+      new_version:
+        required: true
+        type: string
+    outputs:
+      changelog_content:
+        description: 'Generated Changelog'
+        value: ${{ steps.store_outputs.outputs.changelog }}
+      release_notes_content:
+        description: 'Generated Release Notes'
+        value: ${{ steps.store_outputs.outputs.release_notes }}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Release Notes and Changelog
+        id: generate_notes
+        run: |
+          # Récupérer l'ID du milestone "Next"
+          milestone_id=$(gh api repos/${{ github.repository }}/milestones --jq '.[] | select(.title=="Next") | .number')
+
+          if [ -z "$milestone_id" ]; then
+            echo "No 'Next' milestone found."
+            exit 1
+          fi
+
+          RELEASE_DATE=$(date -u +"%Y-%m-%d")
+          VERSION=${{ inputs.new_version }}
+
+          # Initialiser les fichiers temporairement
+          RELEASE_NOTES_FILE="release_notes.md"
+          CHANGELOG_FILE="temp_changelog.md"
+
+          # En-tête des fichiers
+          echo "# Release Notes - SpiGes Documentation Version $VERSION" > $RELEASE_NOTES_FILE
+          echo "**Release Date:** $RELEASE_DATE" >> $RELEASE_NOTES_FILE
+          echo "" >> $RELEASE_NOTES_FILE
+
+          echo "# Changelog - Documentation" > $CHANGELOG_FILE
+          echo "## [$VERSION] - $RELEASE_DATE" >> $CHANGELOG_FILE
+          echo "" >> $CHANGELOG_FILE
+
+          # Initialisation des sections
+          sections=("Added|Documentation" "Added|Others" "Updated|Documentation" "Updated|Others" "Fixed|Documentation" "Fixed|Others" "Removed|Documentation" "Removed|Others")
+          declare -A issues_map
+          declare -A has_issues
+
+          for section in "${sections[@]}"; do
+            issues_map[$section]=""
+            has_issues[$section]=0
+          done
+
+          # Récupérer les issues du milestone "Next"
+          issues=$(gh issue list --milestone "$milestone_id" --state closed --json number,title,labels)
+
+          # Trier les issues dans les bonnes catégories
+          while IFS= read -r issue; do
+            number=$(echo "$issue" | jq -r '.number')
+            title=$(echo "$issue" | jq -r '.title')
+            labels=$(echo "$issue" | jq -r '.labels[].name')
+
+            entry="- [#$number] - $title"
+
+            if [[ $labels == *"documentation"* && $labels == *"new"* ]]; then
+              issues_map["Added|Documentation"]+="$entry"$'\n'
+              has_issues["Added|Documentation"]=1
+            elif [[ $labels == *"documentation"* && $labels == *"update"* ]]; then
+              issues_map["Updated|Documentation"]+="$entry"$'\n'
+              has_issues["Updated|Documentation"]=1
+            elif [[ $labels == *"new"* ]]; then
+              issues_map["Added|Others"]+="$entry"$'\n'
+              has_issues["Added|Others"]=1
+            elif [[ $labels == *"update"* ]]; then
+              issues_map["Updated|Others"]+="$entry"$'\n'
+              has_issues["Updated|Others"]=1
+            elif [[ $labels == *"bug"* ]]; then
+              issues_map["Fixed|Others"]+="$entry"$'\n'
+              has_issues["Fixed|Others"]=1
+            fi
+          done <<< "$(echo "$issues" | jq -c '.[]')"
+
+          # Générer Release Notes
+          for section in "What's New" "Improvements" "Fixes" "Removed"; do
+            section_has_content=false
+            section_content=""
+
+            for subcategory in "Documentation" "Others"; do
+              key="${section//What's New/Added}|$subcategory"
+              if [ ${has_issues[$key]} -eq 1 ]; then
+                section_has_content=true
+                section_content+="\n### $subcategory\n${issues_map[$key]}"
+              fi
+            done
+
+            if [ "$section_has_content" = true ]; then
+              echo "## $section" >> $RELEASE_NOTES_FILE
+              echo -e "$section_content" >> $RELEASE_NOTES_FILE
+              echo "" >> $RELEASE_NOTES_FILE
+            fi
+          done
+
+          # Générer Changelog
+          for section in "Added" "Updated" "Fixed" "Removed"; do
+            section_has_content=false
+            section_content=""
+
+            for subcategory in "Documentation" "Others"; do
+              key="$section|$subcategory"
+              if [ ${has_issues[$key]} -eq 1 ]; then
+                section_has_content=true
+                section_content+="\n#### $subcategory\n${issues_map[$key]}"
+              fi
+            done
+
+            if [ "$section_has_content" = true ]; then
+              echo "### $section" >> $CHANGELOG_FILE
+              echo -e "$section_content" >> $CHANGELOG_FILE
+              echo "" >> $CHANGELOG_FILE
+            fi
+          done
+
+          # Stocker les résultats pour les rendre accessibles dans `workflow_call`
+          echo "changelog=$(cat $CHANGELOG_FILE | base64 -w 0)" >> $GITHUB_ENV
+          echo "release_notes=$(cat $RELEASE_NOTES_FILE | base64 -w 0)" >> $GITHUB_ENV
+
+      - name: Store Outputs
+        id: store_outputs
+        run: |
+          echo "changelog=$(echo $changelog | base64 -d)" >> $GITHUB_OUTPUT
+          echo "release_notes=$(echo $release_notes | base64 -d)" >> $GITHUB_OUTPUT

@@ -1,0 +1,60 @@
+name: Trigger Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_bump:
+        description: 'Version bump type (patch, minor, major)'
+        required: true
+        default: 'minor'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  start_release:
+    runs-on: ubuntu-latest
+    outputs:
+      release_version: ${{ steps.version.outputs.new_version }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get and increment version
+        id: version
+        run: |
+          current_version=$(grep 'version[[:space:]]*=' hugo.toml | sed 's/version[[:space:]]*=[[:space:]]*"\([^"]*\)"/\1/')
+          IFS='.' read -r major minor patch <<< "$current_version"
+          case "${{ github.event.inputs.version_bump }}" in
+            "major") new_version="$((major+1)).0.0";;
+            "minor") new_version="$major.$((minor+1)).0";;
+            "patch") new_version="$major.$minor.$((patch+1))";;
+            *) echo "Invalid version bump type"; exit 1;;
+          esac
+          echo "New version: $new_version"
+          sed -i "s/version[[:space:]]*=[[:space:]]*\".*\"/version = \"$new_version\"/" hugo.toml
+          echo "new_version=v$new_version" >> $GITHUB_ENV
+          echo "new_version=v$new_version" >> $GITHUB_OUTPUT
+
+      - name: Generate Release Notes and Changelog
+        uses: ./.github/actions/generate-release-notes
+        with:
+          new_version: ${{ env.new_version }}
+
+      - name: Commit and push changes
+        run: |
+          git checkout -b release/${{ env.new_version }}
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add hugo.toml CHANGELOG.md RELEASE_NOTES.md
+          git commit -m "chore: prepare release ${{ env.new_version }}"
+          git push --set-upstream origin release/${{ env.new_version }}
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --base main --head release/${{ env.new_version }} \
+          --title "Release ${{ env.new_version }}" \
+          --body "This PR contains the updated version ${{ env.new_version }}, updated changelog, and release notes."
