@@ -139,3 +139,4 @@ runs:
 
         # Clean up temporary files
         rm "$TEMP_CHANGELOG" "$TEMP_FILE"
+      shell: bash
