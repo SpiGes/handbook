@@ -112,6 +112,7 @@ jobs:
             hugo.toml
             CHANGELOG.md
             RELEASE_NOTES.md
+            .github/actions/generate-release-notes/action.yml
           sparse-checkout-cone-mode: false
           token: ${{ steps.generate_token.outputs.token }}
 
@@ -129,7 +130,7 @@ jobs:
           git config --global user.name "Autocommit Agent"
           git config --global user.email "github-actions@github.com"
           git add hugo.toml CHANGELOG.md RELEASE_NOTES.md
-          git commit -m "[autocommit-app] release ${{ needs.generate_new_version.outputs.release_version }}"
+          git commit -m "[autocommit-agent] release ${{ needs.generate_new_version.outputs.release_version }}"
           git push origin main
 
   read-tool-versions:
