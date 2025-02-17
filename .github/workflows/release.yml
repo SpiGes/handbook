@@ -33,8 +33,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          REPO="${{ github.repository }}"  # Define the repository explicitly
+
           # Retrieve the ID of the "Next" milestone
-          milestone_id=$(gh api repos/${{ github.repository }}/milestones --jq '.[] | select(.title=="Next") | .number')
+          milestone_id=$(gh api repos/$REPO/milestones --jq '.[] | select(.title=="Next") | .number')
 
           if [ -z "$milestone_id" ]; then
             echo "⚠️ No 'Next' milestone found. Aborting release."
@@ -42,7 +44,7 @@ jobs:
           fi
 
           # Check if there are open issues in the milestone
-          open_issues=$(gh issue list --milestone "$milestone_id" --state open --json number,title)
+          open_issues=$(gh issue list --repo "$REPO" --milestone "$milestone_id" --state open --json number,title)
 
           if [ "$open_issues" != "[]" ]; then
             echo "❌ Release blocked: Some issues are still open in milestone 'Next'."
@@ -214,7 +216,7 @@ jobs:
           done
 
   publish-release:
-    needs: [create-release, generate_new_version]
+    needs: [attach-assets, generate_new_version]
     runs-on: ubuntu-latest
     permissions:
       contents: write
