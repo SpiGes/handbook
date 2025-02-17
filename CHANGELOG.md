@@ -2,28 +2,6 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
-## [0.10.0] - 2025.02.17
-
-### New
-
-#### Documentation
-
-- New content added
-
-## [0.9.0] - 2025.02.17
-
-### New
-
-#### Documentation
-
-- [#208](https://github.com/SpiGes/handbook/issues/208) - Test 1 - doc new
-
-### Updated
-
-#### Documentation
-
-- [#209](https://github.com/SpiGes/handbook/issues/209) - Test 1 - doc update
-
 ## [0.8] - 2025.02.11
 
 ### Added
