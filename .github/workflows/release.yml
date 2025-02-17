@@ -14,19 +14,19 @@ permissions:
   id-token: write
 
 jobs:
-  generate_autocommit_app_token:
+  validate_branch:
     runs-on: ubuntu-latest
-    outputs:
-      token: ${{ steps.generate_token.outputs.token }}
     steps:
-      - name: Generate GitHub App Installation Token
-        id: generate_token
-        uses: peter-murray/github-app-token@v4
-        with:
-          app_id: ${{ secrets.AUTO_COMMIT_AGENT_APP_ID }}
-          private_key: ${{ secrets.AUTO_COMMIT_AGENT_APP_PRIVATE_KEY }}
+      - name: Check if workflow is running on 'main'
+        run: |
+          if [[ "${{ github.ref }}" != "refs/heads/main" ]]; then
+            echo "❌ This workflow can only run on the 'main' branch. Aborting."
+            exit 1
+          fi
+          echo "✅ Workflow is running on 'main'. Proceeding..."
 
   validate_milestone_issues:
+    needs: validate_branch
     runs-on: ubuntu-latest
     steps:
       - name: Check if all issues in milestone "Next" are closed
@@ -54,7 +54,7 @@ jobs:
           echo "✅ All issues in milestone 'Next' are closed. Proceeding with release."
 
   generate_new_version:
-    needs: generate_autocommit_app_token
+    needs: validate_milestone_issues
     runs-on: ubuntu-latest
     outputs:
       release_version: ${{ steps.version.outputs.new_version }}
@@ -62,8 +62,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          token: ${{ needs.generate_autocommit_app_token.outputs.token }}
+          sparse-checkout: |
+            hugo.toml
+          sparse-checkout-cone-mode: false # Disable cone mode for precise file selection
 
       - name: Get current version
         id: version
@@ -91,8 +92,21 @@ jobs:
             echo "✅ Tag $RELEASE_VERSION does not exist. Continuing..."
           fi
 
-  update_version_and_doc:
+  generate_autocommit_app_token:
     needs: generate_new_version
+    runs-on: ubuntu-latest
+    outputs:
+      token: ${{ steps.generate_token.outputs.token }}
+    steps:
+      - name: Generate GitHub App Installation Token
+        id: generate_token
+        uses: peter-murray/github-app-token@v4
+        with:
+          app_id: ${{ secrets.AUTO_COMMIT_AGENT_APP_ID }}
+          private_key: ${{ secrets.AUTO_COMMIT_AGENT_APP_PRIVATE_KEY }}
+
+  update_version_and_doc:
+    needs: [generate_autocommit_app_token, generate_new_version]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
