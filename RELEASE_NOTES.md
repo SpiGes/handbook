@@ -1,18 +1,25 @@
-# Release Notes - SpiGes Documentation Version [.1.0]
+# Release Notes - SpiGes Documentation Version [0.8]
 
-## Release Date: 2025.02.17
+**Release Date:** 2025.02.11
 
-### New
+## What's New
 
-#### Documentation
+### Documentation
 
-- [#208](https://github.com/SpiGes/handbook/issues/208) - Test 1 - doc new
+- [#197](https://github.com/SpiGes/handbook/issues/197) - New Plausibilisation Rules topic added, with link to download rules file
+- New SpiGes release notes 2025.02.10 added
 
-### Updated
+## Improvements
 
-#### Documentation
+### Others
 
-- [#209](https://github.com/SpiGes/handbook/issues/209) - Test 1 - doc update
+- [#178](https://github.com/SpiGes/handbook/issues/178) - Tools and dependencies updated
+
+## Fixes
+
+### Others
+
+- [#183](https://github.com/SpiGes/handbook/issues/183) - Release version extraction step in Release workflow fixed
 
 ## Contributors
 

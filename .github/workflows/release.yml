@@ -72,7 +72,23 @@ jobs:
         id: version
         run: |
           current_version=$(grep 'version[[:space:]]*=' hugo.toml | sed 's/version[[:space:]]*=[[:space:]]*"\([^"]*\)"/\1/')
+
+          # Check whether the version is valid or invalid
+          if [[ -z "$current_version" || ! "$current_version" =~ ^[0-9]+(\.[0-9]+){1,2}$ ]]; then
+            echo "❌ Error: Invalid or missing version in hugo.toml."
+            echo "ℹ️ Expected format: X.Y or X.Y.Z (e.g., 1.0 or 1.2.3)"
+            exit 1
+          fi
+
+          # Split the version in Major.Minor.Patch
           IFS='.' read -r major minor patch <<< "$current_version"
+
+          # Si le patch est vide et le bump est "patch", on initialise patch=1
+          # initializes the patch number to 0 if the patch value from the hugo.toml file is empty 
+          if [[ -z "$patch" && "$bump" == "patch" ]]; then
+            patch=0
+          fi
+          
           case "${{ github.event.inputs.version_bump }}" in
             "major") new_version="$((major+1)).0.0";;
             "minor") new_version="$major.$((minor+1)).0";;
