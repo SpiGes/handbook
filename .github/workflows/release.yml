@@ -158,29 +158,67 @@ jobs:
     needs: read-tool-versions
     runs-on: ubuntu-latest
     steps:
-      - name: Fake build
-        run: echo "fake build"
-      # - name: Checkout repository
-      #   uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
-      # - name: Install dependencies
-      #   run: npm ci
+      - name: Ensure latest changes are fetched
+        run: git pull origin main --ff-only
 
-      # - name: Build Hugo Site
-      #   run: npm run build:ci:production
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          cache: false # to avoid Warning "Restore cache failed: Dependencies file is not found in /home/runner/work/handbook/handbook. Supported file pattern: go.sum"
+          go-version: ${{ needs.read-tool-versions.outputs.go_version }}
 
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: ./public
+      - name: Install Dart Sass
+        uses: ./.github/actions/install-dart-sass
+        with:
+          dart_sass_version: ${{ needs.read-tool-versions.outputs.dart_sass_version }}
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ needs.read-tool-versions.outputs.nodejs_version }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update hugo.toml with build datetime and git hash
+        run: |
+          # Set the build datetime
+          buildDatetime=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          sed -i "s/buildDatetime[[:space:]]*=[[:space:]]*\".*\"/buildDatetime = \"$buildDatetime\"/" hugo.toml
+
+          # Set the git hash
+          gitHash=$(git rev-parse --short HEAD)
+          sed -i "s/gitHash[[:space:]]*=[[:space:]]*\".*\"/gitHash = \"$gitHash\"/" hugo.toml
+
+      - name: Build with Hugo
+        env:
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: npm run build:ci:production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
   deploy:
     needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        run: echo "fake deploy"
-        # uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v4
 
   create-release:
     needs: [deploy, generate_new_version]
