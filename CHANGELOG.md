@@ -2,7 +2,7 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
-## [] - 2025.02.17
+## [.1.0] - 2025.02.17
 
 ### New
 

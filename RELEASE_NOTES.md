@@ -1,4 +1,4 @@
-# Release Notes - SpiGes Documentation Version []
+# Release Notes - SpiGes Documentation Version [.1.0]
 
 ## Release Date: 2025.02.17
 
