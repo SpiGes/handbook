@@ -104,8 +104,8 @@ jobs:
         id: generate_token
         uses: peter-murray/workflow-application-token-action@v4
         with:
-          app_id: ${{ secrets.AUTO_COMMIT_AGENT_APP_ID }}
-          private_key: ${{ secrets.AUTO_COMMIT_AGENT_APP_PRIVATE_KEY }}
+          application_id: ${{ secrets.AUTO_COMMIT_AGENT_APP_ID }}
+          application_private_key: ${{ secrets.AUTO_COMMIT_AGENT_APP_PRIVATE_KEY }}
 
   update_version_and_doc:
     needs: [generate_autocommit_app_token, generate_new_version]
