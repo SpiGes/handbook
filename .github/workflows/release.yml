@@ -102,7 +102,7 @@ jobs:
     steps:
       - name: Generate GitHub App Installation Token
         id: generate_token
-        uses: peter-murray/github-app-token@v4
+        uses: peter-murray/workflow-application-token-action@v4
         with:
           app_id: ${{ secrets.AUTO_COMMIT_AGENT_APP_ID }}
           private_key: ${{ secrets.AUTO_COMMIT_AGENT_APP_PRIVATE_KEY }}
