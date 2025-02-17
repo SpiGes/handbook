@@ -88,7 +88,7 @@ jobs:
           if [[ -z "$patch" && "$bump" == "patch" ]]; then
             patch=0
           fi
-          
+
           case "${{ github.event.inputs.version_bump }}" in
             "major") new_version="$((major+1)).0.0";;
             "minor") new_version="$major.$((minor+1)).0";;
@@ -191,6 +191,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Ensure latest changes are fetched
+        run: git pull origin main --ff-only
+
       - name: Create Release
         id: create_release
         env:
@@ -215,6 +218,9 @@ jobs:
             README.md
             LICENSE.md
           sparse-checkout-cone-mode: false # Disable cone mode for precise file selection
+        
+      - name: Ensure latest changes are fetched
+        run: git pull origin main --ff-only
 
       - name: Attach files to the release
         env:
@@ -240,6 +246,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Ensure latest changes are fetched
+        run: git pull origin main --ff-only
 
       - name: Publish Release
         env:
