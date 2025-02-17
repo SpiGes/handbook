@@ -1,0 +1,244 @@
+name: Automated Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_bump:
+        description: 'Version bump type (patch, minor, major)'
+        required: true
+        default: 'minor'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate_autocommit_app_token:
+    runs-on: ubuntu-latest
+    outputs:
+      token: ${{ steps.generate_token.outputs.token }}
+    steps:
+      - name: Generate GitHub App Installation Token
+        id: generate_token
+        uses: peter-murray/github-app-token@v4
+        with:
+          app_id: ${{ secrets.AUTO_COMMIT_AGENT_APP_ID }}
+          private_key: ${{ secrets.AUTO_COMMIT_AGENT_APP_PRIVATE_KEY }}
+
+  validate_milestone_issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if all issues in milestone "Next" are closed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Retrieve the ID of the "Next" milestone
+          milestone_id=$(gh api repos/${{ github.repository }}/milestones --jq '.[] | select(.title=="Next") | .number')
+
+          if [ -z "$milestone_id" ]; then
+            echo "⚠️ No 'Next' milestone found. Aborting release."
+            exit 1
+          fi
+
+          # Check if there are open issues in the milestone
+          open_issues=$(gh issue list --milestone "$milestone_id" --state open --json number,title)
+
+          if [ "$open_issues" != "[]" ]; then
+            echo "❌ Release blocked: Some issues are still open in milestone 'Next'."
+            echo "Open issues:"
+            echo "$open_issues" | jq -r '.[] | "- [#" + (.number|tostring) + "] " + .title'
+            exit 1
+          fi
+
+          echo "✅ All issues in milestone 'Next' are closed. Proceeding with release."
+
+  generate_new_version:
+    needs: generate_autocommit_app_token
+    runs-on: ubuntu-latest
+    outputs:
+      release_version: ${{ steps.version.outputs.new_version }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ needs.generate_autocommit_app_token.outputs.token }}
+
+      - name: Get current version
+        id: version
+        run: |
+          current_version=$(grep 'version[[:space:]]*=' hugo.toml | sed 's/version[[:space:]]*=[[:space:]]*"\([^"]*\)"/\1/')
+          IFS='.' read -r major minor patch <<< "$current_version"
+          case "${{ github.event.inputs.version_bump }}" in
+            "major") new_version="$((major+1)).0.0";;
+            "minor") new_version="$major.$((minor+1)).0";;
+            "patch") new_version="$major.$minor.$((patch+1))";;
+            *) echo "❌ Invalid version bump type"; exit 1;;
+          esac
+          echo "New version: $new_version"
+          echo "release_version=$new_version" >> $GITHUB_ENV
+          echo "release_version=$new_version" >> $GITHUB_OUTPUT
+
+      - name: Check if tag exists
+        env:
+          RELEASE_VERSION: ${{ env.release_version }}
+        run: |
+          if git rev-parse "refs/tags/v$RELEASE_VERSION" >/dev/null 2>&1; then
+            echo "❌ Tag $RELEASE_VERSION already exists. Aborting release."
+            exit 1
+          else
+            echo "✅ Tag $RELEASE_VERSION does not exist. Continuing..."
+          fi
+
+  update_version_and_doc:
+    needs: generate_new_version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ needs.generate_autocommit_app_token.outputs.token }}
+
+      - name: Update hugo.toml with new version
+        run: |
+          sed -i "s/version[[:space:]]*=[[:space:]]*\".*\"/version = \"${{ needs.generate_new_version.outputs.release_version }}\"/" hugo.toml
+
+      - name: Generate Release Notes and Changelog
+        uses: ./.github/actions/generate-release-notes
+        with:
+          new_version: ${{ needs.generate_new_version.outputs.release_version }}
+
+      - name: Commit and push changes to main
+        run: |
+          git config --global user.name "Autocommit Agent"
+          git config --global user.email "github-actions@github.com"
+          git add hugo.toml CHANGELOG.md RELEASE_NOTES.md
+          git commit -m "release ${{ needs.generate_new_version.outputs.release_version }}"
+          git push origin main
+
+  read-tool-versions:
+    needs: update_version_and_doc
+    uses: ./.github/workflows/read-tool-versions.yml
+
+  build:
+    needs: read-tool-versions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fake build
+      - run: echo "fake build"
+      # - name: Checkout repository
+      #   uses: actions/checkout@v4
+
+      # - name: Install dependencies
+      #   run: npm ci
+
+      # - name: Build Hugo Site
+      #   run: npm run build:ci:production
+
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+      - run: echo "fake deploy"
+        # uses: actions/deploy-pages@v4
+
+  create-release:
+    needs: [deploy, generate_new_version]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        id: create_release
+        env:
+          RELEASE_VERSION: ${{ needs.generate_new_version.outputs.release_version }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "release version = $RELEASE_VERSION"
+          gh release create "v$RELEASE_VERSION" --title "v$RELEASE_VERSION" --notes-file RELEASE_NOTES.md --draft
+
+  attach-assets:
+    needs: [create-release, generate_new_version]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout only necessary files
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            RELEASE_NOTES.md
+            CHANGELOG.md
+            README.md
+            LICENSE.md
+          sparse-checkout-cone-mode: false # Disable cone mode for precise file selection
+
+      - name: Attach files to the release
+        env:
+          RELEASE_VERSION: ${{ needs.generate_new_version.outputs.release_version }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Attaching assets to release $RELEASE_VERSION"
+
+          # Check if files exist before uploading
+          for file in RELEASE_NOTES.md CHANGELOG.md README.md LICENSE.md; do
+            if [ -f "$file" ]; then
+              gh release upload "v$RELEASE_VERSION" "$file"
+            else
+              echo "⚠️ Warning: $file not found, skipping..."
+            fi
+          done
+
+  publish-release:
+    needs: [create-release, generate_new_version]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Publish Release
+        env:
+          RELEASE_VERSION: ${{ needs.generate_new_version.outputs.release_version }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "release version = $RELEASE_VERSION"
+          gh release edit "v$RELEASE_VERSION" --draft=false
+
+  manage_milestones:
+    needs: [publish-release, generate_new_version]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rename and close milestone
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Retrieve the ID of the "Next" milestone
+          milestone_id=$(gh api repos/${{ github.repository }}/milestones --jq '.[] | select(.title=="Next") | .number')
+          if [ -z "$milestone_id" ]; then
+            echo "❌ No 'Next' milestone found."
+            exit 1
+          fi
+
+          # Get the release date (current UTC date in ISO 8601 format)
+          RELEASE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          # Rename and close the milestone, adding the release date
+          gh api --method PATCH repos/${{ github.repository }}/milestones/$milestone_id \
+            -f title="${{ needs.generate_new_version.outputs.release_version }}" \
+            -f state=closed \
+            -f due_on="$RELEASE_DATE"
+
+          # Create a new "Next" milestone
+          gh api repos/${{ github.repository }}/milestones -f title="Next" -f state=open
