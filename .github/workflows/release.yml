@@ -236,6 +236,9 @@ jobs:
   manage_milestones:
     needs: [publish-release, generate_new_version]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
     steps:
       - name: Rename and close milestone
         env:
