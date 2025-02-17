@@ -124,6 +124,7 @@ jobs:
         uses: ./.github/actions/generate-release-notes
         with:
           new_version: ${{ needs.generate_new_version.outputs.release_version }}
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push changes to main
         run: |

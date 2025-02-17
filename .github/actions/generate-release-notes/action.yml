@@ -4,6 +4,9 @@ inputs:
   new_version:
     required: true
     type: string
+  gh_token:
+    required: true
+    type: string
 
 permissions:
   contents: write
@@ -14,7 +17,7 @@ runs:
     - name: Generate Release Notes and Changelog
       id: generate_notes
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ inputs.gh_token }}
       run: |
         # Retrieve the ID of the "Next" milestone
         milestone_id=$(gh api repos/${{ github.repository }}/milestones --jq '.[] | select(.title=="Next") | .number')
