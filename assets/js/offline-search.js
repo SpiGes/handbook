@@ -1,4 +1,23 @@
+/* eslint-disable no-undef */
 // Adapted from code by Matt Walters https://www.mattwalters.net/posts/2018-03-28-hugo-and-lunr/
+
+/**
+ * Translations for UI text based on the current language
+ */
+const translations = {
+  fr: {
+    searchResults: 'Résultats de recherche',
+    noResults: 'Aucun résultat trouvé pour la requête'
+  },
+  de: {
+    searchResults: 'Suchergebnisse',
+    noResults: 'Keine Ergebnisse gefunden für die Suche'
+  },
+  it: {
+    searchResults: 'Risultati della ricerca',
+    noResults: 'Nessun risultato trovato per la ricerca'
+  }
+};
 
 /**
  * Function to get the current language from the URL
@@ -6,8 +25,19 @@
  */
 function getCurrentLang() {
   const path = window.location.pathname;
-  const match = path.match(/\/(fr|de|it)\//);
+  const regex = /\/(fr|de|it)\//;
+  const match = regex.exec(path);
   return match ? match[1] : 'de';  // German by default if not found
+}
+
+/**
+ * Get the translated text based on the current language
+ * @param {string} key - The key of the text to translate
+ * @returns {string} - The translated text
+ */
+function translate(key) {
+  const lang = getCurrentLang();
+  return translations[lang]?.[key] || translations.de[key]; // Fallback to German if not found
 }
 
 /**
@@ -29,7 +59,9 @@ function extractLangFromURL(url) {
  */
 function extractSurroundingText(text, term, n) {
   const sanitizedTerm = term.replace(/[*?]/g, '');
-  const index = text.indexOf(sanitizedTerm);
+  const lowerText = text.toLowerCase();
+  const lowerTerm = sanitizedTerm.toLowerCase();
+  const index = lowerText.indexOf(lowerTerm);
   if (index === -1) {
     return null; // Return null if the term is not found
   }
@@ -70,41 +102,99 @@ function extractSurroundingText(text, term, n) {
     const resultDetails = new Map(); // Will hold the data for the search results (titles and summaries)
 
     // Set up for an Ajax call to request the JSON data file that is created by Hugo's build process
-    $.ajax($searchInput.data('offline-search-index-json-src')).then((data) => {
+    $.ajax($searchInput.data('offline-search-index-json-src')).then(handleAjaxResponse);
+
+    /**
+     * Handles Ajax response
+     * @param data
+     */
+    function handleAjaxResponse(data) {
       const currentLang = getCurrentLang();
-      // Filter results based on current language
-      const filteredData = data.filter(doc => {
+      const filteredData = filterDataByLang(data, currentLang);
+      createLunrIndex(filteredData);
+      $searchInput.trigger('change');
+    }
+
+    /**
+     * Filters data by lang
+     * @param data
+     * @param lang
+     * @returns true if the doc lang is equal to the given lang, otherwise false
+     */
+    function filterDataByLang(data, lang) {
+      return data.filter(doc => {
         const docLang = extractLangFromURL(doc.ref);
-        return docLang === currentLang;
+        return docLang === lang;
       });
+    }
+
+    /**
+     * Creates Lunr index
+     * @param filteredData
+     */
+    function createLunrIndex(filteredData) {
       idx = lunr(function () {
         this.ref('ref');
-
-        // If you added more searchable fields to the search index, list them here.
-        // Here you can specify searchable fields to the search index - e.g. individual toxonomies for you project
-        // With "boost" you can add weighting for specific (default weighting without boost: 1)
         this.field('title', { boost: 5 });
         this.field('categories', { boost: 3 });
         this.field('tags', { boost: 3 });
-        // this.field('projects', { boost: 3 }); // example for an individual toxonomy called projects
         this.field('description', { boost: 2 });
         this.field('body');
 
-        filteredData.forEach((doc) => {
-          this.add(doc);
-
-          resultDetails.set(doc.ref, {
-            title: doc.title,
-            excerpt: doc.excerpt,
-            body: doc.body
-          });
-        });
+        filteredData.forEach(addDocumentToIndex, this);
       });
+    }
 
-      $searchInput.trigger('change');
-    });
+    /**
+     * Add the given documentation to the index.
+     * @param doc
+     */
+    function addDocumentToIndex(doc) {
+      this.add(doc);
+      resultDetails.set(doc.ref, {
+        title: doc.title,
+        excerpt: doc.excerpt,
+        body: doc.body
+      });
+    }
 
-    const render = ($targetSearchInput) => {
+    /**
+     * Adds terms to the Lunr query based on the token.
+     * @param token
+     * @param query
+     */
+    function addTermsToQuery(token, query) {
+      const queryString = token.toString();
+      if (queryString.includes('*')) {
+        query.term(queryString, {
+          wildcard: lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING,
+          boost: 10,
+          usePipeline: false
+        });
+      } else {
+        query.term(queryString, {
+          boost: 100,
+          usePipeline: false
+        });
+      }
+    }
+
+    /**
+     * Adds search terms to query
+     * @param query
+     * @param searchQuery
+     */
+    function addSearchTermsToQuery(query, searchQuery){
+      const tokens = lunr.tokenizer(searchQuery.toLowerCase());
+      tokens.forEach(token => addTermsToQuery(token, query));
+    }
+
+    /**
+     * Renders the search results popover
+     * @param $targetSearchInput
+     */
+    function renderSearchResultsPopover($targetSearchInput){
+
       //
       // Dispose existing popover
       //
@@ -130,24 +220,7 @@ function extractSurroundingText(text, term, n) {
       }
 
       const results = idx
-        .query((q) => {
-          const tokens = lunr.tokenizer(searchQuery.toLowerCase());
-          tokens.forEach((token) => {
-            const queryString = token.toString();
-            if(queryString.includes('*')){
-              q.term(queryString, {
-                wildcard: lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING,
-                boost: 10,
-                usePipeline: false
-              });
-            } else {
-              q.term(queryString, {
-                boost: 100,
-                usePipeline: false
-              });
-            }
-          });
-        })
+        .query(query => addSearchTermsToQuery(query, searchQuery))
         .slice(0, $targetSearchInput.data('offline-search-max-results'));
 
       //
@@ -164,7 +237,7 @@ function extractSurroundingText(text, term, n) {
             marginBottom: '1em',
           })
           .append(
-            $('<span>').text('Search results').css({ fontWeight: 'bold' })
+            $('<span>').text(translate('searchResults')).css({ fontWeight: 'bold' })
           )
           .append(
             $('<span>').addClass('td-offline-search-results__close-button')
@@ -181,7 +254,7 @@ function extractSurroundingText(text, term, n) {
 
       if (results.length === 0) {
         $searchResultBody.append(
-          $('<p>').text(`No results found for query "${searchQuery}"`)
+          $('<p>').text(`${translate('noResults')} "${searchQuery}"`)
         );
       } else {
         results.forEach((r) => {
@@ -216,11 +289,16 @@ function extractSurroundingText(text, term, n) {
         });
       }
 
+      /**
+       * Changes target search input on click
+       */
+      function changeTargetSearchInputOnClick(){
+        $targetSearchInput.val('');
+        $targetSearchInput.trigger('change');
+      }
+
       $targetSearchInput.one('shown.bs.popover', () => {
-        $('.td-offline-search-results__close-button').on('click', () => {
-          $targetSearchInput.val('');
-          $targetSearchInput.trigger('change');
-        });
+        $('.td-offline-search-results__close-button').on('click', changeTargetSearchInputOnClick);
       });
 
       const popover = new bootstrap.Popover($targetSearchInput, {
@@ -230,6 +308,8 @@ function extractSurroundingText(text, term, n) {
         placement: 'bottom',
       });
       popover.show();
-    };
+    }
+
+    const render = renderSearchResultsPopover;
   });
 })(jQuery);

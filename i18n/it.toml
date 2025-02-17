@@ -24,3 +24,7 @@ other = "Clicca qui per espandere/comprimere"
 other = "Clicca qui per espandere/comprimere tutto"
 [project_title]
 other = "SpiGes manuali"
+
+# Search
+[ui_search]
+other = "Cerca..."

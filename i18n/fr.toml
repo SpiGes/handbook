@@ -42,3 +42,7 @@ other = "Les bugs suivants ont été corrigés"
 other = "Les fonctions suivantes existaient déjà"
 [release_notes_next_features_title]
 other = "Les fonctionnalités suivantes suivront"
+
+# Search
+[ui_search]
+other = "Chercher..."

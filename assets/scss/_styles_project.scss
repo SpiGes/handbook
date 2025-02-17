@@ -145,6 +145,10 @@ body {
         white-space: nowrap;
         padding: $ob-spacing-default;
 
+        .search-layout{
+          min-width: 300px;
+        }
+
         > ul {
           display: inline-flex;
           flex-direction: row;
