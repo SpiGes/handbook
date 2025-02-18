@@ -55,7 +55,7 @@ Grundsatz: Erlöse müssen auf den Fällen abgebildet werden.
 Es gibt zwei Vorgehensvarianten:
 - proportional
 
-Die «normalen» Erlöse (ohne Globalbudget) werden um einen konstanten Faktor reduziert. Der Faktor kann erst berechnet werden, wenn die definitiven Erlöse aus dem Globalbudget bekannt sind. 
+Die «normalen» Erlöse (ohne Globalbudget) werden um einen konstanten Faktor reduziert. Der Faktor kann erst berechnet werden, wenn die definitiven Erlöse aus dem Globalbudget bekannt sind.  
 Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> Bei allen vom Globalbudget betroffenen Fällen wird nur 90% der «normalen» Erlöse des Kantons verbucht (resp. 49.5% [90% der 55% Kantonsanteil].
 
 - ausschöpfen, nachher 0

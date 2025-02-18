@@ -67,7 +67,7 @@ Esempio: entrate teoriche del Cantone 100 milioni, budget globale 90 milioni -> 
 
 - esaurire, poi 0
 
-Imputando il 55% del Cantone ai casi fino a esaurimento del budget globale. Successivamente, non vengono più registrati ricavi sui casi rimanenti dell'anno.    
+Imputando il 55% del Cantone ai casi fino a esaurimento del budget globale. Successivamente, non vengono più registrati ricavi sui casi rimanenti dell'anno.  
 Esempio: ricavi teorici del Cantone 100 milioni, budget globale 90 milioni -> Tutti i casi vengono registrati con ricavi cantonali del 100% fino all'esaurimento del budget globale. I casi registrati successivamente non presentano alcun ricavo cantonale (0).
 
 **Importante per la creazione di ITAR_K**: non è consentito gestire un'unità di costo separata con le riduzioni dei ricavi.
