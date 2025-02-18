@@ -60,7 +60,7 @@ Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> Bei 
 
 - ausschöpfen, nachher 0
 
-indem die vollen 55% des Kantons so lange auf die Fälle gebucht werden, bis das Globalbudget erschöpft ist. Danach werden keine Erlöse mehr auf die verbleibeenden Fälle des Jahres verbucht.  
+Indem die vollen 55% des Kantons so lange auf die Fälle gebucht werden, bis das Globalbudget erschöpft ist. Danach werden keine Erlöse mehr auf die verbleibeenden Fälle des Jahres verbucht.  
 Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> Alle Fälle werden mit kantonalen Erlösen von 100% verbucht, bis das Globalbudget erschöpft ist. Fälle, die danach verbucht werden, weisen keinen Erlös des Kantons auf (0).
 Wichtig für ITAR_K-Erstellung: Es darf kein separater Kostenträger mit den Erlösminderungen geführt werden.
 
