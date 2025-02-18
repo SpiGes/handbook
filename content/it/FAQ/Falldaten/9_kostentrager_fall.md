@@ -53,7 +53,7 @@ Per garantire che questa registrazione venga effettuata correttamente in ITAR_K�
 {{</listItem>}}
 
 {{<listItem>}} <!--DeepL-->
-Come vengono rappresentati i ricavi e le fatture se il Cantone stabilisce un budget globale?
+Come vengono rappresentati i ricavi e le fatture se il cantone stabilisce un budget globale?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
 Se il budget globale è superiore ai ricavi o non viene utilizzato, la rappresentazione avviene normalmente. Le risposte qui riportate riguardano solo **il caso in cui il budget globale viene utilizzato e i ricavi sarebbero stati più elevati senza il budget globale**. 
@@ -63,16 +63,16 @@ Ci sono due varianti di procedura:
 - proporzionale
 
 I ricavi «normali» (senza budget globale) vengono ridotti di un fattore costante. Il fattore può essere calcolato solo quando sono noti i ricavi definitivi del budget globale.  
-_Esempio: ricavi teorici del Cantone 100 milioni, budget globale 90 milioni -> Per tutti i casi compresi nel budget globale, viene contabilizzato solo il 90% delle ricavi «normali» del Cantone (resp. il 49,5% [90% del 55% della quota del Cantone])._
+_Esempio: ricavi teorici del cantone 100 milioni, budget globale 90 milioni -> Per tutti i casi compresi nel budget globale, viene contabilizzato solo il 90% delle ricavi «normali» del cantone (resp. il 49,5% [90% del 55% della quota del cantone])._
 
 - esaurire, poi 0
 
-Imputando il 55% del Cantone ai casi fino a esaurimento del budget globale. Successivamente, non vengono più registrati ricavi sui casi rimanenti dell'anno.  
-_Esempio: ricavi teorici del Cantone 100 milioni, budget globale 90 milioni -> Tutti i casi vengono registrati con ricavi cantonali del 100% fino all'esaurimento del budget globale. I casi registrati successivamente non presentano alcun ricavo cantonale (0)._
+Imputando il 55% del cantone ai casi fino a esaurimento del budget globale. Successivamente, non vengono più registrati ricavi sui casi rimanenti dell'anno.  
+_Esempio: ricavi teorici del cantone 100 milioni, budget globale 90 milioni -> Tutti i casi vengono registrati con ricavi cantonali del 100% fino all'esaurimento del budget globale. I casi registrati successivamente non presentano alcun ricavo cantonale (0)._
 
 **Importante per la creazione di ITAR_K®**: non è consentito gestire un'unità di costo separata con le riduzioni dei ricavi.
 
-Se queste soluzioni per la fatturazione sono difficili da implementare, nel primo anno di rilevazione possono essere utilizzati altri metodi, previa consultazione con il Cantone e l'UST. 
+Se queste soluzioni per la fatturazione sono difficili da implementare, nel primo anno di rilevazione possono essere utilizzati altri metodi, previa consultazione con il cantone e l'UST. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
