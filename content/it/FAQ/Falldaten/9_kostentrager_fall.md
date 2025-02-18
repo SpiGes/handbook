@@ -63,7 +63,7 @@ Ci sono due varianti di procedura:
 - proporzionale
 
 I ricavi «normali» (senza budget globale) vengono ridotti di un fattore costante. Il fattore può essere calcolato solo quando sono noti i ricavi definitivi del budget globale.  
-_Esempio: entrate teoriche del Cantone 100 milioni, budget globale 90 milioni -> Per tutti i casi interessati dal budget globale, viene contabilizzato solo il 90% delle entrate «normali» del Cantone (o il 49,5% [90% del 55% della quota del Cantone])._
+_Esempio: ricavi teorici del Cantone 100 milioni, budget globale 90 milioni -> Per tutti i casi compresi nel budget globale, viene contabilizzato solo il 90% delle ricavi «normali» del Cantone (resp. il 49,5% [90% del 55% della quota del Cantone])._
 
 - esaurire, poi 0
 
