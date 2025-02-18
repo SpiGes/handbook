@@ -52,9 +52,9 @@ La tabella 12 Identificatori personali deve essere fornita in un file separato (
 {{</listItem>}}
 
 {{<listItem>}} <!--DeepL-->
-È vero che la trasmissione dei dati alla SwissDRG SA nel formato SpiGes non consente consegne parziali?
+È vero che la trasmissione dei dati a SwissDRG SA nel formato SpiGes non consente consegne parziali?
 {{<collapsibleBlock groupId="allgemein">}}
-A questo proposito, consultare le indicazioni sul sito web di SwissDRG SA per la rilevazione 2025 (dati 2024) (ad es. medicina somatica acuta).
+A questo proposito, consultare le indicazioni sul sito web di SwissDRG SA per la rilevazione 2025 (dati 2024) (ad es. somatica acuta).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
