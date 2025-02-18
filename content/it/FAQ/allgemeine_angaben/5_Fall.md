@@ -11,10 +11,10 @@ keywords: []
 Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="Fall">}}
 
 {{<numberedList>}}
-{{<listItem>}}
-Sind stationäre Begleitpersonen auch Bestandteil der Datenlieferung SpiGes ? 
+{{<listItem>}} <!--DeepL>
+Anche gli accompagnatori stazionari fanno parte della trasmissione dei dati SpiGes ? 
 {{<collapsibleBlock groupId="Fall">}}
-Grundsätzlich sind Begleitpersonen (Elterne, Kinder, Partner) keine stationären Fälle, diese beanspruchen reine Hotelleriedienste (ohne medizinische Leistung) und werden nicht erfasst (war schon bei der MS so).
+Generalmente gli accompagnatori (genitori, figli, partner) non sono casi stazionari, richiedono solo servizi alberghieri (senza prestazioni mediche) e non vengono registrati (era già così nella MS).
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
