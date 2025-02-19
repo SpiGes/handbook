@@ -49,7 +49,7 @@ Damit diese Erfassung im ITAR_K® (**pro BURGESV**) korrekt erfolgt, muss Folgen
 Wie werden Erlöse und Rechnungen abgebildet, wenn der Kanton ein Globalbudget vorgibt ?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
-Ist das Globalbudget höher als die Erlöse, resp. wird dieses nicht ausgeschöpft, erfolgt die Abbildung ganz normal. Die Antworten hier betreffen nur **den Fall, dass das Globalbudget ausgeschöpft wird und die Erlöse ohne Globalbudget höher gelegen hätten**. 
+Ist das Globalbudget höher als die Erlöse, resp. wird dieses nicht ausgeschöpft, erfolgt die Abbildung ganz normal. Die Antworten hier betreffen nur **den Fall, dass das Globalbudget ausgeschöpft wird und die Erlöse ohne Globalbudget höher gelegen hätten**.
 
 Grundsatz: Erlöse müssen auf den Fällen abgebildet werden.
 Es gibt zwei Vorgehensvarianten:
