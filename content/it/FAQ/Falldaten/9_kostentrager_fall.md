@@ -56,7 +56,7 @@ Per garantire che questa registrazione venga effettuata correttamente in ITAR_K�
 Come vengono rappresentati i ricavi e le fatture se il cantone stabilisce un budget globale?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
-Se il budget globale è superiore ai ricavi o non viene utilizzato, la rappresentazione avviene normalmente. Le risposte qui riportate riguardano solo **il caso in cui il budget globale viene utilizzato e i ricavi sarebbero stati più elevati senza il budget globale**. 
+Se il budget globale è superiore ai ricavi o non viene utilizzato, la rappresentazione avviene normalmente. Le risposte qui riportate riguardano solo **il caso in cui il budget globale viene utilizzato e i ricavi sarebbero stati più elevati senza il budget globale**.
 
 Principio: i ricavi devono essere riportati sui casi.
 Esistono due varianti di procedura:
