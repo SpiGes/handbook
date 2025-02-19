@@ -72,7 +72,7 @@ _Esempio: ricavi teorici del cantone 100 milioni, budget globale 90 milioni -> T
 
 **Importante per la creazione di ITAR_K®**: nessuna unità finale d'imputazione separata può essere gestita con le riduzioni dei ricavi.
 
-Se queste soluzioni per la fatturazione sono difficili da implementare, nel primo anno di rilevazione possono essere utilizzati altri metodi, previa consultazione con il cantone e l'UST. 
+Se queste soluzioni per la fatturazione sono difficili da implementare, nel primo anno di rilevazione possono essere utilizzati altri metodi, previa consultazione con il cantone e l'UST.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
