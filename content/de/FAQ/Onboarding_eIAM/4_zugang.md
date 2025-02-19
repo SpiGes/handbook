@@ -43,8 +43,8 @@ Nein, es wird leider nicht möglich sein, andere elektronische Identitäten als 
 Ich kümmere mich auch um die KS-Erhebung (und/oder SOMED) und kann mich nicht mehr bei diesen Anwendungen anmelden ?  
 {{<collapsibleBlock groupId="zugang">}}
 {{<markdown>}}
-Der Zugriff auf KS/SOMED und der Zugriff auf SpiGes erfolgen mit demselben CH-Login, jedoch mit einem **anderen Profil**. Das für KS/SOMED verwendete Profil entspricht dem Standardprofil (CHL...), der Name kann leider nicht geändert werden, um ihn eindeutiger zu machen, da er für andere Anwendungen des Bundes verwendet werden kann. Unter dem Profilnamen können Sie sehen, welche Anwendungen berücksichtigt werden. 
-{{</markdown>}} 
+Der Zugriff auf KS/SOMED und der Zugriff auf SpiGes erfolgen mit demselben CH-Login, jedoch mit einem **anderen Profil**. Das für KS/SOMED verwendete Profil entspricht dem Standardprofil (CHL...), der Name kann leider nicht geändert werden, um ihn eindeutiger zu machen, da er für andere Anwendungen des Bundes verwendet werden kann. Unter dem Profilnamen können Sie sehen, welche Anwendungen berücksichtigt werden.
+{{</markdown>}}
 {{<insertImage image="profile_DE.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
