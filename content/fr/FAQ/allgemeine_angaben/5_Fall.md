@@ -1,5 +1,5 @@
 ---
-title: Périmètre des cas
+title: Délimitation des cas
 slug: Fall
 description: " "
 weight: 50
