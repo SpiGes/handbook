@@ -1,5 +1,5 @@
 ---
-title: Fallumfang
+title: Abgrenzung der Fälle
 slug: Fall
 description: " "
 weight: 50

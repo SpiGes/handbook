@@ -40,7 +40,7 @@ Non, il ne sera malheureusement pas possible d'utiliser d'autres identités éle
 {{</listItem>}}
 
 {{<listItem>}}
-Je m'occupe aussi du relevé KS (et/ou SOMED) et je n'arrive plus à me connecter à ces autres applications ?  
+Je m'occupe aussi du relevé KS (et/ou SOMED) et je n'arrive plus à me connecter à ces applications ?  
 {{<collapsibleBlock groupId="zugang">}}
 {{<markdown>}}
 L'accès à KS/SOMED et l'accès SpiGes se font avec le même CH-Login, mais avec un **profil différent**. Le profil utilisé pour KS/SOMED correspond au profil par défaut (CHL...), le nom ne peut malheureusement pas être modifié pour être plus explicite car il peut être utilisé pour d'autres applications de la confédération. Sous le nom de profil, vous pouvez voir quelles applications sont considérées. 
