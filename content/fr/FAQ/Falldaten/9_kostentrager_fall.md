@@ -73,7 +73,7 @@ _Exemple : recettes théoriques du canton 100 millions, budget global 90 million
 
 **Important pour la création d'ITAR_K®** : aucune unité finale d'imputation séparée ne peut être gérée avec les réductions de recettes.
 
-Pour les factures, si ces solutions sont laborieuses à mettre en œuvre, d'autres méthodes peuvent être appliquées après consultation du canton et de l'OFS la première année de relevé. 
+Pour les factures, si ces solutions sont laborieuses à mettre en œuvre, d'autres méthodes peuvent être appliquées après consultation du canton et de l'OFS la première année de relevé.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
