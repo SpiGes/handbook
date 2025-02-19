@@ -65,7 +65,7 @@ _Beispiel: theoretische Erlöse vom Kanton 100 Mio., Globalbudget 90 Mio. -> All
 
 **Wichtig für ITAR_K®-Erstellung**: Es darf kein separater Kostenträger mit den Erlösminderungen geführt werden.
 
-Falls diese Lösungen für die Rechnungen aufwändig umzusetzen sind, können nach Rücksprache mit Kanton und BFS im ersten Erhebungsjahr andere Methoden angewandt werden. 
+Falls diese Lösungen für die Rechnungen aufwändig umzusetzen sind, können nach Rücksprache mit Kanton und BFS im ersten Erhebungsjahr andere Methoden angewandt werden.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
