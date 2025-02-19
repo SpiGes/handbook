@@ -57,7 +57,7 @@ Pour que cette saisie soit correcte dans ITAR_K® (**par BURGESV**), il faut ten
 Comment les recettes et les factures sont-elles représentées lorsque le canton définit un budget global ?
 {{<collapsibleBlock groupId="kostentraeger">}}
 {{<markdown>}}
-Si le budget global est plus élevé que les recettes ou qu'il n'est pas utilisé, la représentation se fait normalement. Les réponses ici concernent uniquement **le cas où le budget global est épuisé et que les recettes auraient été plus élevées sans budget global**. 
+Si le budget global est plus élevé que les recettes ou qu'il n'est pas utilisé, la représentation se fait normalement. Les réponses ici concernent uniquement **le cas où le budget global est épuisé et que les recettes auraient été plus élevées sans budget global**.
 
 Principe : les recettes doivent être représentées sur les cas.
 Il existe deux variantes de procédure :
