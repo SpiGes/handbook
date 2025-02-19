@@ -53,6 +53,7 @@ Ist das Globalbudget höher als die Erlöse, resp. wird dieses nicht ausgeschöp
 
 Grundsatz: Erlöse müssen auf den Fällen abgebildet werden.
 Es gibt zwei Vorgehensvarianten:
+
 - proportional
 
 Die «normalen» Erlöse (ohne Globalbudget) werden um einen konstanten Faktor reduziert. Der Faktor kann erst berechnet werden, wenn die definitiven Erlöse aus dem Globalbudget bekannt sind.  

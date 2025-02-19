@@ -61,6 +61,7 @@ Si le budget global est plus élevé que les recettes ou qu'il n'est pas utilis�
 
 Principe : les recettes doivent être représentées sur les cas.
 Il existe deux variantes de procédure :
+
 - proportionnel
 
 Les recettes «normales» (sans budget global) sont réduites d'un facteur constant. Le facteur ne peut être calculé que lorsque les recettes définitives du budget global sont connues  

@@ -60,6 +60,7 @@ Se il budget globale è superiore ai ricavi o non viene utilizzato, la rappresen
 
 Principio: i ricavi devono essere riportati sui casi.
 Esistono due varianti di procedura:
+
 - proporzionale
 
 I ricavi «normali» (senza budget globale) vengono ridotti di un fattore costante. Il fattore può essere calcolato solo quando sono noti i ricavi definitivi del budget globale.  
