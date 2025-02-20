@@ -4,10 +4,21 @@ on:
   pull_request:
     types: [opened]
 
+permissions:
+  issues: write
+  contents: write
+
 jobs:
   setup-pr:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate GitHub App Token
+        id: generate_token
+        uses: peter-murray/workflow-application-token-action@v4
+        with:
+          application_id: ${{ secrets.TECHNICAL_AGENT_APP_ID }}
+          application_private_key: ${{ secrets.TECHNICAL_AGENT_APP_PRIVATE_KEY }}
+
       # 1. Assigns the author if no one is assigned
       - name: Assign PR to creator if unassigned
         uses: actions/github-script@v7
@@ -95,7 +106,7 @@ jobs:
       - name: Add PR to Project V2 if none exists
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const prId = context.payload.pull_request.node_id;
             const projectName = "SpiGes-Handbuch";
