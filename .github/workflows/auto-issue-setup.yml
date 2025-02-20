@@ -8,6 +8,9 @@ permissions:
   issues: write
   contents: write
 
+env:
+  PROJECT_NAME: "SpiGes-Handbuch"
+
 jobs:
   setup-issue:
     runs-on: ubuntu-latest
@@ -49,12 +52,12 @@ jobs:
             const existingLabels = context.payload.issue.labels.map(label => label.name);
 
             if (existingLabels.length === 0) {
-              console.log("No labels found. Adding 'new' and 'Type: Task'.");
+              console.log("No labels found. Adding 'new'.");
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue_number,
-                labels: ["new", "Type: Task"]
+                labels: ["new"]
               });
             } else {
               console.log(`Labels already exist: ${existingLabels.join(", ")}`);
@@ -65,8 +68,22 @@ jobs:
         with:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
-            const prId = context.payload.pull_request.node_id;
-            const projectName = "SpiGes-Handbuch";
+            const projectName = process.env.PROJECT_NAME;
+            const issue = context.payload.issue;
+
+            if (!issue) {
+              console.error("❌ No issue found in the context.");
+              return;
+            }
+
+            const issueId = issue.node_id;
+            if (!issueId) {
+              console.error("❌ node_id is undefined. Ensure the event is 'issues'.");
+              return;
+            }
+
+            console.log(`Processing Issue node_id: ${issueId}`);
+
             const typeValue = "Task";
 
             const projects = await github.graphql(`
@@ -84,7 +101,7 @@ jobs:
 
             const project = projects.organization.projectsV2.nodes.find(p => p.title === projectName);
             if (!project) {
-              console.log(`Project V2 "${projectName}" not found.`);
+              console.error(`❌ Project "${projectName}" not found.`);
               return;
             }
 
@@ -108,10 +125,51 @@ jobs:
 
             const typeField = fields.node.fields.nodes.find(f => f.name === "Type");
             if (!typeField) {
-              console.log(`❌ Field "Type" not found in project.`);
+              console.error(`❌ Field "Type" not found in project.`);
               return;
             }
 
+            const projectItems = await github.graphql(`
+              query($projectId: ID!, $issueId: ID!) {
+                node(id: $projectId) {
+                  ... on ProjectV2 {
+                    items(first: 100, filterBy: { contentId: $issueId }) {
+                      nodes {
+                        id
+                        fieldValues(first: 100) {
+                          nodes {
+                            field {
+                              name
+                            }
+                            ... on ProjectV2ItemFieldSingleSelectValue {
+                              name
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `, {
+              projectId: project.id,
+              issueId: issueId
+            });
+
+            const issueItem = projectItems.node.items.nodes[0];
+            if (!issueItem) {
+              console.error(`❌ Issue not found in project "${projectName}".`);
+              return;
+            }
+
+            const typeFieldValue = issueItem.fieldValues.nodes.find(f => f.field?.name === "Type");
+
+            if (typeFieldValue?.name) {
+              console.log(`Type field already set to "${typeFieldValue.name}". No update needed.`);
+              return;
+            }
+
+            console.log(`Setting Type field to "${typeValue}" for Issue.`);
             await github.graphql(`
               mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $value: String!) {
                 updateProjectV2ItemFieldValue(input: {
@@ -127,12 +185,12 @@ jobs:
               }
             `, {
               projectId: project.id,
-              itemId: prId,
+              itemId: issueItem.id,
               fieldId: typeField.id,
               value: typeValue
             });
 
-            console.log(`Type field set to "${typeValue}" for PR.`);
+            console.log(`Type field successfully set to "${typeValue}".`);
 
       # 3. Assigns the milestone "Next" if no one is defined
       - name: Assign milestone if none exists
@@ -174,7 +232,7 @@ jobs:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             const issue_id = context.payload.issue.node_id;
-            const project_name = "SpiGes-Handbuch";
+            const project_name = process.env.PROJECT_NAME;
 
             // Vérification des projets existants pour l'issue
             const projectItems = await github.graphql(`
