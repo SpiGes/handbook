@@ -2,6 +2,28 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.9.0] - 2025.02.20
+
+### New
+
+#### Documentation
+
+- [#207](https://github.com/SpiGes/handbook/issues/207) - Update FAQ
+
+#### Others
+
+- [#180](https://github.com/SpiGes/handbook/issues/180) - Add search feature in the documentation
+
+### Updated
+
+#### Documentation
+
+- [#212](https://github.com/SpiGes/handbook/issues/212) - Remove useless information from the SpiGes release notes model
+
+#### Others
+
+- [#50](https://github.com/SpiGes/handbook/issues/50) - Set new version, generate release notes and update changelog automatically
+
 ## [0.8] - 2025.02.11
 
 ### Added
