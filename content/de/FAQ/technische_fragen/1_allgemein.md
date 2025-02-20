@@ -52,6 +52,13 @@ Die Tabelle 12 Personenidentifikatoren muss in einem separaten File geliefert we
 {{</listItem>}}
 
 {{<listItem>}}
+Ist es richtig, dass die Datenlieferung an die SwissDRG AG im SpiGes Format keine Teillieferungen erlaubt?
+{{<collapsibleBlock groupId="allgemein">}}
+Diesbezüglich konsultieren Sie bitte die Hinweise auf der Webseite der SwissDRG AG zur Erhebung 2025 (Daten 2024) (z.B. Akutsomatik).
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
 Gibt es eine Möglichkeit für kleine Betriebe aus einem Excel (in der die KTR eingetragen ist) ein XML-File herzustellen. Gibt es ein Anbieter, der dies plant umzusetzen?
 {{<collapsibleBlock groupId="allgemein">}}
 Ja, es gibt private Anbieter, die so ein Tool bereitstellen. Das BFS verfolgt diese Idee darum aktuell nicht weiter.
