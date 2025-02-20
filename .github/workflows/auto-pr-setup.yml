@@ -103,7 +103,7 @@ jobs:
             }
 
       # 4. Adds the PR in the project if no one is assigned
-      - name: Add PR to Project V2 if none exists
+      - name: Add PR to Project if none exists
         uses: actions/github-script@v7
         with:
           github-token: ${{ steps.generate_token.outputs.token }}
@@ -161,9 +161,9 @@ jobs:
                   contentId: prId
                 });
 
-                console.log(`✅ PR added to Project V2 "${projectName}".`);
+                console.log(`✅ PR added to Project "${projectName}".`);
               } else {
-                console.log(`❌ Project V2 "${projectName}" not found.`);
+                console.log(`❌ Project "${projectName}" not found.`);
               }
             } else {
               console.log(`PR already belongs to project(s): ${existingProjects.join(", ")}`);
