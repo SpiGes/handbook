@@ -45,7 +45,7 @@ Mon accès à SpiGes ne fonctionne plus: lorsque j'entre mes données CH-Login, 
 Votre Mobile ID a probablement été désactivé, cela arrive lorsque vous changez de téléphone ou d'opérateur.
 {{<markdown>}}
 - Vous pouvez réactiver votre Mobile ID auprès de votre opérateur à l'aide du code de réactivation que vous avez reçu lors de l'activation de votre Mobile ID.
-- Si ce n'est pas possible, merci d'écrire à <spiges@bfs.admin.ch>. L'OFS demandera à l'OFIT de supprimer votre Mobile ID comme second facteur (demande appuyée par un formulaire de mutation et une copie de la pièce d'identité). Vous devrez ensuite refaire le processus d'accès à SpiGes: activer le Mobile ID, ajouter l'ajouter comme second facteur et le vérifier par vidéo. 
+- Si ce n'est pas possible, merci d'écrire à <spiges@bfs.admin.ch>. L'OFS demandera à l'OFIT de supprimer votre Mobile ID comme second facteur (demande appuyée par un formulaire de mutation et une copie de la pièce d'identité). Vous devrez ensuite refaire le processus d'accès à SpiGes: activer le Mobile ID, l'ajouter comme second facteur et le vérifier par vidéo. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
