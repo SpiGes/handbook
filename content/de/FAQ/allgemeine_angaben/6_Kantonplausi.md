@@ -24,6 +24,7 @@ Grobe Fehler, die eine Auswertung der Daten für folgende Zwecke merklich beeint
 - Statistische Auswertungen  
 {{</markdown>}}
 
+
 {{<markdown>}}
 **Fälle als OK markieren (√)**
 - Wenn die Begründung der Spitäler korrekt ist…

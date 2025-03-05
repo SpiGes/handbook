@@ -24,6 +24,7 @@ Erreurs grossières qui entravent considérablement l'évaluation des données a
 - Évaluations statistiques   
 {{</markdown>}}
 
+
 {{<markdown>}}
 **Marquer les cas comme OK (√)**
 - Si la justification des hôpitaux est correcte...
