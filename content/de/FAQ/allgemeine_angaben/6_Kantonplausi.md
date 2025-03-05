@@ -22,7 +22,9 @@ Grobe Fehler, die eine Auswertung der Daten für folgende Zwecke merklich beeint
 - Fallkostenberechnung
 - Zentrale Auswertungszwecke des Kantons (z.B. Spitalplanung)
 - Statistische Auswertungen  
+{{</markdown>}}
 
+{{<markdown>}}
 **Fälle als OK markieren (√)**
 - Wenn die Begründung der Spitäler korrekt ist…
 oder
