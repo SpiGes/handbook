@@ -12,7 +12,7 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="Kantonplausi">}
 
 {{<numberedList>}}
 {{<listItem>}} <!--DeepL-->
-Quando i Cantoni devono marcare gli errori come OK e quando devono marcarli come errati?
+Quando i Cantoni devono marcare gli errori come OK e quando devono marcarli come errati?  
 {{<insertImage image="fehlerhaft.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
@@ -20,7 +20,7 @@ Quando i Cantoni devono marcare gli errori come OK e quando devono marcarli come
 
 Errori grossolani che compromettono notevolmente l'analisi dei dati per i seguenti scopi:
 - Calcolo dei costi per caso
-- Analisi centrali del Cantone (ad es. pianificazione ospedaliera)
+- Analisi centrali del cantone (ad es. pianificazione ospedaliera)
 - Analisi statistiche   
 &nbsp;
 
