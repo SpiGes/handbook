@@ -21,7 +21,7 @@ Wann sollen die Kantone Fehler als OK markieren und wann sollen sie sie als fehl
 Grobe Fehler, die eine Auswertung der Daten für folgende Zwecke merklich beeinträchtigen:
 - Fallkostenberechnung
 - Zentrale Auswertungszwecke des Kantons (z.B. Spitalplanung)
-- Statistische Auswertungen 
+- Statistische Auswertungen  
 
 **Fälle als OK markieren (√)**
 - Wenn die Begründung der Spitäler korrekt ist…
