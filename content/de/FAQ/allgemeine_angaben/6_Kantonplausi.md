@@ -20,7 +20,8 @@ Wann sollen die Kantone Fehler als OK markieren und wann sollen sie sie als fehl
 **Fälle als OK markieren (√)**
 - Wenn die Begründung der Spitäler korrekt ist…
 oder
-- Wenn in diesem Jahr keine Korrektur mehr möglich ist und der Umfang des Fehlers begrenzt ist. 
+- Wenn in diesem Jahr keine Korrektur mehr möglich ist und der Umfang des Fehlers begrenzt ist.  
+
 *In diesem zweiten Fall sollte das Spital die Daten für die Datenlieferung des kommenden Jahres korrigieren.* 
 &nbsp;
 

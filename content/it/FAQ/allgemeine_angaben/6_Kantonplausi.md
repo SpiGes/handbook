@@ -20,7 +20,8 @@ Quando i cantoni devono contrassegnare gli anomali come OK e quando devono contr
 **Contrassegnare i casi come OK (√)**
 - Se la giustificazione degli ospedali è corretta...
 oppure
-- Se nell'anno in corso non è più possibile effettuare correzioni e l'entità dell'errore è limitata. 
+- Se nell'anno in corso non è più possibile effettuare correzioni e l'entità dell'errore è limitata.  
+
 *In questo secondo caso, l'ospedale dovrebbe correggere i dati per la consegna dell'anno successivo.* 
 &nbsp;
 

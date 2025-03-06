@@ -21,6 +21,7 @@ Quand les cantons doivent-ils marquer les erreurs comme OK et quand doivent-ils 
 - Si la justification des hôpitaux est correcte...
 ou
 - Si aucune correction n'est plus possible cette année et que l'ampleur de l'erreur est limitée.  
+
 *Dans ce second cas, l'hôpital doit corriger les données pour la livraison des données de l'année suivante.* 
 &nbsp;
 
