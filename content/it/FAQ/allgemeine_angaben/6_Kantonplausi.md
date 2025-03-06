@@ -13,7 +13,7 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="Kantonplausi">}
 {{<numberedList>}}
 {{<listItem>}} <!--DeepL-->
 Quando i Cantoni devono marcare gli errori come OK e quando devono marcarli come errati?  
-{{<insertImage image="fehlerhaft.png" class="edge max-w-90">}}
+{{<insertImage image="fehlerhaft_it.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
 **Marcare i casi come errati (X)**  

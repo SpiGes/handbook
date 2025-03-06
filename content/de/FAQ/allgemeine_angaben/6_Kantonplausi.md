@@ -13,7 +13,7 @@ Um alle Fragen zu öffnen: {{<collapsibleGroupCommand groupId="Kantonplausi">}}
 {{<numberedList>}}
 {{<listItem>}}
 Wann sollen die Kantone Fehler als OK markieren und wann sollen sie sie als fehlerhaft markieren?
-{{<insertImage image="fehlerhaft.png" class="edge max-w-90">}}
+{{<insertImage image="fehlerhaft_de.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
 **Fälle als fehlerhaft markieren (X)**  
