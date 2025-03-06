@@ -29,7 +29,7 @@ oppure
 
 Errori grossolani che compromettono in maniera sostanziale l'analisi dei dati per i seguenti scopi:
 - Calcolo dei costi per caso
-- Analisi fondamentale del cantone (ad es. pianificazione ospedaliera)
+- Analisi rilevante per il cantone (ad es. pianificazione ospedaliera)
 - Analisi statistiche   
 
 {{</markdown>}}

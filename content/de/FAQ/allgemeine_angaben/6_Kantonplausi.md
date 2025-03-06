@@ -29,7 +29,7 @@ oder
 
 Grobe Fehler, die eine Auswertung der Daten für folgende Zwecke merklich beeinträchtigen:
 - Fallkostenberechnung
-- Zentrale Auswertungszwecke des Kantons (z.B. Spitalplanung)
+- Wichtige Auswertungszwecke des Kantons (z.B. Spitalplanung)
 - Statistische Auswertungen  
 
 {{</markdown>}}

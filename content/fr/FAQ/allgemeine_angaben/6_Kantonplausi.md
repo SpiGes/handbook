@@ -29,7 +29,7 @@ ou
 
 Erreurs grossières qui entravent considérablement l'évaluation des données aux fins suivantes:
 - Calcul des coûts par cas
-- Évaluation centrale par le canton (par exemple, planification hospitalière)
+- Évaluations pertinentes pour le canton (par exemple, planification hospitalière)
 - Évaluations statistiques   
 
 {{</markdown>}}
