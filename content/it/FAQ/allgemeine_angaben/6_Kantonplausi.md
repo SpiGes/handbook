@@ -12,11 +12,12 @@ Per aprire tutte le domande: {{<collapsibleGroupCommand groupId="Kantonplausi">}
 
 {{<numberedList>}}
 {{<listItem>}} <!--DeepL-->
-Quando i Cantoni devono marcare gli errori come OK e quando devono marcarli come errati?  
+Quando i cantoni devono contrassegnare gli errori come OK e quando devono contrassegnarli come errati?
+&nbsp;  
 {{<insertImage image="fehlerhaft_it.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
-**Marcare i casi come errati (X)**  
+**Contrassegnare i casi come errati (X)**  
 
 Errori grossolani che compromettono notevolmente l'analisi dei dati per i seguenti scopi:
 - Calcolo dei costi per caso
@@ -24,7 +25,7 @@ Errori grossolani che compromettono notevolmente l'analisi dei dati per i seguen
 - Analisi statistiche   
 &nbsp;
 
-**Marcare i casi come OK (√)**
+**Contrassegnare i casi come OK (√)**
 - Se la giustificazione degli ospedali è corretta...
 o
 - Se quest'anno non è più possibile effettuare correzioni e l'entità dell'errore è limitata. 

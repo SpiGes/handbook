@@ -13,6 +13,7 @@ Ouvrir toutes les questions: {{<collapsibleGroupCommand groupId="Kantonplausi">}
 {{<numberedList>}}
 {{<listItem>}}
 Quand les cantons doivent-ils marquer les erreurs comme OK et quand doivent-ils les marquer comme erronées?
+&nbsp;
 {{<insertImage image="fehlerhaft_fr.png" class="edge max-w-90">}}
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
