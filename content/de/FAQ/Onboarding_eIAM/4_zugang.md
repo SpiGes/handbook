@@ -40,12 +40,12 @@ Nein, es wird leider nicht möglich sein, andere elektronische Identitäten als 
 {{</listItem>}}
 
 {{<listItem>}} <!--DeepL-->
-Mein Zugang zu SpiGes funktioniert nicht mehr: Wenn ich meine CH-Login-Daten eingebe, springt die Seite zurück an den Anfang (Seite Welcome to SpiGes) ?  
+Mein Zugang zu SpiGes funktioniert nicht mehr: Wenn ich meine CH-Login-Daten eingebe, springt die Seite Welcome to SpiGes zurück ?  
 {{<collapsibleBlock groupId="zugang">}}
 Ihre Mobile ID wurde wahrscheinlich deaktiviert, das passiert, wenn Sie das Telefon oder den Netzbetreiber wechseln.
 {{<markdown>}}
 - Sie können Ihre Mobile ID bei Ihrem Netzbetreiber mithilfe des Reaktivierungscodes, den Sie bei der Aktivierung Ihrer Mobile ID erhalten haben, reaktivieren.
-- Wenn dies nicht möglich ist, schreiben Sie bitte an <spiges@bfs.admin.ch>. Das BFS wird das BIT bitten, Ihre Mobile ID als zweiten Faktor zu löschen (Antrag mit einem Mutationsformular und einer Kopie des Ausweises). Anschliessend müssen Sie den Anmeldevorgang für SpiGes erneut durchführen: Aktivieren Sie die Mobile ID, fügen Sie sie als zweiten Faktor hinzu und prüfen Sie sie per Video über. 
+- Wenn dies nicht möglich ist, schreiben Sie bitte an <spiges@bfs.admin.ch>. Ihre Mobile ID als zweiten Faktor muss gelöscht werden (Antrag durch Ausfüllen eines Mutationsformulars und einer Kopie des Ausweises). Anschliessend müssen Sie den Anmeldevorgang für SpiGes erneut durchführen: Aktivieren Sie die Mobile ID, fügen Sie sie als zweiten Faktor hinzu und prüfen Sie sie per Video über. 
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}

@@ -39,18 +39,18 @@ No, purtroppo non è possibile utilizzare identità elettroniche diverse da quel
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-{{<listItem>}} <!--DeepL-->
-Il mio accesso a SpiGes non funziona più: quando inserisco i miei dati di CH-Login, la pagina torna all'inizio (pagina Welcome to SpiGes) ?  
+{{<listItem>}} <!--DeepL et SP-->
+Il mio accesso a SpiGes non funziona più: quando inserisco i miei dati di CH-Login si ritorna alla pagina Welcome to SpiGes ?  
 {{<collapsibleBlock groupId="zugang">}}
-Il Suo Mobile ID è stato probabilmente disattivato, questo succede quando si cambia telefono o operatore.
+Il Suo Mobile ID è stato probabilmente disattivato, questo accade quando si cambia telefono o operatore.
 {{<markdown>}}
 - È possibile riattivare il Mobile ID presso il proprio operatore di rete utilizzando il codice di ripristino ricevuto al momento dell'attivazione del Mobile ID.
-- Se non è possibile, scriva a <spiges@bfs.admin.ch>. L'UST chiederà all'UFIT di cancellare il Suo Mobile ID come secondo fattore (richiesta con un modulo di mutazione e una copia del documento d'identità). Dopodiché dovrà ripetere la procedura di registrazione per SpiGes: attivare il Mobile ID, lo aggiungare come secondo fattore e lo verificare per video.
+- Se questo non fosse possibile, scriva a <spiges@bfs.admin.ch>. Il Suo Mobile ID come secondo fattore dovrà essere cancellato (richiesta da inoltrare attraverso la compilazione di un un modulo di mutazione e una copia del documento d'identità). Dopodiché dovrà ripetere la procedura di registrazione per SpiGes: attivare il Mobile ID, aggiungarlo come secondo fattore e verificarlo attraverso una videochiamata.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-{{<listItem>}} <!--DeepL-->
+{{<listItem>}} <!--DeepL et FB-->
 Mi occupo anche della racolta dati KS (e/o SOMED) e non riesco più a connettermi a queste applicazioni?  
 {{<collapsibleBlock groupId="zugang">}}
 {{<markdown>}}
