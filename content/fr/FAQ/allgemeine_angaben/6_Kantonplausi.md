@@ -17,7 +17,7 @@ Quand les cantons doivent-ils marquer les erreurs comme OK et quand doivent-ils 
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
 
-**Marquer les cas comme OK (√)**
+**Marquer les cas comme OK (√) :**
 
 - Si la justification des hôpitaux est correcte...
 ou
@@ -26,7 +26,7 @@ ou
 *Dans ce second cas, l'hôpital doit corriger les données pour la livraison des données de l'année suivante.*
 &nbsp;
 
-**Marquer les cas comme erronés (X)**  
+**Marquer les cas comme erronés (X) :**  
 
 Erreurs grossières qui entravent considérablement l'évaluation des données aux fins suivantes:
 
