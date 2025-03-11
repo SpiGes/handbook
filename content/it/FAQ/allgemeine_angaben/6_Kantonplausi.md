@@ -17,7 +17,7 @@ Quando i cantoni devono contrassegnare gli anomali come OK e quando devono contr
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
 
-**Contrassegnare i casi come OK (√)**
+**Contrassegnare i casi come OK (√):**
 
 - Se la giustificazione degli ospedali è corretta...
 oppure
@@ -26,7 +26,7 @@ oppure
 *In questo secondo caso, l'ospedale dovrebbe correggere i dati per la consegna dell'anno successivo.*
 &nbsp;
 
-**Contrassegnare i casi come anomali (X)**  
+**Contrassegnare i casi come anomali (X):**  
 
 Errori grossolani che compromettono in maniera sostanziale l'analisi dei dati per i seguenti scopi:
 
