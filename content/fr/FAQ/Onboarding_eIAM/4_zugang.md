@@ -40,6 +40,18 @@ Non, il ne sera malheureusement pas possible d'utiliser d'autres identités éle
 {{</listItem>}}
 
 {{<listItem>}}
+Mon accès à SpiGes ne fonctionne plus : lorsque j'entre mes données CH-Login, la page Welcome to SpiGes revient ?  
+{{<collapsibleBlock groupId="zugang">}}
+Votre Mobile ID a probablement été désactivé ; cela arrive lorsque vous changez de téléphone ou d'opérateur.
+{{<markdown>}}
+
+- Vous pouvez réactiver votre Mobile ID auprès de votre opérateur à l'aide du code de réactivation que vous avez reçu lors de l'activation de votre Mobile ID.
+- Si ce n'est pas possible, merci d'écrire à <spiges@bfs.admin.ch>. Votre Mobile ID comme second facteur devra être supprimé (demande à soumettre en remplissant un formulaire de mutation et une copie de la pièce d'identité). Vous devrez ensuite refaire le processus d'accès à SpiGes : activer le Mobile ID, l'ajouter comme second facteur et le vérifier par appel vidéo.
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
 Je m'occupe aussi du relevé KS (et/ou SOMED) et je n'arrive plus à me connecter à ces applications ?  
 {{<collapsibleBlock groupId="zugang">}}
 {{<markdown>}}
