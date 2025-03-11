@@ -40,7 +40,7 @@ Non, il ne sera malheureusement pas possible d'utiliser d'autres identités éle
 {{</listItem>}}
 
 {{<listItem>}}
-Mon accès à SpiGes ne fonctionne plus: lorsque j'entre mes données CH-Login, la page Welcome to SpiGes revient ?  
+Mon accès à SpiGes ne fonctionne plus : lorsque j'entre mes données CH-Login, la page Welcome to SpiGes revient ?  
 {{<collapsibleBlock groupId="zugang">}}
 Votre Mobile ID a probablement été désactivé, cela arrive lorsque vous changez de téléphone ou d'opérateur.
 {{<markdown>}}
