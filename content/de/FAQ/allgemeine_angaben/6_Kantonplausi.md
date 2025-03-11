@@ -17,7 +17,7 @@ Wann sollen die Kantone Fehler als OK markieren und wann sollen sie sie als fehl
 {{<collapsibleBlock groupId="Kantonplausi">}}
 {{<markdown>}}
 
-**Fälle als OK markieren (√)**
+**Fälle als OK markieren (√):**
 
 - Wenn die Begründung der Spitäler korrekt ist…
 oder
@@ -26,7 +26,7 @@ oder
 *In diesem zweiten Fall sollte das Spital die Daten für die Datenlieferung des kommenden Jahres korrigieren.*
 &nbsp;
 
-**Fälle als fehlerhaft markieren (X)**  
+**Fälle als fehlerhaft markieren (X):**  
 
 Grobe Fehler, die eine Auswertung der Daten für folgende Zwecke merklich beeinträchtigen:
 
