@@ -44,6 +44,7 @@ Il mio accesso a SpiGes non funziona più: quando inserisco i miei dati di CH-Lo
 {{<collapsibleBlock groupId="zugang">}}
 Il Suo Mobile ID è stato probabilmente disattivato, questo accade quando si cambia telefono o operatore.
 {{<markdown>}}
+
 - È possibile riattivare il Mobile ID presso il proprio operatore di rete utilizzando il codice di ripristino ricevuto al momento dell'attivazione del Mobile ID.
 - Se questo non fosse possibile, scriva a <spiges@bfs.admin.ch>. Il Suo Mobile ID come secondo fattore dovrà essere cancellato (richiesta da inoltrare attraverso la compilazione di un un modulo di mutazione e una copia del documento d'identità). Dopodiché dovrà ripetere la procedura di registrazione per SpiGes: attivare il Mobile ID, aggiungarlo come secondo fattore e verificarlo attraverso una videochiamata.
 {{</markdown>}}
