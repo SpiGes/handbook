@@ -21,8 +21,8 @@ En principe, les accompagnateurs (parents, enfants, partenaire) ne sont pas des 
 {{<listItem>}}
 Comment sont à considérer les cas en attente de placement dans SpiGes ?
 {{<collapsibleBlock groupId="Fall">}}
-Les cas en attente de placement ne sont pas toujours traités de la même manière par les hôpitaux.  
 {{<markdown>}}
+Les cas en attente de placement ne sont pas toujours traités de la même manière par les hôpitaux.  
 
 L'OFS n'est pas en mesure d'imposer une façon de faire, mais propose les lignes de conduite suivantes pour coder ces cas dans SpiGes:
 - Uniquement à indiquer s'ils ne sont pas déjà considérés dans SOMED (cas vus comme des patients en EMS).
