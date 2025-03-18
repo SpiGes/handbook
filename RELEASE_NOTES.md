@@ -1,26 +1,17 @@
-# Release Notes - SpiGes Documentation Version [0.9.0]
+# Release Notes - SpiGes Documentation Version [0.10.0]
 
-## Release Date: 2025.02.20
+## Release Date: 2025.03.18
 
 ### New
 
 #### Documentation
 
-- [#207](https://github.com/SpiGes/handbook/issues/207) - Update FAQ
+- [#229](https://github.com/SpiGes/handbook/issues/229) - Ajout arbre décisionnel ITAR_K
+- [#226](https://github.com/SpiGes/handbook/issues/226) - Update FAQ
 
 #### Others
 
-- [#180](https://github.com/SpiGes/handbook/issues/180) - Add search feature in the documentation
-
-### Updated
-
-#### Documentation
-
-- [#212](https://github.com/SpiGes/handbook/issues/212) - Remove useless information from the SpiGes release notes model
-
-#### Others
-
-- [#50](https://github.com/SpiGes/handbook/issues/50) - Set new version, generate release notes and update changelog automatically
+- [#213](https://github.com/SpiGes/handbook/issues/213) - Auto-fill an issue and a pull-request during or after its creation
 
 ## Contributors
 
