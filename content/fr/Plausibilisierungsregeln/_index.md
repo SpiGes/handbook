@@ -1,7 +1,7 @@
 ---
 title: Règles de plausibilisation
 slug: Règles de plausibilisation
-description: "Sur cette page, vous pouvez télécharger la dernière version des règles de plausibilité de SpiGes."
+description: "Sur cette page, vous pouvez télécharger la dernière version des règles de plausibilisation de SpiGes."
 weight: 50
 type: docs
 keywords: []
