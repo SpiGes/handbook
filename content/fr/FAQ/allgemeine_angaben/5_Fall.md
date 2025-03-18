@@ -22,11 +22,12 @@ En principe, les accompagnateurs (parents, enfants, partenaire) ne sont pas des 
 Comment sont à considérer les cas en attente de placement dans SpiGes ?
 {{<collapsibleBlock groupId="Fall">}}
 Les cas en attente de placement ne sont pas toujours traités de la même manière par les hôpitaux.
-
+{{<markdown>}}
 L'OFS propose les lignes de conduite suivantes pour coder les cas en attente de placement dans SpiGes:
 - Uniquement à indiquer s'ils ne sont pas déjà considérés dans SOMED (cas vus comme des patients en EMS).
 - A indiquer avec un tarif 7 (généralement facturé comme des patients EMS - si le finanement est différent, le tarif peut être adapté à ce qui est le plus représentatif).
 - Le cas précédent doit être indiqué avec une sortie Transfert interne (4) si la patient reste au sein du même hôpital.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
