@@ -1,25 +1,17 @@
-# Release Notes - SpiGes Documentation Version [0.x]
+# Release Notes - SpiGes Documentation Version [0.10.0]
 
-**Release Date:** 2025.mm.dd
+## Release Date: 2025.03.18
 
-## What's New
+### New
 
-### Documentation
+#### Documentation
 
-- [#197](https://github.com/SpiGes/handbook/issues/197) - New Plausibilisation Rules topic added, with link to download rules file
-- New SpiGes release notes 2025.02.10 added
+- [#229](https://github.com/SpiGes/handbook/issues/229) - Ajout arbre décisionnel ITAR_K
+- [#226](https://github.com/SpiGes/handbook/issues/226) - Update FAQ
 
-## Improvements
+#### Others
 
-### Others
-
-- [#178](https://github.com/SpiGes/handbook/issues/178) - Tools and dependencies updated
-
-## Fixes
-
-### Others
-
-- [#183](https://github.com/SpiGes/handbook/issues/183) - Release version extraction step in Release workflow fixed
+- [#213](https://github.com/SpiGes/handbook/issues/213) - Auto-fill an issue and a pull-request during or after its creation
 
 ## Contributors
 

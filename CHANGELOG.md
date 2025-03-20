@@ -1,8 +1,43 @@
 # Changelog - Documentation
 
-All notable changes to the SpiGes documentation will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for documentation updates.
+All notable changes to the SpiGes documentation will be documented in this file.
 
-## [0.x] - 2025.mm.dd
+## [0.10.0] - 2025.03.18
+
+### New
+
+#### Documentation
+
+- [#229](https://github.com/SpiGes/handbook/issues/229) - Ajout arbre décisionnel ITAR_K
+- [#226](https://github.com/SpiGes/handbook/issues/226) - Update FAQ
+
+#### Others
+
+- [#213](https://github.com/SpiGes/handbook/issues/213) - Auto-fill an issue and a pull-request during or after its creation
+
+## [0.9.0] - 2025.02.20
+
+### New
+
+#### Documentation
+
+- [#207](https://github.com/SpiGes/handbook/issues/207) - Update FAQ
+
+#### Others
+
+- [#180](https://github.com/SpiGes/handbook/issues/180) - Add search feature in the documentation
+
+### Updated
+
+#### Documentation
+
+- [#212](https://github.com/SpiGes/handbook/issues/212) - Remove useless information from the SpiGes release notes model
+
+#### Others
+
+- [#50](https://github.com/SpiGes/handbook/issues/50) - Set new version, generate release notes and update changelog automatically
+
+## [0.8] - 2025.02.11
 
 ### Added
 

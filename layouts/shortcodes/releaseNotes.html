@@ -1,3 +1,6 @@
+{{ $responsible := .Get "responsible" | default "" }}
+
+
 <div class="release-notes">
   <h2>
     {{ T "release_notes_title" }}
@@ -6,13 +9,11 @@
 
   </h2>
   <br />
-  <p>{{ T "release_notes_dear_text" }}</p>
   <p>{{ T "release_notes_new_version_text" }}</p>
 
   {{ .Inner }}
 
 
   <br />
-  <p>{{ T "release_notes_thanks_text" }}</p>
-  <p>{{ .Get "responsible" }}</p>
+  <p>{{ $responsible }}</p>
 </div>

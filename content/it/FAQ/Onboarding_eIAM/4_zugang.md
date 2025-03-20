@@ -39,5 +39,27 @@ No, purtroppo non è possibile utilizzare identità elettroniche diverse da quel
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}} <!--DeepL et SP-->
+Il mio accesso a SpiGes non funziona più: quando inserisco i miei dati di CH-Login si ritorna alla pagina Welcome to SpiGes ?  
+{{<collapsibleBlock groupId="zugang">}}
+Il Suo Mobile ID è stato probabilmente disattivato, questo accade quando si cambia telefono o operatore.
+{{<markdown>}}
+
+- È possibile riattivare il Mobile ID presso il proprio operatore di rete utilizzando il codice di ripristino ricevuto al momento dell'attivazione del Mobile ID.
+- Se questo non fosse possibile, scriva a <spiges@bfs.admin.ch>. Il Suo Mobile ID come secondo fattore dovrà essere cancellato (richiesta da inoltrare attraverso la compilazione di un un modulo di mutazione e una copia del documento d'identità). Dopodiché dovrà ripetere la procedura di registrazione per SpiGes: attivare il Mobile ID, aggiungarlo come secondo fattore e verificarlo attraverso una videochiamata.
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}} <!--DeepL et FB-->
+Mi occupo anche della racolta dati KS (e/o SOMED) e non riesco più a connettermi a queste applicazioni?  
+{{<collapsibleBlock groupId="zugang">}}
+{{<markdown>}}
+L'accesso a KS/SOMED e l'accesso a SpiGes avvengono con lo stesso CH-Login, ma con un **profilo diverso**. Il profilo utilizzato per KS/SOMED corrisponde al profilo standard (CHL...), il nome non può purtroppo essere modificato per essere più esplicito perché è utilizzato per altre applicazioni della Confederazione. Sotto il nome del profilo, è possibile vedere quali applicazioni sono associate.
+{{</markdown>}}
+{{<insertImage image="profile_IT.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

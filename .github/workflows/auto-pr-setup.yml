@@ -1,0 +1,170 @@
+name: Auto-Setup New Pull Requests
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  setup-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub App Token
+        id: generate_token
+        uses: peter-murray/workflow-application-token-action@v4
+        with:
+          application_id: ${{ secrets.TECHNICAL_AGENT_APP_ID }}
+          application_private_key: ${{ secrets.TECHNICAL_AGENT_APP_PRIVATE_KEY }}
+
+      # 1. Assigns the author if no one is assigned
+      - name: Assign PR to creator if unassigned
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr_number = context.payload.pull_request.number;
+            const creator = context.payload.pull_request.user.login;
+
+            if (!context.payload.pull_request.assignees || context.payload.pull_request.assignees.length === 0) {
+              console.log(`No assignee found. Assigning PR to ${creator}.`);
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr_number,
+                assignees: [creator]
+              });
+            } else {
+              console.log(`Assignee already exists.`);
+            }
+
+      # 2. Removes all the labels
+      - name: Remove all labels from PR
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr_number = context.payload.pull_request.number;
+            const existingLabels = context.payload.pull_request.labels.map(label => label.name);
+
+            if (existingLabels.length > 0) {
+              console.log(`Removing existing labels: ${existingLabels.join(", ")}`);
+              for (const label of existingLabels) {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr_number,
+                  name: label
+                }).catch(error => {
+                  if (error.status === 404) {
+                    console.log(`Label '${label}' already removed.`);
+                  } else {
+                    throw error;
+                  }
+                });
+              }
+            } else {
+              console.log("No labels to remove.");
+            }
+
+      # 3. Assigns the milestone "Next" if no one is assigned
+      - name: Assign milestone if none exists
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr_number = context.payload.pull_request.number;
+            const pr = context.payload.pull_request;
+
+            if (!pr.milestone) {
+              const milestone_title = "Next";
+              const milestones = await github.rest.issues.listMilestones({
+                owner: context.repo.owner,
+                repo: context.repo.repo
+              });
+
+              const milestone = milestones.data.find(m => m.title === milestone_title);
+
+              if (milestone) {
+                console.log(`No milestone found. Assigning milestone "${milestone_title}".`);
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr_number,
+                  milestone: milestone.number
+                });
+              } else {
+                console.log(`❌ Milestone "${milestone_title}" not found.`);
+              }
+            } else {
+              console.log(`Milestone already exists.`);
+            }
+
+      # 4. Adds the PR in the project if no one is assigned
+      - name: Add PR to Project if none exists
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ steps.generate_token.outputs.token }}
+          script: |
+            const prId = context.payload.pull_request.node_id;
+            const projectName = "SpiGes-Handbuch";
+
+            const projectItems = await github.graphql(`
+              query {
+                node(id: "${prId}") {
+                  ... on PullRequest {
+                    projectItems(first: 10) {
+                      nodes {
+                        project {
+                          title
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `);
+
+            const existingProjects = projectItems.node.projectItems.nodes.map(item => item.project.title);
+
+            if (existingProjects.length === 0) {
+              console.log(`No project found. Adding PR to Project V2 "${projectName}".`);
+
+              const projects = await github.graphql(`
+                query {
+                  organization(login: "${context.repo.owner}") {
+                    projectsV2(first: 100) {
+                      nodes {
+                        id
+                        title
+                      }
+                    }
+                  }
+                }
+              `);
+
+              const project = projects.organization.projectsV2.nodes.find(p => p.title === projectName);
+
+              if (project) {
+                await github.graphql(`
+                  mutation($projectId: ID!, $contentId: ID!) {
+                    addProjectV2ItemById(input: { projectId: $projectId, contentId: $contentId }) {
+                      item {
+                        id
+                      }
+                    }
+                  }
+                `, {
+                  projectId: project.id,
+                  contentId: prId
+                });
+
+                console.log(`✅ PR added to Project "${projectName}".`);
+              } else {
+                console.log(`❌ Project "${projectName}" not found.`);
+              }
+            } else {
+              console.log(`PR already belongs to project(s): ${existingProjects.join(", ")}`);
+            }

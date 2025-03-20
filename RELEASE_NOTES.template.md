@@ -1,32 +1,30 @@
 # Release Notes - SpiGes Documentation Version [@VersionNumber]
 
-**Release Date:** @ReleaseDate
+## Release Date: @ReleaseDate
 
-## What's New
+### New
 
-### Documentation
+#### Documentation
 
-### Others
+#### Others
 
-## Improvements
+### Updated
 
-### Documentation
+#### Documentation
 
-### Others
+#### Others
 
-## Removed
+### Removed
 
-### Documentation
+#### Documentation
 
-### Others
+#### Others
 
-## Fixes
+### Fixed
 
-### Documentation
+#### Documentation
 
-### Others
-
-## Known Issues
+#### Others
 
 ## Contributors
 
