@@ -22,7 +22,7 @@ Grundsätzlich sind Begleitpersonen (Eltern, Kinder, Partner) keine stationären
 Wie sind die Wartepatienten in SpiGes zu liefern ?
 {{<collapsibleBlock groupId="Fall">}}
 {{<markdown>}}
-Die Wartepatienten sind Fälle, welche keine akute Spitalpflege mehr benötigen, die aber nicht entlassen werden können, weil sie noch auf eine Anschlusslösung warten. Es sind zwei Fälle zu führen. Der erste Fall bildet die normale Behandlung während des akuten Spitalpflegebedarfs ab und wird nach SwissDRG, STReha, TARPSY oder anderen Spitaltarifen abgerechnet. Der zweite Fall ist der Wartefall ohne den Bedarf der Spitalpflege.  
+Die *Wartepatienten* (unterschiedliche Nomenklaturen je nach Kanton) sind Fälle, welche keine akute Spitalpflege mehr benötigen, die aber nicht entlassen werden können, weil sie noch auf eine Anschlusslösung warten. Es sind zwei Fälle zu führen. Der erste Fall bildet die normale Behandlung während des akuten Spitalpflegebedarfs ab und wird nach SwissDRG, STReha, TARPSY oder anderen Spitaltarifen abgerechnet. Der zweite Fall ist der Wartefall ohne den Bedarf der Spitalpflege.  
 
 Diese Fälle sind wie folgt zu kodieren: 
 - Tarif = 7 (Pflegetaxe) für den Wartefall da diese in der Regel als Pflegepatienten abgerechnet werden. In Ausnahmefällen, wenn die Finanzierung anders ist, kann ein anderer Tarif angegeben werden.

@@ -22,7 +22,7 @@ En principe, les accompagnateurs (parents, enfants, partenaire) ne sont pas des 
 Comment les patients en attente de placement doivent-ils être livrés dans SpiGes ?
 {{<collapsibleBlock groupId="Fall">}}
 {{<markdown>}}
-Les patients en attente de placement sont des cas qui ne nécessitent plus de soins hospitaliers aigus, mais qui ne peuvent pas sortir parce qu'ils attendent encore une solution de suivi. Il y a deux cas à gérer. Le premier cas représente le traitement normal pendant la période où des soins hospitaliers aigus sont nécessaires et est facturé selon SwissDRG, ST Reha, TARPSY ou d'autres tarifs hospitaliers. Le deuxième cas représente le cas en attente de placement sans besoin de soins hospitaliers.  
+Les *patients en attente de placement* (différentes nomenclatues selon les cantons) sont des cas qui ne nécessitent plus de soins hospitaliers aigus, mais qui ne peuvent pas sortir parce qu'ils attendent encore une solution de suivi. Il y a deux cas à gérer. Le premier cas représente le traitement normal pendant la période où des soins hospitaliers aigus sont nécessaires et est facturé selon SwissDRG, ST Reha, TARPSY ou d'autres tarifs hospitaliers. Le deuxième cas représente le cas en attente de placement sans besoin de soins hospitaliers.  
 
 Ces cas doivent être codés comme suit :
 - Tarif = 7 (taxe de soins) pour le cas en attente de placement car ceux-ci sont généralement facturés en tant que patients en soins. Dans des cas exceptionnels, lorsque le financement est différent, un autre tarif peut être indiqué.
