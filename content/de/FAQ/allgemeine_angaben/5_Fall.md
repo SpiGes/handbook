@@ -26,11 +26,11 @@ Die *Wartepatienten* (unterschiedliche Nomenklaturen je nach Kanton) sind Fälle
 
 Diese Fälle sind wie folgt zu kodieren: 
 - Tarif = 7 (Pflegetaxe) für den Wartefall da diese in der Regel als Pflegepatienten abgerechnet werden. In Ausnahmefällen, wenn die Finanzierung anders ist, kann ein anderer Tarif angegeben werden.
-- Der vorherige Fall muss mit einer Entscheid für Austritt internen Übertritt (austrittsentscheid = 4) angegeben werden, wenn der Patient im selben Spital bleibt.
-- Die Angabe des Aufenthalts nach Austritt (austritt_aufenthalt) im vorherigen Fall kann vom Betrieb (möglicherweise in Absprache mit dem Kanton) entschieden werden.  
+- Bei ersten Fall muss als Entscheid für Austritt "internen Übertritt" (austrittsentscheid = 4) angegeben werden, wenn der Patient im selben Spital bleibt.
+- Die Angabe des Aufenthalts nach Austritt (austritt_aufenthalt) im ersten Fall kann vom Betrieb (möglicherweise in Absprache mit dem Kanton) entschieden werden.  
 <!--Nur anzugeben, wenn sie nicht bereits in SOMED berücksichtigt werden (Fälle, die als Patienten in Pflegeheimen betrachtet werden).-->
 
-*Wenn es für dem Betrieb nicht möglich ist, diese Fälle individuell anzugeben, ist es notwendig, den ktr_typ 101 zu verwenden, um die gesamten Kosten zu übermitteln, um ITAR_K® korrekt auszufüllen oder, als letztes Mittel, sie in den Abgrenzungen der KS-Abstimmungsbrücke abzuziehen.*
+*Wenn es für dem Betrieb nicht möglich ist, diese Fälle individuell anzugeben, ist es notwendig, die Kosten für die Wartefälle unter dem ktr_typ 101 anzugeben, um die gesamten Kosten zu übermitteln und um ITAR_K® korrekt auszufüllen. Als letztes Mittel, die Kosten der Wartefälle in den Abgrenzungen der KS-Abstimmungsbrücke abgezogen werden.*
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
