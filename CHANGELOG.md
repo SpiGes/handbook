@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.11.0] - 2025.03.27
+
+### New
+
+#### Documentation
+
+- New content added
+
 ## [0.10.0] - 2025.03.18
 
 ### New
