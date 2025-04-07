@@ -52,5 +52,12 @@ Nous allons augmenter le nombre de caractères à 50.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Element Facture - Indic. Temp. = "fin d'année": Avons-nous bien compris que pour chaque sortie (de l'année du relevé), les éléments de la facture doivent être fournis, sauf si le cas n'a pas encore été facturé à la date de remise des données ?
+{{<collapsibleBlock groupId="rechnungen">}}
+Vous avez bien interprété nos instructions. Nous souhaitons obtenir les factures les plus récentes au moment de la livraison des données. Il ne s'agit pas de refléter l'état de la facturation en fin d'année.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
