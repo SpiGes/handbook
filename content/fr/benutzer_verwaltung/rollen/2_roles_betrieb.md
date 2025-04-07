@@ -1,5 +1,5 @@
 ---
-title: Rôles
+title: Rôles Hôpitaux
 slug: rollen_betriebe
 description: "Sur cette page, nous vous expliquons les différents rôles d'un utilisateur établissement (hôpitaux)."
 weight: 30

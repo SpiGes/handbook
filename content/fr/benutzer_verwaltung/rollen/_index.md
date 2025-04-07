@@ -7,3 +7,4 @@ type: docs
 keywords: []
 ---
 
+Il existe plusieurs rôles avec des droits différents pour l'utilisation de SpiGes.
