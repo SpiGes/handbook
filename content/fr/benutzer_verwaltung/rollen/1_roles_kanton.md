@@ -1,6 +1,6 @@
 ---
 title: Rôles Cantons
-slug: rollen_kanton
+slug: rollen_kantone
 description: "Sur cette page, nous vous expliquons les différents rôles d'un utilisateur cantonal."
 weight: 20
 type: docs
