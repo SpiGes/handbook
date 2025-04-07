@@ -52,5 +52,13 @@ Variable «rech_unfallnr»: Für die Angaben dieser Nummer ist das Feld auf 17 Z
 Wir werden die Anzahl Zeichen auf 50 erweitern.
 {{</collapsibleBlock>}}
 {{</listItem>}}
+
+{{<listItem>}}
+Element Rechnung - Zeitbezug = "Jahresende": Verstehen wir das richtig, dass für jeden Austritt (im Erhebungsjahr) Rechnungsangaben zu liefern sind, sofern dieser Fall bis zum Zeitpunkt der Datenabgabe fakturiert wurde ?
+{{<collapsibleBlock groupId="rechnungen">}}
+Sie haben unsere Vorgaben richtig interpretiert. Wir möchten den aktuellsten Stand der Rechnungen zum Zeitpunkt der Datenlieferung. Es soll nicht der Fakturierungsstand Ende Jahr abgebildet werden.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
