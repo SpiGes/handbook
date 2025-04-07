@@ -54,7 +54,7 @@ Aumenteremo il numero dei caratteri a 50.
 {{</listItem>}}
 
 {{<listItem>}}
-Elemento Rechnung (Fattura) – Riferimento temporale = «Fine anno»: È vero che per ogni dimissione (avvenuta nell’anno di rilevazione) devono essere fornite le informazioni relative alla fattura, a condizione che, al momento dell'invio dei dati, il caso sia già stato fatturato?
+Elemento Rechnung (Fattura) – Riferimento temporale = «Fine anno»: È vero che per ogni dimissione (avvenuta nell'anno di rilevazione) devono essere fornite le informazioni relative alla fattura, a condizione che, al momento dell'invio dei dati, il caso sia già stato fatturato?
 {{<collapsibleBlock groupId="rechnungen">}}
 Sì, è giusto, ha interpretato correttamente le nostre direttive. Ci occorre lo stato più aggiornato delle fatture al momento dell'invio dei dati. L'obiettivo infatti non è rappresentare lo stato della fatturazione alla fine dell'anno.
 {{</collapsibleBlock>}}
