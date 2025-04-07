@@ -7,4 +7,4 @@ type: docs
 keywords: []
 ---
 
-Il existe plusieurs rôles avec des droits différents pour l'utilisation de SpiGes.
+Es gibt mehrere Rollen mit unterschiedlichen Rechten für die Nutzung von SpiGes.
