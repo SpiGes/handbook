@@ -28,7 +28,7 @@ Ces cas doivent être codés comme suit :
 
 - premier cas
     - Décision de sortie "Transfert interne" (austrittsentscheid = 4), si le patient reste au sein du même hôpital.
-    - Séjour après la sortie (austritt_aufenthalt) 44, 55 ou 66 selon la division/clinique dans laquelle il est physiquement. 
+    - Séjour après la sortie (austritt_aufenthalt) 44, 55 ou 66 selon la division/clinique dans laquelle il est physiquement.
 - deuxième cas (cas en attente de placement)
     - Tarif = 7 (taxes de soin) car ces cas sont généralement facturés en tant que patients en soins. Dans des cas exceptionnels, lorsque le financement est différent, un autre tarif peut être indiqué.  
 
