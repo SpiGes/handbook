@@ -32,7 +32,7 @@ Tali casi devono essere registrati come segue:
 - secondo caso (caso in attesa)
     - Tariffa = 7 (tasse per le cure) poiché di solito questi casi vengono contabilizzati come pazienti in cura. In casi eccezionali, se il finanziamento è diverso, può essere indicata una voce tariffaria diversa.  
 
-&nbsp;
+&nbsp;  
 *Se per lo stabilimento ospedaliero non è possibile indicare questi casi singolarmente, è necessario indicare i costi per i casi di pazienti in attesa sotto ktr_typ 101, così da fornire i dati sui costi totali e compilare correttamente l'ITAR_K®. Se le altre non sono praticabili, come ultima opzione i costi dei casi di pazienti in attesa sono dedotti al momento degli aggiustamenti del ponte di sintonizzazione della KS.*
 {{</markdown>}}
 {{</collapsibleBlock>}}

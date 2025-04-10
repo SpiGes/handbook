@@ -22,7 +22,7 @@ Grundsätzlich sind Begleitpersonen (Eltern, Kinder, Partner) keine stationären
 Wie sind die Wartepatienten in SpiGes zu liefern ?
 {{<collapsibleBlock groupId="Fall">}}
 {{<markdown>}}
-Die *Wartepatienten* (unterschiedliche Nomenklaturen je nach Kanton) sind Fälle, welche keine akute Spitalpflege mehr benötigen, die aber nicht entlassen werden können, weil sie noch auf eine Anschlusslösung warten. Es sind zwei Fälle zu führen. Der erste Fall bildet die normale Behandlung während des akuten Spitalpflegebedarfs ab und wird nach SwissDRG, STReha, TARPSY oder anderen Spitaltarifen abgerechnet. Der zweite Fall ist der Wartefall ohne den Bedarf der Spitalpflege.  
+Die *Wartepatienten* (unterschiedliche Nomenklaturen je nach Kanton) sind Fälle, welche keine akute Spitalpflege mehr benötigen, die aber nicht entlassen werden können, weil sie noch auf eine Anschlusslösung warten. Es sind zwei Fälle zu führen. Der erste Fall bildet die normale Behandlung während des akuten Spitalpflegebedarfs ab und wird nach SwissDRG, ST Reha, TARPSY oder anderen Spitaltarifen abgerechnet. Der zweite Fall ist der Wartefall ohne den Bedarf der Spitalpflege.  
 
 Diese Fälle sind wie folgt zu kodieren:  
 
@@ -32,7 +32,7 @@ Diese Fälle sind wie folgt zu kodieren:
 - zweiter Fall (Wartefall)
     - Tarif = 7 (Pflegetaxe) da diese Fälle in der Regel als Pflegepatienten abgerechnet werden. In Ausnahmefällen, wenn die Finanzierung anders ist, kann ein anderer Tarif angegeben werden.  
 
-&nbsp;     
+&nbsp;  
 *Wenn es für dem Betrieb nicht möglich ist, diese Fälle individuell anzugeben, ist es notwendig, die Kosten für die Wartefälle unter dem ktr_typ 101 anzugeben, um die gesamten Kosten zu übermitteln und um ITAR_K® korrekt auszufüllen. Als letztes Mittel, die Kosten der Wartefälle in den Abgrenzungen der KS-Abstimmungsbrücke abgezogen werden.*
 {{</markdown>}}
 {{</collapsibleBlock>}}
