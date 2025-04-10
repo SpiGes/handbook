@@ -28,7 +28,7 @@ Diese Fälle sind wie folgt zu kodieren:
 
 - erster Fall
     - Entscheid für Austritt "internen Übertritt" (austrittsentscheid = 4), wenn der Patient im selben Spital bleibt.
-    - Aufenthalt nach der Austritt (austritt_aufenthalt) 44, 55 oder 66, je nachdem, in welcher Abteilung/Klinik er sich physisch befindet. 
+    - Aufenthalt nach der Austritt (austritt_aufenthalt) 44, 55 oder 66, je nachdem, in welcher Abteilung/Klinik er sich physisch befindet.
 - zweiter Fall (Wartefall)
     - Tarif = 7 (Pflegetaxe) da diese Fälle in der Regel als Pflegepatienten abgerechnet werden. In Ausnahmefällen, wenn die Finanzierung anders ist, kann ein anderer Tarif angegeben werden.  
 
