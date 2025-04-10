@@ -31,6 +31,7 @@ Diese Fälle sind wie folgt zu kodieren:
     - Aufenthalt nach der Austritt (austritt_aufenthalt) 44, 55 oder 66, je nachdem, in welcher Abteilung/Klinik er sich physisch befindet. 
 - zweiter Fall (Wartefall)
     - Tarif = 7 (Pflegetaxe) da diese Fälle in der Regel als Pflegepatienten abgerechnet werden. In Ausnahmefällen, wenn die Finanzierung anders ist, kann ein anderer Tarif angegeben werden.  
+ 
      
 *Wenn es für dem Betrieb nicht möglich ist, diese Fälle individuell anzugeben, ist es notwendig, die Kosten für die Wartefälle unter dem ktr_typ 101 anzugeben, um die gesamten Kosten zu übermitteln und um ITAR_K® korrekt auszufüllen. Als letztes Mittel, die Kosten der Wartefälle in den Abgrenzungen der KS-Abstimmungsbrücke abgezogen werden.*
 {{</markdown>}}

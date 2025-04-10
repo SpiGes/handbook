@@ -26,11 +26,12 @@ Les *patients en attente de placement* (différentes nomenclatues selon les cant
 
 Ces cas doivent être codés comme suit :  
 
-- Premier cas
+- premier cas
     - Décision de sortie "Transfert interne" (austrittsentscheid = 4), si le patient reste au sein du même hôpital.
     - Séjour après la sortie (austritt_aufenthalt) 44, 55 ou 66 selon la division/clinique dans laquelle il est physiquement. 
-- Deuxième cas (cas en attente de placement)
+- deuxième cas (cas en attente de placement)
     - Tarif = 7 (taxe de soins) car ces cas sont généralement facturés en tant que patients en soins. Dans des cas exceptionnels, lorsque le financement est différent, un autre tarif peut être indiqué.  
+ 
     
 *S’il n’est pas possible pour l’établissement d’indiquer de manière individuelle ces cas, il est nécessaire d’indiquer les coûts des cas d’attente sous le ktr_typ 101 afin de transmettre les coûts totaux et de remplir correctement ITAR_K®. En dernier recours, les coûts des cas d’attente peuvent être déduits dans les ajustements de la passerelle d’ajustement de la KS.*
 {{</markdown>}}
