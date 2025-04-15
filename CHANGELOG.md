@@ -2,6 +2,15 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.12.0] - 2025.04.15
+
+### New
+
+#### Documentation
+
+- [#252](https://github.com/SpiGes/handbook/issues/252) - Wartepatienten
+- [#250](https://github.com/SpiGes/handbook/issues/250) - Zeitbezug
+
 ## [0.11.0] - 2025.03.27
 
 ### New
