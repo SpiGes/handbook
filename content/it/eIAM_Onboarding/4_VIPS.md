@@ -30,7 +30,7 @@ L'identificazione video può essere effettuata dal lunedì al sabato dalle 8:00 
 Per effettuare l'identificazione video occorre il materiale seguente.
 
 - Uno smartphone o un computer portatile con fotocamera e microfono funzionanti. Scegliere un dispositivo con una buona qualità audio e video.  
-- Un documento d'identità ufficiale e in corso di validità (passaporto o carta d'identità). A seconda della {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}}nazionalità{{</link>}} potrebbe essere necessario il passaporto.
+- Un documento d'identità ufficiale e in corso di validità (passaporto o carta d'identità). A seconda della {{<link url="https://go.online-ident.ch/adnovumvideoident/documents" newTab="true">}}nazionalità{{</link>}} potrebbe essere necessario il passaporto.
 - Un mezzo di pagamento. Può essere utilizzato un voucher (codice buono) oppure uno dei seguenti mezzi di pagamento: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express o PayPal.
 
 <!-- 1ere paire de colonnes -->

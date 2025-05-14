@@ -30,7 +30,7 @@ Die Videoidentifikation kann montags bis samstags von 8:00 bis 17:00 Uhr durchge
 Um die Videoidentifizierung durchzuführen, benötigen Sie folgendes Material:
 
 - Ein Smartphone oder einen Laptop mit einer funktionierenden Kamera und einem Mikrofon. Wählen Sie ein Gerät mit guter Bild- und Tonqualität.  
-- Einen gültigen amtlichen Ausweis (Pass oder Identitätskarte). Je nach {{<link url="https://help.eiam.swiss/r/intrumcountryident/intrumcountryident_de.pdf?t=1688707317" newTab="true">}} Staatsangehörigkeit{{</link>}} ist ein Reisepass erforderlich.
+- Einen gültigen amtlichen Ausweis (Pass oder Identitätskarte). Je nach {{<link url="https://go.online-ident.ch/adnovumvideoident/documents" newTab="true">}} Staatsangehörigkeit{{</link>}} ist ein Reisepass erforderlich.
 - Ein Zahlungsmittel. Entweder einen vom BFS ausgegeben Gutschein ("Voucher Codes") oder eines der folgenden Zahlungsmittel: MasterCard, Visa, ApplePay, GooglePay, SamsungPay, Twint, PostFinance Card, PostFinance E-Finance, American Express, PayPal.
 
 <!-- 1ere paire de colonnes -->
