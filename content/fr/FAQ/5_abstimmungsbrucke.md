@@ -47,39 +47,9 @@ Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoi
 |Variables «ktr_44_vkl»|OCP|
 |KS FIBU: SA6, en particulier var. A.15.06 jusqu'à A.15.06.05|OCP|
 |KS Passerelle d'ajustement: SA81-84|OCP|
-|KS Passerelle d'ajustement: SA85, Var. A.17.22.25 jusqu'à A.17.24.28|REKOLE®|
+|KS Passerelle d'ajustement: SA85, var. A.17.22.25 jusqu'à A.17.24.28|REKOLE®|
 
 {{</markdown>}}
-<!--
-<table class="w-100">
-  <tr>
-    <th style="width:65%"> Variables </div></th>
-    <th> Méthodologie CUI </th>
-  </tr>
-  <tr>
-    <td> Variables «ktr_10_ank» jusqu'à «ktr_77_ank» </td>
-    <td> REKOLE® </td>
-  </tr>
-  <tr>
-    <td> Variable «ktr_44_vkl» </td>
-    <td> OCP </td>
-  </tr>
-  <tr>
-    <td> KS FiBu: SA6, en particulier Var. A.15.06 jusqu'à A.15.06.05
- </td>
-    <td> OCP </td>
-  </tr>
-  <tr>
-    <td> KS Passerelle d'ajustement : SA81-84
- </td>
-    <td> OCP </td>
-  </tr>
-  <tr>
-    <td> KS Passerelle d'ajustement : SA85, Var. A.17.22.25 jusqu'à A.17.24.28
- </td>
-    <td> REKOLE® </td>
-  </tr>
-</table>-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
