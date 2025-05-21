@@ -44,9 +44,9 @@ Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoi
 |Variables|Méthodologie CUI|
 |---------|------------|
 |Variables «ktr_10_ank» jusqu'à «ktr_77_ank»|REKOLE®|
-|Variables «ktr_44_vkl»|VKL|
-|KS FIBU: SA6, en particulier var. A.15.06 bis A.15.06.05|VKL|
-|KS Passerelle d'ajustement: SA81-84|VKL|
+|Variables «ktr_44_vkl»|OCP|
+|KS FIBU: SA6, en particulier var. A.15.06 bis A.15.06.05|OCP|
+|KS Passerelle d'ajustement: SA81-84|OCP|
 |KS Passerelle d'ajustement: SA85, Var. A.17.22.25 jusqu'à A.17.24.28|REKOLE®|
 
 {{</markdown>}}
