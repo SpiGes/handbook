@@ -44,7 +44,7 @@ Für 2024 (Daten 2023) hat die SwissDRG AG die Details der Anlagenutzungskosten 
 |---------|------------|
 |KTR-Variablen «ktr_10_ank» bis «ktr_77_ank»|REKOLE®|
 |KTR-Variable «ktr_44_vkl»|VKL|
-|KS FiBu: SA6, insbesondere Var. A.15.06 bis A.15.06.05|VKL|
+|KS FIBU: SA6, insbesondere Var. A.15.06 bis A.15.06.05|VKL|
 |KS Abstimmbrücke: SA81-84|VKL|
 |KS Abstimmbrücke: SA85, Var. A.17.22.25 bis A.17.24.28|REKOLE®|
 
