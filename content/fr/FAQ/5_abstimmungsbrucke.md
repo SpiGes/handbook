@@ -98,7 +98,7 @@ Cliquez sur "Démarrer", un message vert indique que la demande a bien été fai
 Il faut toutefois attendre quelques secondes afin de voir la barre de progression. Cette dernière permet de voir lorsque l'import est terminé.  
 
 Une fois terminé, les trois parties KS se voient dans le récapitulatif avec la date d'import.
-{{<insertImage image="KS-Teil_f.png" class="edge max-w-90">}}  
+{{<insertImage image="KS_Teil_f.png" class="edge max-w-90">}}  
 
 **quelques précisions**
 - Les données KS ne peuvent être importées que si le questionnaire a été validé par les cantons dans l'application KS.
