@@ -67,5 +67,26 @@ Weitere Informationen sind im REKOLE®-Handbuch (Kapitel 6.5.3) zu finden.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Wie muss ich die KS-Daten in SpiGes importieren ?
+{{<collapsibleBlock groupId="abstimmungsbrucke">}}
+{{<markdown>}}
+Um die KS-Daten zu importieren, muss in der Maske "Neue Datenlieferung" auf **Unternehmensebene** das Häkchen "Datenübernahme von KS-Plattform" angekreuzt werden. Dies kann gleichzeitig mit dem Import der XML-Dateien oder separat erfolgen.  
+
+{{<insertImage image="KS_d.png" class="edge max-w-90">}}  
+
+Klicken Sie auf "Starten", eine grüne Meldung zeigt an, dass die Anfrage erfolgreich gestellt wurde.
+Es dauert jedoch einige Sekunden, bis der Fortschrittsbalken angezeigt wird. Anhand dieses Fortschrittsbalkens können Sie sehen, wann der Import abgeschlossen ist.
+
+Nach Abschluss werden die drei KS-Teile in der Übersicht mit dem Importdatum angezeigt.{{<insertImage image="KS_Teil_d.png" class="edge max-w-90">}}  
+
+
+Einige Erläuterungen:
+- Die KS-Daten können nur importiert werden, wenn der Fragebogen in der KS-Anwendung von den Kantonen validiert wurde.
+- Nur ein Unternehmensbenutzer kann den KS-Import durchführen. Andere Benutzer sehen das Häkchenfeld nicht.  
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
