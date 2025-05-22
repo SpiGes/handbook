@@ -72,13 +72,13 @@ Wie muss ich die KS-Daten in SpiGes importieren ?
 {{<collapsibleBlock groupId="abstimmungsbrucke">}}
 {{<markdown>}}
 Um die KS-Daten zu importieren, muss in der Maske "Neue Datenlieferung" auf **Unternehmensebene** das Häkchen "Datenübernahme von KS-Plattform" angekreuzt werden. Dies kann gleichzeitig mit dem Import der XML-Dateien oder separat erfolgen.  
-{{<insertImage image="KS_d.png" class="edge" maxWidth="50%">}}
+{{<insertImage image="KS_d.png" class="edge" maxWidth="60%">}}
 
 Klicken Sie auf "Starten", eine grüne Meldung zeigt an, dass die Anfrage erfolgreich gestellt wurde.
 Es dauert jedoch einige Sekunden, bis der Fortschrittsbalken angezeigt wird. Anhand dieses Fortschrittsbalkens können Sie sehen, wann der Import abgeschlossen ist.  
 
 Nach Abschluss werden die drei KS-Teile in der Übersicht mit dem Importdatum angezeigt.  
-{{<insertImage image="KS_Teil_d.png" class="edge" maxWidth="50%">}}
+{{<insertImage image="KS_Teil_d.png" class="edge" maxWidth="60%">}}
 
 Einige Erläuterungen:
 
