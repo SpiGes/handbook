@@ -1,4 +1,21 @@
-{{ $class := .Get "class" | default ""}}
-{{ $image := .Get "image"}}
-{{ $description := .Get "description" | default "no description available"}}
-<img class="{{$class}}" src="/{{ $.Site.Params.baseName}}/img/{{ $image }}" alt="{{ $description}}" /> 
+{{ $class := .Get "class" | default "" }}
+{{ $image := .Get "image" }}
+{{ $description := .Get "description" | default "no description available" }}
+{{ $maxWidth := .Get "maxWidth" | default "" }}
+{{ $gap := .Get "gap" | default "1rem" }}
+
+{{ $styleString := slice "" }}
+{{ $styleString = slice }}
+{{- if gt (len $maxWidth) 0 -}}
+  {{ $styleString = $styleString | append (printf "max-width: %s;" $maxWidth) }}
+{{- end -}}
+{{- if gt (len $gap) 0 -}}
+  {{ $styleString = $styleString | append (printf "margin-bottom:%s;" $gap) }}
+{{ end }}
+{{ $finalStyle := delimit $styleString " " | safeCSS }}
+
+{{- if gt (len $styleString) 0 -}}
+  <img class="{{ $class }}" src="/{{ $.Site.Params.baseName }}/img/{{ $image }}" alt="{{ $description }}" style="{{ $finalStyle }}" />
+{{- else -}}
+  <img class="{{ $class }}" src="/{{ $.Site.Params.baseName }}/img/{{ $image }}" alt="{{ $description }}" />
+{{- end -}}
