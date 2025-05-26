@@ -40,37 +40,16 @@ Ce détail étant maintenant nécessaire à SwissDRG, ne faudrait-il pas prévoi
 
 - Il ne s'agit que d'un relevé test de SwissDRG SA. Si le passage définitif à OCP devait avoir lieu, les coûts d'utilisation des immobilisations par centre de charges dans SpiGes seraient livrés selon OCP au lieu de REKOLE® et les coûts d'utilisation des immobilisations REKOLE® seraient relevés sous forme de somme.
 - En résumé, les coûts d'utilisation des immobilisations doivent être représentés selon les méthodes suivantes :
-{{</markdown>}}
 
-<table class="w-100">
-  <tr>
-    <th style="width:65%"> Variables </div></th>
-    <th> Méthodologie CUI </th>
-  </tr>
-  <tr>
-    <td> Variables «ktr_10_ank» jusqu'à «ktr_77_ank» </td>
-    <td> REKOLE® </td>
-  </tr>
-  <tr>
-    <td> Variable «ktr_44_vkl» </td>
-    <td> OCP </td>
-  </tr>
-  <tr>
-    <td> KS FiBu: SA6, en particulier Var. A.15.06 jusqu'à A.15.06.05
- </td>
-    <td> OCP </td>
-  </tr>
-  <tr>
-    <td> KS Passerelle d'ajustement : SA81-84
- </td>
-    <td> OCP </td>
-  </tr>
-  <tr>
-    <td> KS Passerelle d'ajustement : SA85, Var. A.17.22.25 jusqu'à A.17.24.28
- </td>
-    <td> REKOLE® </td>
-  </tr>
-</table>
+|Variables|Méthodologie CUI|
+|---------|------------|
+|Variables «ktr_10_ank» jusqu'à «ktr_77_ank»|REKOLE®|
+|Variables «ktr_44_vkl»|OCP|
+|KS FIBU: SA6, en particulier var. A.15.06 jusqu'à A.15.06.05|OCP|
+|KS Passerelle d'ajustement: SA81-84|OCP|
+|KS Passerelle d'ajustement: SA85, var. A.17.22.25 jusqu'à A.17.24.28|REKOLE®|
+
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -84,6 +63,26 @@ Les coûts d'utilisation des immobilisations (selon REKOLE® et OCP) corresponde
 - 444 Autres loyers (y compris leasing opérationnel)
 - 448 Charges des intérêts calculés sur les actifs immobilisés
 De plus amples informations sont disponibles dans le manuel REKOLE® (chapitre 6.5.3).
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Comment dois-je importer les données KS dans SpiGes ?
+{{<collapsibleBlock groupId="abstimmungsbrucke">}}
+{{<markdown>}}
+Pour importer les données KS, il faut cocher la case "Reprise des données de la plateforme KS" dans le masque "Nouvelle livraison de données" au **niveau de l'entreprise**. Cela peut se faire en même temps que l'import de fichiers xml ou de manière indépendante.  
+{{<insertImage image="KS_f.png" class="edge" maxWidth="60%">}}
+
+Cliquez sur "Démarrer", un message vert indique que la demande a bien été faite. Il faut toutefois attendre quelques secondes afin de voir la barre de progression. Cette dernière permet de visualiser l'état d'avancement de l'import jusqu'à son achèvement.  
+
+Une fois terminé, les trois parties KS se voient dans le récapitulatif avec la date d'import.  
+{{<insertImage image="KS_Teil_f.png" class="edge" maxWidth="60%">}}
+
+Quelques précisions:
+
+- Les données KS ne peuvent être importées que si le questionnaire a été validé par les cantons dans l'application KS.
+- Seul un utilisateur Entreprise peut soumettre une requête d'import KS. Les autres utilisateurs ne voient pas la case à cocher.  
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
