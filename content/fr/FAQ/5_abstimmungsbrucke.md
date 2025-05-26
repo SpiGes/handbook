@@ -74,7 +74,7 @@ Comment dois-je importer les données KS dans SpiGes ?
 Pour importer les données KS, il faut cocher la case "Reprise des données de la plateforme KS" dans le masque "Nouvelle livraison de données" au **niveau de l'entreprise**. Cela peut se faire en même temps que l'import de fichiers xml ou de manière indépendante.  
 {{<insertImage image="KS_f.png" class="edge" maxWidth="60%">}}
 
-Cliquez sur "Démarrer", un message vert indique que la demande a bien été faite. Il faut toutefois attendre quelques secondes afin de voir la barre de progression. Cette dernière permet de voir lorsque l'import est terminé.  
+Cliquez sur "Démarrer", un message vert indique que la demande a bien été faite. Il faut toutefois attendre quelques secondes afin de voir la barre de progression. Cette dernière permet de visualiser l'état d'avancement de l'import jusqu'à son achèvement.  
 
 Une fois terminé, les trois parties KS se voient dans le récapitulatif avec la date d'import.  
 {{<insertImage image="KS_Teil_f.png" class="edge" maxWidth="60%">}}
@@ -82,7 +82,7 @@ Une fois terminé, les trois parties KS se voient dans le récapitulatif avec la
 Quelques précisions:
 
 - Les données KS ne peuvent être importées que si le questionnaire a été validé par les cantons dans l'application KS.
-- Uniquement un utilisateur Entreprise peut faire  l'import KS. Les autres utilisateurs ne voient pas la case à cocher.  
+- Seul un utilisateur Entreprise peut soumettre une requête d'import KS. Les autres utilisateurs ne voient pas la case à cocher.  
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
