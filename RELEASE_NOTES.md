@@ -1,12 +1,13 @@
-# Release Notes - SpiGes Documentation Version [0.13.0]
+# Release Notes - SpiGes Documentation Version [0.14.0]
 
-## Release Date: 2025.05.01
+## Release Date: 2025.05.28
 
 ### New
 
 #### Documentation
 
-- New content added
+- [#272](https://github.com/SpiGes/handbook/issues/272) - Ajouter import KS
+- [#264](https://github.com/SpiGes/handbook/issues/264) - Lien qui ne fonctionne plus (eIAM-Nationalité)
 
 ## Contributors
 
