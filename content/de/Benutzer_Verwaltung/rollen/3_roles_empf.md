@@ -1,7 +1,7 @@
 ---
 title: Rollen Datenempfänger
 slug: rollen_empf
-description: "Auf dieser Seite erklären wir Ihnen die verschiedenen Rollen eines Datenempfängers (EMPF)."
+description: "Auf dieser Seite erklären wir Ihnen die Rolle Datenempfänger (EMPF)."
 weight: 40
 type: docs
 keywords: []
