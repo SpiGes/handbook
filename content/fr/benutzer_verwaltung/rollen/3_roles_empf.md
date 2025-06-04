@@ -20,7 +20,7 @@ L'ensemble de ces rôles permet uniquement aux destinataires d'exporter les donn
 | EMPF_GD | services ou offices cantonaux de santé |
 | EMPF_PUE | surveillant des prix |
 | EMPF_Versicherer | assureurs |
-| EMPF_kantonale_Daten | accès aux données supplémentaires cantonales (ne concernent pas tous les canton) |
+| EMPF_kantonale_Daten | accès aux données supplémentaires cantonales (ne concernent pas tous les cantons) |
 | EMPF_ZMT | SCTM Service central des tarifs médicaux LAA | 
 | EMPF_HPlus | H+ Les Hôpitaux Suisses |
 {{</markdown>}}
