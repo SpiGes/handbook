@@ -62,5 +62,13 @@ In futuro, lo strumento principale per l'elaborazione delle strutture tariffali 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+<!--
+{{<listItem>}}
+Was ist, wenn der Fall noch nicht abgerechnet ist, dann fehlen die Informationen aus den Rechnungsdaten bezüglich CM und Zusatzentgelte?
+{{<collapsibleBlock groupId="ITARK">}}
+In ITAR_K® werden die Grouper-Ergebnisse für diese Informationen verwendet. Nur für die  Beträge der unbewerteten Zusatzentgelte werden die Rechnungsdaten herangezogen.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+-->
 {{</numberedList>}}
 {{</faqBlock>}}
