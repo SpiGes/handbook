@@ -11,7 +11,7 @@ Nell'ambito della LAMal o di contratti, alcune entità hanno accesso al set di d
 
 A ciascuna entità viene assegnato un ruolo specifico per gestire il file di dati secondo le disposizioni della LAMal o del contratto.
 
-L'insieme di questi ruoli consente esclusivamente ai destinatari di esportare i dati LAMal o secondo il contratto. Non è possibile accedere direttamente al rilevamento. 
+L'insieme di questi ruoli consente esclusivamente ai destinatari di esportare i dati LAMal o secondo il contratto. Non è possibile accedere direttamente al rilevamento.
 
 {{<markdown>}}
 |||
