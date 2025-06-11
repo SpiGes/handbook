@@ -11,7 +11,7 @@ Im Rahmen des KVG oder von Verträgen haben bestimmte Einheiten Zugriff auf den 
 
 Jeder Einheit wird eine bestimmte Rolle zugewiesen, um die Datendatei gemäss den Bestimmungen des KVG oder des Vertrags zu verwalten.
 
-Alle diese Rollen ermöglichen es den Empfängern ausschliesslich, die KVG-Daten oder die vertraglich vereinbarten Daten zu exportieren. Es besteht kein direkter Zugriff auf die Erhebung. 
+Alle diese Rollen ermöglichen es den Empfängern ausschliesslich, die KVG-Daten oder die vertraglich vereinbarten Daten zu exportieren. Es besteht kein direkter Zugriff auf die Erhebung.
 
 {{<markdown>}}
 |||
