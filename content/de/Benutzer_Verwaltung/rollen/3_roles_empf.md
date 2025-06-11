@@ -21,7 +21,7 @@ Alle diese Rollen ermöglichen es den Empfängern ausschliesslich, die KVG-Daten
 | EMPF_PUE | Preisüberwacher |
 | EMPF_Versicherer | Versicherer |
 | EMPF_kantonale_Daten | Zugang zu zusätzlichen kantonalen Daten (betrifft nicht alle Kantone) |
-| EMPF_ZMT | ZMT Zentralstelle für Medizinaltarife UVG | 
+| EMPF_ZMT | ZMT Zentralstelle für Medizinaltarife UVG |
 | EMPF_HPlus | H+ Die Spitäler der Schweiz |
 {{</markdown>}}
 
