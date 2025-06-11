@@ -25,4 +25,4 @@ L'ensemble de ces rôles permet uniquement aux destinataires d'exporter les donn
 | EMPF_HPlus | H+ Les Hôpitaux Suisses |
 {{</markdown>}}
 
-Cette liste n'est pas figée. En cas d'intérêt, merci de contacter <Gesundheit_DSV@bfs.admin.ch> pour discuter des termes contractuels. 
+Cette liste n'est pas figée. En cas d'intérêt, merci de contacter <Gesundheit_DSV@bfs.admin.ch> pour discuter des termes contractuels.
