@@ -21,7 +21,7 @@ L'insieme di questi ruoli consente esclusivamente ai destinatari di esportare i 
 | EMPF_PUE | sorveglianza dei prezzi |
 | EMPF_Versicherer | assicuratori |
 | EMPF_kantonale_Daten | accesso a dati supplementari cantonali (non riguardano tutti i cantoni) |
-| EMPF_ZMT | SCTM Servizio Centrale delle Tariffe Mediche LAINF | 
+| EMPF_ZMT | SCTM Servizio Centrale delle Tariffe Mediche LAINF |
 | EMPF_HPlus | H+ Gli ospedali svizzeri |
 {{</markdown>}}
 
