@@ -2,6 +2,23 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.14.0] - 2025.05.28
+
+### New
+
+#### Documentation
+
+- [#272](https://github.com/SpiGes/handbook/issues/272) - Ajouter import KS
+- [#264](https://github.com/SpiGes/handbook/issues/264) - Lien qui ne fonctionne plus (eIAM-Nationalité)
+
+## [0.13.0] - 2025.05.01
+
+### New
+
+#### Documentation
+
+- New content added
+
 ## [0.12.0] - 2025.04.15
 
 ### New
