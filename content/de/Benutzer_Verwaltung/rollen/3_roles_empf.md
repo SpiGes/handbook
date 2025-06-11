@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Im Rahmen des KVG oder von Verträgen haben bestimmte Einheiten Zugriff auf den spezifischen Datensatz, damit sie ihre Rolle im Gesundheitssystem bestmöglich wahrnehmen können. 
+Im Rahmen des KVG oder von Verträgen haben bestimmte Einheiten Zugriff auf den spezifischen Datensatz, damit sie ihre Rolle im Gesundheitssystem bestmöglich wahrnehmen können.
 
 Jeder Einheit wird eine bestimmte Rolle zugewiesen, um die Datendatei gemäss den Bestimmungen des KVG oder des Vertrags zu verwalten.
 
