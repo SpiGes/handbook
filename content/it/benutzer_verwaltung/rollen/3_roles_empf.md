@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Nell'ambito della LAMal o di contratti, alcune entità hanno accesso al set di dati specifico per poter svolgere al meglio il proprio ruolo nel sistema sanitario. 
+Nell'ambito della LAMal o di contratti, alcune entità hanno accesso al set di dati specifico per poter svolgere al meglio il proprio ruolo nel sistema sanitario.
 
 A ciascuna entità viene assegnato un ruolo specifico per gestire il file di dati secondo le disposizioni della LAMal o del contratto.
 
