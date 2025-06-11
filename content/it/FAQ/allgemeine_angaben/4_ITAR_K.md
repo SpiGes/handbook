@@ -62,13 +62,12 @@ In futuro, lo strumento principale per l'elaborazione delle strutture tariffali 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
-<!--
 {{<listItem>}}
-Was ist, wenn der Fall noch nicht abgerechnet ist, dann fehlen die Informationen aus den Rechnungsdaten bezüglich CM und Zusatzentgelte?
+Cosa succede se il caso non è ancora stato fatturato e mancano le informazioni relative al CM e ai fatturazioni supplementari?
 {{<collapsibleBlock groupId="ITARK">}}
-In ITAR_K® werden die Grouper-Ergebnisse für diese Informationen verwendet. Nur für die  Beträge der unbewerteten Zusatzentgelte werden die Rechnungsdaten herangezogen.
+In ITAR_K® vengono utilizzati i risultati del Grouper per queste informazioni. Solo per gli importi delle fatturazioni supplementari non valutate vengono utilizzati i dati della fattura.
 {{</collapsibleBlock>}}
 {{</listItem>}}
--->
+
 {{</numberedList>}}
 {{</faqBlock>}}
