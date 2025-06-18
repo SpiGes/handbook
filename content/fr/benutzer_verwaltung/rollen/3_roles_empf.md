@@ -11,7 +11,7 @@ Dans le cadre de la LAMal ou de contrats, certaines entités ont accès au set d
 
 Un rôle particulier est attribué à chaque entité afin de gérer le fichier de données selon les dispositions LAMal ou du contrat.
 
-L'ensemble de ces rôles permet uniquement aux destinataires d'exporter les données LAMal ou selon contrat. Il n'y a pas d'accès direct au relevé. 
+L'ensemble de ces rôles permet uniquement aux destinataires d'exporter les données LAMal ou selon contrat. Il n'y a pas d'accès direct au relevé.
 
 {{<markdown>}}
 |||
