@@ -22,7 +22,7 @@ keywords: []
   </tr>
   <tr>
     <td>SP_ErhV_Standort</td>
-    <td>Ogni sede deve designare almeno un SP_ErhV_Standort. Carica i dati della sede ospedaliera di sua competenza, ne verifica la qualità servendosi delle regole di controllo automatico, e, se necessario, lascia un commento al riguardo. Al termine della rilevazione, approva i dati a livello di sede ospedaliera (finalizzazione) in modo che possano andare avanti nel processo (approvazione da parte dell'impresa ospedaliera).</td>
+    <td>Una sede deve designare almeno un SP_ErhV_Standort. Carica i dati della sede ospedaliera di sua competenza, ne verifica la qualità servendosi delle regole di controllo automatico, e, se necessario, lascia un commento al riguardo. Al termine della rilevazione, approva i dati a livello di sede ospedaliera (finalizzazione) in modo che possano andare avanti nel processo (approvazione da parte dell'impresa ospedaliera). Questo ruolo è particolarmente utile quando un utente non deve accedere a tutti i sedi dell'azienda.</td>
     <td>Può leggere, caricare e commentare tutti i dati della sede ospedaliera di sua competenza, esportarli per controlli di plausibilità e finalizzarli.</td>
     <td>Si assicura che i dati della sede ospedaliera di sua competenza siano messi a disposizione entro il termine stabilito e di buona qualità per poi approvarli a livello di sede ospedaliera. Inoltre, informa immediatamente il KT_Superuser qualora gli utenti della sede ospedaliera di sua competenza vengano sostituiti (ad es. in caso un dipendente si dimetta oppure in caso cambi funzione e non abbia più bisogno di accedere alla piattaforma SpiGes).</td>
   </tr>
