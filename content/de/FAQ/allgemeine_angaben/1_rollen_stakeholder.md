@@ -53,7 +53,7 @@ Das BFS ist mit dem ANQ in Kontakt, um die SpiGes Variablen und Formate abzuglei
 
 {{<listItem>}}
 Können Sie mir die gesetzliche Grundlage nennen, die die Krankenhäuser verpflichtet, die Statistik zu übermitteln? {{<collapsibleBlock groupId="Rollen">}}
-Gemäss Art. 23 des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG; SR 832.10), Art. 6 Abs. 4 des Bundesstatistikgesetzes vom 9. Oktober 1992 (BStatG; SR 431.01), Art. 6 Abs. 1 der Verordnung vom 30. Juni 1993 über die Durchführung von statistischen Erhebungen des Bundes (SR 431. 012.1) und den Bestimmungen über die Krankenhausstatistik und der Medizinischen Statistik im Anhang der genannten Verordnung sind alle Krankenhäuser verpflichtet, dem Bundesamt für Statistik die erforderlichen Daten in der vorgeschriebenen Form und innerhalb der festgesetzten Frist zu liefern.
+Gemäss Art. 23 des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG; SR 832.10), Art. 6 Abs. 4 des Bundesstatistikgesetzes vom 9. Oktober 1992 (BStatG; SR 431.01), Art. 20 Abs. 1 der Verordnung über die Bundesstatistik (Bundesstatistikverordnung, SR 431.011) und den Bestimmungen über die Erhebung für die Statistik der Gesundheitsversorgung (05.03.) im Anhang der genannten Verordnung sind alle Krankenhäuser verpflichtet, dem Bundesamt für Statistik die erforderlichen Daten in der vorgeschriebenen Form und innerhalb der festgesetzten Frist zu liefern.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
