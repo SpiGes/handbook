@@ -66,5 +66,12 @@ L'instrument ITAR_K® pour la tarification et l'examen de l'économicité devra 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Que se passe-t-il si le dossier n'est pas encore facturé et que les informations relatives au CM et aux rémunérations supplémentaires ne figurent pas dans les données de facturation ?
+{{<collapsibleBlock groupId="ITARK">}}
+Dans ITAR_K®, les résultats du Grouper sont utilisés pour ces informations. Seuls les montants des rémunérations supplémentaires non évaluées sont prises en compte dans les données de facturation.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
