@@ -22,7 +22,7 @@ keywords: []
   </tr>
   <tr>
     <td> SP_ErhV_Standort</td>
-    <td> Chaque site doit désigner au moins un SP_ErhV_Standort. Il télécharge les données de son site hospitalier, vérifie la qualité des données au moyen du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau du site hospitalier afin qu'elles puissent être transmises dans le processus (libération de l'entreprise hospitalière).</td>
+    <td> Un site peut désigner un SP_ErhV_Standort. Il télécharge les données de son site hospitalier, vérifie la qualité des données au moyen du système de contrôle automatique et les commente si nécessaire. A la fin du processus de collecte, il libère les données au niveau du site hospitalier afin qu'elles puissent être transmises dans le processus (libération de l'entreprise hospitalière). Ce rôle est spécialement utile lorsqu'un utilisateur ne doit pas accéder à l'ensemble des sites de l'entreprise.</td>
     <td> Il peut lire toutes les données de son site hospitalier, les télécharger, les commenter, les exporter à des fins de plausibilité et les clôturer. </td>
     <td>Il veille à ce que les données de son site hospitalier soient disponibles dans les délais impartis et de bonne qualité et les valide au niveau du site hospitalier. De plus, il informe immédiatement le KT_Superuser si les utilisateurs de son site hospitalier changent (p.ex. un collaborateur démissionne, change de fonction et n'a plus besoin de son accès à la plateforme SpiGes,...). </td>
   </tr>
