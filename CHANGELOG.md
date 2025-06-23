@@ -2,6 +2,16 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.15.0] - 2025.06.23
+
+### New
+
+#### Documentation
+
+- [#277](https://github.com/SpiGes/handbook/issues/277) - FAQ ErhV Standort
+- [#274](https://github.com/SpiGes/handbook/issues/274) - FAQ Grouper-Ergebnisse
+- [#249](https://github.com/SpiGes/handbook/issues/249) - Revoir partie Rôles
+
 ## [0.14.0] - 2025.05.28
 
 ### New

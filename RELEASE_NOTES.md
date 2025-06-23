@@ -1,13 +1,14 @@
-# Release Notes - SpiGes Documentation Version [0.14.0]
+# Release Notes - SpiGes Documentation Version [0.15.0]
 
-## Release Date: 2025.05.28
+## Release Date: 2025.06.23
 
 ### New
 
 #### Documentation
 
-- [#272](https://github.com/SpiGes/handbook/issues/272) - Ajouter import KS
-- [#264](https://github.com/SpiGes/handbook/issues/264) - Lien qui ne fonctionne plus (eIAM-Nationalité)
+- [#277](https://github.com/SpiGes/handbook/issues/277) - FAQ ErhV Standort
+- [#274](https://github.com/SpiGes/handbook/issues/274) - FAQ Grouper-Ergebnisse
+- [#249](https://github.com/SpiGes/handbook/issues/249) - Revoir partie Rôles
 
 ## Contributors
 
