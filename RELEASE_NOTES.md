@@ -1,14 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.15.0]
+# Release Notes - SpiGes Documentation Version [0.16.0]
 
-## Release Date: 2025.06.23
+## Release Date: 2025.07.23
 
 ### New
 
 #### Documentation
 
-- [#277](https://github.com/SpiGes/handbook/issues/277) - FAQ ErhV Standort
-- [#274](https://github.com/SpiGes/handbook/issues/274) - FAQ Grouper-Ergebnisse
-- [#249](https://github.com/SpiGes/handbook/issues/249) - Revoir partie Rôles
+- [#282](https://github.com/SpiGes/handbook/issues/282) - release note 22.07.2025
 
 ## Contributors
 
