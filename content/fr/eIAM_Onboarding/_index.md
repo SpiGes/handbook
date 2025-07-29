@@ -22,7 +22,7 @@ Suite au passage du CH-Login à AGOV, il y a deux cas de figure:
 A partir du 07.09.2025, lors de la connexion à la plateforme SpiGes, vous aurez la possibilité de migrer votre compte CH-Login vers un compte AGOV (recommandé) ou de garder votre compte CH-Login jusqu’à la fin de vie du CH-Login.
 
 2. Vous ne vous êtes pas encore connecté à la plateforme SpiGes avant le 07.09.2025.  
-Pour vous connecter à plateforme SpiGes, après avoir reçu l’email d’Onboarding, vous devez impérativement enregistrer et faire vérifier un identifiant AGOV (les identités vérifiées ne seront disponibles que via AGOV).
+Pour vous connecter à plateforme SpiGes, vous devez impérativement enregistrer et faire vérifier un identifiant AGOV (les identités vérifiées ne seront disponibles que via AGOV). Vous pourrez ensuite relier (onboarding) votre compte AGOV à SpiGes (cf. étape Onboarding avec SpiGes).
 
 
 Si vous disposez déjà d'un compte AGOV avec votre adresse mail professionnelle, vous n'avez pas besoin d'en créer un nouveau et vous devez l'utiliser pour vous connecter à la plateforme SpiGes. Si vous avez uniquement un compte AGOV avec votre adresse mail privée, il faut créer un nouveau AGOV avec votre adresse professionnelle.
@@ -40,39 +40,4 @@ Chaque utilisateur qui se connecte à l'application SpiGes est automatiquement r
 L'identité de l'utilisateur devant être vérifiée, les comptes sur l'application sont personnels. Un même compte ne pourra pas être utilisé par plusieurs personnes.
 {{</alert>}}
 
-## Structure des Units eIAM
 
-Les différents utilisateurs de la plateforme SpiGes sont organisés comme suit:
-
-- Canton
-    - Entreprises
-        - Sites hospitaliers
-
-Un canton contient une ou plusieurs entreprises qui elles-même contiennent un ou plusieurs sites hospitaliers.
-
-{{<alert color="warning">}}
-Dans certains cas, le canton géographique d'un site et celui administratif de l'entreprise ne sont pas les mêmes.
-{{</alert>}}
-
-Exemple:
-
-{{<layouts/grid>}}
-{{<layouts/row>}}
-
-{{<layouts/column width="50">}}
-{{<markdown>}}
-
-1. Dans cette colonne, vous voyez le EntID au niveau de l'entreprise et vous voyez le numéro Bur au niveau des sites hospitaliers.
-2. Dans cette colonne, vous voyez le canton "administratif" de l'entreprise / du site hospitalier.
-3. Dans cette colonne, vous voyez le canton géographique de l'entreprise / du site hospitalier.
-
-Vous voyez ici que le canton administratif et le canton géographique du site 1 ne sont pas les mêmes.
-{{</markdown>}}
-{{</layouts/column>}}
-
-{{<layouts/column>}}
-{{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
-{{</layouts/column>}}
-
-{{</layouts/row>}}
-{{</layouts/grid>}}
