@@ -1,5 +1,5 @@
 ---
-title: Onboarding eIAM
+title: Accès à la plateforme
 slug: onboarding
 description: 'Vous trouverez dans ce chapitre toutes les informations dont vous avez besoin pour vous connecter à la plateforme SpiGes.'
 keywords: []
