@@ -1,5 +1,5 @@
 ---
-title: eIAM Onboarding Prozess
+title: Zugang zur Plattform
 slug: onboarding
 description: 'Auf dieser Seite finden Sie alle Informationen, die Sie für die Anmeldung bei der SpiGes-Plattform benötigen.'
 keywords: []
