@@ -29,7 +29,9 @@ Si vous disposez déjà d'un compte AGOV avec votre adresse mail professionnelle
 
 <!--Nous vous conseillons de commencer par lire ces pages d'instruction avant d'essayer de configurer votre nouvel accès sécurisé.-->
 
+{{<alert color="info">}}
 **Pour plus d’information et si vous avez besoin d’aide pour la thématique CH-Login / AGOV, veuillez-svp consulter la page suivante : {{<link url="https://help.eiam.swiss/?l=fr" newTab="true">}}eIAM Aide{{</link>}}.**
+{{</alert}}
 
 ## Fonctionnement d'eIAM
 
