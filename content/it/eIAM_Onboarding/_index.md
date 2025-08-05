@@ -1,5 +1,5 @@
 ---
-title: Procedura di accesso con eIAM
+title: Accesso alla piattaforma
 slug: onboarding
 description: 'Su questa pagina sono disponibili tutte le informazioni necessarie per accedere alla piattaforma SpiGes.'
 keywords: []
@@ -7,18 +7,29 @@ weight: 20
 type: docs
 ---
 
-Nel presente capitolo sono illustrati tutti i passaggi necessari per creare un profilo verificato con il quale accedere alla piattaforma SpiGes.
+<!--Nel presente capitolo sono illustrati tutti i passaggi necessari per creare un profilo verificato con il quale accedere alla piattaforma SpiGes.
 
 Per accedere a SpiGes occorre creare un CH-LOGIN con un secondo fattore di autenticazione sicuro e un'identità verificata. Per farlo sono necessari i seguenti passaggi:
 
 1. creare un CH-LOGIN (con l'indirizzo e-mail aziendale);
 2. impostare un secondo fattore sicuro in aggiunta al CH-LOGIN;
 3. verificare la propria identità sul secondo fattore scelto;
-4. collegare (onboarding) il CH-LOGIN appena creato alla piattaforma SpiGes.
+4. collegare (onboarding) il CH-LOGIN appena creato alla piattaforma SpiGes.-->
 
-Ogni passaggio viene illustrato singolarmente nelle pagine successive. Se si dispone già di un account CH-LOGIN, non è necessario crearne uno nuovo e il primo passaggio può quindi essere saltato. È tuttavia importante assicurarsi che il proprio CH-LOGIN funzioni correttamente.
+A seguito del passaggio da CH-Login ad AGOV, si presentano due casi:
 
-Prima di tentare di configurare il proprio accesso protetto, si consiglia di leggere queste istruzioni.
+1. Hai già effettuato l'accesso alla piattaforma SpiGes prima del 07.09.2025 (con un CH-Login e un'identità verificata).  
+A partire dal 7 settembre 2025, quando effettuerai il login alla piattaforma SpiGes, potrai migrare il tuo account CH-Login a un account AGOV (consigliato) oppure mantenere il tuo account CH-Login fino alla scadenza del CH-Login.
+
+2. Non hai ancora effettuato l'accesso alla piattaforma SpiGes prima del 07.09.2025.  
+Per accedere alla piattaforma SpiGes è necessario registrare e verificare un identificativo AGOV (le identità verificate saranno disponibili solo tramite AGOV). Successivamente potrai collegare (onboarding) il tuo account AGOV a SpiGes (vedi fase Onboarding con SpiGes).
+
+
+Se disponi già di un account AGOV con il tuo indirizzo e-mail professionale, non è necessario crearne uno nuovo e devi utilizzarlo per accedere alla piattaforma SpiGes. Se disponi solo di un account AGOV con il tuo indirizzo e-mail privato, devi creare un nuovo account AGOV con il tuo indirizzo professionale.
+
+<!--Nous vous conseillons de commencer par lire ces pages d'instruction avant d'essayer de configurer votre nouvel accès sécurisé.-->
+
+**Per ulteriori informazioni e se avete bisogno di aiuto per quanto riguarda CH-Login / AGOV, consultate la seguente pagina : {{<link url="https://help.eiam.swiss/?l=it" newTab="true">}}eIAM Aiuto{{</link>}}.**
 
 ## Come funziona eIAM
 
@@ -28,40 +39,3 @@ Ogni utente che accede all'applicazione SpiGes viene automaticamente reindirizza
 {{<alert color="warning">}}
 Poiché a ogni accesso l'identità dell'utente deve essere verificata, gli account dell'applicazione sono personali. Un account non può infatti essere utilizzato da più persone.
 {{</alert>}}
-
-## Struttura delle unità eIAM
-
-I vari utenti della piattaforma SpiGes sono organizzati come segue:
-
-- Cantone
-    - Imprese <!--Aziende-->
-        - Sedi
-
-Un Cantone comprende una o più imprese, che a loro volta comprendono una o più sedi.
-
-{{<alert color="warning">}}
-In alcuni casi, il Cantone geografico di una sede e il Cantone amministrativo dell'impresa non coincidono.
-{{</alert>}}
-
-Esempio:
-
-{{<layouts/grid>}}
-{{<layouts/row>}}
-
-{{<layouts/column width="50">}}
-{{<markdown>}}
-
-1. nella colonna 1 è indicato l'EntID a livello di impresa e il numero RIS a livello di sede;
-2. nella colonna 2 è indicato il Cantone amministrativo (responsabile) dell'impresa o della sede dell'ospedale;
-3. nella colonna 3 viene indicato il Cantone geografico dell'impresa / della sede.
-
-In questo caso si può notare che il Cantone amministrativo e quello geografico della sede 1 sono diversi.
-{{</markdown>}}
-{{</layouts/column>}}
-
-{{<layouts/column>}}
-{{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
-{{</layouts/column>}}
-
-{{</layouts/row>}}
-{{</layouts/grid>}}
