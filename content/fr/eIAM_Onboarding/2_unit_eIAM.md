@@ -3,7 +3,7 @@ title: Structure des Units eIAM
 slug: ch_unit_eIAM
 description: 'Sur cette page, nous vous expliquons comment est structurée la plateforme SpiGes.'
 keywords: []
-weight: 10
+weight: 20
 type: docs
 ---
 

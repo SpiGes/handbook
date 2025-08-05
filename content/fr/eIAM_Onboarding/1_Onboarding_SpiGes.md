@@ -3,7 +3,7 @@ title: Onboarding avec SpiGes
 slug: onboarding_SpiGes
 description: "Sur cette page, nous vous expliquons comment relier votre compte AGOV avec SpiGes."
 keywords: []
-weight: 20
+weight: 10
 type: docs
 ---
 
