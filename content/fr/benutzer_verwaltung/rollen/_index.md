@@ -7,6 +7,6 @@ type: docs
 keywords: []
 ---
 
-Il existe plusieurs rôles avec des droits différents pour l'utilisation de SpiGes.
+Il existe plusieurs rôles (en vert) avec des droits (en bleu) différents pour l'utilisation de SpiGes.
 
 {{<insertImage image="roles.png" class="edge max-w-90">}}
