@@ -10,3 +10,5 @@ keywords: []
 Es gibt mehrere Rollen (in grün) mit unterschiedlichen Rechten (in blau) für die Nutzung von SpiGes.
 
 {{<insertImage image="roles.png" class="edge max-w-90">}}
+
+Die Rollen können innerhalb eines Benutzerprofils oder in verschiedenen Profilen zugewiesen werden. Rollen unterschiedlicher Kategorien (BFS, Kantone, Spitäler, Datenempfänger) müssen jedoch in verschiedenen Profilen zugewiesen werden.
