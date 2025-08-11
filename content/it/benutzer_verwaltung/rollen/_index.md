@@ -8,3 +8,5 @@ keywords: []
 ---
 
 Esistono diversi ruoli con diritti diversi per l'utilizzo di SpiGes.
+
+{{<insertImage image="roles.png" class="edge max-w-90">}}
