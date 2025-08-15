@@ -16,20 +16,19 @@ Per accedere a SpiGes occorre creare un CH-LOGIN con un secondo fattore di auten
 3. verificare la propria identità sul secondo fattore scelto;
 4. collegare (onboarding) il CH-LOGIN appena creato alla piattaforma SpiGes.-->
 
-A seguito del passaggio da CH-Login ad AGOV, si presentano due casi:
+Una volta effettuato il passaggio dal CH-Login ad AGOV, sono disponibili due opzioni:
 
-1. Hai già effettuato l'accesso alla piattaforma SpiGes prima del 07.09.2025 (con un CH-Login e un'identità verificata).  
-A partire dal 7 settembre 2025, quando effettuerai il login alla piattaforma SpiGes, potrai migrare il tuo account CH-Login a un account AGOV (consigliato) oppure mantenere il tuo account CH-Login fino alla scadenza del CH-Login.
+1. Il proprio CH-LOGIN è già stato collegato alla piattaforma SpiGes (con un’identità verificata) prima del 7 settembre 2025. 
+A partire dal 7 settembre 2025, al momento dell’accesso alla piattaforma SpiGes è possibile migrare il proprio account CH-LOGIN su un account AGOV (raccomandato) o mantenere il proprio account CH-LOGIN fino al termine del ciclo di vita di quest’ultimo.
 
-2. Non hai ancora effettuato l'accesso alla piattaforma SpiGes prima del 07.09.2025.  
-Per accedere alla piattaforma SpiGes è necessario registrare e verificare un identificativo AGOV (le identità verificate saranno disponibili solo tramite AGOV). Successivamente potrai collegare (onboarding) il tuo account AGOV a SpiGes (vedi fase Onboarding con SpiGes).
+2. Non è mai stato effettuato l’accesso alla piattaforma SpiGes prima del 7 settembre 2025. 
+Per accedere alla piattaforma SpiGes è necessario creare e far verificare un ID AGOV (le identità verificate non sono più disponibili se non tramite AGOV). È poi quindi possibile collegare il proprio account AGOV con SpiGes (onboarding). Per maggiori informazioni al riguardo, consultare la pagina «Onboarding con SpiGes».
 
-
-Se disponi già di un account AGOV con il tuo indirizzo e-mail professionale, non è necessario crearne uno nuovo e devi utilizzarlo per accedere alla piattaforma SpiGes. Se disponi solo di un account AGOV con il tuo indirizzo e-mail privato, devi creare un nuovo account AGOV con il tuo indirizzo professionale.
+Chi dispone già di un account AGOV con il proprio indirizzo e-mail professionale non ha bisogno di creare un nuovo account e può accedere alla piattaforma SpiGes con quello già esistente. Chi dispone di un account AGOV creato con il proprio indirizzo e-mail privato deve invece creare un nuovo account AGOV con il proprio indirizzo e-mail professionale.
 
 <!--Nous vous conseillons de commencer par lire ces pages d'instruction avant d'essayer de configurer votre nouvel accès sécurisé.-->
 
-**Per ulteriori informazioni e se avete bisogno di aiuto per quanto riguarda CH-Login / AGOV, consultate la seguente pagina : {{<link url="https://help.eiam.swiss/?l=it" newTab="true">}}eIAM Aiuto{{</link>}}.**
+**Per ottenere ulteriori informazioni o assistenza riguardo al CH-LOGIN o ad AGOV, consultare la pagina seguente : {{<link url="https://help.eiam.swiss/?l=it" newTab="true">}}eIAM Aiuto{{</link>}}.**
 
 ## Come funziona eIAM
 
