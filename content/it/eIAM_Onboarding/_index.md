@@ -28,7 +28,7 @@ Chi dispone già di un account AGOV con il proprio indirizzo e-mail professional
 
 <!--Nous vous conseillons de commencer par lire ces pages d'instruction avant d'essayer de configurer votre nouvel accès sécurisé.-->
 
-**Per ottenere ulteriori informazioni o assistenza riguardo al CH-LOGIN o ad AGOV, consultare la pagina seguente : {{<link url="https://help.eiam.swiss/?l=it" newTab="true">}}eIAM Aiuto{{</link>}}.**
+**Per ottenere ulteriori informazioni o assistenza riguardo al CH-LOGIN / AGOV, consultare la pagina seguente : {{<link url="https://help.eiam.swiss/?l=it" newTab="true">}}eIAM Aiuto{{</link>}}.**
 
 ## Come funziona eIAM
 
