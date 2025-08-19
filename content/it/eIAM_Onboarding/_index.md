@@ -21,7 +21,7 @@ Una volta effettuato il passaggio dal CH-Login ad AGOV, sono disponibili due opz
 1. Il proprio CH-LOGIN è già stato collegato alla piattaforma SpiGes (con un’identità verificata) prima del 7 settembre 2025. 
 A partire dal 7 settembre 2025, al momento dell’accesso alla piattaforma SpiGes è possibile migrare il proprio account CH-LOGIN su un account AGOV (raccomandato) o mantenere il proprio account CH-LOGIN fino al termine del ciclo di vita di quest’ultimo.
 
-2. Non è mai stato effettuato l’accesso alla piattaforma SpiGes prima del 7 settembre 2025. 
+2. Non è mai stato effettuato l’accesso alla piattaforma SpiGes prima del 7 settembre 2025.  
 Per accedere alla piattaforma SpiGes è necessario creare e far verificare un ID AGOV (le identità verificate non sono più disponibili se non tramite AGOV). È poi quindi possibile collegare il proprio account AGOV con SpiGes (onboarding). Per maggiori informazioni al riguardo, consultare la pagina «Onboarding con SpiGes».
 
 Chi dispone già di un account AGOV con il proprio indirizzo e-mail professionale non ha bisogno di creare un nuovo account e può accedere alla piattaforma SpiGes con quello già esistente. Chi dispone di un account AGOV creato con il proprio indirizzo e-mail privato deve invece creare un nuovo account AGOV con il proprio indirizzo e-mail professionale.
