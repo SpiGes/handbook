@@ -18,7 +18,7 @@ Per accedere a SpiGes occorre creare un CH-LOGIN con un secondo fattore di auten
 
 Una volta effettuato il passaggio dal CH-Login ad AGOV, sono disponibili due opzioni:
 
-1. Il proprio CH-LOGIN è già stato collegato alla piattaforma SpiGes (con un’identità verificata) prima del 7 settembre 2025. 
+1. Il proprio CH-LOGIN è già stato collegato alla piattaforma SpiGes (con un’identità verificata) prima del 7 settembre 2025.
 A partire dal 7 settembre 2025, al momento dell’accesso alla piattaforma SpiGes è possibile migrare il proprio account CH-LOGIN su un account AGOV (raccomandato) o mantenere il proprio account CH-LOGIN fino al termine del ciclo di vita di quest’ultimo.
 
 2. Non è mai stato effettuato l’accesso alla piattaforma SpiGes prima del 7 settembre 2025.  
