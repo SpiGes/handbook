@@ -100,7 +100,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
-          filter_mode: added
+          filter_mode: diff_context
           fail_level: none
           markdownlint_flags: '**/content/**/*.md --ignore node_modules --ignore public --config .markdownlint.json'
 
