@@ -1,5 +1,5 @@
 ---
-title: eIAM Onboarding Prozess
+title: Zugang zur Plattform
 slug: onboarding
 description: 'Auf dieser Seite finden Sie alle Informationen, die Sie für die Anmeldung bei der SpiGes-Plattform benötigen.'
 keywords: []
@@ -7,18 +7,28 @@ weight: 10
 type: docs
 ---
 
-In diesem Kapitel finden Sie alle Schritte, die Sie unternehmen müssen, um ein verifiziertes Profil zu erstellen, mit dem Sie sich auf der SpiGes-Plattform einloggen können.
+<!--In diesem Kapitel finden Sie alle Schritte, die Sie unternehmen müssen, um ein verifiziertes Profil zu erstellen, mit dem Sie sich auf der SpiGes-Plattform einloggen können.
 
 Um ein CH-Login mit einem starken Zweitfaktor mit verifizierter Identität für SpiGes zu erstellen, sind folgende Schritte nötig:
 
 1.	CH-Login erstellen (mit der geschäftlichen Emailadresse)
 2.	Hinzufügen eines starken Zweitfaktors zum CH-Login
 3.	Die Identität auf dem starken Zweitfaktor verifizieren
-4.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit SpiGes
+4.	Verknüpfen (Onboarding) des eingerichteten CH-Login mit SpiGes-->
 
-Diese Schritte werden auf den folgenden Seiten erläutert. Wenn Sie bereits über  ein CH-Login mit Ihrer geschäftlichen E-Mail-Adresse verfügen, müssen Sie kein neues erstellen und können diesen Schritt überspringen. Vergewissern Sie sich jedoch, dass Ihr CH-Login funktioniert. Wenn Sie bereits über einen CH-LOGIN mit Ihrer privaten E-Mail-Adresse verfügen, müssen Sie einen neuen CH-LOGIN mit Ihrer beruflichen E-Mail-Adresse erstellen.
+Nach der Umstellung von CH-Login auf AGOV gibt es zwei Möglichkeiten:
 
-Wir empfehlen Ihnen, zunächst diese Anleitung zu lesen, bevor Sie versuchen, Ihren neuen sicheren Zugang einzurichten.
+1. Sie haben sich bereits vor dem 07.09.2025 mit der SpiGes-Plattform verbunden (mit einem CH-Login und einer verifizierten Identität).  
+Ab dem 07.09.2025 haben Sie bei der Anmeldung auf der SpiGes-Plattform die Möglichkeit, Ihr CH-Login-Konto auf ein AGOV-Konto zu migrieren (empfohlen) oder Ihr CH-Login-Konto bis zum Ende der Lebensdauer des CH-Logins beizubehalten.
+
+2. Sie haben sich vor dem 07.09.2025 noch nicht bei der SpiGes-Plattform angemeldet.  
+Um sich bei der SpiGes-Plattform anzumelden, müssen Sie unbedingt eine AGOV-ID registrieren und überprüfen lassen (überprüfte Identitäten sind nur über AGOV verfügbar). Anschließend können Sie Ihr AGOV-Konto mit SpiGes verknüpfen (Onboarding) (siehe Schritt „Onboarding mit SpiGes”).
+
+Wenn Sie bereits über ein AGOV-Konto mit Ihrer beruflichen E-Mail-Adresse verfügen, müssen Sie kein neues Konto erstellen und können sich mit diesem Konto bei der SpiGes-Plattform anmelden. Wenn Sie nur über ein AGOV-Konto mit Ihrer privaten E-Mail-Adresse verfügen, müssen Sie ein neues AGOV-Konto mit Ihrer beruflichen E-Mail-Adresse erstellen.
+
+<!--Nous vous conseillons de commencer par lire ces pages d'instruction avant d'essayer de configurer votre nouvel accès sécurisé.-->
+
+**Für weitere Informationen und wenn Sie Hilfe zum Thema CH-Login / AGOV benötigen, besuchen Sie bitte die folgende Seite : {{<link url="https://help.eiam.swiss/?l=de" newTab="true">}}eIAM Hilfe{{</link>}}.**
 
 ## Funktionsweise von eIAM
 
@@ -28,38 +38,3 @@ Jeder Benutzer, der sich in die SpiGes-Anwendung einloggt, wird automatisch zum 
 {{<alert color="warning">}}
 Da die Identität des Nutzers überprüft werden muss, sind die Konten in der Anwendung personalisiert. Ein Konto kann nicht von mehreren Personen genutzt werden.
 {{</alert>}}
-
-## Struktur der eIAM Units
-
-Die verschiedenen Benutzer der SpiGes-Plattform sind wie folgt organisiert:
-
-- Kanton
-    - Unternehmen
-        - Standorte
-
-Ein Kanton enthält ein oder mehrere Unternehmen, die ihrerseits einen oder mehrere Standorte enthalten.
-
-{{<alert color="warning">}}
-In einigen Fällen sind der geografische Kanton eines Standorts und der administrative Kanton des Unternehmens nicht identisch.
-{{</alert>}}
-
-Beispiel:
-
-{{<layouts/grid>}}
-{{<layouts/row>}}
-{{<layouts/column width="50">}}
-{{<markdown>}}
-
-1. In der Spalte 1 sehen Sie die EntID auf Ebene des Unternehmens und Sie sehen die Bur-Nummer auf Ebene der Standorte.
-2. In der Spalte 2 sehen Sie den administrativen (zuständigen) Kanton des Unternehmens / des Krankenhausstandorts.
-3. In der Spalte 3 sehen Sie den geografischen Kanton des Unternehmens / des Standorts.
-
-Hier sehen Sie, dass der administrative und der geografische Kanton von Standort 1 nicht identisch sind.
-{{</markdown>}}
-{{</layouts/column>}}
-
-{{<layouts/column>}}
-{{<insertImage image="Visu_entreprise.png" class="edge max-w-90">}}
-{{</layouts/column>}}
-{{</layouts/row>}}
-{{</layouts/grid>}}

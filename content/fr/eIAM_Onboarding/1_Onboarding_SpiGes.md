@@ -1,9 +1,9 @@
 ---
 title: Onboarding avec SpiGes
 slug: onboarding_SpiGes
-description: "Sur cette page, nous vous expliquons comment relier votre CH-LOGIN avec SpiGes."
+description: "Sur cette page, nous vous expliquons comment relier votre compte AGOV avec SpiGes."
 keywords: []
-weight: 50
+weight: 10
 type: docs
 ---
 
@@ -17,7 +17,7 @@ Vous allez recevoir un mail vous invitant à conclure votre onboarding par votre
 {{<markdown>}}
 Sélectionnez votre code d'onboarding et copiez le à l'aide du clic droit, puis cliquez sur le lien d'onboarding.
 
-Connectez vous à l'aide de votre CH-LOGIN.
+Connectez vous à l'aide de votre compte AGOV.
 {{</markdown>}}
 {{</layouts/column>}}
 
