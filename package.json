@@ -14,6 +14,7 @@
         "_build:dev": "npm run _hugo -- -e development -DFE",
         "_build:prod": "npm run _hugo -- -e production --minify",
         "build": "npm run _env:dev -- npm run _build:dev",
+        "rebuild": "npm run clean && npm run build",
         "build:production": "npm run _env:prod -- npm run _build:prod",
         "build:ci:production": "npm run _env:prod -- npm run _build:prod -- --baseURL \"${BASE_URL}\"",
         "serve": "npm run _env:dev -- npm run _build:dev -- serve",
