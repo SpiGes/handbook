@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.17.0] - 2025.09.08
+
+### New
+
+#### Documentation
+
+- [#285](https://github.com/SpiGes/handbook/issues/285) - Add resume of roles
+
 ## [0.16.0] - 2025.07.23
 
 ### New
