@@ -1,12 +1,12 @@
-{{ with resources.Get "sass/main.scss" }}
+{{ with resources.Get "scss/main.scss" }}
   {{ $opts := dict
+    "transpiler" "dartsass"
     "enableSourceMap" hugo.IsDevelopment
     "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
     "targetPath" "css/main.css"
-    "transpiler" "dartsass"
     "vars" site.Params.styles
-    "includePaths" (slice "node_modules/bootstrap/scss")
     "silenceDependencyDeprecations" true
+    "silenceDeprecations" (slice "import" "global-builtin" )
   }}
   {{ with . | toCSS $opts }}
     {{ if hugo.IsDevelopment }}
