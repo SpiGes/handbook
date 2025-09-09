@@ -12,12 +12,12 @@ jobs:
     needs: [read-tool-versions]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@5
         with:
           submodules: recursive
 
       - name: Install Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           cache: false # to avoid Warning: "Restore cache failed: Dependencies file is not found in /home/runner/work/handbook/handbook. Supported file pattern: go.sum"
           go-version: ${{ needs.read-tool-versions.outputs.go_version }}
@@ -26,7 +26,7 @@ jobs:
         run: choco install sass --version ${{ needs.read-tool-versions.outputs.dart_sass_version }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: ${{ needs.read-tool-versions.outputs.nodejs_version }}
 

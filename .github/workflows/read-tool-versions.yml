@@ -23,7 +23,7 @@ jobs:
       dart_sass_version: ${{ steps.parse-versions.outputs.dart_sass_version }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Parse tool versions file
         id: parse-versions
