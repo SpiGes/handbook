@@ -296,8 +296,10 @@ body {
   hyphens: none;
 
   .td-sidebar__inner {
-    top: 0 !important;
-    padding-top: 4rem !important;
+    position: sticky;
+    top: 5rem;
+    height: auto;
+    overflow: visible;
 
     .td-sidebar__search {
       padding: 0 !important;
