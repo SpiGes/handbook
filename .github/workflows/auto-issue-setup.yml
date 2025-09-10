@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  PROJECT_NAME: "SpiGes-Handbuch"
+  PROJECT_NAME: 'SpiGes-Handbuch'
 
 jobs:
   setup-issue:
@@ -23,7 +23,7 @@ jobs:
           application_private_key: ${{ secrets.TECHNICAL_AGENT_APP_PRIVATE_KEY }}
 
       - name: Assign issue to creator if unassigned
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -44,7 +44,7 @@ jobs:
             }
 
       - name: Add labels if none exist
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -65,7 +65,7 @@ jobs:
 
       # 3. Assigns the milestone "Next" if no one is defined
       - name: Assign milestone if none exists
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -98,7 +98,7 @@ jobs:
 
       # 4. Adds the issue in the project is no one is assigned
       - name: Add issue to project if none exists
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
