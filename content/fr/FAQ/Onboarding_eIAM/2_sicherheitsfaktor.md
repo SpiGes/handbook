@@ -40,5 +40,13 @@ Pour qu'une identité électronique puisse être considérée comme vérifiée, 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Comment dois-je faire pour faire vérifier mon compte AGOV ?
+{{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
+Des informations sur ce sujet se trouvent {{<link url="https://help.eiam.swiss/?c=ident50&l=fr" newTab="true">}}ici{{</link>}}. 
+Pour faire vérifier son compte AGOV, il faut passer par un lien spécifique: {{<link url="https://auth.agov.admin.ch/SAML2/SSO/" newTab="true">}}démarrer la vérification{{</link>}} et suivre les instructions.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
