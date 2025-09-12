@@ -28,7 +28,7 @@ Non, le CH-LOGIN/AGOV est personnel. Comme votre identité doit être vérifiée
 {{<listItem>}}
 Il y a un changement de collaborateur/collaboratrice dans l'entreprise/le site, est-il possible de transférer le CH-LOGIN/AGOV au nouveau collaborateur/à la nouvelle collaboratrice ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Non, le CH-LOGIN/AGOV est personnel. Comme votre identité doit être vérifiée pour pouvoir accéder à la plateforme SpiGes, il est donc indispensable que votre compte soit personnel. 
+Non, le CH-LOGIN/AGOV est personnel. Comme votre identité doit être vérifiée pour pouvoir accéder à la plateforme SpiGes, il est donc indispensable que votre compte soit personnel.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
