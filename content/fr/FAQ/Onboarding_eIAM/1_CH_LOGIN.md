@@ -35,14 +35,14 @@ Non, le CH-LOGIN/AGOV est personnel. Comme votre identité doit être vérifiée
 {{<listItem>}}
 J'ai déjà un CH-LOGIN/AGOV, dois-je en créer un nouveau ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Non, vous pouvez utiliser votre CH-LOGIN/AGOV. Vous devez toutefois mettre en place un deuxième facteur fort et y effectuer l'identification vidéo si cela n'a pas encore été fait sur votre CH-LOGIN/AGOV.
+Non, vous pouvez utiliser votre CH-LOGIN/AGOV. Vous devez toutefois mettre en place un deuxième facteur fort et effectuer l'identification vidéo sur votre CH-LOGIN/AGOV, si cela n'a pas encore été fait.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
 Est-il possible de se connecter à AGOV pour l'application SpiGes ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Depuis le 08.09.2025, AGOV est compatible avec SpiGes.
+Depuis le 8 septembre 2025, AGOV est compatible avec SpiGes.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

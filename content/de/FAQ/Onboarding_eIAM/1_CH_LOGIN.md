@@ -42,7 +42,7 @@ Nein, Sie können Ihr CH-LOGIN/AGOV verwenden. Sie müssen allerdings einen zwei
 {{<listItem>}}
 Ist die Verbindung mit AGOV für die SpiGes-Anwendung möglich?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Seit dem 08.09.2025 ist AGOV mit SpiGes kompatibel.
+Seit dem 8. September 2025 ist AGOV mit SpiGes kompatibel.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
