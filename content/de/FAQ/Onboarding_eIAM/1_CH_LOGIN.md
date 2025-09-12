@@ -21,7 +21,7 @@ Der Begriff zweiter Identifikationsfaktor bezieht sich auf das Sicherheitsmerkma
 {{<listItem>}}
 Ist es möglich, nur ein CH-LOGIN/AGOV für das Unternehmen/den Standort zu haben?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Nein, die CH-LOGIN/AGOV ist persönlich. Da Ihre Identität verifiziert werden muss, um auf die SpiGes-Plattform zugreifen zu können, ist es daher unerlässlich, dass Ihr Konto persönlich ist. 
+Nein, die CH-LOGIN/AGOV ist persönlich. Da Ihre Identität verifiziert werden muss, um auf die SpiGes-Plattform zugreifen zu können, ist es daher unerlässlich, dass Ihr Konto persönlich ist.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
