@@ -40,5 +40,13 @@ Affinché un'identità elettronica sia considerata verificata, un documento d'id
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Come posso far verificare il mio conto AGOV?
+{{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
+Informazioni su questo punto sono disponibili {{<link url="https://help.eiam.swiss/?c=ident50&l=it" newTab="true">}}qui{{</link>}}. 
+Per verificare il proprio account AGOV, è necessario utilizzare un link specifico: {{<link url="https://www.ident.agov.admin.ch/process?rpcode=2be262f1da0" newTab="true">}}avviare la verifica{{</link>}} e seguire le istruzioni.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
