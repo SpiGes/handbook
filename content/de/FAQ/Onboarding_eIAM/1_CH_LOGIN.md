@@ -35,7 +35,7 @@ Nein, das CH-LOGIN/AGOV ist persönlich. Da Ihre Identität verifiziert werden m
 {{<listItem>}}
 Ich habe bereits ein CH-LOGIN/AGOV, muss ich ein neues erstellen?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Nein, Sie können Ihr CH-LOGIN/AGOV verwenden. Sie müssen allerdings einen zweiten starken Faktor einrichten und dort die Videoidentifikation durchführen, falls dies auf Ihrem CH-LOGIN/AGOV noch nicht geschehen ist. 
+Nein, Sie können Ihr CH-LOGIN/AGOV verwenden. Sie müssen allerdings einen zweiten starken Faktor einrichten und dort die Videoidentifikation durchführen, falls dies auf Ihrem CH-LOGIN/AGOV noch nicht geschehen ist.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
