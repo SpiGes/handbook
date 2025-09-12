@@ -28,7 +28,7 @@ Nein, die CH-LOGIN/AGOV ist persönlich. Da Ihre Identität verifiziert werden m
 {{<listItem>}}
 Es gibt einen Wechsel des Mitarbeiters/der Mitarbeiterin im Unternehmen/am Standort, ist es möglich, das CH-LOGIN/AGOV auf den neuen Mitarbeiter/die neue Mitarbeiterin zu übertragen?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
-Nein, das CH-LOGIN/AGOV ist persönlich. Da Ihre Identität verifiziert werden muss, um auf die SpiGes-Plattform zugreifen zu können, ist es daher unerlässlich, dass Ihr Konto persönlich ist. 
+Nein, das CH-LOGIN/AGOV ist persönlich. Da Ihre Identität verifiziert werden muss, um auf die SpiGes-Plattform zugreifen zu können, ist es daher unerlässlich, dass Ihr Konto persönlich ist.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
