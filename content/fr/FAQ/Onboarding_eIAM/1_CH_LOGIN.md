@@ -19,7 +19,7 @@ Le terme deuxième facteur d'identification fait référence à la caractéristi
 {{</listItem>}}
 
 {{<listItem>}}
-Est-il possible d'avoir un seul CH-LOGIN/AGOV pour l'entreprise/le site ? 
+Est-il possible d'avoir un seul CH-LOGIN/AGOV pour l'entreprise/le site ?
 {{<collapsibleBlock groupId="CH_LOGIN">}}
 Non, le CH-LOGIN/AGOV est personnel. Comme votre identité doit être vérifiée pour pouvoir accéder à la plateforme SpiGes, il est donc indispensable que votre compte soit personnel.
 {{</collapsibleBlock>}}
