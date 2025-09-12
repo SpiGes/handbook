@@ -43,7 +43,7 @@ Damit eine elektronische Identität als verifiziert gelten kann, muss ein amtlic
 {{<listItem>}}
 Wie kann ich mein AGOV-Konto überprüfen lassen?
 {{<collapsibleBlock groupId="Zweiter_sicherheitsfaktor">}}
-Informationen zu diesem Thema finden Sie {{<link url="https://help.eiam.swiss/?c=ident50&l=de" newTab="true">}}hier{{</link>}}. 
+Informationen zu diesem Thema finden Sie {{<link url="https://help.eiam.swiss/?c=ident50&l=de" newTab="true">}}hier{{</link>}}.
 Um Ihr AGOV-Konto überprüfen zu lassen, müssen Sie einen speziellen Link aufrufen:{{<link url="https://www.ident.agov.admin.ch/process?rpcode=2be262f1da0" newTab="true">}}Starten Sie die Verifizierung{{</link>}} und folgen Sie die Anweisungen.
 {{</collapsibleBlock>}}
 {{</listItem>}}
