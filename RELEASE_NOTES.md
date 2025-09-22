@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.19.0]
+# Release Notes - SpiGes Documentation Version [0.20.0]
 
 ## Release Date: 2025.09.22
 
-### Fixed
+### New
 
-#### Others
+#### Documentation
 
-- [#292](https://github.com/SpiGes/handbook/issues/292) - Fix release_notes index type
+- [#293](https://github.com/SpiGes/handbook/issues/293) - Create a "latest" link page to always access the last release_notes
 
 ## Contributors
 
