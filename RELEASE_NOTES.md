@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.20.0]
+# Release Notes - SpiGes Documentation Version [0.21.0]
 
 ## Release Date: 2025.09.22
 
-### New
+### Updated
 
 #### Documentation
 
-- [#293](https://github.com/SpiGes/handbook/issues/293) - Create a "latest" link page to always access the last release_notes
+- [#295](https://github.com/SpiGes/handbook/issues/295) - Fix the name of the documentation project in Italian
 
 ## Contributors
 

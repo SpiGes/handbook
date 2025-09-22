@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.21.0] - 2025.09.22
+
+### Updated
+
+#### Documentation
+
+- [#295](https://github.com/SpiGes/handbook/issues/295) - Fix the name of the documentation project in Italian
+
 ## [0.20.0] - 2025.09.22
 
 ### New
