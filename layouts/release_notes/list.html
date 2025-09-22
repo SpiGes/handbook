@@ -23,7 +23,7 @@
 
 
     <ul class="list-group">
-      {{ range .Pages.ByWeight }}
+      {{ range (where .Pages "Params.slug" "ne" "latest").ByWeight }}
         <li class="list-group-item">
           <a href="{{ .Permalink }}" class="list-group-item-heading"
             >{{ .Title }}</a

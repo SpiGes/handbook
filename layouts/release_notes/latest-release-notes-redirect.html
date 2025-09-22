@@ -1,0 +1,19 @@
+{{/* Get all release notes pages in the section */}}
+{{ $section := .Site.GetPage "section" "release_notes" }}
+{{ $latest := index (sort $section.RegularPages "Weight" "asc") 0 }}
+
+
+<!doctype html>
+<html lang="{{ .Lang }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url={{ $latest.RelPermalink }}" />
+    <title>Redirecting to latest release-notes...</title>
+  </head>
+  <body>
+    <p>
+      Redirecting to
+      <a href="{{ $latest.RelPermalink }}">{{ $latest.Title }}</a>
+    </p>
+  </body>
+</html>
