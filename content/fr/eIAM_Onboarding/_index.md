@@ -31,6 +31,9 @@ Si vous disposez déjà d'un compte AGOV avec votre adresse mail professionnelle
 
 **Pour plus d’information et si vous avez besoin d’aide pour la thématique CH-Login / AGOV, veuillez-svp consulter la page suivante : {{<link url="https://help.eiam.swiss/?l=fr" newTab="true">}}eIAM Aide{{</link>}}.**
 
+Pour faire vérifier votre identifiant AGOV par vidéo, utilisez le lien suivant et suivez les instructions :
+{{<link url="https://auth.agov.admin.ch/SAML2/SSO/?language=fr" newTab="true">}}auth.agov.admin.ch{{</link>}}
+
 ## Fonctionnement d'eIAM
 
 eIAM est un système central d'accès et d'autorisation de l'administration fédérale pour les applications web. Pour simplifier, eIAM est l'infrastructure d'accès centralisée de la Confédération. Son but est d'éviter la mise en place d'une procédure spécifique à chaque application. Cette centralisation permet de réaliser des économies et d'utiliser les mêmes données d'accès pour toutes les applications.
