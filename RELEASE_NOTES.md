@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.21.0]
+# Release Notes - SpiGes Documentation Version [0.22.0]
 
-## Release Date: 2025.09.22
+## Release Date: 2025.10.30
 
-### Updated
+### New
 
 #### Documentation
 
-- [#295](https://github.com/SpiGes/handbook/issues/295) - Fix the name of the documentation project in Italian
+- [#297](https://github.com/SpiGes/handbook/issues/297) - Add link to verify ID by video for AGOV
 
 ## Contributors
 
