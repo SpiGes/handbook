@@ -31,7 +31,7 @@ Chi dispone già di un account AGOV con il proprio indirizzo e-mail professional
 **Per ottenere ulteriori informazioni o assistenza riguardo al CH-LOGIN / AGOV, consultare la pagina seguente : {{<link url="https://help.eiam.swiss/?l=it" newTab="true">}}eIAM Aiuto{{</link>}}.**
 
 Per verificare il Suo ID AGOV per video, utilizzi il seguente link e segua le istruzioni :
-{{<link url="https://www.ident.agov.admin.ch" newTab="true">}}auth.agov.admin.ch{{</link>}}
+{{<link url="https://www.ident.agov.admin.ch/process?rpcode=2be262f1da0" newTab="true">}}auth.agov.admin.ch{{</link>}}
 
 ## Come funziona eIAM
 
