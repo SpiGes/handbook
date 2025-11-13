@@ -31,7 +31,7 @@ Wenn Sie bereits über ein AGOV-Konto mit Ihrer beruflichen E-Mail-Adresse verf�
 **Für weitere Informationen und wenn Sie Hilfe zum Thema CH-Login / AGOV benötigen, besuchen Sie bitte die folgende Seite : {{<link url="https://help.eiam.swiss/?l=de" newTab="true">}}eIAM Hilfe{{</link>}}.**
 
 Um Ihre AGOV-ID per Video überprüfen zu lassen, verwenden Sie den folgenden Link und folgen Sie den Anweisungen :
-{{<link url="https://auth.agov.admin.ch/SAML2/SSO/?language=de" newTab="true">}}auth.agov.admin.ch{{</link>}}
+{{<link url="https://www.ident.agov.admin.ch" newTab="true">}}auth.agov.admin.ch{{</link>}}
 
 ## Funktionsweise von eIAM
 
