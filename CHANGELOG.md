@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.23.0] - 2025.11.17
+
+### New
+
+#### Documentation
+
+- [#299](https://github.com/SpiGes/handbook/issues/299) - Change link for video
+
 ## [0.22.0] - 2025.10.30
 
 ### New
