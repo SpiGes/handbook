@@ -87,7 +87,7 @@ Ces lignes sont calculées dans ITAR_K®. Par ailleurs, SpiGes ne collecte pas l
 {{<markdown>}}
  - En vert: sera rempli par SpiGes 
  - En violet: sera rempli par l'hôpital 
-{{<markdown>}}
+{{</markdown>}}
 {{<insertImage image="itark_hot_ocp_fr.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
@@ -116,7 +116,7 @@ Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît da
 {{<insertImage image="itark_erreur_tarifambu_fr.png" class="edge max-w-90">}}  
 
 SpiGes va toutefois vous indiquer qu'il faut compléter ce nom de colonne manuellement:  
- 
+
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
