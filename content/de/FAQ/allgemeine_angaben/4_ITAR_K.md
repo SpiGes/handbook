@@ -106,17 +106,19 @@ Die Spaltennamen für die vom Spital im ambulanten Bereich festgelegten Tarife w
 SpiGes enthält mehr KTR_TYP als in ITAR_K® für diese Tarife erforderlich. Die Unterscheidung zwischen KVG, Zusatzversicherung und Selbstzahler wird in ITAR_K® nicht mehr getroffen. Wie im Entscheidungsbaum angegeben, sind diese Spalten in ITAR_K® wie folgt definiert:
 {{<markdown>}}
 |ITAR_K®-Spalte|KTR_TYP|
-|---------|---------|
+|--------|--------|
 |übrige ambulante Tarife|371,372,373|
 |übrige ambulante Tarife|374,375,376|
 |übrige ambulante Tarife|377,378,379|
 |übrige ambulante Tarife|380,381,382,402|
 {{</markdown>}}  
-Wenn in der KTR_BESCHR eine Unterscheidung getroffen wird, erscheint in SpiGes eine Fehlermeldung, die darauf hinweist. Wenn die KTR_BESCHR für eine ITAR_K®-Spalte nicht identisch ist, kann SpiGes nicht entscheiden, welche korrekt ist. 
+Wenn in der KTR_BESCHR eine Unterscheidung getroffen wird, erscheint in SpiGes eine Fehlermeldung, die darauf hinweist. Wenn die KTR_BESCHR für eine ITAR_K®-Spalte nicht identisch ist, kann SpiGes nicht entscheiden, welche korrekt ist.  
 
 {{<insertImage image="itark_erreur_tarifambu_de.png" class="edge max-w-90">}}  
 
-SpiGes weist Sie jedoch darauf hin, dass Sie diesen Spaltennamen manuell ergänzen müssen:   
+
+SpiGes weist Sie jedoch darauf hin, dass Sie diesen Spaltennamen manuell ergänzen müssen:  
+
 
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}

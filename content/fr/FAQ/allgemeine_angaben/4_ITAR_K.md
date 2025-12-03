@@ -105,7 +105,7 @@ Les noms de colonne concernant les tarifs définis par l'hôpital dans le domain
 SpiGes contient plus de KTR_TYP que nécessaire dans ITAR_K® pour ces tarifs. La distinction entre LAMal, complémentaire et auto-payeur n'est plus faite dans ITAR_K®. Comme indiqué dans l'arbre décisionnel, ces colonnes dans ITAR_K® sont définies comme suit:
 {{<markdown>}}
 |colonne ITAR_K®|KTR_TYP|
-|---------|---------|
+|--------|--------|
 |Autres tarifs amb. spécifiques à l'établissement|371,372,373|
 |Autres tarifs amb. spécifiques à l'établissement|374,375,376|
 |Autres tarifs amb. spécifiques à l'établissement|377,378,379|
@@ -115,7 +115,9 @@ Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît da
 
 {{<insertImage image="itark_erreur_tarifambu_fr.png" class="edge max-w-90">}}  
 
+
 SpiGes va toutefois vous indiquer qu'il faut compléter ce nom de colonne manuellement:  
+
 
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
