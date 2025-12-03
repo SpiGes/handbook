@@ -84,22 +84,23 @@ Il a été décidé, conjointement avec H+, de laisser vide et à compléter par
 Pourquoi les coûts Hôtellerie OCP (lignes 38-40) sont-ils négatifs ?
 {{<collapsibleBlock groupId="ITARK">}}
 Ces lignes sont calculées dans ITAR_K®. Par ailleurs, SpiGes ne collecte pas le détail Hôtellerie OCP (mais uniquement REKOLE), ces montants sont donc à compléter par les hôpitaux. Une fois les lignes renseignées, les montants seront positifs et corrects.  
-
-En vert: sera rempli par SpiGes
-En violet: sera rempli par l'hôpital
+{{<markdown>}}
+ - En vert: sera rempli par SpiGes 
+ - En violet: sera rempli par l'hôpital 
+{{<markdown>}}
 {{<insertImage image="itark_hot_ocp_fr.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Les montants pour les prestations supplémentaires non évaluées dans ITAR_K® ne sont pas repris, comment faut-il faire pour que SpiGes puisse les reprendre ?
+Les montants pour les rémunérations supplémentaires non évaluées dans ITAR_K® ne sont pas repris, comment faut-il faire pour que SpiGes puisse les reprendre ?
 {{<collapsibleBlock groupId="ITARK">}}
 SpiGes reprend ce qui est mis dans la facture. Pour faire le lien, SpiGes utilise deux choses : rech_tariftyp 11-21-31 qui correspond aux rémunérations supplémentaires selon ForumDatenaustausch et le code de la rémunération supplémentaire sous rech_tarifcode.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Les colonnes concernant les tarifs définis par l'hôpital dans le domaine ambulatoire ne sont pas reprises dans ITAR_K®, pourquoi ?
+Les noms de colonne concernant les tarifs définis par l'hôpital dans le domaine ambulatoire ne sont pas reprises dans ITAR_K®, pourquoi ?
 {{<collapsibleBlock groupId="ITARK">}}
 SpiGes contient plus de KTR_TYP que nécessaire dans ITAR_K® pour ces tarifs. La distinction entre LAMal, complémentaire et auto-payeur n'est plus faite dans ITAR_K®. Comme indiqué dans l'arbre décisionnel, ces colonnes dans ITAR_K® sont définies comme suit:
 {{<markdown>}}
@@ -109,10 +110,13 @@ SpiGes contient plus de KTR_TYP que nécessaire dans ITAR_K® pour ces tarifs. L
 |Autres tarifs amb. spécifiques à l'établissement|374,375,376|
 |Autres tarifs amb. spécifiques à l'établissement|377,378,379|
 |Autres tarifs amb. spécifiques à l'établissement|380,381,382,402|
-{{</markdown>}}
-Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît dans SpiGes pour mettre en garde sur ce point. Si la KTR_BESCHR n'est pas identique pour une colonne ITAR_K®, SpiGes ne peut pas choisir laquelle est correcte. 
-{{<insertImage image="itark_erreur_tarifambu_fr.png" class="edge max-w-90">}}
-SpiGes va toutefois vous indiquer qu'il faut compléter ce nom de colonne manuellement. 
+{{</markdown>}}  
+Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît dans SpiGes pour mettre en garde sur ce point. Si la KTR_BESCHR n'est pas identique pour une colonne ITAR_K®, SpiGes ne peut pas choisir laquelle est correcte.  
+
+{{<insertImage image="itark_erreur_tarifambu_fr.png" class="edge max-w-90">}}  
+
+SpiGes va toutefois vous indiquer qu'il faut compléter ce nom de colonne manuellement:  
+ 
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
