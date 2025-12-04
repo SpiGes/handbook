@@ -84,7 +84,7 @@ Gemeinsam mit H+ wurde beschlossen, diese Felder vorerst leer zu lassen und von 
 {{<listItem>}}
 Warum sind die Kosten für die VKL-Hotellerie (Zeilen 38-40) negativ ?
 {{<collapsibleBlock groupId="ITARK">}}
-Diese Zeilen werden in ITAR_K® berechnet. Ausserdem erfasst SpiGes keine Details zum VKL-Hotellerie (sondern nur REKOLE), daher müssen diese Beträge von den Spitälern ergänzt werden. Sobald die Zeilen ausgefüllt sind, sind die Beträge positiv und korrekt.  
+Diese Zeilen werden in ITAR_K® berechnet. Ausserdem erfasst SpiGes keine Details zur VKL-Hotellerie (sondern nur REKOLE), daher müssen diese Beträge von den Spitälern ergänzt werden. Sobald die Zeilen ausgefüllt sind, sind die Beträge positiv und korrekt.  
 {{<markdown>}}
  - Grün: wird von SpiGes ausgefüllt  
  - Violett: wird vom Spital ausgefüllt
@@ -96,7 +96,7 @@ Diese Zeilen werden in ITAR_K® berechnet. Ausserdem erfasst SpiGes keine Detail
 {{<listItem>}}
 Die Beträge für die in ITAR_K® unbewerteten Zusatzentgelte werden nicht übernommen. Wie muss vorgegangen werden, damit SpiGes diese übernehmen kann ?
 {{<collapsibleBlock groupId="ITARK">}}
-SpiGes übernimmt die Angaben aus der Rechnung. Um die Verbindung herzustellen, verwendet SpiGes zwei Dinge: rech_tariftyp 11-21-31, was den Zusatzvergütungen gemäss ForumDatenaustausch entspricht, und den Code für die Zusatzentgelt unter rech_tarifcode.
+SpiGes übernimmt die Angaben aus der Rechnung. Um die Verbindung herzustellen, verwendet SpiGes zwei Dinge: rech_tariftyp 11-21-31, was den Zusatzvergütungen gemäss ForumDatenaustausch entspricht, und den Code für die Zusatzentgelte unter rech_tarifcode.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
