@@ -1,5 +1,5 @@
 ---
-title: ITAR_K®-Prozess
+title: Prozess
 slug: itark_prozess
 description: "Auf dieser Seite finden Sie verschiedene Informationen zum Prozess der Generietung der ITAR_K®-Datei."
 weight: 70
