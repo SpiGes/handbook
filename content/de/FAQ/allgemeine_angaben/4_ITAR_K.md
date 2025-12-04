@@ -113,13 +113,11 @@ SpiGes enthält mehr KTR_TYP als in ITAR_K® für diese Tarife erforderlich. Die
 |übrige ambulante Tarife|380,381,382,402|
 {{</markdown>}}  
 Wenn in der KTR_BESCHR eine Unterscheidung getroffen wird, erscheint in SpiGes eine Fehlermeldung, die darauf hinweist. Wenn die KTR_BESCHR für eine ITAR_K®-Spalte nicht identisch ist, kann SpiGes nicht entscheiden, welche korrekt ist.  
-
+{{<lineBreak>}}
 {{<insertImage image="itark_erreur_tarifambu_de.png" class="edge max-w-90">}}  
-
-
+{{<lineBreak>}}
 SpiGes weist Sie jedoch darauf hin, dass Sie diesen Spaltennamen manuell ergänzen müssen:  
-
-
+{{<lineBreak>}}
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
