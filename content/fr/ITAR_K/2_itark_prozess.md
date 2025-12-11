@@ -26,4 +26,4 @@ keywords: []
 Après la version finale et signée, l'ITAR_K® ne peut plus être modifié car les données SpiGes sont définitives. Si une correction doit être amenée par après, l'hôpital peut utiliser le relevé test pour refaire le processus dans son ensemble et obtenir une nouvelle version d'ITAR_K® qui sera toutefois pas signée.
 
 {{<lineBreak>}}
-{{<insertImage image="ITARK_processus_fr.png" class="edge max-w-90">}}
+{{<insertImage image="ITARK_process_fr.png" class="edge max-w-90">}}
