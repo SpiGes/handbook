@@ -7,10 +7,6 @@ type: docs
 keywords: []
 ---
 
-<!--
-{{<insertImage image="ItarK_V4_D.png" class="edge max-w-90">}}
--->
-
 1. Die Daten werden in SpiGes erfasst.
 2. Die Daten werden von SpiGes verarbeitet.
 3. Die Spitäler können eine erste Version von ITAR_K® exportieren. Diese **automatische Version** enthält die von SpiGes erfassten Daten, die so aufbereitet wurden, dass sie möglichst viele der von ITAR_K® geforderten Elemente erfüllen.
@@ -25,7 +21,5 @@ keywords: []
 *Hinweis: Wenn die provisorische Version nicht korrekt ist, kann das Spital den Vorgang wiederholen, indem es entweder korrigierte Daten erneut in SpiGes hochlädt oder die Daten in der automatischen Version ändert.*
 
 Nach der finalen und signierten Version kann ITAR_K® nicht mehr geändert werden, da die SpiGes-Daten endgültig sind. Wenn nachträglich eine Korrektur vorgenommen werden muss, kann das Spital den TEST-Erhebung verwenden, um den gesamten Prozess erneut durchzuführen und eine neue Version von ITAR_K® zu erhalten, die jedoch nicht signiert wird.
-<!--
-{{<lineBreak>}}
-{{<insertImage image="ITARK_process_fr.png" class="edge max-w-90">}}
--->
+
+{{<insertImage image="ITARK_process_de.png" class="edge max-w-90">}}
