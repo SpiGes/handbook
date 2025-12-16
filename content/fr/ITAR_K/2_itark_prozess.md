@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-1. Les donnée sont collectées dans SpiGes.
+1. Les données sont collectées dans SpiGes.
 2. Les données sont traitées par SpiGes.
 3. Les hôpitaux peuvent exporter une première version d'ITAR_K®. Cette **version automatique** contient les données récoltées par SpiGes travaillées afin de remplir le maximum d'éléments demandés par ITAR_K®.
 {{<lineBreak>}}
