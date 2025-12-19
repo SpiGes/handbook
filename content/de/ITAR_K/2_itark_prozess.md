@@ -23,4 +23,4 @@ keywords: []
 
 Nach der finalen und signierten Version kann ITAR_K® nicht mehr geändert werden, da die SpiGes-Daten endgültig sind. Wenn nachträglich eine Korrektur vorgenommen werden muss, kann das Spital den TEST-Erhebung verwenden, um den gesamten Prozess erneut durchzuführen und eine neue Version von ITAR_K® zu erhalten, die jedoch nicht signiert wird.
 
-{{<insertImage image="ITARK_process_de.png" class="edge max-w-90">}}
+{{<insertImage image="ITARK_processus_de.png" class="edge max-w-90">}}
