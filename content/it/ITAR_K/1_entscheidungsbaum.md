@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-È possibile scaricare i dettagli dell'albero decisionale sotto forma di file EXCEL. Le colonne ITAR_K® sono descritte al suo interno.
+È possibile scaricare l’albero decisionale dettagliato sotto forma di file Excel, nel quale sono descritte le colonne ITAR_K®.
 [Télécharger le fichier: ITARK_Spalte](https://github.com/SpiGes/itark_spalte/releases/latest/download/itark_spalte.xlsx)
 
 {{<insertImage image="ItarK_V4_I.png" class="edge max-w-90">}}
