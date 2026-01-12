@@ -13,7 +13,7 @@ keywords: []
 {{<lineBreak>}}
 *A noter: L'export ITAR_K® se fait au niveau de l'entreprise, il faut donc un accès entreprise pour faire la demande d'export. Si l'entreprise a plusieurs hôpitaux (BURGESV), plusieurs ITAR_K® seront créés (un par BURGESV).*
 4. Les hôpitaux peuvent compléter (partie en violet) la version automatique afin d'obternir les données manquantes (non-collectées par SpiGes).
-5. Les hôpitaux peuvent transmettre leur version automatique complétée à l’association SpitalBenchmark (SBM) afin de contrôler et valider leurs données. 
+5. Les hôpitaux peuvent transmettre leur version automatique complétée à l’association SpitalBenchmark (SBM) afin de contrôler et valider leurs données.
 6. Les hôpitaux doivent ensuite télécharger la version automatique complétée dans SpiGes.
 7. Les données sont traitées par SpiGes: les données complétées par les hôpitaux sont reprises à cette étape. Les données sont vérifiées et validées comme une partie du relevé.
 8. Les hôpitaux peuvent exporter une seconde version d'ITAR_K®. Cette **version provisoire** contient l'ensemble des données (de base+complétées).
