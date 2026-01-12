@@ -70,35 +70,35 @@ In ITAR_K® vengono utilizzati i risultati del Grouper per queste informazioni. 
 {{</listItem>}}
 
 {{<listItem>}}
-En téléchargeant ITAR_K®, les cellules concernant les exploitations annexes et les cas à cheval sont vides, pourquoi ?
+Quando si scarica ITAR_K®, le celle relative alle aziende annesse e i casi a cavallo tra due anni sono vuote. Perché ?
 {{<collapsibleBlock groupId="ITARK">}}
-Il a été décidé, conjointement avec H+, de laisser vide et à compléter par les hôpitaux pour le moment. Ces cellules sont en couleur violet (dès la V.16 d'ITAR_K®) pour montrer ce que SpiGes ne remplit pas du tout.
+Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco e di lasciarli compilare agli ospedali. Questi campi sono contrassegnati in viola (dalla versione 16 di ITAR_K®), per indicare che SpiGes non li compila.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Pourquoi les coûts Hôtellerie OCP (lignes 38-40) sont-ils négatifs ?
+6.	Perché i costi alla voce Servizio alberghiero OCPre (righe 38–40) sono negativi ?
 {{<collapsibleBlock groupId="ITARK">}}
-Ces lignes sont calculées dans ITAR_K®. Par ailleurs, SpiGes ne collecte pas le détail Hôtellerie OCP (mais uniquement REKOLE), ces montants sont donc à compléter par les hôpitaux. Une fois les lignes renseignées, les montants seront positifs et corrects.  
+Queste righe sono calcolate in ITAR_K®. Inoltre, SpiGes non registra i dettagli della voce Servizio alberghiero OCPre  (bensì solo REKOLE), quindi questi importi devono essere inseriti dagli ospedali. Non appena le righe vengono compilate, gli importi diventano positivi e corretti. 
 {{<markdown>}}
- - En vert: sera rempli par SpiGes 
- - En violet: sera rempli par l'hôpital 
+ - Parte in verde: viene compilata da SpiGes 
+ - Parte in viola: viene compilata dall'ospedale
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_it.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Les montants pour les rémunérations supplémentaires non évaluées dans ITAR_K® ne sont pas repris, comment faut-il faire pour que SpiGes puisse les reprendre ?
+Gli importi delle tariffe aggiuntive non valutati in ITAR_K® non sono ripresi da SpiGes. Cosa occorre per far sì che SpiGes riprenda anche questi importi ?
 {{<collapsibleBlock groupId="ITARK">}}
-SpiGes reprend ce qui est mis dans la facture. Pour faire le lien, SpiGes utilise deux choses : rech_tariftyp 11-21-31 qui correspond aux rémunérations supplémentaires selon ForumDatenaustausch et le code de la rémunération supplémentaire sous rech_tarifcode.
+SpiGes riprende tutti i dettagli dalla fattura. Per fare il collegamento, SpiGes si basa su due elementi: rech_tariftyp 11-21-31, che corrisponde alla remunerazione aggiuntiva secondo ForumDatenaustausch, e il codice per le tariffe aggiuntive sotto rech_tarifcode.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
 {{<listItem>}}
-Les noms de colonne concernant les tarifs définis par l'hôpital dans le domaine ambulatoire ne sont pas reprises dans ITAR_K®, pourquoi ?
+I nomi delle colonne per le tariffe definite dall'ospedale per il settore ambulatoriale non sono ripresi in ITAR_K®. Perché ?
 {{<collapsibleBlock groupId="ITARK">}}
-SpiGes contient plus de KTR_TYP que nécessaire dans ITAR_K® pour ces tarifs. La distinction entre LAMal, complémentaire et auto-payeur n'est plus faite dans ITAR_K®. Comme indiqué dans l'arbre décisionnel, ces colonnes dans ITAR_K® sont définies comme suit:
+Per queste tariffe, SpiGes contiene più KTR_TYP di quanto necessario in ITAR_K®. In ITAR_K® non viene operata più alcuna distinzione tra LAMal, assicurazione complementare e pazienti autopaganti. Come indicato nell'albero decisionale, in ITAR_K® queste colonne sono definite come segue:
 {{<markdown>}}
 |colonne ITAR_K®|KTR_TYP|
 |--------|--------|
@@ -107,11 +107,11 @@ SpiGes contient plus de KTR_TYP que nécessaire dans ITAR_K® pour ces tarifs. L
 |Ulteriori tariffe ambul. indiv. dell'azienda|377,378,379|
 |Ulteriori tariffe ambul. indiv. dell'azienda|380,381,382,402|
 {{</markdown>}}  
-Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît dans SpiGes pour mettre en garde sur ce point. Si la KTR_BESCHR n'est pas identique pour une colonne ITAR_K®, SpiGes ne peut pas choisir laquelle est correcte.  
+se viene individuata una differenza nella KTR_BESCHR, in SpiGes appare un messaggio di errore che la segnala. Se la KTR_BESCHR per una colonna ITAR_K® non è identica, SpiGes non è in grado di decidere quale sia quella corretta.  
 {{<lineBreak>}}
 {{<insertImage image="itark_erreur_tarifambu_it.png" class="edge max-w-90">}}  
 {{<lineBreak>}}
-SpiGes va toutefois vous indiquer qu'il faut compléter ce nom de colonne manuellement:  
+Tuttavia, SpiGes indicherà che occorre completare manualmente il nome della colonna:
 {{<lineBreak>}}
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
