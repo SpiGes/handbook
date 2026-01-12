@@ -79,7 +79,7 @@ Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco 
 {{<listItem>}}
 6.	Perché i costi alla voce Servizio alberghiero OCPre (righe 38–40) sono negativi ?
 {{<collapsibleBlock groupId="ITARK">}}
-Queste righe sono calcolate in ITAR_K®. Inoltre, SpiGes non registra i dettagli della voce Servizio alberghiero OCPre  (bensì solo REKOLE), quindi questi importi devono essere inseriti dagli ospedali. Non appena le righe vengono compilate, gli importi diventano positivi e corretti. 
+Queste righe sono calcolate in ITAR_K®. Inoltre, SpiGes non registra i dettagli della voce Servizio alberghiero OCPre  (bensì solo REKOLE), quindi questi importi devono essere inseriti dagli ospedali. Non appena le righe vengono compilate, gli importi diventano positivi e corretti.
 {{<markdown>}}
  - Parte in verde: viene compilata da SpiGes 
  - Parte in viola: viene compilata dall'ospedale
