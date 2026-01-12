@@ -86,8 +86,9 @@ Warum sind die Kosten für die VKL-Hotellerie (Zeilen 38-40) negativ ?
 {{<collapsibleBlock groupId="ITARK">}}
 Diese Zeilen werden in ITAR_K® berechnet. Ausserdem erfasst SpiGes keine Details zur VKL-Hotellerie (sondern nur REKOLE), daher müssen diese Beträge von den Spitälern ergänzt werden. Sobald die Zeilen ausgefüllt sind, sind die Beträge positiv und korrekt.  
 {{<markdown>}}
- - Grün: wird von SpiGes ausgefüllt  
- - Violett: wird vom Spital ausgefüllt
+
+- Grün: wird von SpiGes ausgefüllt  
+- Violett: wird vom Spital ausgefüllt
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_de.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}

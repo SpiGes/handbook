@@ -81,8 +81,9 @@ Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco 
 {{<collapsibleBlock groupId="ITARK">}}
 Queste righe sono calcolate in ITAR_K®. Inoltre, SpiGes non registra i dettagli della voce Servizio alberghiero OCPre  (bensì solo REKOLE), quindi questi importi devono essere inseriti dagli ospedali. Non appena le righe vengono compilate, gli importi diventano positivi e corretti.
 {{<markdown>}}
- - Parte in verde: viene compilata da SpiGes 
- - Parte in viola: viene compilata dall'ospedale
+
+- Parte in verde: viene compilata da SpiGes
+- Parte in viola: viene compilata dall'ospedale
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_it.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}

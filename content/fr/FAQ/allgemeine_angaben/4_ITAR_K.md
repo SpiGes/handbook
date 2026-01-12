@@ -85,8 +85,9 @@ Pourquoi les coûts Hôtellerie OCP (lignes 38-40) sont-ils négatifs ?
 {{<collapsibleBlock groupId="ITARK">}}
 Ces lignes sont calculées dans ITAR_K®. Par ailleurs, SpiGes ne collecte pas le détail Hôtellerie OCP (mais uniquement REKOLE), ces montants sont donc à compléter par les hôpitaux. Une fois les lignes renseignées, les montants seront positifs et corrects.  
 {{<markdown>}}
- - En vert: sera rempli par SpiGes 
- - En violet: sera rempli par l'hôpital 
+
+- En vert: sera rempli par SpiGes
+- En violet: sera rempli par l'hôpital
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_fr.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
