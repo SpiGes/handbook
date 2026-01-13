@@ -94,7 +94,7 @@ Ces lignes sont calculées dans ITAR_K®. Par ailleurs, SpiGes ne collecte pas l
 {{</listItem>}}
 
 {{<listItem>}}
-Les montants pour les rémunérations supplémentaires non évaluées dans ITAR_K® ne sont pas repris, comment faut-il faire pour que SpiGes puisse les reprendre ?
+Les montants pour les rémunérations supplémentaires non évaluées dans ITAR_K® ne sont pas repris. Comment faut-il faire pour que SpiGes puisse les reprendre ?
 {{<collapsibleBlock groupId="ITARK">}}
 SpiGes reprend ce qui est mis dans la facture. Pour faire le lien, SpiGes utilise deux choses : rech_tariftyp 11-21-31 qui correspond aux rémunérations supplémentaires selon ForumDatenaustausch et le code de la rémunération supplémentaire sous rech_tarifcode.
 {{</collapsibleBlock>}}
