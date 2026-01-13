@@ -69,5 +69,54 @@ In ITAR_K® vengono utilizzati i risultati del Grouper per queste informazioni. 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Quando si scarica ITAR_K®, le celle relative alle aziende annesse e i casi a cavallo tra due anni sono vuote. Perché ?
+{{<collapsibleBlock groupId="ITARK">}}
+Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco e di lasciarli compilare agli ospedali. Questi campi sono contrassegnati in viola (dalla versione 16 di ITAR_K®), per indicare che SpiGes non li compila.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+6.	Perché i costi alla voce Servizio alberghiero OCPre (righe 38–40) sono negativi ?
+{{<collapsibleBlock groupId="ITARK">}}
+Queste righe sono calcolate in ITAR_K®. Inoltre, SpiGes non registra i dettagli della voce Servizio alberghiero OCPre  (bensì solo REKOLE), quindi questi importi devono essere inseriti dagli ospedali. Non appena le righe vengono compilate, gli importi diventano positivi e corretti.
+{{<markdown>}}
+
+- Parte in verde: viene compilata da SpiGes
+- Parte in viola: viene compilata dall'ospedale
+{{</markdown>}}
+{{<insertImage image="itark_hot_ocp_it.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Gli importi delle tariffe aggiuntive non valutati in ITAR_K® non sono ripresi da SpiGes. Cosa occorre per far sì che SpiGes riprenda anche questi importi ?
+{{<collapsibleBlock groupId="ITARK">}}
+SpiGes riprende tutti i dettagli dalla fattura. Per fare il collegamento, SpiGes si basa su due elementi: rech_tariftyp 11-21-31, che corrisponde alla remunerazione aggiuntiva secondo ForumDatenaustausch, e il codice per le tariffe aggiuntive sotto rech_tarifcode.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+I nomi delle colonne per le tariffe definite dall'ospedale per il settore ambulatoriale non sono ripresi in ITAR_K®. Perché ?
+{{<collapsibleBlock groupId="ITARK">}}
+Per queste tariffe, SpiGes contiene più KTR_TYP di quanto necessario in ITAR_K®. In ITAR_K® non viene operata più alcuna distinzione tra LAMal, assicurazione complementare e pazienti autopaganti. Come indicato nell'albero decisionale, in ITAR_K® queste colonne sono definite come segue:
+{{<markdown>}}
+|colonne ITAR_K®|KTR_TYP|
+|--------|--------|
+|Ulteriori tariffe ambul. indiv. dell'azienda|371,372,373|
+|Ulteriori tariffe ambul. indiv. dell'azienda|374,375,376|
+|Ulteriori tariffe ambul. indiv. dell'azienda|377,378,379|
+|Ulteriori tariffe ambul. indiv. dell'azienda|380,381,382,402|
+{{</markdown>}}  
+se viene individuata una differenza nella KTR_BESCHR, in SpiGes appare un messaggio di errore che la segnala. Se la KTR_BESCHR per una colonna ITAR_K® non è identica, SpiGes non è in grado di decidere quale sia quella corretta.  
+{{<lineBreak>}}
+{{<insertImage image="itark_erreur_tarifambu_it.png" class="edge max-w-90">}}  
+{{<lineBreak>}}
+Tuttavia, SpiGes indicherà che occorre completare manualmente il nome della colonna:
+{{<lineBreak>}}
+{{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

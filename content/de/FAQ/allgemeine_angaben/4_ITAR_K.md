@@ -74,5 +74,54 @@ In ITAR_K® werden die Grouper-Ergebnisse für diese Informationen verwendet. Nu
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Beim Herunterladen von ITAR_K® sind die Zellen für Nebenbetriebe und Überlieger leer. Warum ?
+{{<collapsibleBlock groupId="ITARK">}}
+Gemeinsam mit H+ wurde beschlossen, diese Felder vorerst leer zu lassen und von den Spitälern ausfüllen zu lassen. Diese Felder sind violett markiert (ab Version 16 von ITAR_K®), um zu zeigen, dass SpiGes diese Felder nicht ausfüllt.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Warum sind die Kosten für die VKL-Hotellerie (Zeilen 38-40) negativ ?
+{{<collapsibleBlock groupId="ITARK">}}
+Diese Zeilen werden in ITAR_K® berechnet. Ausserdem erfasst SpiGes keine Details zur VKL-Hotellerie (sondern nur REKOLE), daher müssen diese Beträge von den Spitälern ergänzt werden. Sobald die Zeilen ausgefüllt sind, sind die Beträge positiv und korrekt.  
+{{<markdown>}}
+
+- Grün: wird von SpiGes ausgefüllt  
+- Violett: wird vom Spital ausgefüllt
+{{</markdown>}}
+{{<insertImage image="itark_hot_ocp_de.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Die Beträge für die in ITAR_K® unbewerteten Zusatzentgelte werden nicht übernommen. Wie muss vorgegangen werden, damit SpiGes diese übernehmen kann ?
+{{<collapsibleBlock groupId="ITARK">}}
+SpiGes übernimmt die Angaben aus der Rechnung. Um die Verbindung herzustellen, verwendet SpiGes zwei Dinge: rech_tariftyp 11-21-31, was den Zusatzvergütungen gemäss ForumDatenaustausch entspricht, und den Code für die Zusatzentgelte unter rech_tarifcode.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Die Spaltennamen für die vom Spital im ambulanten Bereich festgelegten Tarife werden in ITAR_K® nicht übernommen. Warum ?
+{{<collapsibleBlock groupId="ITARK">}}
+SpiGes enthält mehr KTR_TYP als in ITAR_K® für diese Tarife erforderlich. Die Unterscheidung zwischen KVG, Zusatzversicherung und Selbstzahler wird in ITAR_K® nicht mehr getroffen. Wie im Entscheidungsbaum angegeben, sind diese Spalten in ITAR_K® wie folgt definiert:
+{{<markdown>}}
+|ITAR_K®-Spalte|KTR_TYP|
+|--------|--------|
+|übrige ambulante Tarife|371,372,373|
+|übrige ambulante Tarife|374,375,376|
+|übrige ambulante Tarife|377,378,379|
+|übrige ambulante Tarife|380,381,382,402|
+{{</markdown>}}  
+Wenn in der KTR_BESCHR eine Unterscheidung getroffen wird, erscheint in SpiGes eine Fehlermeldung, die darauf hinweist. Wenn die KTR_BESCHR für eine ITAR_K®-Spalte nicht identisch ist, kann SpiGes nicht entscheiden, welche korrekt ist.  
+{{<lineBreak>}}
+{{<insertImage image="itark_erreur_tarifambu_de.png" class="edge max-w-90">}}  
+{{<lineBreak>}}
+SpiGes weist Sie jedoch darauf hin, dass Sie diesen Spaltennamen manuell ergänzen müssen:  
+{{<lineBreak>}}
+{{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
