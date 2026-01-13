@@ -1,6 +1,6 @@
 ---
-title: Exporte
-slug: exporte
+title: Exports
+slug: exports
 description: "Sur cette page, vous trouverez diverses informations sur la création des fichiers d'exportation."
 weight: 75
 type: docs
@@ -15,7 +15,7 @@ Vous vous connectez en tant qu'utilisateur kvg_Datennutzer et accédez à la pag
 
 &nbsp;
 
-Vous cliquez sur la feuille de calcul Exportation des données (2) et sélectionnez les années souhaitées (3).
+Vous cliquez sur l'onglet Exportation des données (2) et sélectionnez les années souhaitées (3).
 
 ### Feuille de calcul exportation des données
 
