@@ -112,7 +112,7 @@ SpiGes contient plus de KTR_TYP que nécessaire dans ITAR_K® pour ces tarifs. L
 |Autres tarifs amb. spécifiques à l'établissement|377,378,379|
 |Autres tarifs amb. spécifiques à l'établissement|380,381,382,402|
 {{</markdown>}}  
-Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît dans SpiGes pour mettre en garde sur ce point. Si la KTR_BESCHR n'est pas identique pour une colonne ITAR_K®, SpiGes ne peut pas choisir laquelle est correcte.  
+Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît dans SpiGes pour mettre en garde sur ce point. Si la KTR_BESCHR n'est pas identique pour une colonne ITAR_K®, SpiGes ne peut pas déterminer laquelle est correcte.
 {{<lineBreak>}}
 {{<insertImage image="itark_erreur_tarifambu_fr.png" class="edge max-w-90">}}  
 {{<lineBreak>}}
