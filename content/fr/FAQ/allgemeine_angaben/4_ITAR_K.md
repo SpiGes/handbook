@@ -101,7 +101,7 @@ SpiGes reprend ce qui est mis dans la facture. Pour faire le lien, SpiGes utilis
 {{</listItem>}}
 
 {{<listItem>}}
-Les noms de colonne concernant les tarifs définis par l'hôpital dans le domaine ambulatoire ne sont pas reprises dans ITAR_K®, pourquoi ?
+Pour quelle raison les noms de colonnes concernant les tarifs définis par l'hôpital dans le domaine ambulatoire ne sont pas repris dans ITAR_K® ?
 {{<collapsibleBlock groupId="ITARK">}}
 SpiGes contient plus de KTR_TYP que nécessaire dans ITAR_K® pour ces tarifs. La distinction entre LAMal, complémentaire et auto-payeur n'est plus faite dans ITAR_K®. Comme indiqué dans l'arbre décisionnel, ces colonnes dans ITAR_K® sont définies comme suit:
 {{<markdown>}}
