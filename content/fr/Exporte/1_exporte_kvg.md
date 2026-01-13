@@ -9,7 +9,7 @@ keywords: []
 
 Vous vous connectez en tant qu'utilisateur kvg_Datennutzer et accédez à la page d'accueil (1).
 
-### écran de démarrage
+### Écran de démarrage
 
 {{<insertImage image="exp1_f.png" class="edge max-w-90">}}
 
@@ -47,7 +47,7 @@ Lorsque vous cliquez sur le bouton de téléchargement, un message s'affiche pou
 
 &nbsp;
 
-Après avoir reçu l'e-mail, vous pouvez activer un lien qui s'y trouve (7).
+Après avoir reçu l'e-mail, vous pouvez activer le lien qui s'y trouve (7).
 
 ### Confirmation par e-mail
 
