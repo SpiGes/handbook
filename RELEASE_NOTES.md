@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.23.0]
+# Release Notes - SpiGes Documentation Version [0.24.0]
 
-## Release Date: 2025.11.17
+## Release Date: 2026.01.14
 
 ### New
 
 #### Documentation
 
-- [#299](https://github.com/SpiGes/handbook/issues/299) - Change link for video
+- [#312](https://github.com/SpiGes/handbook/issues/312) - Arbre décisionnel ITAR_K V.16
 
 ## Contributors
 

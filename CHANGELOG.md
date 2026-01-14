@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.24.0] - 2026.01.14
+
+### New
+
+#### Documentation
+
+- [#312](https://github.com/SpiGes/handbook/issues/312) - Arbre décisionnel ITAR_K V.16
+
 ## [0.23.0] - 2025.11.17
 
 ### New
