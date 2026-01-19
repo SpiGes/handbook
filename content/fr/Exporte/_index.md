@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Vous vous connectez en tant qu'utilisateur kvg_Datennutzer et accédez à la page d'accueil (1).
+Vous vous connectez en tant qu'utilisateur et accédez à la page d'accueil (1).
 
 ### Écran de démarrage
 

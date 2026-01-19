@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Sie loggen sich als kvg_Datennutzer ein und gelangen auf die Startseite (1).
+Sie loggen sich als Nutzer ein und gelangen auf die Startseite (1).
 
 ### Startbildschirm
 
