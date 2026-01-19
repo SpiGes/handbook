@@ -15,7 +15,7 @@ Vous vous connectez en tant qu'utilisateur et accédez à la page d'accueil (1).
 
 &nbsp;
 
-Vous cliquez sur l'onglet Exportation des données (2) et sélectionnez les années souhaitées (3).
+Vous cliquez sur l'onglet Exportation des données (2) et sélectionnez l'année souhaitée (3).
 
 ### Feuille de calcul exportation des données
 
@@ -23,7 +23,7 @@ Vous cliquez sur l'onglet Exportation des données (2) et sélectionnez les ann�
 
 &nbsp;
 
-Vous accédez à un aperçu où vous pouvez sélectionner la granularité des données à exporter (4) ; vous pouvez choisir soit l'ensemble de données pour toute la Suisse, soit les données au niveau de l'entreprise ou du site. Selon vos droits de téléchargement, ces niveaux peuvent être activés.
+Vous accédez à un aperçu où vous pouvez sélectionner la granularité des données à exporter (4) ; vous pouvez choisir soit l'ensemble de données pour toute la Suisse, soit les données au niveau de l'entreprise ou du site selon l'export souhaité. Selon vos droits de téléchargement, ces niveaux peuvent être activés ou non.
 
 ### Aperçu des données à exporter
 

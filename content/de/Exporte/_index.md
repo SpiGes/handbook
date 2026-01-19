@@ -15,7 +15,7 @@ Sie loggen sich als Nutzer ein und gelangen auf die Startseite (1).
 
 &nbsp;
 
-Sie klicken auf das Tabellenblatt Datenexport (2) und wählen die gewünschten Datenjahre aus (3).
+Sie klicken auf das Tabellenblatt Datenexport (2) und wählen das gewünschte Datenjahr aus (3).
 
 ### Tabellenblatt Datenxport
 
@@ -23,7 +23,7 @@ Sie klicken auf das Tabellenblatt Datenexport (2) und wählen die gewünschten D
 
 &nbsp;
 
-Sie gelangen auf eine Übersicht, wo Sie die Granularität der zu exportierenden Daten auswählen (4); entweder wählen Sie das Schweizweite Datenset oder Daten auf Unternehmens- oder Standortebene. Je nach Ihren Downloadrechten lassen sich diese Ebenen aktivieren.
+Sie gelangen auf eine Übersicht, wo Sie die Granularität der zu exportierenden Daten auswählen (4); entweder wählen Sie das Schweizweite Datenset oder Daten auf Unternehmens- oder Standortebene gemäss dem gewünschten Export. Je nach Ihren Downloadrechten lassen sich diese Ebenen aktivieren.
 
 ### Übersicht der zu exportierenden Daten
 
