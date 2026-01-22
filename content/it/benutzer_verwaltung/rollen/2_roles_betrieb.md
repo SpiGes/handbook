@@ -29,13 +29,13 @@ keywords: []
   <tr>
     <td>SP_User_Unternehmen</td>
     <td>Esegue i compiti che gli vengono delegati dall'SP_ErhV_Unternehmen.</td>
-    <td>Può leggere, caricare e commentare tutti i dati dell'impresa ospedaliera di sua competenza e delle rispettive sedi.</td>
+    <td>Può leggere, caricare, commentare e esportare per controlli di plausibilità tutti i dati dell'impresa ospedaliera di sua competenza e delle rispettive sedi.</td>
     <td>Assiste l'SP_ErhV_Unternehmen nei suoi compiti.</td>
   </tr>
   <tr>
     <td>SP_User_Standort</td>
     <td>Esegue i compiti che gli vengono delegati dall'SP_ErhV_Standort.</td>
-    <td>Può leggere, caricare e commentare tutti i dati della sede ospedaliera di sua competenza.</td>
+    <td>Può leggere, caricare, commentare e esportare per controlli di plausibilità tutti i dati della sede ospedaliera di sua competenza.</td>
     <td>Assiste l'SP_ErhV_Standort nei suoi compiti.</td>
   </tr>
   <tr>
