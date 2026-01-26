@@ -29,13 +29,13 @@ keywords: []
   <tr>
     <td> SP_User_Unternehmen </td>
     <td> Il exécute les tâches déléguées par le SP_ErhV_Unternehmen. </td>
-    <td> Il peut lire, télécharger, commenter toutes les données de son entreprise hospitalière et de ses sites. </td>
+    <td> Il peut lire, télécharger, commenter et exporter à des fins de plausibilité toutes les données de son entreprise hospitalière et de ses sites. </td>
     <td> Il soutient le SP_ErhV_Unternehmen dans ses tâches. </td>
   </tr>
   <tr>
     <td> SP_User_Standort </td>
     <td> Il exécute les tâches déléguées par le SP_ErhV_Standort. </td>
-    <td> Il peut lire, télécharger, commenter toutes les données de son site hospitalier. </td>
+    <td> Il peut lire, télécharger, commenter et exporter à des fins de plausibilité toutes les données de son site hospitalier. </td>
     <td> Il soutient le SP_ErhV_Standort dans ses tâches. </td>
   </tr>
   <tr>

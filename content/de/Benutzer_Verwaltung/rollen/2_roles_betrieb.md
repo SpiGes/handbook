@@ -30,13 +30,13 @@ keywords: []
   <tr>
     <td> SP_User_Unternehmen </td>
     <td> Er führt die durch den SP_ErhV_Unternehmen delegierten Aufgaben durch. </td>
-    <td> Er kann alle Daten seines Spitalunternehms und dessen Standorte lesen, hochladen, kommentieren. </td>
+    <td> Er kann alle Daten seines Spitalunternehms und dessen Standorte lesen, hochladen, kommentieren und zu Plausibiliserungszwecken exportieren. </td>
     <td> Er unterstützt den SP_ErhV_Unternehmen in seinen Aufgaben. </td>
   </tr>
   <tr>
     <td> SP_User_Standort </td>
     <td> Er führt die durch den SP_ErhV_Standort delegierten Aufgaben durch. </td>
-    <td> Er kann alle Daten seines Spitalstandorts lesen, hochladen, kommentieren. </td>
+    <td> Er kann alle Daten seines Spitalstandorts lesen, hochladen, kommentieren und zu Plausibiliserungszwecken exportieren. </td>
     <td> Er unterstützt den SP_ErhV_Standort in seinen Aufgaben. </td>
   </tr>
   <tr>
