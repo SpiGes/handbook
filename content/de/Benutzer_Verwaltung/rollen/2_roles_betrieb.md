@@ -25,7 +25,7 @@ keywords: []
     <td>SP_ErhV_Standort</td>
     <td> Ein Standort kann einen SP_ErhV_Standort benennen. Er ladet die Daten seines Spitalstandortes hoch, überprüft die Qualität der Daten mittels des automatischen Prüfregelwerks und kommentiert diese bei Bedarf. Am Ende des Erhebungsprozesses gibt er die Daten auf Spitalstandortebene frei (abschliessen), damit diese im Prozess weitergereicht werden können (Freigabe des Spitalunternehmens). Diese Rolle ist besonders nützlich, wenn ein Benutzer nicht auf alle Standorte des Unternehmens zugreifen muss.</td>
     <td> Er kann alle Daten seines Spitalstandorts lesen, hochladen, kommentieren, zu Plausibiliserungszwecken exportieren und abschliessen. </td>
-    <td> Er sorgt dafür, dass die Daten seines Spitalstandorts innerhalb der vorgegebenen Frist und in guter Qualität vorliegen und gibt diese auf Ebene Spitalstandort frei. Außerdem informiert er den KT_Superuser sofort, wenn sich die Benutzer seines Krankenhausstandorts ändern (z.B. ein Mitarbeiter kündigt, wechselt seine Funktion und benötigt seinen Zugang zur SpiGes-Plattform nicht mehr, ...). </td>
+    <td> Er sorgt dafür, dass die Daten seines Spitalstandorts innerhalb der vorgegebenen Frist und in guter Qualität vorliegen und gibt diese auf Ebene Spitalstandort frei. Außerdem informiert er den KT_Superuser sofort, wenn sich die Benutzer seines Krankenhausstandorts ändern (z.B. ein Mitarbeiter kündigt, seine Funktion wechselt und seinen Zugang zur SpiGes-Plattform nicht mehr benötigt, ...). </td>
   </tr>
   <tr>
     <td> SP_User_Unternehmen </td>
