@@ -129,6 +129,7 @@ Pour remplir la ligne ITAR_K® Administration des patients en ambulatoire, SpiGe
 {{<markdown>}}
 - Utiliser le ktr_10 pour chaque KTR_typ ambulatoire (301, 302, 303, etc.).
 - Utiliser le ktr_10 sous KTR_typ = 403 (montant total à répartir). 
+
 Si l’établissement utilise une combinaison des deux, le montant total sous 403 sera réparti entre **toutes** les activités ambulatoires et **additionné** aux montants individuels.
 {{</markdown>}}
 {{</collapsibleBlock>}}
