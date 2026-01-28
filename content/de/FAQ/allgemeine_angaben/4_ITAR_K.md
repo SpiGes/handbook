@@ -130,8 +130,8 @@ Um die Zeile ITAR_K® ambulante Patientenadministration auszufüllen, berücksic
 {{<markdown>}}
 - ktr_10 für jeden ambulanten KTR_typ (301, 302, 303, usw.) verwenden.
 - ktr_10 unter KTR_typ = 403 verwenden (zu verteilender Gesamtbetrag).
-{{</markdown>}}
 Wenn der Betrieb eine Kombination aus beiden verwendet, wird der Gesamtbetrag auf **alle** ambulanten Aktivitäten aufgeteilt und zu den Einzelbeträgen **addiert**.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
