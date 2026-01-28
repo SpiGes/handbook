@@ -122,5 +122,17 @@ SpiGes va toutefois vous indiquer qu'il faut compléter ce nom de colonne manuel
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Administration des patients (ambulatoire): est-ce toujours possible de choisir entre une répartition manuelle ou automatique ?
+{{<collapsibleBlock groupId="ITARK">}}
+Pour remplir la ligne ITAR_K® Administration des patients en ambulatoire, SpiGes prend en compte les deux façons (répartition manuelle ou répartition automatique). L’établissement peut:
+{{<markdown>}}
+- Utiliser le ktr_10 pour chaque KTR_typ ambulatoire (301, 302, 303, etc.).
+- Utiliser le ktr_10 sous KTR_typ = 403 (montant total à répartir). 
+{{</markdown>}}
+Si l’établissement utilise une combinaison des deux, le montant total sous 403 sera réparti entre **toutes** les activités ambulatoires et **additionné** aux montants individuels.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

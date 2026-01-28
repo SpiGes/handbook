@@ -123,5 +123,17 @@ SpiGes weist Sie jedoch darauf hin, dass Sie diesen Spaltennamen manuell ergänz
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Patientenadministration (ambulant): ist es immer möglich, zwischen einer manuellen und einer automatischen Aufteilung zu wählen ?
+{{<collapsibleBlock groupId="ITARK">}}
+Um die Zeile ITAR_K® ambulante Patientenadministration auszufüllen, berücksichtigt SpiGes die zwei Möglichkeiten (manuelle oder automatische Aufteilung). Der Betrieb kann:
+{{<markdown>}}
+- ktr_10 für jeden ambulanten KTR_typ (301, 302, 303, usw.) verwenden.
+- ktr_10 unter KTR_typ = 403 verwenden (zu verteilender Gesamtbetrag).
+{{</markdown>}}
+Wenn der Betrieb eine Kombination aus beiden verwendet, wird der Gesamtbetrag auf **alle** ambulanten Aktivitäten aufgeteilt und zu den Einzelbeträgen **addiert**.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
