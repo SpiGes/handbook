@@ -72,7 +72,7 @@ In ITAR_K® vengono utilizzati i risultati del Grouper per queste informazioni. 
 {{<listItem>}}
 Quando si scarica ITAR_K®, le celle relative alle aziende annesse e i casi a cavallo tra due anni sono vuote. Perché ?
 {{<collapsibleBlock groupId="ITARK">}}
-Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco e di lasciarli compilare agli ospedali. Questi campi sono contrassegnati in viola (dalla versione 16 di ITAR_K®), per indicare che SpiGes non li compila.
+Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco e di lasciarli compilare agli ospedali. Questi campi sono contrassegnati in lilla (dalla versione 16 di ITAR_K®), per indicare che SpiGes non li compila.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -83,7 +83,7 @@ Queste righe sono calcolate in ITAR_K®. Inoltre, SpiGes non registra i dettagli
 {{<markdown>}}
 
 - Parte in verde: viene compilata da SpiGes
-- Parte in viola: viene compilata dall'ospedale
+- Parte in lilla: viene compilata dall'ospedale
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_it.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}

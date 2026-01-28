@@ -18,7 +18,7 @@ keywords: []
   <tr>
     <td>SP_ErhV_Unternehmen </td>
     <td> Jedes Unternehmen muss mindestens einen SP_ErhV_Unternehmen benennen. In der Initialisierungsphase liest er die Neuerungen bezüglich der Erhebung und setzt diese bei Bedarf um. Während der Erhebung sorgt er dafür, dass seine Spitalstandorte die Lieferfristen einhalten. Er ladet die Daten hoch, überprüft die Qualität der Daten mittels des automatischen Prüfregelwerks und kommentiert diese bei Bedarf. Am Ende des Erhebungsprozesses gibt er die Daten auf Spitalunternehmensebene frei (abschliessen), damit diese im Prozess weitergereicht werden können (Freigabe des Kantons). </td>
-    <td> Er kann alle Daten seines Spitalunternehmen und dessen Standorte lesen, hochladen, kommentieren, zu Plausibiliserungszwecken exportieren und abschliessen. </td>
+    <td> Er kann alle Daten seines Spitalunternehmens und dessen Standorte lesen, hochladen, kommentieren, zu Plausibiliserungszwecken exportieren und abschliessen. </td>
     <td> Er sorgt dafür, dass die Daten seines Spitalunternehmens innerhalb der vorgegebenen Frist und in guter Qualität vorliegen und gibt diese auf Ebene Spitalunternehmen frei. </td>
   </tr>
   <tr>
@@ -30,7 +30,7 @@ keywords: []
   <tr>
     <td> SP_User_Unternehmen </td>
     <td> Er führt die durch den SP_ErhV_Unternehmen delegierten Aufgaben durch. </td>
-    <td> Er kann alle Daten seines Spitalunternehms und dessen Standorte lesen, hochladen, kommentieren und zu Plausibiliserungszwecken exportieren. </td>
+    <td> Er kann alle Daten seines Spitalunternehmens und dessen Standorte lesen, hochladen, kommentieren und zu Plausibiliserungszwecken exportieren. </td>
     <td> Er unterstützt den SP_ErhV_Unternehmen in seinen Aufgaben. </td>
   </tr>
   <tr>

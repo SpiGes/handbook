@@ -76,7 +76,7 @@ Dans ITAR_K®, les résultats du Grouper sont utilisés pour ces informations. S
 {{<listItem>}}
 En téléchargeant ITAR_K®, les cellules concernant les exploitations annexes et les cas à cheval sont vides, pourquoi ?
 {{<collapsibleBlock groupId="ITARK">}}
-Il a été décidé, conjointement avec H+, de laisser vide et à compléter par les hôpitaux pour le moment. Ces cellules sont en couleur violet (dès la V.16 d'ITAR_K®) pour montrer ce que SpiGes ne remplit pas du tout.
+Il a été décidé, conjointement avec H+, de laisser vide et à compléter par les hôpitaux pour le moment. Ces cellules sont en couleur lilas (dès la V.16 d'ITAR_K®) pour montrer ce que SpiGes ne remplit pas du tout.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -87,7 +87,7 @@ Ces lignes sont calculées dans ITAR_K®. Par ailleurs, SpiGes ne collecte pas l
 {{<markdown>}}
 
 - En vert: sera rempli par SpiGes
-- En violet: sera rempli par l'hôpital
+- En lilas: sera rempli par l'hôpital
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_fr.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
