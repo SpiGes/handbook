@@ -129,8 +129,6 @@ Patientenadministration (ambulant): ist es immer möglich, zwischen einer manuel
 Um die Zeile ITAR_K® ambulante Patientenadministration auszufüllen, berücksichtigt SpiGes die zwei Möglichkeiten (manuelle oder automatische Aufteilung). Der Betrieb kann:
 {{<markdown>}}
 
-
-
 - ktr_10 unter KTR_typ = 403 verwenden (zu verteilender Gesamtbetrag).
 
 Wenn der Betrieb eine Kombination aus beiden verwendet, wird der Gesamtbetrag auf **alle** ambulanten Aktivitäten aufgeteilt und zu den Einzelbeträgen **addiert**.
