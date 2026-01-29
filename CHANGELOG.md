@@ -2,6 +2,16 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.25.0] - 2026.01.29
+
+### New
+
+#### Documentation
+
+- [#320](https://github.com/SpiGes/handbook/issues/320) - small corrections
+- [#317](https://github.com/SpiGes/handbook/issues/317) - Adapter rôle user
+- [#315](https://github.com/SpiGes/handbook/issues/315) - Revoir détail exports FR
+
 ## [0.24.0] - 2026.01.14
 
 ### New
