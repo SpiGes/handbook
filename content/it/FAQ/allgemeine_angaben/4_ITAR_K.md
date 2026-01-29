@@ -72,7 +72,7 @@ In ITAR_K® vengono utilizzati i risultati del Grouper per queste informazioni. 
 {{<listItem>}}
 Quando si scarica ITAR_K®, le celle relative alle aziende annesse e i casi a cavallo tra due anni sono vuote. Perché ?
 {{<collapsibleBlock groupId="ITARK">}}
-Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco e di lasciarli compilare agli ospedali. Questi campi sono contrassegnati in viola (dalla versione 16 di ITAR_K®), per indicare che SpiGes non li compila.
+Insieme ad H+ è stato deciso per il momento di lasciare questi campi in bianco e di lasciarli compilare agli ospedali. Questi campi sono contrassegnati in lilla (dalla versione 16 di ITAR_K®), per indicare che SpiGes non li compila.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -83,7 +83,7 @@ Queste righe sono calcolate in ITAR_K®. Inoltre, SpiGes non registra i dettagli
 {{<markdown>}}
 
 - Parte in verde: viene compilata da SpiGes
-- Parte in viola: viene compilata dall'ospedale
+- Parte in lilla: viene compilata dall'ospedale
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_it.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
@@ -115,6 +115,20 @@ se viene individuata una differenza nella KTR_BESCHR, in SpiGes appare un messag
 Tuttavia, SpiGes indicherà che occorre completare manualmente il nome della colonna:
 {{<lineBreak>}}
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Amministrazione pazienti (ambulatoriale): è sempre possibile scegliere tra una ripartizione manuale o automatica ?
+{{<collapsibleBlock groupId="ITARK">}}
+Per compilare la riga ITAR_K® Amministrazione pazienti in ambulatorio, SpiGes tiene conto di entrambi i metodi (ripartizione manuale o automatica). Lo stabilimento può:
+{{<markdown>}}
+
+- Utilizzare ktr_10 per ogni KTR_typ ambulatoriale (301, 302, 303, ecc.).
+- Utilizzare ktr_10 sotto KTR_typ = 403 (importo totale da ripartire).
+
+Se lo stabilimento utilizza una combinazione delle due modalità, l'importo totale sotto 403 sarà ripartito tra **tutte** le attività ambulatoriali e **aggiunto** agli importi individuali.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

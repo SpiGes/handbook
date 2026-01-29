@@ -76,7 +76,7 @@ Dans ITAR_K®, les résultats du Grouper sont utilisés pour ces informations. S
 {{<listItem>}}
 En téléchargeant ITAR_K®, les cellules concernant les exploitations annexes et les cas à cheval sont vides, pourquoi ?
 {{<collapsibleBlock groupId="ITARK">}}
-Il a été décidé, conjointement avec H+, de laisser vide et à compléter par les hôpitaux pour le moment. Ces cellules sont en couleur violet (dès la V.16 d'ITAR_K®) pour montrer ce que SpiGes ne remplit pas du tout.
+Il a été décidé, conjointement avec H+, de laisser vide et à compléter par les hôpitaux pour le moment. Ces cellules sont en couleur lilas (dès la V.16 d'ITAR_K®) pour montrer ce que SpiGes ne remplit pas du tout.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -87,7 +87,7 @@ Ces lignes sont calculées dans ITAR_K®. Par ailleurs, SpiGes ne collecte pas l
 {{<markdown>}}
 
 - En vert: sera rempli par SpiGes
-- En violet: sera rempli par l'hôpital
+- En lilas: sera rempli par l'hôpital
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_fr.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
@@ -119,6 +119,20 @@ Si la distinction est faite dans la KTR_BESCHR, un message d'erreur apparaît da
 SpiGes va toutefois vous indiquer qu'il faut compléter ce nom de colonne manuellement:  
 {{<lineBreak>}}
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Administration des patients (ambulatoire): est-ce toujours possible de choisir entre une répartition manuelle ou automatique ?
+{{<collapsibleBlock groupId="ITARK">}}
+Pour remplir la ligne ITAR_K® Administration des patients en ambulatoire, SpiGes prend en compte les deux façons (répartition manuelle ou répartition automatique). L’établissement peut:
+{{<markdown>}}
+
+- Utiliser le ktr_10 pour chaque KTR_typ ambulatoire (301, 302, 303, etc.).
+- Utiliser le ktr_10 sous KTR_typ = 403 (montant total à répartir).
+
+Si l’établissement utilise une combinaison des deux, le montant total sous 403 sera réparti entre **toutes** les activités ambulatoires et **additionné** aux montants individuels.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 

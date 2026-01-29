@@ -77,7 +77,7 @@ In ITAR_K® werden die Grouper-Ergebnisse für diese Informationen verwendet. Nu
 {{<listItem>}}
 Beim Herunterladen von ITAR_K® sind die Zellen für Nebenbetriebe und Überlieger leer. Warum ?
 {{<collapsibleBlock groupId="ITARK">}}
-Gemeinsam mit H+ wurde beschlossen, diese Felder vorerst leer zu lassen und von den Spitälern ausfüllen zu lassen. Diese Felder sind violett markiert (ab Version 16 von ITAR_K®), um zu zeigen, dass SpiGes diese Felder nicht ausfüllt.
+Gemeinsam mit H+ wurde beschlossen, diese Felder vorerst leer zu lassen und von den Spitälern ausfüllen zu lassen. Diese Felder sind lila markiert (ab Version 16 von ITAR_K®), um zu zeigen, dass SpiGes diese Felder nicht ausfüllt.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
@@ -88,7 +88,7 @@ Diese Zeilen werden in ITAR_K® berechnet. Ausserdem erfasst SpiGes keine Detail
 {{<markdown>}}
 
 - Grün: wird von SpiGes ausgefüllt  
-- Violett: wird vom Spital ausgefüllt
+- Lila: wird vom Spital ausgefüllt
 {{</markdown>}}
 {{<insertImage image="itark_hot_ocp_de.png" class="edge max-w-90">}}
 {{</collapsibleBlock>}}
@@ -120,6 +120,19 @@ Wenn in der KTR_BESCHR eine Unterscheidung getroffen wird, erscheint in SpiGes e
 SpiGes weist Sie jedoch darauf hin, dass Sie diesen Spaltennamen manuell ergänzen müssen:  
 {{<lineBreak>}}
 {{<insertImage image="itark_tarifambu.png" class="edge max-w-90">}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Patientenadministration (ambulant): ist es immer möglich, zwischen einer manuellen und einer automatischen Aufteilung zu wählen ?
+{{<collapsibleBlock groupId="ITARK">}}
+Um die Zeile ITAR_K® ambulante Patientenadministration auszufüllen, berücksichtigt SpiGes die zwei Möglichkeiten (manuelle oder automatische Aufteilung). Der Betrieb kann:
+{{<markdown>}}
+
+- ktr_10 unter KTR_typ = 403 verwenden (zu verteilender Gesamtbetrag).
+
+Wenn der Betrieb eine Kombination aus beiden verwendet, wird der Gesamtbetrag auf **alle** ambulanten Aktivitäten aufgeteilt und zu den Einzelbeträgen **addiert**.
+{{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
