@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.26.0] - 2026.02.04
+
+### New
+
+#### Documentation
+
+- [#322](https://github.com/SpiGes/handbook/issues/322) - ROLE clôture à changer pour KT_Superuser
+
 ## [0.25.0] - 2026.01.29
 
 ### New

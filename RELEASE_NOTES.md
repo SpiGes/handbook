@@ -1,14 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.25.0]
+# Release Notes - SpiGes Documentation Version [0.26.0]
 
-## Release Date: 2026.01.29
+## Release Date: 2026.02.04
 
 ### New
 
 #### Documentation
 
-- [#320](https://github.com/SpiGes/handbook/issues/320) - small corrections
-- [#317](https://github.com/SpiGes/handbook/issues/317) - Adapter rôle user
-- [#315](https://github.com/SpiGes/handbook/issues/315) - Revoir détail exports FR
+- [#322](https://github.com/SpiGes/handbook/issues/322) - ROLE clôture à changer pour KT_Superuser
 
 ## Contributors
 
