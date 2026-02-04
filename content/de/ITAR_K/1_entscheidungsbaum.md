@@ -1,7 +1,7 @@
 ---
 title: Entscheidungsbaum
 slug: entscheidungsbaum
-description: "Auf dieser Seite finden Sie verschiedene Informationen zur Erstellung der Datei ITAR_K®."
+description: "Auf dieser Seite finden Sie verschiedene Informationen zur Erstellung des ITAR_K®."
 weight: 60
 type: docs
 keywords: []
