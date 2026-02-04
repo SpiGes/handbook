@@ -1,7 +1,7 @@
 ---
 title: Prozess
 slug: itark_prozess
-description: "Auf dieser Seite finden Sie verschiedene Informationen zum Prozess der Generietung der ITAR_K®-Datei."
+description: "Auf dieser Seite finden Sie verschiedene Informationen zur Generierung des ITAR_K®."
 weight: 70
 type: docs
 keywords: []
@@ -21,6 +21,6 @@ keywords: []
 {{<lineBreak>}}
 *Hinweis: Wenn die provisorische Version nicht korrekt ist, kann das Spital den Vorgang wiederholen, indem es entweder korrigierte Daten erneut in SpiGes hochlädt oder die Daten in der automatischen Version ändert.*
 
-Nach der finalen und signierten Version kann ITAR_K® nicht mehr geändert werden, da die SpiGes-Daten endgültig sind. Wenn nachträglich eine Korrektur vorgenommen werden muss, kann das Spital den TEST-Erhebung verwenden, um den gesamten Prozess erneut durchzuführen und eine neue Version von ITAR_K® zu erhalten, die jedoch nicht signiert wird.
+Nach der finalen und signierten Version kann ITAR_K® nicht mehr geändert werden, da die SpiGes-Daten endgültig sind. Wenn nachträglich eine Korrektur vorgenommen werden muss, kann das Spital die TEST-Erhebung verwenden, um den gesamten Prozess erneut durchzuführen und eine neue Version von ITAR_K® zu erhalten, die jedoch nicht signiert wird.
 
 {{<insertImage image="ITARK_processus_DE.png" class="edge max-w-90">}}
