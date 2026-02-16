@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.27.0] - 2026.02.16
+
+### New
+
+#### Documentation
+
+- [#324](https://github.com/SpiGes/handbook/issues/324) - Add Kennzahlen file
+
 ## [0.26.0] - 2026.02.04
 
 ### New

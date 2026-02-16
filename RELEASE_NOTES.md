@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.26.0]
+# Release Notes - SpiGes Documentation Version [0.27.0]
 
-## Release Date: 2026.02.04
+## Release Date: 2026.02.16
 
 ### New
 
 #### Documentation
 
-- [#322](https://github.com/SpiGes/handbook/issues/322) - ROLE clôture à changer pour KT_Superuser
+- [#324](https://github.com/SpiGes/handbook/issues/324) - Add Kennzahlen file
 
 ## Contributors
 
