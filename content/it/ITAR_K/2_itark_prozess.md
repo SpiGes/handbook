@@ -12,7 +12,7 @@ keywords: []
 3. Gli ospedali possono esportare una prima versione di ITAR_K®. Questa **versione automatica** contiene i dati rilevati da SpiGes, che sono stati preparati in modo da includere il maggior numero possibile di elementi richiesti da ITAR_K®.
 {{<lineBreak>}}
 *Nota: L’esportazione ITAR_K® avviene a livello dell’impresa, pertanto, per richiedere l’esportazione è necessario disporre dell’accesso a un account dell’impresa. Se l’impresa ha più ospedali (BURGESV), vengono creati più ITAR_K® (uno per ogni BURGESV).*
-4. Gli ospedali possono completare la versione automatica (parte viola) per ottenere i dati mancanti (non rilevati da SpiGes).
+4. Gli ospedali possono completare la versione automatica (parte lilla) per ottenere i dati mancanti (non rilevati da SpiGes).
 5. Gli ospedali possono trasmettere la loro versione automatica completata all'associazione SpitalBenchmark (SBM) per il controllo e la convalida dei dati.
 6. Gli ospedali devono poi caricare la versione automatica completata su SpiGes.
 7. I dati sono elaborati da SpiGes. in questa fase i dati aggiunti dagli ospedali vengono ripresi, controllati e convalidati come parte della rilevazione.

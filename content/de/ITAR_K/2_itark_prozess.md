@@ -12,7 +12,7 @@ keywords: []
 3. Die Spitäler können eine erste Version von ITAR_K® exportieren. Diese **automatische Version** enthält die von SpiGes erfassten Daten, die so aufbereitet wurden, dass sie möglichst viele der von ITAR_K® geforderten Elemente erfüllen.
 {{<lineBreak>}}
 *Hinweis: Der ITAR_K®-Export erfolgt auf Unternehmensebene, daher ist für die Beantragung des Exports ein Unternehmenszugang erforderlich. Wenn das Unternehmen mehrere Spitäler (BURGESV) hat, werden mehrere ITAR_K® erstellt (einer pro BURGESV).*
-4. Die Spitäler können die automatische Version ergänzen (violetter Teil), um die fehlenden Daten (die nicht von SpiGes erfasst wurden) zu erhalten.
+4. Die Spitäler können die automatische Version ergänzen (lilafarbener Teil), um die fehlenden Daten (die nicht von SpiGes erfasst wurden) zu erhalten.
 5. Die Spitäler können ihre automatische ergänzte Version an den Verein SpitalBenchmark (SBM) übermitteln, damit ihre Daten überprüft und validiert werden können.
 6. Anschliessend müssen die Spitäler die ergänzte automatische Version in SpiGes hochladen.
 7. Die Daten werden von SpiGes verarbeitet: Die von den Spitälern ergänzten Daten werden in diesem Schritt übernommen. Die Daten werden überprüft und als Teil der Erhebung validiert.
