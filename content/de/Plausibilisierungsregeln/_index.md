@@ -15,4 +15,4 @@ Sie können die Prüfungsregeln in Form einer CSV Datei herunterladen. Es sind a
 Die Berechnung der Kennzahlen finden Sie in der folgenden CSV Datei.
 Die Datei enthält alle Schritte, die zur Ermittlung der Kennzahlen erforderlich sind.
 
-[Herunterladen der Datei: Rules_PRD](https://github.com/SpiGes/Rules-PRD/releases/latest/download/Rules_PRD.csv)
+[Herunterladen der Datei: Kennzahlen](https://github.com/SpiGes/kennzahlen/releases/latest/download/Kennzahlen-PRD.xlsx)
