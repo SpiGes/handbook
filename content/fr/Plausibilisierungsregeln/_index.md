@@ -18,6 +18,7 @@ Le fichier indique l'ensemble des étapes afin d'obtenir les résultats des chif
 [Télécharger le fichier: Kennzahlen](https://github.com/SpiGes/kennzahlen/releases/latest/download/Kennzahlen-PRD.xlsx)
 
 {{<markdown>}}
+
 - Les activités et les systèmes tarifaires sont définies d'après le tarif:
 |activité|tarif|système tarifaire|tarif|
 |---------|---------|---------|---------|
