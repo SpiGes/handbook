@@ -26,7 +26,7 @@ Le fichier indique l'ensemble des étapes afin d'obtenir les résultats des chif
 |Psychiatrie|5,6|TARPSY|5|
 |Réadaptation|3,4|ST Reha|3|
 - La notion de SORTIES s'applique uniquement aux cas A. La notion de CAS s'applique à tous les cas (A,B,C).
-- Les jours de soins (LOS), le CMI/DMI, les cas par flag SwissDRG sont calculés avec les données récoltées du grouper SwissDRG. Si des cas non pas pu être groupés, ils manqueront au résultat de l'établissement. Les cas non groupés sont affichés dans les contrôles au cas par cas. 
+- Les jours de soins (LOS), le CMI/DMI, les cas par flag SwissDRG sont calculés avec les données récoltées du grouper SwissDRG. Si des cas non pas pu être groupés, ils manqueront au résultat de l'établissement. Les cas non groupés sont affichés dans les contrôles au cas par cas.
 - Les coûts et revenus par cas sont, actuellement, déterminés de manière simple: coûts totaux / sorties resp. revenus totaux / sorties.
 - Pour les calculs des coûts, sans précision particulière, les CUI selon OCP sont pris en compte. Généralement, il s'agit du calcul périodique, soit en enlevant les coûts des patients B/C de l'année passée. S'il s'agit du calcul unitaire (coûts totaux des patients sortis dans l'année), cela est indiqué. Si aucun coût n'a été donné pour les cas B/C, la valeur 0 est prise en compte et le résultat correspond au calcul unitaire. 
 {{</markdown>}}
