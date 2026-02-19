@@ -24,8 +24,8 @@ Die Datei enthält alle Schritte, die zur Ermittlung der Kennzahlen erforderlich
 |Akut|1,2|SwissDRG|1|
 |Psychiatrie|5,6|TARPSY|5|
 |Rehabilitation|3,4|ST Reha|3|
-- Der Begriff AUSTRITTE gilt nur für Fälle A. Der Begriff FÄLLE gilt für alle Fälle (A, B, C).
-- Die Pflegetage (LOS), der CMI/DMI und die SwissDRG-Flag Fälle werden anhand der aus dem SwissDRG-Grouper gesammelten Daten berechnet. Wenn Fälle nicht gruppiert werden konnten, fehlen sie im Ergebnis des Betriebs.
-- Die Kosten und Erlöse pro Fall werden derzeit auf einfache Weise ermittelt: Gesamtkosten-Gesamterlöse / Austritte.
-- Für die Kostenberechnungen werden, sofern nicht anders angegeben, die ANL gemäss VKL berücksichtigt. In der Regel handelt es sich um Zeitrechnung, bei der die Kosten für B/C-Patienten des Vorjahres abgezogen werden. Handelt es sich um Stückrechnung(Gesamtkosten der im Laufe des Jahres entlassenen Patienten), wird dies angegeben. Wurden keine Kosten für B/C-Fälle angegeben, wird der Wert 0 berücksichtigt und das Ergebnis entspricht die Stückrechnung.
+- Der Begriff AUSTRITTE gilt nur für A-Fälle. Der Begriff FÄLLE gilt für alle Fälle (A, B, C).
+- Die Pflegetage (LOS), der CMI/DMI und die SwissDRG-Flags werden anhand der aus dem SwissDRG-Grouper gesammelten Daten berechnet. Wenn Fälle nicht gruppiert werden konnten, fehlen sie im Ergebnis des Betriebs. Zudem werden sie in einer Einzelfallprüfung angezeigt.
+- Die Kosten und Erlöse pro Fall werden derzeit auf einfache Weise ermittelt: Gesamtkosten / Austritte resp. Gesamterlöse / Austritte.
+- Für die Kostenberechnungen werden, sofern nicht anders angegeben, die ANK gemäss VKL berücksichtigt. In der Regel handelt es sich um Zeitrechnung, bei der die Kosten für B/C-Patienten des Vorjahres abgezogen werden. Handelt es sich um Stückrechnung(Gesamtkosten der im Laufe des Jahres entlassenen Patienten), wird dies angegeben. Wurden keine Kosten für B/C-Fälle angegeben, wird der Wert 0 berücksichtigt und das Ergebnis entspricht die Stückrechnung.
 {{</markdown>}}
