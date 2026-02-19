@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.27.0]
+# Release Notes - SpiGes Documentation Version [0.28.0]
 
-## Release Date: 2026.02.16
+## Release Date: 2026.02.19
 
 ### New
 
 #### Documentation
 
-- [#324](https://github.com/SpiGes/handbook/issues/324) - Add Kennzahlen file
+- [#326](https://github.com/SpiGes/handbook/issues/326) - add explanations to Kennzahlen
 
 ## Contributors
 
