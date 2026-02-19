@@ -18,6 +18,7 @@ Die Datei enthält alle Schritte, die zur Ermittlung der Kennzahlen erforderlich
 [Herunterladen der Datei: Kennzahlen](https://github.com/SpiGes/kennzahlen/releases/latest/download/Kennzahlen-PRD.xlsx)
 
 {{<markdown>}}
+
 - Die Aktivitäten und Tarifsysteme werden anhand des Tarifs definiert:
 |Aktivität|Tarif|Tarifsystem|Tarif|
 |---------|---------|---------|---------|
