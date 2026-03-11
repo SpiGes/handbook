@@ -18,7 +18,7 @@ keywords: []
 4. Die Spitäler können die automatische Version ergänzen (lilafarbener Teil), um die fehlenden Daten (die nicht von SpiGes erfasst wurden) zu erhalten.
 5. Die Spitäler können ihre automatische ergänzte Version an den Verein SpitalBenchmark (SBM) übermitteln, damit ihre Daten überprüft und validiert werden können.
 6. Anschliessend müssen die Spitäler die ergänzte automatische Version in SpiGes hochladen.
-{{<insertImage image="reupload_DE.png" class="edge max-w-90">}}
+{{<insertImage image="reupload_DE.png" class="edge max-w-70">}}
 7. Die Daten werden von SpiGes verarbeitet: Die von den Spitälern ergänzten Daten werden in diesem Schritt übernommen. Die Daten werden überprüft und als Teil der Erhebung validiert.
 8. Die Spitäler können eine zweite Version von ITAR_K® exportieren. Diese **provisorische Version** enthält alle Daten (Basisdaten + ergänzte Daten).
 {{<insertImage image="version_prov_DE.png" class="edge max-w-90">}}
