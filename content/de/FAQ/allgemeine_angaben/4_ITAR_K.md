@@ -129,12 +129,32 @@ Patientenadministration (ambulant): ist es immer möglich, zwischen einer manuel
 Um die Zeile ITAR_K® ambulante Patientenadministration auszufüllen, berücksichtigt SpiGes die zwei Möglichkeiten (manuelle oder automatische Aufteilung). Der Betrieb kann:
 {{<markdown>}}
 
+- ktr_10 für jeden ambulanten KTR_typ (301, 302, 303 usw.) verwenden.
 - ktr_10 unter KTR_typ = 403 verwenden (zu verteilender Gesamtbetrag).
 
 Wenn der Betrieb eine Kombination aus beiden verwendet, wird der Gesamtbetrag auf **alle** ambulanten Aktivitäten aufgeteilt und zu den Einzelbeträgen **addiert**.
 {{</markdown>}}
 {{</collapsibleBlock>}}
 {{</listItem>}}
+
+{{<listItem>}}
+Ich habe einen ITAR_K®-Export gestartet, aber weder eine E-Mail noch eine Datei erhalten, warum ?
+{{<collapsibleBlock groupId="ITARK">}}
+Die Erstellung der ITAR_K®-Datei kann einige Zeit in Anspruch nehmen. Wenn mehrere Exporte gleichzeitig angefordert werden, wird eine Warteschlange eingerichtet, um eine Überlastung des Servers zu vermeiden. Bei Ihrer Exportanforderung erscheint eine grüne Meldung, die anzeigt, dass der Export angefordert wurde. Sie erhalten eine E-Mail mit einem Link zum Herunterladen der Datei, sobald diese fertig ist.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+Der ITAR_K®-Export ist leer oder ich erhalte eine Fehlermeldung, warum?
+{{<collapsibleBlock groupId="ITARK">}}
+{{<markdown>}}
+Für die Beantragung eines ITAR_K® sind Mindestangaben erforderlich. Für die **automatische Version** sind mindestens Administratives- und KTR-Daten erforderlich. Für die **provisorische Version** muss die ausgefüllte automatische Version erneut hochgeladen werden (Import der ITAR_K®-Datei im xlxs-Format, siehe [ITAR_K®-Prozess](ITAR_K/2_itark_prozess)). 
+
+Wenn weitere Angaben fehlen, wird das ITAR_K® erstellt, aber Sie erhalten eine Nachricht mit den fehlenden Angaben.
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 
 {{</numberedList>}}
 {{</faqBlock>}}

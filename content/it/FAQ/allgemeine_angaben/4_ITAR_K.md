@@ -132,5 +132,23 @@ Se lo stabilimento utilizza una combinazione delle due modalità, l'importo tota
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Ho lanciato un'esportazione ITAR_K®, ma non ho ricevuto né un'e-mail né un file, perché ?
+{{<collapsibleBlock groupId="ITARK">}}
+La generazione del file ITAR_K® può richiedere un po' di tempo. Se vengono richieste più esportazioni contemporaneamente, viene creata una coda per evitare di sovraccaricare il server. Quando richiedi l'esportazione, viene visualizzato un messaggio verde per indicare che l'esportazione è stata richiesta. Riceverai un'e-mail con un link per scaricare il file quando sarà pronto.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+L'esportazione ITAR_K® è vuota o ricevo un errore, perché ? 
+{{<collapsibleBlock groupId="ITARK">}}
+{{<markdown>}}
+Per ottenere un ITAR_K® è necessario fornire un minimo di dati. Per la **versione automatica** sono necessari almeno i dati amministrativi e UFI. Per la **versione provvisoria** è necessario aver ricaricato la versione automatica completata (importazione del file ITAR_K® in formato xlxs, cfr.[processo ITAR_K®](ITAR_K/2_itark_prozess)). 
+
+Se mancano altri elementi, ITAR_K® verrà creato, ma vi verrà inviata una notifica con i dati mancanti.
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
