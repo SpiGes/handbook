@@ -136,5 +136,23 @@ Si l’établissement utilise une combinaison des deux, le montant total sous 40
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+J'ai lancé un export ITAR_K® mais je n'ai pas reçu d'email, ni de fichier ?
+{{<collapsibleBlock groupId="ITARK">}}
+La génération du fichier ITAR_K® peut prendre un peu temps. Si plusieurs exports sont demandés en même temps, une file d'attente est mise en place pour éviter de surcharger le serveur. Lors de votre demande d'export, un message vert apparaît pour indiquer que l'export a été demandé. Vous recevrez un email avec un lien pour le téléchargement du fichier quand le fichier est prêt.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
+{{<listItem>}}
+L'export ITAR_K® est vide ou je reçois une erreur, pourquoi ?
+{{<collapsibleBlock groupId="ITARK">}}
+{{<markdown>}}
+Un minimum de données est requis pour obtenir un ITAR_K®. Pour la **version automatique**, il faut au moins des données Administratives et CUFI. Pour la **version provisoire**, il faut avoir fait le re-uploard de la version automatique complétée (import du fichier ITAR_K® sous format xlxs, cf. [processus ITAR_K®](ITAR_K/2_itark_prozess)). 
+
+Si d'autres éléments manquent, l'ITAR_K® sera créé mais vous recevrez une information avec les données manquantes. 
+{{</markdown>}}
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
