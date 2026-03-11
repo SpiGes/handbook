@@ -21,6 +21,7 @@ keywords: []
 {{<insertImage image="reupload_FR.png" class="edge max-w-90">}}
 7. Les données sont traitées par SpiGes: les données complétées par les hôpitaux sont reprises à cette étape. Les données sont vérifiées et validées comme une partie du relevé.
 8. Les hôpitaux peuvent exporter une seconde version d'ITAR_K®. Cette **version provisoire** contient l'ensemble des données (de base + complétées).
+{{<insertImage image="version_prov_FR.png" class="edge max-w-90">}}
 9. Si la version provisoire est correcte pour l'hôpital et que le relevé des données a été clôturé dans SpiGes, l'hôpital peut lancer l'export de la dernière version d'ITAR_K®. Cette **version finale** sera **signée** pour garantir son authenticité.
 {{<lineBreak>}}
 *A noter: Si la version provisoire n'est pas correcte, l'hôpital peut recommencer le processus, soit en re-téléchargeant des données corrigées dans SpiGes, soit en modifiant les données dans la version automatique.*

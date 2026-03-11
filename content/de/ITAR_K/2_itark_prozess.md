@@ -21,6 +21,7 @@ keywords: []
 {{<insertImage image="reupload_DE.png" class="edge max-w-90">}}
 7. Die Daten werden von SpiGes verarbeitet: Die von den Spitälern ergänzten Daten werden in diesem Schritt übernommen. Die Daten werden überprüft und als Teil der Erhebung validiert.
 8. Die Spitäler können eine zweite Version von ITAR_K® exportieren. Diese **provisorische Version** enthält alle Daten (Basisdaten + ergänzte Daten).
+{{<insertImage image="version_prov_DE.png" class="edge max-w-90">}}
 9. Wenn die provisorische Version für das Spital korrekt ist und die Datenerfassung in SpiGes abgeschlossen wurde, kann das Spital den Export der endgültigen Version von ITAR_K® starten. Diese **finale Version** wird **signiert**, um ihre Authentizität zu gewährleisten.
 {{<lineBreak>}}
 *Hinweis: Wenn die provisorische Version nicht korrekt ist, kann das Spital den Vorgang wiederholen, indem es entweder korrigierte Daten erneut in SpiGes hochlädt oder die Daten in der automatischen Version ändert.*
