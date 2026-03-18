@@ -8,4 +8,4 @@ keywords: []
 ---
 
 Présentation du webinaire du 16 mars 2026: ITAR_K® mit SpiGes erstellen / Créer ITAR_K® avec SpiGes.
-[Télécharger la présentation](https://github.com/SpiGes/layouts/2026_03_16_ITAR_K.pdf)
+[Webinare_16.03.2026](layouts.2026_03_16_ITAR_K.pdf)
