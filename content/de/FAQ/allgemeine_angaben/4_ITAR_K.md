@@ -155,6 +155,12 @@ Wenn weitere Angaben fehlen, wird das ITAR_K® erstellt, aber Sie erhalten eine 
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Alle Spalten des ambulanten Bereichs sind ausgeblendet, warum?
+{{<collapsibleBlock groupId="ITARK">}}
+Das System blendet Spalten aus, die keine Daten enthalten. Wenn keine Spalten zur Ambulanz angezeigt werden, bedeutet dies, dass SpiGes keine Daten zur Ambulanz erhalten hat (Daten unter KostentraegerStandort oder KostentraegerUnternehmen).
+{{</collapsibleBlock>}}
+{{</listItem>}}
 
 {{</numberedList>}}
 {{</faqBlock>}}

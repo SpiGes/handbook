@@ -150,5 +150,12 @@ Se mancano altri elementi, ITAR_K® verrà creato, ma vi verrà inviata una noti
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Tutte le colonne del deambulatorio sono nascoste, perché?
+{{<collapsibleBlock groupId="ITARK">}}
+Il sistema nasconde le colonne prive di dati. Se non viene visualizzata alcuna colonna relativa all'ambulatorio, significa che SpiGes non ha ricevuto dati relativi all'ambulatorio (dati presenti in KostentraegerStandort o KostentraegerUnternehmen).
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

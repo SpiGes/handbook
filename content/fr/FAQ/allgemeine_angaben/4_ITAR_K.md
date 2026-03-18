@@ -154,5 +154,12 @@ Si d'autres éléments manquent, l'ITAR_K® sera créé mais une information ave
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Toutes les colonnes de l'ambulatoire sont masquées, pourquoi ?
+{{<collapsibleBlock groupId="ITARK">}}
+Le système masque les colonnes qui n'ont pas de données. Si aucune colonne de l'ambulatoire n'apparaît, c'est que SpiGes n'a pas reçu de données sur l'ambulatoire (données sous KostentraegerStandort ou KostentraegerUnternehmen). 
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
