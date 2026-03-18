@@ -100,6 +100,8 @@ description = "Guida e informazioni su SpiGes"
       block = true
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.renderHooks.link]
+      useEmbedded = "always"
   [markup.highlight]
     # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
     style = "tango"
