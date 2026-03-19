@@ -1,12 +1,14 @@
-# Release Notes - SpiGes Documentation Version [0.28.0]
+# Release Notes - SpiGes Documentation Version [0.29.0]
 
-## Release Date: 2026.02.19
+## Release Date: 2026.03.19
 
 ### New
 
 #### Documentation
 
-- [#326](https://github.com/SpiGes/handbook/issues/326) - add explanations to Kennzahlen
+- [#332](https://github.com/SpiGes/handbook/issues/332) - Change PDF
+- [#329](https://github.com/SpiGes/handbook/issues/329) - Add PDF webinar 16.03.2026
+- [#328](https://github.com/SpiGes/handbook/issues/328) - Complete ITAR_K process
 
 ## Contributors
 

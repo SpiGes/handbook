@@ -2,6 +2,16 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.29.0] - 2026.03.19
+
+### New
+
+#### Documentation
+
+- [#332](https://github.com/SpiGes/handbook/issues/332) - Change PDF
+- [#329](https://github.com/SpiGes/handbook/issues/329) - Add PDF webinar 16.03.2026
+- [#328](https://github.com/SpiGes/handbook/issues/328) - Complete ITAR_K process
+
 ## [0.28.0] - 2026.02.19
 
 ### New
