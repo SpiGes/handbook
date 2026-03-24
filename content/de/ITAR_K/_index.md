@@ -10,3 +10,17 @@ keywords: []
 Webinar vom 16. März 2026:  
 ITAR_K® mit SpiGes erstellen / Créer ITAR_K® avec SpiGes  
 [Die Präsentation herunterladen](downloads/2026_03_16_ITAR_K.pdf)
+
+
+{{<markdown>}}
+Letzte Änderungen/Korrekturen in der automatischen Version von ITAR_K®: 
+|Datum|Registerkarte|Änderungen|
+|---------|---------|---------|
+|23.03.2026|Zusatzentgelt und Unbewertetes Zusaztentgelt|Vertauschung der Spalten Psychiatrie und Rehabilitation|
+|23.03.2026|KTR-Ausweis Gesamtansicht|Aufteilung der ANK (VKL und REKOLE) Patientenadministration mit dem KTR_TYP 403|
+|24.03.2026|KTR-Ausweis Gesamtansicht|Kosten desselben KTR_TYP, die auf zwei Ebenen (Standort und Unternehmen) ausgewiesen werden|
+|24.03.2026|Gesamtansicht|Abrechnungspunkte für MTK Ernährungsberatung|
+
+**In Bearbeitung: Abzug 65-Erträge**
+
+{{</markdown>}}

@@ -11,9 +11,9 @@ Webinaire du 16 mars 2026:
 ITAR_K® mit SpiGes erstellen / Créer ITAR_K® avec SpiGes  
 [Télécharger la présentation](downloads/2026_03_16_ITAR_K.pdf)
 
-Dernières modifications/corrections: 
-{{<markdown>}}
 
+{{<markdown>}}
+Dernières modifications/corrections dans la version automatique d'ITAR_K®: 
 |Date|Onglet|Modifications|
 |---------|---------|---------|
 |23.03.2026|Rémunérations supplémentaires et rémun. suppl. non évaluées|Inversion entre colonnes psychiatrie et réadaptation|
