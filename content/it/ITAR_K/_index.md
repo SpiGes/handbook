@@ -20,7 +20,6 @@ Ultime modifiche/correzioni nella versione automatica di ITAR_K®:
 |23.03.2026|Rilevamento CUFI Pres. globale|Ripartizione dei CUI (OCPre e REKOLE) nell'Amministrazione pazienti con il KTR_TYP 403|
 |24.03.2026|Rilevamento CUFI Pres. globale|Costi dello stesso KTR_TYP riportati su due livelli (Sede e Imprese)|
 |24.03.2026|Presentazione globale|Punti fatturati per consulenza alimentare solo CTM|
-
-**In elaborazione: deduzione ricavi 65**
+|25.03.2026|Info supplementari|Deduzione ricavi 65|
 
 {{</markdown>}}

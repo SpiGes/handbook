@@ -20,7 +20,6 @@ Dernières modifications/corrections dans la version automatique d'ITAR_K®:
 |23.03.2026|Relevé CUFI Aperçu global|Répartition des CUI (OCP et REKOLE) Administriation des patients avec le KTR_TYP 403|
 |24.03.2026|Relevé CUFI Aperçu global|Coûts d'un même KTR_TYP livrés sur deux niveaux (Site et Entreprise)|
 |24.03.2026|Aperçu global|Points facturées pour Conseil nutritionnels CTM|
-
-**En cours: déduction des produits 65**
+|25.03.2026|Infos supplémentaires|Déduction des produits 65|
 
 {{</markdown>}}

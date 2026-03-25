@@ -20,7 +20,6 @@ Letzte Änderungen/Korrekturen in der automatischen Version von ITAR_K®:
 |23.03.2026|KTR-Ausweis Gesamtansicht|Aufteilung der ANK (VKL und REKOLE) Patientenadministration mit dem KTR_TYP 403|
 |24.03.2026|KTR-Ausweis Gesamtansicht|Kosten desselben KTR_TYP, die auf zwei Ebenen (Standort und Unternehmen) ausgewiesen werden|
 |24.03.2026|Gesamtansicht|Abrechnungspunkte für MTK Ernährungsberatung|
-
-**In Bearbeitung: Abzug 65-Erträge**
+|25.03.2026|Zusatzinfos|Abzug 65-Erträge|
 
 {{</markdown>}}
