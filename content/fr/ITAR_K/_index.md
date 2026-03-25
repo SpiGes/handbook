@@ -21,5 +21,6 @@ Dernières modifications/corrections dans la version automatique d'ITAR_K®:
 |24.03.2026|Relevé CUFI Aperçu global|Coûts d'un même KTR_TYP livrés sur deux niveaux (Site et Entreprise)|
 |24.03.2026|Aperçu global|Points facturées pour Conseil nutritionnels CTM|
 |25.03.2026|Infos supplémentaires|Déduction des produits 65|
+|25.03.2026|Rémunérations supplémentaires|Mapping des rémunérations supplémentaires, spécialement vers la fin de la liste|
 
 {{</markdown>}}
