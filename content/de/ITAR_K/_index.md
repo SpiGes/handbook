@@ -1,7 +1,7 @@
 ---
 title: ITAR_K®
 slug: itar_k
-description: "In diesem Kapitel finden Sie verschiedene Informationen zur ITAR_K®."
+description: "In diesem Kapitel finden Sie verschiedene Informationen zum ITAR_K®."
 weight: 60
 type: docs
 keywords: []
@@ -16,7 +16,7 @@ ITAR_K® mit SpiGes erstellen / Créer ITAR_K® avec SpiGes
 Letzte Änderungen/Korrekturen in der automatischen Version von ITAR_K®: 
 |Datum|Registerkarte|Änderungen|
 |---------|---------|---------|
-|23.03.2026|Zusatzentgelt und Unbewertetes Zusaztentgelt|Vertauschung der Spalten Psychiatrie und Rehabilitation|
+|23.03.2026|Zusatzentgelt und unbewertetes Zusaztentgelt|Vertauschung der Spalten Psychiatrie und Rehabilitation|
 |23.03.2026|KTR-Ausweis Gesamtansicht|Aufteilung der ANK (VKL und REKOLE) Patientenadministration mit dem KTR_TYP 403|
 |24.03.2026|KTR-Ausweis Gesamtansicht|Kosten desselben KTR_TYP, die auf zwei Ebenen (Standort und Unternehmen) ausgewiesen werden|
 |24.03.2026|Gesamtansicht|Abrechnungspunkte für MTK Ernährungsberatung|
