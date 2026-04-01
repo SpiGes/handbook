@@ -7,14 +7,15 @@ type: docs
 keywords: []
 ---
 
+{{<insertImage image="versions_F.png" class="edge max-w-90">}}
+
 {{<markdown>}}
 
 |Version|Description|Langue|
 |---------|---------|---------|
 |Version automatique|Remplie avec les données SpiGes collectées. Les valeurs qui ne sont pas disponibles dans SpiGes sont affichées en lila.|Reçue en 3 langues (FR-DE-IT)|
 |Version provisoire|Complétée par les données modifiées et complétées manuellement lors du rechargement (re-upload dans SpiGes).|Reçue en 1 langue (celle du re-upload)|
-|Version finale et signée|Dernière version provisoire, qui ne peut être créée qu'après la fin du relevé SpiGes (après clôture). Celle-ci ne peut 
-plus être changée.|Reçue en 1 langue (celle du re-upload), 2 fichiers|
+|Version finale et signée|Dernière version provisoire, qui ne peut être créée qu'après la fin du relevé SpiGes (après clôture). Celle-ci ne peut plus être changée.|Reçue en 1 langue (celle du re-upload), 2 fichiers|
 
 {{</markdown>}}
 
