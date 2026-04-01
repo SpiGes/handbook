@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.30.0]
+# Release Notes - SpiGes Documentation Version [0.31.0]
 
-## Release Date: 2026.03.25
+## Release Date: 2026.04.01
 
 ### New
 
 #### Documentation
 
-- [#335](https://github.com/SpiGes/handbook/issues/335) - Add_modifications_ITAR_K
+- [#337](https://github.com/SpiGes/handbook/issues/337) - Add_complement_ITARK
 
 ## Contributors
 
