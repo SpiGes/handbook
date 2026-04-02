@@ -27,4 +27,9 @@ keywords: []
 {{<lineBreak>}}
 *A noter: Si la version provisoire n'est pas correcte, l'hôpital peut recommencer le processus, soit en re-téléchargeant les données sources corrigées dans SpiGes, soit en modifiant les données dans la version automatique.*
 
+Avant clôture:
+{{<insertImage image="itark_finale_avclot_F.png" class="edge max-w-90">}}
+Après clôture:
+{{<insertImage image="itark_finale_apclot_F.png" class="edge max-w-90">}}
+
 Après la version finale et signée, l'ITAR_K® ne peut plus être modifié car les données SpiGes sont définitives. Si une correction doit être amenée ultérieurement, l'hôpital peut utiliser le relevé TEST pour refaire le processus dans son ensemble et obtenir une nouvelle version d'ITAR_K® qui ne sera toutefois pas signée.

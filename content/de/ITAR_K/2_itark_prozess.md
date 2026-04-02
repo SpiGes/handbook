@@ -27,4 +27,9 @@ keywords: []
 {{<lineBreak>}}
 *Hinweis: Wenn die provisorische Version nicht korrekt ist, kann das Spital den Vorgang wiederholen, indem es entweder die korrigierte Quellendaten erneut in SpiGes hochlädt oder die Daten in der automatischen Version ändert.*
 
+Vor Abschluss:
+{{<insertImage image="itark_finale_avclot_D.png" class="edge max-w-90">}}
+Nach Abschluss:
+{{<insertImage image="itark_finale_apclot_D.png" class="edge max-w-90">}}
+
 Nach der finalen und signierten Version kann ITAR_K® nicht mehr geändert werden, da die SpiGes-Daten endgültig sind. Wenn nachträglich eine Korrektur vorgenommen werden muss, kann das Spital die TEST-Erhebung verwenden, um den gesamten Prozess erneut durchzuführen und eine neue Version von ITAR_K® zu erhalten, die jedoch nicht signiert wird.
