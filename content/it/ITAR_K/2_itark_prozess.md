@@ -29,7 +29,7 @@ keywords: []
 
 Prima della finalizzazione:
 {{<insertImage image="itark_finale_avclot_D.png" class="edge max-w-90">}}
-Dopo il finalizzazione:
+Dopo la finalizzazione:
 {{<insertImage image="itark_finale_apclot_D.png" class="edge max-w-90">}}
 
 Una volta esportata e firmata la versione finale, ITAR_K® non può più essere modificato, poiché i dati SpiGes sono definitivi. Se in seguito dovesse essere necessario apportare correzioni, l’ospedale può utilizzare la rilevazione TEST per eseguire nuovamente l’intero processo e ottenere una nuova versione di ITAR_K®, che tuttavia non sarà firmata.
