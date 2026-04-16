@@ -22,5 +22,7 @@ Dernières modifications/corrections dans la version automatique d'ITAR_K®:
 |24.03.2026|Aperçu global|Points facturées pour Conseil nutritionnels CTM|
 |25.03.2026|Infos supplémentaires|Déduction des produits 65|
 |25.03.2026 / 31.03.2026|Rémunérations supplémentaires|Mapping des rémunérations supplémentaires, spécialement vers la fin de la liste|
+|16.04.2026|Rémunérations supplémentaires|Mapping des rémunérations supplémentaires avec le code CHOP, ZE-2025-20/23/126|
+|16.04.2026|Rémun. suppl. non évaluées|Mapping des rémunérations supplémentaires non évaluées|
 
 {{</markdown>}}
