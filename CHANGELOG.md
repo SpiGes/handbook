@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.33.0] - 2026.04.20
+
+### New
+
+#### Documentation
+
+- [#341](https://github.com/SpiGes/handbook/issues/341) - Add_modif_ITARK_16.04.26
+
 ## [0.32.0] - 2026.04.02
 
 ### New
