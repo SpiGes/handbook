@@ -24,5 +24,6 @@ Ultime modifiche/correzioni nella versione automatica di ITAR_K®:
 |25.03.2026 / 31.03.2026|Fatturazioni supplementari|Mapping delle fatturazioni supplementari, in particolare verso la fine dell'elenco|
 |16.04.2026|Fatturazioni supplementari|Mapping delle fatturazioni supplementari con il code CHOP, ZE-2025-20/23/126|
 |16.04.2026|Fatturazioni supplement. non va|Mapping delle fatturazioni supplementari non va|
+|28.04.2026|Fatturazioni supplement. non va|CHF delle fatturazioni supplementari non va|
 
 {{</markdown>}}
