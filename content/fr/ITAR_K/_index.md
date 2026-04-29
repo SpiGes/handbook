@@ -26,4 +26,6 @@ Dernières modifications/corrections dans la version automatique d'ITAR_K®:
 |16.04.2026|Rémun. suppl. non évaluées|Mapping des rémunérations supplémentaires non évaluées|
 |29.04.2026|Rémunérations supplémentaires|Mapping des rémunérations supplémentaires avec le code CHOP, ZE-2025-228|
 
+**En cours: CHF des rémunérations supplémentaires non évaluées (fonctionne partiellement pour le moment)**
+
 {{</markdown>}}
