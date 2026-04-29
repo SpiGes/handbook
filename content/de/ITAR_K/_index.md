@@ -24,5 +24,8 @@ Letzte Änderungen/Korrekturen in der automatischen Version von ITAR_K®:
 |25.03.2026 / 31.03.2026|Zusatzentgelt|Mapping der Zusatzentgelten, insbesondere am Ende der Liste|
 |16.04.2026|Zusatzentgelt|Mapping der Zusatzentgelten mit dem CHOP-Kode, ZE-2025-20/23/126|
 |16.04.2026|unbewertetes Zusaztentgelt|Mapping der unbewerteten Zusatzentgelten|
+|29.04.2026|Zusaztentgelt|Mapping der Zusatzentgelten mit dem CHOP-Kode, ZE-2025-228|
+
+**In Bearbeitung: CHF der unbewerteten Zusatzentgelten (funktioniert derzeit nur teilweise)**
 
 {{</markdown>}}
