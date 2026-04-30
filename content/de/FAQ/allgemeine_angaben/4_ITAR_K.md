@@ -162,5 +162,13 @@ Das System blendet Spalten aus, die keine Daten enthalten. Wenn keine Spalten zu
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Beim erneuten Hochladen von ITAR_K® erscheint folgende Fehlermeldung:
+{{<insertImage image="erreuritark_D.png" class="edge max-w-90">}}  
+{{<collapsibleBlock groupId="ITARK">}}
+Diese Meldung erscheint in der Regel, wenn der Dateiname nicht mehr mit ITAR_K_ beginnt. Im Vergleich zur automatischen erhaltenen Version muss der Anfang des Dateinamens beibehalten werden. Sie können alles ändern, was auf ITAR_K_ folgt.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}

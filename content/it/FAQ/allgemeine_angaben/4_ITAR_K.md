@@ -157,5 +157,13 @@ Il sistema nasconde le colonne prive di dati. Se non viene visualizzata alcuna c
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
+{{<listItem>}}
+Durante il reupload di ITAR_K®, compare questo messaggio di errore:
+{{<insertImage image="erreuritark_I.png" class="edge max-w-90">}}  
+{{<collapsibleBlock groupId="ITARK">}}
+Questo messaggio compare generalmente quando il nome del file non inizia più con ITAR_K_. Rispetto alla versione automatica ricevuta, è necessario mantenere l'inizio del nome del file. È possibile modificare tutto ciò che segue ITAR_K_.
+{{</collapsibleBlock>}}
+{{</listItem>}}
+
 {{</numberedList>}}
 {{</faqBlock>}}
