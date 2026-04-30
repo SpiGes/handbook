@@ -9,7 +9,7 @@ type: docs
 
 ### Pagina iniziale
 
-{{<insertImage image="ecran_accueil_de.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_accueil_it.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -19,11 +19,13 @@ type: docs
 
 3. il campo «News» fornisce notizie sulla piattaforma.
 
-4. La scheda «Panoramica rilevazioni » consente di accedere ai seti di dati dell'anno in corso e di quello precedente.
+4. La scheda «Panoramica rilevazioni» consente di accedere ai seti di dati dell'anno in corso e di quello precedente.
 
-5. La scheda  «Manuale» rimanda al manuale SpiGes.
+5. La scheda «Esportazione dei dati» consente di accedere alle diverse esportazioni dei dati SpiGes.
 
-6. Il campo «Logout» nell'angolo in alto a destra consente di disconnettersi dalla piattaforma.
+6. La scheda  «Manuale» rimanda al manuale SpiGes.
+
+7. Il campo «Logout» nell'angolo in alto a destra consente di disconnettersi dalla piattaforma.
 
 ### Panoramica rilevazioni
 

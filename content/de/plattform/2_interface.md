@@ -21,9 +21,11 @@ type: docs
 
 4. Die Rubrik "Erhebungsübersicht" bietet Zugang zu den Datensätzen des aktuellen Jahres und der Vorjahre.
 
-5. Die Rubrik "Handbuch" verweist Sie auf das SpiGes-Benutzerhandbuch.
+5. Die Rubrik "Datenexort" bietet Zugang zu den verschiedenen Exporte der SpiGes-Daten.
 
-6. Das Feld "Logout" oben rechts ermöglicht es Ihnen, sich von der Plattform abzumelden.
+6. Die Rubrik "Handbuch" verweist Sie auf das SpiGes-Benutzerhandbuch.
+
+7. Das Feld "Logout" oben rechts ermöglicht es Ihnen, sich von der Plattform abzumelden.
 
 ### Erhebungsubersicht
 
