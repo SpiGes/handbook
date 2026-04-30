@@ -165,7 +165,7 @@ Le système masque les colonnes qui n'ont pas de données. Si aucune colonne de 
 Lors du reupload d'ITAR_K®, ce message d'erreur vient:
 {{<insertImage image="erreuritark_F.png" class="edge max-w-90">}}  
 {{<collapsibleBlock groupId="ITARK">}}
-Ce message apparait généralement lorsque le nom du fichier ne commence plus par ITAR_K_. Par rapport à la version automatique reçue, il faut garder le début du nom de fichier. Vous pouvez modifier tout ce qui suit ITAR_K_. 
+Ce message apparait généralement lorsque le nom du fichier ne commence plus par ITAR_K_. Par rapport à la version automatique reçue, il faut garder le début du nom de fichier. Vous pouvez modifier tout ce qui suit ITAR_K_.
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
