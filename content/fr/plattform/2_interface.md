@@ -9,7 +9,7 @@ type: docs
 
 ### Ecran d'accueil
 
-{{<insertImage image="ecran_accueil.png" class="edge max-w-90">}}
+{{<insertImage image="ecran_accueil_fr.png" class="edge max-w-90">}}
 
 &nbsp;
 
@@ -21,9 +21,11 @@ type: docs
 
 4. L'onglet "Aperçu de l'enquête" permet d'accéder à l'ensembles des données de l'année en cours et des années précédentes.
 
-5. L'onglet "Manuel" vous renvoie vers le manuel d'utilisation SpiGes.
+5. L'onglet "Exportation des données" permet d'accéder aux différents exports des données SpiGes.
 
-6. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme.
+6. L'onglet "Manuel" vous renvoie vers le manuel d'utilisation SpiGes.
+
+7. La case "Logout" en haut à droite vous permet de vous déconnecter de la plateforme.
 
 ### Ecran "Aperçu de l'enquête"
 

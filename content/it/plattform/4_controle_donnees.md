@@ -17,7 +17,8 @@ A tal fine abbiamo previsto le misure riportate di seguito :
 
 - Controllo con file XSD: Pubblichiamo un file XSD che può essere facilmente utilizzato per la verifica dal punto di vista tecnico dei file XML. A questo scopo possono essere utilizzati programmi (gratuiti) e librerie di software.
 - MedPlaus: lo strumento MedPlaus sarà adattato al set di dati SpiGes e dovrebbe essere disponibile dall’autunno 2024. La versione DLL di questo strumento può essere integrata anche nel software del proprio ospedale.
-- Controlli API: Stiamo progettando un'API accessibile a tutti che possa essere utilizzata per verificare la qualità dei dati forniti. In risposta ai dati caricati, verrà inviato un elenco di errori di formato e relativi ai singoli casi. Possono essere forniti i dati anche per casi singoli e le risposte possono essere elaborate automaticamente da programmi. L'API non è tuttavia ancora operativa e non lo sarà prima del 2025.
+<!--
+- Controlli API: Stiamo progettando un'API accessibile a tutti che possa essere utilizzata per verificare la qualità dei dati forniti. In risposta ai dati caricati, verrà inviato un elenco di errori di formato e relativi ai singoli casi. Possono essere forniti i dati anche per casi singoli e le risposte possono essere elaborate automaticamente da programmi. L'API non è tuttavia ancora operativa e non lo sarà prima del 2025.-->
 {{</markdown>}}
 {{</alert>}}
 
