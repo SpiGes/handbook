@@ -81,8 +81,8 @@ Nach Abschluss werden die drei KS-Teile in der Übersicht mit dem Importdatum an
 {{<insertImage image="KS_Teil_d.png" class="edge" maxWidth="60%">}}
 
 Einige Erläuterungen:
-
-- Die KS-Daten können nur importiert werden, wenn der Fragebogen in der KS-Anwendung von den Kantonen validiert wurde.
+<!--
+- Die KS-Daten können nur importiert werden, wenn der Fragebogen in der KS-Anwendung von den Kantonen validiert wurde.-->
 - Nur ein Unternehmensbenutzer kann den KS-Import durchführen. Andere Benutzer sehen das Häkchenfeld nicht.  
 {{</markdown>}}
 {{</collapsibleBlock>}}

@@ -81,7 +81,8 @@ Une fois terminé, les trois parties KS se voient dans le récapitulatif avec la
 
 Quelques précisions:
 
-- Les données KS ne peuvent être importées que si le questionnaire a été validé par les cantons dans l'application KS.
+<!--
+- Les données KS ne peuvent être importées que si le questionnaire a été validé par les cantons dans l'application KS.-->
 - Seul un utilisateur Entreprise peut soumettre une requête d'import KS. Les autres utilisateurs ne voient pas la case à cocher.  
 {{</markdown>}}
 {{</collapsibleBlock>}}

@@ -39,8 +39,17 @@ Per il 2024 (dati 2023), SwissDRG SA ha richiesto i dettagli dei costi di utiliz
 
 - Si tratta solo di una rilevazione di prova da parte di SwissDRG SA. In caso di passaggio definitivo alla OCPre, i costi di utilizzo delle immobilizzazioni per centro di costo in SpiGes verrebbero addebitati in base alla OCPre anziché a REKOLE® e i costi di utilizzo delle immobilizzazioni di REKOLE come totale.
 - In sintesi, i costi di utilizzo delle immobilizzazioni devono essere rilevati secondo i seguenti metodi:
-{{</markdown>}}
 
+|Variabili|Metodo ANK|
+|---------|------------|
+|Variabili da «ktr_10_ank» fino «ktr_77_ank»|REKOLE®|
+|Variabili «ktr_44_vkl»|OCPre|
+|KS FIBU: SA6, in particolare la Var. dalla A.15.06 fino alla A.15.06.05|OCPre|
+|Ponte di sintonizzazione KS: SA81-84|OCPre|
+|Ponte di sintonizzazione KS: SA85, Var. dalla A.17.22.25 fino alla A.17.24.28|REKOLE®|
+
+{{</markdown>}}
+<!--
 <table class="w-100">
   <tr>
     <th style="width:65%"> Variabili </div></th>
@@ -69,7 +78,7 @@ Per il 2024 (dati 2023), SwissDRG SA ha richiesto i dettagli dei costi di utiliz
  </td>
     <td> REKOLE® </td>
   </tr>
-</table>
+</table>-->
 {{</collapsibleBlock>}}
 {{</listItem>}}
 
