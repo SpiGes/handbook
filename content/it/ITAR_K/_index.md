@@ -26,5 +26,7 @@ Ultime modifiche/correzioni nella versione automatica di ITAR_K®:
 |16.04.2026|Fatturazioni supplement. non va|Mapping delle fatturazioni supplementari non va|
 |29.04.2026|Fatturazioni supplementari|Mapping delle fatturazioni supplementari con il code CHOP, ZE-2025-228|
 |30.04.2026|Fatturazioni supplement. non va|CHF delle fatturazioni supplementari non va|
+|12.05.2026|Versione finale e firmata|mascheramento delle colonne, versione Istituzione, tariffe ambulatoriali definite dell'azienda|
+|12.05.2026|Versione provvisoria|mascheramento delle colonne, tariffe ambulatoriali definite dell'azienda|
 
 {{</markdown>}}

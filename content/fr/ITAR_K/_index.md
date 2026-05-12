@@ -26,5 +26,7 @@ Dernières modifications/corrections dans la version automatique d'ITAR_K®:
 |16.04.2026|Rémun. suppl. non évaluées|Mapping des rémunérations supplémentaires non évaluées|
 |29.04.2026|Rémunérations supplémentaires|Mapping des rémunérations supplémentaires avec le code CHOP, ZE-2025-228|
 |30.04.2026|Rémun. suppl. non évaluées|CHF des rémunérations supplémentaires non évaluées|
+|12.05.2026|version finale et signée|masquage des colonnes, version institution, tarifs ambulatoires définis par l'établissement|
+|12.05.2026|version provisoire|masquage des colonnes, tarifs ambulatoires définis par l'établissement|
 
 {{</markdown>}}
