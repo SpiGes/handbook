@@ -26,7 +26,7 @@ Letzte Änderungen/Korrekturen in der automatischen Version von ITAR_K®:
 |16.04.2026|unbewertetes Zusaztentgelt|Mapping der unbewerteten Zusatzentgelten|
 |29.04.2026|Zusaztentgelt|Mapping der Zusatzentgelten mit dem CHOP-Kode, ZE-2025-228|
 |30.04.2026|unbewertetes Zusaztentgelt|CHF der unbewerteten Zusatzentgelten|
-|12.05.2026|finale und signierte Version|Ausblenden von Spalten, Version Institution, vom Betrieb definierte ambulante Tarife|
-|12.05.2026|provisorische Version|Ausblenden von Spalten, vom Betrieb definierte ambulante Tarife|
+|12.05.2026|finale und signierte Version|Ausblenden von Spalten Gesamtansicht, Version Institution, ambulante Tarife|
+|12.05.2026|provisorische Version|Ausblenden von Spalten Gesamtansicht, ambulante Tarife|
 
 {{</markdown>}}
