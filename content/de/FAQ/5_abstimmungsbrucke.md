@@ -75,7 +75,7 @@ Um die KS-Daten zu importieren, muss in der Maske "Neue Datenlieferung" auf **Un
 {{<insertImage image="KS_d.png" class="edge" maxWidth="60%">}}
 
 Klicken Sie auf "Starten", eine grüne Meldung zeigt an, dass die Anfrage erfolgreich gestellt wurde.
-Es dauert jedoch einige Sekunden, bis der Fortschrittsbalken angezeigt wird. Anhand dieses Fortschrittsbalkens können Sie sehen, wann der Import abgeschlossen ist.  
+Es dauert jedoch einige Sekunden, bis der Fortschrittsbalken angezeigt wird. Anhand dieses Fortschrittsbalkens können Sie sehen, wann der Import abgeschlossen ist. Sie erhalten eine E-Mail, sobald die Daten importiert wurden.  
 
 Nach Abschluss werden die drei KS-Teile in der Übersicht mit dem Importdatum angezeigt.  
 {{<insertImage image="KS_Teil_d.png" class="edge" maxWidth="60%">}}
