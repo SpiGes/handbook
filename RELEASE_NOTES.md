@@ -1,12 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.35.0]
+# Release Notes - SpiGes Documentation Version [0.36.0]
 
-## Release Date: 2026.05.04
+## Release Date: 2026.05.13
 
 ### New
 
 #### Documentation
 
-- [#349](https://github.com/SpiGes/handbook/issues/349) - Modif_ITARK_20260430
+- [#352](https://github.com/SpiGes/handbook/issues/352) - update_itark_20260512
 
 ## Contributors
 
