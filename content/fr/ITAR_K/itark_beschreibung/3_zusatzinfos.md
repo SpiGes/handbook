@@ -46,10 +46,10 @@ Les montants sont repris individuellement et catégorisés comme suit:
 {{</markdown>}}
 
 Les commentaires sont soumis à une hierarchie:
-    1. En premier lieu, le dernier commentaire niveau site est pris en compte.
-    2. Si pas de commentaire niveau site, le dernier commentaire niveau entreprise est pris en compte.
-    3. Si pas de commentaire niveau entreprise, le dernier commentaire niveau canton est pris en compte. 
-    4. Si pas de commentaire niveau canton, aucun commentaire n'est pris en compte.
+ - En premier lieu, le dernier commentaire niveau site est pris en compte.
+ - Si pas de commentaire niveau site, le dernier commentaire niveau entreprise est pris en compte.
+ - Si pas de commentaire niveau entreprise, le dernier commentaire niveau canton est pris en compte. 
+ - Si pas de commentaire niveau canton, aucun commentaire n'est pris en compte.
 
 9) Prestations d'intérêt général
 
@@ -94,5 +94,6 @@ Le détail des prestations d'intérêt général a la même structure entre ITAR
 
 Pour les colonnes, les revenus sont séparés selon les comptes:
  - Revenus étatiques: ktr_69.
- - Tiers: somme des autres ktr_6*.
+ - Tiers: somme des autres ktr_6*. 
+ 
 Les coûts tiennent compte de tous les ktr liés aux coûts, avec CUI selon REKOLE (ktr_44_rekole). La méthode de calcul des coûts est indiquée par la variable ktr_methodik. 
