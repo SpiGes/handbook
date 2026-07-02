@@ -35,48 +35,21 @@ Les montants sont repris individuellement et catégorisés comme suit:
 
 |Compte|Description|Ajustement par objet|
 |---------|---------|---------|
-|30-39|Frais de personnel, exclus charges des honoraires de médecins|UV_ABBR_17_20_14 
-UV_ABBR_17_20_15 
-UV_ABBR_17_20_18|
-|38|Charges des honoraires de médecins (assujettis aux charges sociales)|UV_ABBR_17_20_16
-UV_ABBR_17_20_17|
-|40|Matériel médical d'exploitation|
-UV_ABBR_17_20_19
-UV_ABBR_17_20_20|
-|41-49|Charges d'exploitation, exclus les charges d'utilisation des immobilisations|
-UV_ABBR_17_20_21
-UV_ABBR_17_20_22
-UV_ABBR_17_20_23
-UV_ABBR_17_20_24
-UV_ABBR_17_20_27
-UV_ABBR_17_20_30
-UV_ABBR_17_20_37
-UV_ABBR_17_20_38
-UV_ABBR_17_20_39|
-|44|Charges d'utilisation des immobilisations (exclu inv. < CHF 10'000)| UV_ABBR_17_20_25
-UV_ABBR_17_23_25
-UV_ABBR_17_23_27
-UV_ABBR_17_23_28|
-|46|Charges financières|
-UV_ABBR_17_20_31
-UV_ABBR_17_20_32
-UV_ABBR_17_20_33
-UV_ABBR_17_20_34
-UV_ABBR_17_20_35
-UV_ABBR_17_20_36|
-|7|Charges extraordinaires|
-UV_ABBR_17_20_40
-UV_ABBR_17_20_41
-UV_ABBR_17_20_42
-UV_ABBR_17_20_43|
+|30-39|Frais de personnel, exclus charges des honoraires de médecins|UV_ABBR_17_20_14 UV_ABBR_17_20_15 UV_ABBR_17_20_18|
+|38|Charges des honoraires de médecins (assujettis aux charges sociales)|UV_ABBR_17_20_16 UV_ABBR_17_20_17|
+|40|Matériel médical d'exploitation| UV_ABBR_17_20_19 UV_ABBR_17_20_20|
+|41-49|Charges d'exploitation, exclus les charges d'utilisation des immobilisations|UV_ABBR_17_20_21 UV_ABBR_17_20_22 UV_ABBR_17_20_23 UV_ABBR_17_20_24 UV_ABBR_17_20_27 UV_ABBR_17_20_30 UV_ABBR_17_20_37 UV_ABBR_17_20_38 UV_ABBR_17_20_39|
+|44|Charges d'utilisation des immobilisations (exclu inv. < CHF 10'000)|UV_ABBR_17_20_25 UV_ABBR_17_23_25 UV_ABBR_17_23_27 UV_ABBR_17_23_28|
+|46|Charges financières|UV_ABBR_17_20_31 UV_ABBR_17_20_32 UV_ABBR_17_20_33 UV_ABBR_17_20_34 UV_ABBR_17_20_35 UV_ABBR_17_20_36|
+|7|Charges extraordinaires|UV_ABBR_17_20_40 UV_ABBR_17_20_41 UV_ABBR_17_20_42 UV_ABBR_17_20_43|
 
 {{</markdown>}}
 
 Les commentaires sont soumis à une hierarchie:
-1. En premier lieu, le dernier commentaire niveau site est pris en compte.
-2. Si pas de commentaire niveau site, le dernier commentaire niveau entreprise est pris en compte.
-3. Si pas de commentaire niveau entreprise, le dernier commentaire niveau canton est pris en compte. 
-4. Si pas de commentaire niveau canton, aucun commentaire n'est pris en compte.
+    1. En premier lieu, le dernier commentaire niveau site est pris en compte.
+    2. Si pas de commentaire niveau site, le dernier commentaire niveau entreprise est pris en compte.
+    3. Si pas de commentaire niveau entreprise, le dernier commentaire niveau canton est pris en compte. 
+    4. Si pas de commentaire niveau canton, aucun commentaire n'est pris en compte.
 
 9) Prestations d'intérêt général
 
@@ -118,3 +91,8 @@ Le détail des prestations d'intérêt général a la même structure entre ITAR
 |Autres prestations d’intérêt général liées à l’hôpital|799|
 
 {{</markdown>}}
+
+Pour les colonnes, les revenus sont séparés selon les comptes:
+ - Revenus étatiques: ktr_69.
+ - Tiers: somme des autres ktr_6*.
+Les coûts tiennent compte de tous les ktr liés aux coûts, avec CUI selon REKOLE (ktr_44_rekole). La méthode de calcul des coûts est indiquée par la variable ktr_methodik. 
