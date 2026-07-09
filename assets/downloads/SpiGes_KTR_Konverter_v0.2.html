@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpiGes KTR-Konverter · Excel → XML</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+:root{
+  --ink:#14202E; --ink-soft:#4A5768; --paper:#F4F5F7; --card:#FFFFFF;
+  --line:#DDE2E8; --red:#DA291C; --green:#1E7B44; --green-bg:#EAF6EE;
+  --warn:#9A6700; --warn-bg:#FFF7E0; --err:#B42318; --err-bg:#FDEBE9;
+  --mono:"Consolas","Menlo",monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--paper);color:var(--ink);font-size:15px;line-height:1.5}
+.brand{background:var(--ink);color:#fff;padding:14px 28px;display:flex;align-items:center;gap:14px;border-bottom:4px solid var(--red)}
+.brand .cross{width:26px;height:26px;background:var(--red);border-radius:4px;position:relative;flex:none}
+.brand .cross::before,.brand .cross::after{content:"";position:absolute;background:#fff}
+.brand .cross::before{left:11px;top:5px;width:4px;height:16px}
+.brand .cross::after{left:5px;top:11px;width:16px;height:4px}
+.brand h1{font-size:17px;font-weight:600}
+.brand span{font-size:13px;color:#B8C2CE;font-weight:400}
+main{max-width:1060px;margin:0 auto;padding:28px 20px 60px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:18px}
+#drop{border:2px dashed #B7C0CC;border-radius:10px;padding:44px 20px;text-align:center;cursor:pointer;transition:.15s;background:#FBFCFD}
+#drop.hover{border-color:var(--ink);background:#EEF2F6}
+#drop .big{font-size:17px;font-weight:600;margin-bottom:4px}
+#drop .sub{color:var(--ink-soft);font-size:13px}
+#drop .file{margin-top:10px;font-family:var(--mono);font-size:13px;color:var(--green);font-weight:600}
+.row{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:16px}
+label.opt{font-size:13px;color:var(--ink-soft);display:flex;gap:8px;align-items:center}
+select{font:inherit;font-size:14px;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:#fff}
+.chips{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.chip{background:#F0F3F6;border:1px solid var(--line);border-radius:8px;padding:10px 16px;min-width:130px}
+.chip .n{font-size:22px;font-weight:700}
+.chip .l{font-size:12px;color:var(--ink-soft)}
+.msg{border-radius:8px;padding:10px 14px;margin:6px 0;font-size:14px}
+.msg.err{background:var(--err-bg);color:var(--err);border:1px solid #F2C2BD}
+.msg.warn{background:var(--warn-bg);color:var(--warn);border:1px solid #EAD48F}
+.msg.ok{background:var(--green-bg);color:var(--green);border:1px solid #BFE3CC}
+button{font:inherit;font-weight:600;border:none;border-radius:8px;padding:12px 22px;cursor:pointer}
+#btnDl{background:var(--ink);color:#fff;font-size:15px}
+#btnDl:disabled{background:#C4CBD4;cursor:not-allowed}
+#btnDl:not(:disabled):hover{background:#243447}
+h2{font-size:16px;margin-bottom:12px}
+pre{background:#101820;color:#D7E0EA;border-radius:8px;padding:16px;font-family:var(--mono);font-size:12.5px;overflow:auto;max-height:420px;line-height:1.45}
+pre .tag{color:#7FB4E8}.hidden{display:none}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid var(--line);padding:5px 8px;text-align:left;white-space:nowrap}
+th{background:#F0F3F6;position:sticky;top:0}
+.tblwrap{overflow:auto;max-height:300px;border:1px solid var(--line);border-radius:8px}
+.foot{color:var(--ink-soft);font-size:12px;margin-top:24px}
+details{margin-top:8px}summary{cursor:pointer;font-size:13px;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+<header class="brand">
+  <div class="cross"></div>
+  <h1>SpiGes KTR-Konverter <span>· Kostenträger Unternehmen & Standort · Excel → XML (Schema 1.5)</span></h1>
+</header>
+<main>
+  <div class="card">
+    <div id="drop">
+      <div class="big">Excel-Datei hier ablegen</div>
+      <div class="sub">oder klicken, um eine Datei zu wählen (.xlsx) — die Datei verlässt Ihren Computer nicht</div>
+      <div class="file" id="fname"></div>
+      <input type="file" id="fileInput" accept=".xlsx,.xls" style="display:none">
+    </div>
+    <div class="row">
+      <label class="opt">Schema-Version im XML:
+        <select id="ver"></select>
+      </label>
+      <label class="opt">Arbeitsblatt:
+        <select id="sheetSel" disabled><option>–</option></select>
+      </label>
+    </div>
+  </div>
+
+  <div class="card hidden" id="resCard">
+    <h2>Prüfergebnis</h2>
+    <div class="chips" id="chips"></div>
+    <div id="msgs"></div>
+    <details id="prevDet"><summary>Eingelesene Daten anzeigen</summary><div class="tblwrap" style="margin-top:8px"><table id="prevTbl"></table></div></details>
+  </div>
+
+  <div class="card hidden" id="xmlCard">
+    <h2>XML-Datei</h2>
+    <button id="btnDl" disabled>XML herunterladen</button>
+    <span id="dlname" style="margin-left:12px;font-family:var(--mono);font-size:13px;color:var(--ink-soft)"></span>
+    <details style="margin-top:14px"><summary>XML-Vorschau anzeigen</summary><pre id="xmlPrev" style="margin-top:8px"></pre></details>
+  </div>
+
+  <p class="foot">Zeile mit leerer Spalte «burnr» → Ebene Unternehmen · Zeile mit «burnr» → Ebene Standort.
+  Verarbeitung vollständig lokal im Browser, auch ohne Internetverbindung. <span id="regelwerk"></span></p>
+</main>
+
+<script>
+/* =====================================================================
+   EINSTELLUNGEN  –  hier darf angepasst werden (mit Notepad/Texteditor)
+   Nach dem Speichern die Datei im Browser neu laden (F5).
+   ===================================================================== */
+const EINSTELLUNGEN = {
+
+  // Vorausgewählte Schema-Version im Dropdown ("1.5" oder "1.4")
+  standard_version: "1.5",
+
+  // Wählbare Schema-Versionen im Dropdown. Eine künftige Version (z.B. "1.6")
+  // wird hier einfach ergänzt: ["1.6","1.5","1.4"]
+  // Achtung: Nur ergänzen, wenn sich am KTR-Teil der neuen XSD nichts
+  // geändert hat – sonst Konverter neu generieren lassen (siehe Anleitung).
+  verfuegbare_versionen: ["1.5", "1.4"],
+
+  // Stand des eingebauten Regelwerks – wird unten auf der Seite angezeigt.
+  // Bei einer Aktualisierung hier den neuen Stand eintragen.
+  regelwerk_stand: "XSD spiges_data 1.5 / Variablenliste SpiGes V1.5",
+
+  // Anfang des Dateinamens der erzeugten XML-Datei.
+  // Die ent_id wird automatisch angehängt, z.B. "SpiGes_KTR_100392723.xml"
+  dateiname_prefix: "SpiGes_KTR_",
+
+  // Name des bevorzugten Arbeitsblatts in der Excel-Datei.
+  // Wird es nicht gefunden, nimmt der Konverter automatisch das erste
+  // Blatt mit den Spalten ent_id und ktr_typ.
+  bevorzugtes_blatt: "KTR",
+
+};
+
+/* =====================================================================
+   AB HIER BITTE NICHTS MEHR ÄNDERN
+   Die Liste der gültigen Variablen stammt direkt aus der SpiGes-XSD.
+   ===================================================================== */
+const KTR_ATTRS = ["ktr_typ", "ktr_beschr", "ktr_60", "ktr_61", "ktr_62", "ktr_65", "ktr_66", "ktr_68", "ktr_69", "ktr_697", "ktr_4001", "ktr_4002", "ktr_4012", "ktr_4011", "ktr_40_rest", "ktr_4051", "ktr_4052", "ktr_3801", "ktr_3802", "ktr_3811", "ktr_3812", "ktr_480", "ktr_485", "ktr_486", "ktr_10", "ktr_20", "ktr_21", "ktr_23", "ktr_24", "ktr_25", "ktr_26", "ktr_27", "ktr_28", "ktr_29", "ktr_30", "ktr_31_1_5", "ktr_31_6a1", "ktr_31_6a2", "ktr_31_6b1", "ktr_31_6b2", "ktr_31_6b3", "ktr_31_6b4", "ktr_31_6b5", "ktr_32", "ktr_33", "ktr_34", "ktr_35", "ktr_36", "ktr_38", "ktr_39", "ktr_40", "ktr_41", "ktr_42", "ktr_43", "ktr_44", "ktr_45", "ktr_77", "ktr_nicht_pb", "ktr_10_ank", "ktr_20_ank", "ktr_21_ank", "ktr_23_ank", "ktr_24_ank", "ktr_25_ank", "ktr_26_ank", "ktr_27_ank", "ktr_28_ank", "ktr_29_ank", "ktr_30_ank", "ktr_31_1_5_ank", "ktr_31_6a1_ank", "ktr_31_6a2_ank", "ktr_31_6b1_ank", "ktr_31_6b2_ank", "ktr_31_6b3_ank", "ktr_31_6b4_ank", "ktr_31_6b5_ank", "ktr_32_ank", "ktr_33_ank", "ktr_34_ank", "ktr_35_ank", "ktr_36_ank", "ktr_38_ank", "ktr_39_ank", "ktr_40_ank", "ktr_41_ank", "ktr_42_ank", "ktr_43_ank", "ktr_44_ank", "ktr_45_ank", "ktr_77_ank", "ktr_44_vkl", "ktr_kosten_65", "ktr_le_ambulant", "ktr_methodik", "ktr_44_rekole", "ktr_47", "ktr_47_ank", "ktr_al_vvg"];
+
+/* ---------------------------------------------------------------------
+   Eingebauter Excel-Leser (Fallback): liest .xlsx ohne externe
+   Bibliothek – der Konverter funktioniert damit auch ohne Internet.
+   --------------------------------------------------------------------- */
+const XlsxLite = (() => {
+  const td = new TextDecoder('utf-8');
+  async function inflateRaw(bytes){
+    const ds = new DecompressionStream('deflate-raw');
+    const buf = await new Response(new Blob([bytes]).stream().pipeThrough(ds)).arrayBuffer();
+    return new Uint8Array(buf);
+  }
+  async function unzip(ab){
+    const u8 = new Uint8Array(ab); const dv = new DataView(ab);
+    let eocd = -1;
+    for(let i = u8.length - 22; i >= Math.max(0, u8.length - 66000); i--){
+      if(dv.getUint32(i, true) === 0x06054b50){ eocd = i; break; }
+    }
+    if(eocd < 0) throw new Error('Keine gültige .xlsx-Datei (ZIP-Ende fehlt).');
+    const count = dv.getUint16(eocd + 10, true);
+    let off = dv.getUint32(eocd + 16, true);
+    const files = {};
+    for(let n = 0; n < count; n++){
+      if(dv.getUint32(off, true) !== 0x02014b50) break;
+      const method = dv.getUint16(off + 10, true);
+      const csize = dv.getUint32(off + 20, true);
+      const nlen = dv.getUint16(off + 28, true);
+      const elen = dv.getUint16(off + 30, true);
+      const clen = dv.getUint16(off + 32, true);
+      const lho = dv.getUint32(off + 42, true);
+      const name = td.decode(u8.subarray(off + 46, off + 46 + nlen));
+      const lnlen = dv.getUint16(lho + 26, true);
+      const lelen = dv.getUint16(lho + 28, true);
+      const start = lho + 30 + lnlen + lelen;
+      files[name] = { method, data: u8.subarray(start, start + csize) };
+      off += 46 + nlen + elen + clen;
+    }
+    const out = {};
+    for(const [name, f] of Object.entries(files)){
+      out[name] = f.method === 0 ? f.data : await inflateRaw(f.data);
+    }
+    return out;
+  }
+  const unesc = s => s.replace(/&#x([0-9a-fA-F]+);/g,(_,h)=>String.fromCodePoint(parseInt(h,16)))
+                     .replace(/&#(\d+);/g,(_,d)=>String.fromCodePoint(+d))
+                     .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')
+                     .replace(/&apos;/g,"'").replace(/&amp;/g,'&');
+  const textOf = xml => { let s=''; for(const m of xml.matchAll(/<(?:\w+:)?t(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?t>/g)) s += unesc(m[1]); return s; };
+  const colIdx = ref => { let c=0; for(const ch of ref){ if(ch>='A'&&ch<='Z') c=c*26+(ch.charCodeAt(0)-64); else break; } return c-1; };
+  async function read(ab){
+    const z = await unzip(ab);
+    const get = p => z[p] ? td.decode(z[p]) : null;
+    const wbXml = get('xl/workbook.xml');
+    if(!wbXml) throw new Error('xl/workbook.xml fehlt – keine gültige .xlsx-Datei.');
+    const relXml = get('xl/_rels/workbook.xml.rels') || '';
+    const rels = {};
+    for(const m of relXml.matchAll(/<Relationship\s[^>]*\/?>/g)){
+      const tag = m[0];
+      const id = (tag.match(/\sId="([^"]+)"/)||[])[1];
+      let target = (tag.match(/\sTarget="([^"]+)"/)||[])[1];
+      if(!id || !target) continue;
+      target = target.replace(/^\//,'');
+      rels[id] = target.startsWith('xl/') ? target : 'xl/' + target.replace(/^\.?\//,'');
+    }
+    const sheets = [];
+    for(const m of wbXml.matchAll(/<(?:\w+:)?sheet\s[^>]*\/?>/g)){
+      const tag = m[0];
+      const name = unesc((tag.match(/\sname="([^"]*)"/)||[])[1] || '');
+      const rid = (tag.match(/\sr:id="([^"]*)"/)||tag.match(/\sid="([^"]*)"/)||[])[1];
+      if(name && rid && rels[rid]) sheets.push({ name, path: rels[rid] });
+    }
+    const shared = [];
+    const ss = get('xl/sharedStrings.xml');
+    if(ss) for(const m of ss.matchAll(/<(?:\w+:)?si(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?si>/g)) shared.push(textOf(m[1]));
+    const Sheets = {}, SheetNames = [];
+    for(const s of sheets){
+      const xml = get(s.path); if(xml === null) continue;
+      const rows = [];
+      for(const rm of xml.matchAll(/<(?:\w+:)?row(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?row>/g)){
+        const row = []; let next = 0;
+        for(const cm of rm[1].matchAll(/<(?:\w+:)?c(\s[^>]*)?(?:\/>|>([\s\S]*?)<\/(?:\w+:)?c>)/g)){
+          const attrs = cm[1] || '', inner = cm[2] || '';
+          const ref = (attrs.match(/\sr="([^"]+)"/)||[])[1];
+          const col = ref ? colIdx(ref) : next; next = col + 1;
+          const type = (attrs.match(/\st="([^"]+)"/)||[])[1] || 'n';
+          const vm = inner.match(/<(?:\w+:)?v(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?v>/);
+          let val = null;
+          if(type === 's') val = vm ? (shared[+vm[1]] ?? null) : null;
+          else if(type === 'inlineStr') val = textOf(inner);
+          else if(type === 'str') val = vm ? unesc(vm[1]) : null;
+          else if(type === 'b') val = vm ? (+vm[1] ? 1 : 0) : null;
+          else if(type === 'e') val = null;
+          else val = vm ? Number(vm[1]) : null;
+          if(val === '' ) val = null;
+          row[col] = val;
+        }
+        rows.push(row);
+      }
+      // Lücken mit null füllen
+      const width = Math.max(0, ...rows.map(r => r.length));
+      rows.forEach(r => { for(let i=0;i<width;i++) if(r[i]===undefined) r[i]=null; });
+      SheetNames.push(s.name); Sheets[s.name] = { __rows: rows };
+    }
+    return { SheetNames, Sheets };
+  }
+  return { read };
+})();
+
+// Einheitlicher Zugriff: SheetJS (falls geladen) oder eingebauter Leser
+async function readWorkbook(ab){
+  if(typeof XLSX !== 'undefined' && XLSX.read){
+    try{ return XLSX.read(new Uint8Array(ab), { type: 'array' }); }catch(e){ /* Fallback unten */ }
+  }
+  return await XlsxLite.read(ab);
+}
+function sheetRows(ws){
+  if(ws && ws.__rows) return ws.__rows;
+  return XLSX.utils.sheet_to_json(ws, { header: 1, raw: true, defval: null });
+}
+const VALID_COLS = new Set(['ent_id','burnr',...KTR_ATTRS]);
+const ALIAS = {'ktr_316b2':'ktr_31_6b2','ktr_316b2_ank':'ktr_31_6b2_ank'};
+const INT_FIELDS = {'ktr_methodik':[0,9]};
+const HIGH_PRECISION = new Set(['ktr_le_ambulant']);
+
+let workbook=null, lastXml=null, lastName=null;
+
+const drop=document.getElementById('drop'), fi=document.getElementById('fileInput');
+drop.addEventListener('click',()=>fi.click());
+drop.addEventListener('dragover',e=>{e.preventDefault();drop.classList.add('hover')});
+drop.addEventListener('dragleave',()=>drop.classList.remove('hover'));
+drop.addEventListener('drop',e=>{e.preventDefault();drop.classList.remove('hover');if(e.dataTransfer.files.length)loadFile(e.dataTransfer.files[0])});
+fi.addEventListener('change',()=>{if(fi.files.length)loadFile(fi.files[0])});
+const verSel=document.getElementById('ver');
+verSel.innerHTML='';
+(EINSTELLUNGEN.verfuegbare_versionen||['1.5','1.4']).forEach(v=>{
+  const o=document.createElement('option');o.value=v;o.textContent=v;verSel.appendChild(o);
+});
+verSel.value=EINSTELLUNGEN.standard_version||'1.5';
+verSel.addEventListener('change',()=>{if(workbook)process()});
+document.getElementById('regelwerk').textContent='Eingebautes Regelwerk: '+(EINSTELLUNGEN.regelwerk_stand||'');
+document.getElementById('sheetSel').addEventListener('change',()=>{if(workbook)process()});
+
+function norm(s){return String(s??'').trim().toLowerCase().replace(/[-\u2013]/g,'_').replace(/\s+/g,'');}
+function mapCol(s){const n=norm(s);return ALIAS[n]||n;}
+
+function loadFile(file){
+  document.getElementById('fname').textContent='✔ '+file.name;
+  const r=new FileReader();
+  r.onload=async e=>{
+    try{
+      workbook=await readWorkbook(e.target.result);
+    }catch(err){
+      document.getElementById('fname').textContent='✖ '+file.name+' – Datei konnte nicht gelesen werden. Bitte als .xlsx speichern.';
+      return;
+    }
+    const sel=document.getElementById('sheetSel');
+    sel.innerHTML='';sel.disabled=false;
+    const skip=new Set(['anleitung','beispiel']);
+    let best=null,preferred=null;
+    workbook.SheetNames.forEach(n=>{
+      const o=document.createElement('option');o.value=n;o.textContent=n;sel.appendChild(o);
+      const ln=n.toLowerCase();
+      if(ln===String(EINSTELLUNGEN.bevorzugtes_blatt).toLowerCase())preferred=n;
+      if(best===null && !skip.has(ln) && !ln.startsWith('codes')){
+        const hdr=findHeader(workbook.Sheets[n]);
+        if(hdr) best=n;
+      }
+    });
+    sel.value=preferred||best||workbook.SheetNames[0];
+    process();
+  };
+  r.readAsArrayBuffer(file);
+}
+
+function findHeader(ws){
+  const rows=sheetRows(ws);
+  for(let i=0;i<Math.min(rows.length,10);i++){
+    const cols=(rows[i]||[]).map(mapCol);
+    if(cols.includes('ent_id')&&cols.includes('ktr_typ'))return{idx:i,cols,rows};
+  }
+  return null;
+}
+
+function parseNum(v){
+  if(typeof v==='number')return isFinite(v)?v:null;
+  let s=String(v).trim().replace(/[\u2019'\u00A0 ]/g,'');
+  if(s==='')return null;
+  if(/^-?\d+,\d+$/.test(s))s=s.replace(',','.');
+  else s=s.replace(/,/g,'');
+  const n=Number(s);
+  return isFinite(n)?n:null;
+}
+function fmtNum(n,maxDec){
+  let s=n.toFixed(maxDec);
+  if(maxDec>0)s=s.replace(/\.?0+$/,'');
+  return s;
+}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+function process(){
+  const sheetName=document.getElementById('sheetSel').value;
+  const ws=workbook.Sheets[sheetName];
+  const errors=[],warnings=[];
+  const resCard=document.getElementById('resCard'),xmlCard=document.getElementById('xmlCard');
+  resCard.classList.remove('hidden');xmlCard.classList.remove('hidden');
+
+  const hdr=findHeader(ws);
+  if(!hdr){
+    render({errors:[`Im Blatt «${sheetName}» wurden die Pflichtspalten «ent_id» und «ktr_typ» nicht gefunden. Bitte die Vorlage verwenden oder das richtige Blatt wählen.`],warnings:[],rows:[],cols:[]});
+    return;
+  }
+  const {idx,cols,rows}=hdr;
+  const unknown=[...new Set(cols.filter(c=>c&&!VALID_COLS.has(c)))];
+  if(unknown.length)warnings.push(`Unbekannte Spalten werden ignoriert: ${unknown.join(', ')}`);
+
+  const data=[];
+  for(let r=idx+1;r<rows.length;r++){
+    const raw=rows[r]||[];
+    if(raw.every(v=>v===null||String(v).trim()===''))continue;
+    const rec={_row:r+1};
+    cols.forEach((c,j)=>{if(c&&VALID_COLS.has(c)&&raw[j]!==null&&String(raw[j]).trim()!=='')rec[c]=raw[j];});
+    if(Object.keys(rec).length>1)data.push(rec);
+  }
+  if(!data.length){render({errors:['Keine Datenzeilen gefunden.'],warnings,rows:[],cols});return;}
+
+  // ent_id
+  let entId=null;
+  data.forEach(rec=>{
+    const v=rec.ent_id;
+    if(v===undefined){errors.push(`Zeile ${rec._row}: ent_id fehlt.`);return;}
+    const n=parseNum(v);
+    if(n===null||!Number.isInteger(n)||n<1||n>999999999){errors.push(`Zeile ${rec._row}: ent_id «${v}» ist keine gültige 1–9-stellige Zahl.`);return;}
+    if(entId===null)entId=n;
+    else if(entId!==n)errors.push(`Zeile ${rec._row}: ent_id ${n} weicht von ${entId} ab – pro Datei ist nur ein Unternehmen erlaubt.`);
+    rec.ent_id=n;
+  });
+
+  // Zeilen prüfen
+  data.forEach(rec=>{
+    // burnr
+    if(rec.burnr!==undefined){
+      const b=String(rec.burnr).trim().replace(/\.0$/,'');
+      if(b.length>9||!/^\d+$/.test(b)){errors.push(`Zeile ${rec._row}: burnr «${rec.burnr}» muss eine max. 9-stellige Zahl sein.`);delete rec.burnr;}
+      else rec.burnr=b;
+    }
+    // ktr_typ (Prüfung rein nach XSD: ganze Zahl 0–999)
+    const t=parseNum(rec.ktr_typ);
+    if(rec.ktr_typ===undefined||t===null||!Number.isInteger(t)||t<0||t>999){
+      errors.push(`Zeile ${rec._row}: ktr_typ «${rec.ktr_typ??''}» fehlt oder ist ungültig (Zahl 0–999).`);
+    }else{
+      rec.ktr_typ=t;
+    }
+    // ktr_beschr
+    if(rec.ktr_beschr!==undefined){
+      rec.ktr_beschr=String(rec.ktr_beschr).trim();
+      if(rec.ktr_beschr.length>256){warnings.push(`Zeile ${rec._row}: ktr_beschr wird auf 256 Zeichen gekürzt.`);rec.ktr_beschr=rec.ktr_beschr.slice(0,256);}
+    }
+    // Zahlenfelder
+    KTR_ATTRS.forEach(a=>{
+      if(a==='ktr_typ'||a==='ktr_beschr'||rec[a]===undefined)return;
+      const n=parseNum(rec[a]);
+      if(n===null){errors.push(`Zeile ${rec._row}: ${a} – «${rec[a]}» ist keine Zahl.`);delete rec[a];return;}
+      if(INT_FIELDS[a]){
+        const[lo,hi]=INT_FIELDS[a];
+        if(!Number.isInteger(n)||n<lo||n>hi){errors.push(`Zeile ${rec._row}: ${a} muss eine ganze Zahl ${lo}–${hi} sein.`);delete rec[a];return;}
+        rec[a]=String(n);
+      }else{
+        rec[a]=fmtNum(n,HIGH_PRECISION.has(a)?10:2);
+      }
+    });
+  });
+
+  // Gruppierung + Eindeutigkeit (XSD unique: ktr_typ + ktr_beschr je Ebene)
+  const standorte=new Map(),unternehmen=[];
+  data.forEach(rec=>{
+    if(rec.burnr){if(!standorte.has(rec.burnr))standorte.set(rec.burnr,[]);standorte.get(rec.burnr).push(rec);}
+    else unternehmen.push(rec);
+  });
+  const dupCheck=(list,scope)=>{
+    const seen=new Map();
+    list.forEach(rec=>{
+      if(rec.ktr_typ===undefined)return;
+      const k=rec.ktr_typ+'|'+(rec.ktr_beschr??'');
+      if(seen.has(k))errors.push(`Zeile ${rec._row}: Kombination ktr_typ ${rec.ktr_typ} + ktr_beschr «${rec.ktr_beschr??''}» ist ${scope} doppelt (siehe Zeile ${seen.get(k)}). Bitte ktr_beschr unterscheiden.`);
+      else seen.set(k,rec._row);
+    });
+  };
+  dupCheck(unternehmen,'auf Ebene Unternehmen');
+  standorte.forEach((list,b)=>dupCheck(list,`am Standort ${b}`));
+
+  // XML erzeugen
+  let xml=null;
+  if(!errors.length&&entId!==null){
+    const ver=document.getElementById('ver').value;
+    const attrLine=rec=>{
+      let s='';
+      ['ktr_typ','ktr_beschr',...KTR_ATTRS.filter(a=>a!=='ktr_typ'&&a!=='ktr_beschr')].forEach(a=>{
+        if(rec[a]!==undefined)s+=` ${a}="${esc(rec[a])}"`;
+      });
+      return s;
+    };
+    const L=[];
+    L.push('<?xml version="1.0" encoding="UTF-8"?>');
+    L.push(`<Unternehmen xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ent_id="${entId}" version="${ver}">`);
+    [...standorte.keys()].sort().forEach(b=>{
+      L.push(`\t<Standort burnr="${esc(b)}">`);
+      standorte.get(b).forEach(rec=>L.push(`\t\t<KostentraegerStandort${attrLine(rec)}/>`));
+      L.push('\t</Standort>');
+    });
+    unternehmen.forEach(rec=>L.push(`\t<KostentraegerUnternehmen${attrLine(rec)}/>`));
+    L.push('</Unternehmen>');
+    xml=L.join('\n');
+  }
+
+  lastXml=xml;
+  lastName=(EINSTELLUNGEN.dateiname_prefix||'SpiGes_KTR_')+(entId??'')+'.xml';
+  render({errors,warnings,rows:data,cols,standorte,unternehmen,entId,xml});
+}
+
+function render(st){
+  const chips=document.getElementById('chips');
+  chips.innerHTML='';
+  const chip=(n,l)=>{const d=document.createElement('div');d.className='chip';d.innerHTML=`<div class="n">${n}</div><div class="l">${l}</div>`;chips.appendChild(d);};
+  chip(st.entId??'–','Unternehmen (ent_id)');
+  chip(st.standorte?st.standorte.size:0,'Standorte');
+  chip(st.standorte?[...st.standorte.values()].reduce((s,l)=>s+l.length,0):0,'KTR Standort');
+  chip(st.unternehmen?st.unternehmen.length:0,'KTR Unternehmen');
+
+  const msgs=document.getElementById('msgs');
+  msgs.innerHTML='';
+  const add=(cls,t)=>{const d=document.createElement('div');d.className='msg '+cls;d.textContent=t;msgs.appendChild(d);};
+  st.errors.forEach(e=>add('err','✖ '+e));
+  st.warnings.forEach(w=>add('warn','⚠ '+w));
+  if(!st.errors.length&&st.xml)add('ok','✔ Keine Fehler – die XML-Datei kann heruntergeladen werden.'+(st.warnings.length?' Bitte die Hinweise prüfen.':''));
+
+  // Vorschau-Tabelle
+  const tbl=document.getElementById('prevTbl');
+  tbl.innerHTML='';
+  if(st.rows.length){
+    const used=['_row','ent_id','burnr','ktr_typ','ktr_beschr',...KTR_ATTRS.filter(a=>a!=='ktr_typ'&&a!=='ktr_beschr'&&st.rows.some(r=>r[a]!==undefined))];
+    const tr=document.createElement('tr');
+    used.forEach(c=>{const th=document.createElement('th');th.textContent=c==='_row'?'Excel-Zeile':c;tr.appendChild(th);});
+    tbl.appendChild(tr);
+    st.rows.forEach(r=>{
+      const tr=document.createElement('tr');
+      used.forEach(c=>{const td=document.createElement('td');td.textContent=r[c]??'';tr.appendChild(td);});
+      tbl.appendChild(tr);
+    });
+  }
+
+  const btn=document.getElementById('btnDl');
+  btn.disabled=!st.xml;
+  document.getElementById('dlname').textContent=st.xml?lastName:'';
+  const prev=document.getElementById('xmlPrev');
+  prev.textContent=st.xml?st.xml:'— XML wird erzeugt, sobald alle Fehler behoben sind —';
+}
+
+document.getElementById('btnDl').addEventListener('click',()=>{
+  if(!lastXml)return;
+  const blob=new Blob([lastXml],{type:'application/xml;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);a.download=lastName;a.click();
+  URL.revokeObjectURL(a.href);
+});
+</script>
+</body>
+</html>
