@@ -11,5 +11,5 @@ Die Zusatzentgelten werden anhand der an SpiGes übermittelten Daten sowie der E
  - Die Anzahl hängt vom Grouper ab
 
 {{<markdown>}}
-Bei unbewerteten Zusatzentgelten wird ein Betrag angegeben, sofern dieser in der Rechnung gefunden werden kann (Verknüpfung zwischen der in der Tabelle grouper zusammengefassten Zusatzvergütung und der Angabe **rech_tarifcode** im Rechnungsauszug). Wird eine Verknüpfung gefunden, wird die Summe der Werte **rech_betrag** berücksichtigt.
+Bei unbewerteten Zusatzentgelten wird ein Betrag angegeben, sofern dieser in der Rechnung gefunden werden kann (Verknüpfung zwischen der in der Tabelle grouper zusammengefassten Zusatzentgelt und der Angabe **rech_tarifcode** im Rechnungsteil). Wird eine Verknüpfung gefunden, wird die Summe der Werte **rech_betrag** berücksichtigt.
 {{</markdown>}}

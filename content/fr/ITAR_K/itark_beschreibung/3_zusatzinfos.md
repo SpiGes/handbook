@@ -9,7 +9,7 @@ keywords: []
 
 1) Déduction propre à l'hôpital pour le surcoût hôtelier des patients AC
 
-SpiGes remplit les jours de soins selon les los du grouper SwissDRGSA, ainsi que les coûts des ktr_41, ktr_42 et ktr_43 relevés selon REKOLE. Ces mêmes coûts selon OCP doivent être remplis par l'établissement. Le reste est défini par des formules (gérées par H+ dans le fichier excel).
+SpiGes remplit les jours de soins selon les los du grouper SwissDRG SA, ainsi que les coûts des ktr_41, ktr_42 et ktr_43 relevés selon REKOLE. Ces mêmes coûts selon OCP doivent être remplis par l'établissement. Le reste est défini par des formules (gérées par H+ dans le fichier excel).
 
 {{<markdown>}}
 
