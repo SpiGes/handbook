@@ -57,7 +57,7 @@ Le détail des prestations d'intérêt général a la même structure entre ITAR
 
 {{<markdown>}}
 
-|Description|Variable SpiGes ktr_typ|
+|Description (type A)|Variable SpiGes ktr_typ|
 |---------|---------|
 |Prestations en attente (exclus prestations en attente pour l’urgence)|501|
 |Service de sauvetage et d’ambulance / Appel d’urgence 144|502|
@@ -73,7 +73,7 @@ Le détail des prestations d'intérêt général a la même structure entre ITAR
 
 {{<markdown>}}
 
-|Description|Variable SpiGes ktr_typ|
+|Description (type B)|Variable SpiGes ktr_typ|
 |---------|---------|
 |Recherche, y compris le doctorat (MD et PhD)|601|
 |Formation universitaire de base (enseignement dispensé et formation reçue)|602|
@@ -83,7 +83,7 @@ Le détail des prestations d'intérêt général a la même structure entre ITAR
 
 {{<markdown>}}
 
-|Description|Variable SpiGes ktr_typ|
+|Description (type C)|Variable SpiGes ktr_typ|
 |---------|---------|
 |Maintien de surcapacités hospitalières pour des raisons de politiques régionales|701|
 |Maternité|702|
