@@ -1,7 +1,7 @@
 ---
 title: Beschreibung
 slug: itark_beschreibung
-description: "Sur cette page, nous vous expliquons comment ITAR_K® est rempli automatiquement."
+description: "Auf dieser Seite finden Sie wie ITAR_K® automatisch ausgefüllt wird"
 weight: 10
 type: docs
 keywords: []

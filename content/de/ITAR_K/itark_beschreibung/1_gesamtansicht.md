@@ -7,26 +7,26 @@ type: docs
 keywords: []
 ---
 
-Les données financières proviennent de la KS (statistique administrative des hôpitaux). 
+Die Finanzdaten stammen aus der KS (Krankenhausstatistik). 
 
 {{<markdown>}}
 
-|Compte|Description|Total Charges COFI|Ajustement par objet|
+|Konto|Beschreibung|Total Aufwand FIBU|sachl. Abgrenz.|
 |---------|---------|---------|---------|
-|30-39|Frais de personnel, exclus charges des honoraires de médecins|UV_FIBU_18_10+UV_FIBU_18_30+UV_FIBU_18_40|UV_ABBR_17_20_14+UV_ABBR_17_20_15+UV_ABBR_17_20_18|
-|38|Charges des honoraires de médecins (assujettis aux charges sociales)|UV_FIBU_18_20_01+UV_FIBU_18_20_02|UV_ABBR_17_20_16+UV_ABBR_17_20_17|
-|40|Matériel médical d'exploitation|UV_FIBU_15_02_01+UV_FIBU_17_80|UV_ABBR_17_20_19+UV_ABBR_17_20_20|
-|41-49|Charges d'exploitation, exclus les charges d'utilisation des immobilisations|UV_FIBU_15_03+UV_FIBU_15_04+UV_FIBU_15_05+UV_FIBU_15_06_01+UV_FIBU_15_06_04+UV_FIBU_15_07+UV_FIBU_15_09+UV_FIBU_15_10+UV_FIBU_15_11|UV_ABBR_17_20_21+UV_ABBR_17_20_22+UV_ABBR_17_20_23+UV_ABBR_17_20_24+UV_ABBR_17_20_27+UV_ABBR_17_20_30+UV_ABBR_17_20_37+UV_ABBR_17_20_38+UV_ABBR_17_20_39|
-|44|Charges d'utilisation des immobilisations (exclu inv. < CHF 10'000)| UV_FIBU_15_06_02+UV_FIBU_15_06_03+UV_FIBU_15_06_05|UV_ABBR_17_20_25+UV_ABBR_17_23_25+UV_ABBR_17_23_27+UV_ABBR_17_23_28|
-|46|Charges financières|UV_FIBU_15_08_01+UV_FIBU_15_08_02+UV_FIBU_15_08_03+UV_FIBU_15_08_04+UV_FIBU_15_08_05|UV_ABBR_17_20_31+UV_ABBR_17_20_32+UV_ABBR_17_20_33+UV_ABBR_17_20_34+UV_ABBR_17_20_35+UV_ABBR_17_20_36|
-|7|Charges extraordinaires|UV_FIBU_15_16+UV_FIBU_15_17+UV_FIBU_15_18+UV_FIBU_15_19|UV_ABBR_17_20_40+UV_ABBR_17_20_41+UV_ABBR_17_20_42+UV_ABBR_17_20_43|
+|30-39|Personalaufwand exkl. Honorare|UV_FIBU_18_10+UV_FIBU_18_30+UV_FIBU_18_40|UV_ABBR_17_20_14+UV_ABBR_17_20_15+UV_ABBR_17_20_18|
+|38|Honorare (sozialversicherungspflichtig)|UV_FIBU_18_20_01+UV_FIBU_18_20_02|UV_ABBR_17_20_16+UV_ABBR_17_20_17|
+|40|Medizinischer Bedarf|UV_FIBU_15_02_01+UV_FIBU_17_80|UV_ABBR_17_20_19+UV_ABBR_17_20_20|
+|41-49|Sachaufwand exkl. Anlagenutzungskosten|UV_FIBU_15_03+UV_FIBU_15_04+UV_FIBU_15_05+UV_FIBU_15_06_01+UV_FIBU_15_06_04+UV_FIBU_15_07+UV_FIBU_15_09+UV_FIBU_15_10+UV_FIBU_15_11|UV_ABBR_17_20_21+UV_ABBR_17_20_22+UV_ABBR_17_20_23+UV_ABBR_17_20_24+UV_ABBR_17_20_27+UV_ABBR_17_20_30+UV_ABBR_17_20_37+UV_ABBR_17_20_38+UV_ABBR_17_20_39|
+|44|Anlagenutzungskosten (exkl. Inv. < CHF 10'000)| UV_FIBU_15_06_02+UV_FIBU_15_06_03+UV_FIBU_15_06_05|UV_ABBR_17_20_25+UV_ABBR_17_23_25+UV_ABBR_17_23_27+UV_ABBR_17_23_28|
+|46|Zinsaufwand|UV_FIBU_15_08_01+UV_FIBU_15_08_02+UV_FIBU_15_08_03+UV_FIBU_15_08_04+UV_FIBU_15_08_05|UV_ABBR_17_20_31+UV_ABBR_17_20_32+UV_ABBR_17_20_33+UV_ABBR_17_20_34+UV_ABBR_17_20_35+UV_ABBR_17_20_36|
+|7|a.o. Aufwand|UV_FIBU_15_16+UV_FIBU_15_17+UV_FIBU_15_18+UV_FIBU_15_19|UV_ABBR_17_20_40+UV_ABBR_17_20_41+UV_ABBR_17_20_42+UV_ABBR_17_20_43|
 
 {{</markdown>}}
 
-Le nombre d'unité de prestations est défini selon les données transmises à SpiGes, ainsi que les résultats du grouper SwissDRG SA intégré à SpiGes (SwissDRG, ST Reha et TARPSY). 
- - CM/DM: somme des cw pour les cas stationnaires.
- - journées: somme des los pour les cliniques de jour. 
+Die Anzahl der Leistungseinheiten wird anhand der an SpiGes übermittelten Daten sowie der Ergebnisse des in SpiGes integrierten SwissDRG AG-Grupper (SwissDRG, ST Reha und TARPSY) ermittelt. 
+- CM/DM: Summe der cw für stationäre Fälle.
+- Pflegetage: Summe der los für Tageskliniken. 
 
-Le nombre de cas est défini selon les cas A transmis dans SpiGes, réparti par itark_spalte.
+Die Anzahl Fälle wird anhand der an SpiGes übermittelten A-Fälle definiert, aufgeschlüsselt nach itark_spalte.
 
-Les points facturés ambulatoires sont donnés par la variable ktr_le_ambulant selon le ktr_typ défini. 
+Die fakturierten ambulanten Punkte werden durch die Variable ktr_le_ambulant gemäss dem definierten ktr_typ angegeben.

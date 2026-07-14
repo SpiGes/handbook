@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Les données financières proviennent de la KS (statistique administrative des hôpitaux). 
+Les données financières proviennent de la KS (statistique des hôpitaux). 
 
 {{<markdown>}}
 

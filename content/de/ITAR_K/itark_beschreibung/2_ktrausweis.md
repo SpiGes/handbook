@@ -1,5 +1,5 @@
 ---
-title: KTR Ausweis
+title: KTR-Ausweis
 slug: ktrausweis
 description: " "
 weight: 30
@@ -7,43 +7,43 @@ type: docs
 keywords: []
 ---
 
-Les variables SpiGes correspondent aux détails des comptes. Les montants sont donc calculés en agrégeant par itark_spalte pour chaque KTR (CUFI).
+Die SpiGes-Variablen entsprechen den Kontodetails. Die Beträge werden daher für jeden KTR durch Aggregation nach itark_spalte berechnet.
 
 {{<markdown>}}
 
-|Compte|Description|Variable SpiGes|
+|Konto|Beschreibung|SpiGes-Variable|
 |---------|---------|---------|
-|60|Produits résultant de prestations médicales, infirmières et thérapeutiques|ktr_60|
-|61|Prestations unitaires médicales|ktr_61|
-|62|Autres prestations unitaires hospitalières|ktr_62|
+|60|Erlös aus medizinischen, pflegerischen und therapeutischen Leistungen|ktr_60|
+|61|Ärztliche Einzelleistungen|ktr_61|
+|62|Übrige Spitaleinzelleistungen|ktr_62|
 
 {{</markdown>}}
 ...
 
 {{<markdown>}}
 
-|Compte|Description|Variable SpiGes|
+|Konto|Beschreibung|SpiGes-Variable|
 |---------|---------|---------|
-|400|Médicaments  (non-compris sang et produits sanguins)|ktr_4001|
-|400|Sang et produits sanguins|ktr_4002|
-|401|Matériel (non-compris Implants), Instruments, ustensiles, textiles|ktr_4011|
+|400|Arzneimittel (exkl. Blut und Blutprodukte)|ktr_4001|
+|400|Blut und Blutprodukte|ktr_4002|
+|401|Material (exkl. Implantate), Instrumente, Utensilien, Textilien|ktr_4011|
 
 {{</markdown>}}
 ...
 
 {{<markdown>}}
 
-|Compte|Description|Variable SpiGes|
+|Konto|Beschreibung|SpiGes-Variable|
 |---------|---------|---------|
-|10|Administration des patients|ktr_10|
-|20|Salle d'opération|ktr_20|
-|21|Laboratoire cardiaque de cathétérisme|ktr_21|
+|10|Patientenadministration|ktr_10|
+|20|OPS-Säle|ktr_20|
+|21|Herzkatheter-Labor|ktr_21|
 
 {{</markdown>}}
 ...
 
 Particularités:
- - **Administration des patients**  
-Deux méthodes peuvent être utilisées pour l'ambulatoire. Dans ce sens, deux lignes cachées permettent de faire cette distinction dans le fichier ITAR_K®. La première ligne tient compte du total défini par la variable ktr_403 qui est ensuite distribué dans les différents tarifs selon l'activité (formule gérée par H+ au niveau du fichier excel). La deuxième ligne tient compte du détail fourni par tarifs ambulatoires. La ligne visible somme les deux lignes pour donner le montant final. Ce fonctionnement est reproduit pour les CUI OCP et REKOLE (ktr_403 vs autres ktr ambulatoires).
- - **Charges d'utilisation des immobilisations (CUI)**  
-  Pour les CUI OCP, la variable ktr_44_vkl est utilisée. Pour les CUI REKOLE, la variable ktr_44_rekole est utilisée. 
+ - **Patientenadministration**  
+Für ambulant können zwei Methoden angewendet werden. Zu diesem Zweck ermöglichen zwei versteckte Zeilen in der ITAR_K®-Datei diese Unterscheidung. Die erste Zeile berücksichtigt die durch die Variable ktr_403 definierte Gesamtsumme, die anschliessend entsprechend der Tätigkeit auf die verschiedenen Tarife aufgeteilt wird (diese Formel wird von H+ in der Excel-Datei verwaltet). Die zweite Zeile berücksichtigt die durch die ambulanten Tarife bereitgestellten Details. Die sichtbare Zeile summiert die beiden Zeilen, um den Endbetrag zu ermitteln. Diese Funktionsweise wird für die ANK VKL und REKOLE reproduziert (ktr_403 vs. andere ambulante ktr-Werte).
+ - **Anlagenutzungskosten(ANK)**  
+Für ANK gemäss VKL wird die Variable ktr_44_vkl verwendet. Für ANK gemäss REKOLE wird die Variable ktr_44_rekole verwendet.

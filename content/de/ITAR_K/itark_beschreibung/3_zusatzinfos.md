@@ -7,93 +7,93 @@ type: docs
 keywords: []
 ---
 
-1) Déduction propre à l'hôpital pour le surcoût hôtelier des patients AC
+1) Institutionsbezogener Abzug für Hotellerie-Mehrkosten für ZV-Patienten 
 
-SpiGes remplit les jours de soins selon les los du grouper SwissDRGSA, ainsi que les coûts des ktr_41, ktr_42 et ktr_43 relevés selon REKOLE. Ces mêmes coûts selon OCP doivent être remplis par l'établissement. Le reste est défini par des formules (gérées par H+ dans le fichier excel).
+SpiGes trägt die Pflegetage gemäss den los der SwissDRG SA-Grupper sowie die gemäss REKOLE erfassten Kosten für ktr_41, ktr_42 und ktr_43 ein. Dieselben Kosten gemäss VKL müssen vom Betrieb eingetragen werden. Der Rest wird durch Formeln festgelegt (die von H+ in der Excel-Datei verwaltet werden).
 
 {{<markdown>}}
 
-|Compte|Description|Variable SpiGes|
+|Konto|Beschreibung|SpiGes-Variable|
 |---------|---------|---------|---------|
-|41|Hôtellerie-chambres selon REKOLE®|ktr_41|
-|42|Hôtellerie-cuisine selon REKOLE®|ktr_42|
-|43|Hôtellerie-service selon REKOLE®|ktr_43|
+|41|Hotellerie Zimmer gemäss REKOLE®|ktr_41|
+|42|Hotellerie-Küche gemäss REKOLE®|ktr_42|
+|43|Hotellerie-Service gemäss REKOLE®|ktr_43|
 
 {{</markdown>}}
 
-2) Calculation déduction des produits-65
+2) Berechnung Abzug 65-Erträge
 
-La variable ktr_kosten_65 est prévue à cet effet. 
+Zu diesem Zweck ist die Variable ktr_kosten_65 vorgesehen.
 
-6) Commentaires relatifs à la comptabilité des ajustements
+6) Begründungen zur Abgrenzungsrechnung
 
-La passerelle d'ajustement est saisie dans la KS et importée ensuite dans SpiGes par les établissements. Chaque ajustement génère une erreur dans SpiGes qui doit être commenté. Le commentaire est repris dans le tableau. 
+Die Abstimmungsbrücke wird in der KS erfasst und anschliessend vom Betrieb in SpiGes importiert. Jede Abgrenzung löst in SpiGes einen Fehler aus, der kommentiert werden muss. Der Kommentar wird in die Tabelle übernommen. 
 
-Les montants sont repris individuellement et catégorisés comme suit:
+Die Beträge werden einzeln übernommen und wie folgt kategorisiert:
 
 {{<markdown>}}
 
-|Compte|Description|Ajustement par objet|
+|Konto|Beschreibung|Sachl. Abgrenzung|
 |---------|---------|---------|
-|30-39|Frais de personnel, exclus charges des honoraires de médecins|UV_ABBR_17_20_14 UV_ABBR_17_20_15 UV_ABBR_17_20_18|
-|38|Charges des honoraires de médecins (assujettis aux charges sociales)|UV_ABBR_17_20_16 UV_ABBR_17_20_17|
-|40|Matériel médical d'exploitation| UV_ABBR_17_20_19 UV_ABBR_17_20_20|
-|41-49|Charges d'exploitation, exclus les charges d'utilisation des immobilisations|UV_ABBR_17_20_21 UV_ABBR_17_20_22 UV_ABBR_17_20_23 UV_ABBR_17_20_24 UV_ABBR_17_20_27 UV_ABBR_17_20_30 UV_ABBR_17_20_37 UV_ABBR_17_20_38 UV_ABBR_17_20_39|
-|44|Charges d'utilisation des immobilisations (exclu inv. < CHF 10'000)|UV_ABBR_17_20_25 UV_ABBR_17_23_25 UV_ABBR_17_23_27 UV_ABBR_17_23_28|
-|46|Charges financières|UV_ABBR_17_20_31 UV_ABBR_17_20_32 UV_ABBR_17_20_33 UV_ABBR_17_20_34 UV_ABBR_17_20_35 UV_ABBR_17_20_36|
-|7|Charges extraordinaires|UV_ABBR_17_20_40 UV_ABBR_17_20_41 UV_ABBR_17_20_42 UV_ABBR_17_20_43|
+|30-39|Personalaufwand exkl. Honorare|UV_ABBR_17_20_14 UV_ABBR_17_20_15 UV_ABBR_17_20_18|
+|38|Honorare (sozialversicherungspflichtig)|UV_ABBR_17_20_16 UV_ABBR_17_20_17|
+|40|Medizinischer Bedarf| UV_ABBR_17_20_19 UV_ABBR_17_20_20|
+|41-49|Sachaufwand exkl. Anlagenutzungskosten|UV_ABBR_17_20_21 UV_ABBR_17_20_22 UV_ABBR_17_20_23 UV_ABBR_17_20_24 UV_ABBR_17_20_27 UV_ABBR_17_20_30 UV_ABBR_17_20_37 UV_ABBR_17_20_38 UV_ABBR_17_20_39|
+|44|Anlagenutzungskosten (exkl. Inv. < CHF 10'000)|UV_ABBR_17_20_25 UV_ABBR_17_23_25 UV_ABBR_17_23_27 UV_ABBR_17_23_28|
+|46|Zinsaufwand|UV_ABBR_17_20_31 UV_ABBR_17_20_32 UV_ABBR_17_20_33 UV_ABBR_17_20_34 UV_ABBR_17_20_35 UV_ABBR_17_20_36|
+|7|a.o. Aufwand|UV_ABBR_17_20_40 UV_ABBR_17_20_41 UV_ABBR_17_20_42 UV_ABBR_17_20_43|
 
 {{</markdown>}}
 
-Les commentaires sont soumis à une hierarchie:
- - En premier lieu, le dernier commentaire niveau site est pris en compte.
- - Si pas de commentaire niveau site, le dernier commentaire niveau entreprise est pris en compte.
- - Si pas de commentaire niveau entreprise, le dernier commentaire niveau canton est pris en compte. 
- - Si pas de commentaire niveau canton, aucun commentaire n'est pris en compte.
+Die Kommentare unterliegen einer Hierarchie:
+ - Zunächst wird der letzte Kommentar auf Standortsebene berücksichtigt.
+ - Liegt kein Kommentar auf Standortsebene vor, wird der letzte Kommentar auf Unternehmensebene berücksichtigt.
+ - Liegt kein Kommentar auf Unternehmensebene vor, wird der letzte Kommentar auf Kantonsebene berücksichtigt.
+ - Liegt kein Kommentar auf Kantonsebene vor, wird kein Kommentar berücksichtigt.
 
-9) Prestations d'intérêt général
+9) Gemeinwirtschaftliche Leistungen
 
-Le détail des prestations d'intérêt général a la même structure entre ITAR_K® et SpiGes. Toutes les PIG déjà définies ont un ktr_typ spécifique. Un autre ktr_typ est utilisé pour les PIG définies par l'établissement (599 ou 799). Dans ces cas, chaque ktr_beschr différente correspond à une ligne dans le tableau. 
-
-{{<markdown>}}
-
-|Description (type A)|Variable SpiGes ktr_typ|
-|---------|---------|
-|Prestations en attente (exclus prestations en attente pour l’urgence)|501|
-|Service de sauvetage et d’ambulance / Appel d’urgence 144|502|
-|Unités d’hôpital protégées|503|
-|Jardins d’enfants et écoles pour les patients|504|
-|Services sociaux pour patients|505|
-|Prévention / promotion de la santé|506|
-|Protection de la population|507|
-|Aumônerie hospitalière / lieu de recueillement|508|
-|Autres missions spéciales|599|
-
-{{</markdown>}}
+Die Aufschlüsselung der gemeinwirtschaftlichen Leistungen weist bei ITAR_K® und SpiGes denselben Aufbau auf. Alle bereits definierten gemeinwirtschaftlichen Leistungen haben einen spezifischen ktr_typ. Für die vom Betrieb definierten gemeinnützigen Leistungen wird ein anderer ktr_typ verwendet (599 oder 799). In diesen Fällen entspricht jede unterschiedliche ktr_beschr einer Zeile in der Tabelle.
 
 {{<markdown>}}
 
-|Description (type B)|Variable SpiGes ktr_typ|
+|Beschreibung (Typ A)|SpiGes-variable ktr_typ|
 |---------|---------|
-|Recherche, y compris le doctorat (MD et PhD)|601|
-|Formation universitaire de base (enseignement dispensé et formation reçue)|602|
-|Enseignement dispensé en formation postgraduée|603|
+|Vorhalteleistungen (exkl. Vorhalteleistungen für den Notfall)|501|
+|Rettungswesen/Notruf 144|502|
+|Geschützte Spitalbereiche|503|
+|Kindergarten und Schule für Patientinnen und Patienten|504|
+|Sozialdienstliche Leistungen für Patienten|505|
+|Prävention/Gesundheitsförderung|506|
+|Bevölkerungsschutz|507|
+|Spitalseelsorge / Andachtsraum|508|
+|Weitere Spezialaufgaben|599|
 
 {{</markdown>}}
 
 {{<markdown>}}
 
-|Description (type C)|Variable SpiGes ktr_typ|
+|Beschreibung (Typ B)|SpiGes-variable ktr_typ|
 |---------|---------|
-|Maintien de surcapacités hospitalières pour des raisons de politiques régionales|701|
-|Maternité|702|
-|Tarifs ne couvrant pas les coûts (par ex. TARMED)|703|
-|Autres prestations d’intérêt général liées à l’hôpital|799|
+|Forschung, inkl. Doktorat (MD und PhD)|601|
+|Erteilte und erhaltene universitäre Ausbildung|602|
+|Erteilte berufliche Weiterbildung|603|
 
 {{</markdown>}}
 
-Pour les colonnes, les revenus sont séparés selon les comptes:
- - Revenus étatiques: ktr_69.
- - Tiers: somme des autres ktr_6*. 
+{{<markdown>}}
+
+|Beschreibung (Typ C)|SpiGes-variable ktr_typ|
+|---------|---------|
+|Aufrechterhaltung von Überkapazitäten aus regionalpolitischen Gründen|701|
+|Geburtshilfe|702|
+|Nicht kostendeckende Tarife (z. B.TARMED.)|703|
+|Weitere spitalbezogene gemeinwirtschaftliche Leistungen|799|
+
+{{</markdown>}}
+
+In den Spalten werden die Erträge nach Konten unterteilt:
+ - Staatliche Erträge: ktr_69.
+ - Dritte: Summe der übrigen ktr_6*. 
  
-Les coûts tiennent compte de tous les ktr liés aux coûts, avec CUI selon REKOLE (ktr_44_rekole). La méthode de calcul des coûts est indiquée par la variable ktr_methodik. 
+Die Kosten berücksichtigen alle kostenbezogenen ktr mit ANK gemäss REKOLE (ktr_44_rekole). Die Methode zur Kostenberechnung wird durch die Variable ktr_methodik angegeben.
