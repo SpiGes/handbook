@@ -11,5 +11,5 @@ Le fatturazioni supplementari vengono compilate in base ai dati trasmessi a SpiG
  - La quantità dipende del grouper
 
 {{<markdown>}}
-Per i fatturazioni supplementari non va, viene indicato un importo se è possibile individuarlo nella fattura (collegamento tra la fatturazione supplementare raggruppata nella tabella grouper e l’informazione **rech_tarifcode** nell’estratto della fattura). Se viene individuato un collegamento, viene presa in considerazione la somma dei valori **rech_betrag**. 
+Per i fatturazioni supplementari non va, viene indicato un importo se è possibile individuarlo nella fattura (collegamento tra la fatturazione supplementare raggruppata nella tabella grouper e l’informazione **rech_tarifcode** nell’estratto Fattura). Se viene individuato un collegamento, viene presa in considerazione la somma dei valori **rech_betrag**. 
 {{</markdown>}}

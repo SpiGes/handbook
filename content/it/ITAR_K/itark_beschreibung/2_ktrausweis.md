@@ -42,7 +42,7 @@ Le variabili SpiGes corrispondono ai dettagli dei conti. Gli importi vengono qui
 {{</markdown>}}
 ...
 
-Particularités:
+Note particolari:
  - **Amministrazione pazienti**  
 Per l'ambulatorio possono utilizzare due metodi. A tal fine, due righe nascoste consentono di operare questa distinzione nel file ITAR_K®. La prima riga tiene conto del totale definito dalla variabile ktr_403, che viene poi ripartito tra le diverse tariffe in base all'attività (formula gestita da H+ a livello del file Excel). La seconda riga tiene conto dei dettagli forniti dalle tariffe ambulatoriali. La riga visibile somma le due righe per ottenere l’importo finale. Questo funzionamento viene riprodotto per i CUI OCPre e REKOLE (ktr_403 rispetto ad altri ktr ambulatoriali).
  - **Costi imputati per l'utilizzo di immobilizzazioni (CUI)**  

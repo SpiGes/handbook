@@ -9,7 +9,7 @@ keywords: []
 
 1) Deduzione specifica all'istituto per costi supplementari del servizio alberghiero per pazienti con AC 
 
-SpiGes inserisce le giornate di cura in base del los del grouper SwissDRG SA, nonché i costi relativi a ktr_41, ktr_42 e ktr_43 rilevati secondo REKOLE. Questi stessi costi secondo OCPre devono essere inseriti dalla struttura. Il resto è definito da formule (gestite da H+ nel file Excel).
+SpiGes inserisce le giornate di cura in base del los del grouper SwissDRG SA, nonché i costi relativi a ktr_41, ktr_42 e ktr_43 rilevati secondo REKOLE. Questi stessi costi secondo OCPre devono essere inseriti dall'istituto. Il resto è definito da formule (gestite da H+ nel file Excel).
 
 {{<markdown>}}
 
