@@ -17,13 +17,12 @@ Sobald Sie die Datei per Drag & Drop verschoben haben, können Sie:
 
 {{<markdown>}}
 **Voraussetzungen**
-•	Datei SpiGes_KTR_Konverter.html (wird per Doppelklick im Browser geöffnet; keine Installation, keine Administratorrechte).
-•	Aktueller Browser: Microsoft Edge, Google Chrome oder Firefox.
-•	Excel-Datei im Format .xlsx mit den Kostenträgerdaten (Beispiel).
-•	Eine Internetverbindung ist nicht erforderlich. Die Daten verlassen den Computer nicht; die gesamte Verarbeitung erfolgt lokal im Browser.
+- Datei SpiGes_KTR_Konverter.html (wird per Doppelklick im Browser geöffnet; keine Installation, keine Administratorrechte).
+- Aktueller Browser: Microsoft Edge, Google Chrome oder Firefox.
+- Excel-Datei im Format .xlsx mit den Kostenträgerdaten (Beispiel).
+- Eine Internetverbindung ist nicht erforderlich. Die Daten verlassen den Computer nicht; die gesamte Verarbeitung erfolgt lokal im Browser.
 
 **Feldregeln (Excel-Datei)**
-
 |Feld|Regel|
 |---------|---------|
 |ent_id|Pflichtfeld. Ganze Zahl, 1 bis 9 Stellen. In allen Zeilen der Datei identisch (eine Datei = ein Unternehmen).|
