@@ -24,8 +24,8 @@ Die Finanzdaten stammen aus der KS (Krankenhausstatistik).
 {{</markdown>}}
 
 Die Anzahl der Leistungseinheiten wird anhand der an SpiGes übermittelten Daten sowie der Ergebnisse des in SpiGes integrierten SwissDRG AG-Grupper (SwissDRG, ST Reha und TARPSY) ermittelt. 
-- CM/DM: Summe der cw für stationäre Fälle.
-- Pflegetage: Summe der los für Tageskliniken. 
+- CM/DM: Summe der cw (Kostengewichte) für stationäre Fälle.
+- Pflegetage: Summe der Pflegetage für Tageskliniken (ktr_le_ambulant). 
 
 Die Anzahl Fälle wird anhand der an SpiGes übermittelten A-Fälle definiert, aufgeschlüsselt nach itark_spalte.
 

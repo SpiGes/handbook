@@ -42,7 +42,7 @@ Die SpiGes-Variablen entsprechen den Kontodetails. Die Beträge werden daher fü
 {{</markdown>}}
 ...
 
-Particularités:
+Besonderheiten:
  - **Patientenadministration**  
 Für ambulant können zwei Methoden angewendet werden. Zu diesem Zweck ermöglichen zwei versteckte Zeilen in der ITAR_K®-Datei diese Unterscheidung. Die erste Zeile berücksichtigt die durch die Variable ktr_403 definierte Gesamtsumme, die anschliessend entsprechend der Tätigkeit auf die verschiedenen Tarife aufgeteilt wird (diese Formel wird von H+ in der Excel-Datei verwaltet). Die zweite Zeile berücksichtigt die durch die ambulanten Tarife bereitgestellten Details. Die sichtbare Zeile summiert die beiden Zeilen, um den Endbetrag zu ermitteln. Diese Funktionsweise wird für die ANK VKL und REKOLE reproduziert (ktr_403 vs. andere ambulante ktr-Werte).
  - **Anlagenutzungskosten(ANK)**  

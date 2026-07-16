@@ -24,8 +24,8 @@ Les données financières proviennent de la KS (statistique des hôpitaux).
 {{</markdown>}}
 
 Le nombre d'unité de prestations est défini selon les données transmises à SpiGes, ainsi que les résultats du grouper SwissDRG SA intégré à SpiGes (SwissDRG, ST Reha et TARPSY). 
- - CM/DM: somme des cw pour les cas stationnaires.
- - journées: somme des los pour les cliniques de jour. 
+ - CM/DM: somme des cw (cost-weight) pour les cas stationnaires.
+ - journées: somme des journées pour les cliniques de jour (ktr_le_ambulant). 
 
 Le nombre de cas est défini selon les cas A transmis dans SpiGes, réparti par itark_spalte.
 

@@ -24,8 +24,8 @@ I dati finanziari provengono dalla KS (statistica ospedaliera).
 {{</markdown>}}
 
 Il numero di unità di prestazione è definito in base ai dati trasmessi a SpiGes, nonché ai risultati del sistema di raggruppamento SwissDRG SA integrato in SpiGes (SwissDRG, ST Reha e TARPSY). 
-- CM/DM: somma dei cw per i casi stazionari.
-- Giornate: somma dei los per i ospedali di giorno. 
+- CM/DM: somma dei cw (cost-weight) per i casi stazionari.
+- Giornate: somma dei giorni per i ospedali di giorno (ktr_le_ambulant). 
 
 Il numero di casi è definito in base ai casi A trasmessi a SpiGes, suddivisi per itark_spalte.
 
