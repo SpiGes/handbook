@@ -66,7 +66,7 @@ jobs:
       release_version: ${{ steps.version.outputs.release_version }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           sparse-checkout: |
             hugo.toml
@@ -126,7 +126,7 @@ jobs:
           application_private_key: ${{ secrets.AUTO_COMMIT_AGENT_APP_PRIVATE_KEY }}
 
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           sparse-checkout: |
             hugo.toml
@@ -163,7 +163,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           submodules: recursive
 
@@ -180,7 +180,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v5
+        uses: actions/checkout@v7
         with:
           node-version: ${{ needs.read-tool-versions.outputs.nodejs_version }}
 
@@ -225,7 +225,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Ensure latest changes are fetched
         run: git pull origin main --ff-only
@@ -246,7 +246,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout only necessary files
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           sparse-checkout: |
             RELEASE_NOTES.md
@@ -281,7 +281,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Ensure latest changes are fetched
         run: git pull origin main --ff-only
