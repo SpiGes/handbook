@@ -16,12 +16,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Install Go
-        uses: actions/setup-go@v6
-        with:
-          cache: false # to avoid Warning: "Restore cache failed: Dependencies file is not found in /home/runner/work/handbook/handbook. Supported file pattern: go.sum"
-          go-version: ${{ needs.read-tool-versions.outputs.go_version }}
-
       - name: Install Dart Sass
         run: choco install sass --version ${{ needs.read-tool-versions.outputs.dart_sass_version }}
 
