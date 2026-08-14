@@ -2,6 +2,9 @@ baseURL = 'https://spiges.github.io/handbook/'
 languageCode = 'de-CH'
 title = 'Handbuch SpiGes'
 
+theme = "@docsy/theme"
+themesDir = "node_modules"
+
 # Language settings
 contentDir = "content/"
 defaultContentLanguage = "de"
@@ -144,7 +147,4 @@ theme = "base"
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.149.0"
-  [[module.imports]]
-    path = "github.com/google/docsy"
-    disable = false
+    min = "0.164.0"
