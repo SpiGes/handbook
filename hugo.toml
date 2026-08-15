@@ -54,7 +54,7 @@ anchor = "smart"
 # Language configuration
 [languages]
  [languages.de]
-  languageName = "Deutsch"
+  label = "Deutsch"
   locale = "de"
   contentDir = "content/de"
   weight = 1
@@ -63,7 +63,7 @@ anchor = "smart"
   description = "Anleitungen und Informationen zur SpiGes"
 
  [languages.fr]
-  languageName = "Français"
+  label = "Français"
   locale = "fr"
   contentDir = "content/fr"
   weight = 2
@@ -72,7 +72,7 @@ anchor = "smart"
   description = "Instructions et informations sur SpiGes"
 
 [languages.it]
-  languageName = "Italian"
+  label = "Italian"
   locale = "it"
   contentDir = "content/it"
   weight = 3
@@ -83,13 +83,13 @@ anchor = "smart"
 # [languages.rm]
 #   title = "Manual da plattafurma SpiGes"
 #   description = ""
-#   languageName = "Rumantsch"
+#   label = "Rumantsch"
 #   locale = "rm"
 #   contentDir = "content/rm"
 #   weight = 4
 
 # [languages.en]
-#   languageName = "English"
+#   label = "English"
 #   locale = "en"
 #   contentDir = "content/en"
 #   weight = 5
