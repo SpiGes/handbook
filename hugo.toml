@@ -1,5 +1,5 @@
 baseURL = 'https://spiges.github.io/handbook/'
-languageCode = 'de-CH'
+locale = 'de-CH'
 title = 'Handbuch SpiGes'
 
 theme = "@docsy/theme"
@@ -55,7 +55,7 @@ anchor = "smart"
 [languages]
  [languages.de]
   languageName = "Deutsch"
-  languageCode = "de"
+  locale = "de"
   contentDir = "content/de"
   weight = 1
  [languages.de.params]
@@ -64,7 +64,7 @@ anchor = "smart"
 
  [languages.fr]
   languageName = "Français"
-  languageCode = "fr"
+  locale = "fr"
   contentDir = "content/fr"
   weight = 2
  [languages.fr.params]
@@ -72,30 +72,30 @@ anchor = "smart"
   description = "Instructions et informations sur SpiGes"
 
 [languages.it]
-languageName = "Italian"
-languageCode = "it"
-contentDir = "content/it"
-weight = 3
+  languageName = "Italian"
+  locale = "it"
+  contentDir = "content/it"
+  weight = 3
 [languages.it.params]
-title = "Manuale SpiGes"
-description = "Guida e informazioni su SpiGes"
+  title = "Manuale SpiGes"
+  description = "Guida e informazioni su SpiGes"
 
 # [languages.rm]
-# title = "Manual da plattafurma SpiGes"
-# description = ""
-# languageName = "Rumantsch"
-# languageCode = "rm"
-# contentDir = "content/rm"
-# weight = 4
+#   title = "Manual da plattafurma SpiGes"
+#   description = ""
+#   languageName = "Rumantsch"
+#   locale = "rm"
+#   contentDir = "content/rm"
+#   weight = 4
 
 # [languages.en]
-# languageName = "English"
-# languageCode = "en"
-# contentDir = "content/en"
-# weight = 5
+#   languageName = "English"
+#   locale = "en"
+#   contentDir = "content/en"
+#   weight = 5
 # [languages.en.params]
-# title = "Manual SpiGes"
-# description = "Manual and Information about SpiGes"
+#   title = "Manual SpiGes"
+#   description = "Manual and Information about SpiGes"
 
 [markup]
   [markup.goldmark]
