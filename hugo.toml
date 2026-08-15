@@ -47,9 +47,8 @@ blog = "/:section/:year/:month/:day/:slug/"
 
 # Image processing configuration.
 [imaging]
-resampleFilter = "CatmullRom"
-quality = 75
-anchor = "smart"
+  resampleFilter = "CatmullRom"
+  anchor = "smart"
 
 # Language configuration
 [languages]
