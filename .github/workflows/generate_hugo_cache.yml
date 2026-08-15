@@ -46,7 +46,7 @@ jobs:
         run: 7z a -tzip hugo_cache.zip ${{ env.HUGO_CACHE_DIR }}
 
       - name: Upload hugo_cache.zip
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: hugo-cache
           path: hugo_cache.zip
