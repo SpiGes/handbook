@@ -178,7 +178,7 @@ jobs:
         #     the trigger is automatic (push)
         #     OR the trigger is manual and 'deploymentEnabled' parameter is true
         if: success() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || github.event.inputs.deploymentEnabled == 'true')
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: ${{ env.TARGET_BRANCH }}
           build_dir: public
