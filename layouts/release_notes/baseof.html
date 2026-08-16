@@ -9,7 +9,7 @@
     {{ partial "head.html" . }}
   </head>
   <body
-    class="td-{{ .Kind }}{{ with .Page.Params.body_class }}{{ . }}{{ end }}"
+    class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}"
   >
     <div class="viewport">
       <header class="layout-header">
