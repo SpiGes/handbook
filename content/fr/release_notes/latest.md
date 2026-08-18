@@ -4,7 +4,7 @@ slug: "latest"
 description: " "
 weight: 1
 layout: latest-release-notes-redirect
-_build:
-  list: false
-  render: true
+build:
+  list: never
+  render: always
 ---
