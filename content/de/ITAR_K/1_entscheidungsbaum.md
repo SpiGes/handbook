@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Sie können den detaillierten Entscheidungsbaum als EXCEL Datei herunterladen. Darin sind die ITAR_K®-Spalten beschrieben (gültig ab ITAR_K® Version 16.0, Daten 2025).
+Sie können den detaillierten Entscheidungsbaum als EXCEL Datei herunterladen. Darin sind die ITAR_K®-Spalten beschrieben (gültig ab ITAR_K® Version 17.0, Daten 2026).
 [Herunterladen der Daten: ITARK_Spalte](https://github.com/SpiGes/itark_spalte/releases/latest/download/itark_spalte.xlsx)
 
 {{<insertImage image="ItarK_V4_D.png" class="edge max-w-90">}}
