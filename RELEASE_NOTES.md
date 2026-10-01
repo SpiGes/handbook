@@ -1,12 +1,17 @@
-# Release Notes - SpiGes Documentation Version [0.36.0]
+# Release Notes - SpiGes Documentation Version [0.37.0]
 
-## Release Date: 2026.05.13
+## Release Date: 2026.10.01
 
 ### New
 
 #### Documentation
 
-- [#352](https://github.com/SpiGes/handbook/issues/352) - update_itark_20260512
+- [#364](https://github.com/SpiGes/handbook/issues/364) - Update ITARK_Spalte
+- [#358](https://github.com/SpiGes/handbook/issues/358) - complete release notes
+
+#### Others
+
+- [#362](https://github.com/SpiGes/handbook/issues/362) - Update build tools and dependencies
 
 ## Contributors
 

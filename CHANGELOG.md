@@ -2,6 +2,19 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.37.0] - 2026.10.01
+
+### New
+
+#### Documentation
+
+- [#364](https://github.com/SpiGes/handbook/issues/364) - Update ITARK_Spalte
+- [#358](https://github.com/SpiGes/handbook/issues/358) - complete release notes
+
+#### Others
+
+- [#362](https://github.com/SpiGes/handbook/issues/362) - Update build tools and dependencies
+
 ## [0.36.0] - 2026.05.13
 
 ### New
