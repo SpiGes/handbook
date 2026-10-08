@@ -1,17 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.37.0]
+# Release Notes - SpiGes Documentation Version [0.38.0]
 
-## Release Date: 2026.10.01
+## Release Date: 2026.10.08
 
 ### New
 
 #### Documentation
 
-- [#364](https://github.com/SpiGes/handbook/issues/364) - Update ITARK_Spalte
-- [#358](https://github.com/SpiGes/handbook/issues/358) - complete release notes
-
-#### Others
-
-- [#362](https://github.com/SpiGes/handbook/issues/362) - Update build tools and dependencies
+- [#367](https://github.com/SpiGes/handbook/issues/367) - Update Kennzahlen
 
 ## Contributors
 

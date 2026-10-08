@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.38.0] - 2026.10.08
+
+### New
+
+#### Documentation
+
+- [#367](https://github.com/SpiGes/handbook/issues/367) - Update Kennzahlen
+
 ## [0.37.0] - 2026.10.01
 
 ### New
