@@ -14,8 +14,10 @@ Sie können die Prüfungsregeln in Form einer CSV Datei herunterladen. Es sind a
 
 Die Berechnung der Kennzahlen finden Sie in der folgenden CSV Datei.
 Die Datei enthält alle Schritte, die zur Ermittlung der Kennzahlen erforderlich sind.
+Die Registerkarte «KFC» enthält die Berechnungsschritte, die Registerkarte «RM» enthält die Regeln (hauptsächlich Warnungen) und die Registerkarte «GUI» enthält die Visualisierung.
 
 [Herunterladen der Datei: Kennzahlen](https://github.com/SpiGes/kennzahlen/releases/latest/download/Kennzahlen-PRD.xlsx)
+(Update: Oktober 2026)
 
 {{<markdown>}}
 

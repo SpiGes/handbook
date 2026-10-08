@@ -14,8 +14,10 @@ Vous pouvez télécharger les règles de contrôle sous la forme d'un fichier CS
 
 Vous trouvez le calcul des chiffres-clés dans le fichier CSV suivant.
 Le fichier indique l'ensemble des étapes afin d'obtenir les résultats des chiffres-clés.
+L'onglet KFC contient les étapes de calculs, l'onglet RM contient les règles (majoritairement en avertissement) et l'onglet GUI contient la visualisation.
 
 [Télécharger le fichier: Kennzahlen](https://github.com/SpiGes/kennzahlen/releases/latest/download/Kennzahlen-PRD.xlsx)
+(Update: octobre 2026)
 
 {{<markdown>}}
 
