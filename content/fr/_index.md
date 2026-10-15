@@ -20,6 +20,7 @@ Les spécifications du format XML peuvent être téléchargées ci-dessous et co
 [Description du fichier XML 1.5](https://github.com/SpiGes/interface-xml/releases/latest/download/do-f-14.04-spiges-b.pdf)
 
 Version 1.6:
+
 [Schema XSD 1.6 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-02.xsd)
 
 [Schema XSD 1.6 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-04.xsd)
@@ -29,6 +30,7 @@ Version 1.6:
 [Fichier XML d'exemple 1.6 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-03.xsd)
 
 Version 1.5:
+
 [Schema XSD 1.5 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-02.xsd)
 
 [Schema XSD 1.5 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-04.xsd)
