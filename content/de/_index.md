@@ -19,7 +19,7 @@ Die Dokumentation des XML-Formats kann hier heruntergeladen werden und umfasst e
 
 [Beschreibung der XML-Datei 1.5](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-spiges-b.pdf)
 
-Version 1.6:
+**Version 1.6:**
 
 [XSD-Schema 1.6 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-02.xsd)
 

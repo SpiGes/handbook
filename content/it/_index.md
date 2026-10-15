@@ -19,7 +19,7 @@ La documentazione relativa al formato XML può essere scaricata qui e comprende 
 
 [Descrizione del file XML 1.5](https://github.com/SpiGes/interface-xml/releases/latest/download/do-i-14.04-spiges-b.pdf)
 
-Versione 1.6:
+**Versione 1.6:**
 
 [Schema XSD 1.6 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-02.xsd)
 
