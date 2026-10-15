@@ -28,5 +28,5 @@ La documentazione relativa al formato XML può essere scaricata qui e comprende 
 [Schema XSD 1.5 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-02.xsd)
 [Schema XSD 1.5 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-04.xsd)
 
-[File XML di esempio 1.4 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-01.xsd)
-[File XML di esempio 1.4 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-03.xsd)
+[File XML di esempio 1.5 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-01.xsd)
+[File XML di esempio 1.5 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-03.xsd)
