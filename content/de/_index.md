@@ -25,9 +25,9 @@ Version 1.6:
 
 [XSD-Schema 1.6 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-04.xsd)
 
-[XML-Musterdatei 1.6 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-01.xsd)
+[XML-Musterdatei 1.6 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-01.xml)
 
-[XML-Musterdatei 1.6 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-03.xsd)
+[XML-Musterdatei 1.6 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-03.xml)
 
 Version 1.5:
 
@@ -35,6 +35,6 @@ Version 1.5:
 
 [XSD-Schema 1.5 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-04.xsd)
 
-[XML-Musterdatei 1.5 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-01.xsd)
+[XML-Musterdatei 1.5 - Data File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-01.xml)
 
-[XML-Musterdatei 1.5 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-03.xsd)
+[XML-Musterdatei 1.5 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2025-03.xml)
