@@ -31,4 +31,4 @@ Der Abschluss kann vom Unternehmensuser erst gestartet werden, wenn das Unterneh
 
 Die Prüfprotokolle werden pro Spital (BURGESV) erstellt und akzeptiert. Falls ein Unternehmen aus mehreren Spitälern besteht, müssen zuerst alle Prüfprotokolle akzeptiert werden, bevor das gesamte Unternehmen abgeschlossen und somit für die nächste Stufe – Kanton oder BFS – abschliessbar wird.
 
-Aktiv am Abschlussprozess beteiligt sind die Rollen `SP_ErhV_Unternehmen`, `KT_ErhV(stat_Abschlussuser)`, `KT_Admin_Abschlussuser` und `BFS_Superuser`. Der `KT_SuperUser` hat nur Leseberechtigung.
+Aktiv am Abschlussprozess beteiligt sind die Rollen `SP_ErhV_Unternehmen`, `KT_ErhV(stat_Abschlussuser)`, `KT_Admin_Abschlussuser` und `BFS_Superuser`. Der `KT_Superuser` hat nur Leseberechtigung.
