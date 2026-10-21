@@ -1,0 +1,92 @@
+---
+title: Processus de clôture pour utilisateur entreprise
+slug: unternehmensuser
+description: "Sur cette page, nous vous expliquons comment, en tant qu'utilisateur entreprise, vous pouvez effectuer la procédure de clôture sur la plateforme SpiGes."
+weight: 60
+type: docs
+keywords: []
+---
+
+## Vérifier le rapport de contrôle, l'accepter et clôturer l'entreprise
+
+ Vous apprendrez comment ouvrir la vue de clôture, consulter le rapport de contrôle, y ajouter des commentaires, l'accepter et confirmer la clôture de l'entreprise.
+
+### Conditions préalables à la clôture
+
+Le processus de clôture peut être lancé dès que toutes les parties du relevé de l'entreprise répertoriées dans la colonne « Clôture » ont atteint le statut « Prêt ». Si cette condition est remplie, le bouton **Clôture** est activé.
+
+{{<insertImage image="unternehmen-01.png" class="edge max-w-90">}}
+
+### Ouvrir la vue des clôtures
+
+Cliquez sur **Clôture**. Vous accédez alors à la vue des clôtures de l'entreprise. Les hôpitaux concernés y sont affichés avec leur statut et celui du protocole de contrôle.
+
+{{<insertImage image="unternehmen-02.png" class="edge max-w-90">}}
+
+**Remarque :** Le bouton **Terminer** est désactivé dans un premier temps. Il ne sera activé qu'après acceptation du protocole de contrôle.
+
+### Consulter le protocole de contrôle
+
+Sur la ligne souhaitée, ouvrez le menu d'actions en cliquant sur les trois points. Cliquez ensuite sur **Protocole de contrôle**.
+
+{{<insertImage image="unternehmen-03.png" class="edge max-w-90">}}
+
+### Vérifier le protocole de contrôle
+
+Le protocole de contrôle contient des informations générales ainsi que les résultats des contrôles des indicateurs et des cas particuliers. Dès que l'utilisateur cantonal a saisi les questions de benchmarking, celles-ci peuvent également être consultées dans le protocole de contrôle. Les éventuels commentaires de l'utilisateur cantonal et de l'utilisateur OFS sont ajoutés au protocole de contrôle et peuvent être consultés par l'utilisateur entreprise. Le protocole de contrôle n'est définitif qu'une fois le processus de clôture entièrement achevé.
+
+{{<insertImage image="unternehmen-04.png" class="edge max-w-90">}}
+
+La fonction **Imprimer** vous permet d'exporter le protocole de contrôle au format PDF. La fonction **Accepter** permet de valider le protocole une fois le contrôle terminé.
+
+### Ajouter un commentaire au protocole de contrôle
+
+Tant que le protocole de contrôle n'a pas encore été accepté, vous pouvez sélectionner **Commentaire** dans le menu d'actions. Saisissez le commentaire souhaité, puis cliquez sur **Enregistrer**.
+
+{{<insertImage image="unternehmen-05.png" class="edge max-w-90">}}
+
+**Important :** Dès que le protocole de contrôle a été accepté, il n'est plus possible d'ajouter de nouveaux commentaires ni de modifier les commentaires existants. Veillez donc à saisir toutes les remarques nécessaires avant de l'accepter.
+
+### Accepter le protocole de contrôle
+
+Une fois que vous avez entièrement vérifié le protocole de contrôle et saisi tous les commentaires nécessaires, sélectionnez **Accepter** dans le menu d’actions ou cliquez sur **Accepter** dans la vue du protocole de contrôle. La plateforme affiche une boîte de dialogue de confirmation. En cliquant sur **Oui**, vous acceptez le protocole de contrôle de manière définitive.
+
+{{<insertImage image="unternehmen-06.png" class="edge max-w-90">}}
+
+Une fois la validation effectuée, le statut du protocole de contrôle passe de **Non accepté** à **Accepté**. Dans le même temps, le bouton **Terminer** est activé.
+
+{{<insertImage image="unternehmen-07.png" class="edge max-w-90">}}
+
+### Clôturer l'entreprise
+
+Cliquez sur **Clôturer**. La plateforme affiche une boîte de dialogue de confirmation indiquant les conséquences de la clôture.
+
+{{<insertImage image="unternehmen-08.png" class="edge max-w-90">}}
+
+En cliquant sur **Oui**, vous confirmez que les données sont définitives et que les contrôles sont terminés. La clôture par l'utilisateur entreprise a les conséquences suivantes :
+
+- Aucun autre téléchargement n'est possible.
+- Les fonctions de chat relatives aux contrôles sont désactivées.
+- La communication relative à l'enquête reste disponible.
+- Le canton est invité par e-mail à poursuivre la clôture de son côté.
+- Le fichier ITAR_K définitif et signé peut être téléchargé dès que le processus de clôture est entièrement terminé et a atteint le statut **OK**.
+
+**Statut «En attente» :** Après confirmation, l’utilisateur entreprise a clôturé le processus. La clôture par le canton ou par l’OFS est toutefois encore en attente. La vue de clôture affiche désormais le statut «En attente». Cela indique clairement que le processus de clôture ne relève plus de la responsabilité de l’utilisateur entreprise.
+
+{{<insertImage image="unternehmen-09.png" class="edge max-w-90">}}
+
+### Suite du processus dans l'état « En attente »
+
+Pour l'utilisateur entreprise, aucune autre démarche n'est requise pour le moment. Veuillez attendre que les autres acteurs concernés aient accompli leurs tâches et mené à bien l'ensemble du processus de clôture.
+
+Vous serez informé par e-mail dès que l’utilisateur OFS aura entièrement clôturé le relevé de votre entreprise. Une fois la clôture effectuée par le canton, aucune notification distincte n’est envoyée à l’utilisateur entreprise. Ce n’est que lorsque tous les acteurs concernés ont terminé leur part du processus que la clôture complète est effective.
+
+### Aperçu des statuts
+
+| Statut | Signification | Étape suivante |
+|---|---|---|
+| **En cours** | Le processus de clôture n'a pas encore été lancé ou les conditions préalables à la clôture ne sont pas encore remplies. | Terminer les tâches en cours. |
+| **Prêt** | Toutes les parties du relevé requises ont le statut de clôture « Prêt ». | Ouvrir la vue de clôture et vérifier le protocole de contrôle. |
+| **En attente** | L'utilisateur entreprise a clôturé le relevé. La clôture par le canton ou par l'OFS est encore en attente. | Attendre la clôture complète. |
+| **OK** | Tous les acteurs ont clôturé le relevé de l'entreprise. | Le processus de clôture est entièrement terminé. |
+
