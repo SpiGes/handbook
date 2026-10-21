@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Instructions détaillées: [utilisateur entreprise](1_unternehmensuser.md), [utilisateur cantonal](2.kantonaluser.md) und [utilisateur OFS](3.bfsuser.md).
+Instructions détaillées: [utilisateur entreprise](1_unternehmensuser.md), [utilisateur cantonal](2_kantonaluser.md) und [utilisateur OFS](3_bfsuser.md).
 
 ## Déroulement du processus de clôture
 

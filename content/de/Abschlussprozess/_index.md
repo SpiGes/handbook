@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-Detaillierte Anleitungen: [Unternehmensuser](1_unternehmensuser.md), [kantonale User](2.kantonaluser.md) und [BFS User](3.bfsuser.md).
+Detaillierte Anleitungen: [Unternehmensuser](1_unternehmensuser.md), [kantonale User](2_kantonaluser.md) und [BFS User](3_bfsuser.md).
 
 ## Ablauf des Abschlussprozesses
 
