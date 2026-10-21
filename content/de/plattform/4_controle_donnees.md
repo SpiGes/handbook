@@ -73,9 +73,9 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 -->
 ### Prüfergebnisse und erhebungsbezogene Kommunikation
 
-{{<insertImage image="01-pruefergebnisse.png" class="edge max-w-90">}}
+{{<insertImage image="01-pruefergebnisse.jpg" class="edge max-w-90">}}
 
-{{<insertImage image="02-erhebungsbezogene-kommunikation.png" class="edge max-w-90">}}
+{{<insertImage image="02-erhebungsbezogene-kommunikation.jpg" class="edge max-w-90">}}
 
 1. In dieser Rubrik sehen Sie, ob die betreffenden Daten die Formatkontrolltests bestanden haben. Falls ein Fehler aufgetreten ist, können Sie darauf klicken, um die Details des Fehlers anzuzeigen, damit Sie ihn in der XML-Datei korrigieren und erneut importieren können. **ACHTUNG:** Der Import neuer Daten überschreibt die zuvor importierten Daten. Das korrigierte Datenfile muss die gleichen Erhebungsteile enthalten. Die Formatfehler können nicht pro Erhebungsteil durchgeführt und angezeigt werden, sondern nur pro File.
 2. Nachdem die Formatprüfung freigegeben wurde, sehen Sie in dieser Rubrik die Fehler einzelner Fälle, die bearbeitet werden müssen. Sie können auf die gewünschte Kategorie klicken, um sich die Fehler genauer anzusehen.
@@ -84,14 +84,14 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 ### Prüfung Einzelfälle
 
-{{<insertImage image="03-einzelfallpruefung.png" class="edge max-w-90">}}
+{{<insertImage image="03-einzelfallpruefung.jpg" class="edge max-w-90">}}
 
 1. Mit dem Filterabschnitt können Sie die Abschnitte sortieren, um schneller zu finden, was Sie suchen.
 2. In dieser Rubrik können Sie den Status der einzelnen Abschnitte sehen.
 3. Hier können Sie die Daten herunterladen.
 4. Mit diesem Pfeil kann die Regel aufgeklappt werden, so dass alle einzelnen Fälle angezeigt werden, für welche die Regel fehlgeschlagen ist.
 
-{{<insertImage image="04-einzelfall-details.png" class="edge max-w-90">}}
+{{<insertImage image="04-einzelfall-details.jpg" class="edge max-w-90">}}
 
 1. In den quadratischen Feldern können Sie mehrere Regeln oder mehrere Fälle pro Regel auswählen.
 2. In dieser Rubrik sehen Sie eine Beschreibung des Fehlers. Sie können auch mehr Details sehen, indem Sie auf den Fehler in der Rubrik „Fall-Id“ klicken.
@@ -101,7 +101,7 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 ### Sortierung
 
-{{<insertImage image="05-sortierung.png" class="edge max-w-90">}}
+{{<insertImage image="05-sortierung.jpg" class="edge max-w-90">}}
 
 1. Durch Klicken auf die Titel (Prüf-Id, Typ, Beschreibung, Status und Letzter Kommentar) kann die Priorisierung der Sortierung gewählt werden.
 2. Durch mehrmaliges Klicken kann man wechseln zwischen absteigend, aufsteigend oder gar nicht sortieren in dieser Spalte.
