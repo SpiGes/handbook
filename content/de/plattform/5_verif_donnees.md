@@ -51,7 +51,7 @@ Sobald keine offenen Fehler mehr bestehen, kann die Plausibilisierung der Daten 
 {{<insertImage image="kommentare-sortierung.png" class="edge max-w-90">}}
 
 1. Hier können Sie kommentieren, indem Sie auf das Feld «Sprechblase» klicken. Wenn noch keine Fehler ausgewählt sind, werden automatisch alle Fehler dieser Regel ausgewählt und kommentiert. Sind Fehler selektiert, wirkt der Kommentar auf diese Fehler.
-2. Hier können Sie Ihre Sortierreihenfolge speichern. Diese legen Sie durch Klick auf die fünf Titel (Prüf-Id, Typ, Beschreibung, Status und Letzter Kommentar) fest. Die Sortierreihenfolge bleibt auch nach dem Ausloggen und erneuten Einloggen erhalten.
+2. Hier können Sie Ihre Sortierreihenfolge speichern. Diese legen Sie durch Klick auf die Titel (Prüf-Id, Typ, Beschreibung, Status und Letzter Kommentar) fest. Die Sortierreihenfolge bleibt auch nach dem Ausloggen und erneuten Einloggen erhalten.
 
 ### Aktionen für einzelne Fehler
 
