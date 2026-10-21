@@ -35,13 +35,13 @@ Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisatio
 
 5. Vous pouvez également agir sur une seule erreur au niveau de l'erreur concernée. Vous pouvez également accepter des motifications en cliquant sur le vu.
 -->
-## Vérification au cas par cas, point de vue du canton
+## Vérification des cas individuels, vue du canton
 
 {{<insertImage image="einzelfallpruefung-kanton_fr.jpg" class="edge max-w-90">}}
 
-1. En cochant la case située à côté de l'identifiant de contrôle, vous pouvez sélectionner plusieurs erreurs.
-2. Dans cette rubrique, vous pouvez consulter une description de l'erreur. Vous pouvez également obtenir plus de détails en cliquant sur l'erreur dans la rubrique « ID du cas ».
-3. Dans cette rubrique, vous pouvez consulter le statut de chaque erreur.
+1. En cochant la case située à côté de l'ID d'examen, vous pouvez sélectionner plusieurs erreurs.
+2. Dans cette rubrique, vous pouvez consulter une description de l'erreur. Vous pouvez également obtenir plus de détails en cliquant sur l'erreur dans la rubrique « ID de cas ».
+3. Dans cette rubrique, vous pouvez consulter l'état de chaque erreur.
 4. Les commentaires peuvent être triés par date de saisie.
 5. Vous pouvez effectuer des modifications sur les erreurs sélectionnées, par exemple accepter les justifications, en cliquant sur la case à cocher.
 
@@ -50,7 +50,7 @@ Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisatio
 {{<insertImage image="kommentare-sortierung_fr.jpg" class="edge max-w-90">}}
 
 1. Vous pouvez ici ajouter un commentaire en cliquant sur le champ « bulle de dialogue ». Si aucune erreur n'est encore sélectionnée, toutes les erreurs relevant de cette règle sont automatiquement sélectionnées et commentées. Si des erreurs sont sélectionnées, le commentaire s'applique à ces erreurs.
-2. Vous pouvez ici enregistrer votre ordre de tri. Pour ce faire, cliquez sur les cinq en-têtes (ID de vérification, Type, Description, Statut et Dernier commentaire). L'ordre de tri est conservé même après vous être déconnecté puis reconnecté.
+2. Vous pouvez ici enregistrer votre ordre de tri. Pour ce faire, cliquez sur les en-têtes (ID d'examen, type, description, état et Dernier commentaire). L'ordre de tri est conservé même après vous être déconnecté puis reconnecté.
 
 ### Actions à entreprendre pour chaque erreur
 
