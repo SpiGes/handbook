@@ -37,7 +37,7 @@ Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisatio
 -->
 ## Vérification au cas par cas, point de vue du canton
 
-{{<insertImage image="einzelfallpruefung-kanton_fr.png" class="edge max-w-90">}}
+{{<insertImage image="einzelfallpruefung-kanton_fr.jpg" class="edge max-w-90">}}
 
 1. En cochant la case située à côté de l'identifiant de contrôle, vous pouvez sélectionner plusieurs erreurs.
 2. Dans cette rubrique, vous pouvez consulter une description de l'erreur. Vous pouvez également obtenir plus de détails en cliquant sur l'erreur dans la rubrique « ID du cas ».
@@ -47,13 +47,13 @@ Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisatio
 
 ### Commentaires et ordre de tri
 
-{{<insertImage image="kommentare-sortierung_fr.png" class="edge max-w-90">}}
+{{<insertImage image="kommentare-sortierung_fr.jpg" class="edge max-w-90">}}
 
 1. Vous pouvez ici ajouter un commentaire en cliquant sur le champ « bulle de dialogue ». Si aucune erreur n'est encore sélectionnée, toutes les erreurs relevant de cette règle sont automatiquement sélectionnées et commentées. Si des erreurs sont sélectionnées, le commentaire s'applique à ces erreurs.
 2. Vous pouvez ici enregistrer votre ordre de tri. Pour ce faire, cliquez sur les cinq en-têtes (ID de vérification, Type, Description, Statut et Dernier commentaire). L'ordre de tri est conservé même après vous être déconnecté puis reconnecté.
 
 ### Actions à entreprendre pour chaque erreur
 
-{{<insertImage image="einzelfehler-aktionen_fr.png" class="edge max-w-90">}}
+{{<insertImage image="einzelfehler-aktionen_fr.jpg" class="edge max-w-90">}}
 
 1. Si vous souhaitez effectuer une action (accepter, commenter, télécharger les erreurs ou signaler une erreur) pour une seule erreur, vous pouvez la réaliser directement dans la ligne correspondante de l'erreur.

@@ -53,7 +53,7 @@ Une fois que vous avez entièrement vérifié le rapport d'inspection et saisi t
 
 {{<insertImage image="unternehmen-06.png" class="edge max-w-90">}}
 
-Une fois la validation effectuée, le statut du rapport d'inspection passe de **Non accepté** à **Accepté**. Dans le même temps, le bouton **Terminer** est activé.
+Une fois la validation effectuée, le statut du rapport d'inspection passe de **Non accepté** à **Accepté**. Dans le même temps, le bouton **Clôturer** est activé.
 
 {{<insertImage image="unternehmen-07.png" class="edge max-w-90">}}
 
