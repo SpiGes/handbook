@@ -77,7 +77,9 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 
 {{<insertImage image="02-erhebungsbezogene-kommunikation.jpg" class="edge max-w-90">}}
 
-1. In dieser Rubrik sehen Sie, ob die betreffenden Daten die Formatkontrolltests bestanden haben. Falls ein Fehler aufgetreten ist, können Sie darauf klicken, um die Details des Fehlers anzuzeigen, damit Sie ihn in der XML-Datei korrigieren und erneut importieren können. **ACHTUNG:** Der Import neuer Daten überschreibt die zuvor importierten Daten. Das korrigierte Datenfile muss die gleichen Erhebungsteile enthalten. Die Formatfehler können nicht pro Erhebungsteil durchgeführt und angezeigt werden, sondern nur pro File.
+1. In dieser Rubrik sehen Sie, ob die betreffenden Daten die Formatkontrolltests bestanden haben. Falls ein Fehler aufgetreten ist, können Sie darauf klicken, um die Details des Fehlers anzuzeigen, damit Sie ihn in der XML-Datei korrigieren und erneut importieren können. 
+
+**ACHTUNG:** Der Import neuer Daten überschreibt die zuvor importierten Daten. Das korrigierte Datenfile muss die gleichen Erhebungsteile enthalten. Die Formatfehler können nicht pro Erhebungsteil durchgeführt und angezeigt werden, sondern nur pro File.
 2. Nachdem die Formatprüfung freigegeben wurde, sehen Sie in dieser Rubrik die Fehler einzelner Fälle, die bearbeitet werden müssen. Sie können auf die gewünschte Kategorie klicken, um sich die Fehler genauer anzusehen.
 3. Hier können Sie die Fehler bei den Kennzahlen bearbeiten, indem Sie auf die gewünschte Kategorie klicken.
 4. Hier sehen Sie die Kommentare, die zuvor gepostet wurden. Sie können Kommentare posten, um Ihre Fehler zu begründen oder um auf frühere Kommentare zu antworten. Sie können auch ein neues Diskussionsthema erstellen, indem Sie auf die Sprechblase in der Mitte oben klicken.
