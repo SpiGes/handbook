@@ -7,13 +7,13 @@ type: docs
 keywords: []
 ---
 
-## Accepter le protocole de contrôle et finaliser la clôture
+## Accepter le rapport d'inspection et finaliser la clôture
 
-Pour finaliser la clôture, l'utilisateur OFS doit également accepter le protocole de contrôle, puis clôturer l'entreprise.
+Pour finaliser la clôture, l'utilisateur OFS doit également accepter le rapport d'inspection, puis clôturer l'entreprise.
 
 ### Clôturer définitivement l'entreprise
 
-Une fois le protocole de contrôle accepté, l'utilisateur OFS peut cliquer sur le bouton **Clôturer**. Cela met définitivement fin au processus de clôture et le statut de l'entreprise passe à **OK**.
+Une fois le rapport d'inspection accepté, l'utilisateur OFS peut cliquer sur le bouton **Clôturer**. Cela met définitivement fin au processus de clôture et le statut de l'entreprise passe à **OK**.
 
 ### Exporter la version finale de l'ITAR_K
 

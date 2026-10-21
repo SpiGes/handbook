@@ -19,41 +19,41 @@ Le processus de clôture peut être lancé dès que toutes les parties du relev�
 
 ### Ouvrir la vue des clôtures
 
-Cliquez sur **Clôture**. Vous accédez alors à la vue des clôtures de l'entreprise. Les hôpitaux concernés y sont affichés avec leur statut et celui du protocole de contrôle.
+Cliquez sur **Clôture**. Vous accédez alors à la vue des clôtures de l'entreprise. Les hôpitaux concernés y sont affichés avec leur statut et celui du rapport d'inspection.
 
 {{<insertImage image="unternehmen-02.png" class="edge max-w-90">}}
 
-**Remarque :** Le bouton **Terminer** est désactivé dans un premier temps. Il ne sera activé qu'après acceptation du protocole de contrôle.
+**Remarque :** Le bouton **Clôturer** est désactivé dans un premier temps. Il ne sera activé qu'après acceptation du rapport d'inspection.
 
-### Consulter le protocole de contrôle
+### Consulter le rapport d'inspection
 
-Sur la ligne souhaitée, ouvrez le menu d'actions en cliquant sur les trois points. Cliquez ensuite sur **Protocole de contrôle**.
+Sur la ligne souhaitée, ouvrez le menu d'actions en cliquant sur les trois points. Cliquez ensuite sur **Rapport d'inspection**.
 
 {{<insertImage image="unternehmen-03.png" class="edge max-w-90">}}
 
-### Vérifier le protocole de contrôle
+### Vérifier le rapport d'inspection
 
-Le protocole de contrôle contient des informations générales ainsi que les résultats des contrôles des indicateurs et des cas particuliers. Dès que l'utilisateur cantonal a saisi les questions de benchmarking, celles-ci peuvent également être consultées dans le protocole de contrôle. Les éventuels commentaires de l'utilisateur cantonal et de l'utilisateur OFS sont ajoutés au protocole de contrôle et peuvent être consultés par l'utilisateur entreprise. Le protocole de contrôle n'est définitif qu'une fois le processus de clôture entièrement achevé.
+Le rapport d'inspection contient des informations générales ainsi que les résultats des contrôles des indicateurs et des cas particuliers. Dès que l'utilisateur cantonal a saisi les questions de benchmarking, celles-ci peuvent également être consultées dans le rapport d'inspection. Les éventuels commentaires de l'utilisateur cantonal et de l'utilisateur OFS sont ajoutés au rapport d'inspection et peuvent être consultés par l'utilisateur entreprise. Le rapport d'inspection n'est définitif qu'une fois le processus de clôture entièrement achevé.
 
 {{<insertImage image="unternehmen-04.png" class="edge max-w-90">}}
 
-La fonction **Imprimer** vous permet d'exporter le protocole de contrôle au format PDF. La fonction **Accepter** permet de valider le protocole une fois le contrôle terminé.
+La fonction **Imprimer** vous permet d'exporter le rapport d'inspection au format PDF. La fonction **Accepter** permet de valider le protocole une fois le contrôle terminé.
 
-### Ajouter un commentaire au protocole de contrôle
+### Ajouter un commentaire au rapport d'inspection
 
-Tant que le protocole de contrôle n'a pas encore été accepté, vous pouvez sélectionner **Commentaire** dans le menu d'actions. Saisissez le commentaire souhaité, puis cliquez sur **Enregistrer**.
+Tant que le rapport d'inspection n'a pas encore été accepté, vous pouvez sélectionner **Commentaire** dans le menu d'actions. Saisissez le commentaire souhaité, puis cliquez sur **Enregistrer**.
 
 {{<insertImage image="unternehmen-05.png" class="edge max-w-90">}}
 
-**Important :** Dès que le protocole de contrôle a été accepté, il n'est plus possible d'ajouter de nouveaux commentaires ni de modifier les commentaires existants. Veillez donc à saisir toutes les remarques nécessaires avant de l'accepter.
+**Important :** Dès que le rapport d'inspection a été accepté, il n'est plus possible d'ajouter de nouveaux commentaires ni de modifier les commentaires existants. Veillez donc à saisir toutes les remarques nécessaires avant de l'accepter.
 
-### Accepter le protocole de contrôle
+### Accepter le rapport d'inspection
 
-Une fois que vous avez entièrement vérifié le protocole de contrôle et saisi tous les commentaires nécessaires, sélectionnez **Accepter** dans le menu d’actions ou cliquez sur **Accepter** dans la vue du protocole de contrôle. La plateforme affiche une boîte de dialogue de confirmation. En cliquant sur **Oui**, vous acceptez le protocole de contrôle de manière définitive.
+Une fois que vous avez entièrement vérifié le rapport d'inspection et saisi tous les commentaires nécessaires, sélectionnez **Accepter** dans le menu d’actions ou cliquez sur **Accepter** dans la vue du rapport d'inspection. La plateforme affiche une boîte de dialogue de confirmation. En cliquant sur **Oui**, vous acceptez le rapport d'inspection de manière définitive.
 
 {{<insertImage image="unternehmen-06.png" class="edge max-w-90">}}
 
-Une fois la validation effectuée, le statut du protocole de contrôle passe de **Non accepté** à **Accepté**. Dans le même temps, le bouton **Terminer** est activé.
+Une fois la validation effectuée, le statut du rapport d'inspection passe de **Non accepté** à **Accepté**. Dans le même temps, le bouton **Terminer** est activé.
 
 {{<insertImage image="unternehmen-07.png" class="edge max-w-90">}}
 
@@ -86,7 +86,7 @@ Vous serez informé par e-mail dès que l’utilisateur OFS aura entièrement cl
 | Statut | Signification | Étape suivante |
 |---|---|---|
 | **En cours** | Le processus de clôture n'a pas encore été lancé ou les conditions préalables à la clôture ne sont pas encore remplies. | Terminer les tâches en cours. |
-| **Prêt** | Toutes les parties du relevé requises ont le statut de clôture « Prêt ». | Ouvrir la vue de clôture et vérifier le protocole de contrôle. |
+| **Prêt** | Toutes les parties du relevé requises ont le statut de clôture « Prêt ». | Ouvrir la vue de clôture et vérifier le rapport d'inspection. |
 | **En attente** | L'utilisateur entreprise a clôturé le relevé. La clôture par le canton ou par l'OFS est encore en attente. | Attendre la clôture complète. |
 | **OK** | Tous les acteurs ont clôturé le relevé de l'entreprise. | Le processus de clôture est entièrement terminé. |
 
