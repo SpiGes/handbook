@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-## Répondre aux questions de benchmarking, accepter le protocole de contrôle et clôturer l'entreprise
+## Répondre aux questions de benchmarking, accepter le rapport d'inspection et clôturer l'entreprise
 
 Deux rôles métier interviennent dans la clôture cantonale. L'ordre dans lequel ils effectuent leurs clôtures n'a pas d'importance : les deux types d'utilisateurs peuvent travailler l'un après l'autre ou en parallèle.
 
@@ -15,8 +15,8 @@ Deux rôles métier interviennent dans la clôture cantonale. L'ordre dans leque
 
 | Rôle métier | Tâches |
 |---|---|
-| `KT_Admin_Abschlussuser` | Répondre aux questions de benchmarking pour chaque hôpital et les enregistrer, accepter le protocole de contrôle et clôturer l’entreprise. |
-| `KT_ErhV(stat_Abschlussuser)` | Accepter le protocole de contrôle et clôturer l’entreprise. |
+| `KT_Admin_Abschlussuser` | Répondre aux questions de benchmarking pour chaque hôpital et les enregistrer, accepter le rapport d'inspection et clôturer l’entreprise. |
+| `KT_ErhV(stat_Abschlussuser)` | Accepter le rapport d'inspection et clôturer l’entreprise. |
 
 ### Ouvrir les questions de benchmarking
 
@@ -36,15 +36,15 @@ Une fois que vous avez répondu aux questions concernant les soins somatiques ai
 
 Le relevé ne pourra être clôturé que lorsque les questions de benchmarking auront été entièrement répondues et enregistrées pour tous les hôpitaux concernés.
 
-### Accepter le protocole de contrôle
+### Accepter le rapport d'inspection
 
-Une fois les questions de benchmarking remplies, l'utilisateur administratif cantonal peut accepter le protocole de contrôle. L'utilisateur statistique cantonal doit également accepter le protocole de contrôle. Confirmez la boîte de dialogue en cliquant sur **Oui**. À partir de ce moment, tout commentaire existant concernant le protocole de contrôle ne pourra plus être modifié.
+Une fois les questions de benchmarking remplies, l'utilisateur administratif cantonal peut accepter le rapport d'inspection. L'utilisateur statistique cantonal doit également accepter le rapport d'inspection. Confirmez la boîte de dialogue en cliquant sur **Oui**. À partir de ce moment, tout commentaire existant concernant le rapport d'inspection ne pourra plus être modifié.
 
 {{<insertImage image="kanton-04.png" class="edge max-w-90">}}
 
 ### Clôturer l'entreprise
 
-Une fois le protocole de contrôle accepté par les deux parties, l'utilisateur cantonal chargé de l'administration et celui chargé des statistiques cliquent tous deux sur **Clôturer**. Confirmez la boîte de dialogue de clôture en cliquant sur **Oui**.
+Une fois le rapport d'inspection accepté par les deux parties, l'utilisateur cantonal chargé de l'administration et celui chargé des statistiques cliquent tous deux sur **Clôturer**. Confirmez la boîte de dialogue de clôture en cliquant sur **Oui**.
 
 {{<insertImage image="kanton-05.png" class="edge max-w-90">}}
 
