@@ -1,7 +1,7 @@
 ---
 title: Abschlussprozess für Unternehmensuser
 slug: unternehmensuser
-description: "Auf dieser Seite finden Sie verschiedene Informationen zur Erstellung des ITAR_K®."
+description: "Auf dieser Seite erklären wir Ihnen, wie Sie als Unternehmensuser den Abschlussprozess auf der SpiGes-Plattform durchführen."
 weight: 60
 type: docs
 keywords: []
@@ -9,7 +9,7 @@ keywords: []
 
 ## Prüfprotokoll prüfen, akzeptieren und das Unternehmen abschliessen
 
-Auf dieser Seite erklären wir Ihnen, wie Sie als Unternehmensuser den Abschlussprozess auf der SpiGes-Plattform durchführen. Sie erfahren, wie Sie die Abschlussansicht öffnen, das Prüfprotokoll einsehen, kommentieren und akzeptieren und den Abschluss des Unternehmens bestätigen.
+ Sie erfahren, wie Sie die Abschlussansicht öffnen, das Prüfprotokoll einsehen, kommentieren und akzeptieren und den Abschluss des Unternehmens bestätigen.
 
 ### Voraussetzungen für den Abschluss
 
