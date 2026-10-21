@@ -28,7 +28,7 @@ Lors d'un import, toutes les vérifications sont effectuées automatiquement. Le
 
 L'établissement traite les résultats du contrôle de manière autonome et corrige les données lorsque cela est possible en téléchargeant les données corrigées.
 Si la correction n'est pas possible ou que le contrôle a détecté une erreur à tort, l'établissement saisit une justification dans la section commentaire prévu à cette effet sur la plateforme. La vérification peut aussi générer un avertissement, qui se veut informatif et n'implique pas forcément une justification ou une correction. La vérification autonome est terminée une fois que toutes les erreurs ont été corrigées ou justifiées, ce qui doit être fait d'ici à la fin avril.
-
+<!--
 ### Contrôle du format
 
 {{<insertImage image="test_format_fr.png" class="edge max-w-90">}}
@@ -72,3 +72,39 @@ Si la correction n'est pas possible ou que le contrôle a détecté une erreur �
 4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon.
 
 5. Vous pouvez également saisir un commentaire au niveau de l'erreur concernée.
+-->
+### Résultats des contrôles et communication relative au relevé
+
+{{<insertImage image="01-pruefergebnisse_fr.jpg" class="edge max-w-90">}}
+
+{{<insertImage image="02-erhebungsbezogene-kommunikation_fr.jpg" class="edge max-w-90">}}
+
+1. Dans cette rubrique, vous pouvez voir si les données concernées ont passé avec succès les tests de validation du format. Si une erreur s'est produite, vous pouvez cliquer dessus pour afficher les détails de l'erreur, afin de pouvoir la corriger dans le fichier XML et réimporter les données. **ATTENTION :** L'importation de nouvelles données écrase les données importées précédemment. Le fichier de données corrigé doit contenir les mêmes parties d'enquête. Les erreurs de format ne peuvent pas être traitées et affichées par partie d'enquête, mais uniquement par fichier.
+2. Une fois la validation du format effectuée, vous verrez dans cette rubrique les erreurs des cas individuels qui doivent être traités. Vous pouvez cliquer sur la catégorie souhaitée pour examiner les erreurs plus en détail.
+3. Vous pouvez ici corriger les erreurs relatives aux indicateurs en cliquant sur la catégorie souhaitée.
+4. Vous voyez ici les commentaires qui ont été publiés précédemment. Vous pouvez publier des commentaires pour justifier vos erreurs ou pour répondre à des commentaires antérieurs. Vous pouvez également créer un nouveau sujet de discussion en cliquant sur la bulle de dialogue située en haut au centre.
+
+### Vérification des cas particuliers
+
+{{<insertImage image="03-einzelfallpruefung_fr.jpg" class="edge max-w-90">}}
+
+1. La section « Filtre » vous permet de trier les sections afin de trouver plus rapidement ce que vous cherchez.
+2. Dans cette rubrique, vous pouvez consulter le statut de chaque section.
+3. Vous pouvez télécharger les données ici.
+4. Cette flèche permet de développer la règle afin d'afficher tous les cas individuels pour lesquels la règle a échoué.
+
+{{<insertImage image="04-einzelfall-details_fr.jpg" class="edge max-w-90">}}
+
+1. Dans les cases carrées, vous pouvez sélectionner plusieurs règles ou plusieurs cas par règle.
+2. Dans cette rubrique, vous pouvez consulter une description de l’erreur. Vous pouvez également obtenir plus de détails en cliquant sur l’erreur dans la rubrique « ID du cas ».
+3. Dans cette rubrique, vous pouvez voir si l’erreur est encore « en suspens », si elle a déjà été résolue (« OK ») ou si elle a été définitivement classée comme « erreur » par le canton.
+4. Vous pouvez ici ajouter un commentaire (en cliquant sur le champ « bulle de dialogue »). Les commentaires s’appliquent à l’ensemble des erreurs par règle si vous commentez au niveau de la règle. Vous pouvez également saisir un commentaire pour un cas particulier ou pour plusieurs cas particuliers au sein d’une même règle en sélectionnant les cas concernés.
+5. Vous pouvez ici télécharger les cas sélectionnés.
+
+### Tri
+
+{{<insertImage image="05-sortierung_fr.jpg" class="edge max-w-90">}}
+
+1. En cliquant sur les en-têtes (ID de contrôle, Type, Description, Statut et Dernier commentaire), vous pouvez choisir l'ordre de tri.
+2. En cliquant plusieurs fois, vous pouvez basculer entre un tri décroissant, croissant ou aucun tri dans cette colonne.
+3. Le chiffre situé à côté de l'en-tête de ligne indique l'ordre de tri.

@@ -18,7 +18,7 @@ L'OFS n'intervient dans ce processus que sur demande. Les personnes concernées 
 La plausibilisation a lieu aussi bien d'un point de vue statistique que d'un point de vue administratif. Les contrôles peuvent être filtrés selon différents critères sur la plateforme SpiGes. Ainsi, les cantons peuvent répartir les tâches en interne de sorte que l'office de la santé publique, par exemple, se charge des vérifications sur les thèmes financiers et l'office statistique cantonal s'occupe des autres contrôles. L'organisation est laissée à l'appréciation des cantons. Par ailleurs, les cantons peuvent aussi exporter les données et procéder à d'autres contrôles de plausibilité hors plateforme.
 
 Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisation des données d'un site hospitalier ou d'une entreprise hospitalière peut être clôturée. La plausibilisation doit être achevée **avant la fin du mois de juin**.
-
+<!--
 ## Contrôle des cas individuels, vue canton
 
 {{<insertImage image="controle_detail_canton_fr.png" class="edge max-w-90">}}
@@ -34,3 +34,26 @@ Dès le moment où toutes les erreurs ont pu être traitées, la plausibilisatio
 4. Vous pouvez ici commenter (en cliquant sur la case "bulle de dialogue") ou télécharger les données (en cliquant sur la flèche vers le bas). Vous agirez sur la globalité des erreurs lorsqu'aucune erreur n'est séléctionnée, et sur les erreurs séléctionnées sinon.
 
 5. Vous pouvez également agir sur une seule erreur au niveau de l'erreur concernée. Vous pouvez également accepter des motifications en cliquant sur le vu.
+-->
+## Vérification au cas par cas, point de vue du canton
+
+{{<insertImage image="einzelfallpruefung-kanton_fr.png" class="edge max-w-90">}}
+
+1. En cochant la case située à côté de l'identifiant de contrôle, vous pouvez sélectionner plusieurs erreurs.
+2. Dans cette rubrique, vous pouvez consulter une description de l'erreur. Vous pouvez également obtenir plus de détails en cliquant sur l'erreur dans la rubrique « ID du cas ».
+3. Dans cette rubrique, vous pouvez consulter le statut de chaque erreur.
+4. Les commentaires peuvent être triés par date de saisie.
+5. Vous pouvez effectuer des modifications sur les erreurs sélectionnées, par exemple accepter les justifications, en cliquant sur la case à cocher.
+
+### Commentaires et ordre de tri
+
+{{<insertImage image="kommentare-sortierung_fr.png" class="edge max-w-90">}}
+
+1. Vous pouvez ici ajouter un commentaire en cliquant sur le champ « bulle de dialogue ». Si aucune erreur n'est encore sélectionnée, toutes les erreurs relevant de cette règle sont automatiquement sélectionnées et commentées. Si des erreurs sont sélectionnées, le commentaire s'applique à ces erreurs.
+2. Vous pouvez ici enregistrer votre ordre de tri. Pour ce faire, cliquez sur les cinq en-têtes (ID de vérification, Type, Description, Statut et Dernier commentaire). L'ordre de tri est conservé même après vous être déconnecté puis reconnecté.
+
+### Actions à entreprendre pour chaque erreur
+
+{{<insertImage image="einzelfehler-aktionen_fr.png" class="edge max-w-90">}}
+
+1. Si vous souhaitez effectuer une action (accepter, commenter, télécharger les erreurs ou signaler une erreur) pour une seule erreur, vous pouvez la réaliser directement dans la ligne correspondante de l'erreur.
