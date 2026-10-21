@@ -19,7 +19,7 @@ Das BFS wird in diesen Prozess nur bei Nachfragen involviert. Die Beteiligten in
 Die Plausibilisierung erfolgt sowohl aus einer statistischen Optik als auch aus einer administrativen Optik. Prüfungen können auf der SpiGes-Plattform nach diversen Kriterien gefiltert werden. So können die Kantone die Aufgaben intern verteilen, so dass z.B. das Gesundheitsamt Prüfungen zu Finanzthemen übernimmt und das kantonale statistische Amt die restlichen Prüfungen. Die Organisation ist den Kantonen überlassen. Weiter können die Kantone die Daten auch exportieren und weitere Plausibilisierungen ausserhalb der Plattform vornehmen.
 
 Sobald keine offenen Fehler mehr bestehen, kann die Plausibilisierung der Daten eines Spitalstandorts oder Spitalunternehmens abgeschlossen werden. Die Plausibilisierung hat **bis Ende Juni** zu erfolgen.
-
+<!--
 ## Einzelfallprüfung, Sicht Kanton
 
 {{<insertImage image="controle_detail_canton.png" class="edge max-w-90">}}
@@ -35,3 +35,26 @@ Sobald keine offenen Fehler mehr bestehen, kann die Plausibilisierung der Daten 
 4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Sie werden auf die Gesamtheit der Fehler einwirken, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler.
 
 5. Sie können auch auf der Ebene des betreffenden Fehlers Bearbeitungen vornehmen, z.B. Begründungen akzeptieren, indem Sie auf das Häkchen klicken.
+-->
+## Einzelfallprüfung, Sicht Kanton
+
+{{<insertImage image="einzelfallpruefung-kanton.png" class="edge max-w-90">}}
+
+1. Durch Selektion der Checkbox neben der Prüf-Id können Sie mehrere Fehler auswählen.
+2. In dieser Rubrik sehen Sie eine Beschreibung des Fehlers. Sie können auch mehr Details sehen, indem Sie auf den Fehler in der Rubrik «Fall-Id» klicken.
+3. In dieser Rubrik können Sie den Status jedes Fehlers sehen.
+4. Die Kommentare sind sortierbar nach ihrem Erfassungsdatum.
+5. Sie können für die selektierten Fehler Bearbeitungen vornehmen, z. B. Begründungen akzeptieren, indem Sie auf das Häkchen klicken.
+
+### Kommentare und Sortierreihenfolge
+
+{{<insertImage image="kommentare-sortierung.png" class="edge max-w-90">}}
+
+1. Hier können Sie kommentieren, indem Sie auf das Feld «Sprechblase» klicken. Wenn noch keine Fehler ausgewählt sind, werden automatisch alle Fehler dieser Regel ausgewählt und kommentiert. Sind Fehler selektiert, wirkt der Kommentar auf diese Fehler.
+2. Hier können Sie Ihre Sortierreihenfolge speichern. Diese legen Sie durch Klick auf die fünf Titel (Prüf-Id, Typ, Beschreibung, Status und Letzter Kommentar) fest. Die Sortierreihenfolge bleibt auch nach dem Ausloggen und erneuten Einloggen erhalten.
+
+### Aktionen für einzelne Fehler
+
+{{<insertImage image="einzelfehler-aktionen.png" class="edge max-w-90">}}
+
+1. Wenn Sie eine Aktion (Akzeptieren, Kommentieren, Prüfung herunterladen oder als fehlerhaft markieren) nur für einen Einzelfehler ausführen möchten, können Sie diese direkt in der jeweiligen Zeile des Fehlers ausführen.

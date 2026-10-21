@@ -26,6 +26,7 @@ Bei einem Upload werden sämtliche Prüfungen automatisch durchgeführt, deren E
 
 Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten wo möglich, indem er korrigierte Daten hochlädt. Ist keine Korrektur möglich oder hat die Prüfung zu Unrecht angeschlagen, verfasst der Betrieb auf der Plattform eine Begründung. Weiter kann eine Prüfung auch eine Warnung generieren, die aber nur als Hinweis dient und nicht zwingend begründet oder korrigiert werden muss. Sind alle Fehler korrigiert oder begründet, ist die autonome Prüfung abgeschlossen. Dies muss bis Ende April erfolgen.
 
+<!--
 ### Format Prüfung
 
 {{<insertImage image="test_format.png" class="edge max-w-90">}}
@@ -69,3 +70,39 @@ Der Betrieb bearbeitet die Prüfergebnisse nun autonom und korrigiert die Daten 
 4. Hier können Sie kommentieren (indem Sie auf das Feld "Sprechblase" klicken) oder die Daten herunterladen (indem Sie auf den Pfeil nach unten klicken). Kommentare werden auf die Gesamtheit der Fehler angewendet, wenn kein Fehler ausgewählt ist, und ansonsten auf die ausgewählten Fehler.
 
 5. Sie können auch auf der Ebene des betreffenden Fehlers einen Kommentar erfassen.
+-->
+### Prüfergebnisse und erhebungsbezogene Kommunikation
+
+{{<insertImage image="01-pruefergebnisse.png" class="edge max-w-90">}}
+
+{{<insertImage image="02-erhebungsbezogene-kommunikation.png" class="edge max-w-90">}}
+
+1. In dieser Rubrik sehen Sie, ob die betreffenden Daten die Formatkontrolltests bestanden haben. Falls ein Fehler aufgetreten ist, können Sie darauf klicken, um die Details des Fehlers anzuzeigen, damit Sie ihn in der XML-Datei korrigieren und erneut importieren können. **ACHTUNG:** Der Import neuer Daten überschreibt die zuvor importierten Daten. Das korrigierte Datenfile muss die gleichen Erhebungsteile enthalten. Die Formatfehler können nicht pro Erhebungsteil durchgeführt und angezeigt werden, sondern nur pro File.
+2. Nachdem die Formatprüfung freigegeben wurde, sehen Sie in dieser Rubrik die Fehler einzelner Fälle, die bearbeitet werden müssen. Sie können auf die gewünschte Kategorie klicken, um sich die Fehler genauer anzusehen.
+3. Hier können Sie die Fehler bei den Kennzahlen bearbeiten, indem Sie auf die gewünschte Kategorie klicken.
+4. Hier sehen Sie die Kommentare, die zuvor gepostet wurden. Sie können Kommentare posten, um Ihre Fehler zu begründen oder um auf frühere Kommentare zu antworten. Sie können auch ein neues Diskussionsthema erstellen, indem Sie auf die Sprechblase in der Mitte oben klicken.
+
+### Prüfung Einzelfälle
+
+{{<insertImage image="03-einzelfallpruefung.png" class="edge max-w-90">}}
+
+1. Mit dem Filterabschnitt können Sie die Abschnitte sortieren, um schneller zu finden, was Sie suchen.
+2. In dieser Rubrik können Sie den Status der einzelnen Abschnitte sehen.
+3. Hier können Sie die Daten herunterladen.
+4. Mit diesem Pfeil kann die Regel aufgeklappt werden, so dass alle einzelnen Fälle angezeigt werden, für welche die Regel fehlgeschlagen ist.
+
+{{<insertImage image="04-einzelfall-details.png" class="edge max-w-90">}}
+
+1. In den quadratischen Feldern können Sie mehrere Regeln oder mehrere Fälle pro Regel auswählen.
+2. In dieser Rubrik sehen Sie eine Beschreibung des Fehlers. Sie können auch mehr Details sehen, indem Sie auf den Fehler in der Rubrik „Fall-Id“ klicken.
+3. In dieser Rubrik sehen Sie, ob der Fehler noch «offen» ist, bereits gelöst ist («OK») oder definitiv als «Fehler» beurteilt wurde vom Kanton.
+4. Hier können Sie kommentieren (indem Sie auf das Feld „Sprechblase“ klicken). Kommentare werden auf die Gesamtheit der Fehler pro Regel angewendet, wenn Sie auf Stufe Regel kommentieren. Sie können auch pro Einzelfall oder für mehrere Einzelfälle innerhalb derselben Regel einen Kommentar erfassen, indem Sie die Fälle selektieren.
+5. Hier können Sie die selektierten Fälle herunterladen.
+
+### Sortierung
+
+{{<insertImage image="05-sortierung.png" class="edge max-w-90">}}
+
+1. Durch Klicken auf die Titel (Prüf-Id, Typ, Beschreibung, Status und Letzter Kommentar) kann die Priorisierung der Sortierung gewählt werden.
+2. Durch mehrmaliges Klicken kann man wechseln zwischen absteigend, aufsteigend oder gar nicht sortieren in dieser Spalte.
+3. Die Zahl neben dem Zeilentitel gibt die Priorisierung der Sortierung an.
