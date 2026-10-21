@@ -1,22 +1,20 @@
 ---
-title: Versionen
-slug: itark_versionen
-description: "Auf dieser Seite finden Sie verschiedene Informationen zu den Versionen des ITAR_K®."
+title: Abschlussprozess für BFS User
+slug: bfsuser
+description: "Auf dieser Seite erklären wir Ihnen, wie Sie als BFS-User den Abschlussprozess auf der SpiGes-Plattform durchführen."
 weight: 80
 type: docs
 keywords: []
 ---
 
-{{<insertImage image="versions_D.png" class="edge max-w-90">}}
+## Prüfprotokoll akzeptieren und den Abschluss finalisieren
 
-{{<markdown>}}
+Um den Abschluss zu finalisieren, muss der BFS User ebenfalls das Prüfprotokoll akzeptieren und anschliessend das Unternehmen abschliessen.
 
-|Version|Beschreibung|Sprache|
-|---------|---------|---------|
-|automatische Version|Automatisch vorausgefüllt mit in SpiGes enthaltenen Daten. In Lila sind die Werte dargestellt, die in SpiGes nicht erfügbar sind.|in 3 Sprachen erhältlich (FR-DE-IT)|
-|provisorische Version|Ergänzt mit den Re-Upload hochgeladenen manuell geänderten und ergänzten Daten (Re-Upload in SpiGes).|in 1 Sprache erhältlich (der Sprache des Re-Uploads)|
-|finale und signierte Version|Letzte provisorische Version, die erst nach dem Abschluss der SpiGes-Erhebung erstellt werden kann. Diese kann nicht mehr geändert werden.|in 1 Sprache erhältlich (der Sprache des Re-Uploads), 2 Dateien|
+### Unternehmen final abschliessen
 
-{{</markdown>}}
+Nachdem das Prüfprotokoll akzeptiert wurde, kann der BFS User den Button **Abschliessen** betätigen. Dadurch wird der Abschlussprozess endgültig beendet und der Status des Unternehmens wechselt auf **OK**.
 
-Für die provisorische und finale Version ist die Sprache massgeblich, in der die automatische ergänzte Version hochgeladen wurde.
+### Finale Version des ITAR_K exportieren
+
+Wenn ein Unternehmen final abgeschlossen ist, kann die finale Version des ITAR_K exportiert werden.
