@@ -11,11 +11,16 @@ Webinaire du 16 mars 2026:
 ITAR_K® mit SpiGes erstellen / Créer ITAR_K® avec SpiGes  
 [Télécharger la présentation](downloads/2026_03_16_ITAR_K.pdf)
 
+Depuis la V.17 (données 2026), H+ a fait des modifications importantes sur le MASTER (document de base) en lien avec les traductions. Il n'existe plus qu'un fichier avec la possibilité de changer de langue directement dans le fichier (onglet MENU). Le nom des onglets restant fixes et étant en allemand, le MENU permet aussi de naviguer à travers les différentes parties (onglets).
+
+**Important:** Depuis la V.17 (données 2026), seules les cellules lila peuvent être complétées ou modifiées. Toutes les autres cellules sont basées sur les données SpiGes.
 
 {{<markdown>}}
 Dernières modifications/corrections dans la version automatique d'ITAR_K®: 
 |Date|Onglet|Modifications|
 |---------|---------|---------|
+|10.2026|Infos supplémentaires|PIG avec plusieurs méthodes de calcul|
+|10.2026|Relevé CUFI Aperçu global|Prise en compte des nouvelles colonnes ambulatoires (TARDOC et forfaits ambulatoires), selon l'arbre décisionnel|
 |23.03.2026|Rémunérations supplémentaires et rémun. suppl. non évaluées|Inversion entre colonnes psychiatrie et réadaptation|
 |23.03.2026|Relevé CUFI Aperçu global|Répartition des CUI (OCP et REKOLE) Administriation des patients avec le KTR_TYP 403|
 |24.03.2026|Relevé CUFI Aperçu global|Coûts d'un même KTR_TYP livrés sur deux niveaux (Site et Entreprise)|
