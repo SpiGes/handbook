@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpiGes KTR-Konverter · Excel → XML</title>
+<!-- Externe Bibliothek wird im Hintergrund geladen (async) und ist optional:
+     Ohne sie (z.B. offline oder CDN gesperrt) nutzt der Konverter automatisch
+     den eingebauten Excel-Leser. Die Seite ist dadurch sofort bedienbar. -->
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+:root{
+  --ink:#14202E; --ink-soft:#4A5768; --paper:#F4F5F7; --card:#FFFFFF;
+  --line:#DDE2E8; --red:#DA291C; --green:#1E7B44; --green-bg:#EAF6EE;
+  --warn:#9A6700; --warn-bg:#FFF7E0; --err:#B42318; --err-bg:#FDEBE9;
+  --mono:"Consolas","Menlo",monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--paper);color:var(--ink);font-size:15px;line-height:1.5}
+.brand{background:var(--ink);color:#fff;padding:14px 28px;display:flex;align-items:center;gap:14px;border-bottom:4px solid var(--red)}
+.brand .cross{width:26px;height:26px;background:var(--red);border-radius:4px;position:relative;flex:none}
+.brand .cross::before,.brand .cross::after{content:"";position:absolute;background:#fff}
+.brand .cross::before{left:11px;top:5px;width:4px;height:16px}
+.brand .cross::after{left:5px;top:11px;width:16px;height:4px}
+.brand h1{font-size:17px;font-weight:600}
+.brand span{font-size:13px;color:#B8C2CE;font-weight:400}
+.langsw{margin-left:auto;flex:none;display:flex;border:1px solid #3E4B5B;border-radius:6px;overflow:hidden}
+.langsw button{font:inherit;font-size:12px;font-weight:700;letter-spacing:.6px;padding:6px 12px;background:transparent;color:#B8C2CE;border:none;border-right:1px solid #3E4B5B;border-radius:0;cursor:pointer}
+.langsw button:last-child{border-right:none}
+.langsw button:hover{color:#fff}
+.langsw button[aria-pressed="true"]{background:var(--red);color:#fff}
+.langsw button:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+main{max-width:1060px;margin:0 auto;padding:28px 20px 60px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:18px}
+#drop{border:2px dashed #B7C0CC;border-radius:10px;padding:44px 20px;text-align:center;cursor:pointer;transition:.15s;background:#FBFCFD}
+#drop.hover{border-color:var(--ink);background:#EEF2F6}
+#drop .big{font-size:17px;font-weight:600;margin-bottom:4px}
+#drop .sub{color:var(--ink-soft);font-size:13px}
+#drop .file{margin-top:10px;font-family:var(--mono);font-size:13px;color:var(--green);font-weight:600}
+.row{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:16px}
+label.opt{font-size:13px;color:var(--ink-soft);display:flex;gap:8px;align-items:center}
+select{font:inherit;font-size:14px;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:#fff}
+.chips{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.chip{background:#F0F3F6;border:1px solid var(--line);border-radius:8px;padding:10px 16px;min-width:130px}
+.chip .n{font-size:22px;font-weight:700}
+.chip .l{font-size:12px;color:var(--ink-soft)}
+.msg{border-radius:8px;padding:10px 14px;margin:6px 0;font-size:14px}
+.msg.err{background:var(--err-bg);color:var(--err);border:1px solid #F2C2BD}
+.msg.warn{background:var(--warn-bg);color:var(--warn);border:1px solid #EAD48F}
+.msg.ok{background:var(--green-bg);color:var(--green);border:1px solid #BFE3CC}
+button{font:inherit;font-weight:600;border:none;border-radius:8px;padding:12px 22px;cursor:pointer}
+#btnDl{background:var(--ink);color:#fff;font-size:15px}
+#btnDl:disabled{background:#C4CBD4;cursor:not-allowed}
+#btnDl:not(:disabled):hover{background:#243447}
+h2{font-size:16px;margin-bottom:12px}
+pre{background:#101820;color:#D7E0EA;border-radius:8px;padding:16px;font-family:var(--mono);font-size:12.5px;overflow:auto;max-height:420px;line-height:1.45}
+pre .tag{color:#7FB4E8}.hidden{display:none}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border:1px solid var(--line);padding:5px 8px;text-align:left;white-space:nowrap}
+th{background:#F0F3F6;position:sticky;top:0}
+.tblwrap{overflow:auto;max-height:300px;border:1px solid var(--line);border-radius:8px}
+.foot{color:var(--ink-soft);font-size:12px;margin-top:24px}
+details{margin-top:8px}summary{cursor:pointer;font-size:13px;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+<header class="brand">
+  <div class="cross"></div>
+  <h1><span data-i18n="brand_title">SpiGes KTR-Konverter</span> <span data-i18n="brand_sub">· Kostenträger Unternehmen &amp; Standort · Excel → XML (Schema 1.5)</span></h1>
+  <div class="langsw" id="langsw" role="group" aria-label="Sprache / Langue / Language">
+    <button type="button" data-lang="de" aria-pressed="true">DE</button><button type="button" data-lang="fr" aria-pressed="false">FR</button><button type="button" data-lang="it" aria-pressed="false">IT</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+<main>
+  <div class="card">
+    <div id="drop">
+      <div class="big" data-i18n="drop_big">Excel-Datei hier ablegen</div>
+      <div class="sub" data-i18n="drop_sub">oder klicken, um eine Datei zu wählen (.xlsx) — die Datei verlässt Ihren Computer nicht</div>
+      <div class="file" id="fname"></div>
+      <input type="file" id="fileInput" style="display:none">
+    </div>
+    <div class="row">
+      <label class="opt"><span data-i18n="lbl_ver">Schema-Version im XML:</span>
+        <select id="ver"></select>
+      </label>
+      <label class="opt"><span data-i18n="lbl_sheet">Arbeitsblatt:</span>
+        <select id="sheetSel" disabled><option>–</option></select>
+      </label>
+    </div>
+  </div>
+
+  <div class="card hidden" id="resCard">
+    <h2 data-i18n="res_title">Prüfergebnis</h2>
+    <div class="chips" id="chips"></div>
+    <div id="msgs"></div>
+    <details id="prevDet"><summary data-i18n="sum_prev">Eingelesene Daten anzeigen</summary><div class="tblwrap" style="margin-top:8px"><table id="prevTbl"></table></div></details>
+  </div>
+
+  <div class="card hidden" id="xmlCard">
+    <h2 data-i18n="xml_title">XML-Datei</h2>
+    <button id="btnDl" data-i18n="btn_dl" disabled>XML herunterladen</button>
+    <span id="dlname" style="margin-left:12px;font-family:var(--mono);font-size:13px;color:var(--ink-soft)"></span>
+    <details style="margin-top:14px"><summary data-i18n="sum_xml">XML-Vorschau anzeigen</summary><pre id="xmlPrev" style="margin-top:8px"></pre></details>
+  </div>
+
+  <p class="foot"><span data-i18n="foot_note">Zeile mit leerer Spalte «burnr» → Ebene Unternehmen · Zeile mit «burnr» → Ebene Standort.
+  Verarbeitung vollständig lokal im Browser, auch ohne Internetverbindung.</span> <span id="regelwerk"></span></p>
+</main>
+
+<script>
+/* =====================================================================
+   EINSTELLUNGEN  –  hier darf angepasst werden (mit Notepad/Texteditor)
+   Nach dem Speichern die Datei im Browser neu laden (F5).
+   ===================================================================== */
+const EINSTELLUNGEN = {
+
+  // Startsprache der Oberfläche: "de", "fr" oder "en".
+  // Die Sprache lässt sich jederzeit oben rechts umschalten; die zuletzt
+  // gewählte Sprache wird pro Arbeitsplatz gemerkt.
+  standard_sprache: "de",
+
+  // Vorausgewählte Schema-Version im Dropdown ("1.6", "1.5.1", "1.5" oder "1.4").
+  // Sobald die SpiGes-Plattform Version 1.6 verlangt, hier "1.6" eintragen.
+  standard_version: "1.5",
+
+  // Wählbare Schema-Versionen im Dropdown (neueste zuerst).
+  // Die Prüfregeln je Version sind weiter unten unter VERSIONSREGELN
+  // hinterlegt. Eine Version ohne eigene Regeln wird mit den Regeln der
+  // neuesten bekannten Version geprüft – bei einer neuen XSD daher den
+  // Konverter anpassen lassen (siehe Anleitung).
+  verfuegbare_versionen: ["1.6", "1.5.1", "1.5", "1.4"],
+
+  // Anfang des Dateinamens der erzeugten XML-Datei.
+  // Die ent_id wird automatisch angehängt, z.B. "SpiGes_KTR_100392723.xml"
+  dateiname_prefix: "SpiGes_KTR_",
+
+  // Name des bevorzugten Arbeitsblatts in der Excel-Datei.
+  // Wird es nicht gefunden, nimmt der Konverter automatisch das erste
+  // Blatt mit den Spalten ent_id und ktr_typ.
+  bevorzugtes_blatt: "KTR",
+
+  // Dateityp-Filter im Auswahlfenster. "" = kein Filter (empfohlen).
+  // Hinweis: Ein gesetzter Filter (z.B. ".xlsx,.xls") kann unter Windows
+  // das Öffnen des Auswahlfensters um mehrere Sekunden verzögern.
+  // Ohne Filter werden alle Dateien angezeigt; keine Excel-Dateien
+  // werden vom Konverter mit einer verständlichen Meldung abgewiesen.
+  dateiauswahl_filter: "",
+
+};
+
+/* =====================================================================
+   AB HIER BITTE NICHTS MEHR ÄNDERN
+   Die Liste der gültigen Variablen stammt direkt aus der SpiGes-XSD.
+   ===================================================================== */
+/* Prüfregeln je Schema-Version (Quelle: spiges_data XSD).
+   Der Kostenträger-Teil (Feldliste, Zahlenformate, Eindeutigkeit) ist in
+   1.4, 1.5, 1.5.1 und 1.6 identisch. Unterschiede gibt es nur bei der Anzahl:
+   - max_standorte: höchstens so viele <Standort>-Blöcke pro Datei
+   - max_ktr:       höchstens so viele Kostenträger pro Ebene
+                    (Unternehmen bzw. je Standort)
+   - xml:           Wert, der im XML als version="…" ausgegeben wird.
+                    1.5.1 ist ein Patch von 1.5 und kennt als Wert nur
+                    "1.4" und "1.5" – im XML steht daher version="1.5".
+   1.5.1 und 1.6: Obergrenze Kostenträger von 200 auf 20000 erhöht
+   (Änderungsliste 1.5.1 → 1.6, Nr. 2 und 4). */
+const VERSIONSREGELN = {
+  "1.6":   { xml: "1.6", max_standorte: 50, max_ktr: 20000, regelwerk: "XSD spiges_data 1.6" },
+  "1.5.1": { xml: "1.5", max_standorte: 50, max_ktr: 20000, regelwerk: "XSD spiges_data 1.5.1" },
+  "1.5":   { xml: "1.5", max_standorte: 50, max_ktr: 200,   regelwerk: "XSD spiges_data 1.5 / Variablenliste SpiGes V1.5" },
+  "1.4":   { xml: "1.4", max_standorte: 50, max_ktr: 200,   regelwerk: "XSD spiges_data 1.4 (Kostenträger-Teil wie 1.5)" }
+};
+// Neueste bekannte Version – dient als Rückfallebene und für den Hinweis
+// «Version x erlaubt mehr».
+const NEUESTE_VERSION = Object.keys(VERSIONSREGELN)
+  .sort((a,b)=>b.localeCompare(a,undefined,{numeric:true}))[0];
+function aktuelleVersion(){
+  const el = document.getElementById('ver');
+  return (el && el.value) || EINSTELLUNGEN.standard_version || NEUESTE_VERSION;
+}
+function regelnFuer(ver){
+  if(VERSIONSREGELN[ver]) return Object.assign({ eigene: true, basis: ver }, VERSIONSREGELN[ver]);
+  return Object.assign({ eigene: false, basis: NEUESTE_VERSION }, VERSIONSREGELN[NEUESTE_VERSION], { xml: ver });
+}
+
+const KTR_ATTRS = ["ktr_typ", "ktr_beschr", "ktr_60", "ktr_61", "ktr_62", "ktr_65", "ktr_66", "ktr_68", "ktr_69", "ktr_697", "ktr_4001", "ktr_4002", "ktr_4012", "ktr_4011", "ktr_40_rest", "ktr_4051", "ktr_4052", "ktr_3801", "ktr_3802", "ktr_3811", "ktr_3812", "ktr_480", "ktr_485", "ktr_486", "ktr_10", "ktr_20", "ktr_21", "ktr_23", "ktr_24", "ktr_25", "ktr_26", "ktr_27", "ktr_28", "ktr_29", "ktr_30", "ktr_31_1_5", "ktr_31_6a1", "ktr_31_6a2", "ktr_31_6b1", "ktr_31_6b2", "ktr_31_6b3", "ktr_31_6b4", "ktr_31_6b5", "ktr_32", "ktr_33", "ktr_34", "ktr_35", "ktr_36", "ktr_38", "ktr_39", "ktr_40", "ktr_41", "ktr_42", "ktr_43", "ktr_44", "ktr_45", "ktr_77", "ktr_nicht_pb", "ktr_10_ank", "ktr_20_ank", "ktr_21_ank", "ktr_23_ank", "ktr_24_ank", "ktr_25_ank", "ktr_26_ank", "ktr_27_ank", "ktr_28_ank", "ktr_29_ank", "ktr_30_ank", "ktr_31_1_5_ank", "ktr_31_6a1_ank", "ktr_31_6a2_ank", "ktr_31_6b1_ank", "ktr_31_6b2_ank", "ktr_31_6b3_ank", "ktr_31_6b4_ank", "ktr_31_6b5_ank", "ktr_32_ank", "ktr_33_ank", "ktr_34_ank", "ktr_35_ank", "ktr_36_ank", "ktr_38_ank", "ktr_39_ank", "ktr_40_ank", "ktr_41_ank", "ktr_42_ank", "ktr_43_ank", "ktr_44_ank", "ktr_45_ank", "ktr_77_ank", "ktr_44_vkl", "ktr_kosten_65", "ktr_le_ambulant", "ktr_methodik", "ktr_44_rekole", "ktr_47", "ktr_47_ank", "ktr_al_vvg"];
+
+/* =====================================================================
+   SPRACHEN – nur die Beschriftungen der Oberfläche.
+   Prüfregeln, XML-Aufbau und Dateiname bleiben in allen Sprachen gleich.
+   Eine weitere Sprache kann hier als zusätzlicher Block ergänzt werden.
+   ===================================================================== */
+const I18N = {
+de:{
+ lang_name:"DE",
+ title:"SpiGes KTR-Konverter · Excel → XML",
+ brand_title:"SpiGes KTR-Konverter",
+ brand_sub:"· Kostenträger Unternehmen & Standort · Excel → XML (Schema {ver})",
+ drop_big:"Excel-Datei hier ablegen",
+ drop_sub:"oder klicken, um eine Datei zu wählen (.xlsx) — die Datei verlässt Ihren Computer nicht",
+ lbl_ver:"Schema-Version im XML:",
+ lbl_sheet:"Arbeitsblatt:",
+ res_title:"Prüfergebnis",
+ xml_title:"XML-Datei",
+ sum_prev:"Eingelesene Daten anzeigen",
+ sum_xml:"XML-Vorschau anzeigen",
+ btn_dl:"XML herunterladen",
+ foot_note:"Zeile mit leerer Spalte «burnr» → Ebene Unternehmen · Zeile mit «burnr» → Ebene Standort. Verarbeitung vollständig lokal im Browser, auch ohne Internetverbindung.",
+ foot_rules:"Eingebautes Regelwerk: ",
+ chip_entid:"Unternehmen (ent_id)",
+ chip_sites:"Standorte",
+ chip_ktr_s:"KTR Standort",
+ chip_ktr_u:"KTR Unternehmen",
+ col_excel_row:"Excel-Zeile",
+ xml_placeholder:"— XML wird erzeugt, sobald alle Fehler behoben sind —",
+ file_read_error:"– Datei konnte nicht gelesen werden. Bitte als .xlsx speichern.",
+ e_no_header:"Im Blatt «{sheet}» wurden die Pflichtspalten «ent_id» und «ktr_typ» nicht gefunden. Bitte die Vorlage verwenden oder das richtige Blatt wählen.",
+ w_unknown_cols:"Unbekannte Spalten werden ignoriert: {cols}",
+ e_no_rows:"Keine Datenzeilen gefunden.",
+ e_entid_missing:"Zeile {row}: ent_id fehlt.",
+ e_entid_invalid:"Zeile {row}: ent_id «{val}» ist keine gültige 1–9-stellige Zahl.",
+ e_entid_mismatch:"Zeile {row}: ent_id {val} weicht von {first} ab – pro Datei ist nur ein Unternehmen erlaubt.",
+ e_burnr:"Zeile {row}: burnr «{val}» muss eine max. 9-stellige Zahl sein.",
+ e_ktr_typ:"Zeile {row}: ktr_typ «{val}» fehlt oder ist ungültig (Zahl 0–999).",
+ w_beschr_cut:"Zeile {row}: ktr_beschr wird auf 256 Zeichen gekürzt.",
+ e_not_number:"Zeile {row}: {col} – «{val}» ist keine Zahl.",
+ e_int_range:"Zeile {row}: {col} muss eine ganze Zahl {lo}–{hi} sein.",
+ e_dup:"Zeile {row}: Kombination ktr_typ {typ} + ktr_beschr «{beschr}» ist {scope} doppelt (siehe Zeile {other}). Bitte ktr_beschr unterscheiden.",
+ scope_u:"auf Ebene Unternehmen",
+ scope_s:"am Standort {burnr}",
+ ok_msg:"Keine Fehler – die XML-Datei kann heruntergeladen werden.",
+ ok_msg_warn:" Bitte die Hinweise prüfen.",
+ e_max_sites:"Die Datei enthält {n} Standorte. Schema-Version {ver} erlaubt höchstens {max}.",
+ e_max_ktr_u:"Auf Ebene Unternehmen sind {n} Kostenträger erfasst. Schema-Version {ver} erlaubt höchstens {max}.",
+ e_max_ktr_s:"Am Standort {burnr} sind {n} Kostenträger erfasst. Schema-Version {ver} erlaubt höchstens {max}.",
+ hint_newer:" In Version {vers} sind bis {max} erlaubt; bitte prüfen, welche Version für diese Lieferung gilt.",
+ xml_as:"im XML: version=\"{v}\"",
+ ver_limit:"bis {max} Kostenträger je Ebene",
+ rules_like:"Regeln wie {ver}"
+},
+fr:{
+ lang_name:"FR",
+ title:"Convertisseur KTR SpiGes · Excel → XML",
+ brand_title:"Convertisseur KTR SpiGes",
+ brand_sub:"· Unités finales d'imputation entreprise & site · Excel → XML (schéma {ver})",
+ drop_big:"Déposer le fichier Excel ici",
+ drop_sub:"ou cliquer pour choisir un fichier (.xlsx) — le fichier ne quitte pas votre ordinateur",
+ lbl_ver:"Version du schéma dans le XML :",
+ lbl_sheet:"Feuille de calcul :",
+ res_title:"Résultat du contrôle",
+ xml_title:"Fichier XML",
+ sum_prev:"Afficher les données lues",
+ sum_xml:"Afficher l'aperçu du XML",
+ btn_dl:"Télécharger le XML",
+ foot_note:"Ligne sans valeur dans « burnr » → niveau entreprise · ligne avec « burnr » → niveau site. Traitement entièrement local dans le navigateur, même sans connexion Internet.",
+ foot_rules:"Jeu de règles intégré : ",
+ chip_entid:"Entreprise (ent_id)",
+ chip_sites:"Sites",
+ chip_ktr_s:"KTR site",
+ chip_ktr_u:"KTR entreprise",
+ col_excel_row:"Ligne Excel",
+ xml_placeholder:"— le XML sera généré dès que toutes les erreurs seront corrigées —",
+ file_read_error:"– le fichier n'a pas pu être lu. Veuillez l'enregistrer au format .xlsx.",
+ e_no_header:"Dans la feuille « {sheet} », les colonnes obligatoires « ent_id » et « ktr_typ » sont introuvables. Veuillez utiliser le modèle ou choisir la bonne feuille.",
+ w_unknown_cols:"Colonnes inconnues ignorées : {cols}",
+ e_no_rows:"Aucune ligne de données trouvée.",
+ e_entid_missing:"Ligne {row} : ent_id est absent.",
+ e_entid_invalid:"Ligne {row} : ent_id « {val} » n'est pas un nombre valable de 1 à 9 chiffres.",
+ e_entid_mismatch:"Ligne {row} : ent_id {val} diffère de {first} – un seul établissement par fichier est autorisé.",
+ e_burnr:"Ligne {row} : burnr « {val} » doit être un nombre de 9 chiffres au maximum.",
+ e_ktr_typ:"Ligne {row} : ktr_typ « {val} » est absent ou non valable (nombre de 0 à 999).",
+ w_beschr_cut:"Ligne {row} : ktr_beschr sera tronqué à 256 caractères.",
+ e_not_number:"Ligne {row} : {col} – « {val} » n'est pas un nombre.",
+ e_int_range:"Ligne {row} : {col} doit être un nombre entier de {lo} à {hi}.",
+ e_dup:"Ligne {row} : la combinaison ktr_typ {typ} + ktr_beschr « {beschr} » est en double {scope} (voir ligne {other}). Veuillez différencier ktr_beschr.",
+ scope_u:"au niveau de l'entreprise",
+ scope_s:"pour le site {burnr}",
+ ok_msg:"Aucune erreur – le fichier XML peut être téléchargé.",
+ ok_msg_warn:" Veuillez vérifier les remarques.",
+ e_max_sites:"Le fichier contient {n} sites. La version {ver} du schéma en autorise au maximum {max}.",
+ e_max_ktr_u:"{n} unités finales d'imputation sont saisies au niveau de l'entreprise. La version {ver} du schéma en autorise au maximum {max}.",
+ e_max_ktr_s:"{n} unités finales d'imputation sont saisies pour le site {burnr}. La version {ver} du schéma en autorise au maximum {max}.",
+ hint_newer:" La version {vers} en autorise jusqu'à {max} ; veuillez vérifier quelle version s'applique à cette livraison.",
+ xml_as:"dans le XML : version=\"{v}\"",
+ ver_limit:"jusqu'à {max} unités finales d'imputation par niveau",
+ rules_like:"règles comme {ver}"
+},
+it:{
+ lang_name:"IT",
+ title:"Convertitore KTR SpiGes · Excel → XML",
+ brand_title:"Convertitore KTR SpiGes",
+ brand_sub:"· Unità finali di imputazione impresa e sede · Excel → XML (schema {ver})",
+ drop_big:"Trascinare qui il file Excel",
+ drop_sub:"oppure fare clic per scegliere un file (.xlsx) — il file non lascia il suo computer",
+ lbl_ver:"Versione dello schema nell'XML:",
+ lbl_sheet:"Foglio di lavoro:",
+ res_title:"Esito del controllo",
+ xml_title:"File XML",
+ sum_prev:"Mostrare i dati letti",
+ sum_xml:"Mostrare l'anteprima dell'XML",
+ btn_dl:"Scaricare l'XML",
+ foot_note:"Riga con la colonna «burnr» vuota → livello impresa · riga con «burnr» → livello sede. L'elaborazione avviene interamente nel browser, anche senza collegamento a Internet.",
+ foot_rules:"Set di regole integrato: ",
+ chip_entid:"Impresa (ent_id)",
+ chip_sites:"Sedi",
+ chip_ktr_s:"KTR sede",
+ chip_ktr_u:"KTR impresa",
+ col_excel_row:"Riga Excel",
+ xml_placeholder:"— l'XML viene generato non appena tutti gli errori sono corretti —",
+ file_read_error:"– non è stato possibile leggere il file. Si prega di salvarlo in formato .xlsx.",
+ e_no_header:"Nel foglio «{sheet}» non sono state trovate le colonne obbligatorie «ent_id» e «ktr_typ». Utilizzare il modello oppure scegliere il foglio corretto.",
+ w_unknown_cols:"Colonne sconosciute ignorate: {cols}",
+ e_no_rows:"Nessuna riga di dati trovata.",
+ e_entid_missing:"Riga {row}: ent_id mancante.",
+ e_entid_invalid:"Riga {row}: ent_id «{val}» non è un numero valido da 1 a 9 cifre.",
+ e_entid_mismatch:"Riga {row}: ent_id {val} diverge da {first} – è ammessa una sola impresa per file.",
+ e_burnr:"Riga {row}: burnr «{val}» deve essere un numero di al massimo 9 cifre.",
+ e_ktr_typ:"Riga {row}: ktr_typ «{val}» è mancante o non valido (numero da 0 a 999).",
+ w_beschr_cut:"Riga {row}: ktr_beschr verrà abbreviato a 256 caratteri.",
+ e_not_number:"Riga {row}: {col} – «{val}» non è un numero.",
+ e_int_range:"Riga {row}: {col} deve essere un numero intero da {lo} a {hi}.",
+ e_dup:"Riga {row}: la combinazione ktr_typ {typ} + ktr_beschr «{beschr}» è doppia {scope} (vedi riga {other}). Si prega di differenziare ktr_beschr.",
+ scope_u:"a livello di impresa",
+ scope_s:"presso la sede {burnr}",
+ ok_msg:"Nessun errore – il file XML può essere scaricato.",
+ ok_msg_warn:" Si prega di verificare le segnalazioni.",
+ e_max_sites:"Il file contiene {n} sedi. La versione {ver} dello schema ne ammette al massimo {max}.",
+ e_max_ktr_u:"A livello di impresa sono registrate {n} unità finali di imputazione. La versione {ver} dello schema ne ammette al massimo {max}.",
+ e_max_ktr_s:"Presso la sede {burnr} sono registrate {n} unità finali di imputazione. La versione {ver} dello schema ne ammette al massimo {max}.",
+ hint_newer:" La versione {vers} ne ammette fino a {max}; verificare quale versione vale per questa fornitura.",
+ xml_as:"nell'XML: version=\"{v}\"",
+ ver_limit:"fino a {max} unità finali di imputazione per livello",
+ rules_like:"regole come {ver}"
+},
+en:{
+ lang_name:"EN",
+ title:"SpiGes KTR Converter · Excel → XML",
+ brand_title:"SpiGes KTR Converter",
+ brand_sub:"· Cost centres enterprise & site · Excel → XML (schema {ver})",
+ drop_big:"Drop the Excel file here",
+ drop_sub:"or click to choose a file (.xlsx) — the file never leaves your computer",
+ lbl_ver:"Schema version in the XML:",
+ lbl_sheet:"Worksheet:",
+ res_title:"Check result",
+ xml_title:"XML file",
+ sum_prev:"Show the data that was read",
+ sum_xml:"Show XML preview",
+ btn_dl:"Download XML",
+ foot_note:"Row with an empty «burnr» column → enterprise level · row with «burnr» → site level. All processing happens locally in the browser, also without an internet connection.",
+ foot_rules:"Built-in rule set: ",
+ chip_entid:"Enterprise (ent_id)",
+ chip_sites:"Sites",
+ chip_ktr_s:"KTR site",
+ chip_ktr_u:"KTR enterprise",
+ col_excel_row:"Excel row",
+ xml_placeholder:"— the XML is generated as soon as all errors are corrected —",
+ file_read_error:"– the file could not be read. Please save it as .xlsx.",
+ e_no_header:"The mandatory columns «ent_id» and «ktr_typ» were not found in sheet «{sheet}». Please use the template or choose the correct sheet.",
+ w_unknown_cols:"Unknown columns are ignored: {cols}",
+ e_no_rows:"No data rows found.",
+ e_entid_missing:"Row {row}: ent_id is missing.",
+ e_entid_invalid:"Row {row}: ent_id «{val}» is not a valid number with 1 to 9 digits.",
+ e_entid_mismatch:"Row {row}: ent_id {val} differs from {first} – only one enterprise per file is allowed.",
+ e_burnr:"Row {row}: burnr «{val}» must be a number with at most 9 digits.",
+ e_ktr_typ:"Row {row}: ktr_typ «{val}» is missing or not valid (number from 0 to 999).",
+ w_beschr_cut:"Row {row}: ktr_beschr will be shortened to 256 characters.",
+ e_not_number:"Row {row}: {col} – «{val}» is not a number.",
+ e_int_range:"Row {row}: {col} must be a whole number from {lo} to {hi}.",
+ e_dup:"Row {row}: the combination ktr_typ {typ} + ktr_beschr «{beschr}» is duplicated {scope} (see row {other}). Please make ktr_beschr distinct.",
+ scope_u:"at enterprise level",
+ scope_s:"for site {burnr}",
+ ok_msg:"No errors – the XML file can be downloaded.",
+ ok_msg_warn:" Please review the notices.",
+ e_max_sites:"The file contains {n} sites. Schema version {ver} allows {max} at most.",
+ e_max_ktr_u:"{n} cost centres are recorded at enterprise level. Schema version {ver} allows {max} at most.",
+ e_max_ktr_s:"{n} cost centres are recorded for site {burnr}. Schema version {ver} allows {max} at most.",
+ hint_newer:" Version {vers} allows up to {max}; please check which version applies to this delivery.",
+ xml_as:"in the XML: version=\"{v}\"",
+ ver_limit:"up to {max} cost centres per level",
+ rules_like:"rules as in {ver}"
+}};
+
+let SPRACHE = (EINSTELLUNGEN.standard_sprache in I18N) ? EINSTELLUNGEN.standard_sprache : "de";
+const ZAHLFORMAT = { de:"de-CH", fr:"fr-CH", it:"it-CH", en:"en-GB" };
+function zahl(n){
+  try{ return Number(n).toLocaleString(ZAHLFORMAT[SPRACHE]||"de-CH"); }catch(e){ return String(n); }
+}
+function t(key, p){
+  let s = (I18N[SPRACHE] && I18N[SPRACHE][key]) || I18N.de[key] || key;
+  if(p) for(const k in p) s = s.split("{"+k+"}").join(p[k]);
+  return s;
+}
+// Kopfzeile «(Schema x)» und Fusszeile «Eingebautes Regelwerk …» auf die
+// gewählte Version setzen. Wird bei Sprach- und Versionswechsel aufgerufen.
+function zeigeVersion(){
+  const ver = aktuelleVersion(), R = regelnFuer(ver);
+  const sub = document.querySelector('[data-i18n="brand_sub"]');
+  if(sub) sub.textContent = t("brand_sub",{ver});
+  const regel = R.eigene ? R.regelwerk : ver+" ("+t("rules_like",{ver:R.basis})+")";
+  document.getElementById("regelwerk").textContent =
+    t("foot_rules") + regel + " · " + t("ver_limit",{max:zahl(R.max_ktr)})
+    + (R.xml!==ver ? " · " + t("xml_as",{v:R.xml}) : "");
+}
+
+function setSprache(code){
+  if(!I18N[code]) return;
+  SPRACHE = code;
+  document.documentElement.lang = code;
+  document.title = t("title");
+  document.querySelectorAll("[data-i18n]").forEach(el=>{ el.textContent = t(el.getAttribute("data-i18n"),{ver:aktuelleVersion()}); });
+  document.querySelectorAll("#langsw button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.lang===code)));
+  zeigeVersion();
+  if(lastFileName) document.getElementById("fname").textContent =
+      lastFileOk ? "✔ "+lastFileName : "✖ "+lastFileName+" "+t("file_read_error");
+  try{ localStorage.setItem("spiges_ktr_sprache", code); }catch(e){}
+  if(workbook) process();      // Meldungen und Tabelle in der neuen Sprache aufbauen
+}
+
+/* ---------------------------------------------------------------------
+   Eingebauter Excel-Leser (Fallback): liest .xlsx ohne externe
+   Bibliothek – der Konverter funktioniert damit auch ohne Internet.
+   --------------------------------------------------------------------- */
+const XlsxLite = (() => {
+  const td = new TextDecoder('utf-8');
+  async function inflateRaw(bytes){
+    const ds = new DecompressionStream('deflate-raw');
+    const buf = await new Response(new Blob([bytes]).stream().pipeThrough(ds)).arrayBuffer();
+    return new Uint8Array(buf);
+  }
+  async function unzip(ab){
+    const u8 = new Uint8Array(ab); const dv = new DataView(ab);
+    let eocd = -1;
+    for(let i = u8.length - 22; i >= Math.max(0, u8.length - 66000); i--){
+      if(dv.getUint32(i, true) === 0x06054b50){ eocd = i; break; }
+    }
+    if(eocd < 0) throw new Error('Keine gültige .xlsx-Datei (ZIP-Ende fehlt).');
+    const count = dv.getUint16(eocd + 10, true);
+    let off = dv.getUint32(eocd + 16, true);
+    const files = {};
+    for(let n = 0; n < count; n++){
+      if(dv.getUint32(off, true) !== 0x02014b50) break;
+      const method = dv.getUint16(off + 10, true);
+      const csize = dv.getUint32(off + 20, true);
+      const nlen = dv.getUint16(off + 28, true);
+      const elen = dv.getUint16(off + 30, true);
+      const clen = dv.getUint16(off + 32, true);
+      const lho = dv.getUint32(off + 42, true);
+      const name = td.decode(u8.subarray(off + 46, off + 46 + nlen));
+      const lnlen = dv.getUint16(lho + 26, true);
+      const lelen = dv.getUint16(lho + 28, true);
+      const start = lho + 30 + lnlen + lelen;
+      files[name] = { method, data: u8.subarray(start, start + csize) };
+      off += 46 + nlen + elen + clen;
+    }
+    const out = {};
+    for(const [name, f] of Object.entries(files)){
+      out[name] = f.method === 0 ? f.data : await inflateRaw(f.data);
+    }
+    return out;
+  }
+  const unesc = s => s.replace(/&#x([0-9a-fA-F]+);/g,(_,h)=>String.fromCodePoint(parseInt(h,16)))
+                     .replace(/&#(\d+);/g,(_,d)=>String.fromCodePoint(+d))
+                     .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')
+                     .replace(/&apos;/g,"'").replace(/&amp;/g,'&');
+  const textOf = xml => { let s=''; for(const m of xml.matchAll(/<(?:\w+:)?t(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?t>/g)) s += unesc(m[1]); return s; };
+  const colIdx = ref => { let c=0; for(const ch of ref){ if(ch>='A'&&ch<='Z') c=c*26+(ch.charCodeAt(0)-64); else break; } return c-1; };
+  async function read(ab){
+    const z = await unzip(ab);
+    const get = p => z[p] ? td.decode(z[p]) : null;
+    const wbXml = get('xl/workbook.xml');
+    if(!wbXml) throw new Error('xl/workbook.xml fehlt – keine gültige .xlsx-Datei.');
+    const relXml = get('xl/_rels/workbook.xml.rels') || '';
+    const rels = {};
+    for(const m of relXml.matchAll(/<Relationship\s[^>]*\/?>/g)){
+      const tag = m[0];
+      const id = (tag.match(/\sId="([^"]+)"/)||[])[1];
+      let target = (tag.match(/\sTarget="([^"]+)"/)||[])[1];
+      if(!id || !target) continue;
+      target = target.replace(/^\//,'');
+      rels[id] = target.startsWith('xl/') ? target : 'xl/' + target.replace(/^\.?\//,'');
+    }
+    const sheets = [];
+    for(const m of wbXml.matchAll(/<(?:\w+:)?sheet\s[^>]*\/?>/g)){
+      const tag = m[0];
+      const name = unesc((tag.match(/\sname="([^"]*)"/)||[])[1] || '');
+      const rid = (tag.match(/\sr:id="([^"]*)"/)||tag.match(/\sid="([^"]*)"/)||[])[1];
+      if(name && rid && rels[rid]) sheets.push({ name, path: rels[rid] });
+    }
+    const shared = [];
+    const ss = get('xl/sharedStrings.xml');
+    if(ss) for(const m of ss.matchAll(/<(?:\w+:)?si(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?si>/g)) shared.push(textOf(m[1]));
+    const Sheets = {}, SheetNames = [];
+    for(const s of sheets){
+      const xml = get(s.path); if(xml === null) continue;
+      const rows = [];
+      for(const rm of xml.matchAll(/<(?:\w+:)?row(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?row>/g)){
+        const row = []; let next = 0;
+        for(const cm of rm[1].matchAll(/<(?:\w+:)?c(\s[^>]*)?(?:\/>|>([\s\S]*?)<\/(?:\w+:)?c>)/g)){
+          const attrs = cm[1] || '', inner = cm[2] || '';
+          const ref = (attrs.match(/\sr="([^"]+)"/)||[])[1];
+          const col = ref ? colIdx(ref) : next; next = col + 1;
+          const type = (attrs.match(/\st="([^"]+)"/)||[])[1] || 'n';
+          const vm = inner.match(/<(?:\w+:)?v(?:\s[^>]*)?>([\s\S]*?)<\/(?:\w+:)?v>/);
+          let val = null;
+          if(type === 's') val = vm ? (shared[+vm[1]] ?? null) : null;
+          else if(type === 'inlineStr') val = textOf(inner);
+          else if(type === 'str') val = vm ? unesc(vm[1]) : null;
+          else if(type === 'b') val = vm ? (+vm[1] ? 1 : 0) : null;
+          else if(type === 'e') val = null;
+          else val = vm ? Number(vm[1]) : null;
+          if(val === '' ) val = null;
+          row[col] = val;
+        }
+        rows.push(row);
+      }
+      // Lücken mit null füllen
+      const width = Math.max(0, ...rows.map(r => r.length));
+      rows.forEach(r => { for(let i=0;i<width;i++) if(r[i]===undefined) r[i]=null; });
+      SheetNames.push(s.name); Sheets[s.name] = { __rows: rows };
+    }
+    return { SheetNames, Sheets };
+  }
+  return { read };
+})();
+
+// Einheitlicher Zugriff: SheetJS (falls geladen) oder eingebauter Leser
+async function readWorkbook(ab){
+  if(typeof XLSX !== 'undefined' && XLSX.read){
+    try{ return XLSX.read(new Uint8Array(ab), { type: 'array' }); }catch(e){ /* Fallback unten */ }
+  }
+  return await XlsxLite.read(ab);
+}
+function sheetRows(ws){
+  if(ws && ws.__rows) return ws.__rows;
+  return XLSX.utils.sheet_to_json(ws, { header: 1, raw: true, defval: null });
+}
+const VALID_COLS = new Set(['ent_id','burnr',...KTR_ATTRS]);
+const ALIAS = {'ktr_316b2':'ktr_31_6b2','ktr_316b2_ank':'ktr_31_6b2_ank'};
+const INT_FIELDS = {'ktr_methodik':[0,9]};
+const HIGH_PRECISION = new Set(['ktr_le_ambulant']);
+
+let workbook=null, lastXml=null, lastName=null;
+let lastFileName=null, lastFileOk=false;
+
+const drop=document.getElementById('drop'), fi=document.getElementById('fileInput');
+if(EINSTELLUNGEN.dateiauswahl_filter)fi.setAttribute('accept',EINSTELLUNGEN.dateiauswahl_filter);
+drop.addEventListener('click',()=>fi.click());
+drop.addEventListener('dragover',e=>{e.preventDefault();drop.classList.add('hover')});
+drop.addEventListener('dragleave',()=>drop.classList.remove('hover'));
+drop.addEventListener('drop',e=>{e.preventDefault();drop.classList.remove('hover');if(e.dataTransfer.files.length)loadFile(e.dataTransfer.files[0])});
+fi.addEventListener('change',()=>{if(fi.files.length)loadFile(fi.files[0])});
+const verSel=document.getElementById('ver');
+verSel.innerHTML='';
+(EINSTELLUNGEN.verfuegbare_versionen||Object.keys(VERSIONSREGELN)).forEach(v=>{
+  const o=document.createElement('option');o.value=v;o.textContent=v;verSel.appendChild(o);
+});
+verSel.value=EINSTELLUNGEN.standard_version||NEUESTE_VERSION;
+if(!verSel.value) verSel.selectedIndex=0;   // Vorgabe nicht in der Liste → erste Version
+verSel.addEventListener('change',()=>{ zeigeVersion(); if(workbook)process(); });
+document.getElementById('sheetSel').addEventListener('change',()=>{if(workbook)process()});
+
+function norm(s){return String(s??'').trim().toLowerCase().replace(/[-\u2013]/g,'_').replace(/\s+/g,'');}
+function mapCol(s){const n=norm(s);return ALIAS[n]||n;}
+
+function loadFile(file){
+  lastFileName=file.name; lastFileOk=true;
+  document.getElementById('fname').textContent='✔ '+file.name;
+  const r=new FileReader();
+  r.onload=async e=>{
+    try{
+      workbook=await readWorkbook(e.target.result);
+    }catch(err){
+      lastFileOk=false;
+      document.getElementById('fname').textContent='✖ '+file.name+' '+t('file_read_error');
+      return;
+    }
+    const sel=document.getElementById('sheetSel');
+    sel.innerHTML='';sel.disabled=false;
+    const skip=new Set(['anleitung','beispiel']);
+    let best=null,preferred=null;
+    workbook.SheetNames.forEach(n=>{
+      const o=document.createElement('option');o.value=n;o.textContent=n;sel.appendChild(o);
+      const ln=n.toLowerCase();
+      if(ln===String(EINSTELLUNGEN.bevorzugtes_blatt).toLowerCase())preferred=n;
+      if(best===null && !skip.has(ln) && !ln.startsWith('codes')){
+        const hdr=findHeader(workbook.Sheets[n]);
+        if(hdr) best=n;
+      }
+    });
+    sel.value=preferred||best||workbook.SheetNames[0];
+    process();
+  };
+  r.readAsArrayBuffer(file);
+}
+
+function findHeader(ws){
+  const rows=sheetRows(ws);
+  for(let i=0;i<Math.min(rows.length,10);i++){
+    const cols=(rows[i]||[]).map(mapCol);
+    if(cols.includes('ent_id')&&cols.includes('ktr_typ'))return{idx:i,cols,rows};
+  }
+  return null;
+}
+
+function parseNum(v){
+  if(typeof v==='number')return isFinite(v)?v:null;
+  let s=String(v).trim().replace(/[\u2019'\u00A0 ]/g,'');
+  if(s==='')return null;
+  if(/^-?\d+,\d+$/.test(s))s=s.replace(',','.');
+  else s=s.replace(/,/g,'');
+  const n=Number(s);
+  return isFinite(n)?n:null;
+}
+function fmtNum(n,maxDec){
+  let s=n.toFixed(maxDec);
+  if(maxDec>0)s=s.replace(/\.?0+$/,'');
+  return s;
+}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+function process(){
+  const sheetName=document.getElementById('sheetSel').value;
+  const ws=workbook.Sheets[sheetName];
+  const errors=[],warnings=[];
+  const resCard=document.getElementById('resCard'),xmlCard=document.getElementById('xmlCard');
+  resCard.classList.remove('hidden');xmlCard.classList.remove('hidden');
+
+  const hdr=findHeader(ws);
+  if(!hdr){
+    render({errors:[t('e_no_header',{sheet:sheetName})],warnings:[],rows:[],cols:[]});
+    return;
+  }
+  const {idx,cols,rows}=hdr;
+  const unknown=[...new Set(cols.filter(c=>c&&!VALID_COLS.has(c)))];
+  if(unknown.length)warnings.push(t('w_unknown_cols',{cols:unknown.join(', ')}));
+
+  const data=[];
+  for(let r=idx+1;r<rows.length;r++){
+    const raw=rows[r]||[];
+    if(raw.every(v=>v===null||String(v).trim()===''))continue;
+    const rec={_row:r+1};
+    cols.forEach((c,j)=>{if(c&&VALID_COLS.has(c)&&raw[j]!==null&&String(raw[j]).trim()!=='')rec[c]=raw[j];});
+    if(Object.keys(rec).length>1)data.push(rec);
+  }
+  if(!data.length){render({errors:[t('e_no_rows')],warnings,rows:[],cols});return;}
+
+  // ent_id
+  let entId=null;
+  data.forEach(rec=>{
+    const v=rec.ent_id;
+    if(v===undefined){errors.push(t('e_entid_missing',{row:rec._row}));return;}
+    const n=parseNum(v);
+    if(n===null||!Number.isInteger(n)||n<1||n>999999999){errors.push(t('e_entid_invalid',{row:rec._row,val:v}));return;}
+    if(entId===null)entId=n;
+    else if(entId!==n)errors.push(t('e_entid_mismatch',{row:rec._row,val:n,first:entId}));
+    rec.ent_id=n;
+  });
+
+  // Zeilen prüfen
+  data.forEach(rec=>{
+    // burnr
+    if(rec.burnr!==undefined){
+      const b=String(rec.burnr).trim().replace(/\.0$/,'');
+      if(b.length>9||!/^\d+$/.test(b)){errors.push(t('e_burnr',{row:rec._row,val:rec.burnr}));delete rec.burnr;}
+      else rec.burnr=b;
+    }
+    // ktr_typ (Prüfung rein nach XSD: ganze Zahl 0–999)
+    const typNum=parseNum(rec.ktr_typ);
+    if(rec.ktr_typ===undefined||typNum===null||!Number.isInteger(typNum)||typNum<0||typNum>999){
+      errors.push(t('e_ktr_typ',{row:rec._row,val:rec.ktr_typ??''}));
+    }else{
+      rec.ktr_typ=typNum;
+    }
+    // ktr_beschr
+    if(rec.ktr_beschr!==undefined){
+      rec.ktr_beschr=String(rec.ktr_beschr).trim();
+      if(rec.ktr_beschr.length>256){warnings.push(t('w_beschr_cut',{row:rec._row}));rec.ktr_beschr=rec.ktr_beschr.slice(0,256);}
+    }
+    // Zahlenfelder
+    KTR_ATTRS.forEach(a=>{
+      if(a==='ktr_typ'||a==='ktr_beschr'||rec[a]===undefined)return;
+      const n=parseNum(rec[a]);
+      if(n===null){errors.push(t('e_not_number',{row:rec._row,col:a,val:rec[a]}));delete rec[a];return;}
+      if(INT_FIELDS[a]){
+        const[lo,hi]=INT_FIELDS[a];
+        if(!Number.isInteger(n)||n<lo||n>hi){errors.push(t('e_int_range',{row:rec._row,col:a,lo:lo,hi:hi}));delete rec[a];return;}
+        rec[a]=String(n);
+      }else{
+        rec[a]=fmtNum(n,HIGH_PRECISION.has(a)?10:2);
+      }
+    });
+  });
+
+  // Gruppierung + Eindeutigkeit (XSD unique: ktr_typ + ktr_beschr je Ebene)
+  const standorte=new Map(),unternehmen=[];
+  data.forEach(rec=>{
+    if(rec.burnr){if(!standorte.has(rec.burnr))standorte.set(rec.burnr,[]);standorte.get(rec.burnr).push(rec);}
+    else unternehmen.push(rec);
+  });
+  const dupCheck=(list,scope)=>{
+    const seen=new Map();
+    list.forEach(rec=>{
+      if(rec.ktr_typ===undefined)return;
+      const k=rec.ktr_typ+'|'+(rec.ktr_beschr??'');
+      if(seen.has(k))errors.push(t('e_dup',{row:rec._row,typ:rec.ktr_typ,beschr:rec.ktr_beschr??'',scope:scope,other:seen.get(k)}));
+      else seen.set(k,rec._row);
+    });
+  };
+  dupCheck(unternehmen,t('scope_u'));
+  standorte.forEach((list,b)=>dupCheck(list,t('scope_s',{burnr:b})));
+
+  // Mengengrenzen der gewählten Schema-Version (XSD maxOccurs)
+  const ver=aktuelleVersion(), R=regelnFuer(ver);
+  const mehrMoeglich=(n,feld)=>{
+    const ok=[...verSel.options].map(o=>o.value)
+      .filter(v=>v!==ver && VERSIONSREGELN[v] && n<=VERSIONSREGELN[v][feld]);
+    if(!ok.length) return '';
+    const max=Math.max(...ok.map(v=>VERSIONSREGELN[v][feld]));
+    return t('hint_newer',{vers:ok.sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})).join(' / '),max:zahl(max)});
+  };
+  if(standorte.size>R.max_standorte)
+    errors.push(t('e_max_sites',{n:standorte.size,ver,max:zahl(R.max_standorte)})+mehrMoeglich(standorte.size,'max_standorte'));
+  if(unternehmen.length>R.max_ktr)
+    errors.push(t('e_max_ktr_u',{n:zahl(unternehmen.length),ver,max:zahl(R.max_ktr)})+mehrMoeglich(unternehmen.length,'max_ktr'));
+  standorte.forEach((list,b)=>{
+    if(list.length>R.max_ktr)
+      errors.push(t('e_max_ktr_s',{burnr:b,n:zahl(list.length),ver,max:zahl(R.max_ktr)})+mehrMoeglich(list.length,'max_ktr'));
+  });
+
+  // XML erzeugen
+  let xml=null;
+  if(!errors.length&&entId!==null){
+    const attrLine=rec=>{
+      let s='';
+      ['ktr_typ','ktr_beschr',...KTR_ATTRS.filter(a=>a!=='ktr_typ'&&a!=='ktr_beschr')].forEach(a=>{
+        if(rec[a]!==undefined)s+=` ${a}="${esc(rec[a])}"`;
+      });
+      return s;
+    };
+    const L=[];
+    L.push('<?xml version="1.0" encoding="UTF-8"?>');
+    L.push(`<Unternehmen xmlns="http://www.bfs.admin.ch/xmlns/gvs/spiges-data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ent_id="${entId}" version="${R.xml}">`);
+    [...standorte.keys()].sort().forEach(b=>{
+      L.push(`\t<Standort burnr="${esc(b)}">`);
+      standorte.get(b).forEach(rec=>L.push(`\t\t<KostentraegerStandort${attrLine(rec)}/>`));
+      L.push('\t</Standort>');
+    });
+    unternehmen.forEach(rec=>L.push(`\t<KostentraegerUnternehmen${attrLine(rec)}/>`));
+    L.push('</Unternehmen>');
+    xml=L.join('\n');
+  }
+
+  lastXml=xml;
+  lastName=(EINSTELLUNGEN.dateiname_prefix||'SpiGes_KTR_')+(entId??'')+'.xml';
+  render({errors,warnings,rows:data,cols,standorte,unternehmen,entId,xml});
+}
+
+function render(st){
+  const chips=document.getElementById('chips');
+  chips.innerHTML='';
+  const chip=(n,l)=>{const d=document.createElement('div');d.className='chip';d.innerHTML=`<div class="n">${n}</div><div class="l">${l}</div>`;chips.appendChild(d);};
+  chip(st.entId??'–',t('chip_entid'));
+  chip(st.standorte?st.standorte.size:0,t('chip_sites'));
+  chip(st.standorte?[...st.standorte.values()].reduce((s,l)=>s+l.length,0):0,t('chip_ktr_s'));
+  chip(st.unternehmen?st.unternehmen.length:0,t('chip_ktr_u'));
+
+  const msgs=document.getElementById('msgs');
+  msgs.innerHTML='';
+  const add=(cls,text)=>{const d=document.createElement('div');d.className='msg '+cls;d.textContent=text;msgs.appendChild(d);};
+  st.errors.forEach(e=>add('err','✖ '+e));
+  st.warnings.forEach(w=>add('warn','⚠ '+w));
+  if(!st.errors.length&&st.xml)add('ok','✔ '+t('ok_msg')+(st.warnings.length?t('ok_msg_warn'):''));
+
+  // Vorschau-Tabelle
+  const tbl=document.getElementById('prevTbl');
+  tbl.innerHTML='';
+  if(st.rows.length){
+    const used=['_row','ent_id','burnr','ktr_typ','ktr_beschr',...KTR_ATTRS.filter(a=>a!=='ktr_typ'&&a!=='ktr_beschr'&&st.rows.some(r=>r[a]!==undefined))];
+    const tr=document.createElement('tr');
+    used.forEach(c=>{const th=document.createElement('th');th.textContent=c==='_row'?t('col_excel_row'):c;tr.appendChild(th);});
+    tbl.appendChild(tr);
+    st.rows.forEach(r=>{
+      const tr=document.createElement('tr');
+      used.forEach(c=>{const td=document.createElement('td');td.textContent=r[c]??'';tr.appendChild(td);});
+      tbl.appendChild(tr);
+    });
+  }
+
+  const btn=document.getElementById('btnDl');
+  btn.disabled=!st.xml;
+  document.getElementById('dlname').textContent=st.xml?lastName:'';
+  const prev=document.getElementById('xmlPrev');
+  prev.textContent=st.xml?st.xml:t('xml_placeholder');
+}
+
+document.querySelectorAll('#langsw button').forEach(b=>{
+  b.addEventListener('click',()=>setSprache(b.dataset.lang));
+});
+(function startSprache(){
+  let gespeichert=null;
+  try{ gespeichert=localStorage.getItem('spiges_ktr_sprache'); }catch(e){}
+  setSprache(I18N[gespeichert] ? gespeichert : SPRACHE);
+})();
+
+document.getElementById('btnDl').addEventListener('click',()=>{
+  if(!lastXml)return;
+  const blob=new Blob([lastXml],{type:'application/xml;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);a.download=lastName;a.click();
+  URL.revokeObjectURL(a.href);
+});
+</script>
+</body>
+</html>

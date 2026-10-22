@@ -7,7 +7,7 @@ type: docs
 keywords: []
 ---
 
-[Den Konverter öffnen](downloads/SpiGes_KTR_Konverter_v0.2.html)
+[Den Konverter öffnen](downloads/SpiGes_KTR_Konverter_v1.2.html)
 
 Man muss nur eine Excel-Datei mit der richtigen Struktur hineinziehen (Drag & Drop), siehe [Beispiel](downloads/Beispiel_KTR_Konverter.xlsx).  
 
