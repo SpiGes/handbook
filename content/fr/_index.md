@@ -38,7 +38,7 @@ Modifications:
 
 [Fichier XML d'exemple 1.6 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-03.xml)
 
-Version 1.5:
+**Version 1.5:**
 
 Les spécifications du format XML peuvent être téléchargées ci-dessous et comprennent une description du format, un fichier XSD (définition technique du fichier XML) et un exemple de fichier pour les données et les identifiants:
 

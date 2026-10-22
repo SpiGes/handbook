@@ -38,7 +38,7 @@ Wählen Sie links eines der Themengebiete. Bitte beachten Sie, dass das Handbuch
 
 [XML-Musterdatei 1.6 - Identifiers File](https://github.com/SpiGes/interface-xml/releases/latest/download/do-d-14.04-SPIGES-2026-03.xml)
 
-Version 1.5:
+**Version 1.5:**
 
 Die Dokumentation des XML-Formats kann hier heruntergeladen werden und umfasst eine Beschreibung des Formats, je ein XSD- (technische Definition des XML-Files) und je ein Beispiel-File für Daten und Identifikatoren:  
 
