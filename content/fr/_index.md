@@ -25,7 +25,7 @@ Modifications:
 |Points|Description|
 |---------|---------|
 |a.|Les valeurs valides pour la variable d'en-tête version ont été adaptées. Les valeurs « 1.4 », « 1.5 » et « 1.6 » sont valides.|
-|b.|« vorh_fehlgeburten »: valeur maximale est passée de 20 à 30.|
+|b.|« vorh_fehlgeburten »: la valeur maximale est passée de 20 à 30.|
 
 
 {{</markdown>}}

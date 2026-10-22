@@ -22,7 +22,7 @@ Modifiche:
 
 {{<markdown>}}
 
-|Punkte|Beschreibung|
+|Punti|Descrizione|
 |---------|---------|
 |a.|I valori validi per la variabile di intestazione versione sono stati modificati. I valori « 1.4 », « 1.5 » e « 1.6 » sono validi.|
 |b.|« vorh_fehlgeburten »: il valore massimo è passato da 20 a 30.|
