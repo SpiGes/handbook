@@ -13,7 +13,7 @@ ITAR_K® mit SpiGes erstellen / Créer ITAR_K® avec SpiGes
 
 A partire dalla V.17 (dati 2026), H+ ha apportato modifiche sostanziali al MASTER (documento di riferimento) in relazione alle traduzioni. Ora è disponibile un unico file in cui è possibile modificare direttamente la lingua (scheda MENU). Poiché i nomi delle schede sono fissi e in tedesco, il MENU consente anche di navigare tra le diverse sezioni (schede).
 
-**Importante:** A partire dalla V.17 (dati 2026), è possibile compilare o modificare solo le celle di colore lilla. Tutte le altre celle si basano sui dati SpiGes.
+**Importante:** A partire dalla V.17 (dati 2026), è possibile compilare o modificare solo le celle lilla. Tutte le altre celle si basano sui dati SpiGes.
 
 {{<markdown>}}
 Ultime modifiche/correzioni nella versione automatica di ITAR_K®: 
