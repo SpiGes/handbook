@@ -11,11 +11,16 @@ Webinar vom 16. März 2026:
 ITAR_K® mit SpiGes erstellen / Créer ITAR_K® avec SpiGes  
 [Die Präsentation herunterladen](downloads/2026_03_16_ITAR_K.pdf)
 
+Seit V.17 (Daten 2026) hat H+ im Zusammenhang mit den Übersetzungen wesentliche Änderungen am MASTER (Grundlagendokument) vorgenommen. Es gibt nun nur noch eine Datei, in der die Sprache direkt in der Datei geändert werden kann (Registerkarte MENU). Da die Namen der Registerkarten feststehen und auf Deutsch sind, ermöglicht das MENU auch die Navigation durch die verschiedenen Teile (Registerkarten).
+
+**Wichtig:** Seit V.17 (Daten 2026) können nur noch die lila Zellen ausgefüllt oder geändert werden. Alle anderen Zellen basieren auf den SpiGes-Daten.
 
 {{<markdown>}}
 Letzte Änderungen/Korrekturen in der automatischen Version von ITAR_K®: 
 |Datum|Registerkarte|Änderungen|
 |---------|---------|---------|
+|10.2026|Zusatzinfos|GWL mit mehreren Berechnungsmethoden|
+|10.2026|KTR-Ausweis Gesamtansicht|Erfassung der neuen ambulanten Spalten (TARDOC und ambulante Pauschalen) gemäss dem Entscheidungsbaum|
 |23.03.2026|Zusatzentgelt und unbewertetes Zusaztentgelt|Vertauschung der Spalten Psychiatrie und Rehabilitation|
 |23.03.2026|KTR-Ausweis Gesamtansicht|Aufteilung der ANK (VKL und REKOLE) Patientenadministration mit dem KTR_TYP 403|
 |24.03.2026|KTR-Ausweis Gesamtansicht|Kosten desselben KTR_TYP, die auf zwei Ebenen (Standort und Unternehmen) ausgewiesen werden|
