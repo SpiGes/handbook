@@ -22,17 +22,17 @@ Deux rôles métier interviennent dans la clôture cantonale. L'ordre dans leque
 
 L'utilisateur administratif cantonal disposant du rôle métier `KT_Admin_Abschlussuser` ouvre, dans la vue de clôture, le menu d'actions de l'hôpital souhaité. En cliquant sur **Questions de benchmarking**, les questions relatives à cet hôpital s'affichent. Cette étape doit être effectuée séparément pour tous les hôpitaux de l'entreprise.
 
-{{<insertImage image="kanton-01.png" class="edge max-w-90">}}
+{{<insertImage image="canton-01.png" class="edge max-w-90">}}
 
 ### Répondre aux questions de benchmarking et les enregistrer
 
 Pour chaque hôpital, il convient de répondre aux questions relatives aux soins somatiques aigus, à la psychiatrie et à la réadaptation. Il est possible, si on le souhaite, d'ajouter un commentaire à chaque réponse.
 
-{{<insertImage image="kanton-02.png" class="edge max-w-90">}}
+{{<insertImage image="canton-02.png" class="edge max-w-90">}}
 
 Une fois que vous avez répondu aux questions concernant les soins somatiques aigus, la psychiatrie et la réadaptation, cliquez sur **Enregistrer**.
 
-{{<insertImage image="kanton-03.png" class="edge max-w-90">}}
+{{<insertImage image="canton-03.png" class="edge max-w-90">}}
 
 Le relevé ne pourra être clôturé que lorsque les questions de benchmarking auront été entièrement répondues et enregistrées pour tous les hôpitaux concernés.
 
@@ -40,13 +40,13 @@ Le relevé ne pourra être clôturé que lorsque les questions de benchmarking a
 
 Une fois les questions de benchmarking remplies, l'utilisateur administratif cantonal peut accepter le rapport d'inspection. L'utilisateur statistique cantonal doit également accepter le rapport d'inspection. Confirmez la boîte de dialogue en cliquant sur **Oui**. À partir de ce moment, tout commentaire existant concernant le rapport d'inspection ne pourra plus être modifié.
 
-{{<insertImage image="kanton-04.png" class="edge max-w-90">}}
+{{<insertImage image="canton-04.png" class="edge max-w-90">}}
 
 ### Clôturer l'entreprise
 
 Une fois le rapport d'inspection accepté par les deux parties, l'utilisateur cantonal chargé de l'administration et celui chargé des statistiques cliquent tous deux sur **Clôturer**. Confirmez la boîte de dialogue de clôture en cliquant sur **Oui**.
 
-{{<insertImage image="kanton-05.png" class="edge max-w-90">}}
+{{<insertImage image="canton-05.png" class="edge max-w-90">}}
 
 ### Clôture au niveau cantonal terminée
 
