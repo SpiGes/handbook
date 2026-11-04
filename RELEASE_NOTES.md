@@ -1,14 +1,12 @@
-# Release Notes - SpiGes Documentation Version [0.39.0]
+# Release Notes - SpiGes Documentation Version [0.40.0]
 
-## Release Date: 2026.11.03
+## Release Date: 2026.11.04
 
 ### New
 
 #### Documentation
 
-- [#372](https://github.com/SpiGes/handbook/issues/372) - Update Converter XML
-- [#371](https://github.com/SpiGes/handbook/issues/371) - Update ITAR_K
-- [#369](https://github.com/SpiGes/handbook/issues/369) - Add page with technical documentation
+- [#377](https://github.com/SpiGes/handbook/issues/377) - Update tests
 
 ## Contributors
 
