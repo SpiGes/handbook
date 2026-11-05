@@ -2,6 +2,14 @@
 
 All notable changes to the SpiGes documentation will be documented in this file.
 
+## [0.41.0] - 2026.11.05
+
+### New
+
+#### Documentation
+
+- [#379](https://github.com/SpiGes/handbook/issues/379) - update_img_itarkprozess
+
 ## [0.40.0] - 2026.11.04
 
 ### New
